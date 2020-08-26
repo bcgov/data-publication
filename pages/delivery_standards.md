@@ -76,7 +76,7 @@ In most cases, Vendors delivering data to the BCGW Delivery environment will alr
 1. **GTS** (GIS Terminal Server) – Access to ArcGIS, FME, and Oracle SQL Developer; access to BCGW Delivery (Read and Write), Test (Read only), and Production (Read only); access is also possible to DBC Delivery, Test, and Production (application instance for non-data system components).
 1. **BCGW** – An Oracle account is required in order to log in to BCGW Delivery, Test, or Production. Access can be request via the [NRS Service Desk](https://nrsservicedesk.gov.bc.ca).
 1. **Modelling Repository** - Access to start modelling into DataBC's Repository to complete Logical and Physical data models. Access can be request via the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
-1. **Gogs Repository** – Each delivery requires that a Gogs repository to be in place. The vendor’s IDIR account is granted read / write permission on the directory. The Gogs repo is where the completed Delivery Kit is pulled for use by the DataBC Delivery Specialist to deploy in Test and Production.
+1. **Gogs Repository** – Each delivery requires that a Gogs repository to be in place. The vendor’s IDIR account is granted read / write permission on the directory. The Gogs repository is where the completed Delivery Kit is pulled for use by the DataBC Delivery Specialist to deploy in Test and Production.
 1. **Schema Owner** – In order to deploy objects in Delivery, the Vendor must know the Schema Owner user name and password for the Delivery environment. Should the credentials be unknown, please contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) Team to gain access to them in the delivery environment
 
 ** Note:** If accounts are not in place, contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) Team to make arrangements. Account creation can take two **(2)** work weeks.
@@ -344,12 +344,12 @@ WHSE_WILDLIFE_MANAGEMENT |  SRM_WHSE_WILD_MGMT_BASE_PUB<br />SRM_WHSE_WILD_MGMT_
 
 ## REFERENCES
 
-+ [_Workflow for Creating and Deleting BBGW Database Objects_](tips_and_tricks.md#workflow-for-creating-and-deleting-bcgw-database-objects)
++ [_Workflow for Creating and Deleting BCGW Database Objects_](tips_and_tricks.md#workflow-for-creating-and-deleting-bcgw-database-objects)
 + [_Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/xyz_WHSE.N.N.N.readme)
 + [_GSR (Sites Registry)-specific Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/GSR_WHSE.N.N.N.readme)
 + [_SDO extent metadata calculation template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/WHSE_SCHEMA_NAME/scripts/xyz_whse_compute_mdsys_extents.sql)
 
-Refer to [_Connecting to Gogs_](pages/tips_and_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
+Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
 
 [RETURN TO TOP][1]
 

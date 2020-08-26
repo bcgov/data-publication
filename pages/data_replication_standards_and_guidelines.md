@@ -47,7 +47,7 @@ A step-by-step guide to using the DataBC FME Framework is available in the compa
 
 A sample FMW can be downloaded from [_Gogs_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw).  
 
-+ Refer to [_Connecting to Gogs_](pages/tips_and_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
++ Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
 
 ### FMW File Naming
 The file naming convention consists of a series of components:
