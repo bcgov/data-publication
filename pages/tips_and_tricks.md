@@ -296,6 +296,7 @@ A template for the README file is available [here]() for Geographic Sites Regist
 Before submitting a delivery kit to the DataBC program, make sure that you have tested it in the BCGW delivery environment.
 
 [RETURN TO TOP][1] 
+
 ---------------------------
 
 ## CONNECTING TO GOGS
