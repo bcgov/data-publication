@@ -65,7 +65,7 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. Copy the repo URL to your clipboard:
 	1. Click on the **Code** button 
 	1. Then click the clipboard image  as this copies the URL listed beside
-	![](images/image_clone.png)
+	1. ![](images/image_clone.png)
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. OPen a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
@@ -79,32 +79,29 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 
 ### Make changes to pages or add new pages
 
-1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov\data-standards repository. To do this, issue the following to commands:
+1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-standards repository. To do this, issue the following to commands:
 	1. `git fetch upstream`
     1. `git merge upstream/master`
 
-![](images/image_git_fetch_upstream_2.png)
+1. Using a text editor make changes to the markdown (.md) files, add new markdown files, etc. 
+1. Any images should be stored in the images subdirectory.
 
-This will bring your local copy up to date.  You should always do this when coming back to editing files after taking a break. 
+### Upload your changes to your copy of the repository on GitHub
 
-2. Using a text editor make changes to the markdown (.md) files, add new markdown files, etc. Any images should be stored in the images subdirectory.
-
-### Upload your changes to your copy of the repository on github
-
-Your changes, additions, etc. on your local filesystem copy now have to be transfered up to your copy on github. Do this by executing the following commands:
+Your changes, additions, etc. on your local filesystem copy now have to be transfered up to your copy on GitHub. Do this by executing the following commands:
 
 1. `git add -A`
-2. `git commit -m "some description of the change(s) you've made"`
-3. `git push`
+1. `git commit -m "some description of the change(s) you've made"`
+1. `git push`
  
-### Issue a "Pull Request" to request that your changes be incorporated into the bcgov/data-standards repository
+### Issue a "Pull Request" to be reviewed and incorporated into the master repository
 
 1. Return to your browser, pointing to your repository on github, and refresh.  You will see an image similar to the following:
 ![](images/image_pullrequest.png)
-2. Notice that there is a message saying that your copy is more recent than the main (bcgov) version.  Press the "pull request" button (highlighted).
-3. You will now see a screen similar to the following:
+1. Notice that there is a message saying that your copy is more recent than the main (bcgov) version.  Press the "pull request" button (highlighted).
+1. You will now see a screen similar to the following:
 ![](images/image_create_pull_request.png)
-4. Enter a description and press the "Create pull request" button. DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
+1. Enter a description and press the "Create pull request" button. DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
 
 [RETURN TO TOP][1] 
