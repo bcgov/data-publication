@@ -27,9 +27,9 @@ _need from Meg_
 
 ---------------------------------------------------------------------
 
-## AGO - PUBLISHING WORKFLOW
+## BC's MAPHUB (ArcGIS ONLINE) - PUBLISHING WORKFLOW
 
-Below are the steps to follow when publishing an AGO application:
+Below are the steps to follow when publishing an ArcGIS Online (AGO) application:
 
 1. AGO user has a web mapping project destined for the public domain.
    1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes a requirement for a [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
