@@ -63,19 +63,18 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 ### Copy your repository down to your file system
 
 1. Copy the repo URL to your clipboard:
-	1. Click on the **Code** button 
-	1. Then click the clipboard image  as this copies the URL listed beside
-	1. ![](images/image_clone.png)
+	1. Click the **Code** button ![](images/image_code.png)
+	1. Click the **clipboard** image ![](images/image_copy_url.png) as this copies the URL listed beside it
 1. On your workstation, create a new directory to store and modify the repository files. 
-1. OPen a DOS/PowerShell to that directory.
+1. Open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
 	1.`git clone <Paste the URL from your clipboard>`.
-1. Enter the following commands to move to and update content from the master repo:
+1. Enter the following commands to move to and sync content from the master repo:
    1. `cd data-standards`
    1. `git remote add --track master upstream git://github.com/bcgov/data-standards.git`
    1. `git fetch upstream`
    1. `git merge upstream/master`
-1. The response from the last command will probably be "Already up to date"
+		1. If both are in sync the follow message will display "Already up to date"
 
 ### Make changes to pages or add new pages
 
@@ -96,12 +95,16 @@ Your changes, additions, etc. on your local filesystem copy now have to be trans
  
 ### Issue a "Pull Request" to be reviewed and incorporated into the master repository
 
-1. Return to your browser, pointing to your repository on github, and refresh.  You will see an image similar to the following:
-![](images/image_pullrequest.png)
-1. Notice that there is a message saying that your copy is more recent than the main (bcgov) version.  Press the "pull request" button (highlighted).
-1. You will now see a screen similar to the following:
-![](images/image_create_pull_request.png)
-1. Enter a description and press the "Create pull request" button. DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
+1. Open or refresh your repository in a browser.
+	1. There will be a note saying your _This branch is X commits ahead of bcgov:master_.
+1. Click the **Pull request** button beside this. ![](images/image_pullrequest.PNG)
+	1. This page will show the change comparison.
+1. Click the **Create pull request** button. ![](images/image_create_pull_request.PNG)
+1. Enter a Title
+1. Enter a description
+1. Click the **Create pull request** button. ![](images/image_create_pull_request2.PNG)
+
+DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
 
 [RETURN TO TOP][1] 
