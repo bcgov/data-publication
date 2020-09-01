@@ -74,7 +74,7 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
    1. `git remote add --track master upstream git://github.com/bcgov/data-standards.git`
    1. `git fetch upstream`
    1. `git merge upstream/master`
-		1. If both are in sync the follow message will display "Already up to date"
+		1. If both are in sync the follow message will display "Already up to date".
 
 ### Make changes to pages or add new pages
 
@@ -93,16 +93,16 @@ Your changes, additions, etc. on your local filesystem copy now have to be trans
 1. `git commit -m "some description of the change(s) you've made"`
 1. `git push`
  
-### Issue a "Pull Request" to be reviewed and incorporated into the master repository
+### Issue a Pull Request to be reviewed and incorporated into the master repository
 
 1. Open or refresh your repository in a browser.
 	1. There will be a note saying your _This branch is X commits ahead of bcgov:master_.
-1. Click the **Pull request** button beside this. ![](images/image_pullrequest.PNG)
+1. Click the **Pull request** button beside this. ![](images/image_pullrequest.png)
 	1. This page will show the change comparison.
-1. Click the **Create pull request** button. ![](images/image_create_pull_request.PNG)
-1. Enter a Title
-1. Enter a description
-1. Click the **Create pull request** button. ![](images/image_create_pull_request2.PNG)
+1. Click the **Create pull request** button. ![](images/image_create_pull_request.png)
+1. Enter a Title that is brief to describe the changes.
+1. Enter a Description of the changes made.
+1. Click the **Create pull request** button. ![](images/image_create_pull_request2.png)
 
 DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
