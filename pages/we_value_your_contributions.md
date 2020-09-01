@@ -59,7 +59,7 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. Log into github.com and navigate to [https://github.com/data-standards](https://github.com/bcgov/data-standards)
 1. Click the ![Fork](images/image_fork.png) button in the upper right.
 	1. A pop-up may appears with the question **Where should we fork data-standards**, click on your userid.
-1. A copy of the data-standards will now be in your repo, e.g., _<userid>/data-standards_
+1. A copy of the data-standards will now be in your repo, e.g., _userid/data-standards_
 
 ### Copy repository down to a file system
 
@@ -71,18 +71,22 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. Enter the command to create a `data-standards` subdirectory:
 	1.`git clone <paste the URL from your clipboard>`.
 1. Enter the following commands to move to and sync content from the master repo:
-   1. `cd data-standards`
-   1. `git remote add --track master upstream git://github.com/bcgov/data-standards.git`
-   1. `git fetch upstream`
-   1. `git merge upstream/master`
+   ```
+   cd data-standards
+   git remote add --track master upstream git://github.com/bcgov/data-standards.git
+   git fetch upstream
+   git merge upstream/master
+   ```
 		1. If both are in sync the follow message will display "Already up to date".
 
 ### Make changes to pages or add new pages
 
 1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-standards repository. To do this, issue the following to commands:
-	1. `git fetch upstream`
-    1. `git merge upstream/master`
-
+	```
+	git fetch upstream
+    git merge upstream/master
+	```
+	
 1. Using a text editor make changes to the markdown (.md) files, add new markdown files, etc. 
 1. Any images should be stored in the images subdirectory.
 
@@ -90,9 +94,11 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 
 Your changes, additions, etc. on your local filesystem copy now have to be transfered up to your copy on GitHub. Do this by executing the following commands:
 
-1. `git add -A`
-1. `git commit -m "some description of the change(s) you've made"`
-1. `git push`
+```
+git add -A
+git commit -m "some description of the change(s) you've made"
+git push
+```
  
 ### Issue a Pull Request to be reviewed and incorporated into the master repository
 
