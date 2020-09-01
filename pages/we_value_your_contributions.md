@@ -59,16 +59,13 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 ![click fork](images/image_fork.png)
 	1. A pop-up may appears with the question **Where should we fork data-standards**, click on your userid.
 1. A copy of the data-standards will now be in your repo, e.g., _<userid>/data-standards_
-1. To clone this down to a personal file share:
-	1. Click on the **Code** button
-	1. Then click the clipboard image  as this copies the URL listed beside
-	![](images/image_clone.png)
 
 ### Copy your repository down to your file system
 
 1. Copy the repo URL to your clipboard:
-	1. Click on the **Code** button ![](images/image_clone.png)
+	1. Click on the **Code** button 
 	1. Then click the clipboard image  as this copies the URL listed beside
+	![](images/image_clone.png)
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. OPen a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
