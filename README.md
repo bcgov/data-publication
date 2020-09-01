@@ -18,7 +18,6 @@ This document provides a set of standards, guidelines, and procedures around loa
 + [**ADDITIONAL REFERENCES**](#ADDITIONAL-REFERENCES)
 + [**RELATED STANDARDS AND RESOURCES**](#RELATED-STANDARDS-AND-RESOURCES)
 + [**HOW TO USE THIS SITE**](#HOW-TO-USE-THIS-SITE)
-+ [**WE VALUE YOUR CONTRIBUTIONS**](pages/we_value_your_contributions.md#we-value-your-contributions)
 -----------------------
 
 # Audience
