@@ -31,10 +31,12 @@ This page describes two mechanisms for providing input on the guides published a
 
 ## REPORTING ISSUES WITH THE DOCUMENTATION
 
-If you would like to point out an error or make a comment on the content, this can most easily be done by "creating an issue", as illustrated in the following diagram
-![opening an issue](images/image_new_issue.png)
-
-In the issue comments please give the URL of the page that you are referring to.
+If you would like to point out an error or make a comment on the content, this can most easily be done by creating an issue:
+1. Click the **Issues** tab. ![](images/image_issues.png)
+1. Click the **New issue** button. ![](images/image_new_issue.png)
+1. Enter a Title that is brief to describe the issue.
+1. Enter a Description of the issue and what URL it is on.
+1. Click the **Submit new issue** button. ![](images/image_submit_new_issue.png)
 
 [RETURN TO TOP][1] 
 
@@ -68,7 +70,7 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
-	1.`git clone <Paste the URL from your clipboard>`.
+	1.`git clone <paste the URL from your clipboard>`.
 1. Enter the following commands to move to and sync content from the master repo:
    1. `cd data-standards`
    1. `git remote add --track master upstream git://github.com/bcgov/data-standards.git`
