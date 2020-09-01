@@ -24,7 +24,8 @@ This page is any person wishing to provide feedback on, or contributions to, [Pu
 
 This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../publishing-data-to-databc.md#publishing-data-to-databc.md):
 + reporting errors in the documentation, and
-+ suggesting additions to existing pages or the addition of new pages.
++ suggesting additions to existing pages or 
++ the addition of new pages.
 
 ---------------------------------------------------------------------
 
