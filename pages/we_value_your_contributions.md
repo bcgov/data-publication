@@ -54,28 +54,27 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 
 ### Make a copy of the bcgov/data-standards repository
 
-1. Log into github.com and navigate to [https://github.com/data-standards](https://github.com/bcgov/data-standards)
-2. Click the Fork button
+#. Log into github.com and navigate to [https://github.com/data-standards](https://github.com/bcgov/data-standards)
+#. Click the **Fork** button in the upper right.
 ![click fork](images/image_fork.png)
-3. In the pop-up that appears with the question "Where should we fork data-standards", your userid should be shown. Click it.
-![where](images/image_fork_to.png)
-4. You will be transferred to your own github repository and will see something like this:
-![](images/image_push_code.png)
-5. Press the green code button and the copy button (highlighted) to copy the URL to your clipboard.
-![](images/image_clone.png)
+	#. A pop-up may appears with the question **Where should we fork data-standards**, click on your userid.
+#. A copy of the repository will now be in your own account, e.g., _<userid>/data-standards_
+#. To clone this down to a personal file share:
+	#. Click on the **Code** button ![click fork](images/image_clone.png)
+	#. Then the clipboard image button as this copies the URL listed beside
 
 ### Copy your repository down to your file system
 
-1. On your workstation, create a new directory to store the repository files in.  This is the directory where you will modify pages and add new ones.
-2. In a DOS shell, cd into that directory.
-3. Enter the command `git clone <URL copied in step 5 of the last section>`.
-4. This will create a "data-standards" subdirectory.
-5. cd into data-standards.
-6. Enter the following commands:
-   1. `git remote add --track master upstream git://github.com/bcgov/data-standards.git`
-   2. `git fetch upstream`
-   3. `git merge upstream/master`
-7. The response from the last command will probably be "Already up to date"
+#. On your workstation, create a new directory to store the repository files in.  This is the directory where you will modify pages and add new ones.
+#. In a DOS shell, cd into that directory.
+#. Enter the command `git clone <URL copied in step 5 of the last section>`.
+#. This will create a "data-standards" subdirectory.
+#. cd into data-standards.
+#. Enter the following commands:
+   #. `git remote add --track master upstream git://github.com/bcgov/data-standards.git`
+   #. `git fetch upstream`
+   #. `git merge upstream/master`
+#. The response from the last command will probably be "Already up to date"
 
 ### Make changes to pages or add new pages
 
