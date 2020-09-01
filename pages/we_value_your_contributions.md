@@ -65,8 +65,8 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 ### Copy repository down to a file system
 
 1. Copy the repo URL to your clipboard:
-	1. Click the **Code** button ![](images/image_code.png)
-	1. Click the **clipboard** image ![](images/image_copy_url.png) as this copies the URL listed beside it
+	1. Click the ![Code](images/image_code.png) button.
+	1. Click the ![clipboard](images/image_copy_url.png) image  as this copies the URL listed beside it
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
