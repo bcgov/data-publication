@@ -6,13 +6,13 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 ## Table of Contents
 + [**REPORTING ISSUES WITH THE DOCUMENTATION**](#REPORTING-ISSUES-WITH-THE-DOCUMENTATION)
 + [**CHANGING PAGES OR ADDING NEW ONES**](#CHANGING-PAGES-OR-ADDING-NEW-ONES)
-	+ [Get access to Github](#Get-access-to-Github)
-	+ [Download a git client](#Download-a-git-client)
-	+ [Make a copy of the bcgov/data-standards repository](#Make-a-copy-of-the-bcgovdata-standards-repository)
-	+ [Copy your repository down to your file system](#Copy-your-repository-down-to-your-file-system)
+	+ [Get access to GitHub](#Get-access-to-GitHub)
+	+ [Download a Git Client](#Download-a-Git-Client)
+	+ [Clone the master bcgov/data-standards repository](#Make-a-copy-of-the-bcgovdata-standards-repository)
+	+ [Copy repository down to a file system](#Copy-repository-down-to-a-file-system)
 	+ [Make changes to pages or add new pages](#Make-changes-to-pages-or-add-new-pages)
-	+ [Upload your changes to your copy of the repository on github](#Upload-your-changes-to-your-copy-of-the-repository-on-github)
-	+ [Issue a "Pull Request" to request that your changes be incorporated into the bcgov/data-standards repository](#Issue-a-Pull-Request-to-request-that-your-changes-be-incorporated-into-the-bcgovdata-standards-repository)
+	+ [Upload changes to your GitHub repository](#Upload-changes-to-your-GitHub-repository)
+	+ [Issue a Pull Request to be reviewed and incorporated into the master repository](#Issue-a-Pull-Request-to-be-reviewed-and-incorporated-into-the-master-repository)
 -----------------------
 
 # Audience
@@ -44,15 +44,15 @@ In the issue comments please give the URL of the page that you are referring to.
 
 You can add new pages or replace existing ones by going through the process outlined in the following sections.  
 
-### Get access to Github
+### Get access to GitHub
 
 You will need a user id for https://github.com.  You can get one by going to that website and clicking on the "Sign up for GitHub" button.
 
-### Download a git client
+### Download a Git Client
 
 Download a git client from https://git-scm.com/download. You will use the "git" command to do most of your work
 
-### Make a copy of the bcgov/data-standards repository
+### Copy the master bcgov/data-standards repository
 
 1. Log into github.com and navigate to [https://github.com/data-standards](https://github.com/bcgov/data-standards)
 1. Click the **Fork** button in the upper right.
@@ -60,11 +60,11 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 	1. A pop-up may appears with the question **Where should we fork data-standards**, click on your userid.
 1. A copy of the data-standards will now be in your repo, e.g., _<userid>/data-standards_
 
-### Copy your repository down to your file system
+### Copy repository down to a file system
 
 1. Copy the repo URL to your clipboard:
-	1. Click the **Code** button ![](images/image_code.png)
-	1. Click the **clipboard** image ![](images/image_copy_url.png) as this copies the URL listed beside it
+	1. Click the **Code** button ![](images/image_code.PNG)
+	1. Click the **clipboard** image ![](images/image_copy_url.PNG) as this copies the URL listed beside it
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
@@ -85,7 +85,7 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. Using a text editor make changes to the markdown (.md) files, add new markdown files, etc. 
 1. Any images should be stored in the images subdirectory.
 
-### Upload your changes to your copy of the repository on GitHub
+### Upload changes to your GitHub repository
 
 Your changes, additions, etc. on your local filesystem copy now have to be transfered up to your copy on GitHub. Do this by executing the following commands:
 
@@ -99,10 +99,10 @@ Your changes, additions, etc. on your local filesystem copy now have to be trans
 	1. There will be a note saying your _This branch is X commits ahead of bcgov:master_.
 1. Click the **Pull request** button beside this. ![](images/image_pullrequest.png)
 	1. This page will show the change comparison.
-1. Click the **Create pull request** button. ![](images/image_create_pull_request.png)
+1. Click the **Create pull request** button. ![](images/image_create_pull_request.PNG)
 1. Enter a Title that is brief to describe the changes.
 1. Enter a Description of the changes made.
-1. Click the **Create pull request** button. ![](images/image_create_pull_request2.png)
+1. Click the final **Create pull request** button. ![](images/image_create_pull_request2.png)
 
 DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
