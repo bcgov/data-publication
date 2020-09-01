@@ -55,7 +55,7 @@ Below are the steps to follow when publishing an ArcGIS Online (AGO) application
 		1. When BCDC records are complete and ready to publish, AGO user must toggle the record state from Draft to Pending Publish (a flag for us to follow up).
 1. AGO user fills out the [_Publication Request Form_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) when all their content, metadata requirements and remaining items on the checklist are complete. 
    1. AGO user then obtains their Project Sponsor to approve and sign (typically Director level).
-1. AGO user **submits the approved checklist** to complete the publication process, via email **to** [_Maps Services_](mailto:datamaps@gov.bc.ca) and **cc** Meg.Hoole@gov.bc.ca.
+1. AGO user **submits the approved checklist** to complete the publication process, via email **to** [_data@gov.bc.ca_](mailto:data@gov.bc.ca) and **cc** [_Maps Services_](mailto:datamaps@gov.bc.ca).
 
 [RETURN TO TOP][1]
 
