@@ -97,7 +97,7 @@ Your changes, additions, etc. on your local filesystem copy now have to be trans
 
 1. Open or refresh your repository in a browser.
 	1. There will be a note saying your _This branch is X commits ahead of bcgov:master_.
-1. Click the **Pull request** button beside this. ![](images/image_pullrequest.png)
+1. Click the **Pull request** button beside this. ![](images/image_pullrequest.PNG)
 	1. This page will show the change comparison.
 1. Click the **Create pull request** button. ![](images/image_create_pull_request.PNG)
 1. Enter a Title that is brief to describe the changes.
