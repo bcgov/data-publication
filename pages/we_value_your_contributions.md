@@ -50,6 +50,8 @@ You can add new pages or replace existing ones by going through the process outl
 
 You will need a user id for https://github.com.  You can get one by going to that website and clicking on the "Sign up for GitHub" button.
 
+For BC Government employees read the [BC Policy Framework For GitHub](https://github.com/bcgov/BC-Policy-Framework-For-GitHub).
+
 ### How to Download a Git Client
 
 Download a git client from https://git-scm.com/download. You will use the "git" command to do most of your work
