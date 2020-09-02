@@ -34,8 +34,8 @@ This page describes two mechanisms for providing input on the guides published a
 If you would like to point out an error or make a comment on the content, this can most easily be done by creating an issue:
 1. Click the ![Issues](images/image_issues.png) tab. 
 1. Click the ![New issue](images/image_new_issue.png) button. 
-1. Enter a Title that is brief to describe the issue.
-1. Enter a Description of the issue and what URL it is on.
+1. Enter a **Title** that is brief to describe the issue.
+1. Enter a **Description** of the issue and what URL it is on.
 1. Click the ![Submit new issue](images/image_submit_new_issue.png) button. 
 
 [RETURN TO TOP][1] 
@@ -112,8 +112,8 @@ git push
 1. Click the ![Pull request](images/image_pullrequest.png) button beside this. 
 	1. This page will show the change comparison.
 1. Click the ![Create pull request](images/image_create_pull_request.png) button. 
-1. Enter a Title that is brief to describe the changes.
-1. Enter a Description of the changes made.
+1. Enter a **Title** that is brief to describe the changes.
+1. Enter a **Description** of the changes made.
 1. Click the final ![Create pull request](images/image_create_pull_request2.png) button. 
 
 DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
