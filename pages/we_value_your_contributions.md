@@ -66,7 +66,7 @@ A copy of the data-standards will now be in your repo, e.g., _userid/data-standa
 
 1. Copy the repo URL to your clipboard:
 	1. Click the ![Code](images/image_code.png) button.
-	1. Click the ![clipboard](images/image_copy_url.png) image  as this copies the URL listed beside it
+	1. Click the clipboard image ![clipboard](images/image_copy_url.png) as this copies the URL listed beside it
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
