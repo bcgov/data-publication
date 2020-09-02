@@ -81,9 +81,7 @@ Once these approvals are in place, Data can be published under OGL-BC if:
 
 ### Creating an Open Government Licence
 
-How to Create an OGL:
-
-The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus created their own. These steps are what we suggest:
+The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These steps are what is suggested:
 
 1. Copy our Open Government Licence - British Columbia, as it is consistent with the Feds and other Local Governments
 	+ examples, BC Assessment and Elections BC
@@ -112,67 +110,31 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 |Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
 1.  Click the *Create Dataset* button.
-1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better. Mandatory fields are marked with an *****.
-	+   **Title**, **Description**, **Purpose**, **Data Quality** and **Lineage Statement** should be written in a way the general public can understand.
-		+ Recommendations:
-			+ Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.
-			+ For records that will include multiple years, do not include the year in the title.
-			+ If there is a accronym, always spell out the name in full and then include the accronym in parentases. 
-			+ Although **Purpose**, **Data Quality** and **Lineage Statement** are not manditory, these are highly encouraged to be filled out. Include more information about a record will aid users and allow for more self serve of information.
-	* **URL** will be auto-populated based on the title. 
-		+ If the title includes a parenthasis at the end then recommend removing this from the URL.
-    + **More Info** links should be added to provide more information a user can go to.
-		+ These should use https:// instead of http://
-		+ For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.
-			+ At the bottom right is a gray icon with an arrow pointing to the right. 
-			+ Click this and then hit the **Copy** button.
-    + **Keywords** are important words related to your dataset. You can use common words, like 'fish hatcheries'. 
-		+ These terms can help link multiple records that have matching keywords when searched for in the catalogue.
-		+ These will aid when a user is searching for a record that it is returned.
-	+ **Contacts** section: a contact is someone who is familiar with the dataset and can answer questions people might have about the data. Additional contacts can be added and can be hidden from public view.
-		+ Recommendation: If a business area has a email group that can be added then make this available to the public.
-			+ However an actual name of a contact should always be included, even if made only visible when logged into the catalogue.
-			+ **Role**: Custodian should only be used for the name of a Director or Exective Director of a Branch or Division.
-    + **Data Currency/Update** Section: this section describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data. 
-		+ Multiple dates can be added to track the progress of the data.
-    + **Access and Security** Section: this section describes who has privileges to view the actual data, who can download the data, and who has permission to view the catalogue record.  
-		+ **Who can view the data?**
-			+ This is intended to be who can view the data in a web application.
-			+ For data in the BCGW, this refers to the security applied to in iMapBC.
-				+ If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.
-		+ **Who can download the data?**
-			+ This is intended to be who can download the data.
-			+ For data in the BCGW, this refers to the security applied to the Distribution Service.
-				+ If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.
-		+ **Who can view this record?**
-			+ This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.
-		+ **Security Classification** describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)
-			+ For data that is downloadable by the public, _Low Public_ should be selected_._  
-		+ **Licence** is very important as it determines [how the data can be used](#which-licence-to-use).
+1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better. Mandatory fields are marked with an *.
 
 |Section|Data Element|Example(s)|Recommendations|
 |:---|:---|:---|:---|
-|_Dataset_|**State**|DRAFT| |
+|_Dataset_|**State**|DRAFT|This changes the state of the publication workflow.|
 ||**Title**|should be written in a way the general public can understand|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
 ||**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
 ||**Organization**|Ministry of Citizen Services|Required|
 ||**Sub-Organization**|DataBC|Required|
 ||**Description**|_detailed description about the data_|If there is a accronym, always spell out the name in full and then include the accronym in parentases|
-||**Purpose**|_summary of the intentions for which the dataset was developed_|N/A|
-||**Data Quality**|_descriptive text that cn include info about issues, completeness, consistency, etc._|N/A|
-||**Lineage Statement**|_information about the events or source data used in constructing the data_|N/A|
+||**Purpose**|_summary of the intentions for which the dataset was developed_|Include more information about a record will aid users and allow for more self serve of information.|
+||**Data Quality**|_descriptive text that can include info about issues, completeness, consistency, etc._|Include more information about a record will aid users and allow for more self serve of information.|
+||**Lineage Statement**|_information about the events or source data used in constructing the data_|Include more information about a record will aid users and allow for more self serve of information.|
 ||**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then hit the **Copy** button.|
-||**Keywords**|_searchable term(s)_|Required|
-||**ISO Topic Category**|unknown|N/A|N/A|Required|N/A|
-|_Contact_|**Name**|_contact's first and last name_|Required|
-||**Email**|_someone@somewhere.ca_|Required|
-||**Organization**|Ministry of Citizen Services|Required|
-||**Sub-Organization**|DataBC|Required|
-||**Role**|Custodian|Required|
-||**Contact Displayed**|Yes|Required|
-|_Data Currency / Update_|**Resource Status**|planned|Required|
-||**Data type**|Created|N/A|Required|Required|N/A|
-||**Date**|_YYYY-MM-DD_|N/A|Required|Required|N/A|
+||**Keywords**|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or accronyms.|
+||**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
+|_Contact_|**Name**|_contact's first and last name_|This may a name for a generic inbox.|
+||**Email**|_someone@somewhere.ca_|This may be the email of a generic inbox.|
+||**Organization**|Ministry of Citizen Services|The organization or ministry the contact is from.|
+||**Sub-Organization**|DataBC|The sub-organization, branch or program area the contact is from.|
+||**Role**|pointOfContact|Most often this is set to pointOfContact. Custodian is reserved for the Director or a Executive Director of a branch.|
+||**Contact Displayed**|Yes|Set to Yes when the contact is to be visisble to the public. No, allows the contact to only be visible when logged in.|
+|_Data Currency / Update_|**Resource Status**|planned|Describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data.<br> Multiple dates can be added to track the progress of the data.|
+||**Data Type**|Created, Published||
+||**Date**|_YYYY-MM-DD_||
 |_Access & Security_|**Who can view this data?**|Public|This is intended to be who can view the data in a web application.<br>For data in the BCGW, this refers to the security applied to in iMapBC.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 ||**Who can view this record?**|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
 ||**Who can download this data?**|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
@@ -197,7 +159,6 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 ||**Data Type**| |This is uneditable and autopopulated from metadata in the BCGW|
 ||**Data Precision**| |This is uneditable and autopopulated from metadata in the BCGW|
 ||**Comments**| |This is uneditable and autopopulated from metadata in the BCGW|
-
 1.   After filling in the details in the **Create dataset** tab, click **Next: Add Data** to save your changes.
 
 
