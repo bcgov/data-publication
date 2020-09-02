@@ -6,10 +6,10 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 ## Table of Contents
 + [**REPORTING ISSUES WITH THE DOCUMENTATION**](#REPORTING-ISSUES-WITH-THE-DOCUMENTATION)
 + [**CHANGING PAGES OR ADDING NEW ONES**](#CHANGING-PAGES-OR-ADDING-NEW-ONES)
-	+ [How to Access GitHub](#Get-Access-GitHub)
+	+ [How to Access GitHub](#How-to-Access-GitHub)
 	+ [How to Download a Git Client](#How-to-Download-a-Git-Client)
 	+ [How to Clone the bcgov/data-standards Repository](#How-to-Clone-the-bcgovdata-standards-Repository)
-	+ [How to Pull down a Repository to a File System](#How-to-Pull-repository-down-a-Repository-to-a-file-system)
+	+ [How to Pull down a Repository to a File System](#How-to-Pull-Down-a-Repository-to-a-file-system)
 	+ [How to Create or Change Pages](#How-to-Create-or-Change-Pages)
 	+ [How to Push to GitHub](#How-to-Push-to-GitHub)
 	+ [How to Issue a Pull Request](#How-to-Issue-a-Pull-Request)
