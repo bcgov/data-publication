@@ -83,8 +83,10 @@ Once these approvals are in place, Data can be published under OGL-BC if:
 
 How to Create an OGL:
 
+The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus created their own. These steps are what we suggest:
+
 1. Copy our Open Government Licence - British Columbia, as it is consistent with the Feds and other Local Governments
-+ examples, BC Assessment and Elections BC
+	+ examples, BC Assessment and Elections BC
 1. Modify the identified text to personalize it for your org
 	1. Licence Name – change ‘Open Government License – British Columbia’ to ‘Open Government License – BC Oil and Gas Commission’
 		+ This name should be the same that is found on the BC List of Agencies, Crown Corps, etc
@@ -111,7 +113,6 @@ How to Create an OGL:
 
 1.  Click the *Create Dataset* button.
 1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better. Mandatory fields are marked with an *****.
-
 	+   **Title**, **Description**, **Purpose**, **Data Quality** and **Lineage Statement** should be written in a way the general public can understand.
 		+ Recommendations:
 			+ Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.
@@ -147,11 +148,59 @@ How to Create an OGL:
 			+ This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.
 		+ **Security Classification** describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)
 			+ For data that is downloadable by the public, _Low Public_ should be selected_._  
-		+ **Licence** is very important as it determines how the data can be used. [**See which licence to use**](#which-licence-to-use)
-			
-
+		+ **Licence** is very important as it determines [how the data can be used](#which-licence-to-use).
+|Section|Data Element|Example(s)|Recommendations|
+|:---|:---|:---|:---:|
+|_Dataset_|**State**|DRAFT| |
+||**Title**|should be written in a way the general public can understand|Required|
+||**URL**|_https://....._|Required|
+||**Organization**|Ministry of Citizen Services|Required|
+||**Sub-Organization**|DataBC|Required|
+||**Description**|_detailed description about the data_|Required|
+||**Purpose**|_summary of the intentions for which the dataset was developed_|N/A|
+||**Data Quality**|_descriptive text that cn include info about issues, completeness, consistency, etc._|N/A|
+||**Lineage Statement**|_information about the events or source data used in constructing the data_|N/A|
+||**More Info**|_supporting url(s)_|Optional|Optional|Optional|Optional|
+||**Keywords**|_searchable term(s)_|Required|
+||**ISO Topic Category**|unknown|N/A|N/A|Required|N/A|
+|_Contact_|**Name**|_contact's first and last name_|Required|
+||**Email**|_someone@somewhere.ca_|Required|
+||**Organization**|Ministry of Citizen Services|Required|
+||**Sub-Organization**|DataBC|Required|
+||**Role**|Custodian|Required|
+||**Contact Displayed**|Yes|Required|
+|_Data Currency / Update_|**Resource Status**|planned|Required|
+||**Data type**|Created|N/A|Required|Required|N/A|
+||**Date**|_YYYY-MM-DD_|N/A|Required|Required|N/A|
+|_Access & Security_|**Who can view this data?**|Public|+ This is intended to be who can view the data in a web application.
+			+ For data in the BCGW, this refers to the security applied to in iMapBC.
+				+ If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+||**Who can view this record?**|Public|	+ This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
+||**Who can download this data?**|Public|+ This is intended to be who can download the data.
+			+ For data in the BCGW, this refers to the security applied to the Distribution Service.
+				+ If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+||**Who can access this application?**|Public|Required|
+||**Licence**|Open Governement Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
+||**Security Classification**|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
+|_Preview Information_|**Layer name**|Name of the layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
+||**Preview latitude**|Latitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
+||**Preview longitude**|Longitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
+||**Preview map service URL**|URL of map service for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
+||**Preview zoom level**|Zoom level for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
+||**Image URL**|_URL for non map service images| |
+||**Link to iMap**| |This link is autopopulated when a BCGW dataset is publically visisble in iMapBC|
+|_Geographic extent_|**North**|60.0|This is the bounding box of the province and autopopulated for Geographic type resources|
+||**South**|48.0|This is the bounding box of the province and autopopulated for Geographic type resources.|
+||**East**|-113.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
+||**West**|-139.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
+||**Spatial Datatype**|SDO_GEOMETRY|N/A|
+|_Object Description_|**Object Name**|_schema.table(view)_|This is use by Services tied to the BCGW|
+||**Column Name**||This is use by Services tied to the BCGW|
+||**Short Name**| |This is uneditable and autopopulated from metadata in the BCGW|
+||**Data Type**| |This is uneditable and autopopulated from metadata in the BCGW|
+||**Data Precision**| |This is uneditable and autopopulated from metadata in the BCGW|
+||**Comments**| |This is uneditable and autopopulated from metadata in the BCGW|
 1.   After filling in the details in the **Create dataset** tab, click **Next: Add Data** to save your changes.
-
 
 
 ## How to edit a metadata record
