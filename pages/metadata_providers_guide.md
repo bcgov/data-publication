@@ -52,14 +52,47 @@ _Access only_ is the standard and is [restrictive](https://www2.gov.bc.ca/gov/co
 
 ### Open Government Licence - British Columbia
 
-Whenever possible we recommend data be published under the [_Open Government Licence (OGL)_](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) which is much more permissive.
+Whenever possible we recommend data be published under an Open Government Licence which is much more permissive.
 
-**Note: publishing data under the Open Government Licence - British Columbia requires a completed and approved [Open Data Assessment](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx).**
++ 	[Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
+
++ 	[Open Data Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
+    
++ 	[Open Data - Physical Datasets](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf) is a list of open format file. This document is slated for update as there are other modern open formats.
+
++ 	[Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)
+
+To publish something under OGL-BC you will need to contact multiple people for authorization. Names of who to contact and other resources are included in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) document.
+
++ The [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
+
++ The [Intellectual Properties Office](https://www2.gov.bc.ca/gov/content?id=4F03158C0AF84EC08DBB5BE3E873C33E) - email [QPIPPCopyright@gov.bc.ca](mailto:QPIPPCopyright@gov.bc.ca)
+
++ Sign off from the Custodial organization's Deputy Minister or designated alternate is required.
+
+Once these approvals are in place, Data can be published under OGL-BC if:
+
++ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO's [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+
++ The BC Data Catalogue record links to the appropriate Open Data Licence.
 
 
 ### Other Open Government Licences
 
 ### Creating an Open Government Licence
+
+How to Create an OGL:
+
+1. Copy our Open Government Licence - British Columbia, as it is consistent with the Feds and other Local Governments
++ examples, BC Assessment and Elections BC
+1. Modify the identified text to personalize it for your org
+	1. Licence Name – change ‘Open Government License – British Columbia’ to ‘Open Government License – BC Oil and Gas Commission’
+		+ This name should be the same that is found on the BC List of Agencies, Crown Corps, etc
+	1. Change line: ‘Contains information licensed under the Open Government Licence – British Columbia.’ to ‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission’
+	1. Information Provider – change ‘means Her Majesty the Queen in right of the Province of British Columbia.’ to ‘means BC Oil and Gas Commission’
+	1. Versioning – change ‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information’ to ‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information’
+	1. Remove: ‘Note’ line re: copyright can be removed
+1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
 ## How to create a new metadata record
 
