@@ -6,13 +6,13 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 ## Table of Contents
 + [**REPORTING ISSUES WITH THE DOCUMENTATION**](#REPORTING-ISSUES-WITH-THE-DOCUMENTATION)
 + [**CHANGING PAGES OR ADDING NEW ONES**](#CHANGING-PAGES-OR-ADDING-NEW-ONES)
-	+ [Get access to GitHub](#Get-access-to-GitHub)
-	+ [Download a Git Client](#Download-a-Git-Client)
-	+ [Clone the master bcgov/data-standards repository](#Make-a-copy-of-the-bcgovdata-standards-repository)
-	+ [Copy repository down to a file system](#Copy-repository-down-to-a-file-system)
-	+ [Make changes to pages or add new pages](#Make-changes-to-pages-or-add-new-pages)
-	+ [Upload changes to your GitHub repository](#Upload-changes-to-your-GitHub-repository)
-	+ [Issue a Pull Request to be reviewed and incorporated into the master repository](#Issue-a-Pull-Request-to-be-reviewed-and-incorporated-into-the-master-repository)
+	+ [How to Access GitHub](#Get-Access-GitHub)
+	+ [How to Download a Git Client](#How-to-Download-a-Git-Client)
+	+ [How to Clone the bcgov/data-standards Repository](#How-to-Clone-the-bcgovdata-standards-Repository)
+	+ [How to Pull down a Repository to a File System](#How-to-Pull-repository-down-a-Repository-to-a-file-system)
+	+ [How to Create or Change Pages](#How-to-Create-or-Change-Pages)
+	+ [How to Push to GitHub](#How-to-Push-to-GitHub)
+	+ [How to Issue a Pull Request](#How-to-Issue-a-Pull-Request)
 -----------------------
 
 # Audience
@@ -46,22 +46,23 @@ If you would like to point out an error or make a comment on the content, this c
 
 You can add new pages or replace existing ones by going through the process outlined in the following sections.  
 
-### Get access to GitHub
+### How to Access GitHub
 
 You will need a user id for https://github.com.  You can get one by going to that website and clicking on the "Sign up for GitHub" button.
 
-### Download a Git Client
+### How to Download a Git Client
 
 Download a git client from https://git-scm.com/download. You will use the "git" command to do most of your work
 
-### Copy the master bcgov/data-standards repository
+### How to Clone the bcgov/data-standards Repository
 
 1. Log into github.com and navigate to [https://github.com/data-standards](https://github.com/bcgov/data-standards)
 1. Click the ![Fork](images/image_fork.png) button in the upper right.
 	1. A pop-up may appears with the question **Where should we fork data-standards**, click on your userid.
-1. A copy of the data-standards will now be in your repo, e.g., _userid/data-standards_
 
-### Copy repository down to a file system
+A copy of the data-standards will now be in your repo, e.g., _userid/data-standards_
+
+### How to Pull down a Repository to a File System
 
 1. Copy the repo URL to your clipboard:
 	1. Click the ![Code](images/image_code.png) button.
@@ -69,7 +70,9 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-standards` subdirectory:
-	1.`git clone <paste the URL from your clipboard>`.
+	```
+	git clone <paste the URL from your clipboard>
+	```
 1. Enter the following commands to move to and sync content from the master repo:
    ```
    cd data-standards
@@ -77,11 +80,13 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
    git fetch upstream
    git merge upstream/master
    ```
-		1. If both are in sync the follow message will display "Already up to date".
+	If both are in sync the follow message will display "Already up to date".
 
-### Make changes to pages or add new pages
+### How to Create or Change Pages
 
-1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-standards repository. To do this, issue the following to commands:
+1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-standards repository. 
+
+To do this, issue the following to commands:
 	```
 	git fetch upstream
     git merge upstream/master
@@ -90,17 +95,17 @@ Download a git client from https://git-scm.com/download. You will use the "git" 
 1. Using a text editor make changes to the markdown (.md) files, add new markdown files, etc. 
 1. Any images should be stored in the images subdirectory.
 
-### Upload changes to your GitHub repository
+### How to Push to GitHub
 
 Your changes, additions, etc. on your local filesystem copy now have to be transfered up to your copy on GitHub. Do this by executing the following commands:
 
 ```
 git add -A
-git commit -m "some description of the change(s) you've made"
+git commit -m "briefDescriptionOfTheChanges"
 git push
 ```
  
-### Issue a Pull Request to be reviewed and incorporated into the master repository
+### How to Issue a Pull Request
 
 1. Open or refresh your repository in a browser.
 	1. There will be a note saying your _This branch is X commits ahead of bcgov:master_.
