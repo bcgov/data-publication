@@ -151,7 +151,7 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 		+ **Licence** is very important as it determines [how the data can be used](#which-licence-to-use).
 
 |Section|Data Element|Example(s)|Recommendations|
-|:---|:---|:---|:---:|
+|:---|:---|:---|:---|
 |_Dataset_|**State**|DRAFT| |
 ||**Title**|should be written in a way the general public can understand|Required|
 ||**URL**|_https://....._|Required|
@@ -173,9 +173,12 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 |_Data Currency / Update_|**Resource Status**|planned|Required|
 ||**Data type**|Created|N/A|Required|Required|N/A|
 ||**Date**|_YYYY-MM-DD_|N/A|Required|Required|N/A|
-|_Access & Security_|**Who can view this data?**|Public|This is intended to be who can view the data in a web application. For data in the BCGW, this refers to the security applied to in iMapBC.If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+|_Access & Security_|**Who can view this data?**|Public|1. This is intended to be who can view the data in a web application. 
+1. For data in the BCGW, this refers to the security applied to in iMapBC.
+1. If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 ||**Who can view this record?**|Public|	This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
-||**Who can download this data?**|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service. If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+||**Who can download this data?**|Public|- This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service. 
+- If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 ||**Who can access this application?**|Public|Required|
 ||**Licence**|Open Governement Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
 ||**Security Classification**|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
