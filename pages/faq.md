@@ -96,6 +96,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + Request for retirements
 + Notifications of intent and decision
 + _Contact_: [LDATARET@Victoria1.gov.bc.ca](LDATARET@Victoria1.gov.bc.ca)
++ [Past and currently in process retirements](https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1)
 
 #### Data Population (ETL) Services
 
