@@ -153,15 +153,15 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 |Section|Data Element|Example(s)|Recommendations|
 |:---|:---|:---|:---|
 |_Dataset_|**State**|DRAFT| |
-||**Title**|should be written in a way the general public can understand|Required|
-||**URL**|_https://....._|Required|
+||**Title**|should be written in a way the general public can understand|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
+||**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
 ||**Organization**|Ministry of Citizen Services|Required|
 ||**Sub-Organization**|DataBC|Required|
-||**Description**|_detailed description about the data_|Required|
+||**Description**|_detailed description about the data_|If there is a accronym, always spell out the name in full and then include the accronym in parentases|
 ||**Purpose**|_summary of the intentions for which the dataset was developed_|N/A|
 ||**Data Quality**|_descriptive text that cn include info about issues, completeness, consistency, etc._|N/A|
 ||**Lineage Statement**|_information about the events or source data used in constructing the data_|N/A|
-||**More Info**|_supporting url(s)_|Optional|Optional|Optional|Optional|
+||**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then hit the **Copy** button.|
 ||**Keywords**|_searchable term(s)_|Required|
 ||**ISO Topic Category**|unknown|N/A|N/A|Required|N/A|
 |_Contact_|**Name**|_contact's first and last name_|Required|
@@ -173,12 +173,9 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 |_Data Currency / Update_|**Resource Status**|planned|Required|
 ||**Data type**|Created|N/A|Required|Required|N/A|
 ||**Date**|_YYYY-MM-DD_|N/A|Required|Required|N/A|
-|_Access & Security_|**Who can view this data?**|Public|1. This is intended to be who can view the data in a web application. 
-1. For data in the BCGW, this refers to the security applied to in iMapBC.
-1. If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
-||**Who can view this record?**|Public|	This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
-||**Who can download this data?**|Public|- This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service. 
-- If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+|_Access & Security_|**Who can view this data?**|Public|This is intended to be who can view the data in a web application.<br>For data in the BCGW, this refers to the security applied to in iMapBC.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+||**Who can view this record?**|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
+||**Who can download this data?**|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 ||**Who can access this application?**|Public|Required|
 ||**Licence**|Open Governement Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
 ||**Security Classification**|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
