@@ -149,6 +149,7 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 		+ **Security Classification** describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)
 			+ For data that is downloadable by the public, _Low Public_ should be selected_._  
 		+ **Licence** is very important as it determines [how the data can be used](#which-licence-to-use).
+
 |Section|Data Element|Example(s)|Recommendations|
 |:---|:---|:---|:---:|
 |_Dataset_|**State**|DRAFT| |
@@ -200,6 +201,7 @@ The Broader Publish Sector (BPS) are not permitted to use the OGL-BC and thus cr
 ||**Data Type**| |This is uneditable and autopopulated from metadata in the BCGW|
 ||**Data Precision**| |This is uneditable and autopopulated from metadata in the BCGW|
 ||**Comments**| |This is uneditable and autopopulated from metadata in the BCGW|
+
 1.   After filling in the details in the **Create dataset** tab, click **Next: Add Data** to save your changes.
 
 
