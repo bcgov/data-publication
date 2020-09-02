@@ -96,7 +96,6 @@ The following is a list of DataBC groups with direction on their areas of expert
 + Request for retirements
 + Notifications of intent and decision
 + _Contact_: [LDATARET@Victoria1.gov.bc.ca](LDATARET@Victoria1.gov.bc.ca)
-+ [Past and currently in process retirements](https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1)
 
 #### Data Population (ETL) Services
 
@@ -508,6 +507,9 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 + Data has a natural life cycle that includes data retirements for many reasons.
 + A custodian within the business area may determine that a dataset, or set of data, is no longer needed for their business, or the needs of others, and they will initiate the retirement process.
 + Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca), for further information. 
+
+#### Where is the list of past retirement notifications?
++ [Past and currently in process retirements](https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1)
 
 #### How do I retire data and/or a proxy that is in the BCGW and which is tied to my application?
 
