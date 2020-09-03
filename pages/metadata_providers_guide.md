@@ -1,6 +1,6 @@
 # PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE
 
-This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC) under the DataBC Program:
+This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program:
 
 Other DataBC Data Publication Platforms:
 + [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
@@ -8,12 +8,12 @@ Other DataBC Data Publication Platforms:
 
 -----------------------
 ## Table of Contents
-+ [**HOW TO BECOME A PROVIDER**](#HOW-TO-BECOME-A-PROVIDER)
++ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
 + [**WHICH LICENCE TO USE**](#WHICH-LICENCE-TO-USE)
 	+ [Access Only](#Access-Only)
 	+ [Open Government Licence - British Columbia](#Open-Government-Licence---British-Columbia)
 	+ [Other Open Government Licences](#Other-Open-Government-Licences)
-	+ [Creating an Open Government Licence](#Creating-an-Open-Government-Licence)
+		+ [Creating an Open Government Licence](#Creating-an-Open-Government-Licence)
 + [**HOW TO CREATE A NEW METADATA RECORD**](#HOW-TO-CREATE-A-NEW-METADATA-RECORD)
 + [**HOW TO MANAGE METADATA RECORD RESOURCES**](#HOW-TO-MANAGE-METADATA-RECORD-RESOURCES)
 	+ [Adding a new resource](#Adding-a-new-resource)
@@ -41,9 +41,9 @@ Other DataBC Data Publication Platforms:
 
 # Audience
 
-This document is meant for people who want to make metadata and data available through the BC Data Catalogue (BCDC). It does not contain any DataBC Program internal operational information.
+This document is meant for people who want to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
 
-The BC Data Catalogue is available as a platform to host and share data and metadata for:
+The Catalogue is available as a platform to host and share data and metadata for:
 * BC Government Ministries and the
 * Broader Public Sector (BPS).
 
@@ -59,7 +59,7 @@ The contents of this space is to assist data and metadata providers.
   
 -----------------------------------------------------------
 
-## HOW TO BECOME A PROVIDER
+## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 + To be come a Catalogue editor/publisher for a Custodial organization, approval from that branch or division's Director or Executive Director is required.
 
 + This approval, along with the name of the Branch or Division and list of new editors is then forwarded to the DataBC Catalogue Services team or by emailing data@gov.bc.ca.
@@ -100,15 +100,15 @@ Once these approvals are in place, Data can be published under OGL-BC if:
 
 + it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO's [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 
-+ The BC Data Catalogue record links to the appropriate Open Data Licence.
++ The Catalogue record links to the appropriate Open Data Licence.
 
 
 ### Other Open Government Licences
-The BC Data Catalogue lists many other licences from the Broader Public Sector to that of Federal licences.
+The Catalogue lists many other licences from the Broader Public Sector to that of Federal licences.
 + Federal Licences are listed as there are times when BC Government employees require data to be published for their own consumption via one or more channels.
 
 
-### Creating an Open Government Licence
+#### Creating an Open Government Licence
 
 The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These steps are what is suggested:
 
@@ -139,7 +139,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
 1.  Click the **Create Dataset** button.
-1.	Fill in all [mandatory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non mandatory fields as well to assist the users to understand and use the data better.
+1.	Fill in all [mandatory fields](https://github.com/bcgov/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non mandatory fields as well to assist the users to understand and use the data better.
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
 
@@ -204,7 +204,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 ## HOW TO MANAGE METADATA RECORD RESOURCES
 
-1.  Log into the BC Data Catalogue.
+1.  Log into the Catalogue.
 1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
 1. 	Click the **Resources** tab.
 1.  After making edits in the **Edit Metadata** tab, click the **Update Dataset** to save your changes.
@@ -275,9 +275,9 @@ To obtain the GUID sub-org it requires the title name of the org
 	1. Click on the live link of the sub-org or branch name
 	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
 1. **Option 2**:
-1. Open up the Catalogue Organizations tree
-1. Navigate and click on the sub-org/branch name
-1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
+	1. Open up the Catalogue Organizations tree
+	1. Navigate and click on the sub-org/branch name
+	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
 
 **Your API Key**:
 1. Log into the Catalogue
@@ -422,12 +422,12 @@ Groups are intended for a listing of like datasets for a specific purpose that c
 To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 **Requirements:**
-+ Group Name:
-+ Group Description:
-+ URL: _for more information_
-+ Image: _either a file or url_
-+ Members: _list of IDIRs who will maintain the Group_
-+ Group visibility: Public or IDIR
++ **Group Name**:
++ **Group Description**:
++ **URL**: _for more information_
++ **Image**: _either a file or url_
++ **Members**: _list of IDIRs who will maintain the Group_
++ **Group visibility**: Public or IDIR
 
 ### How to get an organization added or renamed
 Organizations change names frequently and thus need continual maintenance.
