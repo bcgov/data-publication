@@ -20,11 +20,14 @@ Other DataBC Data Publication Platforms:
 	+ [Adding a new resource](#Adding-a-new-resource)
 		+ [Adding a BCGW resource](#Adding-a-BCGW-resource)
 		+ [Automated BCGW Service resources](#Automated-BCGW-Service-resources)
-	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
+	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existing-resource)
 	+ [Replacing an existing resource](#Replacing-an-existing-resource)
-	+ [Deleting an existing resource](#Deleting-an-existingresource)
+	+ [Deleting an existing resource](#Deleting-an-existing-resource)
++ [**HOW TO USE THE API TO MANAGE RECORDS AND RESOURCES](#HOW-TO-USE-THE-API-TO-MANAGE-RECORDS-AND-RESOURCES)
 + [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISH-A-METADATA-RECORD)
+## PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
 + [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVE-A-METADATA-RECORD)
+
 + [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
 	+ [**FAQ Home Page**](#FAQ-Home-Page)
 	+ [**How to request a Group be created**](#How-to-request-a-Group-be-created)
@@ -58,7 +61,7 @@ The contents of this space is to assist data and metadata providers.
 
 + The Broader Public Sector (BPS) may publish metadata records and data to the Catalogue but for Open Data do require their own licence. To do so contact data@gov.bc.ca to start the discussion and see [how to create an Open Government Licence](#Creating-an-Open-Government_Licence).
 
-+ As a Steward on behalf of another organization to become a provider, authorization is requried from the custodian of the Branch or Division.
++ As a Steward on behalf of another organization to become a provider, authorization is required from the custodian of the Branch or Division.
 
 ## WHICH LICENCE TO USE
 
@@ -97,7 +100,7 @@ Once these approvals are in place, Data can be published under OGL-BC if:
 
 ### Other Open Government Licences
 The BC Data Catalogue lists many other licences from the Broader Public Sector to that of Federal licences.
-+ Federal Licences are listed as there are times when BC Governement employeers require data to be published for their own consumption via one or more channels.
++ Federal Licences are listed as there are times when BC Government employees require data to be published for their own consumption via one or more channels.
 
 
 ### Creating an Open Government Licence
@@ -107,11 +110,11 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 1. Copy our Open Government Licence - British Columbia, as it is consistent with the Feds and other Local Governments
 	+ examples, BC Assessment and Elections BC
 1. Modify the identified text to personalize it for your org
-	1. Licence Name – change ‘Open Government License – British Columbia’ to ‘Open Government License – BC Oil and Gas Commission’
+	1. Licence Name – change ‘Open Government License – British Columbia’ to ‘Open Government License – BC Oil and Gas Commission
 		+ This name should be the same that is found on the BC List of Agencies, Crown Corps, etc
-	1. Change line: ‘Contains information licensed under the Open Government Licence – British Columbia.’ to ‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission’
-	1. Information Provider – change ‘means Her Majesty the Queen in right of the Province of British Columbia.’ to ‘means BC Oil and Gas Commission’
-	1. Versioning – change ‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information’ to ‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information’
+	1. Change line: ‘Contains information licensed under the Open Government Licence – British Columbia.’ to ‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission
+	1. Information Provider – change ‘means Her Majesty the Queen in right of the Province of British Columbia.’ to ‘means BC Oil and Gas Commission
+	1. Versioning – change ‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information to ‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information
 	1. Remove: ‘Note’ line re: copyright can be removed
 1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
@@ -131,7 +134,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
 1.  Click the **Create Dataset** button.
-1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better.
+1.	Fill in all [mandatory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non mandatory fields as well to assist the users to understand and use the data better.
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
 
@@ -141,16 +144,16 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |:---|:---|:---|
 |_**Dataset**_|||
 |**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
-|**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
-|**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
+|**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
+|**URL**| | Will be auto-populated based on the title.<br>If the title includes a parentheses at the end then recommend removing this from the URL.|
 |**Organization**|Ministry of Citizen Services|Required|
 |**Sub-Organization**|DataBC|Required|
-|**Description**|_detailed description about the data_|If there is a accronym, always spell out the name in full and then include the accronym in parentases|
+|**Description**|_detailed description about the data_|If there is a acronym, always spell out the name in full and then include the acronym in parentheses|
 |**Purpose**|_summary of the intentions for which the dataset was developed_|Include more information about a record will aid users and allow for more self serve of information.|
 |**Data Quality**|_descriptive text that can include info about issues, completeness, consistency, etc._|Include more information about a record will aid users and allow for more self serve of information.|
 |**Lineage Statement**|_information about the events or source data used in constructing the data_|Include more information about a record will aid users and allow for more self serve of information.|
 |**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then click the **Copy** button.|
-|**Keywords**|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or accronyms.|
+|**Keywords**|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or acronyms.|
 |**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
 |Data Element|Example(s)|Recommendations|
 |_**Contact**_|||
@@ -159,7 +162,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Organization**|Ministry of Citizen Services|The organization or ministry the contact is from.|
 |**Sub-Organization**|DataBC|The sub-organization, branch or program area the contact is from.|
 |**Role**|pointOfContact|Most often this is set to pointOfContact. Custodian is reserved for the Director or a Executive Director of a branch.|
-|**Contact Displayed**|Yes|Set to Yes when the contact is to be visisble to the public. No, allows the contact to only be visible when logged in.|
+|**Contact Displayed**|Yes|Set to Yes when the contact is to be visible to the public. No, allows the contact to only be visible when logged in.|
 |_**Data Currency / Update**_|---|---|
 |**Resource Status**|planned|Describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data.<br> Multiple dates can be added to track the progress of the data.|
 |**Data Type**|Created, Published||
@@ -169,35 +172,35 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Who can view this record?**|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
 |**Who can download this data?**|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 |**Who can access this application?**|Public|Required|
-|**Licence**|Open Governement Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
+|**Licence**|Open Government Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
 |**Security Classification**|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
 |_**Preview Information**_|||
-|**Layer name**|Name of the layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
-|**Preview latitude**|Latitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
-|**Preview longitude**|Longitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
-|**Preview map service URL**|URL of map service for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
-|**Preview zoom level**|Zoom level for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
+|**Layer name**|Name of the layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview latitude**|Latitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview longitude**|Longitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview map service URL**|URL of map service for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview zoom level**|Zoom level for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
 |**Image URL**|_URL for non map service images| |
-|**Link to iMap**| |This link is autopopulated when a BCGW dataset is publically visisble in iMapBC|
+|**Link to iMap**| |This link is auto-populated when a BCGW dataset is publicly visible in iMapBC|
 |_**Geographic extent**_|||
-|**North**|60.0|This is the bounding box of the province and autopopulated for Geographic type resources|
-|**South**|48.0|This is the bounding box of the province and autopopulated for Geographic type resources.|
-|**East**|-113.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
-|**West**|-139.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
+|**North**|60.0|This is the bounding box of the province and auto-populated for Geographic type resources|
+|**South**|48.0|This is the bounding box of the province and auto-populated for Geographic type resources.|
+|**East**|-113.5|This is the bounding box of the province and auto-populated for Geographic type resources.|
+|**West**|-139.5|This is the bounding box of the province and auto-populated for Geographic type resources.|
 |**Spatial Datatype**|SDO_GEOMETRY|N/A|
 |_**Object Description**_|||
 |**Object Name**|_schema.table(view)_|This is use by Services tied to the BCGW|
 |**Column Name**||This is use by Services tied to the BCGW|
-|**Short Name**| |This is uneditable and autopopulated from metadata in the BCGW|
-|**Data Type**| |This is uneditable and autopopulated from metadata in the BCGW|
-|**Data Precision**| |This is uneditable and autopopulated from metadata in the BCGW|
-|**Comments**| |This is uneditable and autopopulated from metadata in the BCGW|
+|**Short Name**| |This is uneditable and auto-populated from metadata in the BCGW|
+|**Data Type**| |This is uneditable and auto-populated from metadata in the BCGW|
+|**Data Precision**| |This is uneditable and auto-populated from metadata in the BCGW|
+|**Comments**| |This is uneditable and auto-populated from metadata in the BCGW|
 
 
 ## HOW TO MANAGE METADATA RECORD RESOURCES
 
 1.  Log into the BC Data Catalogue.
-1.  Navigagte to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
+1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
 1. 	Click the **Resources** tab.
 1.  After making edits in the **Edit Metadata** tab, click the **Update Dataset** to save your changes.
 
@@ -224,7 +227,7 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 1.  Click the **Resources** tab.
 1. 	Click the **Manage BCGW Resource** button.
 1.	Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
-1.	Fill in the following details, where the update cycle is the manditory field:
+1.	Fill in the following details, where the update cycle is the mandatory field:
 	1.	**Resource Description** 
 	1.	**Resource Update Cycle**
 	1.	**Beginning Date**
@@ -233,7 +236,7 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 1.	Click the **Finish** button on the _Successfully added._ pop-up. 
 
 #### Automated BCGW Service resources
-Publicly visible datasets in the BCGW that are made availeble in iMapBC will also have WMS and KML created.
+Publicly visible datasets in the BCGW that are made available in iMapBC will also have WMS and KML created.
 * The addition of these resources is handled through an automated script.
 
 ### Editing the properties of an existing resource
@@ -247,15 +250,108 @@ On the main record page beside each Resource is an **Explore** button,
 1.   Click the **Update Resource** button to save your changes.
 
 ### Replacing an existing resource
-In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existingresource): 
+In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource): 
 1.  Click the **Remove** button at the end of the **File** URL.
 1.  Re-upload or provide a new link to your data.
 1.	Make any other edits needed to reflect the updated/new resource.
 1.  Click **Update Resource** to save your changes.
 
 ### Deleting an existing resource
-In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existingresource): 
+In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource): 
 1.   Click the **Delete** button at the bottom of the page. 
+
+## HOW TO USE THE CATALOGUE API TO MANAGE RECORDS AND RESOURCES
+**Name of the org:**
+
+To obtain the GUID sub-org it requires the title name of the org
+
+1. **Option 1**:
+	1. Navigate to a record you manage
+	1. Click on the live link of the sub-org or branch name
+	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
+1. **Option 2**:
+1. Open up the Catalogue Organizations tree
+1. Navigate and click on the sub-org/branch name
+1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
+
+**Your API Key**:
+1. Log into the Catalogue
+1. Click on your name in the upper right
+1. Bottom left corner is your personal API Key
+
+The following python syntax is used as an example from a specific organization
+
+### How to create a resource with the API
+```
+import ckanapi
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+resp = ckan.action.resource_create(
+        package_id='YOUR-PACKAGE-ID-HERE',
+        upload=open('/Users/Documents/test_resource_csv_upload.csv'),
+        resource_storage_location="Catalogue Data Store",
+        name="my-resource-name",
+        edc_resource_type="Data",
+        format="csv",
+        resource_update_cycle="monthly",
+        resource_storage_access_method="Direct Access")
+
+
+print(resp)
+```
+### How to update a resource with the API
+```
+import ckanapi
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+resp = ckan.action.resource_update(
+        id='RESOURCE-ID-TO-UPDATE-HERE',
+        upload=open('/Users/Documents/test_resource_csv_upload.csv'),
+        resource_storage_location="Catalogue Data Store",
+        name="my-resource-name-updated",
+        edc_resource_type="Data",
+        format="csv",
+        resource_update_cycle="monthly",
+        resource_storage_access_method="Direct Access")
+
+
+print(resp)
+```
+
+### How to get the organization ID with the organization name
+```
+import ckanapi
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+org = ckan.action.organization_show(id="information-management-cfd")
+print(org['name'], org['id'])
+```
+
+### How to get package names and package IDs within an organization
+```
+import ckanapi
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+pkgs = ckan.action.package_search(fq="owner_org:a1a9c5cc-b601-4190-b206-13ba08c54292",rows=1000)
+for pkg in pkgs['results']:
+    print(pkg['name'], pkg['id'])
+
+```
+
+### How to get the resource names and resource IDs withing a package
+```
+import ckanapi
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+pkg_data = ckan.action.package_show(id="b67255a7-8040-43c0-935c-d74f168af215")
+for resource in pkg_data['resources']:
+    print(resource['name'], resource['id'])
+```
 
 ## HOW TO PUBLISH A METADATA RECORD
 
@@ -273,7 +369,7 @@ Metadata records have a life cycle from Draft to Pending Publish to Published to
 		+ Data quality
 		+ Licence type
 	
-**Publiction timing**: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours, M-F 8:30 to 5pm.
+**Publication timing**: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours, M-F 8:30 to 5pm.
 
 The Catalogue team will validate the record and if all is in order will change the state to **Published** and you will be notified of this by email; or a Catalogue team member may contact you with questions about your record.
 
@@ -288,12 +384,26 @@ Data and metadata records have a life cycle that includes Archiving.
 		1. Add a link for a *Replacement Record*.
 			+ Often this is another record in the catalogue and recommend to use the replacement record's permalink.
 			+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
-	1.	**historicalArchive**, this then requires two additional fields that was part of a legacy coporate archival system.
+	1.	**historicalArchive**, this then requires two additional fields that was part of a legacy corporate archival system.
 		1.	**Retention Expiry Date**
 		1.	**Source Data Path**
 1.  Change the dataset **Record State**(first metadata element):
 	+ from **DRAFT** 
 	+ to **PENDING PUBLISH**.
+
+## PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
+The use of the BC Map Hub has a requirement for the creation of metadata alongside data and maps. The following documentation will assist in that process.
++ [Publication Request Form](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist_20180111.docx)
++ [Content Publication Guidelines](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_metadata_and_presentation_guidelines_20180809.docx)
++ [Tips and Tricks](https://www2.gov.bc.ca/assets/download/FC1CCC3FAC1D4ECE8557E44F54B1C3BC)
+
+## PUBLISHING API METADATA
++ Catalogue records for APIs can be viewed in the API Registry Catalogue Group
++ A Draft Catalogue record for the API is created through the API Registry process. This record will be visible to the DataBC Catalogue Services team.
++ To have this Catalogue record associated with the appropriate Custodian Organization, send the following information to the **CITZ ID DataBC Catalogue Services** team:
+	+ The title of the API
+	+ The name of the Custodian Organization (branch or division) responsible for the API
+	+ An approval by the Custodian Organization's Director or Executive Director for any new accounts required to manage Catalogue records for the organization.
 
 ## FREQUENTLY ASKED QUESTIONS
 ### FAQ Home Page
@@ -315,7 +425,7 @@ To create a group, the following information is required and can be sent to the 
 + Group visibility: Public or IDIR
 
 ### How to get an organization added or renamed
-Orginizations change names frequently and thus need continual maintenance.
+Organizations change names frequently and thus need continual maintenance.
 
 If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
@@ -324,6 +434,15 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 + List of data providers
 	+ Whenever an update to an sub-organization we ask that the members and contacts list be reviewed.
 	+ We can provide this.
+
+### How to request bulk changes to be done on behalf of an organization
++ Bulk changes can be requested of the Catalogue team when appropriate.
++ Bulk changes can be done by a user via the API
++ Bulk changes that are common:
+	+ Contact information
+	+ State Change
+	+ URL modifications for More Info and Resources
+
 
 [RETURN TO TOP][1]
 
