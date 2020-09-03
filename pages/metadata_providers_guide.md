@@ -13,11 +13,13 @@ Other DataBC Data Publication Platforms:
 	+ [Access Only](#Access-Only)
 	+ [Open Government Licence - British Columbia](#Open-Government-Licence---British-Columbia)
 	+ [Other Open Government Licences](#Other-Open-Government-Licences)
-	+ [Creating an Open Government Licence](#Creating-an-Open-Government-Licence)
+		+ [Creating an Open Government Licence](#Creating-an-Open-Government-Licence)
 + [**HOW TO CREATE A NEW METADATA RECORD**](#HOW-TO-CREATE-A-NEW-METADATA-RECORD)
 + [**HOW TO EDIT A METADATA RECORD**](#HOW-TO-EDIT-A-METADATA-RECORD)
 + [**HOW TO MANAGE METADATA RECORD RESOURCES**](#HOW-TO-MANAGE-METADATA-RECORD-RESOURCES)
 	+ [Adding a new resource](#Adding-a-new-resource)
+		+ [Adding a BCGW resource](#Adding-a-BCGW-resource)
+		+ [Automated BCGW Service resources](#Automated-BCGW-Service-resources)
 	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
 	+ [Replacing an existing resource](#Replacing-an-existing-resource)
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
@@ -206,7 +208,7 @@ Once in edit mode of the record:
 
 *   Additional resources can be added by clicking **Add** and repeating the process above.
 	
-#### BC Geographic Warehouse datasets (spatial or none)
+#### Adding a BCGW resource
 Ensure that on the main metadata details page has the list of the BCGW object schema and name, e.g, _schema.table_.
 
 1.  Click the **Resources** tab.
@@ -220,6 +222,9 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 1.	Click the **Save** button.
 1.	Click the **Finish** button on the _Successfully added._ pop-up. 
 
+#### Automated BCGW Service resources
+Publicly visible datasets in the BCGW that are made availeble in iMapBC will also have WMS and KML created.
+* The addition of these resources is handled through an automated script.
 
 ### Editing the properties of an existing resource
 There are two ways to edit a resource, one is to click the **Resources** tab, but the follow is the simplest method:
