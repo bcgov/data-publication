@@ -22,7 +22,7 @@ Other DataBC Data Publication Platforms:
 	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
 	+ [Replacing an existing resource](#Replacing-an-existing-resource)
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
-+ [**HOW TO USE THE CATALOGUE API TO MANAGE RECORDS AND RESOURCES**](#HOW-TO-USE-THE-CATALOGUE-API-TO-MANAGE-RECORDS-AND-RESOURCES)
++ [**HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API**](#HOW-TO-MANAGE-METADATA-RECORDS-AND-RESOURCES-USING-THE-CATALOGUE-API)
 	+ [How to create a resource with the API](#How-to-create-a-resource-with-the-API)
 	+ [How to update a resource with the API](#How-to-update-a-resource-with-the-API)
 	+ [How to get the organization ID with the organization name](#How-to-get-the-organization-ID-with-the-organization-name)
@@ -274,7 +274,7 @@ In the edit mode on a resource as outlined in [editing the properties section ab
 In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource):
 1.   Click the **Delete** button at the bottom of the page. 
 
-## HOW TO USE THE CATALOGUE API TO MANAGE RECORDS AND RESOURCES
+## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 **Name of the org:**
 
 To obtain the GUID sub-org it requires the title name of the org
