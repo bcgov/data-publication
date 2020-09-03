@@ -25,7 +25,9 @@ This document provides a set of standards, guidelines, and procedures around loa
 	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
 	+ [Replacing an existing resource](#Replacing-an-existing-resource)
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
-+ [**HOW TO PUBLISH A METADATA RECORD **](#HOW-TO-PUBLISHA-METADATA-RECORD)
++ [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISH-A-METADATA-RECORD)
++ [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVE-A-METADATA-RECORD)
++ [**FAQ**](#FAQ)
 -----------------------
 
 # Audience
@@ -204,65 +206,75 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Comments**| |This is uneditable and autopopulated from metadata in the BCGW|
 
 
-
-## HOW TO EDIT A METADATA RECORD
-
-1.   Log into the BC Data Catalogue.
-1.   Navigagte to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
-1.   After making edits in the **Edit Metadata** tab, click **Update Dataset** to save your changes.
-
-*   To add or manage data resources, see **_[How to manage metadata record data resources](https://www2.gov.bc.ca/gov/content/data/bc-data-catalogue/bc-data-catalogue-about/bc-data-catalogue-user-guide#how-to-manage-record-resources)_**.
-
-
-
 ## HOW TO MANAGE METADATA RECORD RESOURCES
 
-*   Log into the BC Data Catalogue.
-*   Locate the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-*   Select the "Resources" tab.
+1.  Log into the BC Data Catalogue.
+1.  Navigagte to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
+1. 	Click the **Resources** tab.
+1.  After making edits in the **Edit Metadata** tab, click **Update Dataset** to save your changes.
 
 ### Adding a new resource
+Once in edit mode of the record:
 
-*   Click the "Add New Resource" button.
-*   Upload or provide a link to your data and provide information about the data resource.
-    *   **Upload**: To upload a file, e.g., CSV, directly into the Catalogue, click the **Upload** button and select the file to upload from your local computer.
-    *   **Link**: To link to a file stored elsewhere, e.g., a website or FTP site, click **Link **and enter the URL of the file.
-	
-*	For BC Geographic Warehouse datasets (spatial or none)
-1. Click on
+1.	Click the **+ Add new resource** button.
+1.  Fill in the required fields
+1.	Upload or provide a link to your data and provide information about the data resource.
+    1.   **Upload**: To upload a file, e.g., CSV, directly into the Catalogue, click the **Upload** button and select the file to upload from your local computer.
+    1.   **Link**: To link to a file stored elsewhere, e.g., a website or FTP site, click **Link **and enter the URL of the file.
 
 **Note: Only files less than 150MB in size can be uploaded to the Catalogue.**
 
-**Note: If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere. **
+**Note: If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.**
 
 *   Complete the resource metadata.  Mandatory fields are marked with an *.
 *   Additional resources can be added by clicking **Add** and repeating the process above.
+	
+#### BC Geographic Warehouse datasets (spatial or none)
+Ensure that on the main metadata details page has the list of the BCGW object schema and name, e.g, _schema.table_.
+
+1.  Click the **Resources** tab.
+1. 	Click the **Manage BCGW Resource button**.
+1.	Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
+1.	Fill in the following details, where the update cycle is the manditory field:
+	1.	**Resource Description** 
+	1.	** * Resource Update Cycle**
+	1.	**Beginning Date**
+	1.	**End Date**
+1.	Click the **Save** button.
+1.	Click the **Finish** button on the _Successfully added._ pop-up. 
+
 
 ### Editing the properties of an existing resource
+There are two ways to edit a resource, one is to click on the **Resources** tab, but the follow is the simplest method:
 
-*   Click the **Manage** button to edit the resource.
-*   Make edits.
-*   Click **Update Resource** to save your changes.
+On the main record page beside each Resource is an **Explore** button,
+
+1.  Click the **Explore** drop down button 
+1.	Click the *Edit** option to edit the resource.
+1.  Make edits that follow the recommendations outlined in the (creating a record section)(#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
+1.   Click the **Update Resource** button to save your changes.
+
+1.   Click the **Manage** button to edit the resource.
+1.   Make edits that follow the recommendations outlined in the (creating a record section)(#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
+1.   Click the **Update Resource** button to save your changes.
 
 ### Replacing an existing resource
-
-*   Click the **Manage** button to edit the resource.
-*   Click on the **Remove** button at the end of the **File** URL.
-*   Re-upload or provide a new link to your data.
-*   Click **Update Resource** to save your changes.
+In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existingresource): 
+1.  Click on the **Remove** button at the end of the **File** URL.
+1.  Re-upload or provide a new link to your data.
+1.	Make any other edits needed to reflect the updated/new resource.
+1.  Click **Update Resource** to save your changes.
 
 ### Deleting an existing resource
-
-*   Click the **Manage** button to edit the resource. 
-*   Scroll to the bottom of the page and click **Delete** to remove the resource.
-
+In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existingresource): 
+1.   Click the **Delete** button at the bottom of the page. 
 
 ## HOW TO PUBLISH A METADATA RECORD
 
 Metadata records have a life cycle from Draft to Pending Publish to Published to Pending Archive to Archived.
 
 *   Log into the Catalogue.
-*   Locate the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
+*   Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
 *   Change the dataset record state to **Pending Publish**.
 *   Click **Update Dataset**.
 	+ This will then send an email to the Catalogue team that you are ready to publish the record.
@@ -274,6 +286,7 @@ The Catalogue team will validate the record and if all is in order will change 
 ## HOW TO ARCHIVE A METADATA RECORD
 
 ## FAQ
+[_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
 
 [RETURN TO TOP][1]
 
