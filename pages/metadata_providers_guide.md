@@ -2,15 +2,13 @@
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC) under the DataBC Program:
 
-Other Publication Platforms:
+Other DataBC Data Publication Platforms:
 + [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
 + [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
 
 -----------------------
 ## Table of Contents
 + [**HOW TO BECOME A PROVIDER**](#HOW-TO-BECOME-A-PROVIDER)
-+ [**HOW TO REQUEST A GROUP**](#HOW-TO-REQUEST-A-GROUP)
-+ [**HOW TO GET AN ORGANIZATION ADDED OR RENAMED**](#HOW-TO-GET-AN-ORGANIZATION-ADDED-OR-RENAMED)
 + [**WHICH LICENCE TO USE**](#WHICH-LICENCE-TO-USE)
 	+ [Access Only](#Access-Only)
 	+ [Open Government Licence - British Columbia](#Open-Government-Licence---British-Columbia)
@@ -25,7 +23,9 @@ Other Publication Platforms:
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
 + [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISH-A-METADATA-RECORD)
 + [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVE-A-METADATA-RECORD)
-+ [**FAQ**](#FAQ)
++ [**FEQUENTLY ASKED QUESTIONS**](#FEQUENTLY-ASKED-QUESTIONS)
+	+ [**How to request a group**](#How-to-request-a-group)
+	+ [**How to get an organization added or renamed**](#How-to-get-an-organization-added-or-renamed)
 -----------------------
 
 # Audience
@@ -50,32 +50,6 @@ The contents of this space is to assist data and metadata providers.
 + The Broader Public Sector (BPS) may publish metadata records and data to the Catalogue but for Open Data do require their own licence. To do so contact data@gov.bc.ca to start the discussion and see [how to create an Open Government Licence](#Creating-an-Open-Government_Licence).
 
 + As a Steward on behalf of another organization to become a provider, authorization is requried from the custodian of the Branch or Division.
-
-## HOW TO REQUEST A GROUP
-Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
-+ These are not intended to replace a full listing of records for an sub-organization.
-+ Groups by default are public but a request them to be visible to IDIR only can be made.
-
-To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
-
-**Requirements:**
-+ Group Name:
-+ Group Description:
-+ URL: _for more information_
-+ Image: _either a file or url_
-+ Members: _list of IDIRs who will maintain the Group_
-+ Group visibility: Public or IDIR
-
-## HOW TO GET AN ORGANIZATION ADDED OR RENAMED
-Orginizations change names frequently and thus need continual maintenance.
-
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
-
-+ Old name
-+ New name
-+ List of data providers
-	+ Whenever an update to an sub-organization we ask that the members and contacts list be reviewed.
-	+ We can provide this.
 
 ## WHICH LICENCE TO USE
 
@@ -305,8 +279,35 @@ Data and metadata records have a life cycle that includes Archiving.
 1.  Change the dataset **Record State**(first metadata element):
 	+ from **DRAFT** 
 	+ to **PENDING PUBLISH**.
-## FAQ
+
+## FREQUENTLY ASKED QUESTIONS
 [_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
+
+### How to request a group
+Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
++ These are not intended to replace a full listing of records for an sub-organization.
++ Groups by default are public but a request them to be visible to IDIR only can be made.
+
+To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+
+**Requirements:**
++ Group Name:
++ Group Description:
++ URL: _for more information_
++ Image: _either a file or url_
++ Members: _list of IDIRs who will maintain the Group_
++ Group visibility: Public or IDIR
+
+### How to get an organization added or renamed
+Orginizations change names frequently and thus need continual maintenance.
+
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+
++ Old name
++ New name
++ List of data providers
+	+ Whenever an update to an sub-organization we ask that the members and contacts list be reviewed.
+	+ We can provide this.
 
 [RETURN TO TOP][1]
 
