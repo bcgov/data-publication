@@ -128,7 +128,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 	1. **Versioning** change:
 		+ _‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information.’_ to
 		+ _‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information.’_
-	1. **Note: remove section on BC Government Copyright or whole line: 
+	1. **Note**: remove section on BC Government Copyright or whole line: 
 		+ _'Note: as per B.C. Government Copyright, the following licence only applies to records in the B.C. Data Catalogue that specify it.'_
 1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
@@ -374,14 +374,14 @@ Metadata records have a life cycle from Draft to Pending Publish to Published to
 1.   Log into the Catalogue.
 1.   Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
 1.   Change the dataset **Record State**(first metadata element):
-	+ from **DRAFT** 
-	+ to **PENDING PUBLISH**.
+		+ from **DRAFT**
+		+ to **PENDING PUBLISH**.
 1.   Click the **Update Dataset**.
-	+ This will then send an email to the Catalogue team that you are ready to publish the record.
-	+ The record will be reviewed for:
-		+ Completeness
-		+ Data quality
-		+ Licence type
+		+ This will then send an email to the Catalogue team that you are ready to publish the record.
+		+ The record will be reviewed for:
+			+ Completeness
+			+ Data quality
+			+ Licence type
 	
 **Publication timing**: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours, M-F 8:30 to 5pm.
 
@@ -395,7 +395,7 @@ Data and metadata records have a life cycle that includes Archiving.
 1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
 1.	Scroll down to **Resource Status** and change this to either:
 	1.  **obsolete** and
-		1. Add a link for a *Replacement Record*.
+		1. Add a link for a **Replacement Record**.
 			+ Often this is another record in the catalogue and recommend to use the replacement record's permalink.
 			+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
 	1.	**historicalArchive**, this then requires two additional fields that was part of a legacy corporate archival system.
