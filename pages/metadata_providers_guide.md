@@ -18,7 +18,7 @@ Other DataBC Data Publication Platforms:
 + [**HOW TO MANAGE METADATA RECORD RESOURCES**](#HOW-TO-MANAGE-METADATA-RECORD-RESOURCES)
 	+ [Adding a new resource](#Adding-a-new-resource)
 		+ [Adding a BCGW resource](#Adding-a-BCGW-resource)
-		+ [Automated BCGW Service resources](#Automated-BCGW-Service-resources)
+		+ [Automated BCGW WMS and KML resources](#Automated-BCGW-WMS-and-KML-resources)
 	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
 	+ [Replacing an existing resource](#Replacing-an-existing-resource)
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
@@ -152,7 +152,8 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
 
-*  Mandatory fields are marked with an *.
+* Mandatory fields are marked with an *.
+* Not all fields are included for each resource type. For a full list see [the table here:](https://github.com/bcgov/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE)
 
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
@@ -249,7 +250,7 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 1.	Click the **Save** button.
 1.	Click the **Finish** button on the _Successfully added._ pop-up.
 
-#### Automated BCGW Service resources
+#### Automated BCGW WMS and KML resources
 Publicly visible datasets in the BCGW that are made available in iMapBC will also have WMS and KML created.
 * The addition of these resources is handled through an automated script.
 
