@@ -11,7 +11,9 @@ This document provides a set of standards, guidelines, and procedures around loa
 -----------------------
 ## Table of Contents
 + 	[**HOW TO BECOME A PROVIDER**](#how-to-become-a-provider)
-+   [**HOW TO REQUEST A GROUP**]()
++ 	[**HOW TO BECOME A PROVIDER AS A STEWARD FOR ANOTHER ORGANIZATION**](#how-to-become-a-provider-as-a-steward-for-another-organization)
++ 	[**How to get an organization added or renamed](#)
++   [**HOW TO REQUEST A GROUP**](#how-to-request-a-group)
 +   [**WHICH LICENCE TO USE**](#which-licence-to-use)
 +   [**HOW TO CREATE A NEW METADATA RECORD**](#how-to-create-record)
 +   [**HOW TO EDIT A METADATA RECORD**](how-to-edit-record)
@@ -38,12 +40,40 @@ The contents of this space are provided as a set of
 -----------------------------------------------------------
 
 ## How to become a provider
++ To be come a Catalogue editor/publisher for a Custodial organization, approval from that branch or division's Director or Executive Director is required.
+
++ This approval, along with the name of the Branch or Division and list of new editors is then forwarded to the DataBC Catalogue Services team or by emailing data@gov.bc.ca.
+
++ The Broader Public Sector (BPS) may publish metadata records and data to the Catalogue but for Open Data do require their own licence. To do so contact data@gov.bc.ca to start the discussion and see [how to create an Open Government Licence](#Creating-an-Open-Government_Licence).
 
 ## How to become a provider as a steward for another organization
++ As with any data provider, authorization is requried from the custodian of the Branch or Division.
 
 ## How to request a group
+Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
++ These are not intended to replace a full listing of records for an sub-organization.
++ Groups by default are public but a request them to be visible to IDIR only can be made.
+
+To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+
+**Requirements:**
++ Group Name:
++ Group Description:
++ URL: _for more information_
++ Image: _either a file or url_
++ Members: _list of IDIRs who will maintain the Group_
++ Group visibility: Public or IDIR
 
 ## How to get an organization added or renamed
+Orginizations change names frequently and thus need continual maintenance.
+
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+
++ Old name
++ New name
++ List of data providers
+	+ Whenever an update to an sub-organization we ask that the members and contacts list be reviewed.
+	+ We can provide this.
 
 ## Which licence to use
 
@@ -102,22 +132,23 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 1. 	Click the [Add Dataset](https://catalogue.data.gov.bc.ca/dataset/add) button.
 1.   Choose a dataset type from one of the four types available that best fits your data, service or application.
 
-	|Dataset Type|Description|Requirements|
-	|:---|:---|:---:|
-	|Dataset| These are tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.| |
-	|Geographic Dataset|This is data that contains geospatial information along with other data.  Additional geospatial metadata elements are available to be populated, e.g., spatial reference system.|Must be used for all BCGW Datasets|
-	|Application Dataset|Metadata records in this category describe applications that are available for use.  Applications provide access to data.| |
-	|Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
+|Dataset Type|Description|Requirements|
+|:---|:---|:---:|
+|Dataset| These are tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.| |
+|Geographic Dataset|This is data that contains geospatial information along with other data.  Additional geospatial metadata elements are available to be populated, e.g., spatial reference system.|Must be used for all BCGW Datasets|
+|Application Dataset|Metadata records in this category describe applications that are available for use.  Applications provide access to data.| |
+|Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
 1.  Click the *Create Dataset* button.
 1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better. Mandatory fields are marked with an *.
-1.   After filling in the details in the **Create dataset** tab, click **Next: Add Data** to save your changes.
+1.  After filling in the details in the **Create dataset** tab.
+1.	Click the **Next: Add Data** to save your changes.
 
 _**Dataset**_
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
-|**State**|DRAFT|This changes the state of the publication workflow.|
-|**Title**|should be written in a way the general public can understand|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
+|**State**|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
+|**Title**|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
 |**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
 |**Organization**|Ministry of Citizen Services|Required|
 |**Sub-Organization**|DataBC|Required|
