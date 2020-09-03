@@ -1,11 +1,9 @@
 # PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE
 
-This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served by the DataBC Program's access channels, which are:
+This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC) under the DataBC Program:
+
+Other Publication Platforms:
 + [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
-   + [_iMapBC_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
-   + [_Data Download Services_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
-+ [_The BC Data Catalogue (BCDC)_](https://catalogue.data.gov.bc.ca)
-+ [_Web Map and Feature Services (WMS/WFS)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services)
 + [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
 
 -----------------------
@@ -32,7 +30,7 @@ This document provides a set of standards, guidelines, and procedures around loa
 
 # Audience
 
-This document is meant for people who want to make metadata and data available through the BC Data Catalogue (BCDC), which is part of the DataBC Program. It does not contain any DataBC Program internal operational information.
+This document is meant for people who want to make metadata and data available through the BC Data Catalogue (BCDC). It does not contain any DataBC Program internal operational information.
 
 For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages. 
 
@@ -40,7 +38,7 @@ Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@go
 
 # Purpose
 
-The contents of this space are provided as a set of 
+The contents of this space is to assist data and metadata providers.
   
 -----------------------------------------------------------
 
@@ -82,11 +80,14 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 ## WHICH LICENCE TO USE
 
 ### Access Only
-_Access only_ is the standard and is [restrictive](https://www2.gov.bc.ca/gov/content/home/copyright). 
+_Access only_ is the standard and is a statement of use that is restrictive as defined in the [Crown Copyright Page](https://www2.gov.bc.ca/gov/content/home/copyright). 
++ 	Access only: "reproduction is not permitted without written permission."
++ 	A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it.
 
 ### Open Government Licence - British Columbia
 
 Whenever possible we recommend data be published under an Open Government Licence which is much more permissive.
+* Some tools require this licence to be applied , like Shiny.
 
 + 	[Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
 
@@ -144,10 +145,11 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
 1.  Click the **Create Dataset** button.
-1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better. Mandatory fields are marked with an *.
+1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better.
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
 
+*  Mandatory fields are marked with an *.
 
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
@@ -228,7 +230,6 @@ Once in edit mode of the record:
 
 **Note: If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.**
 
-*   Complete the resource metadata.  Mandatory fields are marked with an *.
 *   Additional resources can be added by clicking **Add** and repeating the process above.
 	
 #### BC Geographic Warehouse datasets (spatial or none)
