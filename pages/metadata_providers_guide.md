@@ -130,10 +130,10 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 ## HOW TO CREATE A NEW METADATA RECORD
 
-1.   Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset) with the *Log in* button the upper right.
+1.   Click the **Log in** button the upper right to log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset).
 	+ This will take you to your dashboard that may or may be useful for you.
-1.   Click on the *Datasets* button on the toolbar or navigate to [Datasets](https://catalogue.data.gov.bc.ca/dataset) page. 
-1. 	Click the [Add Dataset](https://catalogue.data.gov.bc.ca/dataset/add) button.
+1.   Click the **Datasets** button on the toolbar or navigate to [Datasets](https://catalogue.data.gov.bc.ca/dataset) page. 
+1. 	Click the [**Add Dataset**](https://catalogue.data.gov.bc.ca/dataset/add) button.
 1.   Choose a dataset type from one of the four types available that best fits your data, service or application.
 
 |Dataset Type|Description|Requirements|
@@ -143,7 +143,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |Application Dataset|Metadata records in this category describe applications that are available for use.  Applications provide access to data.| |
 |Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
-1.  Click the *Create Dataset* button.
+1.  Click the **Create Dataset** button.
 1.	Fill in all [manditory fields](https://github.com/pumapants/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non manditory fields as well to assist the users to understand and use the data better. Mandatory fields are marked with an *.
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
@@ -151,7 +151,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
-|---|_**Dataset**_|---|
+|_**Dataset**_|---|---|
 |**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
 |**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
 |**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
@@ -161,29 +161,29 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Purpose**|_summary of the intentions for which the dataset was developed_|Include more information about a record will aid users and allow for more self serve of information.|
 |**Data Quality**|_descriptive text that can include info about issues, completeness, consistency, etc._|Include more information about a record will aid users and allow for more self serve of information.|
 |**Lineage Statement**|_information about the events or source data used in constructing the data_|Include more information about a record will aid users and allow for more self serve of information.|
-|**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then hit the **Copy** button.|
+|**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then click the **Copy** button.|
 |**Keywords**|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or accronyms.|
 |**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
 |Data Element|Example(s)|Recommendations|
-|---|_**Contact**_|---|
+|_**Contact**_|---|---|
 |**Name**|_contact's first and last name_|This may a name for a generic inbox.|
 |**Email**|_someone@somewhere.ca_|This may be the email of a generic inbox.|
 |**Organization**|Ministry of Citizen Services|The organization or ministry the contact is from.|
 |**Sub-Organization**|DataBC|The sub-organization, branch or program area the contact is from.|
 |**Role**|pointOfContact|Most often this is set to pointOfContact. Custodian is reserved for the Director or a Executive Director of a branch.|
 |**Contact Displayed**|Yes|Set to Yes when the contact is to be visisble to the public. No, allows the contact to only be visible when logged in.|
-|---|_**Data Currency / Update**_|---|
+|_**Data Currency / Update**_|---|---|
 |**Resource Status**|planned|Describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data.<br> Multiple dates can be added to track the progress of the data.|
 |**Data Type**|Created, Published||
 |**Date**|_YYYY-MM-DD_||
-|---|_**Access & Security**_|---|
+|_**Access & Security**_|---|---|
 |**Who can view this data?**|Public|This is intended to be who can view the data in a web application.<br>For data in the BCGW, this refers to the security applied to in iMapBC.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 |**Who can view this record?**|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
 |**Who can download this data?**|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 |**Who can access this application?**|Public|Required|
 |**Licence**|Open Governement Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
 |**Security Classification**|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
-|---|_**Preview Information**_|---|
+|_**Preview Information**_|---|---|
 |**Layer name**|Name of the layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
 |**Preview latitude**|Latitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
 |**Preview longitude**|Longitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
@@ -191,13 +191,13 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Preview zoom level**|Zoom level for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
 |**Image URL**|_URL for non map service images| |
 |**Link to iMap**| |This link is autopopulated when a BCGW dataset is publically visisble in iMapBC|
-|---|_**Geographic extent**_|---|
+|_**Geographic extent**_|---|---|
 |**North**|60.0|This is the bounding box of the province and autopopulated for Geographic type resources|
 |**South**|48.0|This is the bounding box of the province and autopopulated for Geographic type resources.|
 |**East**|-113.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
 |**West**|-139.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
 |**Spatial Datatype**|SDO_GEOMETRY|N/A|
-|---|_**Object Description**_|---|
+|_**Object Description**_|---|---|
 |**Object Name**|_schema.table(view)_|This is use by Services tied to the BCGW|
 |**Column Name**||This is use by Services tied to the BCGW|
 |**Short Name**| |This is uneditable and autopopulated from metadata in the BCGW|
@@ -219,8 +219,10 @@ Once in edit mode of the record:
 1.	Click the **+ Add new resource** button.
 1.  Fill in the required fields
 1.	Upload or provide a link to your data and provide information about the data resource.
-    1.   **Upload**: To upload a file, e.g., CSV, directly into the Catalogue, click the **Upload** button and select the file to upload from your local computer.
-    1.   **Link**: To link to a file stored elsewhere, e.g., a website or FTP site, click **Link **and enter the URL of the file.
+    1.   **Upload**: To upload a file, e.g., CSV, directly into the Catalogue,
+		1.	Click the **Upload** button and select the file to upload from your local computer.
+    1.   **Link**: To link to a file stored elsewhere, e.g., a website or FTP site,
+		1. Click the **Link** button and enter the URL of the file.
 
 **Note: Only files less than 150MB in size can be uploaded to the Catalogue.**
 
@@ -233,11 +235,11 @@ Once in edit mode of the record:
 Ensure that on the main metadata details page has the list of the BCGW object schema and name, e.g, _schema.table_.
 
 1.  Click the **Resources** tab.
-1. 	Click the **Manage BCGW Resource button**.
+1. 	Click the **Manage BCGW Resource** button.
 1.	Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
 1.	Fill in the following details, where the update cycle is the manditory field:
 	1.	**Resource Description** 
-	1.	** * Resource Update Cycle**
+	1.	* **Resource Update Cycle**
 	1.	**Beginning Date**
 	1.	**End Date**
 1.	Click the **Save** button.
