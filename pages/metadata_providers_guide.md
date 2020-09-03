@@ -25,8 +25,9 @@ Other DataBC Data Publication Platforms:
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
 + [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISH-A-METADATA-RECORD)
 + [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVE-A-METADATA-RECORD)
-+ [**FEQUENTLY ASKED QUESTIONS**](#FEQUENTLY-ASKED-QUESTIONS)
-	+ [**How to request a group**](#How-to-request-a-group)
++ [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
+	+ [**FAQ Home Page**](#FAQ-Home-Page)
+	+ [**How to request a Group be created**](#How-to-request-a-Group-be-created)
 	+ [**How to get an organization added or renamed**](#How-to-get-an-organization-added-or-renamed)
 -----------------------
 
@@ -295,9 +296,10 @@ Data and metadata records have a life cycle that includes Archiving.
 	+ to **PENDING PUBLISH**.
 
 ## FREQUENTLY ASKED QUESTIONS
+### FAQ Home Page
 [_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
 
-### How to request a group
+### How to request a Group be created
 Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
 + These are not intended to replace a full listing of records for an sub-organization.
 + Groups by default are public but a request them to be visible to IDIR only can be made.
