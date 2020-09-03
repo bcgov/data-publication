@@ -10,19 +10,22 @@ This document provides a set of standards, guidelines, and procedures around loa
 
 -----------------------
 ## Table of Contents
-+ 	[**HOW TO BECOME A PROVIDER**](#how-to-become-a-provider)
-+ 	[**HOW TO BECOME A PROVIDER AS A STEWARD FOR ANOTHER ORGANIZATION**](#how-to-become-a-provider-as-a-steward-for-another-organization)
-+ 	[**How to get an organization added or renamed](#)
-+   [**HOW TO REQUEST A GROUP**](#how-to-request-a-group)
-+   [**WHICH LICENCE TO USE**](#which-licence-to-use)
-+   [**HOW TO CREATE A NEW METADATA RECORD**](#how-to-create-record)
-+   [**HOW TO EDIT A METADATA RECORD**](how-to-edit-record)
-+   [**HOW TO MANAGE METADATA RECORD RESOURCES**](#how-to-manage-record-resources)
-+   [**HOW TO PUBLISH A METADATA RECORD**](#how-to-publish-record)
-+   [**HOW TO PUBLISH UNDER THE BC OPEN DATA LICENCE**]()
-+   [**HOW TO ARCHIVE A METADATA RECORD**]()
-+   [**FREQUENTLY ASKED QUESTIONS**]()
-
++ [**HOW TO BECOME A PROVIDER**](#HOW-TO-BECOME-A-PROVIDER)
++ [**HOW TO REQUEST A GROUP**](#HOW-TO-REQUEST-A-GROUP)
++ [**HOW TO GET AN ORGANIZATION ADDED OR RENAMED**](#HOW-TO-GET-AN-ORGANIZATION-ADDED-OR-RENAMED)
++ [**WHICH LICENCE TO USE**](#WHICH-LICENCE-TO-USE)
+	+ [Access Only](#Access-Only)
+	+ [Open Government Licence - British Columbia](#Open-Government-Licence---British-Columbia)
+	+ [Other Open Government Licences](#Other-Open-Government-Licences)
+	+ [Creating an Open Government Licence](#Creating-an-Open-Government-Licence)
++ [**HOW TO CREATE A NEW METADATA RECORD**](#HOW-TO-CREATE-A-NEW-METADATA-RECORD)
++ [**HOW TO EDIT A METADATA RECORD**](#HOW-TO-EDIT-A-METADATA-RECORD)
++ [**HOW TO MANAGE METADATA RECORD RESOURCES**](#HOW-TO-MANAGE-METADATA-RECORD-RESOURCES)
+	+ [Adding a new resource](#Adding-a-new-resource)
+	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
+	+ [Replacing an existing resource](#Replacing-an-existing-resource)
+	+ [Deleting an existing resource](#Deleting-an-existingresource)
++ [**HOW TO PUBLISH A METADATA RECORD **](#HOW-TO-PUBLISHA-METADATA-RECORD)
 -----------------------
 
 # Audience
@@ -39,17 +42,16 @@ The contents of this space are provided as a set of
   
 -----------------------------------------------------------
 
-## How to become a provider
+## HOW TO BECOME A PROVIDER
 + To be come a Catalogue editor/publisher for a Custodial organization, approval from that branch or division's Director or Executive Director is required.
 
 + This approval, along with the name of the Branch or Division and list of new editors is then forwarded to the DataBC Catalogue Services team or by emailing data@gov.bc.ca.
 
 + The Broader Public Sector (BPS) may publish metadata records and data to the Catalogue but for Open Data do require their own licence. To do so contact data@gov.bc.ca to start the discussion and see [how to create an Open Government Licence](#Creating-an-Open-Government_Licence).
 
-## How to become a provider as a steward for another organization
-+ As with any data provider, authorization is requried from the custodian of the Branch or Division.
++ As a Steward on behalf of another organization to become a provider, authorization is requried from the custodian of the Branch or Division.
 
-## How to request a group
+## HOW TO REQUEST A GROUP
 Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
 + These are not intended to replace a full listing of records for an sub-organization.
 + Groups by default are public but a request them to be visible to IDIR only can be made.
@@ -64,7 +66,7 @@ To create a group, the following information is required and can be sent to the 
 + Members: _list of IDIRs who will maintain the Group_
 + Group visibility: Public or IDIR
 
-## How to get an organization added or renamed
+## HOW TO GET AN ORGANIZATION ADDED OR RENAMED
 Orginizations change names frequently and thus need continual maintenance.
 
 If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
@@ -75,7 +77,7 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 	+ Whenever an update to an sub-organization we ask that the members and contacts list be reviewed.
 	+ We can provide this.
 
-## Which licence to use
+## WHICH LICENCE TO USE
 
 ### Access Only
 _Access only_ is the standard and is [restrictive](https://www2.gov.bc.ca/gov/content/home/copyright). 
@@ -124,7 +126,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 	1. Remove: ‘Note’ line re: copyright can be removed
 1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
-## How to create a new metadata record
+## HOW TO CREATE A NEW METADATA RECORD
 
 1.   Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset) with the *Log in* button the upper right.
 	+ This will take you to your dashboard that may or may be useful for you.
@@ -219,7 +221,7 @@ _**Object Description**_
 
 
 
-## How to edit a metadata record
+## HOW TO EDIT A METADATA RECORD
 
 1.   Log into the BC Data Catalogue.
 1.   Navigagte to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
@@ -229,7 +231,7 @@ _**Object Description**_
 
 
 
-## How to manage metadata record resources
+## HOW TO MANAGE METADATA RECORD RESOURCES
 
 *   Log into the BC Data Catalogue.
 *   Locate the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
@@ -271,7 +273,7 @@ _**Object Description**_
 *   Scroll to the bottom of the page and click **Delete** to remove the resource.
 
 
-## How to publish a metadata record 
+## HOW TO PUBLISH A METADATA RECORD 
 
 Metadata records have a life cycle from Draft to Pending Publish to Published to Pending Archive to Archived.
 
