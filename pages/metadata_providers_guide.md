@@ -146,9 +146,10 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
 
-_**Dataset**_
+
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
+|**Dataset**|
 |**State**|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
 |**Title**|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
 |**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
@@ -161,10 +162,9 @@ _**Dataset**_
 |**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then hit the **Copy** button.|
 |**Keywords**|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or accronyms.|
 |**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
-
-_**Contact**_
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
+|_**Contact**_|
 |**Name**|_contact's first and last name_|This may a name for a generic inbox.|
 |**Email**|_someone@somewhere.ca_|This may be the email of a generic inbox.|
 |**Organization**|Ministry of Citizen Services|The organization or ministry the contact is from.|
@@ -273,7 +273,7 @@ _**Object Description**_
 *   Scroll to the bottom of the page and click **Delete** to remove the resource.
 
 
-## HOW TO PUBLISH A METADATA RECORD 
+## HOW TO PUBLISH A METADATA RECORD
 
 Metadata records have a life cycle from Draft to Pending Publish to Published to Pending Archive to Archived.
 
@@ -286,3 +286,16 @@ Metadata records have a life cycle from Draft to Pending Publish to Published to
 Publicaiton timing: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours.
 
 The Catalogue team will validate the record and if all is in order will change the state to **Published** and you will be notified of this by email; or a Catalogue team member may contact you with questions about your record.
+
+## HOW TO ARCHIVE A METADATA RECORD
+
+## FAQ
+
+[RETURN TO TOP][1]
+
+[RETURN TO PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE][2]
+
+-------------------------------------------------------
+
+[1]: #publishing-data-to-the-databc-program
+[2]: publishing-data-to-databc.md#publishing-data-to-the-databc-program
