@@ -49,14 +49,14 @@ The Catalogue is available as a platform to host and share data and metadata for
 
 However there may be data and metadata associated with other organizations that has been catalogued by a member of either of the above groups.
 
-For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages. 
+For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages.
 
 Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
 
 # Purpose
 
 The contents of this space is to assist data and metadata providers.
-  
+
 -----------------------------------------------------------
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
@@ -71,7 +71,7 @@ The contents of this space is to assist data and metadata providers.
 ## WHICH LICENCE TO USE
 
 ### Access Only
-_Access only_ is the standard and is a statement of use that is restrictive as defined in the [Crown Copyright Page](https://www2.gov.bc.ca/gov/content/home/copyright). 
+_Access only_ is the standard and is a statement of use that is restrictive as defined in the [Crown Copyright Page](https://www2.gov.bc.ca/gov/content/home/copyright).
 + 	Access only: "reproduction is not permitted without written permission."
 + 	A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it.
 
@@ -83,7 +83,7 @@ Whenever possible we recommend data be published under an Open Government Licenc
 + 	[Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
 
 + 	[Open Data Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
-    
+
 + 	[Open Data - Physical Datasets](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf) is a list of open format file. This document is slated for update as there are other modern open formats.
 
 + 	[Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)
@@ -116,19 +116,19 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 	+ examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
 1. Modify the identified text to personalize it for your org
 	1. **Licence Name** change:
-		+ _‘Open Government License – British Columbia’_ to 
+		+ _‘Open Government License – British Columbia’_ to
 		+ _‘Open Government License – BC Oil and Gas Commission’_
 			+ This name should be the same that is found on the BC List of Agencies, Crown Corps, etc
-	1. Change line: 
-		+ _‘Contains information licensed under the Open Government Licence – British Columbia.’_ to 
+	1. Change line:
+		+ _‘Contains information licensed under the Open Government Licence – British Columbia.’_ to
 		+ _‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission’_.
 	1. **Information Provider** change:
-		+_‘means Her Majesty the Queen in right of the Province of British Columbia.’_ to 
+		+_‘means Her Majesty the Queen in right of the Province of British Columbia.’_ to
 		+ ‘means BC Oil and Gas Commission.’_
 	1. **Versioning** change:
 		+ _‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information.’_ to
 		+ _‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information.’_
-	1. **Note**: remove section on BC Government Copyright or whole line: 
+	1. **Note**: remove section on BC Government Copyright or whole line:
 		+ _'Note: as per B.C. Government Copyright, the following licence only applies to records in the B.C. Data Catalogue that specify it.'_
 1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
@@ -136,7 +136,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 1.   Click the **Log in** button the upper right to log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset).
 	+ This will take you to your dashboard that may or may be useful for you.
-1.   Click the **Datasets** button on the toolbar or navigate to [Datasets](https://catalogue.data.gov.bc.ca/dataset) page. 
+1.   Click the **Datasets** button on the toolbar or navigate to [Datasets](https://catalogue.data.gov.bc.ca/dataset) page.
 1. 	Click the [**Add Dataset**](https://catalogue.data.gov.bc.ca/dataset/add) button.
 1.   Choose a dataset type from one of the four types available that best fits your data, service or application.
 
@@ -242,12 +242,12 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 1. 	Click the **Manage BCGW Resource** button.
 1.	Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
 1.	Fill in the following details, where the update cycle is the mandatory field:
-	1.	**Resource Description** 
+	1.	**Resource Description**
 	1.	**Resource Update Cycle**
 	1.	**Beginning Date**
 	1.	**End Date**
 1.	Click the **Save** button.
-1.	Click the **Finish** button on the _Successfully added._ pop-up. 
+1.	Click the **Finish** button on the _Successfully added._ pop-up.
 
 #### Automated BCGW Service resources
 Publicly visible datasets in the BCGW that are made available in iMapBC will also have WMS and KML created.
@@ -258,20 +258,20 @@ There are two ways to edit a resource, one is to click the **Resources** tab, bu
 
 On the main record page beside each Resource is an **Explore** button,
 
-1.  Click the **Explore** drop down button 
+1.  Click the **Explore** drop down button.
 1.	Click the **Edit** option to edit the resource.
 1.  Make edits that follow the recommendations outlined in the [creating a record section](pages.metadata_providers_guide.md#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
 1.   Click the **Update Resource** button to save your changes.
 
 ### Replacing an existing resource
-In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource): 
+In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource):
 1.  Click the **Remove** button at the end of the **File** URL.
 1.  Re-upload or provide a new link to your data.
 1.	Make any other edits needed to reflect the updated/new resource.
 1.  Click **Update Resource** to save your changes.
 
 ### Deleting an existing resource
-In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource): 
+In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource):
 1.   Click the **Delete** button at the bottom of the page. 
 
 ## HOW TO USE THE CATALOGUE API TO MANAGE RECORDS AND RESOURCES
@@ -402,7 +402,7 @@ Data and metadata records have a life cycle that includes Archiving.
 		1.	**Retention Expiry Date**
 		1.	**Source Data Path**
 1.  Change the dataset **Record State**(first metadata element):
-	+ from **DRAFT** 
+	+ from **DRAFT**
 	+ to **PENDING PUBLISH**.
 
 ## PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
