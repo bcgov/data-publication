@@ -151,7 +151,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
-|_**Dataset**_|---|---|
+|_**Dataset**_|||
 |**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
 |**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distiguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
 |**URL**| | Will be auto-populated based on the title.<br>If the title includes a parenthasis at the end then recommend removing this from the URL.|
@@ -165,7 +165,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Keywords**|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or accronyms.|
 |**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
 |Data Element|Example(s)|Recommendations|
-|_**Contact**_|---|---|
+|_**Contact**_|||
 |**Name**|_contact's first and last name_|This may a name for a generic inbox.|
 |**Email**|_someone@somewhere.ca_|This may be the email of a generic inbox.|
 |**Organization**|Ministry of Citizen Services|The organization or ministry the contact is from.|
@@ -176,14 +176,14 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Resource Status**|planned|Describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data.<br> Multiple dates can be added to track the progress of the data.|
 |**Data Type**|Created, Published||
 |**Date**|_YYYY-MM-DD_||
-|_**Access & Security**_|---|---|
+|_**Access & Security**_|||
 |**Who can view this data?**|Public|This is intended to be who can view the data in a web application.<br>For data in the BCGW, this refers to the security applied to in iMapBC.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 |**Who can view this record?**|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
 |**Who can download this data?**|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
 |**Who can access this application?**|Public|Required|
 |**Licence**|Open Governement Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
 |**Security Classification**|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
-|_**Preview Information**_|---|---|
+|_**Preview Information**_|||
 |**Layer name**|Name of the layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
 |**Preview latitude**|Latitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
 |**Preview longitude**|Longitude of layer for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
@@ -191,13 +191,13 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 |**Preview zoom level**|Zoom level for preview|This is autopopulated when a BCGW dataset is made available through publical WMS|
 |**Image URL**|_URL for non map service images| |
 |**Link to iMap**| |This link is autopopulated when a BCGW dataset is publically visisble in iMapBC|
-|_**Geographic extent**_|---|---|
+|_**Geographic extent**_|||
 |**North**|60.0|This is the bounding box of the province and autopopulated for Geographic type resources|
 |**South**|48.0|This is the bounding box of the province and autopopulated for Geographic type resources.|
 |**East**|-113.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
 |**West**|-139.5|This is the bounding box of the province and autopopulated for Geographic type resources.|
 |**Spatial Datatype**|SDO_GEOMETRY|N/A|
-|_**Object Description**_|---|---|
+|_**Object Description**_|||
 |**Object Name**|_schema.table(view)_|This is use by Services tied to the BCGW|
 |**Column Name**||This is use by Services tied to the BCGW|
 |**Short Name**| |This is uneditable and autopopulated from metadata in the BCGW|
@@ -211,7 +211,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 1.  Log into the BC Data Catalogue.
 1.  Navigagte to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
 1. 	Click the **Resources** tab.
-1.  After making edits in the **Edit Metadata** tab, click **Update Dataset** to save your changes.
+1.  After making edits in the **Edit Metadata** tab, click the **Update Dataset** to save your changes.
 
 ### Adding a new resource
 Once in edit mode of the record:
@@ -239,7 +239,7 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 1.	Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
 1.	Fill in the following details, where the update cycle is the manditory field:
 	1.	**Resource Description** 
-	1.	* **Resource Update Cycle**
+	1.	**Resource Update Cycle**
 	1.	**Beginning Date**
 	1.	**End Date**
 1.	Click the **Save** button.
@@ -247,22 +247,18 @@ Ensure that on the main metadata details page has the list of the BCGW object sc
 
 
 ### Editing the properties of an existing resource
-There are two ways to edit a resource, one is to click on the **Resources** tab, but the follow is the simplest method:
+There are two ways to edit a resource, one is to click the **Resources** tab, but the follow is the simplest method:
 
 On the main record page beside each Resource is an **Explore** button,
 
 1.  Click the **Explore** drop down button 
-1.	Click the *Edit** option to edit the resource.
-1.  Make edits that follow the recommendations outlined in the (creating a record section)(#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
-1.   Click the **Update Resource** button to save your changes.
-
-1.   Click the **Manage** button to edit the resource.
-1.   Make edits that follow the recommendations outlined in the (creating a record section)(#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
+1.	Click the **Edit** option to edit the resource.
+1.  Make edits that follow the recommendations outlined in the (creating a record section)(pages.metadata_providers_guide.md#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
 1.   Click the **Update Resource** button to save your changes.
 
 ### Replacing an existing resource
 In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existingresource): 
-1.  Click on the **Remove** button at the end of the **File** URL.
+1.  Click the **Remove** button at the end of the **File** URL.
 1.  Re-upload or provide a new link to your data.
 1.	Make any other edits needed to reflect the updated/new resource.
 1.  Click **Update Resource** to save your changes.
@@ -275,18 +271,39 @@ In the edit mode on a resource as outlined in [editing the properties section ab
 
 Metadata records have a life cycle from Draft to Pending Publish to Published to Pending Archive to Archived.
 
-*   Log into the Catalogue.
-*   Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-*   Change the dataset record state to **Pending Publish**.
-*   Click **Update Dataset**.
+1.   Log into the Catalogue.
+1.   Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
+1.   Change the dataset **Record State**(first metadata element):
+	+ from **DRAFT** 
+	+ to **PENDING PUBLISH**.
+1.   Click the **Update Dataset**.
 	+ This will then send an email to the Catalogue team that you are ready to publish the record.
+	+ The record will be reviewed for:
+		+ Completeness
+		+ Data quality
+		+ Licence type
 	
-Publicaiton timing: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours.
+**Publiction timing**: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours, M-F 8:30 to 5pm.
 
 The Catalogue team will validate the record and if all is in order will change the state to **Published** and you will be notified of this by email; or a Catalogue team member may contact you with questions about your record.
 
 ## HOW TO ARCHIVE A METADATA RECORD
 
+Data and metadata records have a life cycle that includes Archiving.
+
+1.  Log into the Catalogue.
+1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
+1.	Scroll down to **Resource Status** and change this to either:
+	1.  **obsolete** and
+		1. Add a link for a *Replacement Record*.
+			+ Often this is another record in the catalogue and recommend to use the replacement record's permalink.
+			+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
+	1.	**historicalArchive**, this then requires two additional fields that was part of a legacy coporate archival system.
+		1.	**Retention Expiry Date**
+		1.	**Source Data Path**
+1.  Change the dataset **Record State**(first metadata element):
+	+ from **DRAFT** 
+	+ to **PENDING PUBLISH**.
 ## FAQ
 [_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
 
