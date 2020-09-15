@@ -5,7 +5,7 @@ This document provides a set of standards, guidelines, and procedures around loa
 Other DataBC Data Publication Platforms:
 + [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
 + [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
-
+   
 -----------------------
 ## Table of Contents
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
@@ -31,7 +31,6 @@ Other DataBC Data Publication Platforms:
 + [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISHA-METADATA-RECORD)
 + [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVEA-METADATA-RECORD)
 + [**PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)**](#PUBLISHING-METADATA-REQUIREMENTS-FOR-DATA-AND-MAPS-IN-BC-MAP-HUB-ARCGIS-ONLINE)
-+ [**PUBLISHING API METADATA**](#PUBLISHING-API-METADATA)
 + [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
 	+ [FAQ Home Page](#FAQ-Home-Page)
 	+ [How to request a Group be created](#How-to-request-a-Group-be-created)
@@ -411,14 +410,6 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 + [Publication Request Form](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist_20180111.docx)
 + [Content Publication Guidelines](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_metadata_and_presentation_guidelines_20180809.docx)
 + [Tips and Tricks](https://www2.gov.bc.ca/assets/download/FC1CCC3FAC1D4ECE8557E44F54B1C3BC)
-
-## PUBLISHING API METADATA
-+ Catalogue records for APIs can be viewed in the API Registry Catalogue Group
-+ A Draft Catalogue record for the API is created through the API Registry process. This record will be visible to the DataBC Catalogue Services team.
-+ To have this Catalogue record associated with the appropriate Custodian Organization, send the following information to the **CITZ ID DataBC Catalogue Services** team:
-	+ The title of the API
-	+ The name of the Custodian Organization (branch or division) responsible for the API
-	+ An approval by the Custodian Organization's Director or Executive Director for any new accounts required to manage Catalogue records for the organization.
 
 ## FREQUENTLY ASKED QUESTIONS
 ### FAQ Home Page
