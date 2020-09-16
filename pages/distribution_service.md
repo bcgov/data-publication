@@ -48,7 +48,8 @@ For each metadata record in the Catalogue for data in the BCGW that is configure
 
 ### From iMapBC
 Link to iMapBC documentation?
-    1. Skip to [Form Details](#Form-Details)
+1. Skip to [Form Details](#Form-Details)
+
 ### Form Details
 Either from BCDC a pop-up will need to filled out or a panel in iMap:
 * ***Coordinate System***, 
@@ -82,8 +83,7 @@ Either from BCDC a pop-up will need to filled out or a panel in iMap:
  
 ### AOI Selector
 1. Click the **Draw a Custom AOI** and the tool will open up.
-1. Choose a shape to draw an AOI over the map.
-    * A rectangle is the easiest.
+1. Choose a shape to draw an AOI over the map (a rectangle is the simplest)
     1. Click the **Next** button to take you back to the order page.
 ### Zipped Shapefile
 1. Click the **Browse...** button.
@@ -93,9 +93,9 @@ Either from BCDC a pop-up will need to filled out or a panel in iMap:
 * If you do not know what mapsheet the area you want to select is in, you can use this direct link to identify the mapsheet number in [iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/?catalogLayers=667,668). 
 
 Accepted values are:
-    * **82F** (a single mapsheet), 
-    * **82F044** (a single letter block)
-    * **82F, 82F** (one or more mapsheets and/or letter blocks separated by commas)
+* **82F** (a single mapsheet), 
+* **82F044** (a single letter block)
+* **82F, 82F** (one or more mapsheets and/or letter blocks separated by commas)
 ## FAQ
 
 [RETURN TO TOP][1]
