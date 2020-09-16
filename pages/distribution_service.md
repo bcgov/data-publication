@@ -7,9 +7,12 @@ This document provides a set procedures and best practices around downloading da
 
 -----------------------
 ## Table of Contents
-+ [**HOW TO ORDER DATA**](#HOW-TO-ORDER-DATA)
++ [**How to Order Data**](#HOW-TO-ORDER-DATA)
     + [**From BCDC**](#From-BCDC)
     + [**From iMapBC**](#From-iMapBC)
+    + [**Form Details**](#Form-Details)
++ [**Email Notifications**](#Email-Notifications)
++ [**Area of Interest Details**](#Area-of-Interest-Details)
 * [**FAQ**](#FAQ)
 -----------------------
 
@@ -32,21 +35,21 @@ The contents of this space is to assist data seekers download data from the BCGW
 * If you want to bundle a few datasets together follow the following steps and then don't close the popup that appears but just navigate to the next dataset you want to add.
 * If you are a government employee with an IDIR, recommend logging into the catalogue first as some records are only visible when logged in.
 
-**Steps**:
-1. **From BCDC**
+### From BCDC
 For each metadata record in the Catalogue for data in the BCGW that is configured for download there will be a resource with the title **BC Geographic Warehouse Custom Download**
+1. Either Click the:
+    1. **Explore** button for more information about the resource or
+        1. Click the **Access/Download** button.
+    1. **Explore** button down arrow to bypass the more information about the resource
+        1. Select the **Access/Download** option.
+1. If a secure dataset and not logged in you will be prompted to log in using your IDIR or Business BCeID and password.
+    * The BCeID option is the default, so to use an IDIR click the **IDIR** button to the right.
+1. Skip to [Form Details](#Form-Details)
 
-    1. Either Click the:
-        1. **Explore** button for more information about the resource or
-            1. Click the **Access/Download** button.
-        1. **Explore** button down arrow to bypass the more information about the resource
-            1. Select the **Access/Download** option.
-    1. If a secure dataset and not logged in you will be prompted to log in using your IDIR or Business BCeID and password.
-        * The BCeID option is the default, so to use an IDIR click the **IDIR** button to the right.
-    1. Skip to Details
-1. **From iMapBC**
+### From iMapBC
 Link to iMapBC documentation?
-1. **Details**
+    1. Skip to [Form Details](#Form-Details)
+### Form Details
 Either from BCDC a pop-up will need to filled out or a panel in iMap:
 * ***Coordinate System***, 
 * ***Area of Interest (AOI)***,
@@ -75,7 +78,7 @@ Either from BCDC a pop-up will need to filled out or a panel in iMap:
         * If this order isn't picked up within a week, then it will be deleted and the order will need to be resubmitted.
         * Some of the datasets in the BCGW include no geometry/spatial features, these will be exported as a csv along side the format selected.
 
-## Area of Interest
+## Area of Interest Details
  
 ### AOI Selector
 1. Click the **Draw a Custom AOI** and the tool will open up.
