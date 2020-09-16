@@ -2,9 +2,9 @@
 
 This document provides a set procedures and best practices around downloading data that is stored in the BC Geographic Warehouse (BCGW) and exported out the following tools: the BC Data Catalogue (BCDC) and iMapBC.
 
-Other DataBC Data Publication Platforms:
-+ [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
-   
++ [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
++ [_iMapBC_](https://maps.gov.bc.ca/ess/hm/imap4m/?)
+
 -----------------------
 ## Table of Contents
 + [**HOW TO ORDER DATA**](#HOW-TO-ORDER-DATA)
@@ -30,7 +30,7 @@ The contents of this space is to assist data seekers download data from the BCGW
 ### From BCDC
 For each metadata record in the Catalogue for data in the BCGW that is configured for download there will be a resource with the title **BC Geographic Warehouse Custom Download**
 
-Recommendations:
+**Recommendations**:
 * Always refer to the **Access & Security** section as to **Who can download this dataset?** as that will identify what security profile a dataset is configured for.
 * If you want to bundle a few datasets together follow the following steps and then don't close the popup that appears but just navigate to the next dataset you want to add.
 * If you are a government employee with an IDIR, recommend logging into the catalogue first as some records are only visible when logged in.
