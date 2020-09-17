@@ -46,7 +46,7 @@ The Catalogue is available as a platform to host and share data and metadata for
 * BC Government Ministries and the
 * Broader Public Sector (BPS).
 
-However there may be data and metadata associated with other organizations that has been catalogued by a member of either of the above groups.
+However there may be data and metadata associated with other organizations that have been catalogued by a member of either of the above groups.
 
 For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages.
 
@@ -59,13 +59,13 @@ The contents of this space is to assist data and metadata providers.
 -----------------------------------------------------------
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
-+ To be come a Catalogue editor/publisher for a Custodial organization, approval from that branch or division's Director or Executive Director is required.
++ To become a Catalogue editor/publisher for a Custodial organization (a branch or division), approval from that Branch or Division's Director or Executive Director is required.
 
 + This approval, along with the name of the Branch or Division and list of new editors is then forwarded to the DataBC Catalogue Services team or by emailing data@gov.bc.ca.
 
-+ The Broader Public Sector (BPS) may publish metadata records and data to the Catalogue but for Open Data do require their own licence. To do so contact data@gov.bc.ca to start the discussion and see [how to create an Open Government Licence](#Creating-an-Open-Government_Licence).
++ Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue but for Open Data these organizations will require their own licence. To create a licence contact data@gov.bc.ca to start the discussion and see [how to create an Open Government Licence](#Creating-an-Open-Government_Licence).
 
-+ As a Steward on behalf of another organization to become a provider, authorization is required from the custodian of the Branch or Division.
++ As a Steward on behalf of another organization (branch or division), to become a provider, authorization is required from the custodian of the Branch or Division.
 
 ## WHICH LICENCE TO USE
 
@@ -76,7 +76,7 @@ _Access only_ is the standard and is a statement of use that is restrictive as d
 
 ### Open Government Licence - British Columbia
 
-Whenever possible we recommend data be published under an Open Government Licence which is much more permissive.
+Whenever possible we recommend data be published under an Open Government Licence, which is much more permissive.
 * Some tools require this licence to be applied , like Shiny.
 
 + 	[Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
