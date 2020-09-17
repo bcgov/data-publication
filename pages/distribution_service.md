@@ -9,11 +9,12 @@ This document provides a set of procedures and best practices around downloading
 -----------------------
 ## Table of Contents
 + [**HOW TO ORDER DATA**](#HOW-TO-ORDER-DATA)
-	+ [How to Order Data Using the BC Data Catalogue](#How-to-Order-Data-Using-the-BC-Data-Catalogue)
-	+ [How to Order Data Using iMapBC](#How-to-Order-Data-Using-iMapBC)
-	+ [Form Details](#Form-Details)
+	+ [Using BC Data Catalogue](#Using-the-BC-Data-Catalogue)
+	+ [Using iMapBC](#Using-iMapBC)
+	+ [Current Order Details](#Current-Order-Details)
+    + [Pass Order Submissions](#Past-Order-Submissions)
 + [**EMAIL NOTIFICATIONS:**](#EMAIL-NOTIFICATIONS)
-+ [**FAQ**](#FAQ)
++ [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
 -----------------------
 
 # Audience
@@ -29,42 +30,43 @@ The contents of this space is to assist data seekers to download data from the B
 -----------------------------------------------------------
 
 ## HOW TO ORDER DATA
++ In the BC Data Catalogue always refer to the **Who can download this dataset?** field in the **Access & Security** section, as that will identify what security profile the dataset is configured for.
+    + **Note** that you may need to log in (with your government IDIR credentials) to see the Catalogue records for all datasets for more information.
 
-**Recommendations**:
-* Determine the security profile for the dataset that you want to download, as this will dictate the exact procedure you need to follow. Using the BC Data Catalogue, refer to the **Who can download this dataset?** field in the **Access & Security** section, as that will identify what security profile the dataset is configured for. Note that you may need to log in (with your government IDIR credentials) to see the Catalogue records for all datasets for more information.
-
-
-### Using BC Data Catalogue (BCDC)
-
-**Recommendations**:
-* In the BC Data Catalogue always refer to the **Who can download this dataset?** field in the **Access & Security** section, as that will identify what security profile the dataset is configured for.
-* If you want to bundle together the download of a few datasets, follow the steps below and don't close the popup that appears; rather, after filling out the form for the first dataset, navigate to the next dataset you want to add.
+### Using BC Data Catalogue
++ To group multiple datasets in a single order do not close the pop-up for the first dataset but navigate to the next dataset you wish to add.
 + If you are a government employee with an IDIR, log into the Catalogue first as some records are only visible when logged in.
-+ If you **are not** a government employee but do have a business BCeID, there is no need to log into the Catalogue.  You may be prompted for your BCeID credentials when you attempt the download; this depends on the security profile for the dataset.
++ Business BCeID users can not log into the Catalogue but will be prompted for credentials at time of download, if the security is a requirement.
 
-For BCGW data that has been configured for download, the Catalogue record will have a resource with the title **BC Geographic Warehouse Custom Download**.
-1. Either Click the:
+BCGW configured resources should have the title **BC Geographic Warehouse Custom Download**.
+1. Either click the:
     1. **Explore** button for more information about the resource or
         1. Click the **Access/Download** button.
     1. **Explore** button down arrow to bypass the more information about the resource
         1. Select the **Access/Download** option.
 1. If you are requesting a secure dataset and you have not logged in you will be prompted to log in using your IDIR or Business BCeID and password.
     + The BCeID option is the default, so to use an IDIR click the **IDIR** button to the right.
-1. Skip to [Form Details](#Form-Details)
+1. Next, skip to [Current Order Details](#Current-Order-Details) for final steps.
 
 ### Using iMapBC
++ iMapBC can be used to order spatial data (data that can be displayed on a map). 
++ For non-spatial (tabular) data you will need to use the procedures described [in using the Catalogue](#how-to-order-data-using-the-bc-data-catalogue).
++ Determine whether access to the dataset is secured, using the procedure described [in the Catalogue](#how-to-order-data).
 
-1. iMapBC can be used to order spatial data (data that can be displayed on a map).  For non-spatial (tabular) data you will need to use the procedures described [above](#how-to-order-data-using-the-bc-data-catalogue).
-1. Determine whether access to the dataset is secured, using the procedure described [above](#how-to-order-data).
+Follow the steps below or watch a video [here](https://www.youtube.com/watch?v=kkui5GQzB3E).
 1. Use the appropriate link to start iMapBC:
-   1. Public: [https://maps.gov.bc.ca/ess/hm/imap4m/?](https://maps.gov.bc.ca/ess/hm/imap4m/?)
-   2. Secure: [https://arcmaps.gov.bc.ca/ess/hm/imap4m/?](https://arcmaps.gov.bc.ca/ess/hm/imap4m/?. You will be prompted for your IDIR or Business BCeID credentials.
-1. View the layers you want to download, using the **I Want to ... Add Provincial Layers** option.
-1. Select the **Export / Provincial Layer Download** menu option, and click the **Prepare Order** button. 
-1. Skip to [Form Details](#Form-Details).
-1. A YouTube video describing this process can be watched [here](https://www.youtube.com/watch?v=kkui5GQzB3E).
+   1. [Public iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/)
+   2. [Secure iMapBC](https://arcmaps.gov.bc.ca/ess/hm/imap4m/) (requires IDIR or Business BCeID)
+1. Click the **I want to...** blue button to select datasets to visualize and/or download.
+1. Select the **Add Provincial Layers** menu option.
+1. Navigate and select the check box of desired datasets
+1. Click the **Export** tab along the top toolbar.
+1. Select the **Provincial Layer Download** option.
+    1. Toggle off datasets that are not to be downloaded.
+1. Click the **Prepare Order...** button. 
+1. Next, skip to [Current Order Details](#Current-Order-Details) for final steps.
 
-### Form Details
+### Current Order Details
 
 Both the BCDC and iMapBC present a pop-up form into which you need to specify download parameters:+* + ***Coordinate System***, 
 + ***Area of Interest (AOI)***,
@@ -77,14 +79,14 @@ Both the BCDC and iMapBC present a pop-up form into which you need to specify do
                 1. Click the **Next** button to take you back to the order page.
             + **Zipped Shapefile**
                 1. Click the **Browse...** button.
-                1. Navigate to the zipped shapefile, which should contain files with extensions like, but not limited to, .shp, .shx, .dbf.
+                1. Navigate to the zipped shapefile, which should contain files with extensions like, but not limited to: shp, shx, dbf.
                 1. Click the **Okay** button.
         + **GeoMark**
             + See this [page](https://www2.gov.bc.ca/gov/content?id=F6BAF45131954020BCFD2EBCC456F084) for more info.
         + **Mapsheet**
             + If you do not know what mapsheet the area you want to select is in, you can use this direct link to identify the mapsheet number in [iMapBC](https://maps.gov.bc.ca/ess/hm/imap4m/?catalogLayers=667,668). 
 
-            Accepted values are, as examples,:
+            For accepted value examples:
             + **82F** (a single mapsheet), 
             + **82F044** (a single letter block)
             + **82F, 82F** (one or more mapsheets and/or letter blocks separated by commas)
@@ -102,6 +104,13 @@ Both the BCDC and iMapBC present a pop-up form into which you need to specify do
 1. Click the **Submit Order** button.
     1. Click the **Continue** button.
 
+### Past Order Submissions
+When logged in to make an order to download data using this service, those past orders are retained and visible when selecting a new order.
+
+1. Click the **Past Orders** tab.
+1. Click the order details to expand the order details.
+1. Click the **Reorder** button to request a new order with those datasets listed.
+
 ## EMAIL NOTIFICATIONS
 1. An email will be sent that the order has been received by the system.
     + _Your order 2093822 has been submitted_
@@ -111,9 +120,9 @@ Both the BCDC and iMapBC present a pop-up form into which you need to specify do
         + If this order isn't picked up within a week, then it will be deleted and the order will need to be resubmitted.
         + Some of the datasets in the BCGW include no geometry/spatial features, these will be exported as a csv alongside the format selected.
 
-## AREA OF INTEREST OPTIONS
 
-## FAQ
+## FREQUENTLY ASKED QUESTIONS
+[_Frequently Asked Questions Home Page_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
 
 [RETURN TO TOP][1]
 
