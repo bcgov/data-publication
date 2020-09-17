@@ -30,10 +30,10 @@ The purpose of this page is to help the [DataBC Data Architecture](mailto:DataBC
 
 The DataBC Program makes data available through combinations of several different channels:
 
-+ the [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
++ the [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
 + the [_BC Data Catalogue_](https://catalogue.data.goc.bc.ca)
-+ [_iMapBC_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
-+ [_Web Map Services (WMS) and Feature Services (WFS)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services)
++ [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
++ [_Web Map Services (WMS) and Feature Services (WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
 + [_BC Map Hub_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
 + [_Data Download_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services) through the BC Data Catalogue, iMapBC and (___coming soon___) the Order Fulfiller Interface (OFI) Application Programming Interface (API)
 
@@ -134,8 +134,8 @@ In order to help us determine how your data best fits into these options and ser
 + Are there existing or new applications that will use this data?    
 + What tools (visualize or otherwise) will be used to access the data?
    + [_DataBC Products & Services_](https://www2.gov.bc.ca/gov/content/data/about-data-management/databc/databc-products-services)
-      + [iMapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc) 
-      + [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services)
+      + [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43) 
+      + [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
       + [_B.C.'s Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) 
       + [_Data Distribution (Downloads)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
       + Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 

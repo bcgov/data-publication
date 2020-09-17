@@ -13,10 +13,6 @@ This document provides a set of procedures and best practices around downloading
 	+ [How to Order Data Using iMapBC](#How-to-Order-Data-Using-iMapBC)
 	+ [Form Details](#Form-Details)
 + [**EMAIL NOTIFICATIONS:**](#EMAIL-NOTIFICATIONS)
-+ [**AREA OF INTEREST DETAILS**](#AREA-OF-INTEREST-DETAILS)
-	+ [AOI Selector](#AOI-Selector)
-	+ [Zipped Shapefile](#Zipped-Shapefile)
-	+ [Mapsheet](#Mapsheet)
 + [**FAQ**](#FAQ)
 -----------------------
 
