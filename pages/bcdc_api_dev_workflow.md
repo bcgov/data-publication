@@ -1,4 +1,4 @@
-# USING THE BC DATA CATALOGUE API TO MANAGE METADATA AND DATA
+# MANAGING METADATA AND DATA USING THE BC DATA CATALOGUE API
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program.
 
@@ -130,89 +130,6 @@ pkg_data = ckan.action.package_show(id="b67255a7-8040-43c0-935c-d74f168af215")
 for resource in pkg_data['resources']:
     print(resource['name'], resource['id'])
 ```
-
-## HOW TO PUBLISH A METADATA RECORD
-
-Metadata records have a life cycle from Draft to Pending Publish to Published to Pending Archive to Archived.
-
-1.   Log into the Catalogue.
-1.   Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-1.   Change the dataset **Record State**(first metadata element):
-		+ from **DRAFT**
-		+ to **PENDING PUBLISH**.
-1.   Click the **Update Dataset**.
-		+ This will then send an email to the Catalogue team that you are ready to publish the record.
-		+ The record will be reviewed for:
-			+ Completeness
-			+ Data quality
-			+ Licence type
-	
-**Publication timing**: if there is a specific time and date that the release of these records is required contact the Catalogue team to work on timing that is withing regular government business hours, M-F 8:30 to 5pm.
-
-The Catalogue team will validate the record and if all is in order will change the state to **Published** and you will be notified of this by email; or a Catalogue team member may contact you with questions about your record.
-
-## HOW TO ARCHIVE A METADATA RECORD
-
-Data and metadata records have a life cycle that includes Archiving.
-
-1.  Log into the Catalogue.
-1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-1.	Scroll down to **Resource Status** and change this to either:
-	1.  **obsolete** and
-		1. Add a link for a **Replacement Record**.
-			+ Often this is another record in the catalogue and recommend to use the replacement record's permalink.
-			+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
-	1.	**historicalArchive**, this then requires two additional fields that was part of a legacy corporate archival system.
-		1.	**Retention Expiry Date**
-		1.	**Source Data Path**
-1.  Change the dataset **Record State**(first metadata element):
-	+ from **DRAFT**
-	+ to **PENDING PUBLISH**.
-
-## PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
-The use of the BC Map Hub has a requirement for the creation of metadata alongside data and maps. The following documentation will assist in that process.
-+ [Publication Request Form](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist_20180111.docx)
-+ [Content Publication Guidelines](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_metadata_and_presentation_guidelines_20180809.docx)
-+ [Tips and Tricks](https://www2.gov.bc.ca/assets/download/FC1CCC3FAC1D4ECE8557E44F54B1C3BC)
-
-## FREQUENTLY ASKED QUESTIONS
-### FAQ Home Page
-[_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
-
-### How to request a Group be created
-Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
-+ These are not intended to replace a full listing of records for an sub-organization.
-+ Groups by default are public but a request them to be visible to IDIR only can be made.
-
-To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
-
-**Requirements:**
-+ **Group Name**:
-+ **Group Description**:
-+ **URL**: _for more information_
-+ **Image**: _either a file or url_
-+ **Members**: _list of IDIRs who will maintain the Group_
-+ **Group visibility**: Public or IDIR
-
-### How to get an organization added or renamed
-Organizations change names frequently and thus need continual maintenance.
-
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
-
-+ Old name
-+ New name
-+ List of data providers
-	+ Whenever an update to an sub-organization we ask that the members and contacts list be reviewed.
-	+ We can provide this.
-
-### How to request bulk changes to be done on behalf of an organization
-+ Bulk changes can be requested of the Catalogue team when appropriate.
-+ Bulk changes can be done by a user via the API
-+ Bulk changes that are common:
-	+ Contact information
-	+ State Change
-	+ URL modifications for More Info and Resources
-
 
 [RETURN TO TOP][1]
 

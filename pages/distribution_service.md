@@ -132,6 +132,3 @@ When logged in to make an order to download data using this service, those past 
 
 [1]: #publishing-data-to-the-databc-program
 [2]: publishing-data-to-databc.md#publishing-data-to-the-databc-program
-
-
-_
