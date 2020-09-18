@@ -126,9 +126,9 @@ When logged in to make an order to download data using this service, those past 
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE][2]
+[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
 
 -------------------------------------------------------
 
-[1]: #publishing-data-to-the-databc-program
-[2]: publishing-data-to-databc.md#publishing-data-to-the-databc-program
+[1]: #distribution_service
+[2]: ../publishing-data-to-databc.md#data-publication-process

@@ -360,5 +360,5 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 
 -------------------------------------------------------
 
-[1]: #publishing-data-to-the-databc-program
+[1]: #bcdc_data_onboarding_and_workflow
 [2]: publishing-data-to-databc.md#publishing-data-to-the-databc-program
