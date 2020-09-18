@@ -1,4 +1,4 @@
-# PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE
+# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program:
 
@@ -364,5 +364,5 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 
 -------------------------------------------------------
 
-[1]: #publishing-metadata-and-data-to-the-bc-data-catalogue
+[1]: #data-publication-workflow---bc-data-catalogue
 [2]: ../publishing-data-to-databc.md#data-publication-process
