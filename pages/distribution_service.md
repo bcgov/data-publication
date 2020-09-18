@@ -13,7 +13,7 @@ This document provides a set of procedures and best practices around downloading
 	+ [Using iMapBC](#Using-iMapBC)
 	+ [Current Order Details](#Current-Order-Details)
     + [Past Order Submissions](#Past-Order-Submissions)
-+ [**EMAIL NOTIFICATIONS:**](#EMAIL-NOTIFICATIONS)
++ [**EMAIL NOTIFICATIONS**](#EMAIL-NOTIFICATIONS)
 + [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
 -----------------------
 

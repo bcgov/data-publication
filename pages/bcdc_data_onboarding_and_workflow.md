@@ -266,12 +266,12 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
 |_**Dataset**_|||
-|**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
-|**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
-|**URL** *| | Will be auto-populated based on the title.<br>If the title includes a parentheses at the end then recommend removing this from the URL.|
-|**Organization** *|Ministry of Citizen Services|Required|
-|**Sub-Organization** *|DataBC|Required|
-|**Description** *|_detailed description about the data_|If there is a acronym, always spell out the name in full and then include the acronym in parentheses|
+|**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow. By changing a state a email notification will be sent to either the catalogue admin that they have an action, e.g., PENDING PUBLISH will inform them the record is ready to be reviewed and published; PUBLISHED will inform all the editors of that branch that it has been published.|
+|**Title** *|_should be written in a way the general public can understand_|Recommend to not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
+|**URL** *|_This is the title url of the metadata_| Will be auto-populated based on the title.<br>If the title includes a parentheses at the end then recommend removing this from the URL.|
+|**Organization** *|Ministry of Citizen Services|This is the higher level organization responsible for the items described in the metadata.|
+|**Sub-Organization** *|DataBC|I.s the custodial organization responsible for data or items.<br>This is usually set as the Branch and is under the authority of a Director or Executive Director|
+|**Description** *|_detailed description about the data_|If there is a acronym, always spell out the name in full and then include the acronym in parentheses, e.g., Broad Ecosystem Inventory (BEI).|
 |**Purpose**|_summary of the intentions for which the dataset was developed_|Include more information about a record will aid users and allow for more self serve of information.|
 |**Data Quality**|_descriptive text that can include info about issues, completeness, consistency, etc._|Include more information about a record will aid users and allow for more self serve of information.|
 |**Lineage Statement**|_information about the events or source data used in constructing the data_|Include more information about a record will aid users and allow for more self serve of information.|
