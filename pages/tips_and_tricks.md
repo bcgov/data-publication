@@ -1,5 +1,5 @@
 
-# HELPFUL TIPS FOR MANAGING DATA WITHIN THE DATABC PROGRAM
+# HELPFUL TIPS ABOUT THE BC GEOGRAPHIC WAREHOUSE
 
 The context below provides helpful tips and data points for those users who manage or provide information to the BD Geographic Warehouse (BCGW) and ArcGIS Desktop. This page will continue to be updated so it is worth bookmarking for current and future references.  
 
@@ -276,6 +276,6 @@ Connecting to the DataBC Gogs repositories requires that you log in first.
 
 -------------------------------------------------------
 
-[1]: #helpful-tips-for-managing-data-within-the-databc-program
+[1]: #helpful-tips-about-the-bc-geographic-warehouse
 [2]: ../publishing-data-to-databc.md#tips-and-tricks
 

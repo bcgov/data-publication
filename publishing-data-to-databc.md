@@ -104,7 +104,6 @@ The following links provide you with tips and tricks when working on a DataBC Pr
 + <a name=connecting>[_Connecting to the BCGW_](pages/tips_and_tricks.md#connecting-to-the-bcgw)</a>
 + <a name=layers>[_Adding Layers using ArcGIS Desktop_](pages/tips_and_tricks.md#adding-layers-using-arcgis-desktop)</a>
 + <a name=layers>[_Distribution Service - Downloading BCGW Data_](pages/distribution_service)</a>
-+ <a name=creatingdeletingobjects>[_Workflow for Creating and Deleting BCGW Database Objects_](pages/tips_and_tricks.md#workflow-for-creating-and-deleting-bcgw-database-objects)</a>
 + <a name=gogs>[_Connecting to Gogs_](pages/tips_and_tricks.md#connecting-to-gogs)</a>
 
 [RETURN TO TOP][1] 

@@ -9,10 +9,10 @@ This document provides a set of procedures and best practices around downloading
 -----------------------
 ## Table of Contents
 + [**HOW TO ORDER DATA**](#HOW-TO-ORDER-DATA)
-	+ [Using BC Data Catalogue](#Using-the-BC-Data-Catalogue)
+	+ [Using BC Data Catalogue](#Using-BC-Data-Catalogue)
 	+ [Using iMapBC](#Using-iMapBC)
 	+ [Current Order Details](#Current-Order-Details)
-    + [Pass Order Submissions](#Past-Order-Submissions)
+    + [Past Order Submissions](#Past-Order-Submissions)
 + [**EMAIL NOTIFICATIONS:**](#EMAIL-NOTIFICATIONS)
 + [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
 -----------------------

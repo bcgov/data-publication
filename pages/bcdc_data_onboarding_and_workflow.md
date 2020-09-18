@@ -322,7 +322,7 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 
 ## FREQUENTLY ASKED QUESTIONS
 ### FAQ Home Page
-[_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
+[_Frequently Asked Questions_](pages/faq.md#publishing-metadata-records-to-the-bc-data-catalogue)
 
 ### How to request a Group be created
 Groups are intended for a listing of like datasets for a specific purpose that can be across multiple organizations.
