@@ -1,12 +1,12 @@
 # PUBLISHING DATA TO THE DATABC PROGRAM
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served by the DataBC Program's access channels, which are:
-+ [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/bc-geographic-warehouse)
-   + [_iMapBC_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
-   + [_Data Download Services_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
++ [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
+   + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
+   + [_Data Download Services_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
 + [_The BC Data Catalogue (BCDC)_](https://catalogue.data.gov.bc.ca)
-+ [_Web Map and Feature Services (WMS/WFS)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/map-services)
-+ [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
++ [_Web Map and Feature Services (WMS/WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
++ [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
 
 -----------------------
 ## Table of Contents
@@ -49,6 +49,7 @@ The following links will help you understand the data publication process.
 + <a name=before>[_Before You Start_](pages/before_you_start.md#before-you-start)</a>
 + <a name=publication>[_Data Publication: Roles and Responsibilities_](pages/roles_and_responsibilities.md#data-publication-roles-and-responsibilities)</a>
 + <a name=workflow>[_Data Publication Workflow - BC Geographic Warehouse_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse)</a>
++ <a name=workflow>[_Data Publication Workflow - BC Data Catalogue_](pages/bcdc_data_onboarding_and_workflow.md#data-publication-workflow---bc-geographical-warehouse)</a>
 + <a name=standards>[_BC Geographic Warehouse Delivery Standards_](pages/delivery_standards.md#bc-geographic-warehouse-delivery-standards)</a>
 + <a name=framework>[_Using the DataBC FME Framework_](pages/using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)</a>
  
@@ -102,6 +103,7 @@ The following links provide you with tips and tricks when working on a DataBC Pr
 
 + <a name=connecting>[_Connecting to the BCGW_](pages/tips_and_tricks.md#connecting-to-the-bcgw)</a>
 + <a name=layers>[_Adding Layers using ArcGIS Desktop_](pages/tips_and_tricks.md#adding-layers-using-arcgis-desktop)</a>
++ <a name=layers>[_Distribution Service - Downloading BCGW Data_](pages/distribution_service)</a>
 + <a name=creatingdeletingobjects>[_Workflow for Creating and Deleting BCGW Database Objects_](pages/tips_and_tricks.md#workflow-for-creating-and-deleting-bcgw-database-objects)</a>
 + <a name=gogs>[_Connecting to Gogs_](pages/tips_and_tricks.md#connecting-to-gogs)</a>
 
@@ -126,7 +128,7 @@ The following links provide additional information to provide terminology and an
 
 The following links provide related standards and resources for a successful DataBC Program project. 
 
-+ <a name = ocio>[_OCIO Core Policy Chapter 12_](https://www2.gov.bc.ca/gov/content/governments/policies-for-government/core-policy/policies/im-it-management#)</a>
++ <a name = ocio>[_OCIO Core Policy Chapter 12_](https://www2.gov.bc.ca/gov/content?id=BAA776C61B934ADA95F42CE503D2784F)</a>
 + <a name=governance>[_Data Governance_](pages/data_governance.md#data-governance)</a>
 + <a name=opendata>[_Open Data_](pages/open_data.md#open-data)</a>
 + <a name=geocoding>[_Address and Geocoding Standards_](pages/address_and_geocoding_standards.md#address-and-geocoding-standards)</a>

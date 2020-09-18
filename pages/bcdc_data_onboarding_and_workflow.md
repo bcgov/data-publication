@@ -4,7 +4,7 @@ This document provides a set of standards, guidelines, and procedures around loa
 
 Other DataBC Data Publication Platforms:
 + [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
-+ [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
++ [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
    
 -----------------------
 ## Table of Contents
