@@ -36,7 +36,7 @@ Our main customization is done through a theme extension that we manage https://
 The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
-+ To use the Catalogue API to manage and create metadata records one must be an editor/publisher. For more information on that see the [Catalogue Onboarding and Workflow][pages/bcdc_data_oboarding_and_workflow.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE]
++ To use the Catalogue API to manage and create metadata records one must be an editor/publisher. For more information on that see the [Catalogue Onboarding and Workflow](pages/bcdc_data_oboarding_and_workflow.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
 
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 **Name of the org:**
@@ -137,5 +137,5 @@ for resource in pkg_data['resources']:
 
 -------------------------------------------------------
 
-[1]: #bcdc_api_dev_workflow
-[2]: ../bcdc_data_onboarding_and_workflow
+[1]: #bcdc_api_dev_workflow.md
+[2]: ../bcdc_data_onboarding_and_workflow.md

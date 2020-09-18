@@ -130,5 +130,5 @@ When logged in to make an order to download data using this service, those past 
 
 -------------------------------------------------------
 
-[1]: #distribution_service
+[1]: #distribution_service.md
 [2]: ../publishing-data-to-databc.md#data-publication-process
