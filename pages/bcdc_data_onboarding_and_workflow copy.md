@@ -22,12 +22,6 @@ Other DataBC Data Publication Platforms:
 	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
 	+ [Replacing an existing resource](#Replacing-an-existing-resource)
 	+ [Deleting an existing resource](#Deleting-an-existingresource)
-+ [**HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API**](#HOW-TO-MANAGE-METADATA-RECORDS-AND-RESOURCES-USING-THE-CATALOGUE-API)
-	+ [How to create a resource with the API](#How-to-create-a-resource-with-the-API)
-	+ [How to update a resource with the API](#How-to-update-a-resource-with-the-API)
-	+ [How to get the organization ID with the organization name](#How-to-get-the-organization-ID-with-the-organization-name)
-	+ [How to get package names and package IDs within an organization](#How-to-get-package-names-and-package-IDs-within-an-organization)
-	+ [How to get the resource names and resource IDs withing a package](#How-to-get-the-resource-names-and-resource-IDs-withing-a-package)
 + [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISHA-METADATA-RECORD)
 + [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVEA-METADATA-RECORD)
 + [**PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)**](#PUBLISHING-METADATA-REQUIREMENTS-FOR-DATA-AND-MAPS-IN-BC-MAP-HUB-ARCGIS-ONLINE)
@@ -132,6 +126,7 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
 ## HOW TO CREATE A NEW METADATA RECORD
+If wanting to use the CKAN API to create metadata you will find more information [here](pages/bcdc_api_dev_workflow.md).
 
 1.   Click the **Log in** button the upper right to log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset).
 	+ This will take you to your dashboard that may or may be useful for you.
@@ -212,9 +207,11 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 
 ## HOW TO MANAGE METADATA RECORD RESOURCES
+If wanting to use the CKAN API to manage metadata and resources you will find more information [here](pages/bcdc_api_dev_workflow.md).
 
 1.  Log into the Catalogue.
-1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.  The "Edit Metadata" allows for the editing of all content.
+1.  Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record. 
+	+ The "Edit Metadata" allows for the editing of all content.
 1. 	Click the **Resources** tab.
 1.  After making edits in the **Edit Metadata** tab, click the **Update Dataset** to save your changes.
 
@@ -273,99 +270,6 @@ In the edit mode on a resource as outlined in [editing the properties section ab
 ### Deleting an existing resource
 In the edit mode on a resource as outlined in [editing the properties section above](#Editing-the-properties-of-an-existing-resource):
 1.   Click the **Delete** button at the bottom of the page. 
-
-## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
-**Name of the org:**
-
-To obtain the GUID sub-org it requires the title name of the org
-
-1. **Option 1**:
-	1. Navigate to a record you manage
-	1. Click on the live link of the sub-org or branch name
-	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
-1. **Option 2**:
-	1. Open up the Catalogue Organizations tree
-	1. Navigate and click on the sub-org/branch name
-	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
-
-**Your API Key**:
-1. Log into the Catalogue
-1. Click on your name in the upper right
-1. Bottom left corner is your personal API Key
-
-The following python syntax is used as an example from a specific organization
-
-### How to create a resource with the API
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-resp = ckan.action.resource_create(
-        package_id='YOUR-PACKAGE-ID-HERE',
-        upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        resource_storage_location="Catalogue Data Store",
-        name="my-resource-name",
-        edc_resource_type="Data",
-        format="csv",
-        resource_update_cycle="monthly",
-        resource_storage_access_method="Direct Access")
-
-
-print(resp)
-```
-### How to update a resource with the API
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-resp = ckan.action.resource_update(
-        id='RESOURCE-ID-TO-UPDATE-HERE',
-        upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        resource_storage_location="Catalogue Data Store",
-        name="my-resource-name-updated",
-        edc_resource_type="Data",
-        format="csv",
-        resource_update_cycle="monthly",
-        resource_storage_access_method="Direct Access")
-
-
-print(resp)
-```
-
-### How to get the organization ID with the organization name
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-org = ckan.action.organization_show(id="information-management-cfd")
-print(org['name'], org['id'])
-```
-
-### How to get package names and package IDs within an organization
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-pkgs = ckan.action.package_search(fq="owner_org:a1a9c5cc-b601-4190-b206-13ba08c54292",rows=1000)
-for pkg in pkgs['results']:
-    print(pkg['name'], pkg['id'])
-
-```
-
-### How to get the resource names and resource IDs withing a package
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-pkg_data = ckan.action.package_show(id="b67255a7-8040-43c0-935c-d74f168af215")
-for resource in pkg_data['resources']:
-    print(resource['name'], resource['id'])
-```
 
 ## HOW TO PUBLISH A METADATA RECORD
 
