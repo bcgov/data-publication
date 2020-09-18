@@ -4,7 +4,9 @@ This document provides a set of standards, guidelines, and procedures around loa
 
 -----------------------
 ## Table of Contents
-(#HOW-TO-MANAGE-METADATA-RECORDS-AND-RESOURCES-USING-THE-CATALOGUE-API)
++ [ARCHITECTURE](#ARCHITECTURE)
++ [HOW TO BECOME A PROVIDER TO THE CATALOGUE](#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
++ [HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API](#HOW-TO-MANAGE-METADATA-RECORDS-AND-RESOURCES-USING-THE-CATALOGUE-API)
 	+ [How to create a resource with the API](#How-to-create-a-resource-with-the-API)
 	+ [How to update a resource with the API](#How-to-update-a-resource-with-the-API)
 	+ [How to get the organization ID with the organization name](#How-to-get-the-organization-ID-with-the-organization-name)
