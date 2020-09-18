@@ -25,11 +25,13 @@ Other DataBC Data Publication Platforms:
 + [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISHA-METADATA-RECORD)
 + [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVEA-METADATA-RECORD)
 + [**PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)**](#PUBLISHING-METADATA-REQUIREMENTS-FOR-DATA-AND-MAPS-IN-BC-MAP-HUB-ARCGIS-ONLINE)
++ [**HOW TO BEST FILL IN METADATA**](#HOW-TO-BEST-FILL-IN-METADATA)
 + [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
 	+ [FAQ Home Page](#FAQ-Home-Page)
 	+ [How to request a Group be created](#How-to-request-a-Group-be-created)
 	+ [How to get an organization added or renamed](#How-to-get-an-organization-added-or-renamed)
 	+ [How to request bulk changes to be done on behalf of an organization](#How-to-request-bulk-changes-to-be-done-on-behalf-of-an-organization)
+
 -----------------------
 
 # Audience
@@ -142,69 +144,10 @@ If wanting to use the CKAN API to create metadata you will find more information
 |Web Service - API|Metadata records in this category describe available web services, or application programming interfaces.| |
 
 1.  Click the **Create Dataset** button.
-1.	Fill in all [mandatory fields](https://github.com/bcgov/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE) and highly suggest filling in all non mandatory fields as well to assist the users to understand and use the data better.
+1.	Fill in all mandatory fields and highly suggest filling in all non mandatory fields as well to assist the users to understand and use the data better.
+	+ Suggestions on values to enter in [metadata](HOW-TO-BEST-FILL-IN-METADATA). 
 1.  After filling in the details in the **Create dataset** tab.
 1.	Click the **Next: Add Data** to save your changes.
-
-* Mandatory fields are marked with an *.
-* Not all fields are included for each resource type. For a full list see [the table here:](https://github.com/bcgov/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE)
-
-|Data Element|Example(s)|Recommendations|
-|:---|:---|:---|
-|_**Dataset**_|||
-|**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
-|**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
-|**URL** *| | Will be auto-populated based on the title.<br>If the title includes a parentheses at the end then recommend removing this from the URL.|
-|**Organization** *|Ministry of Citizen Services|Required|
-|**Sub-Organization** *|DataBC|Required|
-|**Description** *|_detailed description about the data_|If there is a acronym, always spell out the name in full and then include the acronym in parentheses|
-|**Purpose**|_summary of the intentions for which the dataset was developed_|Include more information about a record will aid users and allow for more self serve of information.|
-|**Data Quality**|_descriptive text that can include info about issues, completeness, consistency, etc._|Include more information about a record will aid users and allow for more self serve of information.|
-|**Lineage Statement**|_information about the events or source data used in constructing the data_|Include more information about a record will aid users and allow for more self serve of information.|
-|**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then click the **Copy** button.|
-|**Keywords** *|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or acronyms.|
-|**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
-|Data Element|Example(s)|Recommendations|
-|_**Contact**_|||
-|**Name** *|_contact's first and last name_|This may a name for a generic inbox.|
-|**Email** *|_someone@somewhere.ca_|This may be the email of a generic inbox.|
-|**Organization** *|Ministry of Citizen Services|The organization or ministry the contact is from.|
-|**Sub-Organization** *|DataBC|The sub-organization, branch or program area the contact is from.|
-|**Role** *|pointOfContact|Most often this is set to pointOfContact. Custodian is reserved for the Director or a Executive Director of a branch.|
-|**Contact Displayed** *|Yes|Set to Yes when the contact is to be visible to the public. No, allows the contact to only be visible when logged in.|
-|_**Data Currency / Update**_|---|---|
-|**Resource Status** *|planned|Describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data.<br> Multiple dates can be added to track the progress of the data.|
-|**Data Type** *|Created, Published||
-|**Date** *|_YYYY-MM-DD_||
-|_**Access & Security**_|||
-|**Who can view this data?** *|Public|This is intended to be who can view the data in a web application.<br>For data in the BCGW, this refers to the security applied to in iMapBC.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
-|**Who can view this record?** *|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
-|**Who can download this data?** *|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
-|**Who can access this application?** *|Public|Required|
-|**Licence** *|Open Government Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
-|**Security Classification** *|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
-|_**Preview Information**_|||
-|**Layer name**|Name of the layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
-|**Preview latitude**|Latitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
-|**Preview longitude**|Longitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
-|**Preview map service URL**|URL of map service for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
-|**Preview zoom level**|Zoom level for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
-|**Image URL**|_URL for non map service images| |
-|**Link to iMap**| |This link is auto-populated when a BCGW dataset is publicly visible in iMapBC|
-|_**Geographic extent**_|||
-|**North**|60.0|This is the bounding box of the province and auto-populated for Geographic type resources|
-|**South**|48.0|This is the bounding box of the province and auto-populated for Geographic type resources.|
-|**East**|-113.5|This is the bounding box of the province and auto-populated for Geographic type resources.|
-|**West**|-139.5|This is the bounding box of the province and auto-populated for Geographic type resources.|
-|**Spatial Datatype**|SDO_GEOMETRY|N/A|
-|_**Object Description**_|||
-|**Object Name**|_schema.table(view)_|This is use by Services tied to the BCGW.<br>This must be written identically as what is in the database and ensure that there are hidden spaces at the end.|
-|**Column Name**||This is use by Services tied to the BCGW|
-|**Short Name**| |This is uneditable and auto-populated from metadata in the BCGW|
-|**Data Type**| |This is uneditable and auto-populated from metadata in the BCGW|
-|**Data Precision**| |This is uneditable and auto-populated from metadata in the BCGW|
-|**Comments**| |This is uneditable and auto-populated from metadata in the BCGW|
-
 
 ## HOW TO MANAGE METADATA RECORD RESOURCES
 If wanting to use the CKAN API to manage metadata and resources you will find more information [here](pages/bcdc_api_dev_workflow.md).
@@ -315,6 +258,68 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 + [Content Publication Guidelines](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_metadata_and_presentation_guidelines_20180809.docx)
 + [Tips and Tricks](https://www2.gov.bc.ca/assets/download/FC1CCC3FAC1D4ECE8557E44F54B1C3BC)
 
+## HOW TO BEST FILL IN METADATA
+
+* Mandatory fields are marked with an *.
+* Not all fields are included for each resource type. For a full list see [the table here:](https://github.com/bcgov/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE)
+
+|Data Element|Example(s)|Recommendations|
+|:---|:---|:---|
+|_**Dataset**_|||
+|**State** *|DRAFT, PENDING PUBLISH, PUBLISHED,<br>PENDING ARCHIVE, PENDING ARCHIVE|This changes the state of the publication workflow.|
+|**Title** *|_should be written in a way the general public can understand_|Do not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.<br>For records that will include multiple years, do not include the year in the title.|
+|**URL** *| | Will be auto-populated based on the title.<br>If the title includes a parentheses at the end then recommend removing this from the URL.|
+|**Organization** *|Ministry of Citizen Services|Required|
+|**Sub-Organization** *|DataBC|Required|
+|**Description** *|_detailed description about the data_|If there is a acronym, always spell out the name in full and then include the acronym in parentheses|
+|**Purpose**|_summary of the intentions for which the dataset was developed_|Include more information about a record will aid users and allow for more self serve of information.|
+|**Data Quality**|_descriptive text that can include info about issues, completeness, consistency, etc._|Include more information about a record will aid users and allow for more self serve of information.|
+|**Lineage Statement**|_information about the events or source data used in constructing the data_|Include more information about a record will aid users and allow for more self serve of information.|
+|**More Info**|_supporting url(s)_|Links should be added to provide more information a user can go to.<br> These should use https:// instead of http://. <br>For pages within the BC Gov webpages, if possible, the permalinks should be used as this allows the pages to move around but the links will not become broken.<br>At the bottom right is a gray icon with an arrow pointing to the right.<br>Click this and then click the **Copy** button.|
+|**Keywords** *|_searchable term(s)_|Are important words related to a dataset and can include common words, phrases or acronyms.|
+|**ISO Topic Category**|boundaries|[For more information](https://www2.usgs.gov/science/about/thesaurus-full.php?thcode=15)|
+|Data Element|Example(s)|Recommendations|
+|_**Contact**_|||
+|**Name** *|_contact's first and last name_|This may a name for a generic inbox.|
+|**Email** *|_someone@somewhere.ca_|This may be the email of a generic inbox.|
+|**Organization** *|Ministry of Citizen Services|The organization or ministry the contact is from.|
+|**Sub-Organization** *|DataBC|The sub-organization, branch or program area the contact is from.|
+|**Role** *|pointOfContact|Most often this is set to pointOfContact. Custodian is reserved for the Director or a Executive Director of a branch.|
+|**Contact Displayed** *|Yes|Set to Yes when the contact is to be visible to the public. No, allows the contact to only be visible when logged in.|
+|_**Data Currency / Update**_|---|---|
+|**Resource Status** *|planned|Describes the state of the data. Choose the most relevant Resource Status and Date Type that best matches the currency of the data.<br> Multiple dates can be added to track the progress of the data.|
+|**Data Type** *|Created, Published||
+|**Date** *|_YYYY-MM-DD_||
+|_**Access & Security**_|||
+|**Who can view this data?** *|Public|This is intended to be who can view the data in a web application.<br>For data in the BCGW, this refers to the security applied to in iMapBC.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+|**Who can view this record?** *|Public|This allows a provider to make a metadata record visible only when logged in, i.e., IDIR.|
+|**Who can download this data?** *|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied to the Distribution Service.<br>If there is a desire to change this security setting contact [Data Architecture Services](mailto:databc.da@gov.bc.ca) as changing it in the metadata record will not apply the change at the application level.|
+|**Who can access this application?** *|Public|Required|
+|**Licence** *|Open Government Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
+|**Security Classification** *|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
+|_**Preview Information**_|||
+|**Layer name**|Name of the layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview latitude**|Latitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview longitude**|Longitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview map service URL**|URL of map service for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Preview zoom level**|Zoom level for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
+|**Image URL**|_URL for non map service images| |
+|**Link to iMap**| |This link is auto-populated when a BCGW dataset is publicly visible in iMapBC|
+|_**Geographic extent**_|||
+|**North**|60.0|This is the bounding box of the province and auto-populated for Geographic type resources|
+|**South**|48.0|This is the bounding box of the province and auto-populated for Geographic type resources.|
+|**East**|-113.5|This is the bounding box of the province and auto-populated for Geographic type resources.|
+|**West**|-139.5|This is the bounding box of the province and auto-populated for Geographic type resources.|
+|**Spatial Datatype**|SDO_GEOMETRY|N/A|
+|_**Object Description**_|||
+|**Object Name**|_schema.table(view)_|This is use by Services tied to the BCGW.<br>This must be written identically as what is in the database and ensure that there are hidden spaces at the end.|
+|**Column Name**||This is use by Services tied to the BCGW|
+|**Short Name**| |This is uneditable and auto-populated from metadata in the BCGW|
+|**Data Type**| |This is uneditable and auto-populated from metadata in the BCGW|
+|**Data Precision**| |This is uneditable and auto-populated from metadata in the BCGW|
+|**Comments**| |This is uneditable and auto-populated from metadata in the BCGW|
+
+
 ## FREQUENTLY ASKED QUESTIONS
 ### FAQ Home Page
 [_Frequently Asked Questions_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
@@ -353,12 +358,11 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 	+ State Change
 	+ URL modifications for More Info and Resources
 
-
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE][2]
+[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM - DATA PUBLICATION PROCESS][2]
 
 -------------------------------------------------------
 
-[1]: #bcdc_data_onboarding_and_workflow.md
-[2]: publishing-data-to-databc.md#publishing-data-to-the-databc-program
+[1]: #publishing-metadata-and-data-to-the-bc-data-catalogue
+[2]: ../publishing-data-to-databc.md#data-publication-process

@@ -137,5 +137,5 @@ for resource in pkg_data['resources']:
 
 -------------------------------------------------------
 
-[1]: #bcdc_api_dev_workflow.md
-[2]: ../bcdc_data_onboarding_and_workflow.md
+[1]: #managing-metadata-and-data-using-the-bc-data-catalogue-api
+[2]: ../publishing-data-to-databc.md#data-publication-process

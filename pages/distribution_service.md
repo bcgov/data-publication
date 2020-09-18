@@ -126,9 +126,9 @@ When logged in to make an order to download data using this service, those past 
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
+[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > TIPS AND TRICKS][2]
 
 -------------------------------------------------------
 
-[1]: #distribution_service.md
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[1]: #distribution-service
+[2]: ../publishing-data-to-databc.md#tips-and-tricks
