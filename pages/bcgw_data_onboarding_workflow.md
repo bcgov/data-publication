@@ -1,4 +1,4 @@
-# DATA PUBLICATION WORKFLOW - BC GEOGRAPHICAL WAREHOUSE
+# DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
 
 This page describes the workflow for loading datasets into the BC Geographic Warehouse (BCGW).  
 
@@ -435,6 +435,6 @@ Please read [_QUESTIONS_](before_you_start.md#questions) section in the [_Before
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-geographical-warehouse
+[1]: #data-publication-workflow---bc-geographic-warehouse
 [2]: ../publishing-data-to-databc.md#data-publication-process
 
