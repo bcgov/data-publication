@@ -77,7 +77,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + Questions about the BC Data Catalogue (BCDC)
 + Questions about Open Data and the process of publishing data under an open data licence  
 + Publishing tabular data to the DataBC Program, but not to the BC Geographic Warehouse
-+ _Contact_: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca)
++ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
 
 #### Data Architecture Services 
 
@@ -102,7 +102,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + BC Geographic Warehouse data replication requests
 + Questions about BC Geographic Warehouse data replication
 + Questions about other replication services
-+ _Contact_: [dataetl@gov.bc.ca](mailto:dataetl@gov.bc.ca)
++ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
 
 #### Map Services 
 
