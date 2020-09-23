@@ -56,7 +56,7 @@ This page provides a list of frequently asked questions and answers to help you 
 
 ## Audience
 
-This page's intended audience is anyone who is interested in, or currently, publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
+This page's intended audience is anyone who is interested in or is currently publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
 
 ## Purpose
 
@@ -77,7 +77,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + Questions about the BC Data Catalogue (BCDC)
 + Questions about Open Data and the process of publishing data under an open data licence  
 + Publishing tabular data to the DataBC Program, but not to the BC Geographic Warehouse
-+ _Contact_: < **CITZ ID DataBC Catalogue Services** >
++ _Contact_: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca)
 
 #### Data Architecture Services 
 
@@ -102,7 +102,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + BC Geographic Warehouse data replication requests
 + Questions about BC Geographic Warehouse data replication
 + Questions about other replication services
-+ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
++ _Contact_: [dataetl@gov.bc.ca](mailto:dataetl@gov.bc.ca)
 
 #### Map Services 
 
@@ -112,7 +112,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + BC Map Hub
 + Data Mashup Framework (DMF)
 + Simple Map Kit (SMK)
-+ _Contact_: < __CITZ ID DataBC Map Services__ >
++ _Contact_: [datamaps@gov.bc.ca](mailto:datamaps@gov.bc.ca)
 
 #### Location Services 
 
@@ -158,11 +158,11 @@ The following sections will help explain the difference between **Open Data** an
 
 #### What does **Open Data** mean?
 
-+ _Open Data_ is the idea that some data should be freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control" - [_Wikipedia_](https://en.wikipedia.org/wiki/Open_data)
++ "_Open Data_ is the idea that some data should be freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control" - [_Wikipedia_](https://en.wikipedia.org/wiki/Open_data)
 
 #### What does **Access Only** mean?
 
-+ For the reproduction of materials found in the [_BC Data Catalogue_](http://catalogue.data.gov.bc.ca/), either a licence agreement (as specified in the BC Data Catalogue) will apply, or the materials are _access only_ and reproduction is not permitted without written permission.
++ For the reproduction of materials found in the [_BC Data Catalogue_](http://catalogue.data.gov.bc.ca/), either a licence agreement (as specified in the BC Data Catalogue) will apply, or the materials are _Access Only_ and reproduction is not permitted without written permission.
 + To request permission, please complete the [_Copyright Permission Request Form_](https://forms.gov.bc.ca/copyright-permission-request/). 
    + If a licence agreement applies, permission is subject to the terms of the specified licence.
    
@@ -174,7 +174,7 @@ The following sections will help explain the difference between **Open Data** an
 
 ### Why should I consider publishing data under an open data licence?
 
-+ Licensing data as Open increases the likelihood that the public will  benefit from the data, either directly or by using applications that can now use the data.
++ Licensing data as _Open_ increases the likelihood that the public will benefit from the data, either directly or by using applications that can use the data.
 + As explained on [_this site_](http://opendatatoolkit.worldbank.org/en/starting.html#benefits), licensing data as _Open_ increases transparency, improves public service and increases efficiency, and contributes to innovation and public service. 
 
 ### Can all data be licensed as Open?
@@ -184,13 +184,13 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I publish data as Open Data?
 
 + Datasets, under the Intellectual Property of the Province of B.C., may be eligible to be licensed under the [_Open Government Licence - British Columbia (OGL-BC)_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61).
-+ To license a dataset as _open data_ you will need to contact multiple people to authorize the dataset to be made available under the OGL-BC. The [_Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) document includes the following resources (plus others):
++ To license a dataset as _Open Data_ you will need to contact multiple people to authorize the dataset to be made available under the OGL-BC. The [_Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) document includes the following resources (plus others):
    + Your [_Ministry Information Security Officer_](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
    + The [_Intellectual Properties Office_](https://www2.gov.bc.ca/gov/content?id=4F03158C0AF84EC08DBB5BE3E873C33E) - email [QPIPPCopyright@gov.bc.ca](mailto:QPIPPCopyright@gov.bc.ca)
 + Data can be licensed under OGL-BC after:
    + The authorizations described above have been made, and the [_Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) has been signed off from your Deputy Minister or designated alternate.
    + The dataset is made available in an open format, e.g., CSV, Shape File (SHP), JSON. 
-      + Additional Formats noted by the [_OCIO's Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+      + Additional formats are noted in the [_OCIO's Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 	  + Note that the DataBC Data Distribution facilities automatically make downloadable data available in open formats. Regardless of licence, people uploading data in proprietary formats (e.g., Excel) directly to the BC Data Catalogue are encouraged to provide datasets in an open data format (e.g., csv) as well.
    + A BC Data Catalogue (BCDC) metadata record for the dataset, linking to the appropriate Open Data Licence, has been created. 
       + To obtain an account for the BCDC, approval from the dataset's Data Custodian is required; the custodian may be a Director or Executive Director of the Branch responsible for maintaining the dataset.
@@ -228,14 +228,14 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I get authorization to publish records in the BC Data Catalogue?
 
 + To obtain an account to publish and manage data and metadata records for data, applications and services, approval from the Custodian is required. The custodian may be a Director or Executive Director of a Branch.
-+ Please send the request and the custodian's approval to: < **ITZ ID DataBC Catalogue Services** >.
++ Please send the request and the custodian's approval to: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 ### How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?
 
 + We do require that each Catalogue record have a way to contact the business area for further questions or access.
 + The custodian of the dataset can authorize one or more people to be editors of their records. 
    + These editors can then change the contact information. 
-   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to < **CITZ ID DataBC Catalogue Services** >.
+   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 ### Can I do bulk changes to Catalogue records?
 
@@ -243,11 +243,11 @@ The following sections will help explain the difference between **Open Data** an
    + Change a contact from one person to another
    + Change a resource or more information link to a new URL
    + Change a record from one state to another, e.g., Pending Archive to Archive or push a Published record back to Draft.
-+ Requests such as these can be sent to: < **CITZ ID DataBC Catalogue Services** >
++ Requests such as these can be sent to: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 ### How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?
 
-+ These field descriptions and short names (for Shape Files) all come from the BC Geographic Warehouse system metadata.
++ These field descriptions and short names (for Shapefiles) all come from the BC Geographic Warehouse system metadata.
 + To update these, we require the object name, field name and the new definition for the Description or Short Name.
    + If there are multiple datasets or a large number of columns, we can prepare an export to use.
 + This request then be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) 
@@ -361,7 +361,7 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 ### How long does it take to publish to the BCGW?
 
-The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delays is lack of data readiness. 
+The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delay is lack of data readiness. 
 
 Before asking to publish data to the BCGW, consider:
 
