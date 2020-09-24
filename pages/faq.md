@@ -7,8 +7,7 @@ This page provides a list of frequently asked questions and answers to help you 
 + [**Audience**](#Audience)
 + [**Purpose**](#Purpose)
 + [**WHO'S WHO AT DATABC**](#WHOS-WHO-AT-DATABC)
-+ [**ROLES: DATA CUSTODIAN, DATA STEWARD, DATA MANAGER**](#ROLES-DATA-CUSTODIAN-DATA-STEWARD-DATA-MANAGER)
-	+ [How do I know if I am a Custodian, a Data Steward or a Data Manager?](#How-do-I-know-if-I-am-a-Custodian-a-Data-Steward-or-a-Data-Manager)
++ [**BC DATA CATALOGUE ROLES**](#BC-DATA-CATALOGUE-ROLES)
 + [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#DATA-PUBLICATION-LICENSING-OPTIONS---OPEN-DATAACCESS-ONLY)
 	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#What-is-Open-Data-and-what-is-the-difference-between-Open-Data-and-Access-Only-public-data)
 	+ [Why should I consider publishing data under an open data licence?](#Why-should-I-consider-publishing-data-under-an-open-data-licence)
@@ -76,7 +75,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 + Questions about the BC Data Catalogue (BCDC)
 + Questions about Open Data and the process of publishing data under an open data licence  
-+ Publishing tabular data to the DataBC Program, but not to the BC Geographic Warehouse
++ Publishing tabular data to the BC Data Catalogue, but not to the BC Geographic Warehouse
 + _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
 
 #### Data Architecture Services 
@@ -119,7 +118,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + BC Geocoder
 + Address Validator
 + BC Route Planner
-+ _Contact_: < __CITZ ID DataBC Location Services__ >
++ _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
 
 #### DataBC
 
@@ -130,19 +129,15 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 -------------------------------------------------------
 
-## ROLES: DATA CUSTODIAN, DATA STEWARD, DATA MANAGER
+## BC DATA CATALOGUE ROLES
 
-### How do I know if I am a Custodian, a Data Steward or a Data Manager?
+There are 3 roles associated with data holdings in the BC Data Catalogue: Data Custodian, Data Steward, and Data Manager. To familiarize yourself with the responsibilities of each of these, review the following documentation:  
+   + [_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md)
+     + [_Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-custodian)
+     + [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)
+     + [_Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager)
 
-
-+ A dataset or set of data can have many actors involved in its lifecycle. 
-   + DataBC acts as a Steward of data that is under the custodianship of other organizations. 
-   + There can be multiple Data Stewards.
-+ Additional information can be found in **A Guide for Data Custodians and Data Managers**:
-   + [_Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-custodian)
-   + [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)
-   * [_Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager)
-+ Other documents explaining roles and responsibilities as well as terms:
++ Other documents explaining guidelnes, roles and responsibilities:
    + [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
    + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
 
@@ -537,22 +532,32 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 + Some datasets have data use agreements that must be signed with the custodial business area.
 + Review the contacts shown on the metadata records to discuss access.
 
-### How do I get an account to BCGW? and specifically Delivery and Test?
+### How do I get an account to BCGW?
 
-+ Fill out the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261), specifying your _IDIR ID_
-   + If access to the BC Geographic Warehouse Delivery and/or Test environment(s) are required, please add that request in the **Additional Information** section noting which environment(s) access is required.
++ Fill out the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261)
+   + Recipient IDIR ID: your IDIR
+   + Spatial Files 1 and 2 (optional): choose your business area from either of the two drop-down menus. If you are unsure, leave these blank and provide details as specified in the Additional Information section .
+   + GTS Email Distribution List: choose the first option, unless you wish to receive more detailed communication or you are a contractor.
+   + ESRI License Type: choose the license type that best descibes the work that you do. 
+   + Additional Information: Any additional information can be provided here.  If you require access to the BCGW Delivery and/or Test environment(s) please add that request in this section noting which environment(s) access is required.
 
 ### How do I change/reset my BCGW password?
 
 + Fill out the form in the [_NRM Business Service Desk Application_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/42) as follows:
 
-![Reset a password](images/image_reset_password.png)
+  + Summary: your IDIR
+  + Application: BCGW - BC Geographic Warehouse
+  + Account ID: MY ORACLE ID (normally the same as your IDIR)
+  + Description: Please reset my Oracle password in the BCGW _(choose the environment(s) that apply to you: production, test, and/or delivery)_ environment(s).
 
 ### How do I unlock my BCGW account?
 
 + Fill out the form in the [_NRM Business Service Desk Application_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/42) as follows:
 
-![Unlock an account](images/image_unlock_account.png)
+  + Summary: your IDIR
+  + Application: BCGW - BC Geographic Warehouse
+  + Account ID: MY ORACLE ID (normally the same as your IDIR)
+  + Description: Please unlock my Oracle account in the BCGW _(choose the environment(s) that apply to you: production, test, and/or delivery)_ environment(s).
 
 ### I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?
 
