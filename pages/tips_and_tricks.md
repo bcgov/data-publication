@@ -99,7 +99,7 @@ There are two ways to access pre-styled layers from the Layerfile Library: the T
 _Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-establishes the connection to the BCGW each time, resulting in long waits to access data._ 
 
 #### TSAT toolbar in ArcMap
-   + In ArcMap, from the TSAT toolbar, click the Add Library Layers button.
+   + In ArcMap, from the TSAT toolbar, click the **Add Library Layers** button.
    + Search or browse for your layer(s), and then add to your map
    _Tip: Adding layerfiles via the TSAT Toolbar allows the user to search using keywords_
 
