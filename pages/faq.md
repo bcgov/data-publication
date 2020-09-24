@@ -7,8 +7,7 @@ This page provides a list of frequently asked questions and answers to help you 
 + [**Audience**](#Audience)
 + [**Purpose**](#Purpose)
 + [**WHO'S WHO AT DATABC**](#WHOS-WHO-AT-DATABC)
-+ [**ROLES: DATA CUSTODIAN, DATA STEWARD, DATA MANAGER**](#ROLES-DATA-CUSTODIAN-DATA-STEWARD-DATA-MANAGER)
-	+ [How do I know if I am a Custodian, a Data Steward or a Data Manager?](#How-do-I-know-if-I-am-a-Custodian-a-Data-Steward-or-a-Data-Manager)
++ [**BC DATA CATALOGUE ROLES**](#BC-DATA-CATALOGUE-ROLES)
 + [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#DATA-PUBLICATION-LICENSING-OPTIONS---OPEN-DATAACCESS-ONLY)
 	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#What-is-Open-Data-and-what-is-the-difference-between-Open-Data-and-Access-Only-public-data)
 	+ [Why should I consider publishing data under an open data licence?](#Why-should-I-consider-publishing-data-under-an-open-data-licence)
@@ -56,7 +55,7 @@ This page provides a list of frequently asked questions and answers to help you 
 
 ## Audience
 
-This page's intended audience is anyone who is interested in, or currently, publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
+This page's intended audience is anyone who is interested in or is currently publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
 
 ## Purpose
 
@@ -76,8 +75,8 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 + Questions about the BC Data Catalogue (BCDC)
 + Questions about Open Data and the process of publishing data under an open data licence  
-+ Publishing tabular data to the DataBC Program, but not to the BC Geographic Warehouse
-+ _Contact_: < **CITZ ID DataBC Catalogue Services** >
++ Publishing tabular data to the BC Data Catalogue, but not to the BC Geographic Warehouse
++ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
 
 #### Data Architecture Services 
 
@@ -112,14 +111,14 @@ The following is a list of DataBC groups with direction on their areas of expert
 + BC Map Hub
 + Data Mashup Framework (DMF)
 + Simple Map Kit (SMK)
-+ _Contact_: < __CITZ ID DataBC Map Services__ >
++ _Contact_: [datamaps@gov.bc.ca](mailto:datamaps@gov.bc.ca)
 
 #### Location Services 
 
 + BC Geocoder
 + Address Validator
 + BC Route Planner
-+ _Contact_: < __CITZ ID DataBC Location Services__ >
++ _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
 
 #### DataBC
 
@@ -130,19 +129,15 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 -------------------------------------------------------
 
-## ROLES: DATA CUSTODIAN, DATA STEWARD, DATA MANAGER
+## BC DATA CATALOGUE ROLES
 
-### How do I know if I am a Custodian, a Data Steward or a Data Manager?
+There are 3 roles associated with data holdings in the BC Data Catalogue: Data Custodian, Data Steward, and Data Manager. To familiarize yourself with the responsibilities of each of these, review the following documentation:  
+   + [_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md)
+     + [_Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-custodian)
+     + [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)
+     + [_Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager)
 
-
-+ A dataset or set of data can have many actors involved in its lifecycle. 
-   + DataBC acts as a Steward of data that is under the custodianship of other organizations. 
-   + There can be multiple Data Stewards.
-+ Additional information can be found in **A Guide for Data Custodians and Data Managers**:
-   + [_Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-custodian)
-   + [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)
-   * [_Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager)
-+ Other documents explaining roles and responsibilities as well as terms:
++ Other documents explaining guidelnes, roles and responsibilities:
    + [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
    + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
 
@@ -158,11 +153,11 @@ The following sections will help explain the difference between **Open Data** an
 
 #### What does **Open Data** mean?
 
-+ _Open Data_ is the idea that some data should be freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control" - [_Wikipedia_](https://en.wikipedia.org/wiki/Open_data)
++ "_Open Data_ is the idea that some data should be freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control" - [_Wikipedia_](https://en.wikipedia.org/wiki/Open_data)
 
 #### What does **Access Only** mean?
 
-+ For the reproduction of materials found in the [_BC Data Catalogue_](http://catalogue.data.gov.bc.ca/), either a licence agreement (as specified in the BC Data Catalogue) will apply, or the materials are _access only_ and reproduction is not permitted without written permission.
++ For the reproduction of materials found in the [_BC Data Catalogue_](http://catalogue.data.gov.bc.ca/), either a licence agreement (as specified in the BC Data Catalogue) will apply, or the materials are _Access Only_ and reproduction is not permitted without written permission.
 + To request permission, please complete the [_Copyright Permission Request Form_](https://forms.gov.bc.ca/copyright-permission-request/). 
    + If a licence agreement applies, permission is subject to the terms of the specified licence.
    
@@ -174,7 +169,7 @@ The following sections will help explain the difference between **Open Data** an
 
 ### Why should I consider publishing data under an open data licence?
 
-+ Licensing data as Open increases the likelihood that the public will  benefit from the data, either directly or by using applications that can now use the data.
++ Licensing data as _Open_ increases the likelihood that the public will benefit from the data, either directly or by using applications that can use the data.
 + As explained on [_this site_](http://opendatatoolkit.worldbank.org/en/starting.html#benefits), licensing data as _Open_ increases transparency, improves public service and increases efficiency, and contributes to innovation and public service. 
 
 ### Can all data be licensed as Open?
@@ -184,13 +179,13 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I publish data as Open Data?
 
 + Datasets, under the Intellectual Property of the Province of B.C., may be eligible to be licensed under the [_Open Government Licence - British Columbia (OGL-BC)_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61).
-+ To license a dataset as _open data_ you will need to contact multiple people to authorize the dataset to be made available under the OGL-BC. The [_Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) document includes the following resources (plus others):
++ To license a dataset as _Open Data_ you will need to contact multiple people to authorize the dataset to be made available under the OGL-BC. The [_Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) document includes the following resources (plus others):
    + Your [_Ministry Information Security Officer_](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
    + The [_Intellectual Properties Office_](https://www2.gov.bc.ca/gov/content?id=4F03158C0AF84EC08DBB5BE3E873C33E) - email [QPIPPCopyright@gov.bc.ca](mailto:QPIPPCopyright@gov.bc.ca)
 + Data can be licensed under OGL-BC after:
    + The authorizations described above have been made, and the [_Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) has been signed off from your Deputy Minister or designated alternate.
    + The dataset is made available in an open format, e.g., CSV, Shape File (SHP), JSON. 
-      + Additional Formats noted by the [_OCIO's Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+      + Additional formats are noted in the [_OCIO's Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 	  + Note that the DataBC Data Distribution facilities automatically make downloadable data available in open formats. Regardless of licence, people uploading data in proprietary formats (e.g., Excel) directly to the BC Data Catalogue are encouraged to provide datasets in an open data format (e.g., csv) as well.
    + A BC Data Catalogue (BCDC) metadata record for the dataset, linking to the appropriate Open Data Licence, has been created. 
       + To obtain an account for the BCDC, approval from the dataset's Data Custodian is required; the custodian may be a Director or Executive Director of the Branch responsible for maintaining the dataset.
@@ -228,14 +223,14 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I get authorization to publish records in the BC Data Catalogue?
 
 + To obtain an account to publish and manage data and metadata records for data, applications and services, approval from the Custodian is required. The custodian may be a Director or Executive Director of a Branch.
-+ Please send the request and the custodian's approval to: < **ITZ ID DataBC Catalogue Services** >.
++ Please send the request and the custodian's approval to: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 ### How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?
 
 + We do require that each Catalogue record have a way to contact the business area for further questions or access.
 + The custodian of the dataset can authorize one or more people to be editors of their records. 
    + These editors can then change the contact information. 
-   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to < **CITZ ID DataBC Catalogue Services** >.
+   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 ### Can I do bulk changes to Catalogue records?
 
@@ -243,11 +238,11 @@ The following sections will help explain the difference between **Open Data** an
    + Change a contact from one person to another
    + Change a resource or more information link to a new URL
    + Change a record from one state to another, e.g., Pending Archive to Archive or push a Published record back to Draft.
-+ Requests such as these can be sent to: < **CITZ ID DataBC Catalogue Services** >
++ Requests such as these can be sent to: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
 
 ### How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?
 
-+ These field descriptions and short names (for Shape Files) all come from the BC Geographic Warehouse system metadata.
++ These field descriptions and short names (for Shapefiles) all come from the BC Geographic Warehouse system metadata.
 + To update these, we require the object name, field name and the new definition for the Description or Short Name.
    + If there are multiple datasets or a large number of columns, we can prepare an export to use.
 + This request then be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) 
@@ -361,7 +356,7 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 ### How long does it take to publish to the BCGW?
 
-The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delays is lack of data readiness. 
+The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delay is lack of data readiness. 
 
 Before asking to publish data to the BCGW, consider:
 
@@ -537,22 +532,32 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 + Some datasets have data use agreements that must be signed with the custodial business area.
 + Review the contacts shown on the metadata records to discuss access.
 
-### How do I get an account to BCGW? and specifically Delivery and Test?
+### How do I get an account to BCGW?
 
-+ Fill out the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261), specifying your _IDIR ID_
-   + If access to the BC Geographic Warehouse Delivery and/or Test environment(s) are required, please add that request in the **Additional Information** section noting which environment(s) access is required.
++ Fill out the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261)
+   + Recipient IDIR ID: your IDIR
+   + Spatial Files 1 and 2 (optional): choose your business area from either of the two drop-down menus. If you are unsure, leave these blank and provide details as specified in the Additional Information section .
+   + GTS Email Distribution List: choose the first option, unless you wish to receive more detailed communication or you are a contractor.
+   + ESRI License Type: choose the license type that best descibes the work that you do. 
+   + Additional Information: Any additional information can be provided here.  If you require access to the BCGW Delivery and/or Test environment(s) please add that request in this section noting which environment(s) access is required.
 
 ### How do I change/reset my BCGW password?
 
 + Fill out the form in the [_NRM Business Service Desk Application_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/42) as follows:
 
-![Reset a password](images/image_reset_password.png)
+  + Summary: your IDIR
+  + Application: BCGW - BC Geographic Warehouse
+  + Account ID: MY ORACLE ID (normally the same as your IDIR)
+  + Description: Please reset my Oracle password in the BCGW _(choose the environment(s) that apply to you: production, test, and/or delivery)_ environment(s).
 
 ### How do I unlock my BCGW account?
 
 + Fill out the form in the [_NRM Business Service Desk Application_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/42) as follows:
 
-![Unlock an account](images/image_unlock_account.png)
+  + Summary: your IDIR
+  + Application: BCGW - BC Geographic Warehouse
+  + Account ID: MY ORACLE ID (normally the same as your IDIR)
+  + Description: Please unlock my Oracle account in the BCGW _(choose the environment(s) that apply to you: production, test, and/or delivery)_ environment(s).
 
 ### I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?
 

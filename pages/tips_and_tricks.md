@@ -6,17 +6,20 @@ The context below provides helpful tips and data points for those users who mana
 -----------------------
 ## Table of Contents
 + [**CONNECTING TO THE BCGW**](#CONNECTING-TO-THE-BCGW)
-	+ [Database Connections](#Database-Connections)
-	+ [Database Instances](#Database-Instances)
-	+ [Direct Connects](#Direct-Connects)
-	+ [Connecting to BCGW Production using FME](#Connecting-to-BCGW-Production-using-FME)
 	+ [Connecting to BCGW Production using ArcGIS Desktop](#Connecting-to-BCGW-Production-using-ArcGIS-Desktop)
-	+ [Adding Other Database Connections using ArcGIS Desktop](#Adding-Other-Database-Connections-using-ArcGIS-Desktop)
-+ [**ADDING LAYERS USING ARCGIS DESKTOP**](#ADDING-LAYERS-USING-ARCGIS-DESKTOP)
-	+ [Add BCGW Data from the TSAT toolbar in ArcMap](#Add-BCGW-Data-from-the-TSAT-toolbar-in-ArcMap)
-	+ [Add Layerfile Library LYR into ArcMap without using TSAT Add Layer Library](#Add-Layerfile-Library-LYR-into-ArcMap-without-using-TSAT-Add-Layer-Library)
-	+ [Add BCGW Data Directly from ArcCatalog to ArcMap](#Add-BCGW-Data-Directly-from-ArcCatalog-to-ArcMap)
-+ [**SETTING DATA SOURCES VIA ARCCATALOG**](#SETTING-DATA-SOURCES-VIA-ARCCATALOG)
+	+ [Other Database Connections](#Other-Database-Connections)
+	+ [Connecting to BCGW Production using FME](#Connecting-to-BCGW-Production-using-FME)
+
++ [**ADDING DATA USING ARCGIS DESKTOP**](#ADDING-DATA-USING-ARCGIS-DESKTOP)
+	+ [ADDING LAYERFILES](#ADDING-LAYERFILES)
+	  + [TSAT toolbar in ArcMap](#TSAT-toolbar-in-ArcMap)
+	  + [ArcCatalog](#ArcCatalog)
+	+ [ADDING DATA DIRECTLY FROM BCGW](#ADDING-DATA-DIRECTLY-FROM-BCGW)
+	
++ [**IDENTIFIED BUGS**](#IDENTIFIED-BUGS)
++ [**UPDATING DATA SOURCES**](#UPDATING-DATA-SOURCES)
+   + [VIA ArcCatalog](#VIA-ArcCatalog)
+   + [VIA ArcGIS Documents](#VIA-ArcGIS-Documents)
    + [Updating Database Connections](#Updating-Database-Connections)
       + [Setting Data Sources Via Breaking and Repairing Data Links in ArcMap](#Setting-Data-Sources-Via-Breaking-and-Repairing-Data-Links-in-ArcMap)
 + [**WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS**](#WORKFLOW-FOR-CREATING-AND-DELETING-BCGW-DATABASE-OBJECTS)
@@ -43,31 +46,36 @@ The content below is to provide the intended audience with quick access to tips 
 
 Use the following information to create connections to DataBC database environments.
 
-### Database Connections
+It is a best practise to connect to the BCGW in ArcCatalog prior to starting work in ArcMap. This helps users avoid waiting for BCGW connection multiple times over the course of thier daily work.
 
-ArcGIS Desktop 'Direct Connect' uses an Oracle client installed along with the ESRI Software.  
-A local TNSNAMES.ora file must also be included in the Oracle Client installation location.  
+### Connecting to BCGW Production using ArcGIS Desktop
 
-  - For users on GTS desktops, the TNSNAMES will already be set up via IITD OID(LDAP)
-  - For DataBC PC users, add Environment Variable `TNS_ADMIN=\\apps.bcgov\TNS_ADMIN\`
-  - For Unix/Linux/OSX users, run `set TNS_ADMIN=`<smb://apps.bcgov/TNS_ADMIN/>
-    
-### Database Instances
+In ArcCatalog, under Database Connections, there should be a Database Connection configured called **BCGW.sde**
 
-The BC Geographic Warehouse has three environments: Delivery, Test, and Production, which can be directly connected to from GTS desktops. Please contact [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) for connection instructions.
++ If you do not see this connection in ArcCatalog, click Add Database Connection and set the Database Connection properties to: 
+   + Database Platform: **Oracle**
+   + Instance: `<BCGW Host Name>``/``<BCGW Service Name>`
+     + If you do not know the instance information (BCGW Host Name and BCGW Service Name), please contact [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) for connection instructions.
+   + User Name: this is your IDIR
+   + Password: this is your BCGW password _[How do I get an account to the BCGW?](https://github.com/bcgov/data-standards/blob/master/pages/faq.md#How-do-I-get-an-account-to-BCGW-and-specifically-Delivery-and-Test)_
+   + **DO NOT** save your credentials in database connections as this will embed your username and password into any saved MXDs and LYRs that use this connection.  This poses a security threat and can corrupt your MXDs when you are required to [_change your password_](http://apps.bcgov/standards/dbc/Database_Account_Security_Policy).
 
- 
-### Direct Connects
 
-Direct Connect for DataBC's database environments is comprised of:
+### Other Database Connections
 
-`<tns alias>`
+The BC Geographic Warehouse has three environments: Delivery, Test, and Production, which can be directly connected to from GTS desktops. For data review purposes you may need to connect to the BCGW Test or Delivery databases. These connections are not part of the default start up script on NRS GTS desktops, therefore they will need to be added.
 
-OR with the *Easy Connect* syntax
+1. Open ArcCatalog
+1. Expand Database Connections
+1. Click on Add Database Connection and fill in the appropriate parameters
+   + Chose Database Platform: **Oracle**
+   + Instance: `<Host Name>``/``<Service Name>` or `<tns alias>`
+     + If you do not know the instance information (BCGW Host Name and BCGW Service Name), please contact [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) for connection instructions.
+   + Again **DO NOT** save username or password
+1. Rename the sde database connection to the appropriate name for BCGW delivery or test database environments:
+   + BCGWTEST.sde
+   + BCGWDLVR.sde
 
-`<Server Alias>``/``<Service Name>`
-
-For more information see the [_ESRI Documentation on Oracle Connections_](http://desktop.arcgis.com/en/arcmap/latest/manage-data/gdbs-in-oracle/connect-oracle.htm) from ArcGIS.
 
 ### Connecting to BCGW Production using FME
 
@@ -80,81 +88,60 @@ If not using an Easy Connect then the connection requires ESRI syntax and thus i
 + Example:  
         ArcGIS 10.6 - <BCGW Host Name>``/``<BCGW Service Name>
 
-### Connecting to BCGW Production using ArcGIS Desktop
 
-In ArcCatalog on NRS GTS desktops there should be a Database Connection called **BCGW.sde**
+## ADDING DATA USING ARCGIS DESKTOP
 
-+ If there, it will be accessible from other ArcGIS tools and scripts
-+ Its Connection Properties should a;ready be configured. If not then the properties should be set to:
-   + Database Platform: **Oracle**
-   + Instance: `<BCGW Host Name>``/``<BCGW Service Name>`
-   + **DO NOT** save your credentials in database connections as this will embed your username and password into any saved MXDs and LRYs that use this connection.  This poses a security threat and can corrupt your MXDs when you are required to [_change your password_](http://apps.bcgov/standards/dbc/Database_Account_Security_Policy).
+The following outlines how to use ArcCatalog to connect to BCGW data efficiently, so users are not repeatidly waiting for connection to the entire BCGW.
+
+### ADDING LAYERFILES
+There are two ways to access pre-styled layers from the Layerfile Library: the TSAT Toolbar in ArcMap and ArcCatalog. Layerfiles use standard themes to represent data and can be very useful for quick and consistent visualization and map production.
+
+_Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-establishes the connection to the BCGW each time, resulting in long waits to access data._ 
+
+  **TSAT toolbar in ArcMap**
+   - In ArcMap, from the TSAT toolbar, click the Add Library Layers button.
+   - Search or browse for your layer(s), and then add to your map
+   _Tip: Adding layerfiles via the TSAT Toolbar allows the user to search using keywords_
+
+  **ArcCatalog**
+
+   - Make sure you have a network connection in _Windows Explorer_ on the GTS to \\data.bcgov\layer_library. If this connection is not set up first in _Windows Explorer_, it will not be available to connect to in ArcCatalog
+   - In ArcCatalog, set up a Folder Connection to \\data.bcgov\layer_library
+   - Browse for the layer, then drag-and-drop into ArcMap
+
+### ADDING DATA DIRECTLY FROM BCGW
+
+  + If you know the object name of the data you want to add to your map, open the BCGW connection and browse for the object.  Drag-and-drop into your map.
+  + If you do not know the object name for your data, use the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/) to browse for data and the associated object name (shown at the bottom of the metadata record).
   
-### Adding Other Database Connections using ArcGIS Desktop
+[RETURN TO TOP][1]
+----------------------------------------------------------- 
 
-For data review purposes you may need to connect to the BCGW Test or Delivery databases. These connections are not part of the default start up script on NRS GTS desktops, therefore they will need to be added.
+## IDENTIFIED BUGS
 
-1. Open ArcCatalog
-1. Expand Database Connections
-1. Click on Add Database Connection and fill in the appropriate parameters
-   + Chose Database Platform: **Oracle**
-   + Instance: `<Host Name>``/``<Service Name>` or `<tns alias>`
-   + Again **DO NOT** save username or password
-1. Rename the sde database connection to the appropriate name for BCGW delivery or test database environments:
-   + BCGWTEST.sde
-   + BCGWDLVR.sde
+**1. RED (!) beside all layer names, indicating data sources are broken.**
 
-## ADDING LAYERS USING ARCGIS DESKTOP
-
-The following outlines how to use ArcCatalog with ArcMap to only connect to the BCGW once or twice a day, thus users not having to wait for the connection to the BCGW multiple times.
-
-Ideally a combination of use of the Add from Layerfile Library on the TSAT toolbar and ArcCatalog should be used. 
-Avoid using the Add Data button in ArcMap to add datasets from the BCGW because each time users will have to wait for the long connection time.
-
-**IDENTIFIED BUG** - **Arc documents when opened all connections to the BCGW are broken. Have a red !**
-+ **Workaround** - At the top of the list of a layers a single presentation is required.
+  _Tip: Open the layer properties and review the Source - this will show the original object name for the broken layer. e.g., WHSE_BASEMAPPING.TRIM_WATER_LINES_
+  
++ **Workaround** 
+   + Add a standalone layer from the same DB connection and leave it at the top of table of contents/drawing order.
+   + The first standalone layer in the table of contents cannot be text (annotation) or a group layer.
    + This presentation can be turned off
    + Once added, **Save** and close the document.
    + Next time it is opened all connections should be live.
 
-**TIP!** - **Connecting to the BCGW for the first time for a new MXD:**
-
-1. Add a layerfile via TSAT (or directly from the layer library folder)  
-   + Connecting to the BCGW directory or adding a layerfile at first will be initially slow as it reads the entire database metadata.
-   + Subsequent layerfiles added to your MXD will be much faster because you will not need to re-connect to the BCGW.
-1. For any datasets in the BCGW that do not have layerfiles, open ArcCatalog, establish a connection to the BCGW, and use it to transfer datasets into your MXD document(s) using drag-and-drop.
-   + Using drag-and-drop from ArcCatalog, ArcMap will be much quicker at connecting and adding single datasets from the BCGW.
-   + With the BCGW connection now established in ArcCatalog, keep it open while you work throughout the day. Drag-and-drop BCGW datasets to all your MXD documents.
-
-### Add BCGW Data from the TSAT toolbar in ArcMap
-
-1. In ArcMap, from the TSAT toolbar, click the Add Library Layers button.
-1. Search or browse for your layer(s), and then add to your map
-
-### Add Layerfile Library LYR into ArcMap without using TSAT Add Layer Library
-
-1. Open up the Layerfile Library in *Windows Explorer*.  ***DO NOT*** use ArcCatalog to touch a .LYR in the Corporate Layerfile Library as you will be prompted to connect to the BCGW for each item in the .LYR
-   + \\data.bcgov\layer_library
-1. Drap-and-drop them into your MXD
-***Limitation:*** Adding layerfiles directly doesn't allow the full search functionality found in the TSAT toolbar in ArcMap. 
-
-### Add BCGW Data Directly from ArcCatalog to ArcMap
-
-1. Open ArcCatalog at the beginning of working with datasets in the BCGW. 
-1. Establish your [connection to the BCGW](https://gogs.data.gov.bc.ca/DataBC/FAQ/wiki/Spatial+Data+Connections)
-1. Add your datasets into your open MXD document(s) by drag-and-drop directly from ArcCatalog
-1. Now that you have established a connection to the BCGW in ArcCatalog, **do not close ArcCatalog until you no longer need to add BCGW datasets to any MXD document in the foreseeable future.**
 
 [RETURN TO TOP][1]
 ----------------------------------------------------------- 
 
-## SETTING DATA SOURCES VIA ARCCATALOG
+## UPDATING DATA SOURCES 
 
-This is how ESRI recommends changing sources but as some MXDs have a large variety of source metadata embedded this can take some time. A few tips are included below:
+### VIA ArcCatalog
 
-<https://desktop.arcgis.com/en/arcmap/latest/manage-data/using-arccatalog/setting-data-sources.htm>
+[This is how ESRI recommends changing sources](<https://desktop.arcgis.com/en/arcmap/latest/manage-data/using-arccatalog/setting-data-sources.htm>) but as some MXDs have a large variety of source metadata embedded this can take some time. 
+A few additional tips are included below:
 
-1. **Highly recommend first** go to the Database Connections and log into BCGW.sde, as ArcCatalog remembers your logins while it is open and you won't be prompted to login multiple times if you are changing multiple source metadata with the steps below.
+1. Connect to the BCGW in ArcCatalog. You will only need to connect to the BCGW once when taking this as a first step, avoiding being promtped multiple times when changing more than one source.
 2. In ArcCatalog navigate to the MXD
 3. Right Click and hit *Set Data Source(s)...*
   
@@ -176,17 +163,17 @@ This is how ESRI recommends changing sources but as some MXDs have a large varie
 
 6. Once done hit OK.
 
-### Updating Database Connections in ArcGIS Documents
+### VIA ArcGIS Documents
 
 This section describes how to manage Oracle database connections in ArcMap and ArcCatalog.
 
 #### Setting Data Sources Via Breaking and Repairing Data Links in ArcMap
 
-<http://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/repairing-broken-data-links.htm#GUID-B7EAAD5E-A147-4F3A-9B69-0850E333EDBA>
+[ESRI's guidance on repairing broken links for multiple layers](<http://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/repairing-broken-data-links.htm#GUID-B7EAAD5E-A147-4F3A-9B69-0850E333EDBA>)
 
 1. Open MXD
 2. When prompted for BCGW database credentials hit the Cancel button. *You may have to hit Cancel more than once*
-3. All the feature classes connected to the BCGW will now have red exclamation mark **<span style="color:red">\!</span>**
+3. All the feature classes connected to the BCGW will now have red exclamation mark (!)**
 
 ![Broken Links in MXDs](images/MXD_Red_Exclamation_Mark.JPG)
 
@@ -213,21 +200,19 @@ Let this run.
 
 ##### Generic arcpy python tools for updating connections
  
-Please see http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy-mapping/updatingandfixingdatasources.htm
+Please see [ESRI's guidance for updating and fixing data sources](http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy-mapping/updatingandfixingdatasources.htm)
 
 ###### Available DataBC Script Tools
    
-There are multi LYR File Update OR Single MXD File Update Database Connections for 10.6 clients. For GTS users and Government employees the scripts are available here: 
+There are Multi LYR File Update OR Single MXD File Update Database Connections for 10.6 clients. For GTS users and Government employees the scripts are available here: 
 
-<mark>Move these pages to github and add other toolboxes we've written?</mark>
-
-https://gogs.data.gov.bc.ca/daops/UpdateDatabaseConnections this is a \*.pyt python tool box with two scripts **(WHICH REQUIRES THE USE OF THE ARCINFO LICENSE LEVEL)** one for multiple layer file conversion and one for a single MXD update:  
-        
+**<Broken Link>**[gogs Update Database Connections](https://gogs.data.gov.bc.ca/daops/UpdateDatabaseConnections) - this is a \*.pyt python tool box with two scripts **(WHICH REQUIRES THE USE OF THE ARCINFO LICENSE LEVEL)** one for multiple layer file conversion and one for a single MXD update:  
+         
 ![Tby.PNG](images/Tby.PNG)
           
 **Some things to consider:**
 
-+ There is a How To document here - [\\giswhse.env.gov.bc.ca\whse\corp\script_whse\python\Utility_Misc\Ready\UpdateDatabaseConnections\How_to_use_Singl_MXD_File_Update_Database_Connections.pdf](\\giswhse.env.gov.bc.ca\whse\corp\script_whse\python\Utility_Misc\Ready\UpdateDatabaseConnections\How_to_use_Singl_MXD_File_Update_Database_Connections.pdf)
++ There is a How To document here - [How to use Single MXD File Update Database Connections](\\giswhse.env.gov.bc.ca\whse\corp\script_whse\python\Utility_Misc\Ready\UpdateDatabaseConnections\How_to_use_Singl_MXD_File_Update_Database_Connections.pdf)
 
 + Click _X_ to close the window on any database connection prompts and it will run faster.  
 + Enable the ArcINFO licensing level on your client  
