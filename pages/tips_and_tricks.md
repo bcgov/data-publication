@@ -98,16 +98,16 @@ There are two ways to access pre-styled layers from the Layerfile Library: the T
 
 _Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-establishes the connection to the BCGW each time, resulting in long waits to access data._ 
 
-  **TSAT toolbar in ArcMap**
-   - In ArcMap, from the TSAT toolbar, click the Add Library Layers button.
-   - Search or browse for your layer(s), and then add to your map
+#### TSAT toolbar in ArcMap
+   + In ArcMap, from the TSAT toolbar, click the Add Library Layers button.
+   + Search or browse for your layer(s), and then add to your map
    _Tip: Adding layerfiles via the TSAT Toolbar allows the user to search using keywords_
 
-  **ArcCatalog**
+#### ArcCatalog
 
-   - Make sure you have a network connection in _Windows Explorer_ on the GTS to \\data.bcgov\layer_library. If this connection is not set up first in _Windows Explorer_, it will not be available to connect to in ArcCatalog
-   - In ArcCatalog, set up a Folder Connection to \\data.bcgov\layer_library
-   - Browse for the layer, then drag-and-drop into ArcMap
+   + Make sure you have a network connection in _Windows Explorer_ on the GTS to \\data.bcgov\layer_library. If this connection is not set up first in _Windows Explorer_, it will not be available to connect to in ArcCatalog
+   + In ArcCatalog, set up a Folder Connection to \\data.bcgov\layer_library
+   + Browse for the layer, then drag-and-drop into ArcMap
 
 ### ADDING DATA DIRECTLY FROM BCGW
 
