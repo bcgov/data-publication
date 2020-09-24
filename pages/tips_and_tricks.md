@@ -86,7 +86,7 @@ Easy Connects are recommended.
 If not using an Easy Connect then the connection requires ESRI syntax and thus is dependent on the local version of ArcGIS and Oracle Client configuration.
 
 + Example:  
-        ArcGIS 10.6 - <BCGW Host Name>``/``<BCGW Service Name>
+        ArcGIS 10.6 - `<BCGW Host Name>``/``<BCGW Service Name>`
 
 
 ## ADDING DATA USING ARCGIS DESKTOP
