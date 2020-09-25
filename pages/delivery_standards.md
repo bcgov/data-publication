@@ -27,6 +27,8 @@ This document describes in detail the standard procedures and guidelines for the
 	+ [QA Data in PRODUCTION](#QA-Data-in-PRODUCTION)
 	+ [Next steps](#Next-steps)
 + [**APPENDIX: List of Schemas and Schema Roles**](#APPENDIX-List-of-Schemas-and-Schema-Roles)
++ [**APPENDIX: WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS](#APPENDIX-WORKFLOW-FOR-CREATING-AND-DELETING-BCGW-DATABASE-OBJECTS)
+
 + [**REFERENCES**](#REFERENCES)
 -----------------------
 
@@ -304,7 +306,7 @@ Once the data load to PRODUCTION is complete, a number of configuration activiti
 
 ----------------
 
-## APPENDIX: List of Schemas and Schema Roles
+## APPENDIX: LIST OF SCHEMAS AND SCHEMA ROLES
 
 Database Schema | Schema Roles
 --- | ---
@@ -339,12 +341,50 @@ WHSE_WILDLIFE_INVENTORY | SRM_WHSE_WILDLIFE_INV_BASE_PUB<br />SRM_WHSE_WILDLIFE_
 WHSE_WILDLIFE_MANAGEMENT |  SRM_WHSE_WILD_MGMT_BASE_PUB<br />SRM_WHSE_WILD_MGMT_USER_GOV 
 
 [RETURN TO TOP][1]
+----------------
+
+## APPENDIX: WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS
+
+This section provides best practices for creating and deleting spatial database objects as part of a data delivery (publication) to the BC Geographic Warehouse.
+
+### Prepare the Delivery Kit DDL scripts
+
+There are two options to choose from when preparing the delivery kit DLL scripts.  
+
+#### Option 1: Starting by Building a Physical Model
+
+1. Using Oracle Designer, transform and export modelled spatial objects into the appropriate DDL files to be included in the delivery kit. Follow the standards defined in [Naming and Describing Standards](naming_and_describing.md) and [Data Guidance and Best Practices](data_guidance_and_best_practices.md). 
+
+#### Option 2: Starting by Building Database Objects and Reverse-Engineering
+
+1. Using a filled-in [Dataset log file](), copy and paste the column definitions into a DDL-generation spreadsheet available [here]().  
+1. Copy and clean up the content in the generated tabs into a single SQL file.  There should be one file per database table or view. Ensure that the DDL files include GRANT statements. Change any occurrences of SDO_GEOMETRY to NUMBER.  Run the SQL file(s) in BCGW DELIVERY to make sure there are no errors.  
+1. Using Oracle Designer Design Editor, reverse-engineer the DDL files into the appropriate Designer container.  Reverse engineer tables before views.
+1. If necessary, correct any definitions of constraints and triggers, column and table comments, etc.  Make sure that SHAPE and/or GEOMETRY column data types are changed back to SDO_GEOMETRY.
+1. Generate DDL files as in Option 1.
+
+### Write the Data Loading Script
+
+See [Data Replication Standards and Guidelines](data_replication_standards_and_guidelines.md) for guidance on building FME scripts.
+
+### Write the Script for Managing the MDSYS USER_SDO_GEOM_METADATA View
+
+See [Data Guidance and Best Practices](data_guidance_and_best_practices.md#user_sdo_geom_metadata).  
+
+### Write the README file
+
+A template for the README file is available [here]() for Geographic Sites Registry (GSR) publications and [here]() for all other BCGW publications.
+
+### Test the README file (including rollback instructions) in BCGW Delivery
+
+Before submitting a delivery kit to the DataBC program, make sure that you have tested it in the BCGW delivery environment.
+
+[RETURN TO TOP][1] 
 
 ----------------
 
 ## REFERENCES
 
-+ [_Workflow for Creating and Deleting BCGW Database Objects_](tips_and_tricks.md#workflow-for-creating-and-deleting-bcgw-database-objects)
 + [_Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/xyz_WHSE.N.N.N.readme)
 + [_GSR (Sites Registry)-specific Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/GSR_WHSE.N.N.N.readme)
 + [_SDO extent metadata calculation template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/WHSE_SCHEMA_NAME/scripts/xyz_whse_compute_mdsys_extents.sql)

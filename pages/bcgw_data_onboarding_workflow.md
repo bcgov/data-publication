@@ -1,4 +1,4 @@
-# DATA PUBLICATION WORKFLOW - BC GEOGRAPHICAL WAREHOUSE
+# DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
 
 This page describes the workflow for loading datasets into the BC Geographic Warehouse (BCGW).  
 
@@ -73,7 +73,7 @@ Please read [_QUESTIONS_](before_you_start.md#questions) section in the [_Before
 |_Business Area: Data Suppliers_|Provide copy of dataset to BCGW Staging Area|
 | |Complete [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/dataset_logfile) with assistance from ***DataBC DA*** and [_Data Delivery Standards - Data Delivery Checklist_](delivery_standards.md#data-delivery-checklist)|
 | |Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for details|
-| |Start working on BC Open Government Licence checklist if applicable, using [_Open Data Assessment and Checklist (DOCX, 30 KB)_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)|
+| |Start working on the Open Government Licence - British Columbia assessment and checklist if applicable, using [_Open Data Assessment and Checklist (DOCX, 30 KB)_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)|
 |_DataBC: DA_|Review if Data Suppliers intended on QAing the data in the BCGW directly, if they have accounts.|
 |_Business Area: Data Suppliers_|Request access to the BCGW via the [_NRM Service Desk_](https://nrsservicedesk.gov.bc.ca/IM/scripts/LoginPage.asp)|
 
@@ -435,6 +435,6 @@ Please read [_QUESTIONS_](before_you_start.md#questions) section in the [_Before
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-geographical-warehouse
+[1]: #data-publication-workflow---bc-geographic-warehouse
 [2]: ../publishing-data-to-databc.md#data-publication-process
 
