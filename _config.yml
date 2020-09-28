@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 remote_theme: "pmarsceill/just-the-docs"
 #theme: "just-the-docs"
 aux_links:
@@ -55,6 +54,3 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: true
-=======
-theme: jekyll-theme-minimal
->>>>>>> upstream/master
