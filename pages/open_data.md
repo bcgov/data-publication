@@ -1,3 +1,10 @@
+---
+layout: default
+title: Open Data 
+nav_order: 50
+has_toc: false
+---
+
 # OPEN DATA
 
 In July 2011, the B.C. Government introduced its Open Information and Open Data Policy, becoming the first province in Canada to publish its data under an _open license_.
@@ -20,4 +27,4 @@ The following is a list of resources to support the use of the open license with
 
 -------------------------------------------------------
 
-[2]: ../publishing-data-to-databc.md#related-standards-and-resources
+[2]: ../index.md#related-standards-and-resources

@@ -1,10 +1,18 @@
+---
+layout: default
+title: Glossary
+nav_order: 120
+has_toc: false
+---
+
 # GLOSSARY
 This page is both a definition of terms as well as a description of acronyms.
 
 -----------------------
 ## Table of Contents
-+ [**Acronyms**](#Acronyms)
-+ [**Definitions**](#Definitions)
++ [**Acronyms**](#acronyms)
++ [**Definitions**](#definitions)
+
 -----------------------
 
 # Audience
@@ -67,4 +75,4 @@ Below is a list of terms and their definitions.
 -------------------------------------------------------
 
 [1]: #glossary
-[2]: ../publishing-data-to-databc.md#additional-references
+[2]: ../index.md#additional-references

@@ -1,18 +1,27 @@
+---
+layout: default
+title: Role Naming/Creation Standards
+nav_order: 30
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # ROLE NAMING AND CREATION STANDARDS
 This standard should be consistently applied across platforms, databases and users within DataBC.
 The naming standard is based upon the Role Based Access Control (RBAC) security model and the IDIR naming standard.
 
 -----------------------
 ## Table of Contents
-+ [**ROLE CREATION REQUEST**](#ROLE-CREATION-REQUEST)
-	+ [Timelines](#Timelines)
-+ [**ROLE IMPLEMENTATION**](#ROLE-IMPLEMENTATION)
-	+ [Role Types](#Role-Types)
-	+ [Naming Role Requirements](#Naming-Role-Requirements)
-	+ [Role Configuration Rollup](#Role-Configuration-Rollup)
-	+ [Schema Short Name Prefix Table](#Schema-Short-Name-Prefix-Table)
-+ [**GRANTING IDIR AND PROXIES**](#GRANTING-IDIR-AND-PROXIES)
-	+ [Granting Proxies to Roles](#Granting-Proxies-to-Roles)
++ [**ROLE CREATION REQUEST**](#role-creation-request)
+	+ [Timelines](#timelines)
++ [**ROLE IMPLEMENTATION**](#role-implementation)
+	+ [Role Types](#role-types)
+	+ [Naming Role Requirements](#naming-role-requirements)
+	+ [Role Configuration Rollup](#role-configuration-rollup)
+	+ [Schema Short Name Prefix Table](#schema-short-name-prefix-table)
++ [**GRANTING IDIR AND PROXIES**](#granting-idir-and-proxies)
+	+ [Granting Proxies to Roles](#granting-proxies-to-roles)
+
 -----------------------
 
 # Audience
@@ -220,6 +229,6 @@ See [_Proxy Naming Standards_](proxy_creation_standards.md#proxy-naming-standard
 -------------------------------------------------------
 
 [1]: #Role-Naming-and-Creation-Standards
-[2]: ../publishing-data-to-databc.md#naming-and-describing-standards
+[2]: ../index.md#naming-and-describing-standards
 
 

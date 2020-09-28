@@ -1,16 +1,25 @@
+---
+layout: default
+title: Metadata Standards
+nav_order: 90
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # METADATA STANDARDS
 
 This document presents metadata standards recommended  and high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue.
 
 -----------------------
 ## Table of Contents
-+ [**WHAT IS METADATA AND WHY IS IT IMPORTANT?**](#WHAT-IS-METADATA-AND-WHY-IS-IT-IMPORTANT)
-	+ [Benefits of Metadata](#Benefits-of-Metadata)
-	+ [Metadata should be:](#Metadata-should-be)
-+ [**MANDATORY METADATA FOR THE BC DATA CATALOGUE**](#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE)
-+ [**MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES**](#MANDATORY-METADATA-FOR-BC-GEOGRAPHIC-WAREHOUSE-RESOURCES)
-+ [**MANDATORY METADATA FOR RESOURCES NOT IN THE BC GEOGRAPHIC WAREHOUSE**](#MANDATORY-METADATA-FOR-RESOURCES-NOT-IN-THE-BC-GEOGRAPHIC-WAREHOUSE)
-+ [**RESOURCES**](#RESOURCES)
++ [**WHAT IS METADATA AND WHY IS IT IMPORTANT?**](#what-is-metadata-and-why-is-it-important)
+	+ [Benefits of Metadata](#benefits-of-metadata)
+	+ [Metadata should be:](#metadata-should-be)
++ [**MANDATORY METADATA FOR THE BC DATA CATALOGUE**](#mandatory-metadata-for-the-bc-data-catalogue)
++ [**MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES**](#mandatory-metadata-for-bc-geographic-warehouse-resources)
++ [**MANDATORY METADATA FOR RESOURCES NOT IN THE BC GEOGRAPHIC WAREHOUSE**](#mandatory-metadata-for-resources-not-in-the-bc-geographic-warehouse)
++ [**RESOURCES**](#resources)
+
 -----------------------
 
 # Audience
@@ -141,4 +150,4 @@ The following links will provide you with additional information regarding metad
 -------------------------------------------------------
 
 [1]: #metadata-standards
-[2]: ../publishing-data-to-databc.md#related-standards-and-resources
+[2]: ../index.md#related-standards-and-resources

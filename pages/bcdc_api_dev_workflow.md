@@ -1,17 +1,26 @@
+---
+layout: default
+title: API Development Workflow
+nav_order: 60
+parent: Data Publication Workflows
+has_toc: false
+---
+
 # MANAGING METADATA AND DATA USING THE BC DATA CATALOGUE API
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program.
 
 -----------------------
 ## Table of Contents
-+ [ARCHITECTURE](#ARCHITECTURE)
-+ [HOW TO BECOME A PROVIDER TO THE CATALOGUE](#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
-+ [HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API](#HOW-TO-MANAGE-METADATA-RECORDS-AND-RESOURCES-USING-THE-CATALOGUE-API)
-	+ [How to create a resource with the API](#How-to-create-a-resource-with-the-API)
-	+ [How to update a resource with the API](#How-to-update-a-resource-with-the-API)
-	+ [How to get the organization ID with the organization name](#How-to-get-the-organization-ID-with-the-organization-name)
-	+ [How to get package names and package IDs within an organization](#How-to-get-package-names-and-package-IDs-within-an-organization)
-	+ [How to get the resource names and resource IDs withing a package](#How-to-get-the-resource-names-and-resource-IDs-withing-a-package)
++ [**ARCHITECTURE**](#architecture)
++ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API**](#how-to-manage-metadata-records-and-resources-using-the-catalogue-api)
+	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
+	+ [How to update a resource with the API](#how-to-update-a-resource-with-the-api)
+	+ [How to get the organization ID with the organization name](#how-to-get-the-organization-id-with-the-organization-name)
+	+ [How to get package names and package IDs within an organization](#how-to-get-package-names-and-package-ids-within-an-organization)
+	+ [How to get the resource names and resource IDs withing a package](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
+
 -----------------------
 
 # Audience
@@ -138,4 +147,4 @@ for resource in pkg_data['resources']:
 -------------------------------------------------------
 
 [1]: #managing-metadata-and-data-using-the-bc-data-catalogue-api
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process

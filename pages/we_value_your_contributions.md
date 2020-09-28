@@ -1,28 +1,36 @@
+---
+layout: default
+title: Contributing
+nav_order: 200
+has_toc: false
+---
+
 # WE VALUE YOUR CONTRIBUTIONS
 
 Our goal in publishing these documents was to create a complete, clear, and correct repository of guides to help DataBC Program contributors and consumers. We welcome contributions; this document describes processes for providing contributions and feedback.
 
 -----------------------
 ## Table of Contents
-+ [**REPORTING ISSUES WITH THE DOCUMENTATION**](#REPORTING-ISSUES-WITH-THE-DOCUMENTATION)
-+ [**CHANGING PAGES OR ADDING NEW ONES**](#CHANGING-PAGES-OR-ADDING-NEW-ONES)
-	+ [How to Access GitHub](#How-to-Access-GitHub)
-	+ [How to Download a Git Client](#How-to-Download-a-Git-Client)
-	+ [How to Clone the bcgov/data-standards Repository](#How-to-Clone-the-bcgovdata-standards-Repository)
-	+ [How to Pull down a Repository to a File System](#How-to-Pull-Down-a-Repository-to-a-file-system)
-	+ [How to Create or Change Pages](#How-to-Create-or-Change-Pages)
-	+ [How to Push to GitHub](#How-to-Push-to-GitHub)
-	+ [How to Issue a Pull Request](#How-to-Issue-a-Pull-Request)
++ [**REPORTING ISSUES WITH THE DOCUMENTATION**](#reporting-issues-with-the-documentation)
++ [**CHANGING PAGES OR ADDING NEW ONES**](#changing-pages-or-adding-new-ones)
+	+ [How to Access GitHub](#how-to-access-github)
+	+ [How to Download a Git Client](#how-to-download-a-git-client)
+	+ [How to Clone the bcgov/data-standards Repository](#how-to-clone-the-bcgovdata-standards-repository)
+	+ [How to Pull down a Repository to a File System](#how-to-pull-down-a-repository-to-a-file-system)
+	+ [How to Create or Change Pages](#how-to-create-or-change-pages)
+	+ [How to Push to GitHub](#how-to-push-to-github)
+	+ [How to Issue a Pull Request](#how-to-issue-a-pull-request)
+
 -----------------------
 
 # Audience
 
-This page is any person wishing to provide feedback on, or contributions to, [Publishing Data to the DataBC Program](../publishing-data-to-databc.md#publishing-data-to-databc.md).
+This page is any person wishing to provide feedback on, or contributions to, [Publishing Data to the DataBC Program](../index.md#index.md).
 
 
 # Purpose
 
-This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../publishing-data-to-databc.md#publishing-data-to-databc.md):
+This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../index.md#index.md):
 + reporting errors in the documentation, and
 + suggesting additions to existing pages or 
 + the addition of new pages.

@@ -1,36 +1,45 @@
+---
+layout: default
+title: DataBC FME Framework
+nav_order: 55
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # USING THE DATABC FEATURE MANIPULATION ENGINE (FME) FRAMEWORK
 
 The DataBC Feature Manipulation Engine (FME) Framework was written to allow the structure of FME scripts used in the DataBC program to be standardized, making it easier to maintain and troubleshoot these scripts.  This document describes the framework and how to use it.
 
 -----------------------
 ## Table of Contents
-+ [**DATABC'S FME FRAMEWORK**](#DATABCS-FME-FRAMEWORK)
-	+ [​Overview of how to use the DataBC FME Framework](#Overview-of-how-to-use-the-DataBC-FME-Framework)
-+ [**ACCESSING THE FME FRAMEWORK**](#ACCESSING-THE-FME-FRAMEWORK)
-	+ [Allow Reader Feature Type Editing](#Allow-Reader-Feature-Type-Editing)
-	+ [Enable FME Framework Customizations](#Enable-FME-Framework-Customizations)
-+ [**CREATING AN FMW**](#CREATING-AN-FMW)
-	+ [If developing on a GTS server, configure a dbCreds.json file](#If-developing-on-a-GTS-server-configure-a-dbCredsjson-file)
-	+ [Add the Source Reader(s)](#Add-the-Source-Readers)
-	+ [Define the Source Reader User Parameters](#Define-the-Source-Reader-User-Parameters)
-	+ [Add the Destination Writer](#Add-the-Destination-Writer)
-	+ [Define the Destination Writer User Parameters](#Define-the-Destination-Writer-User-Parameters)
-	+ [Configure the FMW Framework Parameters](#Configure-the-FMW-Framework-Parameters)
-	+ [Define the Workspace Parameters](#Define-the-Workspace-Parameters)
-	+ [Add the Transformers](#Add-the-Transformers)
-+ [**APPENDIX 1 - NOTIFICATIONS**](#APPENDIX-1---NOTIFICATIONS)
-+ [**APPENDIX 2 - NON-BCGW DESTINATIONS**](#APPENDIX-2---NON-BCGW-DESTINATIONS)
-	+ [BC Data Catalogue File Store](#BC-Data-Catalogue-File-Store)
-	+ [CSV, SHP, and FGDB Files](#CSV-SHP-and-FGDB-Files)
-+ [**APPENDIX 3 - KIRK PREPARATION**](#APPENDIX-3---KIRK-PREPARATION)
-+ [**APPENDIX 4 - FINAL PUBLICATION CHECKLIST**](#APPENDIX-4---FINAL-PUBLICATION-CHECKLIST)
-	+ [General](#General)
-	+ [Reader/Writer Published and Private Parameters](#ReaderWriter-Published-and-Private-Parameters)
-	+ [Framework Parameters](#Framework-Parameters)
-	+ [Source Readers](#Source-Readers)
-	+ [Destination Writers](#Destination-Writers)
-	+ [Workspace Parameters](#Workspace-Parameters)
-	+ [Documentation](#Documentation)
++ [**DATABC'S FME FRAMEWORK**](#databcs-fme-framework)
+	+ [​Overview of how to use the DataBC FME Framework](#overview-of-how-to-use-the-databc-fme-framework)
++ [**ACCESSING THE FME FRAMEWORK**](#accessing-the-fme-framework)
+	+ [Allow Reader Feature Type Editing](#allow-reader-feature-type-editing)
+	+ [Enable FME Framework Customizations](#enable-fme-framework-customizations)
++ [**CREATING AN FMW**](#creating-an-fmw)
+	+ [If developing on a GTS server, configure a dbCreds.json file](#if-developing-on-a-gts-server-configure-a-dbcredsjson-file)
+	+ [Add the Source Reader(s)](#add-the-source-readers)
+	+ [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
+	+ [Add the Destination Writer](#add-the-destination-writer)
+	+ [Define the Destination Writer User Parameters](#define-the-destination-writer-user-parameters)
+	+ [Configure the FMW Framework Parameters](#configure-the-fmw-framework-parameters)
+	+ [Define the Workspace Parameters](#define-the-workspace-parameters)
+	+ [Add the Transformers](#add-the-transformers)
++ [**APPENDIX 1 - NOTIFICATIONS**](#appendix-1---notifications)
++ [**APPENDIX 2 - NON-BCGW DESTINATIONS**](#appendix-2---non-bcgw-destinations)
+	+ [BC Data Catalogue File Store](#bc-data-catalogue-file-store)
+	+ [CSV, SHP, and FGDB Files](#csv-shp-and-fgdb-files)
++ [**APPENDIX 3 - KIRK PREPARATION**](#appendix-3---kirk-preparation)
++ [**APPENDIX 4 - FINAL PUBLICATION CHECKLIST**](#appendix-4---final-publication-checklist)
+	+ [General](#general)
+	+ [Reader/Writer Published and Private Parameters](#readerwriter-published-and-private-parameters)
+	+ [Framework Parameters](#framework-parameters)
+	+ [Source Readers](#source-readers)
+	+ [Destination Writers](#destination-writers)
+	+ [Workspace Parameters](#workspace-parameters)
+	+ [Documentation](#documentation)
+  
 -----------------------
 
 #  Audience
@@ -1446,7 +1455,7 @@ Writer parameters have been set or linked to the appropriate Writer properties. 
 -----------------------------------------------------------
 
 [1]: #Using-the-DataBC-FME-Framework
-[2]: ../publishing-data-to-databc.md#publishing-data-to-the-databc-program
+[2]: ../index.md#publishing-data-to-the-databc-program
 
 
 

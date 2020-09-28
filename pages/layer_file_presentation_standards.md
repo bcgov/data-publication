@@ -1,28 +1,37 @@
+---
+layout: default
+title: Layer File Presentation Standards
+parent: Standards and Guidelines
+nav_order: 60
+has_toc: false
+---
+
 # LAYER PRESENTATION STANDARDS
 
 This document presents standards for maintaining Esri ArcGIS layer files as required for DataBC's mapping applications and services.
 
 -----------------------
 ## Table of Contents
-+ [**Audience**](#Audience)
-+ [**Purpose**](#Purpose)
-+ [**REQUIREMENTS**](#REQUIREMENTS)
-+ [**NAMING STANDARDS**](#NAMING-STANDARDS)
-	+ [Presentation Layer Naming](#Presentation-Layer-Naming)
-	+ [Group Layer Naming](#Group-Layer-Naming)
-	+ [Layer File Naming](#Layer-File-Naming)
-+ [**LAYER PROPERTIES**](#LAYER-PROPERTIES)
-	+ [General Tab](#General-Tab)
-	+ [Source Tab](#Source-Tab)
-	+ [Selection Tab](#Selection-Tab)
-	+ [Display Tab](#Display-Tab)
-	+ [Symbology Tab](#Symbology-Tab)
-	+ [Fields Tab](#Fields-Tab)
-	+ [Definition Query Tab](#Definition-Query-Tab)
-	+ [Labels Tab ](#Labels-Tab-)
-	+ [Joins and Relates tab](#Joins-and-Relates-tab)
-+ [**LAYER CHANGE PROCEDURES**](#LAYER-CHANGE-PROCEDURES)
-+ [**REFERENCES**](#REFERENCES)
++ [**Audience**](#audience)
++ [**Purpose**](#purpose)
++ [**REQUIREMENTS**](#requirements)
++ [**NAMING STANDARDS**](#naming-standards)
+	+ [Presentation Layer Naming](#presentation-layer-naming)
+	+ [Group Layer Naming](#group-layer-naming)
+	+ [Layer File Naming](#layer-file-naming)
++ [**LAYER PROPERTIES**](#layer-properties)
+	+ [General Tab](#general-tab)
+	+ [Source Tab](#source-tab)
+	+ [Selection Tab](#selection-tab)
+	+ [Display Tab](#display-tab)
+	+ [Symbology Tab](#symbology-tab)
+	+ [Fields Tab](#fields-tab)
+	+ [Definition Query Tab](#definition-query-tab)
+	+ [Labels Tab ](#labels-tab-)
+	+ [Joins and Relates tab](#joins-and-relates-tab)
++ [**LAYER CHANGE PROCEDURES**](#layer-change-procedures)
++ [**REFERENCES**](#references)
+
 -----------------------
 
 ## Audience
@@ -465,5 +474,5 @@ Below is a list of additional references:
 -------------------------------------------------------
 
 [1]: #layer-presentation-standards
-[2]: ../publishing-data-to-databc.md#naming-and-describing-standards
+[2]: ../index.md#naming-and-describing-standards
 

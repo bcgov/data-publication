@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+nav_order: 10
+has_toc: false
+---
+
 # PUBLISHING DATA TO THE DATABC PROGRAM
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served by the DataBC Program's access channels, which are:
@@ -10,15 +17,14 @@ This document provides a set of standards, guidelines, and procedures around loa
 
 -----------------------
 ## Table of Contents
-+ [**DATA PUBLICATION PROCESS**](#DATA-PUBLICATION-PROCESS)
-+ [**DATA GUIDANCE AND BEST PRACTICES**](#DATA-GUIDANCE-AND-BEST-PRACTICES)
-+ [**NAMING AND DESCRIBING STANDARDS**](#NAMING-AND-DESCRIBING-STANDARDS)
-+ [**TIPS AND TRICKS**](#TIPS-AND-TRICKS)
-+ [**FREQUENTLY ASKED QUESTIONS**](pages/faq.md#frequently-asked-questions-faq)
-+ [**ADDITIONAL REFERENCES**](#ADDITIONAL-REFERENCES)
-+ [**RELATED STANDARDS AND RESOURCES**](#RELATED-STANDARDS-AND-RESOURCES)
-+ [**HOW TO USE THIS SITE**](#HOW-TO-USE-THIS-SITE)
-+ [**WE VALUE YOUR CONTRIBUTIONS**](pages/we_value_your_contributions.md#we-value-your-contributions)
++ [**DATA PUBLICATION PROCESS**](#data-publication-process)
++ [**DATA GUIDANCE AND BEST PRACTICES**](#data-guidance-and-best-practices)
++ [**NAMING AND DESCRIBING STANDARDS**](#naming-and-describing-standards)
++ [**TIPS AND TRICKS**](#tips-and-tricks)
++ [**ADDITIONAL REFERENCES**](#additional-references)
++ [**RELATED STANDARDS AND RESOURCES**](#related-standards-and-resources)
++ [**HOW TO USE THIS SITE**](#how-to-use-this-site)
+
 -----------------------
 
 # Audience
@@ -156,4 +162,4 @@ Which sections of this site will be of most use to you depends on what you want 
 -------------------------------------------------------
 
 [1]: #publishing-data-to-the-databc-program
-[2]: publishing-data-to-databc.md#publishing-data-to-the-databc-program
+[2]: index.md#publishing-data-to-the-databc-program

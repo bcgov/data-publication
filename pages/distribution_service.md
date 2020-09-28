@@ -1,3 +1,10 @@
+---
+layout: default
+title: Distribution Service
+nav_order: 110
+has_toc: false
+---
+
 # DISTRIBUTION SERVICE
 
 This document provides a set of procedures and best practices around downloading data that is stored in the BC Geographic Warehouse (BCGW) and exported out using the following tools: the BC Data Catalogue (BCDC) and iMapBC.
@@ -8,13 +15,14 @@ This document provides a set of procedures and best practices around downloading
 
 -----------------------
 ## Table of Contents
-+ [**HOW TO ORDER DATA**](#HOW-TO-ORDER-DATA)
-	+ [Using BC Data Catalogue](#Using-BC-Data-Catalogue)
-	+ [Using iMapBC](#Using-iMapBC)
-	+ [Current Order Details](#Current-Order-Details)
-    + [Past Order Submissions](#Past-Order-Submissions)
-+ [**EMAIL NOTIFICATIONS**](#EMAIL-NOTIFICATIONS)
-+ [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
++ [**HOW TO ORDER DATA**](#how-to-order-data)
+	+ [Using BC Data Catalogue](#using-bc-data-catalogue)
+	+ [Using iMapBC](#using-imapbc)
+	+ [Current Order Details](#current-order-details)
+	+ [Past Order Submissions](#past-order-submissions)
++ [**EMAIL NOTIFICATIONS**](#email-notifications)
++ [**FREQUENTLY ASKED QUESTIONS**](#frequently-asked-questions)
+
 -----------------------
 
 # Audience
@@ -131,4 +139,4 @@ When logged in to make an order to download data using this service, those past 
 -------------------------------------------------------
 
 [1]: #distribution-service
-[2]: ../publishing-data-to-databc.md#tips-and-tricks
+[2]: ../index.md#tips-and-tricks

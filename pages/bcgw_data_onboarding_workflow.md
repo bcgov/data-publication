@@ -1,25 +1,34 @@
+---
+layout: default
+title: Data Publication Workflow - BCGW
+nav_order: 30
+parent: Data Publication Workflows
+has_toc: false
+---
+
 # DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
 
 This page describes the workflow for loading datasets into the BC Geographic Warehouse (BCGW).  
 
 -----------------------
 ## Table of Contents
-+ [**WHITEBOARDS AND METADATA CREATION**](#WHITEBOARDS-AND-METADATA-CREATION)
-	+ [Discovery Whiteboard](#Discovery-Whiteboard)
-	+ [Begin Metadata Record Creation in BC Data Catalogue](#Begin-Metadata-Record-Creation-in-BC-Data-Catalogue)
-	+ [Technical Whiteboard](#Technical-Whiteboard)
-+ [**DATA MODELLING**](#DATA-MODELLING)
-	+ [Create, Review and Deliver Data Model](#Create-Review-and-Deliver-Data-Model)
-	+ [Deploy and Approve Data Content in Delivery](#Deploy-and-Approve-Data-Content-in-Delivery)
-+ [**DATA MIGRATION TO TEST AND PRODUCTION**](#DATA-MIGRATION-TO-TEST-AND-PRODUCTION)
-	+ [Deploy and Approve Data Content in Test](#Deploy-and-Approve-Data-Content-in-Test)
-	+ [Deploy and Approve Data Content in Production](#Deploy-and-Approve-Data-Content-in-Production)
-+ [**METADATA PUBLICATION**](#METADATA-PUBLICATION)
-+ [**VISUALIZATION**](#VISUALIZATION)
-	+ [ArcGIS Layerfile](#ArcGIS-Layerfile)
-	+ [WMS Presentation](#WMS-Presentation)
-+ [**DISTRIBUTION CONFIGURATION**](#DISTRIBUTION-CONFIGURATION)
-+ [**REPLICATION SERVICES**](#REPLICATION-SERVICES)
++ [**WHITEBOARDS AND METADATA CREATION**](#whiteboards-and-metadata-creation)
+	+ [Discovery Whiteboard](#discovery-whiteboard)
+	+ [Begin Metadata Record Creation in BC Data Catalogue](#begin-metadata-record-creation-in-bc-data-catalogue)
+	+ [Technical Whiteboard](#technical-whiteboard)
++ [**DATA MODELLING**](#data-modelling)
+	+ [Create, Review and Deliver Data Model](#create-review-and-deliver-data-model)
+	+ [Deploy and Approve Data Content in Delivery](#deploy-and-approve-data-content-in-delivery)
++ [**DATA MIGRATION TO TEST AND PRODUCTION**](#data-migration-to-test-and-production)
+	+ [Deploy and Approve Data Content in Test](#deploy-and-approve-data-content-in-test)
+	+ [Deploy and Approve Data Content in Production](#deploy-and-approve-data-content-in-production)
++ [**METADATA PUBLICATION**](#metadata-publication)
++ [**VISUALIZATION**](#visualization)
+	+ [ArcGIS Layerfile](#arcgis-layerfile)
+	+ [WMS Presentation](#wms-presentation)
++ [**DISTRIBUTION CONFIGURATION**](#distribution-configuration)
++ [**REPLICATION SERVICES**](#replication-services)
+
 -----------------------
 
 # Audience
@@ -436,5 +445,5 @@ Please read [_QUESTIONS_](before_you_start.md#questions) section in the [_Before
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---bc-geographic-warehouse
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process
 

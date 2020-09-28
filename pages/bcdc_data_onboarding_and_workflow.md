@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Publication Workflow - Data Catalogue
+nav_order: 40
+parent: Data Publication Workflows
+has_toc: false
+---
+
 # DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program:
@@ -8,29 +16,29 @@ Other DataBC Data Publication Platforms:
    
 -----------------------
 ## Table of Contents
-+ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
-+ [**WHICH LICENCE TO USE**](#WHICH-LICENCE-TO-USE)
-	+ [Access Only](#Access-Only)
-	+ [Open Government Licence - British Columbia](#Open-Government-Licence---British-Columbia)
-	+ [Other Open Government Licences](#Other-Open-Government-Licences)
-		+ [Creating an Open Government Licence](#Creating-an-Open-Government-Licence)
-+ [**HOW TO CREATE A NEW METADATA RECORD**](#HOW-TO-CREATE-A-NEW-METADATA-RECORD)
-+ [**HOW TO MANAGE METADATA RECORD RESOURCES**](#HOW-TO-MANAGE-METADATA-RECORD-RESOURCES)
-	+ [Adding a new resource](#Adding-a-new-resource)
-		+ [Adding a BCGW resource](#Adding-a-BCGW-resource)
-		+ [Automated BCGW WMS and KML resources](#Automated-BCGW-WMS-and-KML-resources)
-	+ [Editing the properties of an existing resource](#Editing-the-properties-of-an-existingresource)
-	+ [Replacing an existing resource](#Replacing-an-existing-resource)
-	+ [Deleting an existing resource](#Deleting-an-existingresource)
-+ [**HOW TO PUBLISH A METADATA RECORD**](#HOW-TO-PUBLISHA-METADATA-RECORD)
-+ [**HOW TO ARCHIVE A METADATA RECORD**](#HOW-TO-ARCHIVEA-METADATA-RECORD)
-+ [**PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)**](#PUBLISHING-METADATA-REQUIREMENTS-FOR-DATA-AND-MAPS-IN-BC-MAP-HUB-ARCGIS-ONLINE)
-+ [**HOW TO BEST FILL IN METADATA**](#HOW-TO-BEST-FILL-IN-METADATA)
-+ [**FREQUENTLY ASKED QUESTIONS**](#FREQUENTLY-ASKED-QUESTIONS)
-	+ [FAQ Home Page](#FAQ-Home-Page)
-	+ [How to request a Group be created](#How-to-request-a-Group-be-created)
-	+ [How to get an organization added or renamed](#How-to-get-an-organization-added-or-renamed)
-	+ [How to request bulk changes to be done on behalf of an organization](#How-to-request-bulk-changes-to-be-done-on-behalf-of-an-organization)
++ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**WHICH LICENCE TO USE**](#which-licence-to-use)
+	+ [Access Only](#access-only)
+	+ [Open Government Licence - British Columbia](#open-government-licence---british-columbia)
+	+ [Other Open Government Licences](#other-open-government-licences)
+		+ [Creating an Open Government Licence](#creating-an-open-government-licence)
++ [**HOW TO CREATE A NEW METADATA RECORD**](#how-to-create-a-new-metadata-record)
++ [**HOW TO MANAGE METADATA RECORD RESOURCES**](#how-to-manage-metadata-record-resources)
+	+ [Adding a new resource](#adding-a-new-resource)
+		+ [Adding a BCGW resource](#adding-a-bcgw-resource)
+		+ [Automated BCGW WMS and KML resources](#automated-bcgw-wms-and-kml-resources)
+	+ [Editing the properties of an existing resource](#editing-the-properties-of-an-existingresource)
+	+ [Replacing an existing resource](#replacing-an-existing-resource)
+	+ [Deleting an existing resource](#deleting-an-existingresource)
++ [**HOW TO PUBLISH A METADATA RECORD**](#how-to-publisha-metadata-record)
++ [**HOW TO ARCHIVE A METADATA RECORD**](#how-to-archivea-metadata-record)
++ [**PUBLISHING METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)**](#publishing-metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
++ [**HOW TO BEST FILL IN METADATA**](#how-to-best-fill-in-metadata)
++ [**FREQUENTLY ASKED QUESTIONS**](#frequently-asked-questions)
+	+ [FAQ Home Page](#faq-home-page)
+	+ [How to request a Group be created](#how-to-request-a-group-be-created)
+	+ [How to get an organization added or renamed](#how-to-get-an-organization-added-or-renamed)
+	+ [How to request bulk changes to be done on behalf of an organization](#how-to-request-bulk-changes-to-be-done-on-behalf-of-an-organization)
 
 -----------------------
 
@@ -365,4 +373,4 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---bc-data-catalogue
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process

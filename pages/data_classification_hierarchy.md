@@ -1,41 +1,19 @@
+---
+layout: default
+title: Data Classification Hierarchy
+nav_order: 120
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # DATA CLASSIFICATION HIERARCHY  
 
 Data within this page defines each data classification and their hierarchy.
 
--------------------------------------------
+-----------------------
 ## Table of Contents
 + [**CATEGORY LEVEL DEFINITIONS**](#category-level-definitions)
-+ [**LEGAL INFORMATION AND ADMINISTRATION BOUNDARDIES**](#legal)
-   + [Administrative Boundaries](#admin)
-   + [Land Ownership and Status](#ownership)
-   + [Licences and Permits](#permits)
-+ [**IMAGERY AND BASE MAPS**](#maps)
-   + [Imagery](#imagery)
-   + [Geographical Names](#geographical)
-   + [Base Maps](#base)
-   + [Geodetic Survey](#survey)
-   + [Physical Infrastructure](#physical)
-   + [Transportation](#transport)
-+ [**LAND AND NATURAL RESOURCES INFORMATION**](#land)
-   + [Air and Climate](#air)
-   + [Fish, Wildlife and Plant Species](#fish)
-   + [Fresh Water and Marine](#fresh)
-   + [Forests, Grasslands and Wetlands](#forests)
-   + [Geology and Soils](#soils)
-+ [**HUMAN, CULTURAL & ECONOMIC ACTIVITIES**](#human)
-   + [Archaeology and Culture](#archaeology)
-   + [Agriculture](#agriculture)
-   + [Aquaculture](@aquaculture)
-   + [Mining and Petroleum](#petroleum)
-   + [Parks, Recreation and Tourism](#tourism)
-   + [Waste](#waste)
-   + [Land Use Plans](#landuse)
-   + [Socio-Economic](#socioeconomic)
-   + [Health](#health)
-   + [Education](#education)
-   + [Social Services](@socialservices)
-   + [Justice and Emergency](#justice)
----------------------------------------------------------------------
+-----------------------
 
 # Audience
 
@@ -94,4 +72,4 @@ The following table provides the following:
 -------------------------------------------------------
 
 [1]: #data-classification-hierarchy
-[2]: ../publishing-data-to-databc.md#publishing-data-to-the-databc-program
+[2]: ../index.md#publishing-data-to-the-databc-program
