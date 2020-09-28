@@ -1,6 +1,6 @@
 name: compliance
 description: |
-  This document is used to track a project's PIA and STRA
+  This document is used to track this project's PIA and STRA
   compliance.
 spec:
   - name: PIA
