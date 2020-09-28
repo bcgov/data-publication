@@ -1,26 +1,35 @@
+---
+layout: default
+title: Data Guidance & Best Practices
+nav_order: 10
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # DATA GUIDANCE AND BEST PRACTICES
 
 The page provides guidance and best practices when providing data, spatial or otherwise.
 
 -----------------------
 ## Table of Contents
-+ [**DATA TYPE STANDARDS**](#DATA-TYPE-STANDARDS)
-+ [**SPATIAL DATA STANDARDS**](#SPATIAL-DATA-STANDARDS)
-	+ [Geometry Type and Content](#Geometry-Type-and-Content)
-	+ [Spatial Reference IDs (SRID)](#Spatial-Reference-IDs-SRID)
-	+ [Registration](#Registration)
-	+ [Tables and Views Containing Spatial Column](#Tables-and-Views-Containing-Spatial-Column)
-	+ [Resolution and Tolerance](#Resolution-and-Tolerance)
-	+ [Shape (Geometry) Column Name](#Shape-Geometry-Column-Name)
-	+ [ObjectID Column Name](#ObjectID-Column-Name)
-	+ [Supporting Columns and Triggers](#Supporting-Columns-and-Triggers)
-	+ [Column Order](#Column-Order)
-+ [**USE OF DATABASE CONSTRAINTS**](#USE-OF-DATABASE-CONSTRAINTS)
-+ [**ORDER OF COLUMNS IN TABLES AND VIEWS**](#ORDER-OF-COLUMNS-IN-TABLES-AND-VIEWS)
-+ [**USE OF INDICATOR AND FLAG COLUMNS**](#USE-OF-INDICATOR-AND-FLAG-COLUMNS)
-+ [**USE OF CODE TABLES**](#USE-OF-CODE-TABLES)
-+ [**USE OF NULL VALUES**](#USE-OF-NULL-VALUES)
-+ [**REFERENCES**](#REFERENCES)
++ [**DATA TYPE STANDARDS**](#data-type-standards)
++ [**SPATIAL DATA STANDARDS**](#spatial-data-standards)
+	+ [Geometry Type and Content](#geometry-type-and-content)
+	+ [Spatial Reference IDs (SRID)](#spatial-reference-ids-srid)
+	+ [Registration](#registration)
+	+ [Tables and Views Containing Spatial Column](#tables-and-views-containing-spatial-column)
+	+ [Resolution and Tolerance](#resolution-and-tolerance)
+	+ [Shape (Geometry) Column Name](#shape-geometry-column-name)
+	+ [ObjectID Column Name](#objectid-column-name)
+	+ [Supporting Columns and Triggers](#supporting-columns-and-triggers)
+	+ [Column Order](#column-order)
++ [**USE OF DATABASE CONSTRAINTS**](#use-of-database-constraints)
++ [**ORDER OF COLUMNS IN TABLES AND VIEWS**](#order-of-columns-in-tables-and-views)
++ [**USE OF INDICATOR AND FLAG COLUMNS**](#use-of-indicator-and-flag-columns)
++ [**USE OF CODE TABLES**](#use-of-code-tables)
++ [**USE OF NULL VALUES**](#use-of-null-values)
++ [**REFERENCES**](#references)
+
 -----------------------
 
 # Audience
@@ -266,6 +275,6 @@ If an application is presenting data in a read-only fashion, then it may replace
 -------------------------------------------------------
 
 [1]: #Data-Guidance-and-best-practices
-[2]: ../publishing-data-to-databc.md#data-guidance-and-best-practices
+[2]: ../index.md#data-guidance-and-best-practices
 
 

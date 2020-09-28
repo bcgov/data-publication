@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Governance
+nav_order: 40
+has_children: true
+has_toc: false
+---
+
 # DATA GOVERNANCE 
 
 The Data Custodianship function is a vital part of good _data governance_. The guidelines and standards in the documents below describe the data custodianship function, the roles and
@@ -14,4 +22,4 @@ it to other important data management roles.
 
 -------------------------------------------------------
 
-[2]: ../publishing-data-to-databc.md#related-standards-and-resources
+[2]: ../index.md#related-standards-and-resources

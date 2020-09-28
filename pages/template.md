@@ -1,3 +1,8 @@
+---
+layout: default
+title: template
+nav_exclude: true
+---
 # THIS IS THE TITLE (H1)
 
 Short introductory section (a sentence or two)
@@ -14,6 +19,7 @@ Short introductory section (a sentence or two)
 	+ [H3 Heading 31](#H3-Heading-31)
 	+ [H3 Heading 32](#H3-Heading-32)
 	+ [H3 Heading 33](#H3-Heading-33)
+
 -----------------------
 
 # Audience

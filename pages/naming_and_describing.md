@@ -1,50 +1,59 @@
+---
+layout: default
+title: Naming & Describing
+nav_order: 20
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # NAMING AND DESCRIBING STANDARDS
 
 This document presents general standards and guidelines for naming and describing data components within the DataBC Program.
 
 -----------------------
 ## Table of Contents
-+ [**INTRODUCTION**](#INTRODUCTION)
-	+ [Why do we need Naming Standards and Guidelines?](#Why-do-we-need-Naming-Standards-and-Guidelines)
-	+ [Why do we need Describing Guidelines?](#Why-do-we-need-Describing-Guidelines)
-	+ [What Data Components do these standards and guidelines apply to?](#What-Data-Components-do-these-standards-and-guidelines-apply-to)
-+ [**GENERAL NAMING GUIDELINES**](#GENERAL-NAMING-GUIDELINES)
-	+ [Dataset and Application Acronym](#Dataset-and-Application-Acronym)
-+ [**GENERAL DESCRIBING GUIDELINES**](#GENERAL-DESCRIBING-GUIDELINES)
-	+ [Use of Latin Abbreviations](#Use-of-Latin-Abbreviations)
-	+ [Acronyms](#Acronyms)
-	+ [Providing Examples](#Providing-Examples)
-	+ [Defining Code and Indicator Values](#Defining-Code-and-Indicator-Values)
-+ [**GENERAL ABBREVIATION GUIDELINES**](#GENERAL-ABBREVIATION-GUIDELINES)
-	+ [Abbreviations](#Abbreviations)
-+ [**ORACLE COMPONENT NAMING STANDARDS**](#ORACLE-COMPONENT-NAMING-STANDARDS)
-	+ [Database Object Prefix](#Database-Object-Prefix)
-	+ [Database Object Suffix](#Database-Object-Suffix)
-	+ [Database Object Short Name](#Database-Object-Short-Name)
-	+ [Table](#Table)
-	+ [View and Materialized View](#View-and-Materialized-View)
-	+ [Code Table](#Code-Table)
-	+ [Column](#Column)
-	+ [Spatial Mandatory Columns](#Spatial-Mandatory-Columns)
-	+ [Common Standardized Optional Columns](#Common-Standardized-Optional-Columns)
-	+ [Transactional Columns](#Transactional-Columns)
-	+ [Primary Key Column](#Primary-Key-Column)
-	+ [Index](#Index)
-	+ [Sequence](#Sequence)
-	+ [Constraint](#Constraint)
-	+ [Trigger](#Trigger)
-+ [**BC DATA CATALOGUE NAMING GUIDELINES**](#BC-DATA-CATALOGUE-NAMING-GUIDELINES)
-	+ [Title](#Title)
-	+ [Resource](#Resource)
-	+ [CSV and XLSX Resource Column](#CSV-and-XLSX-Resource-Column)
-+ [**BC DATA CATALOGUE CONTENT AND DESCRIBING GUIDELINES**](#BC-DATA-CATALOGUE-CONTENT-AND-DESCRIBING-GUIDELINES)
-	+ [Dataset Description](#Dataset-Description)
-	+ [Resource Descriptions](#Resource-Descriptions)
-	+ [Dataset Keywords](#Dataset-Keywords)
-+ [**WEB SERVICES CONTENT AND DESCRIBING GUIDELINES**](#WEB-SERVICES-CONTENT-AND-DESCRIBING-GUIDELINES)
-+ [**RELATED STANDARDS**](#RELATED-STANDARDS)
-+ [**APPENDIX A: Standard List of Abbreviations**](#APPENDIX-A-Standard-List-of-Abbreviations)
-+ [**APPENDIX B: Standard List of Column Names**](#APPENDIX-B-Standard-List-of-Column-Names)
++ [**INTRODUCTION**](#introduction)
+	+ [Why do we need Naming Standards and Guidelines?](#why-do-we-need-naming-standards-and-guidelines)
+	+ [Why do we need Describing Guidelines?](#why-do-we-need-describing-guidelines)
+	+ [What Data Components do these standards and guidelines apply to?](#what-data-components-do-these-standards-and-guidelines-apply-to)
++ [**GENERAL NAMING GUIDELINES**](#general-naming-guidelines)
+	+ [Dataset and Application Acronym](#dataset-and-application-acronym)
++ [**GENERAL DESCRIBING GUIDELINES**](#general-describing-guidelines)
+	+ [Use of Latin Abbreviations](#use-of-latin-abbreviations)
+	+ [Acronyms](#acronyms)
+	+ [Providing Examples](#providing-examples)
+	+ [Defining Code and Indicator Values](#defining-code-and-indicator-values)
++ [**GENERAL ABBREVIATION GUIDELINES**](#general-abbreviation-guidelines)
+	+ [Abbreviations](#abbreviations)
++ [**ORACLE COMPONENT NAMING STANDARDS**](#oracle-component-naming-standards)
+	+ [Database Object Prefix](#database-object-prefix)
+	+ [Database Object Suffix](#database-object-suffix)
+	+ [Database Object Short Name](#database-object-short-name)
+	+ [Table](#table)
+	+ [View and Materialized View](#view-and-materialized-view)
+	+ [Code Table](#code-table)
+	+ [Column](#column)
+	+ [Spatial Mandatory Columns](#spatial-mandatory-columns)
+	+ [Common Standardized Optional Columns](#common-standardized-optional-columns)
+	+ [Transactional Columns](#transactional-columns)
+	+ [Primary Key Column](#primary-key-column)
+	+ [Index](#index)
+	+ [Sequence](#sequence)
+	+ [Constraint](#constraint)
+	+ [Trigger](#trigger)
++ [**BC DATA CATALOGUE NAMING GUIDELINES**](#bc-data-catalogue-naming-guidelines)
+	+ [Title](#title)
+	+ [Resource](#resource)
+	+ [CSV and XLSX Resource Column](#csv-and-xlsx-resource-column)
++ [**BC DATA CATALOGUE CONTENT AND DESCRIBING GUIDELINES**](#bc-data-catalogue-content-and-describing-guidelines)
+	+ [Dataset Description](#dataset-description)
+	+ [Resource Descriptions](#resource-descriptions)
+	+ [Dataset Keywords (Tags)](#dataset-keywords-tags)
++ [**WEB SERVICES CONTENT AND DESCRIBING GUIDELINES**](#web-services-content-and-describing-guidelines)
++ [**RELATED STANDARDS**](#related-standards)
++ [**APPENDIX A: Standard List of Abbreviations**](#appendix-a-standard-list-of-abbreviations)
++ [**APPENDIX B: Standard List of Column Names**](#appendix-b-standard-list-of-column-names)
+
 -----------------------
 
 # Audience
@@ -737,7 +746,7 @@ Please refer to the following standards for:
 -------------------------------------------------------
 
 [1]: #Naming-and-Describing-Standards
-[2]: ../publishing-data-to-databc.md#naming-and-describing-standards
+[2]: ../index.md#naming-and-describing-standards
 
 
 

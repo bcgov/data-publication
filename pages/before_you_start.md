@@ -1,3 +1,11 @@
+---
+layout: default
+title: Before You Start
+nav_order: 10
+parent: Data Publication Workflows
+has_toc: false
+---
+
 # BEFORE YOU START 
 
 Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)?
@@ -5,16 +13,17 @@ Before your data is published, we will need to gather some information from you.
 
 -----------------------
 ## Table of Contents
-+ [**INTRODUCTION**](#INTRODUCTION)
-+ [**QUESTIONS**](#QUESTIONS)
-	+ [Questions about the Data](#Questions-about-the-Data)
-	+ [Custodianship Considerations](#Custodianship-Considerations)
-	+ [Relationship to Legislation](#Relationship-to-Legislation)
-	+ [Audience Considerations](#Audience-Considerations)
-	+ [Dataset Readiness](#Dataset-Readiness)
-	+ [Financial Obligations](#Financial-Obligations)
-+ [**NEXT STEPS**](#NEXT-STEPS)
-+ [**REFERENCES**](#REFERENCES)
++ [**INTRODUCTION**](#introduction)
++ [**QUESTIONS**](#questions)
+	+ [Questions about the Data](#questions-about-the-data)
+	+ [Custodianship Considerations](#custodianship-considerations)
+	+ [Relationship to Legislation](#relationship-to-legislation)
+	+ [Audience Considerations](#audience-considerations)
+	+ [Dataset Readiness](#dataset-readiness)
+	+ [Financial Obligations](#financial-obligations)
++ [**NEXT STEPS**](#next-steps)
++ [**REFERENCES**](#references)
+
 -----------------------
 # Audience
 
@@ -229,7 +238,7 @@ In addition, the following resources are available:
 -------------------------------------------------------
 
 [1]: #before-you-start
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process
 
 
 

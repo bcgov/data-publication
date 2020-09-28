@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Replication Standards
+nav_order: 50
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # DATA REPLICATION STANDARDS AND GUIDELINES
 
 There are currently three mechanisms in place to reload BC Geographic Warehouse data objects when the source objects change:
@@ -10,15 +18,16 @@ This document describes standards and guidelines concerning the first of these -
 
 -----------------------
 ## Table of Contents
-+ [**RESPONSIBILITY FOR PUBLISHED DATA**](#RESPONSIBILITY-FOR-PUBLISHED-DATA)
-+ [**DATABC FME FRAMEWORK**](#DATABC-FME-FRAMEWORK)
-	+ [Starting Point FMW](#Starting-Point-FMW)
-	+ [FMW File Naming](#FMW-File-Naming)
-+ [**FMW BEST PRACTICES**](#FMW-BEST-PRACTICES)
-	+ [Filtering Point Data to BC Boundaries](#Filtering-Point-Data-to-BC-Boundaries)
-	+ [Handling Complex Curve Data](#Handling-Complex-Curve-Data)
-	+ [Proceeding Past Data Errors](#Proceeding-Past-Data-Errors)
-+ [**KIRK**](#KIRK)
++ [**RESPONSIBILITY FOR PUBLISHED DATA**](#responsibility-for-published-data)
++ [**DATABC FME FRAMEWORK**](#databc-fme-framework)
+	+ [Starting Point FMW](#starting-point-fmw)
+	+ [FMW File Naming](#fmw-file-naming)
++ [**FMW BEST PRACTICES**](#fmw-best-practices)
+	+ [Filtering Point Data to BC Boundaries](#filtering-point-data-to-bc-boundaries)
+	+ [Handling Complex Curve Data](#handling-complex-curve-data)
+	+ [Proceeding Past Data Errors](#proceeding-past-data-errors)
++ [**KIRK**](#kirk)
+
 -----------------------
 
 # Audience
@@ -176,4 +185,4 @@ For new publications of _KIRK_-able cases, the vendor should delivery an FMW tha
 -------------------------------------------------------
 
 [1]: #data-replication-standards-and-guidelines
-[2]: ../publishing-data-to-databc.md#naming-and-describing-standards
+[2]: ../index.md#naming-and-describing-standards

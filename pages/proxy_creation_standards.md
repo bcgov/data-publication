@@ -1,15 +1,24 @@
+---
+layout: default
+title: Proxy Naming Standards
+nav_order: 40
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # PROXY NAMING STANDARDS
 
 BC Geographic Warehouse (BCGW) and non-BCGW proxies are created as a means for applications to access the data, as individual Oracle accounts are not permitted to be used in this manner. Proxies will only be created for and used by the application that they were intended. 
 
 -----------------------
 ## Table of Contents
-+ [**PROXY ACCOUNT NAMING CONVENTIONS**](#PROXY-ACCOUNT-NAMING-CONVENTIONS)
-	+ [Internal Proxy Accounts](#Internal-Proxy-Accounts)
-	+ [External Proxy Accounts](#External-Proxy-Accounts)
-	+ [Proxy Terms of Use](#Proxy-Terms-of-Use)
-	+ [Application Schema Requests](#Application-Schema-Requests)
-	+ [Change Management](#Change-Management)
++ [**PROXY ACCOUNT NAMING CONVENTIONS**](#proxy-account-naming-conventions)
+	+ [Internal Proxy Accounts](#internal-proxy-accounts)
+	+ [External Proxy Accounts](#external-proxy-accounts)
+	+ [Proxy Terms of Use](#proxy-terms-of-use)
+	+ [Application Schema Requests](#application-schema-requests)
+	+ [Change Management](#change-management)
+
 -----------------------
 
 # Audience
@@ -106,5 +115,5 @@ In the event that a net new application schema is required the creation scripts 
 -------------------------------------------------------
 
 [1]: #proxy-naming-standards
-[2]: ../publishing-data-to-databc.md#naming-and-describing-standards
+[2]: ../index.md#naming-and-describing-standards
 

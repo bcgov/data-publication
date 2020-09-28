@@ -1,1 +1,60 @@
+<<<<<<< HEAD
+remote_theme: "pmarsceill/just-the-docs"
+#theme: "just-the-docs"
+aux_links:
+  "Edit on Github":
+    - "//github.com/bcgov/Data-Standards/"
+    
+footer_content: "<a href='https://gov.bc.ca/'>
+  <img 
+    src='pages/assets/images/BCID_H_rgb_pos.png' 
+    height='42' 
+    width='200' 
+    style='display: block; margin-left: auto;margin-right: auto;width: 50%;' 
+    alt='BC Gov'/> 
+</a>"
+
+header_content: "<a href='https://gov.bc.ca/'>
+  <img 
+    src='pages/assets/images/BCID_H_rgb_pos.png' 
+    height='42' 
+    width='200' 
+    style='display: block; margin-left: auto;margin-right: auto;width: 50%;' 
+    alt='BC Gov'/> 
+</a>"
+
+heading_anchors: true
+#color_scheme: "dark"
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "pages/assets/images/BCID_H_rgb_pos.png"
+
+# Supports true (default) or false
+search_enabled: true
+
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+  # Maximum amount of previews per search result
+  # Default: 3
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  # Default: 5
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  # Default: 10
+  preview_words_after: 10
+  # Set the search token separator
+  # Default: /[\s\-/]+/
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: true
+=======
 theme: jekyll-theme-minimal
+>>>>>>> upstream/master

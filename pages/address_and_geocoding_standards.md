@@ -1,3 +1,11 @@
+---
+layout: default
+title: Address/Geocoding Standards
+nav_order: 100
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # ADDRESS AND GEOCODING STANDARDS
 
 
@@ -10,6 +18,6 @@ published by the [_BC Office of the Chief Information Officer_](https://www2.gov
 
 -------------------------------------------------------
 
-[2]: ../publishing-data-to-databc.md#related-standards-and-resources
+[2]: ../index.md#related-standards-and-resources
 
 

@@ -1,3 +1,11 @@
+---
+layout: default
+title: File Content/Structure Best Practices
+nav_order: 80
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # FILE CONTENT AND STRUCTURE BEST PRACTICES
 
 Datasets that are files should contain machine processable information.
@@ -8,15 +16,16 @@ The document identifies the file formats which must be used when publishing Open
 
 -----------------------
 ## Table of Contents
-+ [**FILE FORMAT**](#FILE-FORMAT)
-	+ [Approach](#Approach)
-	+ [Principals](#Principals)
-+ [**FILE FORMATS**](#FILE-FORMATS)
-	+ [Comma Separated Variable (CSV)](#Comma-Separated-Variable-CSV)
-	+ [Delimiter Separated Values (DSV)](#Delimiter-Separated-Values-DSV)
-	+ [Extensible Markup Language (XML)](#Extensible-Markup-Language-XML)
-+ [**DOCUMENTATION CONVENTIONS**](#DOCUMENTATION-CONVENTIONS)
-+ [**ADDITIONAL RESOURCES**](#ADDITIONAL-RESOURCES)
++ [**FILE CONTENT**](#file-content)
+	+ [Approach](#approach)
+	+ [Principles](#principles)
++ [**FILE FORMATS**](#file-formats)
+	+ [Comma Separated Variable (CSV)](#comma-separated-variable-csv)
+	+ [Delimiter Separated Values (DSV)](#delimiter-separated-values-dsv)
+	+ [Extensible Markup Language (XML)](#extensible-markup-language-xml)
++ [**DOCUMENTATION CONVENTIONS**](#documentation-conventions)
++ [**ADDITIONAL RESOURCES**](#additional-resources)
+
 -----------------------
 
 # Audience
@@ -32,23 +41,23 @@ The purpose of this document is to provide guidelines for specific physical file
 
 ---------------------------------------------------------------------
 
-## FILE FORMAT
+## FILE CONTENT
 
 The scope of this document is guidelines for file contents, for the above-stated purpose of optimizing files for machine processing.
 
 ### Approach
 
-The approach we have adopted in writing these guidelines is to make statements that cause data to be formatted as if it were a file in a database system. In general, the guidelines for a file format begins with statements that apply to an entire file, and progress through statements that apply to smaller and smaller elements within a file.  
+The approach we have adopted in writing these guidelines is to make statements that cause data to be structured and formatted as if it were a file in a database system. In general, the guidelines for file content begin with statements that apply to an entire file, and progress through statements that apply to smaller and smaller elements within a file.  
 
 For example:
 
-+ How to identify the open datasets to which the file format guidelines apply
++ How to identify the open dataset formats to which these guidelines apply
 + The types of data that may be represented in the file (e.g. spatial, attribute, image, etc.)
 + Major sections of the file (e.g. header, body, etc.)
 + Guidelines that apply to rows of data (e.g. row delimiters)
 + Guidelines that apply to fields with a row (e.g. representation of optional fields)
 
-### Principals
+### Principles
 
 The _objective_ of these guidelines is to make open datasets machine processable. The guidelines focus on being practical and usable. 
 
@@ -358,5 +367,5 @@ The pattern for the location of XML schema files is:
 -------------------------------------------------------
 
 [1]: #file-content-and-structure-best-practices
-[2]: ../publishing-data-to-databc.md#publishing-data-to-the-databc-program
+[2]: ../index.md#publishing-data-to-the-databc-program
 

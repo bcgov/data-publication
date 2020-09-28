@@ -1,17 +1,26 @@
+---
+layout: default
+title: Roles and Responsibilities
+nav_order: 20
+parent: Data Publication Workflows
+has_toc: false
+---
+
 # DATA PUBLICATION: ROLES AND RESPONSIBILITIES
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
 
 -----------------------
 ## Table of Contents
-+ [**DATA DELIVERY ROLES**](#DATA-DELIVERY-ROLES)
-	+ [Vendor Delivery Personnel](#Vendor-Delivery-Personnel)
-	+ [DataBC Data Architecture Team](#DataBC-Data-Architecture-Team)
-	+ [Business Analyst/Business Portfolio Manager](#Business-AnalystBusiness-Portfolio-Manager)
-	+ [Business Area Data Manager](#Business-Area-Data-Manager)
-	+ [DataBC Delivery Specialist](#DataBC-Delivery-Specialist)
-	+ [DataBC Project Lead Spatial Data Architect](#DataBC-Project-Lead-Spatial-Data-Architect)
-	+ [DataBC ETL Specialist](#DataBC-ETL-Specialist)
++ [**DATA DELIVERY ROLES**](#data-delivery-roles)
+	+ [Vendor Delivery Personnel](#vendor-delivery-personnel)
+	+ [DataBC Data Architecture Team](#databc-data-architecture-team)
+	+ [Business Analyst/Business Portfolio Manager](#business-analystbusiness-portfolio-manager)
+	+ [Business Area Data Manager](#business-area-data-manager)
+	+ [DataBC Delivery Specialist](#databc-delivery-specialist)
+	+ [DataBC Project Lead Spatial Data Architect](#databc-project-lead-spatial-data-architect)
+	+ [DataBC ETL Specialist](#databc-etl-specialist)
+
 -----------------------
 
 # Audience
@@ -94,5 +103,5 @@ This document describes in detail the roles and responsibilities of the people w
 -------------------------------------------------------
 
 [1]: #data-publication-roles-and-responsibilities
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process
 

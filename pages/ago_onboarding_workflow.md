@@ -1,3 +1,9 @@
+---
+layout: default
+title: BC MapHub Onboarding workflow
+nav_exclude: true
+---
+
 # DATA PUBLICATION WORKFLOW - AGO
 
 Short introductory section (a sentence or two)
@@ -5,14 +11,15 @@ _need from Meg_
 
 -----------------------
 ## Table of Contents
-+ [**BC's MAPHUB (ArcGIS ONLINE) - PUBLISHING WORKFLOW**](#BCs-MAPHUB-ArcGIS-ONLINE---PUBLISHING-WORKFLOW)
-+ [**BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS**](#BC-DATA-CATALOGUE-METADATA-GUIDELINES-FOR-ArcGIS-ONLINE-AUTHORS)
-	+ [Custodianship](#Custodianship)
-	+ [Metadata](#Metadata)
-	+ [Why Should I Create Metadata?](#Why-Should-I-Create-Metadata)
-	+ [AGO-Specific Metadata Requirements](#AGO-Specific-Metadata-Requirements)
-	+ [Use of Existing BC Geographic Warehouse or External Sources](#Use-of-Existing-BC-Geographic-Warehouse-or-External-Sources)
-	+ [Definitions](#Definitions)
++ [**BC's MAPHUB (ArcGIS ONLINE) - PUBLISHING WORKFLOW**](#bcs-maphub-arcgis-online---publishing-workflow)
++ [**BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS**](#bc-data-catalogue-metadata-guidelines-for-arcgis-online-authors)
+	+ [Custodianship](#custodianship)
+	+ [Metadata](#metadata)
+	+ [Why Should I Create Metadata?](#why-should-i-create-metadata)
+	+ [AGO-Specific Metadata Requirements](#ago-specific-metadata-requirements)
+	+ [Use of Existing BC Geographic Warehouse or External Sources](#use-of-existing-bc-geographic-warehouse-or-external-sources)
+	+ [Definitions](#definitions)
+
 -----------------------
 
 # Audience
@@ -140,5 +147,5 @@ AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes 
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---ago
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process
 

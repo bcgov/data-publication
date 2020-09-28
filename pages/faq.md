@@ -1,56 +1,64 @@
+---
+layout: default
+title: Frequently Asked Questions
+nav_order: 130
+has_toc: false
+---
+
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 
 This page provides a list of frequently asked questions and answers to help you as a client who is publishing data within the DataBC Program. 
 
 -----------------------
 ## Table of Contents
-+ [**Audience**](#Audience)
-+ [**Purpose**](#Purpose)
-+ [**WHO'S WHO AT DATABC**](#WHOS-WHO-AT-DATABC)
-+ [**BC DATA CATALOGUE ROLES**](#BC-DATA-CATALOGUE-ROLES)
-+ [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#DATA-PUBLICATION-LICENSING-OPTIONS---OPEN-DATAACCESS-ONLY)
-	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#What-is-Open-Data-and-what-is-the-difference-between-Open-Data-and-Access-Only-public-data)
-	+ [Why should I consider publishing data under an open data licence?](#Why-should-I-consider-publishing-data-under-an-open-data-licence)
-	+ [Can all data be licensed as Open?](#Can-all-data-be-licensed-as-Open)
-	+ [How do I publish data as Open Data?](#How-do-I-publish-data-as-Open-Data)
-	+ [Are there restrictions on how data licensed under OGL-BC can be used?](#Are-there-restrictions-on-how-data-licensed-under-OGL-BC-can-be-used)
-	+ [How do I publish data as Open Data if I am a Crown Corporation or BC Agency?](#How-do-I-publish-data-as-Open-Data-if-I-am-a-Crown-Corporation-or-BC-Agency)
-	+ [How do I create an Open Data Licence?](#How-do-I-create-an-Open-Data-Licence)
-+ [**PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE**](#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
-	+ [How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?](#How-do-I-publish-Metadata-Records-in-the-BC-Data-Catalogue-as-a-Crown-Corp-or-BC-Agency)
-	+ [How do I get authorization to publish records in the BC Data Catalogue?](#How-do-I-get-authorization-to-publish-records-in-the-BC-Data-Catalogue)
-	+ [How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?](#How-do-I-change-the-contact-name-recorded-for-a-dataset-when-that-contact-has-moved-to-a-different-role-or-retired)
-	+ [Can I do bulk changes to Catalogue records?](#Can-I-do-bulk-changes-to-Catalogue-records)
-	+ [How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?](#How-do-I-addupdated-descriptions-or-short-names-of-fields-at-the-bottom-of-a-metadata-record-for-data-in-the-BCGW)
-	+ [Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?](#Why-would-I-just-upload-a-tabular-dataset-to-the-BC-Data-Catalogue-instead-of-publishing-it-to-the-BCGW)
-+ [**IMAPBC AND LAYER LIBRARY LAYER PRESENTATIONS**](#IMAPBC-AND-LAYER-LIBRARY-LAYER-PRESENTATIONS)
-	+ [How do I update a presentation (layer file) for my dataset?](#How-do-I-update-a-presentation-layer-file-for-my-dataset)
-	+ [How do I update an existing permanent presentation in iMapBC that is not my data?](#How-do-I-update-an-existing-permanent-presentation-in-iMapBC-that-is-not-my-data)
-	+ [How can I request a new alternate/subset presentation of data that is not mine?](#How-can-I-request-a-new-alternatesubset-presentation-of-data-that-is-not-mine)
-	+ [How do I arrange for my data to become a permanent layer in iMapBC?](#How-do-I-arrange-for-my-data-to-become-a-permanent-layer-in-iMapBC)
-	+ [How do I get my data into WMS/WFS?](#How-do-I-get-my-data-into-WMSWFS)
-+ [**ARCGIS ONLINE (aka AGO, B.C.'s MAP HUB)**](#ARCGIS-ONLINE-aka-AGO-BCs-MAP-HUB)
-	+ [How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?](#How-do-I-get-my-data-into-BCs-Map-Hub-the-Provinces-cloud-instance-of-ArcGIS-Online-)
-	+ [Why would I publish data to ArcGIS Online only and not to the BCGW?](#Why-would-I-publish-data-to-ArcGIS-Online-only-and-not-to-the-BCGW)
-	+ [How do I publish a map to ArcGIS Online so it's viewable to the public?](#How-do-I-publish-a-map-to-ArcGIS-Online-so-its-viewable-to-the-public)
-+ [**THE BC GEOGRAPHIC WAREHOUSE (BCGW)**](#THE-BC-GEOGRAPHIC-WAREHOUSE-BCGW)
-	+ [How do I publish data to the BCGW? Who do I contact at DataBC to publish my data to the BCGW?](#How-do-I-publish-data-to-the-BCGW-Who-do-I-contact-at-DataBC-to-publish-my-data-to-the-BCGW)
-	+ [How long does it take to publish to the BCGW?](#How-long-does-it-take-to-publish-to-the-BCGW)
-	+ [What data service formats can be made available for my BCGW data?](#What-data-service-formats-can-be-made-available-for-my-BCGW-data)
-	+ [What government channels can be used to access my BCGW data?](#What-government-channels-can-be-used-to-access-my-BCGW-data)
-	+ [Refreshing Data - the ETL Process](#Refreshing-Data---the-ETL-Process)
-	+ [Access security](#Access-security)
-	+ [Downloading data from the BC Geographic Warehouse](#Downloading-data-from-the-BC-Geographic-Warehouse)
-	+ [Feature Codes](#Feature-Codes)
-	+ [What is the Geographic Sites Registry (GSR)?](#What-is-the-Geographic-Sites-Registry-GSR)
-	+ [Retiring datasets from the BC Geographic Warehouse](#Retiring-datasets-from-the-BC-Geographic-Warehouse)
-+ [**GETTING ACCESS TO THE THINGS YOU NEED**](#GETTING-ACCESS-TO-THE-THINGS-YOU-NEED)
-	+ [How do I get access to the DataBC File Staging Area?](#How-do-I-get-access-to-the-DataBC-File-Staging-Area)
-	+ [How do I get access to secure data?](#How-do-I-get-access-to-secure-data)
-	+ [How do I get an account to BCGW? and specifically Delivery and Test?](#How-do-I-get-an-account-to-BCGW-and-specifically-Delivery-and-Test)
-	+ [How do I change/reset my BCGW password?](#How-do-I-changereset-my-BCGW-password)
-	+ [How do I unlock my BCGW account?](#How-do-I-unlock-my-BCGW-account)
-	+ [I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?](#Ive-taken-over-responsibility-for-maintaining-a-dataset-that-has-been-published-to-DataBC-How-do-I-get-access-to-what-I-need)
++ [**Audience**](#audience)
++ [**Purpose**](#purpose)
++ [**WHO'S WHO AT DATABC**](#whos-who-at-databc)
++ [**BC DATA CATALOGUE ROLES**](#bc-data-catalogue-roles)
++ [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#data-publication-licensing-options---open-dataaccess-only)
+	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#what-is-open-data-and-what-is-the-difference-between-open-data-and-access-only-public-data)
+	+ [Why should I consider publishing data under an open data licence?](#why-should-i-consider-publishing-data-under-an-open-data-licence)
+	+ [Can all data be licensed as Open?](#can-all-data-be-licensed-as-open)
+	+ [How do I publish data as Open Data?](#how-do-i-publish-data-as-open-data)
+	+ [Are there restrictions on how data licensed under OGL-BC can be used?](#are-there-restrictions-on-how-data-licensed-under-ogl-bc-can-be-used)
+	+ [How do I publish data as Open Data if I am a Crown Corporation or BC Agency?](#how-do-i-publish-data-as-open-data-if-i-am-a-crown-corporation-or-bc-agency)
+	+ [How do I create an Open Data Licence?](#how-do-i-create-an-open-data-licence)
++ [**PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE**](#publishing-metadata-records-to-the-bc-data-catalogue)
+	+ [How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?](#how-do-i-publish-metadata-records-in-the-bc-data-catalogue-as-a-crown-corp-or-bc-agency)
+	+ [How do I get authorization to publish records in the BC Data Catalogue?](#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
+	+ [How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?](#how-do-i-change-the-contact-name-recorded-for-a-dataset-when-that-contact-has-moved-to-a-different-role-or-retired)
+	+ [Can I do bulk changes to Catalogue records?](#can-i-do-bulk-changes-to-catalogue-records)
+	+ [How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?](#how-do-i-addupdated-descriptions-or-short-names-of-fields-at-the-bottom-of-a-metadata-record-for-data-in-the-bcgw)
+	+ [Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?](#why-would-i-just-upload-a-tabular-dataset-to-the-bc-data-catalogue-instead-of-publishing-it-to-the-bcgw)
++ [**IMAPBC AND LAYER LIBRARY LAYER PRESENTATIONS**](#imapbc-and-layer-library-layer-presentations)
+	+ [How do I update a presentation (layer file) for my dataset?](#how-do-i-update-a-presentation-layer-file-for-my-dataset)
+	+ [How do I update an existing permanent presentation in iMapBC that is not my data?](#how-do-i-update-an-existing-permanent-presentation-in-imapbc-that-is-not-my-data)
+	+ [How can I request a new alternate/subset presentation of data that is not mine?](#how-can-i-request-a-new-alternatesubset-presentation-of-data-that-is-not-mine)
+	+ [How do I arrange for my data to become a permanent layer in iMapBC?](#how-do-i-arrange-for-my-data-to-become-a-permanent-layer-in-imapbc)
+	+ [How do I get my data into WMS/WFS?](#how-do-i-get-my-data-into-wmswfs)
++ [**ARCGIS ONLINE (aka AGO, B.C.'s MAP HUB)**](#arcgis-online-aka-ago-bcs-map-hub)
+	+ [How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?](#how-do-i-get-my-data-into-bcs-map-hub-the-provinces-cloud-instance-of-arcgis-online-)
+	+ [Why would I publish data to ArcGIS Online only and not to the BCGW?](#why-would-i-publish-data-to-arcgis-online-only-and-not-to-the-bcgw)
+	+ [How do I publish a map to ArcGIS Online so it's viewable to the public?](#how-do-i-publish-a-map-to-arcgis-online-so-its-viewable-to-the-public)
++ [**THE BC GEOGRAPHIC WAREHOUSE (BCGW)**](#the-bc-geographic-warehouse-bcgw)
+	+ [How do I publish data to the BCGW? Who do I contact at DataBC to publish my data to the BCGW?](#how-do-i-publish-data-to-the-bcgw-who-do-i-contact-at-databc-to-publish-my-data-to-the-bcgw)
+	+ [How long does it take to publish to the BCGW?](#how-long-does-it-take-to-publish-to-the-bcgw)
+	+ [What data service formats can be made available for my BCGW data?](#what-data-service-formats-can-be-made-available-for-my-bcgw-data)
+	+ [What government channels can be used to access my BCGW data?](#what-government-channels-can-be-used-to-access-my-bcgw-data)
+	+ [Refreshing Data - the ETL Process](#refreshing-data---the-etl-process)
+	+ [Access security](#access-security)
+	+ [Downloading data from the BC Geographic Warehouse](#downloading-data-from-the-bc-geographic-warehouse)
+	+ [Feature Codes](#feature-codes)
+	+ [What is the Geographic Sites Registry (GSR)?](#what-is-the-geographic-sites-registry-gsr)
+	+ [Retiring datasets from the BC Geographic Warehouse](#retiring-datasets-from-the-bc-geographic-warehouse)
++ [**GETTING ACCESS TO THE THINGS YOU NEED**](#getting-access-to-the-things-you-need)
+	+ [How do I get access to the DataBC File Staging Area?](#how-do-i-get-access-to-the-databc-file-staging-area)
+	+ [How do I get access to secure data?](#how-do-i-get-access-to-secure-data)
+	+ [How do I get an account to BCGW?](#how-do-i-get-an-account-to-bcgw)
+	+ [How do I change/reset my BCGW password?](#how-do-i-changereset-my-bcgw-password)
+	+ [How do I unlock my BCGW account?](#how-do-i-unlock-my-bcgw-account)
+	+ [I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?](#ive-taken-over-responsibility-for-maintaining-a-dataset-that-has-been-published-to-databc-how-do-i-get-access-to-what-i-need)
+
 -----------------------
 
 ## Audience
@@ -579,5 +587,5 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 -------------------------------------------------------
 
 [1]: #frequently-asked-questions-faq
-[2]: ../publishing-data-to-databc.md#additional-references
+[2]: ../index.md#additional-references
 

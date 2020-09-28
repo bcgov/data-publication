@@ -1,16 +1,25 @@
+---
+layout: default
+title: Staging Area Standards
+nav_order: 70
+parent: Standards and Guidelines
+has_toc: false
+---
+
 # STAGING AREA STANDARDS
 
 This guide provides the necessary information for all locations and access to multiples staging areas, depending on the type of data being published.  Also provided is contact information for additional assistance.
 
 -----------------------
 ## Table of Contents
-+ [**AGO (ArcGIS ONLINE) STAGING AREA LOCATION AND ACCESS**](#AGO-ArcGIS-ONLINE-STAGING-AREA-LOCATION-AND-ACCESS)
-+ [**BCGW STAGING AREA LOCATION AND ACCESS**](#BCGW-STAGING-AREA-LOCATION-AND-ACCESS)
-+ [**BC DATA CATALOGUE AS A STAGING AREA FOR THE BCGW**](#BC-DATA-CATALOGUE-AS-A-STAGING-AREA-FOR-THE-BCGW)
-+ [**DBC STAGING AREA LOCATION AND ACCESS**](#DBC-STAGING-AREA-LOCATION-AND-ACCESS)
-+ [**TILECACHE STAGING AREA LOCATION AND ACCESS**](#TILECACHE-STAGING-AREA-LOCATION-AND-ACCESS)
-+ [**STAGING AREA REQUIREMENTS**](#STAGING-AREA-REQUIREMENTS)
-+ [**STAGING AREA NAMING AND DATA QUALITY**](#STAGING-AREA-NAMING-AND-DATA-QUALITY)
++ [**AGO (ArcGIS ONLINE) STAGING AREA LOCATION AND ACCESS**](#ago-arcgis-online-staging-area-location-and-access)
++ [**BCGW STAGING AREA LOCATION AND ACCESS**](#bcgw-staging-area-location-and-access)
++ [**BC DATA CATALOGUE AS A STAGING AREA FOR THE BCGW**](#bc-data-catalogue-as-a-staging-area-for-the-bcgw)
++ [**DBC STAGING AREA LOCATION AND ACCESS**](#dbc-staging-area-location-and-access)
++ [**TILECACHE STAGING AREA LOCATION AND ACCESS**](#tilecache-staging-area-location-and-access)
++ [**STAGING AREA REQUIREMENTS**](#staging-area-requirements)
++ [**STAGING AREA NAMING AND DATA QUALITY**](#staging-area-naming-and-data-quality)
+
 -----------------------
 # Audience
 
@@ -124,4 +133,4 @@ DataBC manages multiple staging areas to allow for the transfer and storage of f
 -------------------------------------------------------
 
 [1]: #staging-area-standards
-[2]: ../publishing-data-to-databc.md#naming-and-describing-standards
+[2]: ../index.md#naming-and-describing-standards

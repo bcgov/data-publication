@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tips & Tricks
+nav_order: 100
+has_toc: false
+---
+
 
 # HELPFUL TIPS ABOUT THE BC GEOGRAPHIC WAREHOUSE
 
@@ -5,30 +12,22 @@ The context below provides helpful tips and data points for those users who mana
 
 -----------------------
 ## Table of Contents
-+ [**CONNECTING TO THE BCGW**](#CONNECTING-TO-THE-BCGW)
-	+ [Connecting to BCGW Production using ArcGIS Desktop](#Connecting-to-BCGW-Production-using-ArcGIS-Desktop)
-	+ [Other Database Connections](#Other-Database-Connections)
-	+ [Connecting to BCGW Production using FME](#Connecting-to-BCGW-Production-using-FME)
++ [**CONNECTING TO THE BCGW**](#connecting-to-the-bcgw)
+	+ [Connecting to BCGW Production using ArcGIS Desktop](#connecting-to-bcgw-production-using-arcgis-desktop)
+	+ [Other Database Connections](#other-database-connections)
+	+ [Connecting to BCGW Production using FME](#connecting-to-bcgw-production-using-fme)
++ [**ADDING DATA USING ARCGIS DESKTOP**](#adding-data-using-arcgis-desktop)
+	+ [ADDING LAYERFILES](#adding-layerfiles)
+		+ [TSAT toolbar in ArcMap](#tsat-toolbar-in-arcmap)
+		+ [ArcCatalog](#arccatalog)
+	+ [ADDING DATA DIRECTLY FROM BCGW](#adding-data-directly-from-bcgw)
++ [**IDENTIFIED BUGS**](#identified-bugs)
++ [**UPDATING DATA SOURCES **](#updating-data-sources-)
+	+ [VIA ArcCatalog](#via-arccatalog)
+	+ [VIA ArcGIS Documents](#via-arcgis-documents)
+		+ [Setting Data Sources Via Breaking and Repairing Data Links in ArcMap](#setting-data-sources-via-breaking-and-repairing-data-links-in-arcmap)
++ [**CONNECTING TO GOGS**](#connecting-to-gogs)
 
-+ [**ADDING DATA USING ARCGIS DESKTOP**](#ADDING-DATA-USING-ARCGIS-DESKTOP)
-	+ [ADDING LAYERFILES](#ADDING-LAYERFILES)
-	  + [TSAT toolbar in ArcMap](#TSAT-toolbar-in-ArcMap)
-	  + [ArcCatalog](#ArcCatalog)
-	+ [ADDING DATA DIRECTLY FROM BCGW](#ADDING-DATA-DIRECTLY-FROM-BCGW)
-	
-+ [**IDENTIFIED BUGS**](#IDENTIFIED-BUGS)
-+ [**UPDATING DATA SOURCES**](#UPDATING-DATA-SOURCES)
-   + [VIA ArcCatalog](#VIA-ArcCatalog)
-   + [VIA ArcGIS Documents](#VIA-ArcGIS-Documents)
-   + [Updating Database Connections](#Updating-Database-Connections)
-      + [Setting Data Sources Via Breaking and Repairing Data Links in ArcMap](#Setting-Data-Sources-Via-Breaking-and-Repairing-Data-Links-in-ArcMap)
-+ [**WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS**](#WORKFLOW-FOR-CREATING-AND-DELETING-BCGW-DATABASE-OBJECTS)
-	+ [Prepare the Delivery Kit DDL scripts](#Prepare-the-Delivery-Kit-DDL-scripts)
-	+ [Write the Data Loading Script](#Write-the-Data-Loading-Script)
-	+ [Write the Script for Managing the MDSYS USER_SDO_GEOM_METADATA View](#Write-the-Script-for-Managing-the-MDSYS-USER_SDO_GEOM_METADATA-View)
-	+ [Write the README file](#Write-the-README-file)
-	+ [Test the README file (including rollback instructions) in BCGW Delivery](#Test-the-README-file-including-rollback-instructions-in-BCGW-Delivery)
-+ [**CONNECTING TO GOGS**](#CONNECTING-TO-GOGS)
 -----------------------
 
 # Audience
@@ -262,5 +261,5 @@ Connecting to the DataBC Gogs repositories requires that you log in first.
 -------------------------------------------------------
 
 [1]: #helpful-tips-about-the-bc-geographic-warehouse
-[2]: ../publishing-data-to-databc.md#tips-and-tricks
+[2]: ../index.md#tips-and-tricks
 

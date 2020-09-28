@@ -1,3 +1,11 @@
+---
+layout: default
+title: Delivery Standards
+nav_order: 70
+parent: Data Publication Workflows
+has_toc: false
+---
+
 # BC GEOGRAPHIC WAREHOUSE DELIVERY STANDARDS
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
@@ -6,30 +14,35 @@ This document describes in detail the standard procedures and guidelines for the
 
 -----------------------
 ## Table of Contents
-+ [**ROLES AND RESPONSIBILITIES**](#ROLES-AND-RESPONSIBILITIES)
-+ [**DATA DELIVERY CHECKLIST**](#DATA-DELIVERY-CHECKLIST)
-	+ [Whiteboard Meeting(s) Held](#Whiteboard-Meetings-Held)
-	+ [Dataset Logfile Completed and Reviewed](#Dataset-Logfile-Completed-and-Reviewed)
-	+ [Data Delivery Loading Accounts Created and Verified](#Data-Delivery-Loading-Accounts-Created-and-Verified)
-	+ [Repository Container Checkout List Completed](#Repository-Container-Checkout-List-Completed)
-	+ [Oracle Designer Repository Container Created if Necessary](#Oracle-Designer-Repository-Container-Created-if-Necessary)
-	+ [Data Modelling Completed and Approved](#Data-Modelling-Completed-and-Approved)
-+ [**THE DELIVERY KIT**](#THE-DELIVERY-KIT)
-	+ [Structure and Location](#Structure-and-Location)
-+ [**DATA DELIVERY PROCESS**](#DATA-DELIVERY-PROCESS)
-	+ [Validate the delivery kit in BCGW Delivery](#Validate-the-delivery-kit-in-BCGW-Delivery)
-	+ [Submit the delivery kit to DataBC for QA](#Submit-the-delivery-kit-to-DataBC-for-QA)
-	+ [Schedule the Delivery](#Schedule-the-Delivery)
-	+ [Deploy to TEST](#Deploy-to-TEST)
-	+ [QA Data in TEST](#QA-Data-in-TEST)
-	+ [Approve Migration to PRODUCTION](#Approve-Migration-to-PRODUCTION)
-	+ [Deploy to PRODUCTION](#Deploy-to-PRODUCTION)
-	+ [QA Data in PRODUCTION](#QA-Data-in-PRODUCTION)
-	+ [Next steps](#Next-steps)
-+ [**APPENDIX: List of Schemas and Schema Roles**](#APPENDIX-List-of-Schemas-and-Schema-Roles)
-+ [**APPENDIX: WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS](#APPENDIX-WORKFLOW-FOR-CREATING-AND-DELETING-BCGW-DATABASE-OBJECTS)
++ [**ROLES AND RESPONSIBILITIES**](#roles-and-responsibilities)
++ [**DATA DELIVERY CHECKLIST**](#data-delivery-checklist)
+	+ [Whiteboard Meeting(s) Held](#whiteboard-meetings-held)
+	+ [Dataset Logfile Completed and Reviewed](#dataset-logfile-completed-and-reviewed)
+	+ [Data Delivery Loading Accounts Created and Verified](#data-delivery-loading-accounts-created-and-verified)
+	+ [Repository Container Checkout List Completed](#repository-container-checkout-list-completed)
+	+ [Oracle Designer Repository Container Created if Necessary](#oracle-designer-repository-container-created-if-necessary)
+	+ [Data Modelling Completed and Approved](#data-modelling-completed-and-approved)
++ [**THE DELIVERY KIT**](#the-delivery-kit)
+	+ [Structure and Location](#structure-and-location)
++ [**DATA DELIVERY PROCESS**](#data-delivery-process)
+	+ [Validate the delivery kit in BCGW Delivery](#validate-the-delivery-kit-in-bcgw-delivery)
+	+ [Submit the delivery kit to DataBC for QA](#submit-the-delivery-kit-to-databc-for-qa)
+	+ [Schedule the Delivery](#schedule-the-delivery)
+	+ [Deploy to TEST](#deploy-to-test)
+	+ [QA Data in TEST](#qa-data-in-test)
+	+ [Approve Migration to PRODUCTION](#approve-migration-to-production)
+	+ [Deploy to PRODUCTION](#deploy-to-production)
+	+ [QA Data in PRODUCTION](#qa-data-in-production)
+	+ [Next steps](#next-steps)
++ [**APPENDIX: LIST OF SCHEMAS AND SCHEMA ROLES**](#appendix-list-of-schemas-and-schema-roles)
++ [**APPENDIX: WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS**](#appendix-workflow-for-creating-and-deleting-bcgw-database-objects)
+	+ [Prepare the Delivery Kit DDL scripts](#prepare-the-delivery-kit-ddl-scripts)
+	+ [Write the Data Loading Script](#write-the-data-loading-script)
+	+ [Write the Script for Managing the MDSYS USER_SDO_GEOM_METADATA View](#write-the-script-for-managing-the-mdsys-user_sdo_geom_metadata-view)
+	+ [Write the README file](#write-the-readme-file)
+	+ [Test the README file (including rollback instructions) in BCGW Delivery](#test-the-readme-file-including-rollback-instructions-in-bcgw-delivery)
++ [**REFERENCES**](#references)
 
-+ [**REFERENCES**](#REFERENCES)
 -----------------------
 
 # Audience
@@ -235,10 +248,10 @@ Links:
 
 Additional Notes
 
-+ Please ensure the source data is in the correct location (i.e. the assigned directory on BCGW Staging <mark>or the BC Data Catalogue</mark>).
++ Please ensure the source data is in the correct location (i.e. the assigned directory on BCGW Staging or the BC Data Catalogue).
 + Within the FME script, be sure to set the ‘Target Warehouse Feature Class’ ‘Truncate Table First’ property to Yes
 + ‘Workspace Properties’ should contain the usual Header type information about your script
-+ <mark>If reading from the staging area, refer to the "read-only" version (\\data.bcgov\data_staging_ro\BCGW)
++ If reading from the staging area, refer to the "read-only" version (\\data.bcgov\data_staging_ro\BCGW)
 
 
 See [_Data Replication Standards and Guidelines_](data_replication_standards_and_guidelines.md#data-replication-standards-and-guidelines)
@@ -397,4 +410,4 @@ Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for detai
 
 -------------------------------------------------------
 [1]: #BC-Geographic-Warehouse-Delivery-Standards
-[2]: ../publishing-data-to-databc.md#data-publication-process
+[2]: ../index.md#data-publication-process
