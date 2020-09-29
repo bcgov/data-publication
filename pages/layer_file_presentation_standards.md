@@ -302,6 +302,7 @@ Symbology defines how geographic features are displayed
 + Features (Single symbol): supported
 + Theming on Categories -\> Unique values: supported
 + Theming on Categories -\> Unique values, many fields: supported
+   + HOWEVER, **please note**: Along with the unique values many fields symbolization, there must be **an additional simple presentation layer** (e.g., categorization on one field or no categorization with only single symbol) of the entire spatial dataset (i.e., no filters or definitions queries) in the layer file. This presentation layer should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
 + Theming on Quantities: supported
 + Polygon Marker Fill Symbol or Marker Line Symbol is also permitted, but will probably have a slower draw time.
 
