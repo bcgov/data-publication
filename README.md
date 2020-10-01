@@ -1,4 +1,4 @@
 # Publishing to the DataBC Program
 Standards, tips, and tricks to help you on your way.
 
-see Documentation - [https://mdunhamwilkie.github.io/Publishing-to-DataBC](https://mdunhamwilkie.github.io/Publishing-to-DataBC)
+See Documentation - [https://bcgov.github.io/data-publication](https://bcgov.github.io/data-publication)
