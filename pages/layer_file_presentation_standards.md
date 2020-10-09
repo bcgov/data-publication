@@ -302,14 +302,15 @@ Symbology defines how geographic features are displayed
 + Features (Single symbol): supported
 + Theming on Categories -\> Unique values: supported
 + Theming on Categories -\> Unique values, many fields: supported
-   + HOWEVER, **please note**: Along with the unique values many fields symbolization, there must be **an additional simple presentation layer** (e.g., categorization on one field or no categorization with only single symbol) of the entire spatial dataset (i.e., no filters or definitions queries) in the layer file. This presentation layer should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
+   + HOWEVER, **please note**: There must be **an additional simple presentation layer**: either categorization on one field or single symbol (and must not be filtered with a definition query). This presentation should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
 + Theming on Quantities: supported
++ Using a simple mask (halo) for symbols: supported
 + Polygon Marker Fill Symbol or Marker Line Symbol is also permitted, but will probably have a slower draw time.
 
 **Symbology Options NOT supported**:
 
-+ Theming on Categories: using the Group Values option to combine 2 or more categories is **NOT SUPPORTED**
-+ Theming categories using Advanced -\> Symbol Levels is **NOT SUPPORTED**
++ "Group Values" (right-click menu option) to combine 2 or more categories is **NOT SUPPORTED**
++ Theming categories using the Advanced -\> Symbol Levels is **NOT SUPPORTED**
 
 #### Polygon Symbology
 
