@@ -304,7 +304,7 @@ Symbology defines how geographic features are displayed
 + Theming on Categories -\> Unique values, many fields: supported
    + HOWEVER, **please note**: There must be **an additional simple presentation layer**: either categorization on one field or single symbol (and must not be filtered with a definition query). This presentation should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
 + Theming on Quantities: supported
-+ Using of a simple mask (halo) for symobls: supported
++ Using a simple mask (halo) for symbols: supported
 + Polygon Marker Fill Symbol or Marker Line Symbol is also permitted, but will probably have a slower draw time.
 
 **Symbology Options NOT supported**:
