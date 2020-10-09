@@ -251,7 +251,7 @@ Configuring an FME Reader or FeatureReader transformer involves creating one or 
 + When readers are created some *Published Parameters* are automatically created; these must be renamed, as described below, in order to be used with the FME Framework.
 + When specifying a source data file or directory in the standing area, specify the *read-only* path: `\\data.bcgov\data_staging_ro\bcgw`
 + When specifying multiple inputs, distinguish between them by changing the _1 suffix to _2, _3, etc. for inputs subsequent to the first.
-+ When adding a reader or specifying connection parameters in a transformer (e.g., SQLCreator, FeatureReader, DatabaseJoiner, etc.) choose the _Embed Connection Parameters_ option and specify hard-coded values for the connection parameters; they will be overridden by FME parameters at a later stage in the configuration.
++ When adding a reader or specifying connection parameters in a transformer (e.g., SQLCreator, FeatureReader, DatabaseJoiner, etc.) choose the _Embed Connection Parameters_ option in the __Dataset:__ field. Then click on the __Parameters__ button and specify hard-coded values for the connection parameters; they will be overridden by FME parameters at a later stage in the configuration.
 
 ![](images/image_embed_connection_parameters.png)
 
@@ -700,7 +700,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Configuration**|N/A | 
 	|**Attribute Assignment**|Default |
 	|**Default Value**|Source service name, e.g., DBP06.NRS.BCGOV |
-	|**Link From**|nowhere - used internally by **SRC_SDE_CONNECTIONFILE**  |
+	|**Link From**|nowhere - used internally by **SRC_EASYCONNECT**  |
 
 
 ##### Source Host (SRC_HOST)
@@ -714,7 +714,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Configuration**|N/A | 
 	|**Attribute Assignment**|Default |
 	|**Default Value**|The source oracle database host, e.g., lrmbctsp.nrs.bcgov |
-	|**Link From**|nowhere - used internally by **SRC_SDE_CONNECTIONFILE**  |
+	|**Link From**|nowhere - used internally by **SRC_EASYCONNECT**  |
 
 ##### Source Port (SRC_PORT)
 
@@ -729,7 +729,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Configuration**|N/A | 
 	|**Attribute Assignment**|Default |
 	|**Default Value**|Oracle port number, when not 1521 |
-	|**Link From**|nowhere - used internally by **SRC_SDE_CONNECTIONFILE**  |
+	|**Link From**|nowhere - used internally by **SRC_EASYCONNECT**  |
 
 ##### Source Schema Owner Password (SRC_ORA_PASSWORD)
 + 

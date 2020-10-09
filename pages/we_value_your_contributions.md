@@ -15,7 +15,7 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 + [**CHANGING PAGES OR ADDING NEW ONES**](#changing-pages-or-adding-new-ones)
 	+ [How to Access GitHub](#how-to-access-github)
 	+ [How to Download a Git Client](#how-to-download-a-git-client)
-	+ [How to Clone the bcgov/data-standards Repository](#how-to-clone-the-bcgovdata-standards-repository)
+	+ [How to Clone the bcgov/data-publication Repository](#how-to-clone-the-bcgovdata-publication-repository)
 	+ [How to Pull down a Repository to a File System](#how-to-pull-down-a-repository-to-a-file-system)
 	+ [How to Create or Change Pages](#how-to-create-or-change-pages)
 	+ [How to Push to GitHub](#how-to-push-to-github)
@@ -64,13 +64,13 @@ For BC Government employees read the [BC Policy Framework For GitHub](https://gi
 
 Download a git client from https://git-scm.com/download. You will use the "git" command to do most of your work
 
-### How to Clone the bcgov/data-standards Repository
+### How to Clone the bcgov/data-publication Repository
 
-1. Log into github.com and navigate to [https://github.com/data-standards](https://github.com/bcgov/data-standards)
+1. Log into github.com and navigate to [https://github.com/data-publication](https://github.com/bcgov/data-publication)
 1. Click the ![Fork](images/image_fork.png) button in the upper right.
-	1. A pop-up may appears with the question **Where should we fork data-standards**, click on your userid.
+	1. A pop-up may appears with the question **Where should we fork data-publication**, click on your userid.
 
-A copy of the data-standards will now be in your repo, e.g., _userid/data-standards_
+A copy of the data-publication will now be in your repository, e.g., _userid/data-publication_
 
 ### How to Pull down a Repository to a File System
 
@@ -79,14 +79,14 @@ A copy of the data-standards will now be in your repo, e.g., _userid/data-standa
 	1. Click the clipboard image ![clipboard](images/image_copy_url.png) as this copies the URL listed beside it
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Either using a program of your choice or open a DOS/PowerShell to that directory.
-1. Enter the command to create a `data-standards` subdirectory:
+1. Enter the command to create a `data-publication` subdirectory:
 	```
 	git clone <paste the URL from your clipboard>
 	```
-1. Enter the following commands to move to and sync content from the master repo:
+1. Enter the following commands to move to and sync content from the master repository:
    ```
-   cd data-standards
-   git remote add --track master upstream git://github.com/bcgov/data-standards.git
+   cd data-publication
+   git remote add --track master upstream git://github.com/bcgov/data-publication.git
    git fetch upstream
    git merge upstream/master
    ```
@@ -94,20 +94,20 @@ A copy of the data-standards will now be in your repo, e.g., _userid/data-standa
 
 ### How to Create or Change Pages
 
-1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-standards repository. 
+1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-publication repository. 
 
 To do this, issue the following to commands:
-	```
-	git fetch upstream
-    git merge upstream/master
-	```
-	
+   ```
+   git fetch upstream
+   git merge upstream/master
+   ```
+
 1. Using a text editor make changes to the markdown (.md) files, add new markdown files, etc. 
 1. Any images should be stored in the images subdirectory.
 
 ### How to Push to GitHub
 
-Your changes, additions, etc. on your local filesystem copy now have to be transfered up to your copy on GitHub. Do this by executing the following commands:
+Your changes, additions, etc. on your local filesystem copy now have to be transferred up to your copy on GitHub. Do this by executing the following commands:
 
 ```
 git add -A
