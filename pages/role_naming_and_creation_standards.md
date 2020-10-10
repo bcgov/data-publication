@@ -141,7 +141,7 @@ Examples:
 
 |Security Description| BCGW Schemas |Example Role Names|
 | :--- | :---: | :---: |
-|`Named Users of the Emergency Response Team to have read permission to the granted Fresh Water Atlas objects in the WHSE_BASEMAPPING SCHEMA.`|`WHSE_BASEMAPPING`|`WHSE_BM_FWA_ERT_USER`||
+|`Named Users of the Emergency Response Team to have read permission to the granted Fresh Water Atlas objects in the WHSE_BASEMAPPING SCHEMA.`|`WHSE_BASEMAPPING`|`WHSE_BM_FWA_ERT_USER`|
 |`Named Users of custodial data managers who need to see datasets that may only be for application access or used to build other datasets but these objects themselves are not to be used by general named users.`|`WHSE_ARCHAEOLOGY`|`WHSE_RAAD_MGR`|
 
 #### External Application Access Roles:
