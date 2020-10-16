@@ -58,7 +58,7 @@ This page is written in the context that you have reviewed the documentation as 
 ------------------------------
 ## WORKFLOW DIAGRAM
 
-![BCGW Readiness Workflow](images/image_BCGWReadiness.jpg)
+![BCGW Readiness Workflow](images/image_BCGWReadiness.png)
 
 ## WORKFLOW DIAGRAM - SVG
 
