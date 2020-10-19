@@ -52,8 +52,8 @@ This page is written in the context that you have reviewed all information in th
 
 [RETURN TO TOP][1]
 
-{: style="text-align: right" }
-[RETURN TO TOP][1]
+{: style="text-align: right" [RETURN TO TOP][1] }
+
 
 <div style="text-align: right"> "[RETURN TO TOP][1]" </div>
 ------------------------------
