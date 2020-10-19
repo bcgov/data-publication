@@ -13,7 +13,6 @@ has_toc: false
 This page contains details for completing fields in a metadata record for the Web Service - API dataset type.
 
 -----------------------
------------------------
 
 # AUDIENCE
 
@@ -21,9 +20,8 @@ The intended audiences for this page are:
 + clients that are publishing Web Service - API's to the DataBC Program
 
 -----------------------
------------------------
 
-## <a name="bcdc_data_publication_workflows_webservice_api_page">Web Service - API</a>
+## <a name="dpw_bcdc_webservice_api">Web Service - API</a>
 ### Create Dataset
 
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
@@ -43,6 +41,7 @@ The intended audiences for this page are:
 **Keywords**: Enter meaningful keywords here. Think of what users may use for search terms to find the Web Service - API in the Catalogue.
 
 ---------------
+
 #### **Contacts**
 
 Add contacts for the following **Roles**:
@@ -64,6 +63,7 @@ Add contacts for the following **Roles**:
 **Contact Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to Catalogue Admin's.
 
 ---------------
+
 #### **Data Currency/Update**
 
 **Resource Status** is the status of the Web Service - API as described by one of the types below: 
@@ -80,6 +80,7 @@ Add contacts for the following **Roles**:
 |Under development|Web Service - API's that exist but are not yet completed should be described as under development.
 
 ---------------
+
 #### **Access & Security**
 
 **Who can access this application?** desribes the security level for access to the application.
@@ -92,6 +93,7 @@ Add contacts for the following **Roles**:
 |Government| Only government credentials can access the application.
 
 ------------------------------
+
 **Who can view this record?** describes who can view the metadata record.
 
 |Access Type| Description
