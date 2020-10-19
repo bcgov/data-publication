@@ -54,7 +54,7 @@ This page is written in the context that you have reviewed the documentation as 
 
 ------------------------------
 
-## WORKFLOW DIAGRAM
+## WORKFLOW - IS MY DATA READY FOR THE BCGW?
 
 ![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
 
