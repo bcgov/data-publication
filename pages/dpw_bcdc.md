@@ -1,351 +1,233 @@
 ---
 layout: default
-title: Data Publication Workflow - BCGW
+title: Data Publication Workflow - BC Data Catalogue
 nav_order: 30
 parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
+# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC)
 
+# PURPOSE
 
-# Purpose
-
-This page describes the client workflow for loading datasets into the BC Geographic Warehouse (BCGW).
+This page describes the client workflow for creating metadata in the BC Data Catalogue (BCDC).  
 
 -----------------------
 
-# Audience
+# AUDIENCE
 
 The intended audiences for this page are:
-+ clients that are publishing data to the BC Geographic Warehouse (BCGW)
-+ _Business Analysts_
-+ _Business Portfolio Managers_
-+ _Application Administrators_
++ clients that are publishing data to the DataBC Program, through any service
++ Data Custodians, Data Managers, Data Stewards, metadata editors
+
 
 For a description of the roles and responsibilities of the business functions defined in this section, please refer to [_Data Publication: Roles and Responsibilities_](roles_and_responsibilities.md#data-publication-roles-and-responsibilities).
 
-
 -----------------------
+
 ## Table of Contents
 + [**INTRODUCTION**](#introduction)
-+ [**WORKFLOW DIAGRAM**](#workflow-diagram)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
-+ [**WHITEBOARD SESSIONS**](#whiteboard-sessions)
-	+ [Discovery Whiteboard](#discovery-whiteboard)
-	+ [Dataset Logfile](#dataset-logfile)
-	+ [Technical Whiteboard](#technical-whiteboard)
-+ [**DATA MODELLING**](#data-modelling)
-	+ [Deploy and Approve Data Content in Delivery](#deploy-and-approve-data-content-in-delivery)
-+ [**DATA MIGRATION TO TEST**](#data-migration-to-test)
-	+ [Deploy and Approve Data Content in Test](#deploy-and-approve-data-content-in-test)
-+ [**DATA MIGRATION TO PRODUCTION**](#data-migration-to-production)
-	+ [Deploy and Approve Data Content in Production](#deploy-and-approve-data-content-in-production)
-+ [**DISTRIBUTION CONFIGURATION**](#distribution-configuration)
-+ [**REPLICATION SERVICES**](#replication-services)
-
++ [**WORKFLOW DIAGRAM - METADATA READINESS**](#workflow-diagram---metadata-readiness)
++ [**WORKFLOW DIAGRAM - METADATA CREATION**](#workflow-diagram---metadata-creation)
++ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**CREATING A NEW METADATA RECORD**](#creating-a-new-metadata-record)
++ [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
+	+ [BCGW RESOURCES](#bcgw-resources)
+	+ [FILE AND URL RESOURCES](#file-and-url-resources)
+	+ [REORDERING RESOURCES](#reordering-resources)
+	+ [EDITING EXISTING RESOURCES](#editing-existing-resources)
+	+ [REPLACING AN EXISTING RESOURCE](#replacing-an-existing-resource)
+	+ [DELETING AN EXISTING RESOURCE](#deleting-an-existing-resource)
++ [**METADATA MANAGEMENT AND MAINTENACE**](#metadata-management-and-maintenance)
+  
 ---------------------------
 
 ## INTRODUCTION
 
-When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to publish your dataset in the BCGW.
+When data is published to the the DataBC Program through any of its services, it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your reponsibilities are as a publisher to the BC Data Catalogue and how to create a metadata record in the BC Data Catalogue.
 
-This page is written in the context that you have reviewed the documentation as listed below.
-
-------------------------------
-
-## WORKFLOW DIAGRAM
-
-![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
+This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
 ------------------------------
 
 ## DOCUMENTATION REVIEW
 
-The first step in the process is to review the documentation in the following sections: 
-+ [Data Governance](https://bcgov.github.io/data-publication/pages/data_governance.html) (all)
-+ [Standards and Guidelines](https://bcgov.github.io/data-publication/pages/standards_and_guidelines.html) (all)
-+ Data Publication Workflows
-	+ [Before You Start](before_you_start.md#before-you-start)
-	+ [Roles and Responsibilities](https://bcgov.github.io/data-publication/pages/roles_and_responsibilities.html)
-	+ [Delivery Standards](https://bcgov.github.io/data-publication/pages/delivery_standards.html)
+The first step in the process is to review the documentation: 
++ Data Governance > [A Guide for Data Custodaians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html#a-guide-for-data-custodians-and-data-managers)
 + [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
++ Standards and Guidelines > [Metadata Standards](https://bcgov.github.io/data-publication/pages/metadata_standards.html)
++ Standards and Guidelines > Naming and Describing > [BC Data Catalogue Naming Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-naming-guidelines)
++ Standards and Guidelines > Naming and Describing > [BC Data Catalogue Content and Describing Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-content-and-describing-guidelines)
++ Standards and Guidelines > [File Content/Structure Best Practices](https://bcgov.github.io/data-publication/pages/file_content_and_structure_best_practices.html)
 
 ------------------------------
 
-## BEFORE YOU START
+## WORKFLOW DIAGRAM - METADATA READINESS
 
-Complete the questions in the Before You Start documentation.  This will help you to answer questions about your data that will be discussed at the Whiteboard Session with DataBC.
+[RETURN TO TOP][1]
 
 ------------------------------
 
-## WHITEBOARD SESSIONS
+## WORKFLOW DIAGRAM - METADATA CREATION
 
-Once you have completed the documentation review and questions, it's time to contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to schedule a Whiteboard Session.  This purpose of this session is to discuss your dataset, the questions you answered in Before You Start as well as provide you with some personal guidance on next steps for the process.  
 
-*We will ask that you send us a sample of the data so we can provide constructive feedback in the session.*
 
-### **Discovery Whiteboard**
-  
-**Resources**
+[RETURN TO TOP][1]
 
-Having the right people available for the session allows us to all move forward efficiently. Please ensure attendance for the following resources from your business area:
+------------------------------
 
-|Type|Resource|Attendance|Purpose|Action Items from Session|
-|:---|:---|:---|:---|:--|
-|Business Area|Data Suppliers|**Required**|Data overview|Provide copy of dataset to BCGW Staging Area|
-|||||Complete [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/dataset_logfile) with assistance from ***DataBC DA*** and [_Data Delivery Standards - Data Delivery Checklist_](delivery_standards.md#data-delivery-checklist)|
-|||||Request access to the BCGW via the [_NRM Service Desk_](https://nrsservicedesk.gov.bc.ca/IM/scripts/LoginPage.asp)|
-|||| |Start working on the Open Government Licence - British Columbia assessment and checklist (if applicable) using the [_Open Data Assessment and Checklist_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)|
-|Business Area|IMB: BA/BP|**Required**|Access requirements|If a database or web service, provide access to the source data|
-|||| |Set up proxies to operation databases (delivery/test/production)|
-|||| |Set up Web Service to pull data from and accounts|
-|Business Area|Vendor/Developer|_Optional_| _If using, please attend_
-|
+## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-The following resources from DataBC will be in attendance:
+To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the Data Custodian (Director or Executive Director) is required. Here are the steps to complete this:
 
-|Type|Resource|Attendance|Action Items from Session|
-|:---|:---|:---|:--|
-|DataBC|[DataBC Data Admin](mailto:DataBC.DA@gov.bc.ca)|**Required**|If a file, provide access to the BCGW Staging Area|
-||| |Review if Data Suppliers intended on QAing the data in the BCGW directly, if they have accounts.|
-|DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|_As Required_|
-|DataBC|[DataBC Catalogue Admin](mailto:datacat@gov.bc.ca)|_Optional_|
-|
+1. Contact the Data Custodian to request approval for publishing/editing privileges in the Sub-Org. Be sure to note the Orgnization and Sub-Organization (as it appears in the Catalogue) in your email. If more than one person requires editing access, include them in the request as well.
+1. Once approval is received from the Custodian, forward the email including ther response to [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with the subject: "BCDC Editor Request". 
+1. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relavant information to get you started as an Editor in the BC Data Catalogue.
 
--------------------------------
+Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
++ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licenses](#Licenses) section below for more information on this.  
++ Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing your data to the Catalogue. 
 
-## DATASET LOGFILE
+[RETURN TO TOP][1]
 
-The [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile/) is where you provide specific details about your dataset in order to capture the following information:
+------------------------------
 
-   + ***Business Details:*** Overarching Title, Description, Custodian, Business Area Contacts and IMB BA/BPM
-   + ***Data Details:*** Dataset Title, Descriptions, Source, Feature Type and Count and who to create Metadata
-   + ***Security Details:*** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
-   + ***Data Model Details:*** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
+ ## <a name="licenses">LICENCES</a>
 
-   *{INSERT WORKFLOW DIAGRAM HERE}*
+There are three licensing options for data published in the BC Data Catalogue:
+
+1. [Access Only](https://www2.gov.bc.ca/gov/content/home/copyright)
    
-**References:**
+   Access only is the standard and is a statement of use that is restrictive as defined in the [Crown Copyright Page](https://www2.gov.bc.ca/gov/content/home/copyright).
+	+ “reproduction is not permitted without written permission.”
+	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
+1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
+ 
+   It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.  Some tools require this license to be applied, like Shiny.
 
-+ List/link database and data standards documentation here
-+ [_File Geodatabase (FGDB) Standards_](http://geobc.gov.bc.ca/common/specs/file_geodatabase_standards.pdf)
+   To publish a dataset under OGL-BC you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). These include:
 
--------------------------------
+	+ [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
+	+ [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca)
+	+ The Custodial organization’s Deputy Minister or designated alternate
 
+	Once these approvals are in place, Data can be published under OGL-BC if:
 
-## TECHNICAL WHITEBOARD
-The purpose of the Technical Whiteboard Session is to discuss the technical details of your dataset after your Dataset Logfile has been completed.  During this session, we will discuss:
-+ Specifics about data model based on Dataset Logfile and access to source data
-+ Security model for Database, iMap, Distribution, WMS, Open Data
-+ Replication mechanism and frequency
+	+ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+	+ The Catalogue record links to the appropriate Open Data Licence.
+	
+1. [Open Government - (Other)](https://bcgov.github.io/data-publication/pages/bcdc_data_onboarding_and_workflow.html#other-open-government-licences)
 
-**Client resources for session:**
+	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
 
-|Type|Resource|Attendance|Action Items from Session|
-|:---|:---|:---|:--|
-|Business Area|Data Suppliers|**Required**|Provide IDIRs and/or BCeIDs of users and data managers|
-||||If not using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
-|Business Area|IMB: BA/BP|**Required**|_if Named User access is required, security configuration for: Database Roles, Proxy Accounts, Firewalls_|
-|Business Area|Vendor/Developer|_Optional_|If using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
-|
-
--------------------------------
-
-**DataBC Resources for session:**
-
-|Type|Resource|Attendance|Action Items from Session|
-|:---|:---|:---|:--
-|DataBC|DataBC DA|**Required**|Account Management may include: Gogs, BCGW (del/test/prod), Staging Area, Oracle Designer, BCGW Delivery passwords|
-||||Finalize database object names|
-||||_if Named User access is required, security configuration for: Database Roles, Proxy accounts, iMap Workspaces, Firewalls_
-|DataBC|DataBC ETL|_Optional_|
-|
-
-**References:**
-+ [_Data Delivery Standards - Data Delivery Loading Accounts_](delivery_standards.md#data-delivery-loading-accounts-created-and-verified)|
-+ [_Data Naming and Describing Standards_](naming_and_describing.md#naming-and-describing-standards)
-+ [_Data Classification Hierarchy_](data_classification_hierarchy.md#data-classification-hierarchy)
-+ [_Staging Area Standards_](staging_area_standards.md#staging-area-standards)
-
--------------------------------
-
-## DATA MODELLING 
-
-Clients will provide input to their vendor/developer so the data model can be created.  DataBC will then review the model (and provide feedback when required) prior to your vendor/developer delivering the final product.
-
-**Resources for data modelling**
-
-|Type|Resource|Responsibility 
-|:---|:---|:---|
-|Business Area|Data Suppliers|Input|
-|Business Area|IMB: BA/BP|cc'd on communication|
-|Business Area|Vendor/Developer|**Required** to complete Data Model|
-|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to review Data Model|
-|
-
-**References:**
-
-+ [_Data Naming and Describing Standards_](naming_and_describing.md#naming-and-describing-standards)
-+ [_BC Geographic Warehouse Delivery Standards_](delivery_standards.md#bc-geographic-warehouse-delivery-standards)
-+ [_Role Naming and Creation Standards_](role_naming_and_creation_standards.md#role-naming-and-creation-standards)
-+ [_Spatial Data Object Creation and Deletion Guidelines_](data_guidance_and_best_practices.md#spatial-data-standards)
-+ [_Using the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
-
--------------------------------
-
-## DEPLOY AND APPROVE CONTENT IN DELIVERY
-Once the data modelling is complete, the data will be then deployed to the BCGW Delivery environment via a Delivery Kit (completed by vendor/developer).
-
-**Resources**
-
-|Type|Resource|Action Items|
-|:---|:---|:---|
-|Business Area|Data Suppliers|**Required** to review data|
-|||Create metadata record in BC Data Catalogue
-|||_If data is spatial, create layerfile(s)_
-|Business Area|IMB: BA/BP|**Required** to notify **Data Supplier(s)** if using their own vendors
-|Business Area|Vendor/Developer|**Required** to deploy Delivery Kit to BCGW Delivery|
-|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to notify **Data Supplier(s)** if using DataBC's existing Vendor|
-|
-
-**References:**
-
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
+	Federal Licences are listed as there are times when BC Government employees require data to be published for their own consumption via one or more channels.
 
 [RETURN TO TOP][1]
- 
--------------------------------
 
-## DATA MIGRATION TO TEST
+------------------------------
 
-Once the data has been successfully deployed to BCGW Delivery, DataBC can then migrate the dataset(s) to TEST.  During this time:
-+ the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
-+ DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
+## CREATING A NEW METADATA RECORD
+_Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/pages/bcdc_api_dev_workflow.md)._
 
-## Deploy and Approve Data Content in Test
+1. Click the **Log in** button the upper right to log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset). This will take you to your dashboard. 
+1. Click the **Datasets** button on the toolbar or navigate to [Datasets](https://catalogue.data.gov.bc.ca/dataset) page.
+1. Click the [**Add Dataset**](https://catalogue.data.gov.bc.ca/dataset/add) button.
+1. Choose a dataset type from one of the four types available that best fits your data, service or application.
+1. Follow the workflow link for details on the specific fields for each dataset type.
 
-#### Migration Bookings for TEST
-+ ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
-
-
-**Resources for Test Deployment**
-
-|Type|Resource|Responsibility|Action Items|
-|:---|:---|:---|:--|
-|Business Area|Data Suppliers|**Required**|Coordinate with BA/BPM to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Test** and provide date and time for migration
-||||Coordinate with the BA/BPM to provide the **OKAY** to migrate if there is a dependency on a operational migration|
-||||Data testing - content, performance|
-|Business Area|IMB: BA/BPM|**Required**|Coordinate with Data Supplier to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Test** and provide date and time for migration
-||||Coordinate with the Data Supplier to provide the **OKAY** to migrate if there is a dependency on a operational migration|
-||||Data testing - content, performance|
-|Business Area|Vendor/Developer|_Optional_|
-|DataBC|DataBC DA|**Required**|Schedule migration
-||||Data testing - content, performance|
-|DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
-|
-
-**References:**
-
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
-
--------------------------------
-## DATA MIGRATION TO PRODUCTION
-Once the data has been successfully tested and approved in BCGW TEST, DataBC can then migrate the dataset(s) to PROD. During this time:
-+ the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
-+ DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
-
-## Deploy and Approve Data Content in Production
-
-#### Migration Bookings for PROD
-
-+ ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
-
-**Resources for Production Deployment**
-
-|Type|Resource|Responsibility|Action Items|
-|:---|:---|:---|:---|
-|Business Area|Data Suppliers|**Required**|Coordinate with BA/BPM to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
-||||Coordinate with the BA/BPM to provide the **OKAY** to migrate if there is a dependency on a operational migration|
-||||Data confirmation - content, performance|
-|Business Area|IMB: BA/BP|**Required**|Coordinate with Data Supplier to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
-||||Coordinate with the Data Supplier to provide the **OKAY** to migrate if there is a dependency on a operational migration|
-||||Data confirmation - content, performance|
-|Business Area|Vendor/Developer|_Optional_|
-|DataBC|DataBC DA|**Required**|Schedule migration|
-||||Cooridinate with DataBC Delivery Specialist to migrate Delivery kit|
-|||| Kick off all access pieces|
-||||Data confirmation - content, performance|
-|DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
-|
-
-**References:**
-
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
-
-[RETURN TO TOP][1]
- 
------------------------
-
-## DISTRIBUTION CONFIGURATION
-
-**Resources**
-
-|Type|Resource|Action|
-|:---|:---|:---:|
-|Business Area|Data Suppliers|_Input_|
-|Business Area|IMB: BA/BP|_Not Required_|
-|Business Area|Vendor/Developer|_Not Required_|
-|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
-|DataBC|[DataBC Catalogue Services](mailto:Datacat@gov.bc.ca)|_Not Required_|
-|
-
-**Required for Action Items:**
-
-+ Security model as indicated in the Data Suppliers in the Dataset Logfile
-+ If Named User, then IDIRs and/or BCeIDs as provided by the Data Suppliers
-+ Column Short Names as provided by the Data Suppliers in the Dataset Logfile
-
-**Action Items**
-
-|**Resource**|**Action Item**|
+|Dataset Type| |
 |:---|:---|
-|_DataBC: DA/Catalogue Services_| Publish distribution link in metadata|
-|
+|<a href="./glossary.md/#application">Application</a>|<a href="./data_publication_workflows_bcdc_applications.md">Workflow</a>|
+|<a href="./glossary.md/#dataset">Dataset</a>|<a href="./data_publication_workflows_bcdc_dataset.md">Workflow</a>|
+|<a href="./glossary.md/#geographic_dataset">Geographic Dataset</a>|<a href="./data_publication_workflows_bcdc_geographic_dataset.md">Workflow</a>|
+|<a href="./glossary.md/#webservice_api">Web Service - API</a>|<a href="./data_publication_workflows_bcdc_webservice_api.md">Workflow</a>|
+|||
+
+
+1.  Click the **Create Dataset** button.
+
+1. Complete all mandatory fields (minimum requirement). Adding content to non-mandatory fields will help people to better understand and use the data (suggested).
+	+ Suggestions for metadata content can be found in [How to best fill in metadata](HOW-TO-BEST-FILL-IN-METADATA). 
 
 [RETURN TO TOP][1]
- 
------------------------
 
-## REPLICATION SERVICES
+------------------------------
 
-**Resources**
+## MANAGING METADATA RESOURCES
+Resources are the data in the metadata record and are added to the record to provide users with access to your data.
 
-|Type|Resource|Action|
-|:---|:---|:---:|
-|Business Area|Data Suppliers|_Input_|
-|Business Area|IMB: BA/BP|_Input_|
-|Business Area|Vendor/Developer|_Not Required_|
-|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
-|DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|**Required**|
-|
+To add or manage Resources:
 
-**Required for Action Items:**
+1. Log into the Catalogue.
+1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record. 
+	+ The "Edit Metadata" allows for the editing of all content.
+1. Click the **Resources** tab.
 
-+ for file based source data, usually ESRI File Geodatabase to be located in the BCGW Staging Area
-+ for database source data	Proxy account and passwords for source Del/Test/Prod as provided by the  ***Business Area IMB*** 
-+ SQL query for materialized view replication
-+ FME Workspace (FMW) file	Provided by business area client (or client’s vendor)
-+ [_Use the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)+ Replication frequency as identified by the ***Data Suppliers*** in the Dataset Logfile
+### BCGW RESOURCES
 
-**Action Items**
+The **Manage BCGW Resources** button will add the ability for users to custom download data from the BCGW if:
++ it is stored in the BCGW **and** 
++ they have permissions to access it **and**
++ the BCGW schema and object name (e.g, _schema.table_) has been added to the main page of the metadata record
 
-|Resource|Action Item|
-|:---|:---|
-|_DataBC: DA_|Perform QA on FMW scripts|
-|_DataBC: ETL_| Schedules replication for FMW|
-|
+1. Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
+1. Fill in the following details, where the update cycle is the mandatory field:
+	+ **Resource Description**
+	+ **Resource Update Cycle**
+	+ **Beginning Date**
+	+ **End Date**
+1. Click the **Save** button.
+1. Click the **Finish** button on the _Successfully added._ pop-up.
+
+Publicly visible datasets in the BCGW that are made available in iMapBC will also have WMS and KML created. The addition of these resources is handled through an automated script.
+
+### FILE AND URL RESOURCES
+The **+Add New Resource** button allows you to add a new resource to your metadata record.
+1. Complete the required fields
+1. Upload or provide a link to your data and provide information about the data resource.
+	+ **Upload**: To upload a file, e.g., CSV, directly into the Catalogue, click the **Upload** button and select the file to upload from your local computer.
+	+ **Link**: To link to a file stored elsewhere, e.g., a website or FTP site, click the **Link** button and enter the URL of the file.
+1. Click **Add** when done
+
+Additional resources can be added by repeating the process above.
+			
+**Notes:** 	
++ **Only files less than 150MB in size can be uploaded to the Catalogue.**
++ **If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.**
+
+### REORDERING RESOURCES
+The **Reorder resources** button allows you to control the order of resources in the metadata record.
+
+
+### EDITING EXISTING RESOURCES
+
+There are two ways to edit a resource in the metadata record: 
++ Using the 'wrench' icon > click the **Resources** tab
++ Using the **Explore** button on the main page:
+	+ Click the **Explore** drop down button
+	+ Click the **Edit** option to edit the resource
+
+1. Make edits that follow the recommendations outlined in the [creating a record section](pages.metadata_providers_guide.md#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
+1. Click the **Update Resource** button to save your changes.
+
+### REPLACING AN EXISTING RESOURCE
+
+While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above:
+1. Click the **Remove** button at the end of the **File** URL.
+1. Re-upload or provide a new link to your data.
+1. Make any other edits needed to reflect the updated/new resource.
+1. Click **Update Resource** to save your changes.
+
+### DELETING AN EXISTING RESOURCE
+While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above::
+1. Click the **Delete** button at the bottom of the page. 
+
+------------------------------
+
+## METADATA MANAGEMENT AND MAINTENANCE
+
+Please review [A Guide for Data Custodians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain to complete a regular reviews to ensure currency and completeness for metadata records published under their Branch/Division.
 
 [RETURN TO TOP][1]
 
@@ -353,5 +235,5 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-geographic-warehouse
+[1]: #data-publication-workflow---bc-data-catalogue-(BCDC)
 [2]: ../index.md#data-publication-process
