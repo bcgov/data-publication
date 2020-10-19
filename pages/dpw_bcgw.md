@@ -14,7 +14,6 @@ has_toc: false
 This page describes the client workflow for loading datasets into the BC Geographic Warehouse (BCGW).
 
 -----------------------
------------------------
 
 # Audience
 
@@ -26,8 +25,8 @@ The intended audiences for this page are:
 
 For a description of the roles and responsibilities of the business functions defined in this section, please refer to [_Data Publication: Roles and Responsibilities_](roles_and_responsibilities.md#data-publication-roles-and-responsibilities).
 
-
 -----------------------
+
 ## Table of Contents
 + [**INTRODUCTION**](#introduction)
 + [**WORKFLOW DIAGRAM**](#workflow-diagram)
