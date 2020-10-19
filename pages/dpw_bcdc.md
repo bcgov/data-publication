@@ -120,7 +120,8 @@ There are three licensing options for data published in the BC Data Catalogue:
 	+ The Catalogue record links to the appropriate Open Data Licence.
 	
 1. [Open Government - (Other)](https://bcgov.github.io/data-publication/pages/bcdc_data_onboarding_and_workflow.html#other-open-government-licences)
-[Open Government - (Other)](pages/dpw_bcdc_open_govt_licence_other.md)
+
+[Open Government - (Other)](/dpw_bcdc_open_govt_licence_other.md)
 
 	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
 
