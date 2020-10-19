@@ -154,7 +154,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 1.  Click the **Create Dataset** button.
 
 1. Complete all mandatory fields (minimum requirement). Adding content to non-mandatory fields will help people to better understand and use the data (suggested).
-	+ Suggestions for metadata content can be found in [How to best fill in metadata](/bcdc_data_onboarding_and_workflow.html#how-to-best-fill-in-metadata). 
+	+ Suggestions for metadata content can be found in <a href=".bcdc_data_onboarding_and_workflow.html#how-to-best-fill-in-metadata">How to best fill in metadata</a>. 
 
 [RETURN TO TOP][1]
 
