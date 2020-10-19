@@ -140,11 +140,10 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 
 |Dataset Type| |
 |:---|:---|
-|<a href="./glossary.md/#application">Application</a>|<a href="./data_publication_workflows_bcdc_applications.md">Workflow</a>|
-|<a href="./glossary.md/#dataset">Dataset</a>|<a href="./data_publication_workflows_bcdc_dataset.md">Workflow</a>|
-|<a href="./glossary.md/#geographic_dataset">Geographic Dataset</a>|<a href="./data_publication_workflows_bcdc_geographic_dataset.md">Workflow</a>|
-|<a href="./glossary.md/#webservice_api">Web Service - API</a>|<a href="./data_publication_workflows_bcdc_webservice_api.md">Workflow</a>|
-|||
+|<a href="./glossary.md/#application">Application</a>|<a href="./dpw_bcdc_applications.md">Workflow</a>|
+|<a href="./glossary.md/#dataset">Dataset</a>|<a href="./dpw_bcdc_dataset.md">Workflow</a>|
+|<a href="./glossary.md/#geographic_dataset">Geographic Dataset</a>|<a href="./dpw_bcdc_geographic_dataset.md">Workflow</a>|
+|<a href="./glossary.md/#webservice_api">Web Service - API</a>|<a href="./dpw_bcdc_webservice_api.md">Workflow</a>|
 
 
 1.  Click the **Create Dataset** button.
