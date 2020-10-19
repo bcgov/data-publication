@@ -50,6 +50,8 @@ When data is published to the the DataBC Program through any of its services, it
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
+[RETURN TO TOP][1]
+
 ------------------------------
 
 ## DOCUMENTATION REVIEW
@@ -61,6 +63,8 @@ The first step in the process is to review the documentation:
 + Standards and Guidelines > Naming and Describing > [BC Data Catalogue Naming Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-naming-guidelines)
 + Standards and Guidelines > Naming and Describing > [BC Data Catalogue Content and Describing Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-content-and-describing-guidelines)
 + Standards and Guidelines > [File Content/Structure Best Practices](https://bcgov.github.io/data-publication/pages/file_content_and_structure_best_practices.html)
+
+[RETURN TO TOP][1]
 
 ------------------------------
 
@@ -224,6 +228,8 @@ While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXIS
 ### DELETING AN EXISTING RESOURCE
 While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above::
 1. Click the **Delete** button at the bottom of the page. 
+
+[RETURN TO TOP][1]
 
 ------------------------------
 
