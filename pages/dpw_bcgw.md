@@ -101,7 +101,6 @@ Having the right people available for the session allows us to all move forward 
 |||| |Set up proxies to operation databases (delivery/test/production)|
 |||| |Set up Web Service to pull data from and accounts|
 |Business Area|Vendor/Developer|_Optional_| _If using, please attend_
-|
 
 The following resources from DataBC will be in attendance:
 
@@ -111,7 +110,6 @@ The following resources from DataBC will be in attendance:
 ||| |Review if Data Suppliers intended on QAing the data in the BCGW directly, if they have accounts.|
 |DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|_As Required_|
 |DataBC|[DataBC Catalogue Admin](mailto:datacat@gov.bc.ca)|_Optional_|
-|
 
 -------------------------------
 
@@ -148,7 +146,6 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 ||||If not using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
 |Business Area|IMB: BA/BP|**Required**|_if Named User access is required, security configuration for: Database Roles, Proxy Accounts, Firewalls_|
 |Business Area|Vendor/Developer|_Optional_|If using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
-|
 
 -------------------------------
 
@@ -160,7 +157,6 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 ||||Finalize database object names|
 ||||_if Named User access is required, security configuration for: Database Roles, Proxy accounts, iMap Workspaces, Firewalls_
 |DataBC|DataBC ETL|_Optional_|
-|
 
 **References:**
 + [_Data Delivery Standards - Data Delivery Loading Accounts_](delivery_standards.md#data-delivery-loading-accounts-created-and-verified)|
@@ -182,7 +178,6 @@ Clients will provide input to their vendor/developer so the data model can be cr
 |Business Area|IMB: BA/BP|cc'd on communication|
 |Business Area|Vendor/Developer|**Required** to complete Data Model|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to review Data Model|
-|
 
 **References:**
 
@@ -208,7 +203,6 @@ Once the data modelling is complete, the data will be then deployed to the BCGW 
 |Business Area|IMB: BA/BP|**Required** to notify **Data Supplier(s)** if using their own vendors
 |Business Area|Vendor/Developer|**Required** to deploy Delivery Kit to BCGW Delivery|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to notify **Data Supplier(s)** if using DataBC's existing Vendor|
-|
 
 **References:**
 
@@ -244,7 +238,6 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 |DataBC|DataBC DA|**Required**|Schedule migration
 ||||Data testing - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
-|
 
 **References:**
 
@@ -278,7 +271,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |||| Kick off all access pieces|
 ||||Data confirmation - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
-|
 
 **References:**
 
@@ -299,7 +291,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |Business Area|Vendor/Developer|_Not Required_|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
 |DataBC|[DataBC Catalogue Services](mailto:Datacat@gov.bc.ca)|_Not Required_|
-|
 
 **Required for Action Items:**
 
@@ -312,7 +303,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |**Resource**|**Action Item**|
 |:---|:---|
 |_DataBC: DA/Catalogue Services_| Publish distribution link in metadata|
-|
 
 [RETURN TO TOP][1]
  
@@ -329,7 +319,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |Business Area|Vendor/Developer|_Not Required_|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
 |DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|**Required**|
-|
 
 **Required for Action Items:**
 
@@ -345,7 +334,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |:---|:---|
 |_DataBC: DA_|Perform QA on FMW scripts|
 |_DataBC: ETL_| Schedules replication for FMW|
-|
 
 [RETURN TO TOP][1]
 
