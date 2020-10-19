@@ -106,7 +106,7 @@ There are three licensing options for data published in the BC Data Catalogue:
 
 1. [Access Only](https://www2.gov.bc.ca/gov/content/home/copyright)
    
-   Access only is the standard and is a statement of use that is restrictive as defined in the [Crown Copyright Page](https://www2.gov.bc.ca/gov/content/home/copyright).
+   Access only is the standard and is a statement of use that is restrictive as defined in the Crown Copyright Page.
 	+ “reproduction is not permitted without written permission.”
 	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
 1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
