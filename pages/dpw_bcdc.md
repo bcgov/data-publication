@@ -31,6 +31,7 @@ For a description of the roles and responsibilities of the business functions de
 + [**WORKFLOW DIAGRAM - METADATA READINESS**](#workflow-diagram---metadata-readiness)
 + [**WORKFLOW DIAGRAM - METADATA CREATION**](#workflow-diagram---metadata-creation)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**LICENSES**](#licenses)
 + [**CREATING A NEW METADATA RECORD**](#creating-a-new-metadata-record)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
 	+ [BCGW RESOURCES](#bcgw-resources)
