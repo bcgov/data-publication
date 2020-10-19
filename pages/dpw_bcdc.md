@@ -51,7 +51,11 @@ When data is published to the the DataBC Program through any of its services, it
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
 [RETURN TO TOP][1]
-<div style="text-align: right"> [RETURN TO TOP][1] </div>
+
+{: style="text-align: right" }
+[RETURN TO TOP][1]
+
+<div style="text-align: right"> "[RETURN TO TOP][1]" </div>
 ------------------------------
 
 ## DOCUMENTATION REVIEW
