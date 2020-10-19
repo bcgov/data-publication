@@ -137,7 +137,7 @@ There are three licensing options for data published in the BC Data Catalogue:
 ## CREATING A NEW METADATA RECORD
 _Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/pages/bcdc_api_dev_workflow.md)._
 
-1. Click the **Log in** button the upper right to log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset). This will take you to your dashboard. 
+1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the Catalogue page. This will take you to your dashboard. 
 1. Click the **Datasets** button on the toolbar or navigate to [Datasets](https://catalogue.data.gov.bc.ca/dataset) page.
 1. Click the [**Add Dataset**](https://catalogue.data.gov.bc.ca/dataset/add) button.
 1. Choose a dataset type from one of the four types available that best fits your data, service or application.
