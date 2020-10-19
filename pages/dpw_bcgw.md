@@ -46,7 +46,6 @@ For a description of the roles and responsibilities of the business functions de
 + [**REPLICATION SERVICES**](#replication-services)
 
 ---------------------------
----------------------------
 
 ## INTRODUCTION
 
@@ -55,12 +54,11 @@ When data is published to the BCGW, it must undergo a rigorous and standardized 
 This page is written in the context that you have reviewed the documentation as listed below.
 
 ------------------------------
-------------------------------
+
 ## WORKFLOW DIAGRAM
 
-![BCGW Readiness Workflow](images/image_BCGWReadiness.png)
+![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
 
-------------------------------
 ------------------------------
 
 ## DOCUMENTATION REVIEW
@@ -75,13 +73,11 @@ The first step in the process is to review the documentation in the following se
 + [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
 
 ------------------------------
-------------------------------
 
 ## BEFORE YOU START
 
 Complete the questions in the Before You Start documentation.  This will help you to answer questions about your data that will be discussed at the Whiteboard Session with DataBC.
 
-------------------------------
 ------------------------------
 
 ## WHITEBOARD SESSIONS
@@ -106,7 +102,7 @@ Having the right people available for the session allows us to all move forward 
 |||| |Set up proxies to operation databases (delivery/test/production)|
 |||| |Set up Web Service to pull data from and accounts|
 |Business Area|Vendor/Developer|_Optional_| _If using, please attend_
-
+|
 
 The following resources from DataBC will be in attendance:
 
@@ -116,9 +112,10 @@ The following resources from DataBC will be in attendance:
 ||| |Review if Data Suppliers intended on QAing the data in the BCGW directly, if they have accounts.|
 |DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|_As Required_|
 |DataBC|[DataBC Catalogue Admin](mailto:datacat@gov.bc.ca)|_Optional_|
+|
 
 -------------------------------
--------------------------------
+
 ## DATASET LOGFILE
 
 The [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile/) is where you provide specific details about your dataset in order to capture the following information:
@@ -136,7 +133,7 @@ The [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/branc
 + [_File Geodatabase (FGDB) Standards_](http://geobc.gov.bc.ca/common/specs/file_geodatabase_standards.pdf)
 
 -------------------------------
--------------------------------
+
 
 ## TECHNICAL WHITEBOARD
 The purpose of the Technical Whiteboard Session is to discuss the technical details of your dataset after your Dataset Logfile has been completed.  During this session, we will discuss:
@@ -152,6 +149,7 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 ||||If not using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
 |Business Area|IMB: BA/BP|**Required**|_if Named User access is required, security configuration for: Database Roles, Proxy Accounts, Firewalls_|
 |Business Area|Vendor/Developer|_Optional_|If using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
+|
 
 -------------------------------
 
@@ -163,7 +161,7 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 ||||Finalize database object names|
 ||||_if Named User access is required, security configuration for: Database Roles, Proxy accounts, iMap Workspaces, Firewalls_
 |DataBC|DataBC ETL|_Optional_|
-
+|
 
 **References:**
 + [_Data Delivery Standards - Data Delivery Loading Accounts_](delivery_standards.md#data-delivery-loading-accounts-created-and-verified)|
@@ -172,7 +170,7 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 + [_Staging Area Standards_](staging_area_standards.md#staging-area-standards)
 
 -------------------------------
--------------------------------
+
 ## DATA MODELLING 
 
 Clients will provide input to their vendor/developer so the data model can be created.  DataBC will then review the model (and provide feedback when required) prior to your vendor/developer delivering the final product.
@@ -185,7 +183,7 @@ Clients will provide input to their vendor/developer so the data model can be cr
 |Business Area|IMB: BA/BP|cc'd on communication|
 |Business Area|Vendor/Developer|**Required** to complete Data Model|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to review Data Model|
-
+|
 
 **References:**
 
@@ -211,8 +209,7 @@ Once the data modelling is complete, the data will be then deployed to the BCGW 
 |Business Area|IMB: BA/BP|**Required** to notify **Data Supplier(s)** if using their own vendors
 |Business Area|Vendor/Developer|**Required** to deploy Delivery Kit to BCGW Delivery|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to notify **Data Supplier(s)** if using DataBC's existing Vendor|
-
--------------------------------
+|
 
 **References:**
 
@@ -248,7 +245,7 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 |DataBC|DataBC DA|**Required**|Schedule migration
 ||||Data testing - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
--------------------------------
+|
 
 **References:**
 
@@ -282,7 +279,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |||| Kick off all access pieces|
 ||||Data confirmation - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
--------------------------------
+|
 
 **References:**
 
@@ -290,12 +287,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 
 [RETURN TO TOP][1]
  
-------------------------------------------------------------------------------
-
-
-
- 
-------------------------------------------------------------------------------
+-----------------------
 
 ## DISTRIBUTION CONFIGURATION
 
@@ -308,6 +300,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |Business Area|Vendor/Developer|_Not Required_|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
 |DataBC|[DataBC Catalogue Services](mailto:Datacat@gov.bc.ca)|_Not Required_|
+|
 
 **Required for Action Items:**
 
@@ -320,10 +313,11 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |**Resource**|**Action Item**|
 |:---|:---|
 |_DataBC: DA/Catalogue Services_| Publish distribution link in metadata|
+|
 
 [RETURN TO TOP][1]
  
-------------------------------------------------------------------------------
+-----------------------
 
 ## REPLICATION SERVICES
 
@@ -336,6 +330,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |Business Area|Vendor/Developer|_Not Required_|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
 |DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|**Required**|
+|
 
 **Required for Action Items:**
 
@@ -351,6 +346,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |:---|:---|
 |_DataBC: DA_|Perform QA on FMW scripts|
 |_DataBC: ETL_| Schedules replication for FMW|
+|
 
 [RETURN TO TOP][1]
 
@@ -360,4 +356,3 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 
 [1]: #data-publication-workflow---bc-geographic-warehouse
 [2]: ../index.md#data-publication-process
-
