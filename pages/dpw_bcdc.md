@@ -14,7 +14,6 @@ has_toc: false
 This page describes the client workflow for loading datasets into the BC Geographic Warehouse (BCGW).
 
 -----------------------
------------------------
 
 # Audience
 
@@ -57,7 +56,7 @@ This page is written in the context that you have reviewed the documentation as 
 
 ## WORKFLOW DIAGRAM
 
-![BCGW Readiness Workflow](images/image_BCGWReadiness.png)
+![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
 
 ------------------------------
 
