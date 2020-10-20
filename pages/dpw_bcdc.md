@@ -28,19 +28,23 @@ For a description of the roles and responsibilities of the business functions de
 ## Table of Contents
 + [**INTRODUCTION**](#introduction)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
-+ [**WORKFLOW DIAGRAM - METADATA READINESS**](#workflow-diagram---metadata-readiness)
++ [**WORKFLOW DIAGRAM - AM I READY TO CREATE METADATA?**](#workflow-diagram---am-i-ready-to-create-metadata)
 + [**WORKFLOW DIAGRAM - METADATA CREATION**](#workflow-diagram---metadata-creation)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
 + [**LICENSES**](#licenses)
-+ [**CREATING A NEW METADATA RECORD**](#creating-a-new-metadata-record)
++ [**CREATING A METADATA RECORD**](#creating-a-metadata-record)
+	+ [METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)](#metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
-	+ [BCGW RESOURCES](#bcgw-resources)
-	+ [FILE AND URL RESOURCES](#file-and-url-resources)
 	+ [REORDERING RESOURCES](#reordering-resources)
 	+ [EDITING EXISTING RESOURCES](#editing-existing-resources)
 	+ [REPLACING AN EXISTING RESOURCE](#replacing-an-existing-resource)
 	+ [DELETING AN EXISTING RESOURCE](#deleting-an-existing-resource)
-+ [**METADATA MANAGEMENT AND MAINTENACE**](#metadata-management-and-maintenance)
++ [**METADATA MANAGEMENT AND MAINTENANCE**](#metadata-management-and-maintenance)
++ [**PUBLISHING A METADATA RECORD**](#publishinga-metadata-record)
++ [**ARCHIVING A METADATA RECORD**](#archivinga-metadata-record)
++ [**METADATA GROUPS**](#metadata-groups)
++ [**ORGANIZATION AND SUB-ORGANIZATION UPDATES**](#organization-and-sub-organization-updates)
++ [**BULK UPDATES**](#bulk-updates)
   
 ---------------------------
 
@@ -100,7 +104,7 @@ Organizations in the Broader Public Sector (BPS) may publish metadata records an
 
 ------------------------------
 
- ## <a name="licenses">LICENCES</a>
+ ## LICENSES
 
 There are three licensing options for data published in the BC Data Catalogue:
 
@@ -134,8 +138,8 @@ There are three licensing options for data published in the BC Data Catalogue:
 
 ------------------------------
 
-## CREATING A NEW METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/pages/bcdc_api_dev_workflow.md)._
+## CREATING A METADATA RECORD
+_Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/bcdc_api_dev_workflow.md)._
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the Catalogue page. This will take you to your dashboard. 
 1. Click the **Datasets** button on the toolbar.
@@ -150,57 +154,35 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 |<a href="./glossary.md/#geographic_dataset">Geographic Dataset</a>|<a href="./dpw_bcdc_geographic_dataset.md">Workflow</a>|
 |<a href="./glossary.md/#webservice_api">Web Service - API</a>|<a href="./dpw_bcdc_webservice_api.md">Workflow</a>|
 
-
 1.  Click the **Create Dataset** button.
 
-1. Complete all mandatory fields (minimum requirement). Adding content to non-mandatory fields will help people to better understand and use the data (suggested).
-	+ Suggestions for metadata content can be found in <a href="./bcdc_data_onboarding_and_workflow.md#how-to-best-fill-in-metadata">How to best fill in metadata</a>. 
+1. Complete all mandatory fields (minimum requirement). We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
+	+ Suggestions for metadata content can be found in <a href="./dpw_bcdc_metadata_fields.md">How to best fill in metadata</a>. 
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
+The use of the BC Map Hub has a requirement for the creation of metadata alongside data and maps. The following documentation will assist in that process.
++ [Publication Request Form](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist_20180111.docx)
++ [Content Publication Guidelines](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_metadata_and_presentation_guidelines_20180809.docx)
++ [Tips and Tricks](https://www2.gov.bc.ca/assets/download/FC1CCC3FAC1D4ECE8557E44F54B1C3BC)
 
 [RETURN TO TOP][1]
 
 ------------------------------
 
 ## MANAGING METADATA RESOURCES
+_Note: To use the CKAN API for managing resources, more information is available [here](https://bcgov.github.io/data-publication/pages/bcdc_api_dev_workflow.md)._
+
 Resources are the data in the metadata record and are added to the record to provide users with access to your data.
 
-To add or manage Resources:
+For details on how to add resources, see the workflow for your dataset type in the [Creating a Metadata Record](#CREATING-A-METADATA-RECORD) section above.
 
-1. Log into the Catalogue.
-1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record. 
-	+ The "Edit Metadata" allows for the editing of all content.
-1. Click the **Resources** tab.
-
-### BCGW RESOURCES
-
-The **Manage BCGW Resources** button will add the ability for users to custom download data from the BCGW if:
-+ it is stored in the BCGW **and** 
-+ they have permissions to access it **and**
-+ the BCGW schema and object name (e.g, _schema.table_) has been added to the main page of the metadata record
-
-1. Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
-1. Fill in the following details, where the update cycle is the mandatory field:
-	+ **Resource Description**
-	+ **Resource Update Cycle**
-	+ **Beginning Date**
-	+ **End Date**
-1. Click the **Save** button.
-1. Click the **Finish** button on the _Successfully added._ pop-up.
-
-Publicly visible datasets in the BCGW that are made available in iMapBC will also have WMS and KML created. The addition of these resources is handled through an automated script.
-
-### FILE AND URL RESOURCES
-The **+Add New Resource** button allows you to add a new resource to your metadata record.
-1. Complete the required fields
-1. Upload or provide a link to your data and provide information about the data resource.
-	+ **Upload**: To upload a file, e.g., CSV, directly into the Catalogue, click the **Upload** button and select the file to upload from your local computer.
-	+ **Link**: To link to a file stored elsewhere, e.g., a website or FTP site, click the **Link** button and enter the URL of the file.
-1. Click **Add** when done
-
-Additional resources can be added by repeating the process above.
-			
 **Notes:** 	
 + **Only files less than 150MB in size can be uploaded to the Catalogue.**
-+ **If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.**
++ **If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.**
 
 ### REORDERING RESOURCES
 The **Reorder resources** button allows you to control the order of resources in the metadata record.
@@ -214,8 +196,8 @@ There are two ways to edit a resource in the metadata record:
 	+ Click the **Explore** drop down button
 	+ Click the **Edit** option to edit the resource
 
-1. Make edits that follow the workflow for your dataset type under [Creating a New Metadata Record](#CREATING-A-NEW-METADATA-RECORD).
-1. Click the **Update Resource** button to save your changes.
+1. Make edits that follow the workflow for your dataset type under [Creating a New Metadata Record](#CREATING-A-NEW-METADATA-RECORD).
+1. Click the **Update Resource** button to save your changes.
 
 ### REPLACING AN EXISTING RESOURCE
 
@@ -223,11 +205,11 @@ While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXIS
 1. Click the **Remove** button at the end of the **File** URL.
 1. Re-upload or provide a new link to your data.
 1. Make any other edits needed to reflect the updated/new resource.
-1. Click **Update Resource** to save your changes.
+1. Click **Update Resource** to save your changes.
 
 ### DELETING AN EXISTING RESOURCE
 While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above):
-1. Click the **Delete** button at the bottom of the page. 
+1. Click the **Delete** button at the bottom of the page. 
 
 [RETURN TO TOP][1]
 
@@ -236,6 +218,121 @@ While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXIS
 ## METADATA MANAGEMENT AND MAINTENANCE
 
 Please review [A Guide for Data Custodians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+## PUBLISHING A METADATA RECORD
+
+All new metadata records are created in the DRAFT record state.
+
+Once the metadata record is complete, the editor sets the **Record State** to **Pending Publish**. Here are the steps:
+
+1. Log into the Catalogue.
+1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
+1. Change the dataset **Record State**(first metadata element):
+	+ from **DRAFT**
+	+ to **PENDING PUBLISH**
+1. Click **Update Dataset**.
+
+Once a metadata record has been set to **PENDING PUBLISH**, the Catalogue team is notified and will then review the record for: 
++ Completeness
++ Data quality
++ Licence type
+
+If your metadata record is validated by the Catalogue team, they will change the state to **PUBLSHED**.  Otherwise, a Catalogue team member will contact you to discuss your record.
+
+_**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact the [Catalogue team](mailto:datacat@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
+
+Once your metadata record is in the Published state, it is then visible and searchable in the BC Data Catalogue for all users.  
+
+Data Custodians should regularly reivew all metadata records within ther Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+## ARCHIVING A METADATA RECORD
+
+When a dataset is no longer relevant, it should be archived. Here are the steps to begin this process:
+
+1. Log into the Catalogue.
+1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
+1. Ensure the **Organization** and **Sub-Organization** are correct. If not, update these fields or contact  the [Catalogue team](mailto:datacat@gov.bc.ca) if you do not have editing access for the Sub-Org.
+1. Under **Data Currency/Update**, update the **Resource Status**:
+	1.  If the data is **obsolete** 
+		+ this then requires a link to be added for a **Replacement Record**.
+			+ When this is another record in the catalogue. 
+				+ Use this replacement record's permalink
+				+ Add the text "DEPRECATED - " to the beginning of the metadata Title
+			+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
+	1.	**historicalArchive** 
+		+ this then requires two additional fields to be completed:
+			1.	**Retention Expiry Date**
+			1.	**Source Data Path**
+1.  Change the dataset **Record State**:
+	+ from **PUBLISHED**
+	+ to **PENDING ARCHIVE**.
+	
+Once the record has been set to **PENDING ARCHIVE**, the Catalogue team will then reivew the record to ensure it is ready for archiving, this includes:
+	+ removing all resources from the record
+	+ confirming the correct Org and Sub-Org
+	+ confirming that records with a replacement dataset contain "DEPRECATED" in the title
++ If the record is related to a BCGW dataset, it will be added to the next Notice of Intent (NOI) for archival.
+
+Once the Catalogue team has confirmed the record is ready for archiving, they will update the **Record State** to **ARCHIVED**.
+
+Archived datasets:
++ are only visible in the Catalogue to users that are logged in
++ do not contain resources
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+## METADATA GROUPS
+
+Metadata Groups provide a listing of like datasets for a specific purpose and can contain records from across multiple organizations.
++ These are not intended to replace a full listing of records for an sub-organization.
++ Groups by default are public but a request them to be visible to IDIR only can be made.
+
+To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+
+**Requirements:**
++ **Group Name**:
++ **Group Description**:
++ **URL**: _for more information_
++ **Image**: _either a file or url_
++ **Members**: _list of IDIRs who will maintain the Group_
++ **Group visibility**: Public or IDIR
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+## ORGANIZATION AND SUB-ORGANIZATION UPDATES
+Organizations change names frequently and thus need continual maintenance.
+
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca):
+
++ Old name
++ New name
++ List of data providers (Editors)
+	+ When an update is requested for a sub-organization we ask that the members and contacts list be reviewed.
+	+ The Catalogue team can provide you with a current list to review.
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+## BULK UPDATES
+When there are more than 20 records that require updating, a bulk update can be requested for the [Catalogue team](mailto:datacat@gov.bc.ca) to complete or can be completed by a user via the API.
+
++ Common bulk updates:
+	+ Contact information
+	+ State Change
+	+ URL modifications for More Info and Resources
 
 [RETURN TO TOP][1]
 
