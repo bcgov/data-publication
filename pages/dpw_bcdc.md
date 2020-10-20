@@ -32,7 +32,6 @@ For a description of the roles and responsibilities of the business functions de
 -----------------------
 
 ## Table of Contents
-+ [**INTRODUCTION**](#introduction)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW DIAGRAM - AM I READY TO CREATE METADATA?**](#workflow-diagram---am-i-ready-to-create-metadata)
 + [**WORKFLOW DIAGRAM - METADATA CREATION**](#workflow-diagram---metadata-creation)
