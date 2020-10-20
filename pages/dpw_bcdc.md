@@ -14,13 +14,13 @@ When data is published to the the DataBC Program through any of its services, it
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
-# PURPOSE
+## PURPOSE
 
 This page describes the client workflow for creating metadata in the BC Data Catalogue (BCDC).  
 
 -----------------------
 
-# AUDIENCE
+## AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing data to the DataBC Program, through any service
