@@ -214,19 +214,19 @@ There are two ways to edit a resource in the metadata record:
 	+ Click the **Explore** drop down button
 	+ Click the **Edit** option to edit the resource
 
-1. Make edits that follow the recommendations outlined in the [creating a record section](pages.metadata_providers_guide.md#HOW-TO-CREATE-A-NEW-METADATA-RECORD).
+1. Make edits that follow the workflow for your dataset type under [Creating a New Metadata Record](#CREATING-A-NEW-METADATA-RECORD).
 1. Click the **Update Resource** button to save your changes.
 
 ### REPLACING AN EXISTING RESOURCE
 
-While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above:
+While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above):
 1. Click the **Remove** button at the end of the **File** URL.
 1. Re-upload or provide a new link to your data.
 1. Make any other edits needed to reflect the updated/new resource.
 1. Click **Update Resource** to save your changes.
 
 ### DELETING AN EXISTING RESOURCE
-While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above::
+While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above):
 1. Click the **Delete** button at the bottom of the page. 
 
 [RETURN TO TOP][1]
@@ -235,7 +235,7 @@ While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXIS
 
 ## METADATA MANAGEMENT AND MAINTENANCE
 
-Please review [A Guide for Data Custodians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain to complete a regular reviews to ensure currency and completeness for metadata records published under their Branch/Division.
+Please review [A Guide for Data Custodians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
 
 [RETURN TO TOP][1]
 
