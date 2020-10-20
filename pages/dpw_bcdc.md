@@ -8,6 +8,12 @@ has_toc: false
 
 # DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC)
 
+## INTRODUCTION
+
+When data is published to the the DataBC Program through any of its services, it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your reponsibilities are as a publisher to the BC Data Catalogue and how to create a metadata record in the BC Data Catalogue.
+
+This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
+
 # PURPOSE
 
 This page describes the client workflow for creating metadata in the BC Data Catalogue (BCDC).  
@@ -46,16 +52,6 @@ For a description of the roles and responsibilities of the business functions de
 + [**ORGANIZATION AND SUB-ORGANIZATION UPDATES**](#organization-and-sub-organization-updates)
 + [**BULK UPDATES**](#bulk-updates)
   
----------------------------
-
-## INTRODUCTION
-
-When data is published to the the DataBC Program through any of its services, it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your reponsibilities are as a publisher to the BC Data Catalogue and how to create a metadata record in the BC Data Catalogue.
-
-This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
-
-[RETURN TO TOP][1]
-
 ------------------------------
 
 ## DOCUMENTATION REVIEW
