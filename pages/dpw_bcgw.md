@@ -123,11 +123,6 @@ The [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/branc
 
 ![Dataset Logfile Workflow](images/wf_DatsetLogfile.png)
    
-**References:**
-
-+ List/link database and data standards documentation here
-+ [_File Geodatabase (FGDB) Standards_](http://geobc.gov.bc.ca/common/specs/file_geodatabase_standards.pdf)
-
 -------------------------------
 
 
@@ -157,12 +152,6 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 ||||_if Named User access is required, security configuration for: Database Roles, Proxy accounts, iMap Workspaces, Firewalls_
 |DataBC|DataBC ETL|_Optional_|
 
-**References:**
-+ [_Data Delivery Standards - Data Delivery Loading Accounts_](delivery_standards.md#data-delivery-loading-accounts-created-and-verified)|
-+ [_Data Naming and Describing Standards_](naming_and_describing.md#naming-and-describing-standards)
-+ [_Data Classification Hierarchy_](data_classification_hierarchy.md#data-classification-hierarchy)
-+ [_Staging Area Standards_](staging_area_standards.md#staging-area-standards)
-
 -------------------------------
 
 ## DATA MODELLING 
@@ -177,15 +166,6 @@ Clients will provide input to their vendor/developer so the data model can be cr
 |Business Area|IMB: BA/BP|cc'd on communication|
 |Business Area|Vendor/Developer|**Required** to complete Data Model|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to review Data Model|
-
-**References:**
-
-+ [_Data Naming and Describing Standards_](naming_and_describing.md#naming-and-describing-standards)
-+ [_BC Geographic Warehouse Delivery Standards_](delivery_standards.md#bc-geographic-warehouse-delivery-standards)
-+ [_Role Naming and Creation Standards_](role_naming_and_creation_standards.md#role-naming-and-creation-standards)
-+ [_Spatial Data Object Creation and Deletion Guidelines_](data_guidance_and_best_practices.md#spatial-data-standards)
-+ [_Using the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
 
 -------------------------------
 
@@ -202,10 +182,6 @@ Once the data modelling is complete, the data will be then deployed to the BCGW 
 |Business Area|IMB: BA/BP|**Required** to notify **Data Supplier(s)** if using their own vendors
 |Business Area|Vendor/Developer|**Required** to deploy Delivery Kit to BCGW Delivery|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to notify **Data Supplier(s)** if using DataBC's existing Vendor|
-
-**References:**
-
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
 
 [RETURN TO TOP][1]
  
@@ -238,10 +214,6 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 ||||Data testing - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
 
-**References:**
-
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
-
 -------------------------------
 ## DATA MIGRATION TO PRODUCTION
 Once the data has been successfully tested and approved in BCGW TEST, DataBC can then migrate the dataset(s) to PROD. During this time:
@@ -270,10 +242,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |||| Kick off all access pieces|
 ||||Data confirmation - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
-
-**References:**
-
-+ [_Database Connections_](tips_and_tricks.md#database-connections)
 
 [RETURN TO TOP][1]
  
