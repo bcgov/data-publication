@@ -315,7 +315,7 @@ Replication Services provides the channel in which the data is updated.  Some da
 
 Your dataset has been modelled and loaded into the BCGW in Production, your layerfile is presented in iMap and available in ArcGIS, you have a metadata record in the BC Data Catalogue where users can find detailed information and download your dataset, the data may be automatically getting updated on a nightly basis...now what?
 
-Please review all the functions and access points that have been configured for your dataset.  Provide DataBC.DA(mailto:DataBC/DA@gov.bc.ca) with any feedback or issues you may come across, or even just let us know how excited you are to have your data published through the DataBC Program! 
+Please review all the functions and access points that have been configured for your dataset.  Provide [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with any feedback or issues you may come across, or even just let us know how excited you are to have your data published through the DataBC Program! 
 
 [RETURN TO TOP][1]
 
