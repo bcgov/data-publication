@@ -6,22 +6,22 @@ parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC) - WEB SERVICE - API
+# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE - WEB SERVICE - API
 
-# PURPOSE
+## PURPOSE
 
 This page contains details for completing fields in a metadata record for the Web Service - API dataset type.
 
 -----------------------
 
-# AUDIENCE
+## AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing Web Service - API's to the DataBC Program
 
 -----------------------
 
-## <a name="dpw_bcdc_webservice_api">Web Service - API</a>
+## PUBLISHING A WEB SERVICE - API TO THE BC DATA CATALOGUE
 ### Create Dataset
 
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
@@ -102,6 +102,7 @@ Add contacts for the following **Roles**:
 |IDIR | Only IDIR credentials can view the metadata record.
 
 ------------------------------
+
 **Security Classification**
 
 |BCDC Security Classication| [Information Security Classification Levels](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description
@@ -112,12 +113,11 @@ Add contacts for the following **Roles**:
 |Low - Public|Public|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)
 
 ------------------------------
-------------------------------
 
 ***NEXT: ADD DATA***
 
 ------------------------------
-------------------------------
+
 ### Add Data
 
 **File**: Either upload a file that will be stored in the Catalogue Data Store, or use a link (URL) to your application.
@@ -132,12 +132,13 @@ It is suggested to use a standard file name as it would appear in your file syst
 Click **Finished** when complete.  This will save your metadata record for the application in DRAFT status.
 
 ------------------------------
-------------------------------
 
-[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
+[RETURN TO TOP][1]
+
+[RETURN TO DATA PUBLICATION WORKFLOW > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-geographic-warehouse
-[2]: ../index.md#data-publication-process
+[1]: #data-publication-workflow---bc-data-catalogue---web-service---api
+[2]: ./dpw_bcdc.md
 
