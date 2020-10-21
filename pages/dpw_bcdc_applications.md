@@ -6,7 +6,7 @@ parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC) - APPLICATION
+# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE - APPLICATION
 
 ## PURPOSE
 
@@ -133,10 +133,11 @@ Click **Finished** when complete.  This will save your metadata record for the a
 
 ------------------------------
 [RETURN TO TOP][1]
+
 [RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue-(bcdc)---application
+[1]: #data-publication-workflow---bc-data-catalogue---application
 [2]: ../index.md#data-publication-process
 
