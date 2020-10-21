@@ -319,7 +319,7 @@ Please review all the functions and access points that have been configured for 
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION][2]
+[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
 
 -------------------------------------------------------
 
