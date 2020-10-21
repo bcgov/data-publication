@@ -126,8 +126,6 @@ Add contacts for the following **Roles**:
 + Link: Enter the URL of your application here.
 
 **Resource Name** is the name of the resource as it will appear on the metadata record. 
-STANDARD FILE NAMING
-It is suggested to use a standard file name as it would appear in your file system and describe the resource using the other available fields. 
 
 Click **Finished** when complete.  This will save your metadata record for the application in DRAFT status.
 
