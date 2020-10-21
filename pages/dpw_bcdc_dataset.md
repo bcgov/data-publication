@@ -193,10 +193,10 @@ To complete the metadata in DRAFT status you can choose either:
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
+[RETURN TO DATA PUBLICATION WORKFLOW > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---bc-data-catalogue---dataset
-[2]: ../index.md#data-publication-process
+[2]: ./dpw_bcdc.md
 
