@@ -8,14 +8,13 @@ has_toc: false
 
 # DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
 
-
-# Purpose
+## PURPOSE
 
 This page describes the client workflow for loading datasets into the BC Geographic Warehouse (BCGW).
 
 -----------------------
 
-# Audience
+## AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing data to the BC Geographic Warehouse (BCGW)
@@ -27,8 +26,15 @@ For a description of the roles and responsibilities of the business functions de
 
 -----------------------
 
+## INTRODUCTION
+
+When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to publish your dataset in the BCGW.
+
+This page is written in the context that you have reviewed the documentation as listed below.
+
+-----------------------
+
 ## Table of Contents
-+ [**INTRODUCTION**](#introduction)
 + [**WORKFLOW DIAGRAM**](#workflow-diagram)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WHITEBOARD SESSIONS**](#whiteboard-sessions)
@@ -45,21 +51,6 @@ For a description of the roles and responsibilities of the business functions de
 + [**REPLICATION SERVICES**](#replication-services)
 
 ---------------------------
-
-## INTRODUCTION
-
-When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to publish your dataset in the BCGW.
-
-This page is written in the context that you have reviewed the documentation as listed below.
-
-------------------------------
-
-## WORKFLOW - IS MY DATA READY FOR THE BCGW?
-
-![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
-
-------------------------------
-
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation in the following sections: 
@@ -70,6 +61,12 @@ The first step in the process is to review the documentation in the following se
 	+ [Roles and Responsibilities](https://bcgov.github.io/data-publication/pages/roles_and_responsibilities.html)
 	+ [Delivery Standards](https://bcgov.github.io/data-publication/pages/delivery_standards.html)
 + [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
+
+------------------------------
+
+## WORKFLOW - IS MY DATA READY FOR THE BCGW?
+
+![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
 
 ------------------------------
 
