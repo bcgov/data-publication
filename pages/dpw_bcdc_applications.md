@@ -13,14 +13,12 @@ has_toc: false
 This page contains details for completing fields in a metadata record for the Application dataset type.
 
 -----------------------
------------------------
 
 # AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing applications to the DataBC Program
 
------------------------
 -----------------------
 
 ## <a name="bcdc_application_page">APPLICATION</a>
@@ -64,6 +62,7 @@ Add contacts for the following **Roles**:
 **Contact Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to Catalogue Admin's.
 
 ---------------
+
 #### **Data Currency/Update**
 
 **Resource Status** is the status of the application as described by one of the types below: 
@@ -80,6 +79,7 @@ Add contacts for the following **Roles**:
 |Under development|Applications that exist but are not yet completed should be described as under development.
 
 ---------------
+
 #### **Access & Security**
 
 **Who can access this application?** desribes the security level for access to the application.
@@ -92,6 +92,7 @@ Add contacts for the following **Roles**:
 |Government| Only government credentials can access the application.
 
 ------------------------------
+
 **Who can view this record?** describes who can view the metadata record.
 
 |Access Type| Description
@@ -100,6 +101,7 @@ Add contacts for the following **Roles**:
 |IDIR | Only IDIR credentials can view the metadata record.
 
 ------------------------------
+
 **Security Classification**
 
 |BCDC Security Classication| [Information Security Classification Levels](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description
@@ -110,12 +112,11 @@ Add contacts for the following **Roles**:
 |Low - Public|Public|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)
 
 ------------------------------
-------------------------------
 
 ***NEXT: ADD DATA***
 
 ------------------------------
-------------------------------
+
 ### Add Data
 
 **File**: Either upload a file that will be stored in the Catalogue Data Store, or use a link (URL) to your application.
@@ -130,12 +131,11 @@ It is suggested to use a standard file name as it would appear in your file syst
 Click **Finished** when complete.  This will save your metadata record for the application in DRAFT status.
 
 ------------------------------
-------------------------------
-
+[RETURN TO TOP][1]
 [RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-geographic-warehouse
+[1]: #data-publication-workflow---bc-data-catalogue-(bcdc)---application
 [2]: ../index.md#data-publication-process
 
