@@ -37,4 +37,4 @@ The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must
 
 -------------------------------------------------------
 
-[1]: ./dpw-bcdc.md
+[1]: ./dpw_bcdc.md
