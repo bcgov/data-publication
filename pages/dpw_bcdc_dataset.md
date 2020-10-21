@@ -13,7 +13,6 @@ has_toc: false
 This page contains details for completing fields in a metadata record for the Dataset type.
 
 -----------------------
------------------------
 
 # AUDIENCE
 
@@ -21,12 +20,11 @@ The intended audiences for this page are:
 + clients that are publishing datasets to the DataBC Program
 
 -----------------------
------------------------
 
-## <a name="bcdc_dataset_page">DATASET</a>
------------------------
+## PUBLISHING A DATASET TO THE BC DATA CATALOGUE
+
 ### **Create Dataset**
------------------------
+
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
 
 **Title**: This is the title of your metadata record.
@@ -45,11 +43,12 @@ The intended audiences for this page are:
 
 **Lineage Statement**: This is information about the events or source data used in constructing the data.
 
-**More info**: Any related web site URL's can be added here.
+**More info**: Provide links to related web pages.
 
 **Keywords**: These are the searchable terms for the metadata record. Enter meaningful keywords here. Think of what users may use for search terms to find the dataset in the Catalogue.
 
 ---------------
+
 #### **Contacts**
 
 Add contacts for the following **Roles**:
@@ -71,6 +70,7 @@ Add contacts for the following **Roles**:
 **Contact Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to Catalogue Admin's.
 
 ---------------
+
 #### **Data Currency/Update**
 
 **Resource Status** is the status of the dataset as described by one of the types below: 
@@ -87,6 +87,7 @@ Add contacts for the following **Roles**:
 |Under development|Datasets that exist but are not yet completed should be described as under development.
 
 ---------------
+
 **Date type** is used to provide details to users on when resources are created, published, modified, archived and destroyed. 
 
 **Date** is the date the resource was either created, published, modified, archived or destroyed. 
@@ -94,6 +95,7 @@ Add contacts for the following **Roles**:
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.
 
 ---------------
+
 #### **Access & Security**
 
 **Who can view this data?** describes who can view the BC Geographic Warehouse (BCGW) resources associated with the metadata record.
@@ -106,6 +108,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 |Government| Only government credentials can access the dataset.
 
 ---------------
+
 **Who can view this record?** describes who can view the metadata record.
 
 |Access Type| Description
@@ -114,6 +117,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 |IDIR | Only IDIR credentials can view the metadata record.
 
 ---------------
+
 **Who can download this data?** desribes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
 
 |Access Type| Description
@@ -125,6 +129,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 |Not downloadable| The BC Geographic Warehouse (BCGW) resources cannot be downloaded.
 
 ---------------
+
 **License** describes the license the data is being published under. See <a href="./data_publication_workflows_bcdc.md#licenses">Licenses</a> section for more info.
 
 **Security Classification**
@@ -138,11 +143,10 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 ------------------------------
 
-
 ***NEXT: ADD DATA*** takes you to the Add Data page where you upload or link your resource(s) and describe information about them.
 
 ------------------------------
-------------------------------
+
 ### **Add Data**
 
 **File**:
@@ -169,7 +173,7 @@ You can either upload a file that will be stored in the Catalogue Data Store, or
 **Supplemental information**: Any additional relevant information about the resource can be included here.
 
 ------------------------------
-------------------------------
+
 ### **Temporal Extent** (optional)
 If your dataset is temporal in nature, you may provide the relevant dates in this area
 
@@ -178,7 +182,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 **End Date** is the end date for the preiod the data is captured for. 
 
 ------------------------------
-------------------------------
+
 To complete the metadata in DRAFT status you can choose either:
 
 1. **Finished** will save your metadata record for the dataset in DRAFT status or,
@@ -186,12 +190,12 @@ To complete the metadata in DRAFT status you can choose either:
 2. **Save and Add Another** will allow you to continue adding additional resources to the metadata record.
 
 ------------------------------
-------------------------------
 
-[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][1]
+[RETURN TO TOP][1]
+[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue
+[1]: #data-publication-workflow---bc-data-catalogue-(bcdc)---dataset
 [2]: ../index.md#data-publication-process
 
