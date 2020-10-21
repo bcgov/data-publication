@@ -36,7 +36,7 @@ The intended audiences for this page are:
 
 **Description**: Provide a meaningful description of the application here. Be sure to include any information that would be relevant to an end-user of your application.
 
-**More info**: Any pertinent information can be added here. Often this is used to provide links to related web sites.
+**More info**: Provide links to related web pages.
 
 **Keywords**: Enter meaningful keywords here. Think of what users may use for search terms to find the application in the Catalogue.
 
