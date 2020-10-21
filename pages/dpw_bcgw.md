@@ -54,13 +54,13 @@ This page is written in the context that you have reviewed the documentation as 
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation in the following sections: 
-+ [Data Governance](https://bcgov.github.io/data-publication/pages/data_governance.html) (all)
-+ [Standards and Guidelines](https://bcgov.github.io/data-publication/pages/standards_and_guidelines.html) (all)
++ [Data Governance](data_governance.md) (all)
++ [Standards and Guidelines](standards_and_guidelines.md) (all)
 + Data Publication Workflows
-	+ [Before You Start](before_you_start.md#before-you-start)
-	+ [Roles and Responsibilities](https://bcgov.github.io/data-publication/pages/roles_and_responsibilities.html)
-	+ [Delivery Standards](https://bcgov.github.io/data-publication/pages/delivery_standards.html)
-+ [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
+	+ [Before You Start](before_you_start.md)
+	+ [Roles and Responsibilities](roles_and_responsibilities.md)
+	+ [Delivery Standards](delivery_standards.md)
++ [Open Data](open_data.md)
 
 ------------------------------
 
