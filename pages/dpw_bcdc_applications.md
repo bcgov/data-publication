@@ -8,20 +8,20 @@ has_toc: false
 
 # DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC) - APPLICATION
 
-# PURPOSE
+## PURPOSE
 
 This page contains details for completing fields in a metadata record for the Application dataset type.
 
 -----------------------
 
-# AUDIENCE
+## AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing applications to the DataBC Program
 
 -----------------------
 
-## <a name="bcdc_application_page">APPLICATION</a>
+## PUBLISHING AN APPLICATION TO THE BC DATA CATALOGUE
 ### Create Dataset
 
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
@@ -41,6 +41,7 @@ The intended audiences for this page are:
 **Keywords**: Enter meaningful keywords here. Think of what users may use for search terms to find the application in the Catalogue.
 
 ---------------
+
 #### **Contacts**
 
 Add contacts for the following **Roles**:
