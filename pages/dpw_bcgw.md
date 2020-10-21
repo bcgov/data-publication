@@ -324,4 +324,4 @@ Please review all the functions and access points that have been configured for 
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---bc-geographic-warehouse
-[2]: ../index.md#data-publication-process
+[2]: ../index.md#data-publication
