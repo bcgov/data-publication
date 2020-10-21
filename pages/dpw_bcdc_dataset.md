@@ -6,7 +6,8 @@ parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC) - DATASET
+# DATA PUBLICATION WORKFLOW
+# BC DATA CATALOGUE (BCDC) - DATASET
 
 # PURPOSE
 
@@ -196,6 +197,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue-(bcdc)---dataset
+[1]: #data-publication-workflow
 [2]: ../index.md#data-publication-process
 
