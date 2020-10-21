@@ -8,7 +8,7 @@ has_toc: false
 
 ## Creating an Open Government Licence
 
-The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These are suggested steps to create an Open Government Licence for your organization:
+The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These are suggested steps to create an Open Government Licence for your organization:
 
 1. Copy our [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with Federal and other Local Governments
 	+ examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
@@ -39,5 +39,5 @@ The Broader Publish Sector (BPS) is not permitted to use the OGL-BC and thus mus
 
 -------------------------------------------------------
 
-[1]: #metadata-standards
+[1]: #creating-an-open-government-licence
 [2]: ../index.md#related-standards-and-resources
