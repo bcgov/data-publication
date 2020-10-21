@@ -33,11 +33,8 @@ The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must
 
 -----------------------------------------------------------
 
-[RETURN TO TOP][1]
-
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > RELATED STANDARDS AND RESOURCES][2]
+[RETURN TO DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE][1]
 
 -------------------------------------------------------
 
-[1]: #creating-an-open-government-licence
-[2]: ../index.md#related-standards-and-resources
+[1]: ./dpw-bcdc.md
