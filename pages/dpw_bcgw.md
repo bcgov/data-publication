@@ -121,7 +121,7 @@ The [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/branc
 
 ### WORKFLOW: DATASET LOGFILE
 
-![Dataset Logfile Workflow](images/wf_DatasetLogfile.png)
+![Dataset Logfile Workflow](images/wf_DatsetLogfile.png)
    
 **References:**
 
