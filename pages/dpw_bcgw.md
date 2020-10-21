@@ -119,7 +119,9 @@ The [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/branc
    + ***Security Details:*** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
    + ***Data Model Details:*** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
 
-   *{INSERT WORKFLOW DIAGRAM HERE}*
+### WORKFLOW: DATASET LOGFILE
+
+![Dataset Logfile Workflow](images/wf_DatasetLogfile.png)
    
 **References:**
 
