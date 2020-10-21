@@ -6,16 +6,15 @@ parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW
-# BC DATA CATALOGUE (BCDC) - DATASET
+# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE - DATASET
 
-# PURPOSE
+## PURPOSE
 
 This page contains details for completing fields in a metadata record for the Dataset type.
 
 -----------------------
 
-# AUDIENCE
+## AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing datasets to the DataBC Program
@@ -193,10 +192,11 @@ To complete the metadata in DRAFT status you can choose either:
 ------------------------------
 
 [RETURN TO TOP][1]
+
 [RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow
+[1]: #data-publication-workflow---bc-data-catalogue---dataset
 [2]: ../index.md#data-publication-process
 
