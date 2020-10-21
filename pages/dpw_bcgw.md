@@ -224,7 +224,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 
 #### Migration Bookings for PROD
 
-+ ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
+***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
 
 **Resources for Production Deployment**
 
@@ -248,6 +248,10 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 -----------------------
 
 ## DISTRIBUTION CONFIGURATION
+
+Data Distribution configuration is completed to implement access and security for datasets that are stored in the BCGW and available for download via:
+	+ BC Data Catalogue
+	+ iMapBC  
 
 **Resources**
 
@@ -277,6 +281,8 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 
 ## REPLICATION SERVICES
 
+Replication Services provides the channel in which the data is updated.  Some datasets require frequent, scheduled updates, while others may be updated less frequently or on an ad-hoc basis. DataBC DA's and [ETL](glossary.md#ETL) services will work with you to set up the replication process for your dataset.
+
 **Resources**
 
 |Type|Resource|Action|
@@ -290,10 +296,13 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 **Required for Action Items:**
 
 + for file based source data, usually ESRI File Geodatabase to be located in the BCGW Staging Area
-+ for database source data	Proxy account and passwords for source Del/Test/Prod as provided by the  ***Business Area IMB*** 
++ for database source data	
+	+ Proxy account and passwords for source Del/Test/Prod as provided by the  ***Business Area IMB*** 
 + SQL query for materialized view replication
-+ FME Workspace (FMW) file	Provided by business area client (or client’s vendor)
-+ [_Use the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)+ Replication frequency as identified by the ***Data Suppliers*** in the Dataset Logfile
++ FME Workspace (FMW) file
+	+ Provided by business area client (or client’s vendor)
++ [_Use the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)
++ Replication frequency as identified by the ***Data Suppliers*** in the Dataset Logfile
 
 **Action Items**
 
@@ -301,6 +310,12 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |:---|:---|
 |_DataBC: DA_|Perform QA on FMW scripts|
 |_DataBC: ETL_| Schedules replication for FMW|
+
+## FINAL REVIEW
+
+Your dataset has been modelled and loaded into the BCGW in Production, your layerfile is presented in iMap and available in ArcGIS, you have a metadata record in the BC Data Catalogue where users can find detailed information and download your dataset, the data may be automatically getting updated on a nightly basis...now what?
+
+Please review all the functions and access points that have been configured for your dataset.  Provide DataBC.DA(mailto:DataBC/DA@gov.bc.ca) with any feedback or issues you may come across, or even just let us know how excited you are to have your data published through the DataBC Program! 
 
 [RETURN TO TOP][1]
 
