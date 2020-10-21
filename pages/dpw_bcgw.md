@@ -319,9 +319,9 @@ Please review all the functions and access points that have been configured for 
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
+[RETURN TO DATA PUBLICATION][2]
 
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---bc-geographic-warehouse
-[2]: ../index.md#data-publication
+[2]: https://bcgov.github.io/data-publication/
