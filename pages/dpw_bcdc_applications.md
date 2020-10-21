@@ -139,5 +139,4 @@ Click **Finished** when complete.  This will save your metadata record for the a
 -------------------------------------------------------
 
 [1]: #data-publication-workflow---bc-data-catalogue---application
-[2]: ../index.md#data-publication-process
-
+[2]: ./dpw_bcdc.md
