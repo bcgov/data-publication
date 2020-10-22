@@ -2,7 +2,7 @@
 layout: default
 title: Workflow - BCDC - Application
 nav_order: 40
-parent: Data Publication Workflow -BC Data Catalogue
+parent: Workflow - BC Data Catalogue
 has_toc: false
 ---
 
