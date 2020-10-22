@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Layer File Presentation Standards
-parent: Standards and Guidelines
-nav_order: 60
+grand_parent: Standards and Guidelines
+parent: BC Geographic Warehouse
+nav_order: 5
 has_toc: false
 ---
-
-# LAYER PRESENTATION STANDARDS
+STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
+# LAYERFILE PRESENTATION STANDARDS
 
 This document presents standards for maintaining Esri ArcGIS layer files as required for DataBC's mapping applications and services.
 
