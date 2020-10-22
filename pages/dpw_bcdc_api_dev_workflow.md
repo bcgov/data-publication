@@ -51,7 +51,7 @@ The application is supported by technical infrastructure and that has a number o
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Please review [Data Publishing Workflows - BC Data Catalogue](bcdc_data_oboarding_and_workflow.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information. 
+To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Please review [Data Publishing Workflows - BC Data Catalogue](dpw_bcdc.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information. 
 
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 **Name of the org:**
