@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Workflow - Open Government Licence - Other
-nav_order: 90
-parent: Data Publication Workflows
+nav_order: 1
+parent: Open Data
 has_toc: false
 ---
 
