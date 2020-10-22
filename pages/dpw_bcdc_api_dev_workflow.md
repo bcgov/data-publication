@@ -1,7 +1,7 @@
 ---
 layout: default
 title: API Development Workflow
-nav_order: 60
+nav_order: 30
 parent: BC Data Catalogue
 grand_parent: Data Publication Workflows
 has_toc: false
