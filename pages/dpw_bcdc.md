@@ -67,7 +67,8 @@ The first step in the process is to review the documentation:
 
 ## WORKFLOW DIAGRAM - AM I READY TO CREATE METADATA?
 
-[BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
+![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)(images/wf_MetadataReadiness.svg)
+![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
 
 [RETURN TO TOP][1]
 
