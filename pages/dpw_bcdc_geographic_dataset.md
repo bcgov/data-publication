@@ -9,22 +9,20 @@ has_toc: false
 
 # DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC) - GEOGRAPHIC DATASET
 
-# PURPOSE
+## PURPOSE
 
 This page contains details for completing fields in a metadata record for the Geographic Dataset type.
 
 -----------------------
------------------------
 
-# AUDIENCE
+## AUDIENCE
 
 The intended audiences for this page are:
 + clients that are publishing geographic datasets to the DataBC Program
 
 -----------------------
------------------------
 
-## <a name="bcdc_geographic_dataset_page">GEOGRPAHIC DATASET</a>
+## PUBLISHING A GEOGRPAHIC DATASET TO THE BC DATA CATALOGUE
 -----------------------
 ### **Create Dataset**
 -----------------------
@@ -53,7 +51,7 @@ The intended audiences for this page are:
 **ISO Topic Category**: [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
 
 ---------------
-#### **Contacts**
+### **Contacts**
 
 Add contacts for the following **Roles**:
 1. <a href="./glossary.md/#data_custodian">Custodian</a> (required) 
@@ -74,7 +72,7 @@ Add contacts for the following **Roles**:
 **Contact Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to Catalogue Admin's.
 
 ---------------
-#### **Data Currency/Update**
+### **Data Currency/Update**
 
 **Resource Status** is the status of the dataset as described by one of the types below: 
  
@@ -97,7 +95,7 @@ Add contacts for the following **Roles**:
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.
 
 ---------------
-#### **Access & Security**
+### **Access & Security**
 
 **Who can view this data?** describes who can view the BC Geographic Warehouse (BCGW) resources associated with the metadata record.
 
@@ -140,7 +138,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 |Low - Public|Public|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)
 
 ---------------
-#### **Preview Information**
+### **Preview Information**
 
  **Image URL** shows a preview of the data as a static image.
 
@@ -162,7 +160,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 **Preview Zoom level** allows you to provide an initial zoom level for the map preview.
 
 ---------------
-#### **Geograhic Extent**
+### **Geograhic Extent**
 
 **North/South/East/West** this is already done in the table
 
@@ -242,7 +240,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 Additional resources can be added by repeating the process above.
 
 ------------------------------
-------------------------------
+
 To complete the metadata in DRAFT status you can choose either:
 
 1. **Finished** will save your metadata record for the dataset in DRAFT status or,
@@ -250,12 +248,12 @@ To complete the metadata in DRAFT status you can choose either:
 2. **Save and Add Another** will allow you to continue adding additional resources to the metadata record.
 
 ------------------------------
-------------------------------
+[RETURN TO TOP]
 
 [RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][1]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue
+[1]: #dpw-bcdc-geographic-dataset
 [2]: ../index.md#data-publication-process
 
