@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Data Publication Workflow - BCDC - Dataset
-nav_order: 30
-parent: Data Publication Workflows
+title: Workflow - BCDC - Dataset
+nav_order: 5
+parent: Workflow - BC Data Catalogue
 has_toc: false
 ---
 
