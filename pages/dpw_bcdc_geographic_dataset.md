@@ -87,7 +87,6 @@ Add contacts for the following **Roles**:
 |Required| 
 |Under development|Datasets that exist but are not yet completed should be described as under development.
 
----------------
 **Date type** is used to provide details to users on when resources are created, published, modified, archived and destroyed. 
 
 **Date** is the date the resource was either created, published, modified, archived or destroyed. 
@@ -126,6 +125,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 |Not downloadable| The BC Geographic Warehouse (BCGW) resources cannot be downloaded.
 
 ---------------
+
 **License** describes the license the data is being published under. See <a href="./data_publication_workflows_bcdc.md#licenses">Licenses</a> section for more info.
 
 **Security Classification**
@@ -147,10 +147,6 @@ When there are changes to a resource in a metadata record, a new date type and c
  1. Copy the URL
  1. Paste the URL in this field
 
-
-***not true, entirely, add details from the table on onbarding workflow
-***NOTE***: Once the link to iMap has been added and the metadata record saved, when you return to edit the metadata record, there will be additional fields availbale under this section:
-
 **Preview Latutude** allows you to provide a map preview centroid latitude.
 
 **Preview Longitude** allows you to provide a map preview centroid longitude.
@@ -160,6 +156,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 **Preview Zoom level** allows you to provide an initial zoom level for the map preview.
 
 ---------------
+
 ### **Geograhic Extent**
 
 **North/South/East/West** this is already done in the table
@@ -171,7 +168,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 |SDE_BINARY| This is the older ESRI based geometry that used to be what the bcgw was, most minitiries do not use this anymore
 |SDO_GEOMETRY| This is Oracle geometry and what the BCGW and NRM uses predominately as their datatype.
 |ST_GEOMETRY| This is the current ESRI based geometry.
-||
+
 **Object Name** is the object name as it appears in the BCGW: _SCHEMA.OBJECT_. Example: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
 
 ***NEXT: ADD DATA*** takes you to the Add Data page where you upload or link your resource(s) and describe information about them.
@@ -248,12 +245,13 @@ To complete the metadata in DRAFT status you can choose either:
 2. **Save and Add Another** will allow you to continue adding additional resources to the metadata record.
 
 ------------------------------
-[RETURN TO TOP]
+[RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][1]
+[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #DATA-PUBLICATION-WORKFLOW---BC-DATA-CATALOGUE---GEOGRAPHIC DATASET
-[2]: ../index.md#data-publication-process
+[1]: #data-publication-workflows---bc-data-catalogue---geographic-dataset
+
+[2]: #data-publication-workflows---bc-data-catalogue
 
