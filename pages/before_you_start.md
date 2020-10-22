@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Before You Start
-nav_order: 10
-parent: Data Publication Workflows
+nav_order: 1
+parent: Standards and Guidelines
 has_toc: false
 ---
 
