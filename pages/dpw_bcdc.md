@@ -72,7 +72,6 @@ The first step in the process is to review the documentation:
 ![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
 
 [BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)
-
 ![BCDC Metadata Creation Workflow](images/wf_MetadataCreation.png)
 
 ------------------------------
