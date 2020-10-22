@@ -23,9 +23,9 @@ The intended audiences for this page are:
 -----------------------
 
 ## PUBLISHING A GEOGRPAHIC DATASET TO THE BC DATA CATALOGUE
------------------------
+
 ### **Create Dataset**
------------------------
+
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
 
 **Title**: This is the title of your metadata record.
