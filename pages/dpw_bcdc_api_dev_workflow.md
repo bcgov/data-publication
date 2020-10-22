@@ -7,6 +7,7 @@ grand_parent: Data Publication Workflows
 has_toc: false
 ---
 
+DATA PUBLICATION WORKFLOWS - BC DATA CATALOGUE
 # MANAGING METADATA AND DATA USING THE BC DATA CATALOGUE API
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program.
