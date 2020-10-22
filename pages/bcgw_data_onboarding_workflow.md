@@ -1,11 +1,3 @@
----
-layout: default
-title: Data Publication Workflow - BCGW
-nav_order: 30
-parent: Data Publication Workflows
-has_toc: false
----
-
 # DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
 
 This page describes the workflow for loading datasets into the BC Geographic Warehouse (BCGW).  
