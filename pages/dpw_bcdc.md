@@ -67,11 +67,7 @@ The first step in the process is to review the documentation:
 
 ## WORKFLOW DIAGRAM - AM I READY TO CREATE METADATA?
 
-![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
-
-try this
-
-<iframe frameborder="0" style="width:100%;height:1423px;" src="https://viewer.diagrams.net/?highlight=0000FF&nav=1&title=wf_MetadataReadiness.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fcbexson%2Fdata-publication%2FDDM-2451%2Fpages%2Fimages%2Fwf_MetadataReadiness.drawio"></iframe>
+[BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
 
 [RETURN TO TOP][1]
 
