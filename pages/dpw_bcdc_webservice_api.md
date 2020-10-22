@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Data Publication Workflow - BCDC - Web Service - API
-nav_order: 30
-parent: Data Publication Workflows
+title: Workflow - BCDC - Web Service - API
+nav_order: 40
+parent: Workflow - BC Data Catalogue
 has_toc: false
 ---
 
