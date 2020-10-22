@@ -7,7 +7,8 @@ grand_parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE - DATASET
+DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
+# DATASET
 
 ## PURPOSE
 
