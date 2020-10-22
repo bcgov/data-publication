@@ -3,6 +3,7 @@ layout: default
 title: Data Publication Workflow - BCGW
 nav_order: 30
 parent: Data Publication Workflows
+has_children: true
 has_toc: false
 ---
 
