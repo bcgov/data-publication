@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workflow - BC Data Catalogue
+title: BC Data Catalogue
 nav_order: 10
 parent: Data Publication Workflows
 has_children: true
