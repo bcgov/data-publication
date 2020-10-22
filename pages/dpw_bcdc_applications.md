@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Workflow - BCDC - Application
-nav_order: 30
+nav_order: 4
 parent: Workflow - BC Data Catalogue
 has_toc: false
 ---
