@@ -251,7 +251,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflows---bc-data-catalogue---geographic-dataset
+[1]: #data-publication-workflow---bc-data-catalogue---geographic-dataset
 
-[2]: #data-publication-workflows---bc-data-catalogue
-
+[2]: ./dpw_bcdc.md
