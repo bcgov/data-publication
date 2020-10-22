@@ -7,7 +7,7 @@ grand_parent: Data Publication Workflows
 has_toc: false
 ---
 
-# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE (BCDC) - GEOGRAPHIC DATASET
+# DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE - GEOGRAPHIC DATASET
 
 ## PURPOSE
 
@@ -254,6 +254,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #dpw-bcdc-geographic-dataset
+[1]: #DATA-PUBLICATION-WORKFLOW---BC-DATA-CATALOGUE---GEOGRAPHIC DATASET
 [2]: ../index.md#data-publication-process
 
