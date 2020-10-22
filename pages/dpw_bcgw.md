@@ -8,13 +8,13 @@ has_toc: false
 
 # DATA PUBLICATION WORKFLOW - BC GEOGRAPHIC WAREHOUSE
 
-## PURPOSE
+When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to load and publish your dataset in the BCGW.
 
-This page describes the client workflow for loading datasets into the BC Geographic Warehouse (BCGW).
+This page is written in the context that you have reviewed the documentation as listed below.
 
 -----------------------
 
-## AUDIENCE
+# Audience
 
 The intended audiences for this page are:
 + clients that are publishing data to the BC Geographic Warehouse (BCGW)
@@ -23,14 +23,6 @@ The intended audiences for this page are:
 + _Application Administrators_
 
 For a description of the roles and responsibilities of the business functions defined in this section, please refer to [_Data Publication: Roles and Responsibilities_](roles_and_responsibilities.md#data-publication-roles-and-responsibilities).
-
------------------------
-
-## INTRODUCTION
-
-When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to publish your dataset in the BCGW.
-
-This page is written in the context that you have reviewed the documentation as listed below.
 
 -----------------------
 
@@ -53,7 +45,7 @@ This page is written in the context that you have reviewed the documentation as 
 ---------------------------
 ## DOCUMENTATION REVIEW
 
-The first step in the process is to review the documentation in the following sections: 
+The first step in the process is to review the following documentation: 
 + [Data Governance](data_governance.md) (all)
 + [Standards and Guidelines](standards_and_guidelines.md) (all)
 + Data Publication Workflows
