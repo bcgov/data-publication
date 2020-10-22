@@ -2,7 +2,7 @@
 layout: default
 title: BCGW Delivery Standards
 nav_order: 1
-parnt: BC Geographic Warehouse
+parent: BC Geographic Warehouse
 grand_parent: Standards and Guidelines
 has_toc: false
 ---
