@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Roles and Responsibilities
-nav_order: 20
+nav_order: 30
 parent: Data Publication Workflow - BCGW
 has_toc: false
 ---
