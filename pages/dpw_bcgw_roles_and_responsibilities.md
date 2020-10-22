@@ -7,7 +7,8 @@ grand_parent: Data Publication Workflow - BCGW
 has_toc: false
 ---
 
-# DATA PUBLICATION: ROLES AND RESPONSIBILITIES
+DATA PUBLICATION WORKFLOWS - BC GEOGRAPHIC WAREHOUSE 
+# ROLES AND RESPONSIBILITIES
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
 
