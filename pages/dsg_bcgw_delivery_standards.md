@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Delivery Standards
-nav_order: 70
-parent: Data Publication Workflows
+title: BCGW Delivery Standards
+nav_order: 1
+parnt: BC Geographic Warehouse
+grand_parent: Standards and Guidelines
 has_toc: false
 ---
 
