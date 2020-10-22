@@ -12,6 +12,22 @@ DATA PUBLICATION WORKFLOWS - BC DATA CATALOGUE
 
 This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program.
 
+-----------------------------------------------------------
+
+# Purpose
+
+The page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
+
+-----------------------------------------------------------
+
+# Audience
+
+This document is meant for people who want to use the API to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
+
+For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages.
+
+Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
+
 -----------------------
 ## Table of Contents
 + [**ARCHITECTURE**](#architecture)
@@ -25,21 +41,8 @@ This document provides a set of standards, guidelines, and procedures around loa
 
 -----------------------
 
-# Audience
-
-This document is meant for people who want to use the API to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
-
-For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages.
-
-Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
-
-# Purpose
-
-The contents of this space is to assist data and metadata providers use the Catalogue API.
-
------------------------------------------------------------
-
 ## ARCHITECTURE
+
 The base product on which BCDC is dependent is https://github.com/ckan/ckan - it is an open source application that uses extensions in a plug-in architecture to extend and customize it.
 
 Our main customization is done through a theme extension that we manage https://github.com/bcgov/ckanext-bcgov.
@@ -47,7 +50,8 @@ Our main customization is done through a theme extension that we manage https://
 The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
-+ To use the Catalogue API to manage and create metadata records one must be an editor/publisher. For more information on that see the [Catalogue Onboarding and Workflow](pages/bcdc_data_oboarding_and_workflow.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)
+
+To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Please review [Data Publishing Workflows - BC Data Catalogue](bcdc_data_oboarding_and_workflow.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information. 
 
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 **Name of the org:**
