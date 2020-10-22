@@ -11,6 +11,16 @@ has_toc: false
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
 
+## Purpose
+
+This document describes in detail the roles and responsibilities of the people who are involved in publishing data to the Data BC program.
+
+-----------------------
+
+## Audience
+
+This document is directed at those who will be publishing data to the BC Geographic Warehouse (BCGW), within the DataBC Program of the Digital Platforms and Data Division, OCIO Ministry of Citizens' Services. In addition, this document may be of interest to government Business Analysts, Business Portfolio Managers, and Application Administrators. 
+
 -----------------------
 ## Table of Contents
 + [**DATA DELIVERY ROLES**](#data-delivery-roles)
@@ -21,16 +31,6 @@ Publishing new or modified BC Geographic Warehouse objects requires coordination
 	+ [DataBC Delivery Specialist](#databc-delivery-specialist)
 	+ [DataBC Project Lead Spatial Data Architect](#databc-project-lead-spatial-data-architect)
 	+ [DataBC ETL Specialist](#databc-etl-specialist)
-
------------------------
-
-# Audience
-
-This document is directed at those who will be publishing data to the BC Geographic Warehouse (BCGW), within the DataBC Program of the Digital Platforms and Data Division, OCIO Ministry of Citizens' Services. In addition, this document may be of interest to government Business Analysts, Business Portfolio Managers, and Application Administrators. 
-
-# Purpose
-
-This document describes in detail the roles and responsibilities of the people who are involved in publishing data to the Data BC program.
 
 ---------------------------------------------------------------------
 
