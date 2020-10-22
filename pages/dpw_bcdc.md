@@ -67,20 +67,13 @@ The first step in the process is to review the documentation:
 
 ## WORKFLOW DIAGRAMS
 
-### [BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
+[BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
 
 ![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
 
-### [BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)
+[BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)
 
 ![BCDC Metadata Creation Workflow](images/wf_MetadataCreation.png)
-------------------------------
-
-## WORKFLOW DIAGRAM - METADATA CREATION
-![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
-![BCDC Metadata Creation Workflow](images/wf_MetadataCreation.png)
-
-[RETURN TO TOP][1]
 
 ------------------------------
 
