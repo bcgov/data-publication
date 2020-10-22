@@ -67,7 +67,7 @@ The first step in the process is to review the documentation:
 
 ## WORKFLOW DIAGRAM - AM I READY TO CREATE METADATA?
 
-![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
+![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
 
 [RETURN TO TOP][1]
 
@@ -229,14 +229,14 @@ Once the metadata record is complete, the editor sets the **Record State** to **
 	+ to **PENDING PUBLISH**
 1. Click **Update Dataset**.
 
-Once a metadata record has been set to **PENDING PUBLISH**, the Catalogue team is notified and will then review the record for: 
+Once a metadata record has been set to **PENDING PUBLISH**, the DataBC is notified and will then review the record for: 
 + Completeness
 + Data quality
 + Licence type
 
-If your metadata record is validated by the Catalogue team, they will change the state to **PUBLSHED**.  Otherwise, a Catalogue team member will contact you to discuss your record.
+If your metadata record is validated by DataBC, they will change the state to **PUBLSHED**.  Otherwise, a DataBC team member will contact you to discuss your record.
 
-_**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact the [Catalogue team](mailto:datacat@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
+_**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC](mailto:data@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
 Once your metadata record is in the Published state, it is then visible and searchable in the BC Data Catalogue for all users.  
 
@@ -252,7 +252,7 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-1. Ensure the **Organization** and **Sub-Organization** are correct. If not, update these fields or contact  the [Catalogue team](mailto:datacat@gov.bc.ca) if you do not have editing access for the Sub-Org.
+1. Ensure the **Organization** and **Sub-Organization** are correct. If not, update these fields or contact  the [DataBC](mailto:data@gov.bc.ca) if you do not have editing access for the Sub-Org.
 1. Under **Data Currency/Update**, update the **Resource Status**:
 	1.  If the data is **obsolete** 
 		+ this then requires a link to be added for a **Replacement Record**.
@@ -268,16 +268,17 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 	+ from **PUBLISHED**
 	+ to **PENDING ARCHIVE**.
 	
-Once the record has been set to **PENDING ARCHIVE**, the Catalogue team will then reivew the record to ensure it is ready for archiving, this includes:
-	+ removing all resources from the record
-	+ confirming the correct Org and Sub-Org
-	+ confirming that records with a replacement dataset contain "DEPRECATED" in the title
-+ If the record is related to a BCGW dataset, it will be added to the next Notice of Intent (NOI) for archival.
+Once the record has been set to **PENDING ARCHIVE**, DataBC will then reivew the record to ensure it is ready for archiving, this includes:	
++ removing all resources from the record
++ confirming the correct Org and Sub-Org
++ confirming that records with a replacement dataset contain "DEPRECATED" in the title
 
-Once the Catalogue team has confirmed the record is ready for archiving, they will update the **Record State** to **ARCHIVED**.
+_Note: If the record is related to a BCGW dataset, it will be added to the next Notice of Intent (NOI) for archival._
+
+Once DataBC has confirmed the record is ready for archiving, they will update the **Record State** to **ARCHIVED**.
 
 Archived datasets:
-+ are only visible in the Catalogue to users that are logged in
++ are only visible to logged in Catalogue members of the Sub-Org which the dataset resides in 
 + do not contain resources
 
 [RETURN TO TOP][1]
@@ -290,7 +291,7 @@ Metadata Groups provide a listing of like datasets for a specific purpose and ca
 + These are not intended to replace a full listing of records for an sub-organization.
 + Groups by default are public but a request them to be visible to IDIR only can be made.
 
-To create a group, the following information is required and can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+To create a group, the following information is required and can be sent to [DataBC](mailto:data@gov.bc.ca).
 
 **Requirements:**
 + **Group Name**:
@@ -307,22 +308,23 @@ To create a group, the following information is required and can be sent to the 
 ## ORGANIZATION AND SUB-ORGANIZATION UPDATES
 Organizations change names frequently and thus need continual maintenance.
 
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to the Catalogue team at [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca):
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca):
 
 + Old name
 + New name
 + List of data providers (Editors)
 	+ When an update is requested for a sub-organization we ask that the members and contacts list be reviewed.
-	+ The Catalogue team can provide you with a current list to review.
+	+ DataBC can provide you with a current list to review.
 
 [RETURN TO TOP][1]
 
 ------------------------------
 
 ## BULK UPDATES
-When there are more than 20 records that require updating, a bulk update can be requested for the [Catalogue team](mailto:datacat@gov.bc.ca) to complete or can be completed by a user via the API.
+When there are more than 20 records that require updating, a bulk update can be requested for [DataBC](mailto:data@gov.bc.ca) to complete or can be completed by a user via the API.
 
 + Common bulk updates:
+	+ Branch/Division names
 	+ Contact information
 	+ State Change
 	+ URL modifications for More Info and Resources
