@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Standards and Guidelines
+title: Data Standards and Guidelines
 nav_order: 30
 has_children: true
 has_toc: false
