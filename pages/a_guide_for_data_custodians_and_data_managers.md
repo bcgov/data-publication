@@ -8,7 +8,7 @@ has_toc: false
 ---
 
 DATA STANDARDS AND GUIDELINES - BC DATA CATALOGUE
-# ROLES AND RESPOSIBILITES
+# ROLES AND RESPONSIBILITES
 _Formerly: A Guide for Data Custodians and Data Managers_
 
 The guide covers the following topics:
