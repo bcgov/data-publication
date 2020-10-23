@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BC Data Catalogue
-nav_order: 1
+nav_order: 2
 parent: Data Standards and Guidelines
 has_childresn: true
 has_toc: false
