@@ -2,10 +2,12 @@
 layout: default
 title: Proxy Naming Standards
 nav_order: 40
-parent: Standards and Guidelines
+parent: Security and Access
+grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
+DATA STANDARDS AND GUIDELINES - SECURITY AND ACCESS
 # PROXY NAMING STANDARDS
 
 BC Geographic Warehouse (BCGW) and non-BCGW proxies are created as a means for applications to access the data, as individual Oracle accounts are not permitted to be used in this manner. Proxies will only be created for and used by the application that they were intended. 
