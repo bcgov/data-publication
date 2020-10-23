@@ -7,6 +7,7 @@ grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
+DATA STANDARDS AND GUIDELINES - BC DATA CATALOGUE
 # FILE CONTENT AND STRUCTURE BEST PRACTICES
 
 Datasets that are files should contain machine processable information.
