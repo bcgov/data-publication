@@ -2,10 +2,12 @@
 layout: default
 title: Metadata Standards
 nav_order: 90
-parent: Standards and Guidelines
+parent: BC Data Catalogue
+grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
+DATA STANDARDS AND GUIDELINES - BC DATA CATALGOUE
 # METADATA STANDARDS
 
 This document presents metadata standards recommended  and high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue.
