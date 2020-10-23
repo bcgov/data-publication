@@ -2,7 +2,8 @@
 layout: default
 title: DataBC FME Framework
 nav_order: 55
-parent: Standards and Guidelines
+parent: BC Geographic Warehouse
+grand_parent: Data Publication Workflows
 has_toc: false
 ---
 
