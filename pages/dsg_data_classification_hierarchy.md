@@ -13,13 +13,10 @@ DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
 Data within this page defines each data classification and their hierarchy.
 
 -----------------------
-## Table of Contents
-+ [**CATEGORY LEVEL DEFINITIONS**](#category-level-definitions)
------------------------
 
 # Audience
 
-The content below is meant for all users of the BC Data Catalogue (BCDC).
+The content below is meant for all users of the BC Geographic Warehouse (BCGW).
 
 # Purpose
 
