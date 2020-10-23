@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Data Replication Standards
+title: Data Replication Standards and Guidelines
 nav_order: 50
-parent: Standards and Guidelines
+parent: BC Geographic Warehosue
+grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
