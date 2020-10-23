@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Layer File Presentation Standards
-grand_parent: Standards and Guidelines
+grand_parent: Data Standards and Guidelines
 parent: BC Geographic Warehouse
 nav_order: 5
 has_toc: false
