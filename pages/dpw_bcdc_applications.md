@@ -12,7 +12,7 @@ DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 
 ## PURPOSE
 
-This page contains details for completing fields in a metadata record for the Application dataset type.
+This page contains details for completing fields in a metadata record for the Application type.
 
 -----------------------
 
