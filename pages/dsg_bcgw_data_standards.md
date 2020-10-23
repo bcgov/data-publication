@@ -3,7 +3,7 @@ layout: default
 title: Data Standards
 nav_order: 2
 grand_parent: Data Standards and Guidelines
-parent: BC Geoographic Warehouse
+parent: BC Geographic Warehouse
 has_toc: false
 ---
 
