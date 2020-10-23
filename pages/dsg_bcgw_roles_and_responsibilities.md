@@ -3,11 +3,11 @@ layout: default
 title: Roles and Responsibilities
 nav_order: 1
 parent: BC Geographic Warehouse
-grand_parent: Data Publication Workflows
+grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOWS - BC GEOGRAPHIC WAREHOUSE 
+DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE 
 # ROLES AND RESPONSIBILITIES
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
