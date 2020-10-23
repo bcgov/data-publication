@@ -1,10 +1,13 @@
 ---
 layout: default
 title: BC MapHub Onboarding workflow
+parent: Data Publication Workflows
+nav_order: 3
 nav_exclude: true
 ---
 
-# DATA PUBLICATION WORKFLOW - AGO
+DATA PUBLICATION WORKFLOW 
+# ArcGIS Online (AGO)
 
 Short introductory section (a sentence or two)
 _need from Meg_
