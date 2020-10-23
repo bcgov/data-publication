@@ -2,7 +2,7 @@
 layout: default
 title: Open Data 
 nav_order: 50
-has_children: true
+has_children: false
 has_toc: false
 ---
 
