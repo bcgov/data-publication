@@ -2,7 +2,7 @@
 layout: default
 title: Before You Start
 nav_order: 1
-parent: Standards and Guidelines
+parent: Data Standards and Guidelines
 has_toc: false
 ---
 
