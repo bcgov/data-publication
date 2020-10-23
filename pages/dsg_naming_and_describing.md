@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Naming & Describing
+title: Naming & Describing Stnadards
 nav_order: 20
-parent: Standards and Guidelines
+parent: Data Standards and Guidelines
 has_toc: false
 ---
 
+DATA STANDARDS AND GUIDELINES
 # NAMING AND DESCRIBING STANDARDS
 
 This document presents general standards and guidelines for naming and describing data components within the DataBC Program.
