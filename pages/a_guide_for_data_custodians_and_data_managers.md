@@ -1,12 +1,15 @@
 ---
 layout: default
-title: A Guide for Data Custodians and Data Managers
+title: Roles and Resopnsibilties
 nav_order: 10
-parent: Data Governance
+parent: BC Data Catalogue
+grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-# A GUIDE FOR DATA CUSTODIANS AND DATA MANAGERS
+DATA STANDARDS AND GUIDELINES - BC DATA CATALOGUE
+# ROLES AND RESPOSIBILITES
+_Formerly: A Guide for Data Custodians and Data Managers_
 
 The guide covers the following topics:
 
