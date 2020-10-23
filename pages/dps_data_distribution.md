@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Distribution Service
+title: Data Distribution
 nav_order: 110
+parent: Data Publication Services
 has_toc: false
 ---
 
-# DISTRIBUTION SERVICE
+DATA PUBLICATION SERVICES
+# DATA DISTRIBUTION SERVICE
 
 This document provides a set of procedures and best practices around downloading data that is stored in the BC Geographic Warehouse (BCGW) and exported out using the following tools: the BC Data Catalogue (BCDC) and iMapBC.
 
