@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Naming & Describing Stnadards
+title: Naming & Describing Standards
 nav_order: 20
 parent: Data Standards and Guidelines
 has_toc: false
