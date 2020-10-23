@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Data Guidance & Best Practices
-nav_order: 10
-parent: Standards and Guidelines
+title: Data Standards
+nav_order: 2
+grand_parent: Data Standards and Guidelines
+parent: BC Geoographic Warehouse
 has_toc: false
 ---
 
-# DATA GUIDANCE AND BEST PRACTICES
+DATA STANDARDS AND GUIDELINES - BC GEOGRAPGIC WAREHOUSE
+# DATA STANDARDS
+_Formerly: DATA GUIDANCE AND BEST PRACTICES_
 
 The page provides guidance and best practices when providing data, spatial or otherwise.
 
