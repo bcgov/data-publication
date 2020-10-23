@@ -2,7 +2,7 @@
 layout: default
 title: Address/Geocoding Standards
 nav_order: 100
-parent: Standards and Guidelines
+parent: Data Standards and Guidelines
 has_toc: false
 ---
 
