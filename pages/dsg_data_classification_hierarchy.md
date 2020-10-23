@@ -2,10 +2,12 @@
 layout: default
 title: Data Classification Hierarchy
 nav_order: 120
-parent: Standards and Guidelines
+grand_parent: Data Standards and Guidelines
+parent: BC Geographic Warehouse
 has_toc: false
 ---
 
+DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
 # DATA CLASSIFICATION HIERARCHY  
 
 Data within this page defines each data classification and their hierarchy.
