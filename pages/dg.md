@@ -2,7 +2,7 @@
 layout: default
 title: Data Governance
 nav_order: 40
-has_children: true
+has_children: false
 has_toc: false
 ---
 
