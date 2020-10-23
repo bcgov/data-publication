@@ -2,7 +2,8 @@
 layout: default
 title: File Content/Structure Best Practices
 nav_order: 80
-parent: Standards and Guidelines
+parent: BC Data Catalogue
+grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
