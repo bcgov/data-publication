@@ -1,7 +1,7 @@
 ---
 layout: default
-title: BCGW Publication Workflow
-nav_order: 1
+title: Publication Workflow
+nav_order: 131
 parent: BC Geographic Warehouse
 grand_parent: Data Publication Services
 has_children: true
@@ -17,6 +17,12 @@ This page is written in the context that you have reviewed the documentation as 
 
 -----------------------
 
+## Purpose 
+
+This page decribes the publication workflow for clients that are publishing their data to the BC Geographic Warehouse (BCGW).
+
+-----------------------
+
 # Audience
 
 The intended audiences for this page are:
@@ -25,27 +31,29 @@ The intended audiences for this page are:
 + _Business Portfolio Managers_
 + _Application Administrators_
 
-For a description of the roles and responsibilities of the business functions defined in this section, please refer to [_Data Publication: Roles and Responsibilities_](roles_and_responsibilities.md#data-publication-roles-and-responsibilities).
-
 -----------------------
 
 ## Table of Contents
-+ [**WORKFLOW DIAGRAM**](#workflow-diagram)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
++ [**WORKFLOW - IS MY DATA READY FOR THE BCGW?**](#workflow---is-my-data-ready-for-the-bcgw)
++ [**BEFORE YOU START**](#before-you-start)
 + [**WHITEBOARD SESSIONS**](#whiteboard-sessions)
-	+ [Discovery Whiteboard](#discovery-whiteboard)
-	+ [Dataset Logfile](#dataset-logfile)
-	+ [Technical Whiteboard](#technical-whiteboard)
-+ [**DATA MODELLING**](#data-modelling)
-	+ [Deploy and Approve Data Content in Delivery](#deploy-and-approve-data-content-in-delivery)
+	+ [**Discovery Whiteboard**](#discovery-whiteboard)
++ [**DATASET LOGFILE**](#dataset-logfile)
+	+ [WORKFLOW: DATASET LOGFILE](#workflow-dataset-logfile)
++ [**TECHNICAL WHITEBOARD**](#technical-whiteboard)
++ [**DATA MODELLING **](#data-modelling-)
++ [**DEPLOY AND APPROVE CONTENT IN DELIVERY**](#deploy-and-approve-content-in-delivery)
 + [**DATA MIGRATION TO TEST**](#data-migration-to-test)
-	+ [Deploy and Approve Data Content in Test](#deploy-and-approve-data-content-in-test)
++ [**Deploy and Approve Data Content in Test**](#deploy-and-approve-data-content-in-test)
 + [**DATA MIGRATION TO PRODUCTION**](#data-migration-to-production)
-	+ [Deploy and Approve Data Content in Production](#deploy-and-approve-data-content-in-production)
++ [**Deploy and Approve Data Content in Production**](#deploy-and-approve-data-content-in-production)
 + [**DISTRIBUTION CONFIGURATION**](#distribution-configuration)
 + [**REPLICATION SERVICES**](#replication-services)
++ [**FINAL REVIEW**](#final-review)
 
 ---------------------------
+
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the following documentation: 
@@ -314,9 +322,9 @@ Please review all the functions and access points that have been configured for 
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
+[RETURN TO DATA PUBLICATION SERVICES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-geographic-warehouse
-[2]: https://bcgov.github.io/data-publication/
+[1]: #bc-geographic-warehouse-publication-workflow
+[2]: ./dps_bcgw.md
