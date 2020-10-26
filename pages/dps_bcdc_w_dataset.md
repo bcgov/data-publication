@@ -8,23 +8,6 @@ padding: 1rem
 has_toc: false
 ---
 
-# DATASET
-
------------------------
-
-## Purpose
-
-This page contains details for completing fields in a metadata record for the Dataset type.
-
------------------------
-
-## Audience
-
-The intended audiences for this page are:
-+ clients that are publishing datasets to the DataBC Program
-
------------------------
-
 ## PUBLISHING A DATASET TO THE BC DATA CATALOGUE
 
 ### **Create Dataset**
@@ -201,6 +184,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #dataset
+[1]: #publishing-a-dataset-to-the-bc-data-catalogue
 [2]: ./dps_bcdc_w.md
 
