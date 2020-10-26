@@ -232,9 +232,10 @@ To complete the metadata in DRAFT status you can choose either:
 2. **Save and Add Another** will allow you to continue adding additional resources to the metadata record.
 
 ------------------------------
+
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
+[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][2]
 
 -------------------------------------------------------
 
