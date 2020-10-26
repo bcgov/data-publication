@@ -2,7 +2,7 @@
 layout: default
 title: Application
 nav_order: 2
-parent: BCBC Publication Workflow
+parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_toc: false
 ---
