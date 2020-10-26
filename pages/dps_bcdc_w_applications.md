@@ -122,7 +122,7 @@ Click **Finished** when complete.  This will save your metadata record for the a
 ------------------------------
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION WORKFLOWS > BC DATA CATALOGUE][2]
+[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][2]
 
 -------------------------------------------------------
 
