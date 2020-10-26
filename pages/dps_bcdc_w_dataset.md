@@ -185,5 +185,5 @@ To complete the metadata in DRAFT status you can choose either:
 -------------------------------------------------------
 
 [1]: #publishing-a-dataset-to-the-bc-data-catalogue
-[2]: ./dps_bcdc_w.md
+[2]: ./dps_bcdc_w.md#CREATING-A-METADATA-RECORD
 
