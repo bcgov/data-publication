@@ -1,21 +1,24 @@
 ---
 layout: default
 title: Application
-nav_order: 2
+nav_order: 123
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
+padding: 1rem
 has_toc: false
 ---
 
 # APPLICATION
 
-## PURPOSE
+-----------------------
+
+## Purpose
 
 This page contains details for completing fields in a metadata record for the Application type.
 
 -----------------------
 
-## AUDIENCE
+## Audience
 
 The intended audiences for this page are:
 + clients that are publishing applications to the DataBC Program
@@ -23,6 +26,7 @@ The intended audiences for this page are:
 -----------------------
 
 ## PUBLISHING AN APPLICATION TO THE BC DATA CATALOGUE
+
 ### Create Dataset
 
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
@@ -43,7 +47,7 @@ The intended audiences for this page are:
 
 ---------------
 
-#### **Contacts**
+### **Contacts**
 
 Add contacts for the following **Roles**:
 1. <a href="./glossary.md/#data_custodian">Custodian</a> (required) 
@@ -65,7 +69,7 @@ Add contacts for the following **Roles**:
 
 ---------------
 
-#### **Data Currency/Update**
+### **Data Currency/Update**
 
 **Resource Status** is the status of the application as described by one of the types below: 
  
@@ -82,7 +86,7 @@ Add contacts for the following **Roles**:
 
 ---------------
 
-#### **Access & Security**
+### **Access & Security**
 
 **Who can access this application?** desribes the security level for access to the application.
 
@@ -139,5 +143,5 @@ Click **Finished** when complete.  This will save your metadata record for the a
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue---application
-[2]: ./dpw_bcdc.md
+[1]: #application
+[2]: ./dps_bcdc_w.md
