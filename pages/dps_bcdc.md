@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BC Data Catalogue
-nav_order: 20
+nav_order: 12
 parent: Data Publication Services
 has_children: true
 has_toc: false
