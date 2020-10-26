@@ -1,21 +1,24 @@
 ---
 layout: default
 title: Geographic Dataset
-nav_order: 3
+nav_order: 125
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_toc: false
+padding: 1rem
 ---
 
 # GEOGRAPHIC DATASET
 
-## PURPOSE
+-----------------------
+
+## Purpose
 
 This page contains details for completing fields in a metadata record for the Geographic Dataset type.
 
 -----------------------
 
-## AUDIENCE
+## Audience
 
 The intended audiences for this page are:
 + clients that are publishing geographic datasets to the DataBC Program
@@ -251,6 +254,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue---geographic-dataset
+[1]: #geographic-dataset
 
-[2]: ./dpw_bcdc.md
+[2]: ./dps_bcdc_w.md
