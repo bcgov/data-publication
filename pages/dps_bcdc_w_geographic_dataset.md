@@ -8,24 +8,7 @@ has_toc: false
 padding: 1rem
 ---
 
-# GEOGRAPHIC DATASET
-
------------------------
-
-## Purpose
-
-This page contains details for completing fields in a metadata record for the Geographic Dataset type.
-
------------------------
-
-## Audience
-
-The intended audiences for this page are:
-+ clients that are publishing geographic datasets to the DataBC Program
-
------------------------
-
-## PUBLISHING A GEOGRPAHIC DATASET TO THE BC DATA CATALOGUE
+## PUBLISHING A GEOGRAPHIC DATASET TO THE BC DATA CATALOGUE
 
 ### **Create Dataset**
 
@@ -255,6 +238,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #geographic-dataset
+[1]: #publishing-a-geographic-dataset-to-the-bc-data-catalogue
 
 [2]: ./dps_bcdc_w.md
