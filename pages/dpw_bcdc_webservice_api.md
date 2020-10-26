@@ -2,8 +2,8 @@
 layout: default
 title: Web Service - API
 nav_order: 4
-parent: BC Data Catalogue
-grand_parent: Data Publication Workflows
+parent: Publication Workflow
+grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
