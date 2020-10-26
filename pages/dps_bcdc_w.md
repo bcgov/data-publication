@@ -246,7 +246,7 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 1. Under **Data Currency/Update**, update the **Resource Status**:
 	1. If the data is **obsolete**, a link must be added for a **Replacement Record**.
 		+ When this is another record in the catalogue: 
-			+ Use this replacement record's permalink
+			+ Use the replacement record's permalink
 			+ Add the text "DEPRECATED - " to the beginning of the metadata Title
 		+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
 		
