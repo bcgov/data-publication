@@ -1,7 +1,7 @@
 ---
 layout: default
 title: File-based Content
-nav_order: 80
+nav_order: 231
 parent: BC Data Catalogue
 grand_parent: Data Standards and Guidelines
 has_toc: false
@@ -365,6 +365,6 @@ The pattern for the location of XML schema files is:
 
 -------------------------------------------------------
 
-[1]: #file---based-content
+[1]: #file-based-content
 [2]: ./dsg_bcdc.md
 
