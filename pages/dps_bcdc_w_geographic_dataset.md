@@ -57,10 +57,10 @@ The intended audiences for this page are:
 ### **Contacts**
 
 Add contacts for the following **Roles**:
-1. <a href="./glossary.md/#data_custodian">Custodian</a> (required) 
-1. <a href="./glossary.md/#point_of_contact">Point of Contact</a> (required) 
-1. <a href="./glossary.md/#business_expert">Business Expert</a> (optional)
-1. <a href="./glossary.md/#distributor">Distributor</a> (optional) 
+1. [Custodian](./glossary.md/#data_custodian) (required) 
+1. [Point of Contact](./glossary.md/#point_of_contact) (required) 
+1. [Business Expert](./glossary.md/#business_expert) (optional)
+1. [Distributor](./glossary.md/#distributor) (optional) 
 
 **Name**: Contact full name
 
@@ -129,7 +129,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 ---------------
 
-**License** describes the license the data is being published under. See <a href="./data_publication_workflows_bcdc.md#licenses">Licenses</a> section for more info.
+**License** describes the license the data is being published under. See [Licenses](./dps_bcdc_w.md#licenses) section for more info.
 
 **Security Classification**
 
