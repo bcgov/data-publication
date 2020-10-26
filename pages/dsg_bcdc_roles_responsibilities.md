@@ -358,7 +358,7 @@ Creating a metadata profile is important for the following reasons:
 
 There are international standards for metadata that DataBC follows. This provides interoperability with other data service utilities, meaning that descriptions of your data can be widely published and accessed (assuming your security profile allows this).
 
-Visit the DataBC site for more information about DataBC's [_metadata management tool_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services).
+Visit [DataBC](https://data.gov.bc.ca) for more information about the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/), DataBC's metadata management tool.
 
 #### Activities
 
@@ -408,7 +408,7 @@ Ideally, the _presentation profile_ should make invisible the complexities and t
 + Once the layer file is defined, DataBC will translate it for use with in various warehouse access channels for use with web mapping tools such as iMapBC.
 + You will then be asked to review and approve the translation within a test environment.
 
-Visit the DataBC site for more information about the various tools available to [_view and analyze_](http://www.data.gov.bc.ca/dbc/geographic/view_and_analyze/index.page?WT.svl=TopNav) and [_connect_](http://www.data.gov.bc.ca/dbc/geographic/connect/index.page?WT.svl=TopNav) to the data.
+For more information about the various tools available to view, analyze and connect to data, visit the [BC Government's Data page](. (https://www2.gov.bc.ca/gov/content/data).
 
 ### Define Downloadable Data Products
 
@@ -475,9 +475,9 @@ Over time the nature and application of a data holding may change. It's up to yo
 ## MORE INFORMATION
 
 ### Contact DataBC
-This guide explains the most important aspects of being a _Data Custodian_ or _Data Manager_, and how the BCGW can be part of your approach to fulfilling the responsibilities of these roles.
+This page explains the most important aspects of being a _Data Custodian_ or _Data Manager_, and how the BCGW can be part of your approach to fulfilling the responsibilities of these roles.
 
-If you have questions about this guide, or would like to talk more about using the BCGW, please contact DataBC at [Data@gov.bc.ca](mailto:Data@gov.bc.ca)
+If you have questions about this guide, or would like to talk more about using the BCGW, please contact [DataBC](mailto:Data@gov.bc.ca).
 
 [RETURN TO TOP][1] 
 
