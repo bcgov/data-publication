@@ -31,8 +31,6 @@ The intended audiences for this page are:
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
-	+ [[BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)](#bcdc-metadata-readiness-workflowimageswf_metadatareadinesssvg)
-	+ [[BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)](#bcdc-metadata-creation-workflowimageswf_metadatacreationsvg)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
 + [**CREATING A METADATA RECORD**](#creating-a-metadata-record)
 	+ [METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)](#metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
