@@ -1,13 +1,12 @@
 ---
 layout: default
 title: Application
-nav_order: 1
+nav_order: 2
 parent: BC Data Catalogue
-grand_parent: Data Publication Workflows
+grand_parent: Data Publication Services
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 # APPLICATION
 
 ## PURPOSE
