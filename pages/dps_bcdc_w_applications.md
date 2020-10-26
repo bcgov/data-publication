@@ -8,23 +8,6 @@ padding: 1rem
 has_toc: false
 ---
 
-# APPLICATION
-
------------------------
-
-## Purpose
-
-This page contains details for completing fields in a metadata record for the Application type.
-
------------------------
-
-## Audience
-
-The intended audiences for this page are:
-+ clients that are publishing applications to the DataBC Program
-
------------------------
-
 ## PUBLISHING AN APPLICATION TO THE BC DATA CATALOGUE
 
 ### Create Dataset
