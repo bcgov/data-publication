@@ -10,4 +10,4 @@ has_toc: false
 
 The BC Address Geocoder is a REST web service that can be used to resolve the physical locations (i.e., latitude and longitude) and correct, standardized form of civic and non-civic addresses in British Columbia.
 
-For more information on this service see the [BC Address Geocoder website](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geocoder)
+For more information on this service see the [BC Address Geocoder website](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geocoder).
