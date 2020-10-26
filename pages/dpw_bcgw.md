@@ -3,7 +3,7 @@ layout: default
 title: BCGW Publication Workflow
 nav_order: 20
 parent: BC Geographic Warehouse
-grand_parent: Data Publication Workflows
+grand_parent: Data Publication Services
 has_children: true
 has_toc: false
 ---
