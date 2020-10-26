@@ -2,12 +2,11 @@
 layout: default
 title: Dataset
 nav_order: 2
-parent: BC Data Catalogue
-grand_parent: Data Publication Workflows
+parent: Publication Workflow
+grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 # DATASET
 
 ## PURPOSE
