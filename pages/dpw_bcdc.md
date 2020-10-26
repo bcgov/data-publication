@@ -334,4 +334,4 @@ When there are more than 20 records that require updating, a bulk update can be 
 -------------------------------------------------------
 
 [1]: #bc-data-catalogue-publication-workflow
-[2]: ../dps_bcdc.md
+[2]: ./dps_bcdc.md
