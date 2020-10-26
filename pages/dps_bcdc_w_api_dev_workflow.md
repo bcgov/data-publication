@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Catalogue API Development
+title: API Metadata Management
 nav_order: 30
 parent: BC Data Catalogue
-grand_parent: Data Publication Workflows
+grand_parent: Data Publication Services
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOWS - BC DATA CATALOGUE
-# MANAGING METADATA AND DATA USING THE BC DATA CATALOGUE API
+# USING THE BC DATA CATALOGUE API FOR METADATA MANAGEMENT
 
-This document provides a set of standards, guidelines, and procedures around loading and maintaining data to be served out by the BC Data Catalogue (BCDC), hereafter known as 'the Catalogue', under the DataBC Program.
+The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. 
 
 -----------------------------------------------------------
 
