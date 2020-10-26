@@ -69,7 +69,7 @@ When completing the metadata record, there are both required and non-required fi
 |**Data Precision**| |This is uneditable and auto-populated from metadata in the BCGW|
 |**Comments**| |This is uneditable and auto-populated from metadata in the BCGW|
 
-[RETURN TO TOP]
+[RETURN TO TOP][1]
 
 [RETURN TO TIPS & TRICKS][2]
 
