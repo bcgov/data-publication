@@ -34,6 +34,7 @@ The intended audiences for this page are:
 -----------------------
 
 ## Table of Contents
++ [**Audience**](#audience)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW - IS MY DATA READY FOR THE BCGW?**](#workflow---is-my-data-ready-for-the-bcgw)
 + [**BEFORE YOU START**](#before-you-start)
@@ -45,11 +46,10 @@ The intended audiences for this page are:
 + [**DATA MODELLING**](#data-modelling)
 + [**DEPLOY AND APPROVE CONTENT IN DELIVERY**](#deploy-and-approve-content-in-delivery)
 + [**DATA MIGRATION TO TEST**](#data-migration-to-test)
-+ [**Deploy and Approve Data Content in Test**](#deploy-and-approve-data-content-in-test)
-+ [**DATA MIGRATION TO PRODUCTION**](#data-migration-to-production)
-+ [**Deploy and Approve Data Content in Production**](#deploy-and-approve-data-content-in-production)
 + [**DISTRIBUTION CONFIGURATION**](#distribution-configuration)
 + [**REPLICATION SERVICES**](#replication-services)
++ [**LAYERFILE PRESENTATION**](#layerfile-presentation)
++ [**DATA MIGRATION TO PRODUCTION**](#data-migration-to-production)
 + [**FINAL REVIEW**](#final-review)
 
 ---------------------------
@@ -199,7 +199,7 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 + the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
 + DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
 
-## Deploy and Approve Data Content in Test
+### Deploy and Approve Data Content in Test
 
 #### Migration Bookings for TEST
 + ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
@@ -303,7 +303,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 + the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
 + DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
 
-## Deploy and Approve Data Content in Production
+### Deploy and Approve Data Content in Production
 
 #### Migration Bookings for PROD
 
