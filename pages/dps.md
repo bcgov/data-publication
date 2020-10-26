@@ -8,4 +8,4 @@ has_toc: false
 
 # DATA PUBLICATION SERVICES
 
-The pages in this section describe the services that DataBC provide for Data Publication.
+The pages in this section describe the services that DataBC provides for Data Publication.
