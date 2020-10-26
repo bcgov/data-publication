@@ -10,7 +10,7 @@ has_toc: false
 # ROLES AND RESPONSIBILITES
 _Formerly: A Guide for Data Custodians and Data Managers_
 
-The guide covers the following topics:
+The page covers the following topics:
 
 + Getting the most out of the data we collect and manage
 + The role and obligations of Data Custodians and Data Managers
