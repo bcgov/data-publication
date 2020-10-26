@@ -6,7 +6,6 @@ nav_order: 3
 nav_exclude: true
 ---
 
-DATA PUBLICATION WORKFLOW 
 # BC MAPHUB - ARCGIS ONLINE (AGO)
 
 Short introductory section (a sentence or two)
