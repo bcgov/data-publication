@@ -9,7 +9,7 @@ padding: 1rem
 has_toc: false
 ---
 
-# BC GEOGRAPHIC WAREHOUSE PUBLICATON WORKFLOW
+# BC GEOGRAPHIC WAREHOUSE PUBLICATION WORKFLOW
 
 When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to load and publish your dataset in the BCGW.
 
