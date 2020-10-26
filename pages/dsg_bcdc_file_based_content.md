@@ -358,6 +358,7 @@ The pattern for the location of XML schema files is:
 + [_Clean Sheet_](http://www.clean-sheet.org/) provides clear and simple advise for preparing spreadsheet data for release
 + [_CSV Lint_](http://csvlint.io/) helps you check that your CSV file is readable
 
+----------------
 
 [RETURN TO TOP][1]
 
