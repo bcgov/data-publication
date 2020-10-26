@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Service - API
-nav_order: 127
+nav_order: 126
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_toc: false
@@ -125,5 +125,5 @@ Click **Finished** when complete.  This will save your metadata record for the a
 -------------------------------------------------------
 
 [1]: #publishing-a-web-service---api-to-the-bc-data-catalogue
-[2]: ./dps_bcdc_w.md
+[2]: ./dps_bcdc_w.md#CREATING-A-METADATA-RECORD
 
