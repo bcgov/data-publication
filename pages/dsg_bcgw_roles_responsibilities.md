@@ -7,7 +7,6 @@ grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE 
 # ROLES AND RESPONSIBILITIES
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
