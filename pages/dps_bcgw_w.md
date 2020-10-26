@@ -99,7 +99,7 @@ Having the right people available for the session allows us to all move forward 
 |Type|Resource|Attendance|Purpose|Action Items from Session|
 |:---|:---|:---|:---|:--|
 |Business Area|Data Suppliers|**Required**|Data overview|Provide copy of dataset to BCGW Staging Area|
-|||||Complete the [Dataset Logfile](#dataset-logfile) with assistance from ***DataBC DA*** and [_Data Delivery Standards - Data Delivery Checklist_](delivery_standards.md#data-delivery-checklist)|
+|||||Complete the [Dataset Logfile](#dataset-logfile) with assistance from ***DataBC DA*** and [_Data Delivery Standards - Data Delivery Checklist_](dsg_bcgw_data_delivery.md#data-delivery-checklist)|
 |||||Request access to the BCGW via the [_NRM Service Desk_](https://nrsservicedesk.gov.bc.ca/IM/scripts/LoginPage.asp)|
 |||| |Start working on the [Open Data](open_data.md) requirements, if applicable|
 |Business Area|IMB: BA/BP|**Required**|Access requirements|If a database or web service, provide access to the source data|
