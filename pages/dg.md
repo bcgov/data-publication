@@ -18,8 +18,8 @@ it to other important data management roles.
 
 [_British Columbia First Nations' Data Governance Initiative_](https://www.bcfndgi.com/)
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > RELATED STANDARDS AND RESOURCES][2]
+[RETURN TO DATA PUBLICATION][1]
 
 -------------------------------------------------------
 
-[2]: ../index.md#related-standards-and-resources
+[1]: ../index.md#
