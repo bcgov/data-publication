@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: FAQ
 nav_order: 80
 has_toc: false
 ---
