@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Workflow - Open Government Licence - Other
+title: Open Government Licence - Other
 nav_order: 1
-parent: BC Data Catalogue
-grand_parent: Data Publication Workflows
+parent: Publication Workflow
+grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
