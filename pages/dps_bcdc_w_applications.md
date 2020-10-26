@@ -127,4 +127,4 @@ Click **Finished** when complete.  This will save your metadata record for the a
 -------------------------------------------------------
 
 [1]: #publishing-an-application-to-the-bc-data-catalogue
-[2]: ./dps_bcdc_w.md
+[2]: ./dps_bcdc_w.md#CREATING-A-METADATA-RECORD
