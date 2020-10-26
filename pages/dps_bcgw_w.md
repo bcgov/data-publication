@@ -127,6 +127,8 @@ The [Dataset Logfile](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/
    + **Security Details:** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
    + **Data Model Details:** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
 
+_Note that that Dataset Logfile directory contains two TEMPLATE files, one for [GSR](faq.md#What-is-the-Geographic-Sites-Registry-GSR) dataloads and one for non-GSR dataloads._
+
 ### WORKFLOW: DATASET LOGFILE
 
 ### [Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
