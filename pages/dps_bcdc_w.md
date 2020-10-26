@@ -244,16 +244,15 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
 1. Ensure the **Organization** and **Sub-Organization** are correct. If not, update these fields or contact  the [DataBC](mailto:data@gov.bc.ca) if you do not have editing access for the Sub-Org.
 1. Under **Data Currency/Update**, update the **Resource Status**:
-	1.  If the data is **obsolete** 
-		+ this then requires a link to be added for a **Replacement Record**.
-			+ When this is another record in the catalogue. 
-				+ Use this replacement record's permalink
-				+ Add the text "DEPRECATED - " to the beginning of the metadata Title
-			+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
-	1.	**historicalArchive** 
-		+ this then requires two additional fields to be completed:
-			1.	**Retention Expiry Date**
-			1.	**Source Data Path**
+	1. If the data is **obsolete** 
+		+ a link must be added for a **Replacement Record**. 
+		When this is another record in the catalogue: 
+		+ Use this replacement record's permalink
+		+ Add the text "DEPRECATED - " to the beginning of the metadata Title
+		If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
+	1. If the data is goin into **historicalArchive**, two additional fields must be completed:
+		1. **Retention Expiry Date**
+		1. **Source Data Path**
 1.  Change the dataset **Record State**:
 	+ from **PUBLISHED**
 	+ to **PENDING ARCHIVE**.
