@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-DATA PUBLICATUON SERVICES
+DATA PUBLICATION SERVICES
 # BC GEOGRAPHIC WAREHOUSE
 
 The pages in this section describe the services that DataBC provide for Data Publication in the BC Geographic Warehouse (BCGW).
