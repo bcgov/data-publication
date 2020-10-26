@@ -56,7 +56,7 @@ For a description of the roles and responsibilities of the business functions de
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation: 
-+ Standards and Guidelines > BC Data Catalogue (./dsg_bcdc.md)
++ Standards and Guidelines > BC Data Catalogue (/dsg_bcdc.md)
 + [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
 + Standards and Guidelines > [Metadata Standards](https://bcgov.github.io/data-publication/pages/metadata_standards.html)
 + Standards and Guidelines > Naming and Describing > [BC Data Catalogue Naming Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-naming-guidelines)
