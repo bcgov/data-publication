@@ -1,21 +1,24 @@
 ---
 layout: default
 title: Dataset
-nav_order: 2
+nav_order: 124
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
+padding: 1rem
 has_toc: false
 ---
 
 # DATASET
 
-## PURPOSE
+-----------------------
+
+## Purpose
 
 This page contains details for completing fields in a metadata record for the Dataset type.
 
 -----------------------
 
-## AUDIENCE
+## Audience
 
 The intended audiences for this page are:
 + clients that are publishing datasets to the DataBC Program
@@ -50,7 +53,7 @@ The intended audiences for this page are:
 
 ---------------
 
-#### **Contacts**
+### **Contacts**
 
 Add contacts for the following **Roles**:
 1. <a href="./glossary.md/#data_custodian">Custodian</a> (required) 
@@ -72,7 +75,7 @@ Add contacts for the following **Roles**:
 
 ---------------
 
-#### **Data Currency/Update**
+### **Data Currency/Update**
 
 **Resource Status** is the status of the dataset as described by one of the types below: 
  
@@ -97,7 +100,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 ---------------
 
-#### **Access & Security**
+### **Access & Security**
 
 **Who can view this data?** describes who can view the BC Geographic Warehouse (BCGW) resources associated with the metadata record.
 
@@ -198,6 +201,6 @@ To complete the metadata in DRAFT status you can choose either:
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue---dataset
-[2]: ./dpw_bcdc.md
+[1]: #dataset
+[2]: ./dpw_bcdc_w.md
 
