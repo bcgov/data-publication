@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Publication Services
-nav_order: 30
+nav_order: 20
 has_children: true
 has_toc: false
 ---
