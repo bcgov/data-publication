@@ -14,7 +14,7 @@ it to other important data management roles.
 
 [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
 
-[_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md#a-guide-for-data-custodians-and-data-managers) 
+[_BC Data Catalogue - Roles and Responsibilities_](dsg_bcdc_roles_responsibilities.md) 
 
 [_British Columbia First Nations' Data Governance Initiative_](https://www.bcfndgi.com/)
 
