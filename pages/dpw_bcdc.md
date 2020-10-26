@@ -329,9 +329,9 @@ When there are more than 20 records that require updating, a bulk update can be 
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
+[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue
-[2]: ../index.md#data-publication-process
+[1]: #bc-data-catalogue-publication-workflow
+[2]: ../dps_bcdc.md
