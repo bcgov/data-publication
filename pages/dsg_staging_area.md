@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Staging Area Standards
+title: Staging Area
 nav_order: 70
 parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES
 # STAGING AREA STANDARDS
 
 This guide provides the necessary information for all locations and access to multiples staging areas, depending on the type of data being published.  Also provided is contact information for additional assistance.
