@@ -8,8 +8,7 @@ has_children: true
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOW
-# BC DATA CATALOGUE
+# BC DATA CATALOGUE PUBLICATION WORKFLOW
 
 When data is published to the the DataBC Program through any of its services, it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your reponsibilities are as a publisher to the BC Data Catalogue and how to create a metadata record in the BC Data Catalogue.
 
