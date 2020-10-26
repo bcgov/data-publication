@@ -113,7 +113,7 @@ There are three licensing options for data published in the BC Data Catalogue:
 	+ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 	+ The Catalogue record links to the appropriate Open Data Licence.
 	
-1. [Open Government - (Other)](./dpw_bcdc_open_govt_licence_other.md)
+1. [Open Government - (Other)](./dps_bcdc_w_open_govt_licence_other.md)
 
 	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
 
@@ -124,7 +124,7 @@ There are three licensing options for data published in the BC Data Catalogue:
 ------------------------------
 
 ## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_w_bcdc_api_dev_workflow.md)._
+_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)._
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the Catalogue page. This will take you to your dashboard. 
 1. Click the **Datasets** button on the toolbar.
@@ -134,11 +134,10 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 
 |Dataset Type| |
 |:---|:---|
-|<a href="./glossary.md/#application">Application</a>|<a href="./dpw_bcdc_applications.md">Workflow</a>|
-|<a href="./glossary.md/#dataset">Dataset</a>|<a href="./dpw_bcdc_dataset.md">Workflow</a>|
-|<a href="./glossary.md/#geographic_dataset">Geographic Dataset</a>|<a href="./dpw_bcdc_geographic_dataset.md">Workflow</a>|
-|<a href="./glossary.md/#webservice_api">Web Service - API</a>|<a href="./dpw_bcdc_webservice_api.md">Workflow</a>|
-|[Web Service - API](./glossary.md/#webservice_api)|[Workflow](./dps_w_bcdc_webservice_api.md)|
+|[Application](./glossary.md/#application)|[Workflow](./dps_bcdc_w_application.md)|
+|[Dataset](./glossary.md/#dataset)|[Workflow](./dps_bcdc_w_dataset.md)|
+|[Gepgraphic Dataset](./glossary.md/#geographic-dataset)|[Workflow](./dps_bcdc_w_geographic_dataset.md)|
+|[Web Service - API](./glossary.md/#webservice_api)|[Workflow](./dps_bcdc_w_webservice_api.md)|
 
 1.  Click the **Create Dataset** button.
 
