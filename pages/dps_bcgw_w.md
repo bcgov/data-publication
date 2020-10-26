@@ -72,6 +72,8 @@ The first step in the process is to review the following documentation:
 
 ## WORKFLOW - IS MY DATA READY FOR THE BCGW?
 
+### [BCGW Readiness Workflow](images/wf_BCGWReadiness.svg)
+
 ![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
 
 ------------------------------
@@ -126,6 +128,8 @@ The [Dataset Logfile](images/Dataset_Log_v29_TEMPLATE.xlsx) is where you provide
    + **Data Model Details:** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
 
 ### WORKFLOW: DATASET LOGFILE
+
+### [Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
 
 ![Dataset Logfile Workflow](images/wf_DatsetLogfile.png)
    
