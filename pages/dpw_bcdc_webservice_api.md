@@ -7,7 +7,6 @@ grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 # WEB SERVICE - API
 
 ## PURPOSE
@@ -23,7 +22,18 @@ The intended audiences for this page are:
 
 -----------------------
 
+## Table of Contents
++ [**PUBLISHING A WEB SERVICE - API TO THE BC DATA CATALOGUE**](#publishing-a-web-service---api-to-the-bc-data-catalogue)
+	+ [Create Dataset](#create-dataset)
+		+ [**Contacts**](#contacts)
+		+ [**Data Currency/Update**](#data-currencyupdate)
+		+ [**Access & Security**](#access--security)
+	+ [Add Data](#add-data)
+ 
+-----------------------
+
 ## PUBLISHING A WEB SERVICE - API TO THE BC DATA CATALOGUE
+
 ### Create Dataset
 
 **State**: When creating a new metadata record, the state will be set to DRAFT. 
