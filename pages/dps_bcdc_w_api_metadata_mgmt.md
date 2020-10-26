@@ -23,7 +23,7 @@ The page provides guidance on the use of the Catalogue API to manage metadata an
 
 This document is meant for people who want to use the API to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
 
-For recommendations on how to publish your data, please refer to pages in Data Standards and Guidelines > [BC Data Catalogue](./dsg_bcdc.md) or contact [DataBC](mailto:Data@gov.bc.ca) with your questions.
+For recommendations on how to publish your data, please refer to pages in **Data Standards and Guidelines > [BC Data Catalogue](./dsg_bcdc.md)** or contact [DataBC](mailto:Data@gov.bc.ca) with your questions.
 
 -----------------------
 ## Table of Contents
@@ -48,7 +48,7 @@ The application is supported by technical infrastructure and that has a number o
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Please review Data Publication Services > BC Data Catalogue > Publication Workflow > [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information. 
+To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Please review **Data Publication Services > BC Data Catalogue > Publication Workflow > [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)** for more information. 
 
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 **Name of the org:**
