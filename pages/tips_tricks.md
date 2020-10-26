@@ -6,7 +6,7 @@ has_toc: false
 ---
 
 
-# HELPFUL TIPS ABOUT THE BC GEOGRAPHIC WAREHOUSE
+# HELPFUL TIPS AND TRICKS FOR THE BC GEOGRAPHIC WAREHOUSE
 
 The context below provides helpful tips and data points for those users who manage or provide information to the BD Geographic Warehouse (BCGW) and ArcGIS Desktop. This page will continue to be updated so it is worth bookmarking for current and future references.  
 
