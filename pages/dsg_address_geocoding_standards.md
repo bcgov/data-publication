@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Address/Geocoding Standards
-nav_order: 100
+title: Address & Geocoding Standards
+nav_order: 22
 parent: Data Standards and Guidelines
 has_toc: false
 ---
@@ -14,10 +14,10 @@ has_toc: false
 published by the [_BC Office of the Chief Information Officer_](https://www2.gov.bc.ca/gov/content?id=4726AAEF681C40B192CFA11A00236A83).
 
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > RELATED STANDARDS AND RESOURCES][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][1]
 
 -------------------------------------------------------
 
-[2]: ../index.md#related-standards-and-resources
+[1]: ./dsg.md
 
 
