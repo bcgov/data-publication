@@ -124,6 +124,6 @@ Click **Finished** when complete.  This will save your metadata record for the a
 
 -------------------------------------------------------
 
-[1]: #web-service---api
+[1]: #publishing-a-web-service---api-to-the-bc-data-catalogue
 [2]: ./dps_bcdc_w.md
 
