@@ -23,7 +23,7 @@ This page decribes the publication workflow for clients that are publishing thei
 
 -----------------------
 
-# Audience
+## Audience
 
 The intended audiences for this page are:
 + clients that are publishing data to the BC Geographic Warehouse (BCGW)
