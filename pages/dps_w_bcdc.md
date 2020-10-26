@@ -26,9 +26,6 @@ The intended audiences for this page are:
 + clients that are publishing data to the DataBC Program, through any service
 + Data Custodians, Data Managers, Data Stewards, metadata editors
 
-
-For a description of the roles and responsibilities of the business functions defined in this section, please refer to [_Data Publication: Roles and Responsibilities_](roles_and_responsibilities.md#data-publication-roles-and-responsibilities).
-
 -----------------------
 
 ## Table of Contents
