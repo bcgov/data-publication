@@ -180,6 +180,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 ### **Resources**
 This page allows you to add the resources (data) to your metadata record.
+
 #### BCGW Resources
 
 The **Manage BCGW Resources** button will add the ability for users to custom download data from the BCGW if:
@@ -200,7 +201,7 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 
 Publicly visible datasets in the BCGW that are made available in iMapBC will also have WMS and KML links created and added to the metadata record. The addition of these resources is handled through an automated script.
 
-### FILE AND URL RESOURCES
+#### FILE AND URL RESOURCES
 
 The **+Add New Resource** button allows you to upload a file that will be stored in the Catalogue Data Store, or use a link to your geographc dataset. If linking to a dataset, ensure it is in a location that is accessible for end-users.
 + **Upload File**: Select this to upload a a file, e.g., CSV, directly into the Catalogue Data Store.
