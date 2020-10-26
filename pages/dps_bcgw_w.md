@@ -59,7 +59,7 @@ The intended audiences for this page are:
 The first step in the process is to review the following documentation: 
 + [Data Governance](dg.md)
 + Standards and Guidelines
-	+ [Before You Start](before_you_start.md)
+	+ [Before You Start](dsg_before_you_start.md)
 	+ [BC Geographic Warehouse](dsg_bcgw.md) (all)
 	+ [BC Data Catalogue](dsg_bcdc.md) (all)
 	+ [Data Classification Hierarchy](dsg_data_classification_hierarchy.md)
