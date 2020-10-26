@@ -42,7 +42,7 @@ The intended audiences for this page are:
 + [**DATASET LOGFILE**](#dataset-logfile)
 	+ [WORKFLOW: DATASET LOGFILE](#workflow-dataset-logfile)
 + [**TECHNICAL WHITEBOARD**](#technical-whiteboard)
-+ [**DATA MODELLING **](#data-modelling-)
++ [**DATA MODELLING**](#data-modelling)
 + [**DEPLOY AND APPROVE CONTENT IN DELIVERY**](#deploy-and-approve-content-in-delivery)
 + [**DATA MIGRATION TO TEST**](#data-migration-to-test)
 + [**Deploy and Approve Data Content in Test**](#deploy-and-approve-data-content-in-test)
@@ -157,7 +157,7 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 
 -------------------------------
 
-## DATA MODELLING 
+## DATA MODELLING
 
 Clients will provide input to their vendor/developer so the data model can be created.  DataBC will then review the model (and provide feedback when required) prior to your vendor/developer delivering the final product.
 
