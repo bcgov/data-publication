@@ -1,17 +1,30 @@
 ---
 layout: default
 title: DataBC FME Framework
-nav_order: 55
+nav_order: 132
 parent: BC Geographic Warehouse
 grand_parent: Data Publication Workflows
 has_toc: false
 ---
 
-# USING THE DATABC FEATURE MANIPULATION ENGINE (FME) FRAMEWORK
+# USING THE DATABC FME FRAMEWORK
 
 The DataBC Feature Manipulation Engine (FME) Framework was written to allow the structure of FME scripts used in the DataBC program to be standardized, making it easier to maintain and troubleshoot these scripts.  This document describes the framework and how to use it.
 
 -----------------------
+
+##  Purpose
+
+This guide provides instructions on developing a FME Workbench file to DataBC FME Framework standards.
+
+-----------------------
+
+##  Audience
+
+DataBC Data Architects and vendors and data providers who manage data and the loading of datasets into the BCGW. 
+
+-----------------------
+
 ## Table of Contents
 + [**DATABC'S FME FRAMEWORK**](#databcs-fme-framework)
 	+ [​Overview of how to use the DataBC FME Framework](#overview-of-how-to-use-the-databc-fme-framework)
@@ -42,16 +55,6 @@ The DataBC Feature Manipulation Engine (FME) Framework was written to allow the 
 	+ [Documentation](#documentation)
   
 -----------------------
-
-#  Audience
-
-DataBC Data Architects and vendors and data providers who manage data and the loading of datasets into the BCGW. 
-
-#  Purpose
-
-This guide provides instructions on developing a FME Workbench file to DataBC FME Framework standards.
-
----------------------------------------------------------------------
 
 ## DATABC'S FME FRAMEWORK
 
@@ -1451,12 +1454,9 @@ Writer parameters have been set or linked to the appropriate Writer properties. 
 
 [RETURN TO TOP][1] 
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
+[RETURN TO DATA PUBLICATION SERVICES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -----------------------------------------------------------
 
 [1]: #Using-the-DataBC-FME-Framework
-[2]: ../index.md#publishing-data-to-the-databc-program
-
-
-
+[2]: ./dps_w_bcgw.md
