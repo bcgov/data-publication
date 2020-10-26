@@ -13,19 +13,17 @@ The BC Data Catalogue is built using an open source data portal software called 
 
 -----------------------------------------------------------
 
-# Purpose
+## Purpose
 
 The page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
 
 -----------------------------------------------------------
 
-# Audience
+## Audience
 
 This document is meant for people who want to use the API to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
 
-For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages.
-
-Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
+For recommendations on how to publish your data, please refer to pages in Data Standards and Guidelines > [BC Data Catalogue](./dsg_bcdc.md) or contact [DataBC][mailto:Data@gov.bc.ca) with your questions.
 
 -----------------------
 ## Table of Contents
@@ -147,9 +145,9 @@ for resource in pkg_data['resources']:
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING METADATA AND DATA TO THE BC DATA CATALOGUE][2]
+[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][2]
 
 -------------------------------------------------------
 
-[1]: #managing-metadata-and-data-using-the-bc-data-catalogue-api
-[2]: ../index.md#data-publication-process
+[1]: #using-the-bc-data-catalogue-api-for-metadata-management
+[2]: ./dps_bcdc_w.md
