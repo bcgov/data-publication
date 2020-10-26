@@ -57,12 +57,15 @@ The intended audiences for this page are:
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the following documentation: 
-+ [Data Governance](data_governance.md) (all)
-+ [Standards and Guidelines](standards_and_guidelines.md) (all)
-+ Data Publication Workflows
++ [Data Governance](dg.md)
++ Standards and Guidelines
 	+ [Before You Start](before_you_start.md)
-	+ [Roles and Responsibilities](roles_and_responsibilities.md)
-	+ [Delivery Standards](delivery_standards.md)
+	+ [BC Geographic Warehouse](dsg_bcgw.md) (all)
+	+ [BC Data Catalogue](dsg_bcdc.md) (all)
+	+ [Data Classification Hierarchy](dsg_data_classification_hierarchy.md)
+	+ [Naming and Describing](dsg_naming_describing.md)
+	+ [Security and Access](dsg_security_access.md) (all)
+	+ [Staging Area](dsg_staging_area.md)
 + [Open Data](open_data.md)
 
 ------------------------------
@@ -218,37 +221,6 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 |DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
 
 -------------------------------
-## DATA MIGRATION TO PRODUCTION
-Once the data has been successfully tested and approved in BCGW TEST, DataBC can then migrate the dataset(s) to PROD. During this time:
-+ the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
-+ DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
-
-## Deploy and Approve Data Content in Production
-
-#### Migration Bookings for PROD
-
-***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
-
-**Resources for Production Deployment**
-
-|Type|Resource|Responsibility|Action Items|
-|:---|:---|:---|:---|
-|Business Area|Data Suppliers|**Required**|Coordinate with BA/BPM to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
-||||Coordinate with the BA/BPM to provide the **OKAY** to migrate if there is a dependency on a operational migration|
-||||Data confirmation - content, performance|
-|Business Area|IMB: BA/BP|**Required**|Coordinate with Data Supplier to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
-||||Coordinate with the Data Supplier to provide the **OKAY** to migrate if there is a dependency on a operational migration|
-||||Data confirmation - content, performance|
-|Business Area|Vendor/Developer|_Optional_|
-|DataBC|DataBC DA|**Required**|Schedule migration|
-||||Cooridinate with DataBC Delivery Specialist to migrate Delivery kit|
-|||| Kick off all access pieces|
-||||Data confirmation - content, performance|
-|DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
-
-[RETURN TO TOP][1]
- 
------------------------
 
 ## DISTRIBUTION CONFIGURATION
 
@@ -313,6 +285,50 @@ Replication Services provides the channel in which the data is updated.  Some da
 |:---|:---|
 |_DataBC: DA_|Perform QA on FMW scripts|
 |_DataBC: ETL_| Schedules replication for FMW|
+
+[RETURN TO TOP]
+
+-----------------------
+
+## LAYERFILE PRESENTATION
+Layerfile presentations for iMapBC and ArcGIS can be built at any time throughout the process, but must be configured for the data once it is deployed in PRODUCTION. 
+
+[RETURN TO TOP]
+
+-----------------------
+
+## DATA MIGRATION TO PRODUCTION
+
+Once the data has been successfully tested and approved in BCGW TEST, DataBC can then migrate the dataset(s) to PROD. During this time:
++ the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
++ DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
+
+## Deploy and Approve Data Content in Production
+
+#### Migration Bookings for PROD
+
+***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
+
+**Resources for Production Deployment**
+
+|Type|Resource|Responsibility|Action Items|
+|:---|:---|:---|:---|
+|Business Area|Data Suppliers|**Required**|Coordinate with BA/BPM to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
+||||Coordinate with the BA/BPM to provide the **OKAY** to migrate if there is a dependency on a operational migration|
+||||Data confirmation - content, performance|
+|Business Area|IMB: BA/BP|**Required**|Coordinate with Data Supplier to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
+||||Coordinate with the Data Supplier to provide the **OKAY** to migrate if there is a dependency on a operational migration|
+||||Data confirmation - content, performance|
+|Business Area|Vendor/Developer|_Optional_|
+|DataBC|DataBC DA|**Required**|Schedule migration|
+||||Cooridinate with DataBC Delivery Specialist to migrate Delivery kit|
+|||| Kick off all access pieces|
+||||Data confirmation - content, performance|
+|DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
+
+[RETURN TO TOP][1]
+ 
+-----------------------
 
 ## FINAL REVIEW
 
