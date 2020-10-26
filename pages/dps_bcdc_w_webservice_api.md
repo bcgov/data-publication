@@ -1,36 +1,11 @@
 ---
 layout: default
 title: Web Service - API
-nav_order: 4
+nav_order: 127
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_toc: false
 ---
-
-# WEB SERVICE - API
-
-## PURPOSE
-
-This page contains details for completing fields in a metadata record for the Web Service - API dataset type.
-
------------------------
-
-## AUDIENCE
-
-The intended audiences for this page are:
-+ clients that are publishing Web Service - API's to the DataBC Program
-
------------------------
-
-## Table of Contents
-+ [**PUBLISHING A WEB SERVICE - API TO THE BC DATA CATALOGUE**](#publishing-a-web-service---api-to-the-bc-data-catalogue)
-	+ [Create Dataset](#create-dataset)
-		+ [**Contacts**](#contacts)
-		+ [**Data Currency/Update**](#data-currencyupdate)
-		+ [**Access & Security**](#access--security)
-	+ [Add Data](#add-data)
- 
------------------------
 
 ## PUBLISHING A WEB SERVICE - API TO THE BC DATA CATALOGUE
 
@@ -54,13 +29,13 @@ The intended audiences for this page are:
 
 ---------------
 
-#### **Contacts**
+### **Contacts**
 
 Add contacts for the following **Roles**:
-1. <a href="./glossary.md/#data_custodian">Custodian</a> (required) 
-1. <a href="./glossary.md/#point_of_contact">Point of Contact</a> (required) 
-1. <a href="./glossary.md/#business_expert">Business Expert</a> (optional)
-1. <a href="./glossary.md/#distributor">Distributor</a> (optional) 
+1. [Custodian](./glossary.md/#data_custodian) (required) 
+1. [Point of Contact](./glossary.md/#point_of_contact) (required) 
+1. [Business Expert](./glossary.md/#business_expert) (optional)
+1. [Distributor](./glossary.md/#distributor) (optional) 
 
 **Name**: Contact full name
 
@@ -76,7 +51,7 @@ Add contacts for the following **Roles**:
 
 ---------------
 
-#### **Data Currency/Update**
+### **Data Currency/Update**
 
 **Resource Status** is the status of the Web Service - API as described by one of the types below: 
  
@@ -93,7 +68,7 @@ Add contacts for the following **Roles**:
 
 ---------------
 
-#### **Access & Security**
+### **Access & Security**
 
 **Who can access this application?** desribes the security level for access to the application.
 
@@ -149,6 +124,6 @@ Click **Finished** when complete.  This will save your metadata record for the a
 
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---bc-data-catalogue---web-service---api
-[2]: ./dpw_bcdc.md
+[1]: #web-service---api
+[2]: ./dps_bcdc_w.md
 
