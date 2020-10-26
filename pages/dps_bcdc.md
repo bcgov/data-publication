@@ -11,3 +11,9 @@ DATA PUBLICATION SERVICES
 # BC DATA CATALOGUE
 
 The pages in this section describe the services that DataBC provides for Data Publication in the BC Data Catalogue (BCDC).
+
+[RETURN TO DATA PUBLICATION][1]
+
+-------------------------------------------------------
+
+[1]: ../index.md#
