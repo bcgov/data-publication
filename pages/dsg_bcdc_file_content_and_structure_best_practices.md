@@ -1,22 +1,31 @@
 ---
 layout: default
-title: File Content/Structure Best Practices
+title: File-based Content
 nav_order: 80
 parent: BC Data Catalogue
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC DATA CATALOGUE
-# FILE CONTENT AND STRUCTURE BEST PRACTICES
+# FILE-BASED CONTENT
 
-Datasets that are files should contain machine processable information.
+The page identifies the file formats which must be used when publishing Open Datasets. It was originally written for open data formats as a supplement to the standard described in Section 3.11 [_Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf) of the [_CPPM Policy Chapter 12: Information Management and Information Technology Management_](https://www2.gov.bc.ca/gov/content?id=BAA776C61B934ADA95F42CE503D2784F), which is the standard issued by the Office of the Chief Information Officer.  
 
-This document was originally written for open data formats as a supplement to the standard described in Section 3.11 [_Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf) of the [_CPPM Policy Chapter 12: Information Management and Information Technology Management_](https://www2.gov.bc.ca/gov/content?id=BAA776C61B934ADA95F42CE503D2784F), which is the standard issued by the Office of the Chief Information Officer.  
+## Purpose
 
-The document identifies the file formats which must be used when publishing Open Datasets. Other factors, such as file contents, metadata, hosting, licensing, and security are outside the scope of this document.
+The purpose of this document is to provide guidelines for specific physical file formats in order to optimize datasets for machine processing.
 
 -----------------------
+
+## Audience
+
+The intended audiences of this document are:
+
++ **Data Users** – To help them acquire and use datasets
++ **Data Suppliers** – To provide guidance on how to structure datasets so they are accessible and machine processable.
+
+-----------------------
+
 ## Table of Contents
 + [**FILE CONTENT**](#file-content)
 	+ [Approach](#approach)
@@ -28,24 +37,12 @@ The document identifies the file formats which must be used when publishing Open
 + [**DOCUMENTATION CONVENTIONS**](#documentation-conventions)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
------------------------
-
-# Audience
-
-The intended audiences of this document are:
-
-+ **Data Users** – To help them acquire and use datasets
-+ **Data Suppliers** – To provide guidance on how to structure datasets so they are accessible and machine processable.
-
-# Purpose
-
-The purpose of this document is to provide guidelines for specific physical file formats in order to optimize datasets for machine processing.
-
 ---------------------------------------------------------------------
 
 ## FILE CONTENT
 
 The scope of this document is guidelines for file contents, for the above-stated purpose of optimizing files for machine processing.
+Datasets that are files should contain machine processable information.
 
 ### Approach
 
@@ -364,10 +361,10 @@ The pattern for the location of XML schema files is:
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #file-content-and-structure-best-practices
-[2]: ../index.md#publishing-data-to-the-databc-program
+[1]: #file---based-content
+[2]: ./dsg_bcdc.md
 
