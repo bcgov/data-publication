@@ -143,7 +143,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 1.  Click the **Create Dataset** button.
 
 1. Complete all mandatory fields (minimum requirement). We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in <a href="./dpw_bcdc_metadata_fields.md">How to best fill in metadata</a>. 
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Great Metadata]./tips_tricks_making_great_metadata.md). 
 
 [RETURN TO TOP][1]
 
@@ -160,7 +160,7 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 ------------------------------
 
 ## MANAGING METADATA RESOURCES
-_Note: To use the CKAN API for managing resources, more information is available [here](https://bcgov.github.io/data-publication/pages/bcdc_api_dev_workflow.md)._
+_Note: To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)._
 
 Resources are the data in the metadata record and are added to the record to provide users with access to your data.
 
@@ -203,7 +203,7 @@ While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXIS
 
 ## METADATA MANAGEMENT AND MAINTENANCE
 
-Please review [A Guide for Data Custodians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
+Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
 
 [RETURN TO TOP][1]
 
