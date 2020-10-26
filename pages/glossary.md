@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glossary
-nav_order: 120
+nav_order: 90
 has_toc: false
 ---
 
