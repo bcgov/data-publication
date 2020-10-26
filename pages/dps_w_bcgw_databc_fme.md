@@ -117,8 +117,6 @@ The FME Framework requires you to be able to link published parameters to reader
 
 ![enabling-customizations](images/image_shared_folders.png)
 
-
-
 [RETURN TO TOP][1] 
 
 -----------------------------------------------------------
@@ -137,6 +135,7 @@ The DataBC FME Framework, when run on a DataBC FME Workbench workstation or on F
 When you deliver the FMW to DataBC, do not include the dbCreds.json file with the files you deliver.  Instead arrange with DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) to have the passwords included into our password management system.  
   
 [RETURN TO TOP][1] 
+
 ---------------------------------------------------------------
 
 ### Add the Source Reader(s)
@@ -260,7 +259,6 @@ Configuring an FME Reader or FeatureReader transformer involves creating one or 
 ![](images/image_embed_connection_parameters.png)
 
 IMAGE SHOWING HARD-CODED PARAMETERS
-
 
 #### Comma Separated Values (CSV)
 
