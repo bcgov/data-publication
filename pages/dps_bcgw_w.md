@@ -147,9 +147,9 @@ The purpose of the Technical Whiteboard Session is to discuss the technical deta
 |Type|Resource|Attendance|Action Items from Session|
 |:---|:---|:---|:--|
 |Business Area|Data Suppliers|**Required**|Provide IDIRs and/or BCeIDs of users and data managers|
-||||If not using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
+||||If not using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](dsg_bcgw_data_delivery.md#repository-container-checkout-list-completed)|
 |Business Area|IMB: BA/BP|**Required**|_if Named User access is required, security configuration for: Database Roles, Proxy Accounts, Firewalls_|
-|Business Area|Vendor/Developer|_Optional_|If using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](delivery_standards.md#repository-container-checkout-list-completed)|
+|Business Area|Vendor/Developer|_Optional_|If using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](dsg_bcgw_data_delivery.md#repository-container-checkout-list-completed)|
 
 -------------------------------
 
