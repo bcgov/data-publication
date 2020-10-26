@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Publication Workflow
-nav_order: 10
+nav_order: 121
 parent: BC Data Catalogue
 grand_parent: Data Publication Services
 has_children: true
@@ -14,13 +14,13 @@ When data is published to the the DataBC Program through any of its services, it
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
-## PURPOSE
+## Purpose
 
 This page describes the client workflow for creating metadata in the BC Data Catalogue (BCDC).  
 
 -----------------------
 
-## AUDIENCE
+## Audience
 
 The intended audiences for this page are:
 + clients that are publishing data to the DataBC Program, through any service
@@ -33,10 +33,10 @@ For a description of the roles and responsibilities of the business functions de
 
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
-+ [**WORKFLOW DIAGRAM - AM I READY TO CREATE METADATA?**](#workflow-diagram---am-i-ready-to-create-metadata)
-+ [**WORKFLOW DIAGRAM - METADATA CREATION**](#workflow-diagram---metadata-creation)
++ [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
+	+ [[BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)](#bcdc-metadata-readiness-workflowimageswf_metadatareadinesssvg)
+	+ [[BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)](#bcdc-metadata-creation-workflowimageswf_metadatacreationsvg)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
-+ [**LICENSES**](#licenses)
 + [**CREATING A METADATA RECORD**](#creating-a-metadata-record)
 	+ [METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)](#metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
@@ -56,7 +56,7 @@ For a description of the roles and responsibilities of the business functions de
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation: 
-+ Data Governance > [A Guide for Data Custodaians and Data Managers](https://bcgov.github.io/data-publication/pages/a_guide_for_data_custodians_and_data_managers.html#a-guide-for-data-custodians-and-data-managers)
++ Standards and Guidelines > BC Data Catalogue (./dsg_bcdc.md)
 + [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
 + Standards and Guidelines > [Metadata Standards](https://bcgov.github.io/data-publication/pages/metadata_standards.html)
 + Standards and Guidelines > Naming and Describing > [BC Data Catalogue Naming Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-naming-guidelines)
