@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributing
-nav_order: 200
+nav_order: 100
 has_toc: false
 ---
 
