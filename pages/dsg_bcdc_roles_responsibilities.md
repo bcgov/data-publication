@@ -1,13 +1,12 @@
 ---
 layout: default
 title: Roles and Responsibilties
-nav_order: 1
+nav_order: 233
 parent: BC Data Catalogue
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC DATA CATALOGUE
 # ROLES AND RESPONSIBILITES
 _Formerly: A Guide for Data Custodians and Data Managers_
 
@@ -19,6 +18,19 @@ The guide covers the following topics:
 + Where to find more information
 
 -----------------------
+
+## Purpose
+
+This is a guide for Data Custodians and Data Managers. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
+
+-----------------------
+
+## Audience
+
+If you are a Data Custodian or Data Manager involved with managing spatial data holdings that are widely used and vital to Ministry business, then this guide is for you.
+
+--------------------------
+
 ## Table of Contents
 + [**IT IS ALL ABOUT THE INFORMATION**](#it-is-all-about-the-information)
 + [**WHAT IT MEANS TO BE A DATA CUSTODIAN**](#what-it-means-to-be-a-data-custodian)
@@ -54,16 +66,6 @@ The guide covers the following topics:
 
 -----------------------
 
-# Purpose
-
-This is a guide for Data Custodians and Data Managers. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
-
-# Audience
-
-If you are a Data Custodian or Data Manager involved with managing spatial data holdings that are widely used and vital to Ministry business, then this guide is for you.
-
---------------------------
-
 ## IT IS ALL ABOUT THE INFORMATION
 
 This guide is about managing information within the BCGW and making it available for decision making. The following points provide some context.
@@ -96,6 +98,8 @@ This guide is about managing information within the BCGW and making it available
    + Someone has to set the rules for using information and, having done so, step up to ensure the information is made available according to those rules.
 
 [RETURN TO TOP][1] 
+
+-----------------------
 
 ## WHAT IT MEANS TO BE A DATA CUSTODIAN
 
@@ -477,10 +481,10 @@ If you have questions about this guide, or would like to talk more about using t
 
 [RETURN TO TOP][1] 
 
-[RETURN TO BEFORE YOU START > CUSTODIANSHIP CONSIDERATIONS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
-[1]: #A-Guide-for-Data-Custodians-and-Data-Managers
-[2]: before_you_start.md#custodianship-considerations
+[1]: #roles-and-responsibilities
+[2]: /.dsg_bcdc.md#
 
