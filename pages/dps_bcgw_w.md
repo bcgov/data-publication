@@ -260,7 +260,7 @@ Data Distribution configuration is completed to implement access and security fo
 
 ## REPLICATION SERVICES
 
-Replication Services provides the channel in which the data is updated.  Some datasets require frequent, scheduled updates, while others may be updated less frequently or on an ad-hoc basis. DataBC DA's and [ETL](glossary.md#ETL) services will work with you to set up the replication process for your dataset.
+Replication Services provides the channel in which the data is updated.  Some datasets require frequent, scheduled updates, while others may be updated less frequently or on an ad-hoc basis. DataBC DA's and [ETL](./glossary.md#ETL) services will work with you to set up the replication process for your dataset.
 
 **Resources**
 
