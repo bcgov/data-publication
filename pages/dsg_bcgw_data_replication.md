@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Data Replication Standards and Guidelines
+title: Data Replication
 nav_order: 50
 parent: BC Geographic Warehouse
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
 # DATA REPLICATION STANDARDS AND GUIDELINES
 
 There are currently three mechanisms in place to reload BC Geographic Warehouse data objects when the source objects change:
