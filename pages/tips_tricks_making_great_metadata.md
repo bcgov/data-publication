@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Making Great Metadata
-nav_order: 40
+nav_order: 51
 parent: Tips & Tricks
 has_toc: false
 ---
