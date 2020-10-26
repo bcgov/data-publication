@@ -1,13 +1,13 @@
 ---
 layout: default
-title: BCGW Delivery Standards
+title: Data Delivery
 nav_order: 1
 parent: BC Geographic Warehouse
 grand_parent: Standards and Guidelines
 has_toc: false
 ---
 
-# BC GEOGRAPHIC WAREHOUSE DELIVERY STANDARDS
+# BC GEOGRAPHIC WAREHOUSE DATA DELIVERY STANDARDS
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
 
