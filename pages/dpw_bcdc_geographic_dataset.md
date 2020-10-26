@@ -7,7 +7,6 @@ grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
-DATA PUBLICATION WORKFLOW - BC DATA CATALOGUE
 # GEOGRAPHIC DATASET
 
 ## PURPOSE
