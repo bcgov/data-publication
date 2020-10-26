@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Role Naming/Creation Standards
+title: Role Naming & Creation Standards
 nav_order: 30
 parent: Security and Access
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - SECURITY AND ACCESS
 # ROLE NAMING AND CREATION STANDARDS
 This standard should be consistently applied across platforms, databases and users within DataBC.
 The naming standard is based upon the Role Based Access Control (RBAC) security model and the IDIR naming standard.
