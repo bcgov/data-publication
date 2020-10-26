@@ -23,7 +23,7 @@ The page provides guidance on the use of the Catalogue API to manage metadata an
 
 This document is meant for people who want to use the API to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
 
-For recommendations on how to publish your data, please refer to pages in **Data Standards and Guidelines > [BC Data Catalogue](./dsg_bcdc.md)** or contact [DataBC](mailto:Data@gov.bc.ca) with your questions.
+For recommendations on how to publish your data, please refer to the pages in **Data Standards and Guidelines > [BC Data Catalogue](./dsg_bcdc.md)** or contact [DataBC](mailto:Data@gov.bc.ca) with your questions.
 
 -----------------------
 ## Table of Contents
