@@ -260,7 +260,7 @@ Data Distribution configuration is completed to implement access and security fo
 
 ## REPLICATION SERVICES
 
-Replication Services provides the channel in which the data is updated.  Some datasets require frequent, scheduled updates, while others may be updated less frequently or on an ad-hoc basis. DataBC DA's and [ETL](./glossary.md#Extract-Transform-Load) services will work with you to set up the replication process for your dataset.
+Replication Services provides the channel in which the data is updated.  Some datasets require frequent, scheduled updates, while others may be updated less frequently or on an ad-hoc basis. DataBC DA's and [ETL](glossary.md#ETL) services will work with you to set up the replication process for your dataset.
 
 **Resources**
 
@@ -280,7 +280,7 @@ Replication Services provides the channel in which the data is updated.  Some da
 + SQL query for materialized view replication
 + FME Workspace (FMW) file
 	+ Provided by business area client (or client’s vendor)
-+ [_Use the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)
++ [_Use the DataBC FME Framework_](dps_bcgw_w_databc_fme.md)
 + Replication frequency as identified by the ***Data Suppliers*** in the Dataset Logfile
 
 **Action Items**
