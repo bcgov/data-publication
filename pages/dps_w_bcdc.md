@@ -57,11 +57,8 @@ For a description of the roles and responsibilities of the business functions de
 
 The first step in the process is to review the documentation: 
 + [Standards and Guidelines > BC Data Catalogue](./dsg_bcdc.md)
-+ [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
-+ Standards and Guidelines > [Metadata Standards](https://bcgov.github.io/data-publication/pages/metadata_standards.html)
-+ Standards and Guidelines > Naming and Describing > [BC Data Catalogue Naming Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-naming-guidelines)
-+ Standards and Guidelines > Naming and Describing > [BC Data Catalogue Content and Describing Guidelines](https://bcgov.github.io/data-publication/pages/naming_and_describing.html#bc-data-catalogue-content-and-describing-guidelines)
-+ Standards and Guidelines > [File Content/Structure Best Practices](https://bcgov.github.io/data-publication/pages/file_content_and_structure_best_practices.html)
++ [Standards and Guidelines > Naming and Describing](./dsg_naming_describing.md)
++ [Open Data](./open_data.md)
 
 [RETURN TO TOP][1]
 
@@ -76,6 +73,8 @@ The first step in the process is to review the documentation:
 ### [BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)
 
 ![BCDC Metadata Creation Workflow](images/wf_MetadataCreation.png)
+
+[RETURN TO TOP][1]
 
 ------------------------------
 
