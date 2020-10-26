@@ -134,7 +134,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 ---------------
 
-**License** describes the license the data is being published under. See <a href="./data_publication_workflows_bcdc.md#licenses">Licenses</a> section for more info.
+**License** describes the license the data is being published under. See [Licenses](./dps_bcdc_w.md#licenses) section for more info.
 
 **Security Classification**
 
@@ -202,5 +202,5 @@ To complete the metadata in DRAFT status you can choose either:
 -------------------------------------------------------
 
 [1]: #dataset
-[2]: ./dpw_bcdc_w.md
+[2]: ./dps_bcdc_w.md
 
