@@ -1,18 +1,33 @@
 ---
 layout: default
 title: Metadata Standards
-nav_order: 90
+nav_order: 232
 parent: BC Data Catalogue
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC DATA CATALGOUE
 # METADATA STANDARDS
 
-This document presents metadata standards recommended  and high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue.
+This page describes recommended metadata standards and provides a high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue.
 
 -----------------------
+
+## Purpose
+
+This page presents metadata standards for the BC Data Catalogue (BCDC). It also provides supporting documentation on metadata standards from within the BC Government and other worldwide initiatives. 
+
+------------------------
+
+# Audience
+
+These metadata standards are addressed specifically to:
++ people providing data content to the BC Geographic Warehouse (BCGW) and/or the BC Data Catalogue (BCDC).
++ people writing metadata in the BC Data Catalogue.
++ DataBC staff who review data models and review draft BC Data Catalogue records.
+
+------------------------
+
 ## Table of Contents
 + [**WHAT IS METADATA AND WHY IS IT IMPORTANT?**](#what-is-metadata-and-why-is-it-important)
 	+ [Benefits of Metadata](#benefits-of-metadata)
@@ -23,19 +38,6 @@ This document presents metadata standards recommended  and high-level summary of
 + [**RESOURCES**](#resources)
 
 -----------------------
-
-# Audience
-
-These metadata standards are addressed specifically to:
-+ people providing data content to the BC Geographic Warehouse (BCGW) and/or the BC Data Catalogue (BCDC).
-+ people writing metadata in the BC Data Catalogue.
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
-# Purpose
-
-This page presents metadata standards for the BC Data Catalogue (BCDC). It also provides supporting documentation on metadata standards from within the BC Government and other worldwide initiatives. 
-
----------------------------------------------------------------------
 
 ## WHAT IS METADATA AND WHY IS IT IMPORTANT?
 
@@ -122,7 +124,7 @@ Data elements _optionality_ for each dataset type are as follows:
 
 ## MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES
 
-Table and column descriptions are required for all objects in the BC Geographic Warehouse.  These descriptions are created by the BCGW data modeller, in consultation with the custodian and DataBC data administration staff.  The medium for defining the descriptions is the Dataset Logfile, a template for which can be downloaded from [_Gogs_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile).  Note that that directory contains two TEMPLATE files, one for [_GSR_](faq.md#What-is-the-Geographic-Sites-Registry-GSR) dataloads and one for non-GSR dataloads.
+Table and column descriptions are required for all objects in the BC Geographic Warehouse.  These descriptions are created by the BCGW data modeller, in consultation with the custodian and DataBC data administration staff.  The medium for defining the descriptions is the [Dataset Logfile](dps_bcgw_w.md#dataset-logfile).
 
 ## MANDATORY METADATA FOR RESOURCES NOT IN THE BC GEOGRAPHIC WAREHOUSE
 
@@ -142,14 +144,13 @@ The following links will provide you with additional information regarding metad
 
 + [_North American Profile of ISO 19115:2003_](https://webstore.ansi.org/Standards/INCITS/INCITS4532009)
 
-
 -----------------------------------------------------------
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > RELATED STANDARDS AND RESOURCES][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
 
 -------------------------------------------------------
 
 [1]: #metadata-standards
-[2]: ../index.md#related-standards-and-resources
+[2]: ./dsg_bcdc.md
