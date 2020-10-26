@@ -7,7 +7,7 @@ grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-# ROLES AND RESPONSIBILITES
+# ROLES AND RESPONSIBILITIES
 _Formerly: A Guide for Data Custodians and Data Managers_
 
 The page covers the following topics:
