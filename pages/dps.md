@@ -12,4 +12,6 @@ The pages in this section describe the services that DataBC provides for Data Pu
 
 [RETURN TO DATA PUBLICATION][1]
 
-[1] ../index.md
+-------------------------------------------------------
+
+[1]: ../index.md#
