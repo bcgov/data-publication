@@ -14,4 +14,4 @@ The pages in this section decribe standards and guidelines for publishing data t
 
 -------------------------------------------------------
 
-[1]: index.md
+[1]: ../index.md
