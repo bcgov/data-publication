@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tips & Tricks
-nav_order: 100
+nav_order: 70
 has_toc: false
 ---
 
