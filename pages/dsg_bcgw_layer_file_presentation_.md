@@ -35,8 +35,6 @@ This document is intended for GIS specialists who are creating or updating Esri 
 -----------------------
 
 ## Table of Contents
-+ [**Audience**](#audience)
-+ [**Purpose**](#purpose)
 + [**REQUIREMENTS**](#requirements)
 + [**NAMING STANDARDS**](#naming-standards)
 	+ [Presentation Layer Naming](#presentation-layer-naming)
