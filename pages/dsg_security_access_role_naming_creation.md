@@ -1,17 +1,34 @@
 ---
 layout: default
-title: Role Naming & Creation Standards
-nav_order: 30
+title: Role Naming & Creation
+nav_order: 272
 parent: Security and Access
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-# ROLE NAMING AND CREATION STANDARDS
+# ROLE NAMING AND CREATION
 This standard should be consistently applied across platforms, databases and users within DataBC.
 The naming standard is based upon the Role Based Access Control (RBAC) security model and the IDIR naming standard.
 
 -----------------------
+
+# Purpose
+
+The contents of this page is to provide the audience with the information required to:
+
++ request a new role, including the timeline for the fulfillment of the request
++ implementation of roles, including but not limited to the role types, naming requirements and access types
++ granting IDIR and proxies and proxies to roles
+
+-----------------------
+
+# Audience
+
+The target audience for this page are editors who require access to database schemas and who manage roles/access to other tools, such as ArcMap, SQL Developer and Toad. 
+
+-----------------------
+
 ## Table of Contents
 + [**ROLE CREATION REQUEST**](#role-creation-request)
 	+ [Timelines](#timelines)
@@ -24,20 +41,6 @@ The naming standard is based upon the Role Based Access Control (RBAC) security 
 	+ [Granting Proxies to Roles](#granting-proxies-to-roles)
 
 -----------------------
-
-# Audience
-
-The target audience for this page are editors who require access to database schemas and who manage roles/access to other tools, such as ArcMap, SQL Developer and Toad. 
-
-# Purpose
-
-The contents of this page is to provide the audience with the information required to:
-
-+ request a new role, including the timeline for the fulfillment of the request
-+ implementation of roles, including but not limited to the role types, naming requirements and access types
-+ granting IDIR and proxies and proxies to roles
-
----------------------------------------------------------------------
 
 ## ROLE CREATION REQUEST
 
@@ -221,15 +224,13 @@ Example:
 
 ### Granting Proxies to Roles
 
-See [_Proxy Naming Standards_](proxy_creation_standards.md#proxy-naming-standards)
+See [_Proxy Naming Standards_](dsg_security_access_proxy_creation.md)
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM> NAMING AND DESCRIBING STANDARDS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > SECURITY AND ACCESS][2]
 
 -------------------------------------------------------
 
-[1]: #Role-Naming-and-Creation-Standards
-[2]: ../index.md#naming-and-describing-standards
-
-
+[1]: #Role-Naming-and-Creation
+[2]: ./dsg_security_access.md
