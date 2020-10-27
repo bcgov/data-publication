@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contributing
-nav_order: 100
+title: Feedback
+nav_order: 80
 has_toc: false
 ---
 
