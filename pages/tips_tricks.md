@@ -6,12 +6,12 @@ has_children: true
 has_toc: false
 ---
 
+# TIPS AND TRICKS
 
-# HELPFUL TIPS AND TRICKS FOR THE BC GEOGRAPHIC WAREHOUSE
+This page details some helpful tips and tricks relating to data publication within the DataBC Program.
 
-The context below provides helpful tips and data points for those users who manage or provide information to the BD Geographic Warehouse (BCGW) and ArcGIS Desktop. This page will continue to be updated so it is worth bookmarking for current and future references.  
+---------------------
 
------------------------
 ## Table of Contents
 + [**CONNECTING TO THE BCGW**](#connecting-to-the-bcgw)
 	+ [Connecting to BCGW Production using ArcGIS Desktop](#connecting-to-bcgw-production-using-arcgis-desktop)
@@ -31,17 +31,6 @@ The context below provides helpful tips and data points for those users who mana
 
 -----------------------
 
-# Audience
-
-The content below is intended for all users of the BCGW.
-
-
-# Purpose
-
-The content below is to provide the intended audience with quick access to tips & tricks for managing and/or providing information for publication within the BC Geographic Warehouse (BCGW). 
-
----------------------
-
 ## CONNECTING TO THE BCGW
 
 Use the following information to create connections to DataBC database environments.
@@ -60,7 +49,6 @@ In ArcCatalog, under Database Connections, there should be a Database Connection
    + Password: this is your BCGW password _[How do I get an account to the BCGW?](https://github.com/bcgov/data-standards/blob/master/pages/faq.md#How-do-I-get-an-account-to-BCGW-and-specifically-Delivery-and-Test)_
    + **DO NOT** save your credentials in database connections as this will embed your username and password into any saved MXDs and LYRs that use this connection.  This poses a security threat and can corrupt your MXDs when you are required to [_change your password_](http://apps.bcgov/standards/dbc/Database_Account_Security_Policy).
 
-
 ### Other Database Connections
 
 The BC Geographic Warehouse has three environments: Delivery, Test, and Production, which can be directly connected to from GTS desktops. For data review purposes you may need to connect to the BCGW Test or Delivery databases. These connections are not part of the default start up script on NRS GTS desktops, therefore they will need to be added.
@@ -76,7 +64,6 @@ The BC Geographic Warehouse has three environments: Delivery, Test, and Producti
    + BCGWTEST.sde
    + BCGWDLVR.sde
 
-
 ### Connecting to BCGW Production using FME
 
 Easy Connects are recommended.
@@ -88,6 +75,9 @@ If not using an Easy Connect then the connection requires ESRI syntax and thus i
 + Example:  
         ArcGIS 10.6 - `<BCGW Host Name>``/``<BCGW Service Name>`
 
+[RETURN TO TOP][1]
+
+-----------------------
 
 ## ADDING DATA USING ARCGIS DESKTOP
 
@@ -115,6 +105,7 @@ _Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-e
   + If you do not know the object name for your data, use the [BC Data Catalogue](https://catalogue.data.gov.bc.ca/) to browse for data and the associated object name (shown at the bottom of the metadata record).
   
 [RETURN TO TOP][1]
+
 ----------------------------------------------------------- 
 
 ## IDENTIFIED BUGS
@@ -132,6 +123,7 @@ _Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-e
 
 
 [RETURN TO TOP][1]
+
 ----------------------------------------------------------- 
 
 ## UPDATING DATA SOURCES 
@@ -193,7 +185,6 @@ This section describes how to manage Oracle database connections in ArcMap and A
 
 11. Hit Add
 
-  
 Let this run.
 
 + Large MXDs may take a while to run.
@@ -257,10 +248,10 @@ Connecting to the DataBC Gogs repositories requires that you log in first.
  
 [RETURN TO TOP][1] 
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > TIPS AND TRICKS][2]
+[RETURN TO DATA PUBLICATION][2]
 
 -------------------------------------------------------
 
-[1]: #helpful-tips-about-the-bc-geographic-warehouse
-[2]: ../index.md#tips-and-tricks
+[1]: #tips-and-tricks
+[2]: ../index.md#
 
