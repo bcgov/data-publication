@@ -1,28 +1,29 @@
 ---
 layout: default
 title: Data Classification Hierarchy
-nav_order: 120
+nav_order: 246
 grand_parent: Data Standards and Guidelines
 parent: BC Geographic Warehouse
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
 # DATA CLASSIFICATION HIERARCHY  
 
 Data that is stored in the BC Geographic Warehouse is classified into like groupings (known as schemas).  These groupings are are also used for layerfile presenations in iMapBC and the Layerfile Library.
 
 -----------------------
 
-# Purpose
+## Purpose
 
 This page describes the data classification hierarchy and definitions.
 
 -------------------------
 
-# Audience
+## Audience
 
 The content below is meant for all users of the BC Geographic Warehouse (BCGW), iMapBC and the Layerfile Library within ArcGIS.
+
+-----------------------
 
 ## CATEGORY LEVEL DEFINITIONS
 
@@ -67,9 +68,9 @@ The following table provides the following:
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -------------------------------------------------------
 
 [1]: #data-classification-hierarchy
-[2]: ../index.md#publishing-data-to-the-databc-program
+[2]: ./dsg_bcgw.md
