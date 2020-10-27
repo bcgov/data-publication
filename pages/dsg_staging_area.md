@@ -68,7 +68,7 @@ These staging area standards are addressed specifically to:
 + The Staging Area is only accessible via the GTS Servers.
 + When uploading datasets to Staging, directories are to be mapped as:
    + \\data.bcgov\data_staging_bcgw\
-   + The second level of the [_Data Classification Hierarchy_](dsg_data_classification_hierarchy.md) is used to determine what folder the data is to be located in. 
+   + The second level of the [_Data Classification Hierarchy_](dsg_bcgw_data_classification_hierarchy.md) is used to determine what folder the data is to be located in. 
          + This location will be assigned by DataBC DA.
 + Directory access requests are to be submitted through [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
 
