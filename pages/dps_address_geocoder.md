@@ -2,6 +2,7 @@
 layout: default
 title: BC Address Geocoder
 nav_order: 11
+parent: Data Publication Services
 has_children: false
 has_toc: false
 ---
