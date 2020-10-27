@@ -118,5 +118,5 @@ In the event that a net new application schema is required the creation scripts 
 -------------------------------------------------------
 
 [1]: #proxy-creation
-[2]: ./dsg_securtiy_access.md
+[2]: ./dsg_security_access.md
 
