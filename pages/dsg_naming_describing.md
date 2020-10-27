@@ -176,10 +176,10 @@ Definitions must be full sentences or a combination of sentences, even when usin
 + be written consistently in the following format (for a COLUMN called **FIELD_NAME**)
     + for all new data models:
     + A statement of what FIELD_NAME means, with either some typical examples or a list of all possible values.
-      + Example: `The system calculated area of a two-dimensional polygon in square meters.`
+    		+ Example: `The system calculated area of a two-dimensional polygon in square meters.`
     + in cases where a new/updated object should match other related objects:
-      + FIELD_NAME is a statement of what the column means, with either some typical examples or a list of all possible values. 
-      + Example: `FEATURE_AREA_SQM is the system calculated area of a two-dimensional polygon in square meters.`
+    		+ FIELD_NAME is a statement of what the column means, with either some typical examples or a list of all possible values. 
+    		+ Example: `FEATURE_AREA_SQM is the system calculated area of a two-dimensional polygon in square meters.`
 
 The description of a spatial point table/view must contain an indication of whether the features in the table or view are point (one point per feature) or multipoint (possibly multiple points per feature).
 
@@ -245,7 +245,7 @@ Do not include examples for these types of fields:
 
 ### Defining Code and Indicator Values
 
-The use of Code and Indicator fields are explained in [_Use of Indicator and Flag Columns_](data_guidance_and_best_practices.md#use-of-indicator-and-flag-columns). When defining the meaning of code and indicator values, enclose the meaning in parentheses, following the code or indicator value.
+The use of Code and Indicator fields are explained in [_Use of Indicator and Flag Columns_](dsg_data_standards.md#use-of-indicator-and-flag-columns). When defining the meaning of code and indicator values, enclose the meaning in parentheses, following the code or indicator value.
 
 
 + **Example of a code column**: The four character watershed group code, e.g., ADMS (Adams River), ALBN (Alberni Inlet).
@@ -286,11 +286,11 @@ Caution should be taken to ensure that the abbreviation process doesn't result i
 
 + **FA**: _Fully Attributed_ 
    + When a table or view contains identical data to another table or view, but instead has additional fields. 
-      + This might be an internal government IDIR-only view where a public view with less attributes also exists. 
+      	+ This might be an internal government IDIR-only view where a public view with less attributes also exists. 
    + Example: GSR_SOCIAL_MIN_OFFICES_FA_SV
 + **PA**: _Partially Attributed_
    + When a table or view contains identical data to another table or view, but instead has less fields. 
-      + This might be a public view of an already existing IDIR-only table.
+      	+ This might be a public view of an already existing IDIR-only table.
    + Example: XYZ_EXISTING_TABLE_PA_SV
 
 [RETURN TO TOP][1] 
@@ -616,7 +616,7 @@ The Data and Resources section of a BC Data Catalogue dataset record lists the s
 
 Column headings in CSV files and XLSX spreadsheets should be clear enough to give the viewer some indication of what the contents of the column mean. In addition, CSV files and XLSX spreadsheets should be accompanied by a data dictionary document that further describes the columns, their meaning, valid domains, data types, and examples. 
 
-See https://catalogue.data.gov.bc.ca/dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315/resource/824f2a99-d738-4b63-a492-a906d4c37be0/download/datadict_public.xlsx for an example of a data dictionary document. Multiple resources within a single dataset can be described by a single data dictionary document.
+See this [Catalogue Resource](https://catalogue.data.gov.bc.ca/dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315/resource/824f2a99-d738-4b63-a492-a906d4c37be0/download/datadict_public.xlsx) for an example of a data dictionary document. Multiple resources within a single dataset can be described by a single data dictionary document.
 
 [RETURN TO TOP][1] 
 
@@ -680,22 +680,6 @@ Above all, keep in mind the intention of the *data seeker* when supplying keywor
 
 -----------------------------------------------------------
 
-## RELATED STANDARDS
-
-Please refer to the following standards for:
-
-|Standard| Purpose|
-|:---|:---|
-|[_Proxy Creation Standards_](proxy_creation_standards.md#proxy-naming-standards)| All proxy creations|
-|[_Role Naming and Creation Standards_](role_naming_and_creation_standards.md#role-naming-and-creation-standards)| All database role naming and creation|
-|[_Staging Area Standards_](staging_area_standards.md#staging-area-standards)| Staging area standards and guidelines|
-|[_Data Replication Standards and Guidelines_](data_replication_standards_and_guidelines.md#data-replication-standards-and-guidelines)| FME Workbench File Standards for data replication standards and guidelines|
-|[_Layer Presentation Standards_](layer_file_presentation_standards.md#layer-presentation-standards)| Layer file presentation standards|
-
-[RETURN TO TOP][1]
-
------------------------------------------------------------
-
 ## APPENDIX A: Standard List of Abbreviations
 
 --under construction--
@@ -723,12 +707,9 @@ Please refer to the following standards for:
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > NAMING AND DESCRIBING STANDARDS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][2]
 
 -------------------------------------------------------
 
-[1]: #Naming-and-Describing-Standards
-[2]: ../index.md#naming-and-describing-standards
-
-
-
+[1]: #Naming-and-Describing
+[2]: ./dsg.md
