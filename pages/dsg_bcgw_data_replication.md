@@ -19,13 +19,13 @@ This page describes standards and guidelines concerning the first of these - FME
 
 -----------------------
 
-#@ Purpose
+## Purpose
 
 This page provides standards and best practices for writing FME scripts to load data to the BC Geographic Warehouse.
 
 -----------------------
 
-#@ Audience
+## Audience
 
 This page will be of interest to anybody building FME scripts as part of a data delivery to the BC Geographic Warehouse. 
 
