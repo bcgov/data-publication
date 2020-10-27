@@ -1,27 +1,11 @@
 ---
 layout: default
 title: Glossary
-nav_order: 90
+nav_order: 70
 has_toc: false
 ---
 
 # GLOSSARY
-This page is both a definition of terms as well as a description of acronyms.
-
-
-## Audience
-
-This document is intended for the use by any and all users of the documentation for the DataBC Program.
-
-## Purpose
-
-This document provides the intended audience, acronym and terminology definitions. 
-
------------------------------------------------------------
-
-## Definitions
-
-Below is a list of terms and their definitions.
 
 | |Acronym|Term|Definition|
 |-|:---:|:---|:---|
@@ -55,9 +39,9 @@ Below is a list of terms and their definitions.
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > ADDITIONAL RESOURCES][2]
+[RETURN TO DATA PUBLICATION][2]
 
 -------------------------------------------------------
 
 [1]: #glossary
-[2]: ../index.md#additional-references
+[2]: ../index.md
