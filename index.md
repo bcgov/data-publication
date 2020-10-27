@@ -29,7 +29,7 @@ Please refer to [_Data Publication: Roles and Responsibilities_](pages/roles_and
   
 -----------------------------------------------------------
 
-# Audience
+## Audience
 
 This document is meant for people who want to make data available through the DataBC Program or maintain data which has been previously published. It does not contain any DataBC Program internal operational information.
 
