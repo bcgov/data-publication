@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Before You Start
-nav_order: 1
+nav_order: 21
 parent: Data Standards and Guidelines
 has_toc: false
 ---
@@ -12,8 +12,21 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 Before your data is published, we will need to gather some information from you. This page will guide you through that process.
 
 -----------------------
+
+## Purpose
+
+The purpose of this page is to help the [DataBC Data Architecture](mailto:DataBC.DA@gov.bc.ca) team learn about your requirements and to determine whether the DataBC Program can meet them.
+
+-----------------------
+
+## Audience
+
+This page is relevant to anyone considering making their data available through any of the DataBC Program's access channels. 
+
+-----------------------
+
 ## Table of Contents
-+ [**INTRODUCTION**](#introduction)
++ [**DATA PUBLICATION CHANNELS**](#data-publication-channels)
 + [**QUESTIONS**](#questions)
 	+ [Questions about the Data](#questions-about-the-data)
 	+ [Custodianship Considerations](#custodianship-considerations)
@@ -25,17 +38,8 @@ Before your data is published, we will need to gather some information from you.
 + [**REFERENCES**](#references)
 
 -----------------------
-# Audience
 
-This page is relevant to anyone considering making their data available through any of the DataBC Program's access channels. 
-
-# Purpose
-
-The purpose of this page is to help the [DataBC Data Architecture](mailto:DataBC.DA@gov.bc.ca) team learn about your requirements and to determine whether the DataBC Program can meet them.
-
----------------------------------------------------------------------
-
-## INTRODUCTION
+## DATA PUBLICATION CHANNELS
 
 The DataBC Program makes data available through combinations of several different channels:
 
@@ -114,13 +118,13 @@ In order to help us determine how your data best fits into these options and ser
 ### Custodianship Considerations
 
 + Has this dataset been created by the Province of British Columbia?
-   + If no, is your business area the authorized [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)? 
-      + For example, BCStats acts as the authorized _Data Steward_ for data collected and disseminated by Statistics Canada.
+   + If no, is your business area the authorized [_Data Steward_](dsg_bcdc_roles_responsibilities.md#the-data-steward)? 
+         + For example, BCStats acts as the authorized _Data Steward_ for data collected and disseminated by Statistics Canada.
 + Do you have Director level approval? 
    + Your Director will be the _Data Custodian_, and ultimately accountable for the dataset.
-   + Refer to [_What is a Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-is-a-data-custodian) for further details.
+   + Refer to [_What is a Data Custodian_](dsg_bcdc_roles_responsibilities.mdd#what-is-a-data-custodian) for further details.
 + Is there a program (staff and resources) in place to ensure this data kept up-to-date? Are there identified staff managing the data, i.e., Data Manager?
-   + Refer to [_What it means to be a Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager) for further details.
+   + Refer to [_What it means to be a Data Manager_](dsg_bcdc_roles_responsibilities.md#what-it-means-to-be-a-data-manager) for further details.
 
 [RETURN TO TOP][1]
 
@@ -143,11 +147,11 @@ In order to help us determine how your data best fits into these options and ser
 + Are there existing or new applications that will use this data?    
 + What tools (visualize or otherwise) will be used to access the data?
    + [_DataBC Products & Services_](https://www2.gov.bc.ca/gov/content?id=A3358A6053464AE484A105D6E877833F)
-      + [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43) 
-      + [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
-      + [_B.C.'s Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
-      + [_Data Distribution (Downloads)_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
-      + Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
+         + [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43) 
+         + [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
+         + [_B.C.'s Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
+         + [_Data Distribution (Downloads)_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
+         + Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
    + Outside DataBC tools/application (existing applications or potentially a new application)
 
 [RETURN TO TOP][1]
@@ -195,16 +199,16 @@ In certain circumstances there may be additional charges for the following:
 + we need to be heavily involved in operational planning (planning preparation of the data set)  
 + the data source is nonstandard
    + Standard sources are:
-      + Oracle operational BC Government databases, 
-	  + csv files, 
-	  + shape files, 
-	  + file geodatabases, 
-	  + text files, 
-	  + rest APIs.
+         + Oracle operational BC Government databases, 
+	   + csv files, 
+	   + shape files, 
+	   + file geodatabases, 
+	   + text files, 
+	   + rest APIs.
 
-The amount of the charge will be discussed at the [_Discovery Whiteboard_](bcgw_data_onboarding_workflow.md#discovery-whiteboard), held at the beginning of the publication process.
+The amount of the charge will be discussed at the [_Discovery Whiteboard_](dps_bcgw_w.md#discovery-whiteboard), held at the beginning of the publication process.
 
-Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the [_Discovery Whiteboard_](bcgw_data_onboarding_workflow.md#discovery-whiteboard).
+Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the [_Discovery Whiteboard_](dps_bcgw_w.md#discovery-whiteboard).
 
 
 [RETURN TO TOP][1]
@@ -217,8 +221,8 @@ Please send answers to the questions above to the DataBC [Data Architecture Serv
 
 In addition, the following resources are available:
 
-+ [_Data Publication Workflow - BC Geographical Warehouse_](bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse): a step by step guide to the data onboarding process for data to be loaded into the BC Geographic Warehouse.
-+ [_Frequently Asked Questions_](faq.md#frequently-asked-questions-faq)
++ Data Publication Services > BC Geographic Warehouse > [_Publication Workflow_](dps_bcgw_w.md): a step by step guide to the data onboarding process for data to be loaded into the BC Geographic Warehouse.
++ [_Frequently Asked Questions_](faq.md)
 + [_DataBC Program Key Contacts_](faq.md#WHOS-WHO-AT-DATABC)
 
 [RETURN TO TOP][1]
@@ -228,18 +232,14 @@ In addition, the following resources are available:
 ## REFERENCES
 
 + [_Governance and Standards Website_](https://www.data.gov.bc.ca/dbc/about/governance_standards.page?)
-+ [_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md)
++ BC Data Catalogue > [_Roles and Responsibilities_](a_guide_for_data_custodians_and_data_managers.md)
 + [_Data Custodianship Guidelines for BC_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][2]
 
 -------------------------------------------------------
 
 [1]: #before-you-start
-[2]: ../index.md#data-publication-process
-
-
-
-
+[2]: ./dsg.md
