@@ -1,17 +1,39 @@
 ---
 layout: default
-title: Layerfile Presentation
-grand_parent: Data Standards and Guidelines
+title: Layer File Presentation
 parent: BC Geographic Warehouse
-nav_order: 5
+grand_parent: Data Standards and Guidelines
+nav_order: 244
 has_toc: false
 ---
 
-# LAYERFILE PRESENTATION STANDARDS
+# LAYER FILE PRESENTATION
 
-This document presents standards for maintaining Esri ArcGIS layer files as required for DataBC's mapping applications and services.
+A layer file is an ESRI-based file with a .lyr extension that stores the path to a source dataset and other layer properties, including symbology. It provides a consistnent presentation for data and is built using ESRI's ArcGIS software.
 
 -----------------------
+
+## Purpose
+
+This document provides standards, guidelines and procedures for layerfile presentations and the cartographic symbology of spatial data in the BC Geographic Warehouse (BCGW) as required for DataBC's mapping applications and services. 
+
+Specifically, the layer files are directly or indirectly used as the source for presentations in the following mapping applications and services:
+
++ iMapBC
++ DataBC's IMF2 custom applications
++ Layer Library folder
++ TSAT Toolbar "Add Library Layers" tool (GTS ArcGIS Desktop ArcMap)
++ Web Mapping Service (WMS)
++ B.C.'s Map Hub layers available through ArcGIS Online
+
+-----------------------
+
+## Audience
+
+This document is intended for GIS specialists who are creating or updating Esri ArcGIS layer files to be submitted to DataBC.
+
+-----------------------
+
 ## Table of Contents
 + [**Audience**](#audience)
 + [**Purpose**](#purpose)
@@ -34,25 +56,6 @@ This document presents standards for maintaining Esri ArcGIS layer files as requ
 + [**REFERENCES**](#references)
 
 -----------------------
-
-## Audience
-
-This document is intended for GIS specialists who are creating or updating Esri ArcGIS layer files to be submitted to DataBC.
-
-## Purpose
-
-This document provides standards, guidelines and procedures for layer presentations and the cartographic symbology of spatial data in the BC Geographic Warehouse (BCGW) as required for DataBC's mapping applications and services. 
-
-Specifically, the layer files are directly or indirectly used as the source for presentations in the following mapping applications and services:
-
-+ iMapBC
-+ DataBC's IMF2 custom applications
-+ Layer Library folder
-+ TSAT Toolbar "Add Library Layers" tool (GTS ArcGIS Desktop ArcMap)
-+ Web Mapping Service (WMS)
-+ B.C.'s Map Hub layers available through ArcGIS Online
-
----------------------------------------------------------------------
 
 ## REQUIREMENTS
 
@@ -132,7 +135,7 @@ There are many other layer name parts that could be used, both mandatory and opt
    + **MANDATORY**, for a layer that contains non-public visible data
 1. Imagery
    + Interim naming 'standard' for these layers. 
-      + NOTE: Imagery is managed internally at DataBC.
+         + NOTE: Imagery is managed internally at DataBC.
    + "Ortho/Sat" "Location" "Airphoto/blank" "Colour/B&W" "Year" "Resolution"
 
 NOTE: For **generalized datasets**:
@@ -303,15 +306,14 @@ Symbology defines how geographic features are displayed
 + Features (Single symbol): supported
 + Theming on Categories -\> Unique values: supported
 + Theming on Categories -\> Unique values, many fields: supported
-   + HOWEVER, **please note**: There must be **an additional simple presentation layer**: either categorization on one field or single symbol (and must not be filtered with a definition query). This presentation should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
+   + HOWEVER, **please note**: Along with the unique values many fields symbolization, there must be **an additional simple presentation layer** (e.g., categorization on one field or no categorization with only single symbol) of the entire spatial dataset (i.e., no filters or definitions queries) in the layer file. This presentation layer should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
 + Theming on Quantities: supported
-+ Using a simple mask (halo) for symbols: supported
 + Polygon Marker Fill Symbol or Marker Line Symbol is also permitted, but will probably have a slower draw time.
 
 **Symbology Options NOT supported**:
 
-+ "Group Values" (right-click menu option) to combine 2 or more categories is **NOT SUPPORTED**
-+ Theming categories using the Advanced -\> Symbol Levels is **NOT SUPPORTED**
++ Theming on Categories: using the Group Values option to combine 2 or more categories is **NOT SUPPORTED**
++ Theming categories using Advanced -\> Symbol Levels is **NOT SUPPORTED**
 
 #### Polygon Symbology
 
@@ -472,10 +474,9 @@ Below is a list of additional references:
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > NAMING AND DESCRIBING STANDARDS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -------------------------------------------------------
 
-[1]: #layer-presentation-standards
-[2]: ../index.md#naming-and-describing-standards
-
+[1]: #layerfile-presentation
+[2]: ./dsg_bcgw.md
