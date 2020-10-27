@@ -408,7 +408,7 @@ Ideally, the _presentation profile_ should make invisible the complexities and t
 + Once the layer file is defined, DataBC will translate it for use with in various warehouse access channels for use with web mapping tools such as iMapBC.
 + You will then be asked to review and approve the translation within a test environment.
 
-For more information about the various tools available to view, analyze and connect to data, visit the [BC Government's Data page](. (https://www2.gov.bc.ca/gov/content/data).
+For more information about the various tools available to view, analyze and connect to data, visit the [BC Government's Data page](https://www2.gov.bc.ca/gov/content/data).
 
 ### Define Downloadable Data Products
 
