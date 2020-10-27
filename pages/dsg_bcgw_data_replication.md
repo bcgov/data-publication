@@ -53,13 +53,13 @@ Individual business areas are responsible to ensure their data is complete and r
 
 ## DATABC FME FRAMEWORK
 
-A step-by-step guide to using the DataBC FME Framework is available in the companion document [_Using the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)
+A step-by-step guide to using the DataBC FME Framework is available in the companion document [_Using the DataBC FME Framework_](dps_bcgw_w_databc_fme.md)
 
 ### Starting Point FMW
 
 A sample FMW can be downloaded from [_Gogs_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw).  
 
-+ Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
++ Refer to [_Connecting to Gogs_](tips_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
 
 ### FMW File Naming
 The file naming convention consists of a series of components:
