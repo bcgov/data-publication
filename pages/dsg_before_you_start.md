@@ -44,7 +44,7 @@ This page is relevant to anyone considering making their data available through 
 The DataBC Program makes data available through combinations of several different channels:
 
 + the [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
-+ the [_BC Data Catalogue_](https://catalogue.data.goc.bc.ca)
++ the [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
 + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
 + [_Web Map Services (WMS) and Feature Services (WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
 + [_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
