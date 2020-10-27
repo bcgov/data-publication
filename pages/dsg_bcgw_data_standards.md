@@ -7,13 +7,33 @@ parent: BC Geographic Warehouse
 has_toc: false
 ---
 
-DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
 # DATA STANDARDS
-_Formerly: DATA GUIDANCE AND BEST PRACTICES_
+_Formerly: Data Guidance and Best Practices_
 
-The page provides guidance and best practices when providing data, spatial or otherwise.
+Standards make it easier to create, share, and integrate data by making sure that there is a clear understanding of how the data are represented and that the data you receive are in a form that you expected.
 
 -----------------------
+
+## Purpose
+
+This page presents general standards, guidelines and best practices when providing data, spatial or otherwise in:
+
++ the BC Geographic Warehouse (BCGW).
++ the BC Data Catalogue (BCDC).
++ the DataBC Data Modelling tool (currently Oracle Designer).
+
+-----------------------
+
+## Audience
+
+These standards and guidelines are addressed specifically to:
+
++ people providing data content to the BC Geographic Warehouse and/or the BC Data Catalogue.
++ developers providing data models and files as part of the DataBC delivery kit publication process.
++ DataBC staff who review data models and review draft BC Data Catalogue records.
+
+-----------------------
+
 ## Table of Contents
 + [**DATA TYPE STANDARDS**](#data-type-standards)
 + [**SPATIAL DATA STANDARDS**](#spatial-data-standards)
@@ -34,24 +54,6 @@ The page provides guidance and best practices when providing data, spatial or ot
 + [**REFERENCES**](#references)
 
 -----------------------
-
-# Audience
-
-These standards and guidelines are addressed specifically to:
-
-+ people providing data content to the BC Geographic Warehouse and/or the BC Data Catalogue.
-+ developers providing data models and files as part of the DataBC delivery kit publication process.
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
-# Purpose
-
-This document presents general standards and guidelines for naming and describing data components in:
-
-+ the BC Geographic Warehouse (BCGW).
-+ the BC Data Catalogue (BCDC).
-+ the DataBC Data Modelling tool (currently Oracle Designer).
-
----------------------------------------------------------------------
 
 ## DATA TYPE STANDARDS
 
@@ -273,11 +275,9 @@ If an application is presenting data in a read-only fashion, then it may replace
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA GUIDANCE AND BEST PRACTICES][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -------------------------------------------------------
 
-[1]: #Data-Guidance-and-best-practices
-[2]: ../index.md#data-guidance-and-best-practices
-
-
+[1]: #data-standards
+[2]: ./dsg_bcgw.md
