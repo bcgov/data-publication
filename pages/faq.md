@@ -5,27 +5,9 @@ nav_order: 60
 has_toc: false
 ---
 
-# FREQUENTLY ASKED QUESTIONS (FAQ)
+# FREQUENTLY ASKED QUESTIONS
 
-This page provides a list of frequently asked questions and answers to help clients that are publishing data within the DataBC Program. 
-
------------------------
-
-## Purpose
-
-This page provides answers to frequently asked questions and identifies DataBC contacts, with emails, for specific functional areas. 
-
------------------------
-
-## Audience
-
-This page's intended audience is anyone who is interested in or is currently publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
-
------------------------
-
-## Table of Contents
-+ [**WHO'S WHO AT DATABC**](#whos-who-at-databc)
-+ [**BC DATA CATALOGUE ROLES**](#bc-data-catalogue-roles)
+# Table of Contents
 + [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#data-publication-licensing-options---open-dataaccess-only)
 	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#what-is-open-data-and-what-is-the-difference-between-open-data-and-access-only-public-data)
 	+ [Why should I consider publishing data under an open data licence?](#why-should-i-consider-publishing-data-under-an-open-data-licence)
@@ -138,20 +120,6 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 -------------------------------------------------------
 
-## BC DATA CATALOGUE ROLES
-
-There are 3 roles associated with data holdings in the BC Data Catalogue: Data Custodian, Data Steward, and Data Manager. To familiarize yourself with the responsibilities of each of these, review the following documentation:  
-   + [_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md)
-     + [_Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-custodian)
-     + [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)
-     + [_Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager)
-
-+ Other documents explaining guidelnes, roles and responsibilities:
-   + [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
-   + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
-
-[RETURN TO TOP][1]
-
 -------------------------------------------------------
 
 ## DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY
@@ -174,7 +142,6 @@ The following sections will help explain the difference between **Open Data** an
 
 + Crown copyright is a form of copyright claim used by the governments of a number of Commonwealth realms. It provides special copyright rules for the Crown, i.e. government departments and (generally) state entities - [_Wikipedia_](https://en.wikipedia.org/wiki/Crown_copyright#:~:text=Crown%20copyright%20is%20a%20form,and%20(generally)%20state%20entities.).
 + You can find information about Crown Copyright on this [_BC Government website_](https://www2.gov.bc.ca/gov/content/home/copyright).  
-   
 
 ### Why should I consider publishing data under an open data licence?
 
@@ -581,12 +548,13 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
    1. BC Data Catalogue
    1. DataBC File Staging Area
 
+-------------------------------------------------------
+
 [RETURN TO TOP][1]
 
 [RETURN TO DATA PUBLICATION][2]
 
 -------------------------------------------------------
 
-[1]: #frequently-asked-questions-faq
+[1]: #frequently-asked-questions
 [2]: ../index.md
-
