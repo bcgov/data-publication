@@ -53,7 +53,7 @@ These staging area standards are addressed specifically to:
 + Location: \\data.bcgov\agol_staging\
 + Directory access requests are to be submitted through [_Map Services_](faq.md#map-services) team.  Note: IDIR Access to this location is usually provided to content creators during setup of their BCs Map Hub account.
 + Usage notes.  The exact path+file extension must be referenced to access from web:
-   + for this folder location \\data.bcgov\agol_staging\[add remaining file path here]
+   + for this folder location \\data.bcgov\agol_staging\ (add remaining file path here)
    + the URL is: https://pub.data.gov.bc.ca/ago/ (add remaining file path here - including the file name and extension you wish to access)
    + Example:  BC Geocoder and Route Planner WAB app demo
       + \\data.bcgov\agol_staging\resources\apps\widgetDemo\index.html
