@@ -16,27 +16,8 @@ This document provides a set of standards, guidelines, and procedures around loa
 + [_BC Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
 
 -----------------------
-## Table of Contents
-+ [**DATA PUBLICATION PROCESS**](#data-publication-process)
-+ [**DATA GUIDANCE AND BEST PRACTICES**](#data-guidance-and-best-practices)
-+ [**NAMING AND DESCRIBING STANDARDS**](#naming-and-describing-standards)
-+ [**TIPS AND TRICKS**](#tips-and-tricks)
-+ [**ADDITIONAL REFERENCES**](#additional-references)
-+ [**RELATED STANDARDS AND RESOURCES**](#related-standards-and-resources)
-+ [**HOW TO USE THIS SITE**](#how-to-use-this-site)
 
------------------------
-
-# Audience
-
-This document is meant for people who want to make data available through the DataBC Program or maintain data which has been previously published. It does not contain any DataBC Program internal operational information.
-
-For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages. 
-
-Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
-
-
-# Purpose
+## Purpose
 
 The contents of this space are provided as a set of standards, guidelines, and procedures around loading and maintaining data to be served by the DataBC Program. These guidelines will evolve as needed, based on feedback, so we encourage the use of any of the following feedback channels to evolve the content.
 
@@ -48,16 +29,38 @@ Please refer to [_Data Publication: Roles and Responsibilities_](pages/roles_and
   
 -----------------------------------------------------------
 
+# Audience
+
+This document is meant for people who want to make data available through the DataBC Program or maintain data which has been previously published. It does not contain any DataBC Program internal operational information.
+
+For recommendations on how to publish your data, please refer to the [Before you start](pages/before_you_start.md#before-you-start) and the [_Frequently Asked Questions_](pages/faq.md#frequently-asked-questions-faq) pages. 
+
+Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) team.
+
+-----------------------
+
+## Table of Contents
++ [**DATA PUBLICATION PROCESS**](#data-publication-process)
++ [**DATA GUIDANCE AND BEST PRACTICES**](#data-guidance-and-best-practices)
++ [**NAMING AND DESCRIBING STANDARDS**](#naming-and-describing-standards)
++ [**TIPS AND TRICKS**](#tips-and-tricks)
++ [**ADDITIONAL REFERENCES**](#additional-references)
++ [**RELATED STANDARDS AND RESOURCES**](#related-standards-and-resources)
++ [**HOW TO USE THIS SITE**](#how-to-use-this-site)
+
+-----------------------
+
 ## DATA PUBLICATION PROCESS
 
 The following links will help you understand the data publication process.
 
-+ <a name=before>[_Before You Start_](pages/before_you_start.md#before-you-start)</a>
-+ <a name=publication>[_Data Publication: Roles and Responsibilities_](pages/roles_and_responsibilities.md#data-publication-roles-and-responsibilities)</a>
-+ <a name=workflow>[_Data Publication Workflow - BC Geographic Warehouse_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse)</a>
-+ <a name=workflow>[_Data Publication Workflow - BC Data Catalogue_](pages/bcdc_data_onboarding_and_workflow.md#data-publication-workflow---bc-geographical-warehouse)</a>
-+ <a name=standards>[_BC Geographic Warehouse Delivery Standards_](pages/delivery_standards.md#bc-geographic-warehouse-delivery-standards)</a>
-+ <a name=framework>[_Using the DataBC FME Framework_](pages/using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)</a>
++ [_Before You Start_](dsg_before_you_start.md)
++ Data Publication Services 
+   + [_BC Geographic Warehouse_](dps_bcgw_w.md)
+   + [_BC Data Catalogue_](dps_bcdc_w.md)
++ Data Standards and Guidelines
+   + [_BC Geographic Warehouse_](dsg_bcgw.md)  
+   + [_BC Data Catalogue_](dsg.bcdc.md)
  
 [RETURN TO TOP][1] 
 
