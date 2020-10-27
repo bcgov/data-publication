@@ -54,7 +54,7 @@ Feel free to contact the [DataBC Data Architecture Services](mailto:databc.da@go
 
 The following links will help you understand the data publication process.
 
-+ [_Before You Start_](./dsg_before_you_start.md)
++ [_Before You Start_](pages/dsg_before_you_start.md)
 + Data Publication Services 
    + [_BC Geographic Warehouse_](./dps_bcgw_w.md)
    + [_BC Data Catalogue_](./dps_bcdc_w.md)
