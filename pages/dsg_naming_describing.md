@@ -245,7 +245,7 @@ Do not include examples for these types of fields:
 
 ### Defining Code and Indicator Values
 
-The use of Code and Indicator fields are explained in [_Use of Indicator and Flag Columns_](dsg_data_standards.md#use-of-indicator-and-flag-columns). When defining the meaning of code and indicator values, enclose the meaning in parentheses, following the code or indicator value.
+The use of Code and Indicator fields are explained in [_Use of Indicator and Flag Columns_](dsg_bcgw_data_standards.md#use-of-indicator-and-flag-columns). When defining the meaning of code and indicator values, enclose the meaning in parentheses, following the code or indicator value.
 
 
 + **Example of a code column**: The four character watershed group code, e.g., ADMS (Adams River), ALBN (Alberni Inlet).
