@@ -6,11 +6,33 @@ parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-# STAGING AREA STANDARDS
+# STAGING AREA
 
-This guide provides the necessary information for all locations and access to multiples staging areas, depending on the type of data being published.  Also provided is contact information for additional assistance.
+This guide provides the necessary information for all locations and access to multiples staging areas, depending on the type of data being published.  Contact information is also provided for additional assistance.
 
 -----------------------
+
+## Purpose
+
+DataBC manages multiple staging areas to allow for the transfer and storage of file based source datasets for the intent to be published via DataBC's access channels.
+
++ BC Geographic Warehouse (BCGW)
++ BC Data Catalogue (BCDC)
++ Tilecache
+
+-----------------------
+
+## Audience
+
+These staging area standards are addressed specifically to:
+
++ people providing data content to the BC Geographic Warehouse,
++ developers providing data models and files as part of the DataBC delivery kit publication process,
++ developers describing web services that are consumed by DataBC processes (e.g., a JSON REST service consumed by a DataBC Extract-Transform-Load (ETL) processes),
++ DataBC staff who review data models and review draft BC Data Catalogue records.
+
+-----------------------
+
 ## Table of Contents
 + [**AGO (ArcGIS ONLINE) STAGING AREA LOCATION AND ACCESS**](#ago-arcgis-online-staging-area-location-and-access)
 + [**BCGW STAGING AREA LOCATION AND ACCESS**](#bcgw-staging-area-location-and-access)
@@ -21,24 +43,6 @@ This guide provides the necessary information for all locations and access to mu
 + [**STAGING AREA NAMING AND DATA QUALITY**](#staging-area-naming-and-data-quality)
 
 -----------------------
-# Audience
-
-These staging area standards are addressed specifically to:
-
-+ people providing data content to the BC Geographic Warehouse,
-+ developers providing data models and files as part of the DataBC delivery kit publication process,
-+ developers describing web services that are consumed by DataBC processes (e.g., a JSON REST service consumed by a DataBC Extract-Transform-Load (ETL) processes),
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
-# Purpose
-
-DataBC manages multiple staging areas to allow for the transfer and storage of file based source datasets for the intent to be published via DataBC's access channels.
-
-+ BC Geographic Warehouse (BCGW)
-+ BC Data Catalogue (BCDC)
-+ Tilecache
-
----------------------------------------------------------------------
 
 ## AGO (ArcGIS ONLINE) STAGING AREA LOCATION AND ACCESS
 
@@ -52,8 +56,8 @@ DataBC manages multiple staging areas to allow for the transfer and storage of f
    + for this folder location \\data.bcgov\agol_staging\[add remaining file path here]
    + the URL is: https://pub.data.gov.bc.ca/ago/ (add remaining file path here - including the file name and extension you wish to access)
    + Example:  BC Geocoder and Route Planner WAB app demo
-      + \\data.bcgov\agol_staging\resources\apps\widgetDemo\index.html
-      + https://pub.data.gov.bc.ca/ago/resources/apps/WidgetDemo/index.html
+         + \\data.bcgov\agol_staging\resources\apps\widgetDemo\index.html
+         + https://pub.data.gov.bc.ca/ago/resources/apps/WidgetDemo/index.html
   
 [RETURN TO TOP][1] 
 
@@ -64,8 +68,8 @@ DataBC manages multiple staging areas to allow for the transfer and storage of f
 + The Staging Area is only accessible via the GTS Servers.
 + When uploading datasets to Staging, directories are to be mapped as:
    + \\data.bcgov\data_staging_bcgw\
-   + The second level of the [_Data Classification Hierarchy_](data_classification_hierarchy.md#data-classification-hierarchy) is used to determine what folder the data is to be located in. 
-      + This location will be assigned by DataBC DA.
+   + The second level of the [_Data Classification Hierarchy_](dsg_data_classification_hierarchy.md) is used to determine what folder the data is to be located in. 
+         + This location will be assigned by DataBC DA.
 + Directory access requests are to be submitted through [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
 
 [RETURN TO TOP][1] 
@@ -124,13 +128,13 @@ DataBC manages multiple staging areas to allow for the transfer and storage of f
 
 + Datasets are required to have valid geometries set at the standard tolerances and precision. Please use Check and/or Repair geometry tools prior to uploading to Staging.
 + It is imperative the naming and structure of each participating dataset remain constant; as well, Geodatabase names should conform to naming standards as provided in:
- https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf
+ [BCGW File Geodatabase Standards](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
  
 [RETURN TO TOP][1] 
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > NAMING AND DESCRIBING STANDARDS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][2]
 
 -------------------------------------------------------
 
-[1]: #staging-area-standards
-[2]: ../index.md#naming-and-describing-standards
+[1]: #staging-area
+[2]: ./dsg.md
