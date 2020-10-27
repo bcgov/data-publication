@@ -110,60 +110,18 @@ These standards and guidelines are addressed specifically to:
 
 A data component is any object used to capture or store information about the data that is harnessed by software applications.  Specific examples include:
 
-
-|Oracle database objects	|Files|Data Models|Data Streams|BC Data Catalogue|
+|Oracle database objects	|Files				|Data Models					|Data Streams		|BC Data Catalogue|
 |:---|:---|:---|:---|:---|
-|table and view names		|
-|table and view descriptions	|
-|table and view short names	|
-|column names			|
-|column descriptions		|
-|column data types		|
-|constraint name		|
-|trigger names			|
-|sequence names			|
-|index names			|
-
------------------------
-
-#### Oracle database objects
-
-+ table and view names, 
-+ table and view descriptions, 
-+ table and view short names, 
-+ column names, 
-+ column descriptions, 
-+ column data types, 
-+ constraint names, 
-+ trigger names, 
-+ sequence names, 
-+ index names 
-
-#### Files
-
-+ file names, 
-+ description of file contents, 
-+ spreadsheet column names, 
-+ spreadsheet column descriptions,
-+ spreadsheet column data types.
-
-#### Data Models
-
-+ container names, 
-+ entity, relationship, and attribute names, 
-+ descriptions and data types.
-
-#### Data Streams
-
-+ JSON Schema components
-
-#### The BC Data Catalogue
-
-+ dataset titles, 
-+ dataset descriptions, 
-+ tags,
-+ resource names,
-+ resource descriptions.
+|table and view names		|file names			|container names				|JSON Schema components	|dataset titles
+|table and view descriptions	|description of file contents	|entity, relationship, and attribute names	|			|dataset descriptions
+|table and view short names	|spreadsheet column names	|descriptions and data types			|			|tags
+|column names			|spreadsheet column descriptions|						|			|resource names
+|column descriptions		|spreadsheet column data types	|						|			|resource descriptions
+|column data types		|				|						|			|
+|constraint name		|				|						|			|
+|trigger names			|				|						|			|	
+|sequence names			|				|						|			|
+|index names			|				|						|			|
 
 [RETURN TO TOP][1] 
 
