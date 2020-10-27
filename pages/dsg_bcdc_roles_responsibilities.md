@@ -487,4 +487,3 @@ If you have questions about this guide, or would like to talk more about using t
 
 [1]: #roles-and-responsibilities
 [2]: ./dsg_bcdc.md#
-
