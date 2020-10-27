@@ -13,16 +13,10 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 
 ## Purpose
 
-This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../index.md):
+This page describes two mechanisms for providing input on the documentation published on this site:
 + reporting errors in the documentation, and
 + suggesting additions to existing pages or 
 + the addition of new pages.
-
------------------------
-
-## Audience
-
-This page is any person wishing to provide feedback on, or contributions to, [Publishing Data to the DataBC Program](../index.md).
 
 -----------------------
 
