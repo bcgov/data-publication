@@ -479,6 +479,14 @@ This page explains the most important aspects of being a _Data Custodian_ or _Da
 
 If you have questions about this guide, or would like to talk more about using the BCGW, please contact [DataBC](mailto:Data@gov.bc.ca).
 
+### Resources
+
+Other documents explaining guidelnes, roles and responsibilities:
+   + [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
+   + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
+   
+------------------------  
+
 [RETURN TO TOP][1] 
 
 [RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
