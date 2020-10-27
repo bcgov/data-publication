@@ -118,7 +118,7 @@ Contact the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team
 
 ## FMW BEST PRACTICES
 
-See [_Using the DataBC FME Framework_](dsg_bcgw_databc_fme.md).
+See [_Using the DataBC FME Framework_](dps_bcgw_w_databc_fme.md).
 
 ### Filtering Point Data to BC Boundaries
 If there is a concern that a dataset may contain points incorrectly located far beyond the BC boundaries, this could cause errors when replicating the data to the BCGW. Therefore it is recommended that a filter ([_Tester transformer_](https://www.safe.com/transformers/tester/) in an FMW) be included to limit the points to a bounding box that approximates the extents of the BC boundaries. For example:
