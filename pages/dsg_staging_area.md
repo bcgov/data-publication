@@ -56,8 +56,8 @@ These staging area standards are addressed specifically to:
    + for this folder location \\data.bcgov\agol_staging\[add remaining file path here]
    + the URL is: https://pub.data.gov.bc.ca/ago/ (add remaining file path here - including the file name and extension you wish to access)
    + Example:  BC Geocoder and Route Planner WAB app demo
-         + \\data.bcgov\agol_staging\resources\apps\widgetDemo\index.html
-         + https://pub.data.gov.bc.ca/ago/resources/apps/WidgetDemo/index.html
+      + \\data.bcgov\agol_staging\resources\apps\widgetDemo\index.html
+      + https://pub.data.gov.bc.ca/ago/resources/apps/WidgetDemo/index.html
   
 [RETURN TO TOP][1] 
 
