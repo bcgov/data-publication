@@ -42,7 +42,7 @@ These standards and guidelines are addressed specifically to:
 -----------------------
 
 ## Table of Contents
-+ [**INTRODUCTION**](#introduction)
++ [**Audience**](#audience)
 	+ [Why do we need Naming Standards and Guidelines?](#why-do-we-need-naming-standards-and-guidelines)
 	+ [Why do we need Describing Guidelines?](#why-do-we-need-describing-guidelines)
 	+ [What Data Components do these standards and guidelines apply to?](#what-data-components-do-these-standards-and-guidelines-apply-to)
@@ -80,7 +80,6 @@ These standards and guidelines are addressed specifically to:
 	+ [Resource Descriptions](#resource-descriptions)
 	+ [Dataset Keywords (Tags)](#dataset-keywords-tags)
 + [**WEB SERVICES CONTENT AND DESCRIBING GUIDELINES**](#web-services-content-and-describing-guidelines)
-+ [**RELATED STANDARDS**](#related-standards)
 + [**APPENDIX A: Standard List of Abbreviations**](#appendix-a-standard-list-of-abbreviations)
 + [**APPENDIX B: Standard List of Column Names**](#appendix-b-standard-list-of-column-names)
 
