@@ -13,7 +13,7 @@ The naming standard is based upon the Role Based Access Control (RBAC) security 
 
 -----------------------
 
-# Purpose
+## Purpose
 
 The contents of this page is to provide the audience with the information required to:
 
@@ -23,7 +23,7 @@ The contents of this page is to provide the audience with the information requir
 
 -----------------------
 
-# Audience
+## Audience
 
 The target audience for this page are editors who require access to database schemas and who manage roles/access to other tools, such as ArcMap, SQL Developer and Toad. 
 
