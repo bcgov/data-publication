@@ -10,6 +10,22 @@ has_toc: false
 Our goal in publishing these documents was to create a complete, clear, and correct repository of guides to help DataBC Program contributors and consumers. We welcome contributions; this document describes processes for providing contributions and feedback.
 
 -----------------------
+
+## Purpose
+
+This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../index.md):
++ reporting errors in the documentation, and
++ suggesting additions to existing pages or 
++ the addition of new pages.
+
+-----------------------
+
+## Audience
+
+This page is any person wishing to provide feedback on, or contributions to, [Publishing Data to the DataBC Program](../index.md).
+
+-----------------------
+
 ## Table of Contents
 + [**REPORTING ISSUES WITH THE DOCUMENTATION**](#reporting-issues-with-the-documentation)
 + [**CHANGING PAGES OR ADDING NEW ONES**](#changing-pages-or-adding-new-ones)
@@ -22,20 +38,6 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 	+ [How to Issue a Pull Request](#how-to-issue-a-pull-request)
 
 -----------------------
-
-# Audience
-
-This page is any person wishing to provide feedback on, or contributions to, [Publishing Data to the DataBC Program](../index.md#index.md).
-
-
-# Purpose
-
-This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../index.md#index.md):
-+ reporting errors in the documentation, and
-+ suggesting additions to existing pages or 
-+ the addition of new pages.
-
----------------------------------------------------------------------
 
 ## REPORTING ISSUES WITH THE DOCUMENTATION
 
@@ -126,15 +128,15 @@ git push
 1. Enter a **Description** of the changes made.
 1. Click the final ![Create pull request](images/image_create_pull_request2.png) button. 
 
-DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
+ [DataBC](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
 
 [RETURN TO TOP][1] 
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
+[RETURN TO DATA PUBLICATION][2]
 
 -------------------------------------------------------
 
 [1]: #we-value-your-contributions
-[2]: publishing_data_to_databc.md#publishing-data-to-the-databc-program
+[2]: ../index.md
 
