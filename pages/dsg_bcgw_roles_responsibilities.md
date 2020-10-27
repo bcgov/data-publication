@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Roles and Responsibilities
-nav_order: 1
+nav_order: 245
 parent: BC Geographic Warehouse
 grand_parent: Data Standards and Guidelines
 has_toc: false
@@ -99,10 +99,10 @@ This document is directed at those who will be publishing data to the BC Geograp
 
 [RETURN TO TOP][1] 
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
+[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -------------------------------------------------------
 
-[1]: #data-publication-roles-and-responsibilities
-[2]: ../index.md#data-publication-process
+[1]: #roles-and-responsibilities
+[2]: ./dsg_bcgw.md
 
