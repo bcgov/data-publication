@@ -1,16 +1,46 @@
 ---
 layout: default
-title: Naming & Describing Standards
-nav_order: 20
+title: Naming & Describing
+nav_order: 26
 parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-# NAMING AND DESCRIBING STANDARDS
+# NAMING AND DESCRIBING
 
-This document presents general standards and guidelines for naming and describing data components within the DataBC Program.
+The way we name and describe data creates an understanding of what the data is, where it comes from and under which organization or program its custodianship resides, among others. Standardized naming and describing helps to:
++ reduce ambiguity around the data
++ ensure unique names are used for data objects
++ provide reliable searchability
++ organize data into appropriate groupings
++ provide users with clear information on what the data is
+
+DataBC adheres to the standards in this document for naming and describing data components within the DataBC Program.
 
 -----------------------
+
+## Purpose
+
+This page describes general standards and guidelines for naming and describing data components within the DataBC Program, specifically in:
+
++ the BC Geographic Warehouse (BCGW)
++ the BC Data Catalogue BCDC)
++ the DataBC Data Modelling tool (currently Oracle Designer)
+
+-------------------------
+
+## Audience
+
+These standards and guidelines are addressed specifically to:
+
++ people providing data content to the BC Geographic Warehouse and/or the BC Data Catalogue.
++ people writing metadata in the BC Data Catalogue.
++ developers providing data models and files as part of the DataBC delivery kit publication process.
++ developers describing web services that are consumed by DataBC processes (e.g., a JSON REST service consumed by a DataBC Extract-Transform-Load (ETL) processes)
++ DataBC staff who review data models and review draft BC Data Catalogue records.
+
+-----------------------
+
 ## Table of Contents
 + [**INTRODUCTION**](#introduction)
 	+ [Why do we need Naming Standards and Guidelines?](#why-do-we-need-naming-standards-and-guidelines)
@@ -56,28 +86,6 @@ This document presents general standards and guidelines for naming and describin
 
 -----------------------
 
-# Audience
-
-These standards and guidelines are addressed specifically to:
-
-+ people providing data content to the BC Geographic Warehouse and/or the BC Data Catalogue.
-+ people writing metadata in the BC Data Catalogue.
-+ developers providing data models and files as part of the DataBC delivery kit publication process.
-+ developers describing web services that are consumed by DataBC processes (e.g., a JSON REST service consumed by a DataBC Extract-Transform-Load (ETL) processes)
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
-# Purpose
-
-This document presents general standards and guidelines for naming and describing data components in:
-
-+ the BC Geographic Warehouse (BCGW).
-+ the BC Data Catalogue BCDC).
-+ the DataBC Data Modelling tool (currently Oracle Designer).
-
------------------------------------------------------------
-
-## INTRODUCTION
-
 ### Why do we need Naming Standards and Guidelines?
 
 **Naming Standards and Guidelines:**
@@ -101,6 +109,21 @@ This document presents general standards and guidelines for naming and describin
 ### What Data Components do these standards and guidelines apply to?
 
 A data component is any object used to capture or store information about the data that is harnessed by software applications.  Specific examples include:
+
+|:---|:---|:---|:---|:---|
+|Oracle database objects	|Files|Data Models|Data Streams|BC Data Catalogue|
+|table and view names		|
+|table and view descriptions	|
+|table and view short names	|
+|column names			|
+|column descriptions		|
+|column data types		|
+|constraint name		|
+|trigger names			|
+|sequence names			|
+|index names			|
+
+-----------------------
 
 #### Oracle database objects
 
