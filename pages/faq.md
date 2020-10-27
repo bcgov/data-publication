@@ -1,18 +1,29 @@
 ---
 layout: default
 title: FAQ
-nav_order: 80
+nav_order: 60
 has_toc: false
 ---
 
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 
-This page provides a list of frequently asked questions and answers to help you as a client who is publishing data within the DataBC Program. 
+This page provides a list of frequently asked questions and answers to help clients that are publishing data within the DataBC Program. 
 
 -----------------------
+
+## Purpose
+
+This page provides answers to frequently asked questions and identifies DataBC contacts, with emails, for specific functional areas. 
+
+-----------------------
+
+## Audience
+
+This page's intended audience is anyone who is interested in or is currently publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
+
+-----------------------
+
 ## Table of Contents
-+ [**Audience**](#audience)
-+ [**Purpose**](#purpose)
 + [**WHO'S WHO AT DATABC**](#whos-who-at-databc)
 + [**BC DATA CATALOGUE ROLES**](#bc-data-catalogue-roles)
 + [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#data-publication-licensing-options---open-dataaccess-only)
@@ -60,16 +71,6 @@ This page provides a list of frequently asked questions and answers to help you 
 	+ [I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?](#ive-taken-over-responsibility-for-maintaining-a-dataset-that-has-been-published-to-databc-how-do-i-get-access-to-what-i-need)
 
 -----------------------
-
-## Audience
-
-This page's intended audience is anyone who is interested in or is currently publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
-
-## Purpose
-
-This page provides answers to frequently asked questions and identifies DataBC contacts, with emails, for specific functional areas. 
-
----------------------------------------------------------------------
 
 ## WHO'S WHO AT DATABC
 
@@ -582,10 +583,10 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > ADDITIONAL REFERENCES][2]
+[RETURN TO DATA PUBLICATION][2]
 
 -------------------------------------------------------
 
 [1]: #frequently-asked-questions-faq
-[2]: ../index.md#additional-references
+[2]: ../index.md
 
