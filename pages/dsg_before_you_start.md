@@ -122,7 +122,7 @@ In order to help us determine how your data best fits into these options and ser
          + For example, BCStats acts as the authorized _Data Steward_ for data collected and disseminated by Statistics Canada.
 + Do you have Director level approval? 
    + Your Director will be the _Data Custodian_, and ultimately accountable for the dataset.
-   + Refer to [_What is a Data Custodian_](dsg_bcdc_roles_responsibilities.mdd#what-is-a-data-custodian) for further details.
+   + Refer to [_What is a Data Custodian_](dsg_bcdc_roles_responsibilities.md#what-is-a-data-custodian) for further details.
 + Is there a program (staff and resources) in place to ensure this data kept up-to-date? Are there identified staff managing the data, i.e., Data Manager?
    + Refer to [_What it means to be a Data Manager_](dsg_bcdc_roles_responsibilities.md#what-it-means-to-be-a-data-manager) for further details.
 
