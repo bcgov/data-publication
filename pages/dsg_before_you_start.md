@@ -147,11 +147,11 @@ In order to help us determine how your data best fits into these options and ser
 + Are there existing or new applications that will use this data?    
 + What tools (visualize or otherwise) will be used to access the data?
    + [_DataBC Products & Services_](https://www2.gov.bc.ca/gov/content?id=A3358A6053464AE484A105D6E877833F)
-         + [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43) 
-         + [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
-         + [_B.C.'s Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
-         + [_Data Distribution (Downloads)_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
-         + Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
+   	+ [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43) 
+   	+ [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
+   	+ [_B.C.'s Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
+   	+ [_Data Distribution (Downloads)_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
+   	+ Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
    + Outside DataBC tools/application (existing applications or potentially a new application)
 
 [RETURN TO TOP][1]
