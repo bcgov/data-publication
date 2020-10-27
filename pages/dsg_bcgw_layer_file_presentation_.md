@@ -465,9 +465,6 @@ Over time, the presentation of a layer may require modification.
 
 ## REFERENCES
 
-Below is a list of additional references:
-
-+ [_Data Custodianship Guidelines_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
 + [_ArcGIS Desktop - What is a layer?_](https://desktop.arcgis.com/en/arcmap/10.6/map/working-with-layers/what-is-a-layer-.htm)
 
 [RETURN TO TOP][1]
@@ -476,5 +473,5 @@ Below is a list of additional references:
 
 -------------------------------------------------------
 
-[1]: #layerfile-presentation
+[1]: #layer-file-presentation
 [2]: ./dsg_bcgw.md
