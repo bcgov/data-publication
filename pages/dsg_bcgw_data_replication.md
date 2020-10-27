@@ -32,15 +32,15 @@ This page will be of interest to anybody building FME scripts as part of a data 
 -----------------------
 
 ## Table of Contents
-[**RESPONSIBILITY FOR PUBLISHED DATA**](#responsibility-for-published-data)
-[**DATABC FME FRAMEWORK**](#databc-fme-framework)
++ [**RESPONSIBILITY FOR PUBLISHED DATA**](#responsibility-for-published-data)
++ [**DATABC FME FRAMEWORK**](#databc-fme-framework)
 	+ [Starting Point FMW](#starting-point-fmw)
 	+ [FMW File Naming](#fmw-file-naming)
-[**FMW BEST PRACTICES**](#fmw-best-practices)
++ [**FMW BEST PRACTICES**](#fmw-best-practices)
 	+ [Filtering Point Data to BC Boundaries](#filtering-point-data-to-bc-boundaries)
 	+ [Handling Complex Curve Data](#handling-complex-curve-data)
 	+ [Proceeding Past Data Errors](#proceeding-past-data-errors)
-[**KIRK**](#kirk)
++ [**KIRK**](#kirk)
 -----------------------
 
 ## RESPONSIBILITY FOR PUBLISHED DATA
