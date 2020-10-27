@@ -1,19 +1,32 @@
 ---
 layout: default
 title: Data Delivery
-nav_order: 1
+nav_order: 243
 parent: BC Geographic Warehouse
 grand_parent: Standards and Guidelines
 has_toc: false
 ---
 
-# BC GEOGRAPHIC WAREHOUSE DATA DELIVERY STANDARDS
+# DATA DELIVERY
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
 
 This document describes in detail the standard procedures and guidelines for the publication of data to the BC Geographic Warehouse so that publication goes smoothly.
 
 -----------------------
+
+## Purpose
+
+This document outlines the standards and processes which must be followed when publishing new database objects, making changes to database objects, or updating data in the BC Geographic Warehouse.
+
+-----------------------
+
+## Audience
+
+This document is directed at those who will be publishing data to the BC Geographic Warehouse (BCGW), within the DataBC Program of the Digital Platforms and Data Division, OCIO Ministry of Citizens' Services. In addition, this document may be of interest to government Business Analysts, Business Portfolio Managers, and Application Administrators. 
+
+-----------------------
+
 ## Table of Contents
 + [**ROLES AND RESPONSIBILITIES**](#roles-and-responsibilities)
 + [**DATA DELIVERY CHECKLIST**](#data-delivery-checklist)
@@ -46,19 +59,11 @@ This document describes in detail the standard procedures and guidelines for the
 
 -----------------------
 
-# Audience
-
-This document is directed at those who will be publishing data to the BC Geographic Warehouse (BCGW), within the DataBC Program of the Digital Platforms and Data Division, OCIO Ministry of Citizens' Services. In addition, this document may be of interest to government Business Analysts, Business Portfolio Managers, and Application Administrators. 
-
-# Purpose
-
-This document outlines the standards and processes which must be followed when publishing new database objects, making changes to database objects, or updating data in the BC Geographic Warehouse.
-
-----------
-
 ## ROLES AND RESPONSIBILITIES
 
-Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. Please refer to [_Data Publication: Roles and Responsibilities_](roles_and_responsibilities.md#data-publication-roles-and-responsibilities) for a description of the roles and responsibilities of each of these partners.
+Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. Please refer to [_Data Publication: Roles and Responsibilities_](dsg_bcgw_roles_and_responsibilities.md) for a description of the roles and responsibilities of each of these partners.
+
+-----------------------
 
 ## DATA DELIVERY CHECKLIST
 
@@ -79,7 +84,7 @@ Under normal circumstances one or two whiteboard meetings are required:
 
 The main output of the technical whiteboard meeting is an approved dataset logfile which summarizes business details, security requirements, data volumes, attributes and their data types / definitions, classification, and Open Data processes (if applicable).
 
-+ [_Dataset Logfile_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/dataset_logfile)
++ [_Dataset Logfile_](dps_bcgw_w.md#dataset-logfile)
 
 **Responsibility of**: Vendor delivery personnel and  DataBC project lead spatial data administrator
 
@@ -138,6 +143,10 @@ If an existing container does not meet specific needs, a new one can be created.
 If the delivery includes new database objects or makes changes to existing warehouse database objects, the Logical and Physical models must be reviewed and approved by [DataBC DA](mailto:databc.da@gov.bc.ca) prior to submitting the [_Delivery Kit_](#the-delivery-kit).
 
 **Responsibility of**: Vendor delivery personnel and DataBC project lead spatial data administrator
+
+[RETURN TO TOP][1] 
+
+-----------------------
 
 ## THE DELIVERY KIT
 
@@ -234,7 +243,6 @@ that is responsible for calling all of the other files in the directory, if ther
 
 __Note that all deletions of database objects must be done in ArcCatalog.__
 
-
 #### `dataload` Directory
 
 The `/dataload/` directory contains necessary FME scripts that are used to do initial data population and are subsequently scheduled for on-going replication by DataBC ETL.
@@ -244,18 +252,16 @@ Template fmw's can be found in gogs:
 + for [_GSR_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/gsr_whse/WHSE_IMAGERY_AND_BASE_MAPS/N.N.N_descriptive_name_of_release/dataload/gsr_zzz_sv_staging_csv_bcgw.fmw) dataloads
 
 Links:
-+ [_Using the DataBC FME Framework_](using_the_databc_fme_framework.md#using-the-databc-feature-manipulation-engine-fme-framework)
++ [_Using the DataBC FME Framework_](dpw_bcgw_w_databc_fme.md)
 
-
-Additional Notes
+**Additional Notes:**
 
 + Please ensure the source data is in the correct location (i.e. the assigned directory on BCGW Staging or the BC Data Catalogue).
 + Within the FME script, be sure to set the ‘Target Warehouse Feature Class’ ‘Truncate Table First’ property to Yes
 + ‘Workspace Properties’ should contain the usual Header type information about your script
 + If reading from the staging area, refer to the "read-only" version (\\data.bcgov\data_staging_ro\BCGW)
 
-
-See [_Data Replication Standards and Guidelines_](data_replication_standards_and_guidelines.md#data-replication-standards-and-guidelines)
+See [_Data Replication Standards and Guidelines_](dps_bcgw_data_replication.md)
 
 #### `revert_to_previous` Directory
 
@@ -263,7 +269,9 @@ The `/revert_to_previous/` directory should contain all sql files needed to crea
 
 **Note that all deletions of database objects must be done in ArcCatalog.**
 
+[RETURN TO TOP][1] 
 
+-----------------------
 
 ## DATA DELIVERY PROCESS
 
@@ -355,6 +363,7 @@ WHSE_WILDLIFE_INVENTORY | SRM_WHSE_WILDLIFE_INV_BASE_PUB<br />SRM_WHSE_WILDLIFE_
 WHSE_WILDLIFE_MANAGEMENT |  SRM_WHSE_WILD_MGMT_BASE_PUB<br />SRM_WHSE_WILD_MGMT_USER_GOV 
 
 [RETURN TO TOP][1]
+
 ----------------
 
 ## APPENDIX: WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS
@@ -403,12 +412,12 @@ Before submitting a delivery kit to the DataBC program, make sure that you have 
 + [_GSR (Sites Registry)-specific Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/GSR_WHSE.N.N.N.readme)
 + [_SDO extent metadata calculation template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/WHSE_SCHEMA_NAME/scripts/xyz_whse_compute_mdsys_extents.sql)
 
-Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
+Refer to [_Connecting to Gogs_](tips_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
 
 [RETURN TO TOP][1]
 
 [RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
 
 -------------------------------------------------------
-[1]: #BC-Geographic-Warehouse-Delivery-Standards
-[2]: ../index.md#data-publication-process
+[1]: #data-delivery
+[2]: ./dsg_bcgw
