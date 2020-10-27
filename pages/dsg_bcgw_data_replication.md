@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Data Replication
-nav_order: 50
+nav_order: 241
 parent: BC Geographic Warehouse
 grand_parent: Data Standards and Guidelines
 has_toc: false
 ---
 
-# DATA REPLICATION STANDARDS AND GUIDELINES
+# DATA REPLICATION
 
 There are currently three mechanisms in place to reload BC Geographic Warehouse data objects when the source objects change:
 
@@ -15,9 +15,22 @@ There are currently three mechanisms in place to reload BC Geographic Warehouse 
 + Materialized Views (MVW)
 + Spatial Data Replication (SDR)
 
-This document describes standards and guidelines concerning the first of these - FME. This mechanism should be the default choice for all new DataBC data publications to the BC Geographic Warehouse.
+This page describes standards and guidelines concerning the first of these - FME. This mechanism should be the default choice for all new DataBC data publications to the BC Geographic Warehouse.
 
 -----------------------
+
+#@ Purpose
+
+This page provides standards and best practices for writing FME scripts to load data to the BC Geographic Warehouse.
+
+-----------------------
+
+#@ Audience
+
+This page will be of interest to anybody building FME scripts as part of a data delivery to the BC Geographic Warehouse. 
+
+-----------------------
+
 ## Table of Contents
 + [**RESPONSIBILITY FOR PUBLISHED DATA**](#responsibility-for-published-data)
 + [**DATABC FME FRAMEWORK**](#databc-fme-framework)
@@ -30,16 +43,6 @@ This document describes standards and guidelines concerning the first of these -
 + [**KIRK**](#kirk)
 
 -----------------------
-
-# Audience
-
-This page will be of interest to anybody building FME scripts as part of a data delivery to the BC Geographic Warehouse. 
-
-# Purpose
-
-This page provides standards and best practices for writing FME scripts to load data to the BC Geographic Warehouse.
-
-----
 
 ## RESPONSIBILITY FOR PUBLISHED DATA
 
@@ -181,9 +184,9 @@ For new publications of _KIRK_-able cases, the vendor should delivery an FMW tha
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > NAMING AND DESCRIBING STANDARDS][2]
+[RETURN TO DATA PUBLICATION SERVICES > STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
 
 -------------------------------------------------------
 
-[1]: #data-replication-standards-and-guidelines
-[2]: ../index.md#naming-and-describing-standards
+[1]: #data-replication
+[2]: ./dsg_bcgw.md
