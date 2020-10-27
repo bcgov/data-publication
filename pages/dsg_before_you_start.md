@@ -225,15 +225,7 @@ In addition, the following resources are available:
 + [_Frequently Asked Questions_](faq.md)
 + [_DataBC Program Key Contacts_](faq.md#WHOS-WHO-AT-DATABC)
 
-[RETURN TO TOP][1]
-
 -----------------------------------------
-
-## REFERENCES
-
-+ [_Governance and Standards Website_](https://www.data.gov.bc.ca/dbc/about/governance_standards.page?)
-+ BC Data Catalogue > [_Roles and Responsibilities_](a_guide_for_data_custodians_and_data_managers.md)
-+ [_Data Custodianship Guidelines for BC_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
 
 [RETURN TO TOP][1]
 
