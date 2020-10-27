@@ -7,7 +7,7 @@ has_toc: false
 
 # FREQUENTLY ASKED QUESTIONS
 
-# Table of Contents
+## Table of Contents
 + [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#data-publication-licensing-options---open-dataaccess-only)
 	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#what-is-open-data-and-what-is-the-difference-between-open-data-and-access-only-public-data)
 	+ [Why should I consider publishing data under an open data licence?](#why-should-i-consider-publishing-data-under-an-open-data-licence)
