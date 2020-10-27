@@ -71,7 +71,6 @@ The following Oracle data types and their associated precision are supported for
 |`VARCHAR2(n)` or `VARCHAR2(n BYTE)`|Variable length strings, or fixed-length strings that can contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled.|DESCRIPTION|
 |`VARCHAR2(n CHAR)`|Variable length character strings, or fixed-length character strings that can contain multibyte characters. Can be used in cases where a length limit is known but where the string might contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. |GENERAL_COMMENTS|
 
-
 [RETURN TO TOP][1] 
 
 -----------------------------------------------------------
@@ -115,7 +114,6 @@ The following two [_EPSG_](https://www.epsg.org/) Spatial Reference ID (SRID) va
 
 **Note** that ArcGIS maintains its own set of SRID values, one for each distinct combination of the EPSG SRID, the number of dimensions, and the resolution and tolerance values. These values may change over time and **must not** be referenced directly.
  
-
 ### Registration
 
 All tables and views containing a spatial column must be registered with the geodatabase.
@@ -176,7 +174,7 @@ END;
 ```
 for polygonal feature tables.
 
-See [_Naming and Describing Standards_](naming_and_describing.md#naming-and-describing-standards) for definitions of _container_name_  and  _table_short_name_.
+See [_Naming and Describing Standards_](dsg_naming_describing.md) for definitions of _container_name_  and  _table_short_name_.
 
 ### Column Order
 
