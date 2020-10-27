@@ -36,6 +36,8 @@ has_toc: false
 | |SDO|Spatial Data Object | It is a data storage option for spatial attributes, created by Oracle Corporation
 | **V** |VPN|Virtual Private Network | Service which provides secure, encrypted transport of traffic from external networks into the BC Government’s network (entitled SPAN/BC). It is intended for telecommuters, mobile workers, external partners, vendors and contractors who use commercial Internet Service Providers and need to access SPAN/BC. |
 | **W** ||<a name="webservice_api">Web Service - API</a>|A dataset type in the metadata record, this category is used for metadata relating to web services or application programming interfaces.|
+  
+Looking for an acronym or definition that's not in this list? Let us know at Data@gov.bc.ca.
 
 [RETURN TO TOP][1]
 
