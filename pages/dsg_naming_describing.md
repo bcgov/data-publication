@@ -110,8 +110,9 @@ These standards and guidelines are addressed specifically to:
 
 A data component is any object used to capture or store information about the data that is harnessed by software applications.  Specific examples include:
 
-|:---|:---|:---|:---|:---|
+
 |Oracle database objects	|Files|Data Models|Data Streams|BC Data Catalogue|
+|:---|:---|:---|:---|:---|
 |table and view names		|
 |table and view descriptions	|
 |table and view short names	|
