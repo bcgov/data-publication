@@ -33,5 +33,10 @@ table {
 }
 
 .side-bar {
-  width: auto;
+  }
+
+  @include mq(lg) {
+    width: auto;
+    min-width: $nav-width;
+  }
 }
