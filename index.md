@@ -61,7 +61,7 @@ The following links will help you understand the data publication process.
    + [_BC Data Catalogue_](pages/dps_bcdc.md)
 + Data Standards and Guidelines
    + [_BC Geographic Warehouse_](pages/dsg_bcgw.md)  
-   + [_BC Data Catalogue_](pages/dsg.bcdc.md)
+   + [_BC Data Catalogue_](pages/dsg_bcdc.md)
  
 [RETURN TO TOP][1] 
 
