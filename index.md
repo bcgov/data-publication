@@ -57,11 +57,11 @@ The following links will help you understand the data publication process.
 
 + [_Before You Start_](pages/dsg_before_you_start.md)
 + Data Publication Services 
-   + [_BC Geographic Warehouse_](./dps_bcgw_w.md)
-   + [_BC Data Catalogue_](./dps_bcdc_w.md)
+   + [_BC Geographic Warehouse_](pages/dps_bcgw.md)
+   + [_BC Data Catalogue_](pages/dps_bcdc.md)
 + Data Standards and Guidelines
-   + [_BC Geographic Warehouse_](./dsg_bcgw.md)  
-   + [_BC Data Catalogue_](./dsg.bcdc.md)
+   + [_BC Geographic Warehouse_](pages/dsg_bcgw.md)  
+   + [_BC Data Catalogue_](pages/dsg.bcdc.md)
  
 [RETURN TO TOP][1] 
 
