@@ -33,28 +33,14 @@ table {
 }
 
 .side-bar {
-  z-index: 0;
   width: 400px;
   align-items: flex-start;
   flex-wrap: nowrap;
-  }
-
-  @include mq(lg) {
-    width: auto;
-    min-width: $nav-width;
-  }
+  position: fixed;
 }
 
 .main {
-  @include mq(md) {
-    position: relative;
-    max-width: $content-width;
-    margin-left: $nav-width-md;
-  }
-
-  @include mq(lg) {
-    margin-left: calc(
-      ($content-width-400px)
-    );
-  }
+  width: calc(
+    (100%-400px));
+  margin-left: 400px;
 }
