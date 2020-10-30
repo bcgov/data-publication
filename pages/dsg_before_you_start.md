@@ -84,6 +84,11 @@ There are four options for where data gets stored in the DataBC Program, each wi
    + larger files are accommodated
    + The BC Data Catalogue contains a record describing the dataset. 
 
+| | BC Geographic Warehouse | BC Data Catalogue | BC MapHub | pub.data.gov.bc.ca | External site |
+|:---|:---:|:---:|:---:|:---:|:---:|
+Security - Public | yes	| yes | yes, through the public publication request form | yes | yes
+
+
 
 [RETURN TO TOP][1]
 
