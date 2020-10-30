@@ -55,34 +55,7 @@ In addition, other agencies provide mechanisms for accessing DataBC data:
 + the Geographic Terminal Servers (GTS - available through [dts.gov.bc.ca](https://dts.gov.bc.ca))
 + [_BCData R package_](https://github.com/bcgov/bcdata)
 
-There are four options for where data gets stored in the DataBC Program, each with its own benefits and drawbacks:
-
-1. In the BC Geographic Warehouse:
-   + different levels of access control are offered (e.g., public, IDIR, named-user)
-   + spatial data can be viewed in iMapBC and ArcGIS products
-   + spatial data can be viewed in BC MapHub, web map, and web feature services (WMS/WFS)
-   + spatial data can be clipped to a specific area or region and downloaded
-   + non-spatial data can be downloaded
-   + The BC Data Catalogue contains a record describing the dataset. 
-
-2. In the BC Data Catalogue Data Store, attached to the BC Data Catalogue record describing the dataset:
-   + datasets can be downloaded in their entirety only
-   + csv files can be viewed in spreadsheet mode
-   + csv files with point data spatial coordinates can be viewed on a map
-   + there are limited security options (public or IDIR)
-   + files are limited in size to 150 MB.   (need to check this)
-
-3. On [_pub.data.gov.bc.ca_](https://pub.data.gov.bc.ca)
-   + datasets can be downloaded in their entirety only
-   + there are limited security options (public only)
-   + larger files are accommodated
-   + The BC Data Catalogue contains a record describing the dataset. 
-
-4. On an external website
-   + datasets can be downloaded in their entirety only
-   + there are limited security options (public only)
-   + larger files are accommodated
-   + The BC Data Catalogue contains a record describing the dataset. 
+There are five options for where data gets stored in the DataBC Program, each with its own benefits and drawbacks:
 
 | | BC Geographic Warehouse | BC Data Catalogue | BC MapHub | pub.data.gov.bc.ca | External site |
 |:---|:---:|:---:|:---:|:---:|:---:|
