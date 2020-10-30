@@ -91,9 +91,17 @@ There are four options for where data gets stored in the DataBC Program, each wi
 **Security - Named Users** | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 **Security - Role-based** | ![](/images/grey_dash.png) | ![](/images/green_check.png) <br /> in comination with Public, IDIR, Named Users | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 **Security - BCeID** | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
-
-
-
+**Format** | BCGW dataset (Oracle object), ArcGIS Rest, atom, cded, cvs, e00, fgdb, geojson, georss, gft, html, json, kml, kmz, openapi-json, pdf, rdf, shp, tsv, txt, wms, wmts, xls, xlsx, xml, zip, other | Oracle object (spatial and non-spatial) | WMS, WFS, Shapefile, CSV, TXT, GPX, GeoJSON | Any | Any
+**File Size** | < 150 mb | datasets configured for distribution: < 2 GB zipped | < 500 mb | > 150 mb | Any
+**Download - entire dataset** | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) <br /> for BCGW datasets: re-directed to the BC Data Catalogue <br /> for standalone datasets: direct download | ![](/images/green_check.png) | ![](/images/green_check.png)
+**Download - subset dataset** | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+**Spatial data - view in iMap BC** | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png)	
+**Spatial data - view in desktop mapping applications (i.e. ArcGIS, QGIS)** | ![](/images/green_check.png) <br /> once downloaded | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> can open data in ArcGIS via BC MapHub | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+**Spatial data - view WMS (Web-Map Service)** | ![](/images/green_check.png) <br /> once downloaded | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+**Spatial data - view WFS (Web Feature Service)** | ![](/images/green_check.png) <br /> once downloaded | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+**Spatial data - view in BC MapHub** | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+**Non-spatial data (csv) - view preview** | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png)
+**Non-spatial data (csv) - view point data on a map** | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png)
 
 [RETURN TO TOP][1]
 
