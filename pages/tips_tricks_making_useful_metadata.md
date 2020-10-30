@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Making Great Metadata
+title: Making Useful Metadata
 nav_order: 51
 parent: Tips & Tricks
 has_toc: false
 ---
 
-# MAKING GREAT METADATA
+# MAKING USEFUL METADATA
 
 When completing the metadata record, there are both required and non-required fields. The table below will help to define some of the fields that can be completed in a metadata record and provide suggestions on how to best complete this with your end-users in mind.
 
@@ -75,9 +75,6 @@ When completing the metadata record, there are both required and non-required fi
 
 -------------------------------------------------------
 
-[1]: #making-great-metadata
+[1]: #making-useful-metadata
 
 [2]: ./tips_tricks.md#
-
-
-
