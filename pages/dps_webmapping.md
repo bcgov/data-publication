@@ -11,7 +11,7 @@ has_toc: false
 
 The pages in this section describe the services that DataBC provides for Data Publication in Web-based Mapping environments.
 
-For more infromation see [Web Mapping Frameworks](https://bcgov.github.io/bcwebmaps-options/)
+For more information see [Web Mapping Frameworks](https://bcgov.github.io/bcwebmaps-options/)
 
 [RETURN TO DATA PUBLICATION][1]
 
