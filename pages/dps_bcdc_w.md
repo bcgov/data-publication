@@ -142,7 +142,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 1.  Click the **Create Dataset** button.
 
 1. Complete all mandatory fields (minimum requirement). We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Great Metadata]./tips_tricks_making_great_metadata.md). 
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md). 
 
 ### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
 
