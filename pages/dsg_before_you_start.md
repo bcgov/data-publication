@@ -86,10 +86,10 @@ There are four options for where data gets stored in the DataBC Program, each wi
 
 | | BC Geographic Warehouse | BC Data Catalogue | BC MapHub | pub.data.gov.bc.ca | External site |
 |:---|:---:|:---:|:---:|:---:|:---:|
-Security - Public | ![](/images/green_check.png) | ![](/images/green_check.png)  | ![](/images/green_check.png) - through the public publication request form | ![](/images/green_check.png)  | ![](/images/green_check.png) |
-Security - IDIR	| ![](/images/green_check.png) - for metadata only | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+Security - Public | ![](/images/green_check.png) | ![](/images/green_check.png)  | ![](/images/green_check.png) <br /> through the public publication request form | ![](/images/green_check.png)  | ![](/images/green_check.png) |
+Security - IDIR	| ![](/images/green_check.png) <br /> for metadata only | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 Security - Named Users | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
-Security - Role-based | ![](/images/grey_dash.png) | ![](/images/green_check.png) - in comination with Public, IDIR, Named Users | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+Security - Role-based | ![](/images/grey_dash.png) | ![](/images/green_check.png) <br /> in comination with Public, IDIR, Named Users | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 Security - BCeID | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 
 
