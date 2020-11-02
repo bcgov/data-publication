@@ -9,12 +9,8 @@ has_toc: false
 
 # WEB-BASED MAPPING
 
-The pages in this section describe the services that DataBC provides for Data Publication in Web-based Mapping environments.
+Visualize and analyze the wealth of B.C. geographic information using a variety of web-based map tools and map services.
 
-For more information see [Web Mapping Frameworks](https://bcgov.github.io/bcwebmaps-options/)
-
-[RETURN TO DATA PUBLICATION][1]
+To learn more about the tools and services available that help make B.C. Government's data accessible to online users, visit Geographic Data Services > [Web-based Mapping](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping)
 
 -------------------------------------------------------
-
-[1]: ../index.md#
