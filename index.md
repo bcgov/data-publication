@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 has_toc: false
+nav_exclude: true
 ---
 
 # PUBLISHING DATA TO THE DATABC PROGRAM
