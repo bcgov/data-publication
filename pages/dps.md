@@ -10,7 +10,7 @@ has_toc: false
 
 The pages in this section describe the services that DataBC provides for Data Publication.
 
-[RETURN TO DATA PUBLICATION][1]
+
 
 -------------------------------------------------------
 
