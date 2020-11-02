@@ -13,8 +13,4 @@ The BC Address Geocoder is a REST web service that can be used to resolve the ph
 
 For more information on this service see the [BC Address Geocoder website](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geocoder).
 
-[RETURN TO DATA PUBLICATION][1]
-
 -------------------------------------------------------
-
-[1]: ../index.md#
