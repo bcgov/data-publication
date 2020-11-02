@@ -8,18 +8,10 @@ has_toc: false
 
 # DATA GOVERNANCE 
 
-The Data Custodianship function is a vital part of good _data governance_. The guidelines and standards in the documents below describe the data custodianship function, the roles and
-related accountability required to manage data, and explain its role in the data lifecycle, relating
-it to other important data management roles. 
+The Data Custodianship function is a vital part of good _data governance_. The guidelines and standards in the documents below describe the data custodianship function, the roles and related accountability required to manage data, and explain its role in the data lifecycle, relating it to other important data management roles. 
 
 [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
 
-[_BC Data Catalogue - Roles and Responsibilities_](dsg_bcdc_roles_responsibilities.md) 
-
 [_British Columbia First Nations' Data Governance Initiative_](https://www.bcfndgi.com/)
 
-[RETURN TO DATA PUBLICATION][1]
-
 -------------------------------------------------------
-
-[1]: ../index.md#
