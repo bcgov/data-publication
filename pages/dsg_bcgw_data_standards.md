@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Standards
-nav_order: 242
+nav_order: 414
 parent: BCGW Standards and Guidelines
 grand_parent: BC Geographic Warehouse
 has_toc: false
