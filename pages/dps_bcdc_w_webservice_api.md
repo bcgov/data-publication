@@ -120,10 +120,4 @@ Click **Finished** when complete.  This will save your metadata record for the a
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION WORKFLOW > BC DATA CATALOGUE][2]
-
--------------------------------------------------------
-
 [1]: #publishing-a-web-service---api-to-the-bc-data-catalogue
-[2]: ./dps_bcdc_w.md#CREATING-A-METADATA-RECORD
-
