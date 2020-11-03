@@ -4,7 +4,6 @@ title: Application
 nav_order: 322
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
-padding: 1rem
 has_toc: false
 ---
 
@@ -122,7 +121,5 @@ Click **Finished** when complete.  This will save your metadata record for the a
 ------------------------------
 
 [RETURN TO TOP][1]
-
--------------------------------------------------------
 
 [1]: #publishing-an-application-to-the-bc-data-catalogue
