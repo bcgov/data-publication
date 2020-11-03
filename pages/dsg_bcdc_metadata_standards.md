@@ -103,8 +103,6 @@ Data elements _optionality_ for each dataset type are as follows:
 ||Spatial Datatype|SDO_GEOMETRY|N/A|N/A|Optional|N/A|
 ||Object Name|_schema.table(view)_|N/A|N/A|Optional|N/A|
 
-[RETURN TO TOP][1] 
-
 ---------
 
 ## MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES
