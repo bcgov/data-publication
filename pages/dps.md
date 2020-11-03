@@ -17,6 +17,6 @@ The BC Data Catalogue provides the easiest access to government's data holdings,
 
 The province's area, varied topography and predominantly natural resource based economy has positioned B.C. as a leader in geographic information management and generates a wealth of geographic information that is discoverable in the BC Data Catalogue.  DataBC provides access to this information through a suite of unique applications and services that comprise the B.C. Spatial Data Infrastructure.
 
-The information provided in this site describes the services that DataBC provides for data publication along with supporting governance, standards, guidelines and client workflows. 
+The information provided in this site describes the services that DataBC provides for data publication within these services, along with supporting governance, standards, guidelines and client workflows. 
 
 -------------------------------------------------------
