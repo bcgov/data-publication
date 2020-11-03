@@ -2,19 +2,15 @@
 layout: default
 title: Data Standards
 nav_order: 242
-grand_parent: Data Standards and Guidelines
-parent: BC Geographic Warehouse
+parent: BCGW Standards and Guidelines
+grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
 # DATA STANDARDS
 _Formerly: Data Guidance and Best Practices_
 
-Standards make it easier to create, share, and integrate data by making sure that there is a clear understanding of how the data are represented and that the data you receive are in a form that you expected.
-
------------------------
-
-## Purpose
+Standards make it easier to create, share, and integrate data by making sure that there is a clear understanding of how the data are represented and that the data you receive are in a form that you expect.
 
 This page presents general standards, guidelines and best practices when providing data, spatial or otherwise in:
 
@@ -22,17 +18,9 @@ This page presents general standards, guidelines and best practices when providi
 + the BC Data Catalogue (BCDC).
 + the DataBC Data Modelling tool (currently Oracle Designer).
 
------------------------
-
-## Audience
-
-These standards and guidelines are addressed specifically to:
-
-+ people providing data content to the BC Geographic Warehouse and/or the BC Data Catalogue.
-+ developers providing data models and files as part of the DataBC delivery kit publication process.
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
------------------------
+|**AUDIENCE**|  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Data Modellers* | *Developers* | *DataBC Data Modellers* | *DataBC Catalogue Team* |
 
 ## Table of Contents
 + [**DATA TYPE STANDARDS**](#data-type-standards)
@@ -70,8 +58,6 @@ The following Oracle data types and their associated precision are supported for
 |`SDO_GEOMETRY`|Spatial geometry |SHAPE, <br>GEOMETRY (deprecated)  See [_Shape (Geometry) Column Name_](#shape-geometry-column-name) below
 |`VARCHAR2(n)` or `VARCHAR2(n BYTE)`|Variable length strings, or fixed-length strings that can contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled.|DESCRIPTION|
 |`VARCHAR2(n CHAR)`|Variable length character strings, or fixed-length character strings that can contain multibyte characters. Can be used in cases where a length limit is known but where the string might contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. |GENERAL_COMMENTS|
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -200,8 +186,6 @@ In order to make regular data [_ETL_](glossary.md#etl) go smoothly and to avoid 
 + Every table and materialized view must have a NOT NULL constraint on the OBJECTID column.
 + Other constraints (FOREIGN KEY, CHECK, UNIQUE, NOT NULL) are encouraged as a way of documenting relationships and other properties, but if present they must be disabled. 
 
-[RETURN TO TOP][1] 
-
 ------------------------------------------------------------------------------
 
 ## ORDER OF COLUMNS IN TABLES AND VIEWS
@@ -210,8 +194,6 @@ In order to make regular data [_ETL_](glossary.md#etl) go smoothly and to avoid 
 + The primary key column must be the first column in the table.
 + If the natural key for a table or materialized view is composite, a single column surrogate primary key must be defined. 
    + It must be the first column in the table or materialized view.
-
-[RETURN TO TOP][1] 
 
 ------------------------------------------------------------------------------
 
@@ -227,8 +209,6 @@ The description will contain the values the indicator represents, as illustrated
 
 Values of indicator columns should be consistent thought out a model.  For example, do not use 'T'/'F' for some columns and 'Y'/'N' for others.
 
-[RETURN TO TOP][1] 
-
 ------------------------------------------------------------------------------
 
 ## USE OF CODE TABLES
@@ -236,8 +216,6 @@ Values of indicator columns should be consistent thought out a model.  For examp
 Code tables are recommended for columns whose values do not fully describe the data in an operational data model. Examples of this are where a column has a value of 23, or A, or Ts1 with no associated indication of what those codes mean.
 
 If the codes themselves are names or abbreviations that are not abstract, then code tables are not needed. However, an example list providing the majority of the code values must be supplied within the column comment.
-
-[RETURN TO TOP][1] 
 
 ------------------------------------------------------------------------------
 
@@ -260,8 +238,6 @@ _NULL_ __should not__ be used as a value that represents not applicable.
 
 If an application is presenting data in a read-only fashion, then it may replace NULLs with some indicator value (e.g., 999999, -1, N/A), as long as the interpretation of these values is shown to the user.
 
-[RETURN TO TOP][1]
-
 ------------------------------------------------------------------------------
 
 ## REFERENCES
@@ -273,9 +249,4 @@ If an application is presenting data in a read-only fashion, then it may replace
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
-
--------------------------------------------------------
-
 [1]: #data-standards
-[2]: ./dsg_bcgw.md
