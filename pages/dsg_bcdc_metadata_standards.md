@@ -2,8 +2,8 @@
 layout: default
 title: Metadata Standards
 nav_order: 232
-parent: BC Data Catalogue
-grand_parent: Data Standards and Guidelines
+grand_parent: BC Data Catalogue
+parent: BCDC Standards and Guidelines
 has_toc: false
 ---
 
@@ -11,22 +11,9 @@ has_toc: false
 
 This page describes recommended metadata standards and provides a high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue.
 
------------------------
-
-## Purpose
-
-This page presents metadata standards for the BC Data Catalogue (BCDC). It also provides supporting documentation on metadata standards from within the BC Government and other worldwide initiatives. 
-
-------------------------
-
-# Audience
-
-These metadata standards are addressed specifically to:
-+ people providing data content to the BC Geographic Warehouse (BCGW) and/or the BC Data Catalogue (BCDC).
-+ people writing metadata in the BC Data Catalogue.
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
-------------------------
+|**AUDIENCE**|  |  |  |
+|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Metadata Editors* | *DataBC Data Modellers* | *DataBC Catalogue Team* |
 
 ## Table of Contents
 + [**WHAT IS METADATA AND WHY IS IT IMPORTANT?**](#what-is-metadata-and-why-is-it-important)
@@ -66,8 +53,6 @@ In the DataBC Program, we value the importance of using metadata to describe the
 + Produced throughout the application development life cycle.
 + Of high quality, and managed effectively.
 + Open to improvement, and have a feedback mechanism by which consumers can inform the custodian of incorrect or out of date metadata.
-
-[RETURN TO TOP][1] 
 
 ---------------
 
@@ -130,8 +115,6 @@ Table and column descriptions are required for all objects in the BC Geographic 
 
 Spreadsheets (Excel or CSV files) uploaded to the BC Data Catalogue must be documented sufficiently so that people looking at the spreadsheet can understand what the columns mean. A good way of providing this information is to supply a *data dictionary* resource, explaining the purpose and content of the other resources. See for example, [_this resource_](https://catalogue.data.gov.bc.ca/dataset/bc-data-catalogue-content/resource/824f2a99-d738-4b63-a492-a906d4c37be0) for [_this dataset_](https://catalogue.data.gov.bc.ca/dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315).
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## RESOURCES
@@ -148,9 +131,4 @@ The following links will provide you with additional information regarding metad
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
-
--------------------------------------------------------
-
 [1]: #metadata-standards
-[2]: ./dsg_bcdc.md
