@@ -45,8 +45,9 @@ This page is written in the context that you have reviewed all information in th
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation: 
-+ [Standards and Guidelines > BC Data Catalogue](./dsg_bcdc.md)
-+ [Standards and Guidelines > Naming and Describing](./dsg_naming_describing.md)
++ Data Standards and Guidelines 
+	+ [BC Data Catalogue](./dsg_bcdc.md)
+	+ [Naming and Describing](./dsg_naming_describing.md)
 + [Open Data](./open_data.md)
 
 [RETURN TO TOP][1]
@@ -56,7 +57,7 @@ The first step in the process is to review the documentation:
 ## WORKFLOW DIAGRAMS
 
 ### [BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
-
+Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to complete required fields.
 ![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
 
 ### [BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)
