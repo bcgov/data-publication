@@ -2,7 +2,7 @@
 layout: default
 title: Staging Area
 nav_order: 28
-parent: Data Standards and Guidelines
+parent: General Data Standards and Guidelines
 has_toc: false
 ---
 
@@ -58,8 +58,6 @@ These staging area standards are addressed specifically to:
    + Example:  BC Geocoder and Route Planner WAB app demo
       + \\data.bcgov\agol_staging\resources\apps\widgetDemo\index.html
       + https://pub.data.gov.bc.ca/ago/resources/apps/WidgetDemo/index.html
-  
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -72,8 +70,6 @@ These staging area standards are addressed specifically to:
          + This location will be assigned by DataBC DA.
 + Directory access requests are to be submitted through [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## BC DATA CATALOGUE AS A STAGING AREA FOR THE BCGW
@@ -84,8 +80,6 @@ These staging area standards are addressed specifically to:
 + To acquire accounts for BCDC contact [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services) team
 + To publish data to the BCGW contact [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## DBC STAGING AREA LOCATION AND ACCESS
@@ -94,8 +88,6 @@ These staging area standards are addressed specifically to:
 + When uploading datasets to DBC Staging, directories are to be mapped as:
    + \\data.bcgov\data_staging_dbc\
 + Directory access requests are to be submitted through [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -106,8 +98,6 @@ These staging area standards are addressed specifically to:
 + Files in this directory must meet the requirements as with any other published files.
    + One acceptation is that all feature classes will be stored in a single FGDB per tilecache.
 + For more information, contact [_Map Services_](faq.md#map-services) team.
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -120,8 +110,6 @@ These staging area standards are addressed specifically to:
 + Do not use the Staging directories for backing-up your datasets. 
 + For formal archiving of datasets, please use your organization’s standards and processes.
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## STAGING AREA NAMING AND DATA QUALITY
@@ -130,11 +118,8 @@ These staging area standards are addressed specifically to:
 + It is imperative the naming and structure of each participating dataset remain constant; as well, Geodatabase names should conform to naming standards as provided in:
  [BCGW File Geodatabase Standards](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
  
+-------------------------------------------------------
+ 
 [RETURN TO TOP][1] 
 
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][2]
-
--------------------------------------------------------
-
 [1]: #staging-area
-[2]: ./dsg.md
