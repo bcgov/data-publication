@@ -13,8 +13,8 @@ The DataBC Feature Manipulation Engine (FME) Framework was written to allow the 
 
 This page provides instructions on developing a FME Workbench file to DataBC FME Framework standards.
 
-|**AUDIENCE**|  |  |  |  | 
-|:---:|:---:|:---:|:---:|:---:|
+|**AUDIENCE**|  |  |
+|:---:|:---:|:---:|
 | *Data Publishers* | *Data Architects* | *Vendors* | 
 
 ## Table of Contents
@@ -1441,12 +1441,8 @@ Writer parameters have been set or linked to the appropriate Writer properties. 
 + Annotations are used to explain complex logic and Tester transformer tests.
 + For complex scripts (> 10 transformers) Bookmarks are used to document flows.
 
+-----------------------------------------------------------
 
 [RETURN TO TOP][1] 
 
-[RETURN TO DATA PUBLICATION SERVICES > BC GEOGRAPHIC WAREHOUSE][2]
-
------------------------------------------------------------
-
 [1]: #Using-the-DataBC-FME-Framework
-[2]: ./dps_w_bcgw.md
