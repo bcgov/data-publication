@@ -1,7 +1,7 @@
 ---
 layout: default
 title: General Data Standards and Guidelines
-nav_order: 20
+nav_order: 8
 has_children: true
 has_toc: false
 ---
