@@ -7,6 +7,6 @@ has_children: true
 has_toc: false
 ---
 
-# BC DATA CATALOGUE - DATA STANDARDS AND GUIDELINES
+# DATA STANDARDS AND GUIDELINES - BC DATA CATALOGUE
 
 The pages in this section provide information on the standards and guidelines for the BC Data Catalogue (BCDC).
