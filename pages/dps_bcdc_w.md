@@ -53,11 +53,11 @@ The first step in the process is to review the documentation:
 ## WORKFLOW DIAGRAMS
 
 ### [BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.svg)
-Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to complete required fields.
+Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
 ![BCDC Metadata Readiness Workflow](images/wf_MetadataReadiness.png)
 
 ### [BCDC Metadata Creation Workflow](images/wf_MetadataCreation.svg)
-
+Once you are ready, use the steps in this workflow to guide you through the process of creating a metadata record.
 ![BCDC Metadata Creation Workflow](images/wf_MetadataCreation.png)
 
 [RETURN TO TOP][1]
