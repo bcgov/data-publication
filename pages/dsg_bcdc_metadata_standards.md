@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metadata Standards
-nav_order: 232
+nav_order: 312
 grand_parent: BC Data Catalogue
 parent: BCDC Standards and Guidelines
 has_toc: false
