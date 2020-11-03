@@ -130,8 +130,8 @@ for resource in pkg_data['resources']:
     print(resource['name'], resource['id'])
 ```
 
-[RETURN TO TOP][1]
-
 -------------------------------------------------------
+
+[RETURN TO TOP][1]
 
 [1]: #using-the-bc-data-catalogue-api-for-metadata-management
