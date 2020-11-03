@@ -2,29 +2,20 @@
 layout: default
 title: File-based Content
 nav_order: 231
-parent: BC Data Catalogue
-grand_parent: Data Standards and Guidelines
+parent: BCDC Standards and Guidelines
+grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
 # FILE-BASED CONTENT
 
-The page identifies the file formats which must be used when publishing Open Datasets. It was originally written for open data formats as a supplement to the standard described in Section 3.11 [_Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf) of the [_CPPM Policy Chapter 12: Information Management and Information Technology Management_](https://www2.gov.bc.ca/gov/content?id=BAA776C61B934ADA95F42CE503D2784F), which is the standard issued by the Office of the Chief Information Officer.  
+The page identifies the file formats which must be used when publishing Open Datasets and provides guidelines for specific physical file formats in order to optimize datasets for machine processing.
 
-## Purpose
+It was originally written for open data formats as a supplement to the standard described in Section 3.11 [_Open Data Physical Dataset Format Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf) of the [_CPPM Policy Chapter 12: Information Management and Information Technology Management_](https://www2.gov.bc.ca/gov/content?id=BAA776C61B934ADA95F42CE503D2784F), which is the standard issued by the Office of the Chief Information Officer.  
 
-The purpose of this document is to provide guidelines for specific physical file formats in order to optimize datasets for machine processing.
-
------------------------
-
-## Audience
-
-The intended audiences of this document are:
-
-+ **Data Users** – To help them acquire and use datasets
-+ **Data Suppliers** – To provide guidance on how to structure datasets so they are accessible and machine processable.
-
------------------------
+|**AUDIENCE**|  |
+|:---:|:---:|
+| *Data Publishers* | *Data Users* | 
 
 ## Table of Contents
 + [**FILE CONTENT**](#file-content)
@@ -286,6 +277,8 @@ To summarize date and time formats:
   + SS and FF are two digit representations of the seconds and partial second
 + The format for date and time is:  YYYY-MM-DD HH:MM:SS:FF
 
+[RETURN TO TOP][1]
+
 ------------------------------------------------------------------------------
 
 ### Extensible Markup Language (XML)
@@ -349,8 +342,6 @@ The pattern for the location of dataset files is:
 The pattern for the location of XML schema files is:
 + {domain}/schemas/{filename}[.v{version}][.{extension}]
 
-[RETURN TO TOP][1]
-
 ----------------
 
 ## ADDITIONAL RESOURCES
@@ -362,10 +353,6 @@ The pattern for the location of XML schema files is:
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
-
 -------------------------------------------------------
 
 [1]: #file-based-content
-[2]: ./dsg_bcdc.md
-
