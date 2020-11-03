@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Data Standards and Guidelines
+title: BC Geographic Warehouse
 nav_order: 13
-parent: BC Geographic Warehouse
 has_children: true
 has_toc: false
 ---
 
-# DATA STANDARDS AND GUIDELINES - BC GEOGRAPHIC WAREHOUSE
+# BC GEOGRAPHIC WAREHOUSE
 
 The B.C. Geographic Warehouse (BCGW) is a central government repository of spatial and non-spatial data. The data includes Base Mapping information, such as heights of land, rivers, lakes, roads, place name and administrative boundaries, as well as government program information, like forest cover, ecosystems, economic and health indicators.
 
