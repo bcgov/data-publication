@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DataBC FME Framework
-nav_order: 132
+nav_order: 421
 parent: Publication Workflow
 grand_parent: BC Geographic Warehouse
 has_toc: false
@@ -9,21 +9,13 @@ has_toc: false
 
 # USING THE DATABC FME FRAMEWORK
 
-The DataBC Feature Manipulation Engine (FME) Framework was written to allow the structure of FME scripts used in the DataBC program to be standardized, making it easier to maintain and troubleshoot these scripts.  This document describes the framework and how to use it.
+The DataBC Feature Manipulation Engine (FME) Framework was written to allow the structure of FME scripts used in the DataBC program to be standardized, making it easier to maintain and troubleshoot these scripts.  
 
------------------------
+This page provides instructions on developing a FME Workbench file to DataBC FME Framework standards.
 
-##  Purpose
-
-This guide provides instructions on developing a FME Workbench file to DataBC FME Framework standards.
-
------------------------
-
-##  Audience
-
-DataBC Data Architects and vendors and data providers who manage data and the loading of datasets into the BCGW. 
-
------------------------
+|**AUDIENCE**|  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Data Architects* | *Vendors* | 
 
 ## Table of Contents
 + [**DATABC'S FME FRAMEWORK**](#databcs-fme-framework)
