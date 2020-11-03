@@ -3,7 +3,7 @@ layout: default
 title: Proxy Creation
 nav_order: 271
 parent: Security and Access
-grand_parent: Data Standards and Guidelines
+grand_parent: General Data Standards and Guidelines
 has_toc: false
 ---
 
@@ -11,18 +11,11 @@ has_toc: false
 
 BC Geographic Warehouse (BCGW) and non-BCGW proxies are created as a means for applications to access the data, as individual Oracle accounts are not permitted to be used in this manner. Proxies will only be created for and used by the application that they were intended. 
 
------------------------
-## Purpose
+This page provides standards for creating proxy accounts.  Out of scope, at this time, is the _Request for Proxy Account_ process. 
 
-This page will provide the standards followed when creating proxy accounts.  Out of scope, at this time, is the _Request for Proxy Account_ process. 
-
------------------------
-
-## Audience
-
-This page is relevant to clients publishing data to the BC Geographic Warehouse (BCGW).
-
------------------------
+|**AUDIENCE**| 
+|:---:|
+| *Data Publishers* |
 
 ## Table of Contents
 + [**PROXY ACCOUNT NAMING CONVENTIONS**](#proxy-account-naming-conventions)
@@ -111,12 +104,8 @@ In the event that a net new application schema is required the creation scripts 
 + Upon application retirement, a request will be sent to DataBC to request decommissioning of proxy 
 + Change Management notifications will be received by DataBC no less than 90 days before the date of anticipated change
 
-[RETURN TO TOP][1]
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > SECURITY AND ACCESS][2]
-
 -------------------------------------------------------
 
-[1]: #proxy-creation
-[2]: ./dsg_security_access.md
+[RETURN TO TOP][1]
 
+[1]: #proxy-creation
