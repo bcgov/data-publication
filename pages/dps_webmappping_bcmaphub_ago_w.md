@@ -2,7 +2,7 @@
 layout: default
 title: BC MapHub (ArcGIS Online)
 parent: Web-based Mapping
-nav_order: 15
+nav_order: 71
 nav_exclude: true
 ---
 
@@ -142,12 +142,8 @@ AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes 
 |<a name=new>_New information_</a> |Information that resides only in AGO and does not exist within the BCGW or the BCDC.|
 |<a name=enhanced>_Enhanced information_</a> |Existing information that has become value-added through the addition of information not already contained within the data, or information that was created as a result of an analysis process or amalgamation of information. For the purposes of AGO metadata requirements, if the AGO layer Item Details page can sufficiently describe how the information was added/created and the sources from which it came so that an average user (i.e., member of the public) could access and recreate this enhanced information based on the information provided, then no additional metadata record would be required for this layer. This being said however, it may be advisable to create such a metadata record to address the volume of questions from interested users. |
 
-[RETURN TO TOP][1]
-
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
-
 -------------------------------------------------------
 
-[1]: #data-publication-workflow---ago
-[2]: ../index.md#data-publication-process
+[RETURN TO TOP][1]
 
+[1]: #data-publication-workflow---ago
