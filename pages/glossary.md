@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glossary
-nav_order: 70
+nav_order: 13
 has_toc: false
 ---
 
@@ -39,11 +39,8 @@ has_toc: false
   
 Looking for an acronym or definition that's not in this list? Let us know at Data@gov.bc.ca.
 
-[RETURN TO TOP][1]
-
-[RETURN TO DATA PUBLICATION][2]
-
 -------------------------------------------------------
 
+[RETURN TO TOP][1]
+
 [1]: #glossary
-[2]: ../index.md
