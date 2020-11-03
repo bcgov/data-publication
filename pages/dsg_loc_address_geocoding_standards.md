@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Address & Geocoding Standards
-nav_order: 22
+nav_order: 611
 parent: BC Address Geocoder
 grand_parent: Location Services
 has_toc: false
