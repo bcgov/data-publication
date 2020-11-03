@@ -1,29 +1,17 @@
 ---
 layout: default
 title: Before You Start
-nav_order: 21
-parent: Data Standards and Guidelines
+nav_order: 2
 has_toc: false
 ---
 
 # BEFORE YOU START 
 
-Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)?
-Before your data is published, we will need to gather some information from you. This page will guide you through that process.
+Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)? Before your data is published, we will need to gather some information from you. The questions on this page will help the [DataBC Data Architecture](mailto:DataBC.DA@gov.bc.ca) team learn about your requirements and to determine whether the DataBC Program can meet them.
 
------------------------
-
-## Purpose
-
-The purpose of this page is to help the [DataBC Data Architecture](mailto:DataBC.DA@gov.bc.ca) team learn about your requirements and to determine whether the DataBC Program can meet them.
-
------------------------
-
-## Audience
-
-This page is relevant to anyone considering making their data available through any of the DataBC Program's access channels. 
-
------------------------
+|**AUDIENCE**|
+|:---:|
+| *Data Publishers* | 
 
 ## Table of Contents
 + [**DATA PUBLICATION CHANNELS**](#data-publication-channels)
