@@ -2,28 +2,17 @@
 layout: default
 title: Data Classification Hierarchy
 nav_order: 246
-grand_parent: Data Standards and Guidelines
-parent: BC Geographic Warehouse
+parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
 # DATA CLASSIFICATION HIERARCHY  
 
-Data that is stored in the BC Geographic Warehouse is classified into like groupings (known as schemas).  These groupings are are also used for layerfile presenations in iMapBC and the Layerfile Library.
+Data that is stored in the BC Geographic Warehouse is classified into like groupings (known as schemas).  These groupings are are also used for layerfile presenations in iMapBC and the Layerfile Library. This page describes the data classification hierarchy and definitions.
 
------------------------
-
-## Purpose
-
-This page describes the data classification hierarchy and definitions.
-
--------------------------
-
-## Audience
-
-The content below is meant for all users of the BC Geographic Warehouse (BCGW), iMapBC and the Layerfile Library within ArcGIS.
-
------------------------
+|**AUDIENCE**|  |  |  | 
+|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *BCGW Users* | *iMapBC Users* | *ArcGIS Users* |
 
 ## CATEGORY LEVEL DEFINITIONS
 
@@ -65,12 +54,3 @@ The following table provides the following:
 | |<a name=education>_Education_</a>|Data relating to schools, universities and colleges.|
 | |<a name=socialservices>_Social Services_</a>|Data relating to society: characteristics of societies and cultures. For example, resources describing natural settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, crime and justice, recreational areas and activities, social impact assessments, and census information.|
 | |<a name=justice>_Justice and Emergency_</a>|Data relating to crimes and the judiciary system as well as emergency management and the coroner’s service.|
-
-[RETURN TO TOP][1]
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
-
--------------------------------------------------------
-
-[1]: #data-classification-hierarchy
-[2]: ./dsg_bcgw.md
