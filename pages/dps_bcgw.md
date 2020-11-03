@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BC Geographic Warehouse
-nav_order: 3
+nav_order: 4
 has_children: true
 has_toc: false
 ---
