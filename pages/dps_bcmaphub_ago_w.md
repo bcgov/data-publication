@@ -1,8 +1,8 @@
 ---
 layout: default
 title: BC MapHub (ArcGIS Online)
-parent: Data Publication Workflows
-nav_order: 3
+parent: Web-based Mapping
+nav_order: 15
 nav_exclude: true
 ---
 
