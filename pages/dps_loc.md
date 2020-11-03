@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Location Services
-nav_order: 11
+nav_order: 14
 parent: Data Publication Services
 has_children: true
 has_toc: false
