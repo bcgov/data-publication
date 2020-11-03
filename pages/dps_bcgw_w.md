@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Publication Workflow
-nav_order: 131
+nav_order: 41
 parent: BC Geographic Warehouse
 grand_parent: Data Publication Services
 has_children: true
