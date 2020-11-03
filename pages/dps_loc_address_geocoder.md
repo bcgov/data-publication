@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BC Address Geocoder
-nav_order: 141
+nav_order: 61
 parent: Location Services
 has_children: true
 has_toc: false
