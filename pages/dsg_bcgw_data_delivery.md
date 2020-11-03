@@ -13,9 +13,9 @@ Publishing new or modified BC Geographic Warehouse objects requires coordination
 
 This page outlines the standards and processes which must be followed when publishing new database objects, making changes to database objects, or updating data in the BC Geographic Warehouse.
 
-|**AUDIENCE**|  |  |  |
-|:---:|:---:|:---:|:---:|
-| *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
+|**AUDIENCE**|  |  |  |  |
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* | *Contractors* |
 
 ## Table of Contents
 + [**ROLES AND RESPONSIBILITIES**](#roles-and-responsibilities)
