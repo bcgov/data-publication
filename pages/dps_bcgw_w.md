@@ -5,33 +5,20 @@ nav_order: 131
 parent: BC Geographic Warehouse
 grand_parent: Data Publication Services
 has_children: true
-padding: 1rem 
 has_toc: false
 ---
 
 # BC GEOGRAPHIC WAREHOUSE PUBLICATION WORKFLOW
 
-When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to load and publish your dataset in the BCGW.
+When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  
+
+The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to load and publish your dataset in the BCGW.
 
 This page is written in the context that you have reviewed the documentation as listed below.
 
------------------------
-
-## Purpose 
-
-This page decribes the publication workflow for clients that are publishing their data to the BC Geographic Warehouse (BCGW).
-
------------------------
-
-## Audience
-
-The intended audiences for this page are:
-+ clients that are publishing data to the BC Geographic Warehouse (BCGW)
-+ _Business Analysts_
-+ _Business Portfolio Managers_
-+ _Application Administrators_
-
------------------------
+|**AUDIENCE**|  |  |  |
+|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 ## Table of Contents
 + [**Audience**](#audience)
@@ -255,8 +242,6 @@ Data Distribution configuration is completed to implement access and security fo
 |**Resource**|**Action Item**|
 |:---|:---|
 |_DataBC: DA/Catalogue Services_| Publish distribution link in metadata|
-
-[RETURN TO TOP][1]
  
 -----------------------
 
@@ -299,8 +284,6 @@ Replication Services provides the channel in which the data is updated.  Some da
 ## LAYERFILE PRESENTATION
 Layerfile presentations for iMapBC and ArcGIS can be built at any time throughout the process, but must be configured for the data once it is deployed in PRODUCTION. 
 
-[RETURN TO TOP][1]
-
 -----------------------
 
 ## DATA MIGRATION TO PRODUCTION
@@ -332,8 +315,6 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 ||||Data confirmation - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
 
-[RETURN TO TOP][1]
- 
 -----------------------
 
 ## FINAL REVIEW
@@ -342,11 +323,8 @@ Your dataset has been modelled and loaded into the BCGW in Production, your laye
 
 Please review all the functions and access points that have been configured for your dataset.  Provide [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with any feedback or issues you may come across, or even just let us know how excited you are to have your data published through the DataBC Program! 
 
+-----------------------
+
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION SERVICES > BC GEOGRAPHIC WAREHOUSE][2]
-
--------------------------------------------------------
-
 [1]: #bc-geographic-warehouse-publication-workflow
-[2]: ./dps_bcgw.md
