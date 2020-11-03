@@ -2,13 +2,15 @@
 layout: default
 title: Roles and Responsibilties
 nav_order: 233
-parent: BC Data Catalogue
-grand_parent: Data Standards and Guidelines
+grand_parent: BC Data Catalogue
+parent: BCDC Standards and Guidelines
 has_toc: false
 ---
 
 # ROLES AND RESPONSIBILITIES
 _Formerly: A Guide for Data Custodians and Data Managers_
+
+This is a guide for Data Custodians and Data Managers. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
 
 The page covers the following topics:
 
@@ -17,19 +19,9 @@ The page covers the following topics:
 + Using the BC Geographic Warehouse (BCGW) to distribute data
 + Where to find more information
 
------------------------
-
-## Purpose
-
-This is a guide for Data Custodians and Data Managers. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
-
------------------------
-
-## Audience
-
-If you are a Data Custodian or Data Manager involved with managing spatial data holdings that are widely used and vital to Ministry business, then this guide is for you.
-
---------------------------
+|**AUDIENCE**|  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
 ## Table of Contents
 + [**IT IS ALL ABOUT THE INFORMATION**](#it-is-all-about-the-information)
@@ -96,8 +88,6 @@ This guide is about managing information within the BCGW and making it available
    + It is easily corrupted and misused, and loses its value if it goes out of date, or is not properly described. 
    + Some information is confidential, and needs to remain so. 
    + Someone has to set the rules for using information and, having done so, step up to ensure the information is made available according to those rules.
-
-[RETURN TO TOP][1] 
 
 -----------------------
 
@@ -175,8 +165,6 @@ Note that the involvement of a _Data Steward_ doesn't change the obligations of 
 + A _Data Administrator_ is responsible for setting policies and standards related to managing and protecting data.
 + A _Discipline Authority_ is a **business expert** who understands the business relevance of data standards, and supports their application and use to meet an organization's needs.
 
-[RETURN TO TOP][1] 
-
 ----------
 
 ## WHAT IT MEANS TO BE A DATA MANAGER
@@ -206,8 +194,6 @@ You will typically be responsible for these activities (though perhaps not all o
 + User support
 
 Data population and distribution may involve the BCGW, and this is discussed further in the next section.
-
-[RETURN TO TOP][1] 
 
 -----------------------------
 
@@ -467,8 +453,6 @@ Over time the nature and application of a data holding may change. It's up to yo
    + how records management is done
 + Provide user support. 
    + This includes assigning resources to answer users' business-related questions and resolve issues (technical support will be handled through DataBC and Shared Services)
-   
-[RETURN TO TOP][1] 
 
 ------------------------   
 
@@ -489,9 +473,4 @@ Other documents explaining guidelnes, roles and responsibilities:
 
 [RETURN TO TOP][1] 
 
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC DATA CATALOGUE][2]
-
--------------------------------------------------------
-
 [1]: #roles-and-responsibilities
-[2]: ./dsg_bcdc.md#
