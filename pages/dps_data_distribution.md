@@ -2,7 +2,6 @@
 layout: default
 title: Data Distribution
 nav_order: 5
-parent: Data Publication Services
 has_children: true
 has_toc: false
 ---
