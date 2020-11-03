@@ -5,7 +5,6 @@ nav_order: 324
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_toc: false
-padding: 1rem
 ---
 
 ## PUBLISHING A GEOGRAPHIC DATASET TO THE BC DATA CATALOGUE
@@ -235,10 +234,4 @@ To complete the metadata in DRAFT status you can choose either:
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][2]
-
--------------------------------------------------------
-
 [1]: #publishing-a-geographic-dataset-to-the-bc-data-catalogue
-
-[2]: ./dps_bcdc_w.md#CREATING-A-METADATA-RECORD
