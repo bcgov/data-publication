@@ -7,7 +7,7 @@ grand_parent: BC Data Catalogue
 has_toc: false
 ---
 
-## CREATING AN OPEN GOVERNMENT LICENSE
+## CREATING AN OPEN GOVERNMENT LICENSE - OTHER
 
 The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These are suggested steps to create an Open Government Licence for your organization:
 
@@ -30,12 +30,3 @@ The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must
 	1. **Note**: remove section on BC Government Copyright or whole line:
 		+ _'Note: as per B.C. Government Copyright, the following licence only applies to records in the B.C. Data Catalogue that specify it.'_
 1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
-
-
------------------------------------------------------------
-
-[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][1]
-
--------------------------------------------------------
-
-[1]: ./dps_bcdc_w.md
