@@ -18,12 +18,6 @@ When data is published to the the DataBC Program through any of its services, it
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
-## Audience
-
-The intended audiences for this page are:
-+ clients that are publishing data to the DataBC Program, through any service
-+ Data Custodians, Data Managers, Data Stewards, metadata editors
-
 -----------------------
 
 ## Table of Contents
@@ -318,9 +312,6 @@ When there are more than 20 records that require updating, a bulk update can be 
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE][2]
-
 -------------------------------------------------------
 
 [1]: #bc-data-catalogue-publication-workflow
-[2]: ./dps_bcdc.md
