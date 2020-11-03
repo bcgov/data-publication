@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Roles and Responsibilities
-nav_order: 245
+nav_order: 416
 grand_parent: BC Geographic Warehouse
 parent: BCGW Standards and Guidelines
 has_toc: false
