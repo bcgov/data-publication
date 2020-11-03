@@ -9,26 +9,14 @@ has_toc: false
 
 # USING THE BC DATA CATALOGUE API FOR METADATA MANAGEMENT
 
-The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. 
+The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. This page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
 
------------------------------------------------------------
+|**AUDIENCE**|
+|:---:|
+| *Metadata Editors* |
 
-## Purpose
-
-The page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
-
------------------------------------------------------------
-
-## Audience
-
-This document is meant for people who want to use the API to make metadata and data available through the Catalogue. It does not contain any DataBC Program internal operational information.
-
-For recommendations on how to publish your data, please refer to the pages in **Data Standards and Guidelines > [BC Data Catalogue](./dsg_bcdc.md)** or contact [DataBC](mailto:Data@gov.bc.ca) with your questions.
-
------------------------
 ## Table of Contents
 + [**ARCHITECTURE**](#architecture)
-+ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
 + [**HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API**](#how-to-manage-metadata-records-and-resources-using-the-catalogue-api)
 	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
 	+ [How to update a resource with the API](#how-to-update-a-resource-with-the-api)
@@ -46,11 +34,10 @@ Our main customization is done through a theme extension that we manage https://
 
 The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
 
-## HOW TO BECOME A PROVIDER TO THE CATALOGUE
-
-To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Please review **Data Publication Services > BC Data Catalogue > Publication Workflow > [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE)** for more information. 
-
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
+
+To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
+
 **Name of the org:**
 
 To obtain the GUID sub-org it requires the title name of the org
@@ -145,9 +132,6 @@ for resource in pkg_data['resources']:
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][2]
-
 -------------------------------------------------------
 
 [1]: #using-the-bc-data-catalogue-api-for-metadata-management
-[2]: ./dps_bcdc_w.md
