@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Distribution Workflow
-nav_order: 110
+nav_order: 51
 parent: Data Distribution
 grand_parent: Data Publication Services
 has_toc: false
@@ -9,13 +9,12 @@ has_toc: false
 
 # DATA DISTRIBUTION WORKFLOW
 
-This document provides a set of procedures and best practices around downloading data that is stored in the BC Geographic Warehouse (BCGW) and exported out using the following tools: the BC Data Catalogue (BCDC) and iMapBC.
+This page describes procedures and best practices for downloading data stored in the BC Geographic Warehouse (BCGW) and exported out using the BC Data Catalogue (BCDC) and iMapBC.
 
-+ [_The BC Geographic Warehouse (BCGW)_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
-+ [_iMapBC_](https://maps.gov.bc.ca/ess/hm/imap4m/?)
-+ [_The BC Data Catalogue (BCDC)_](https://catalogue.data.gov.bc.ca)
+|**AUDIENCE**|  |
+|:---:|:---:|
+| *Data Users* | *iMapBC Users* |
 
------------------------
 ## Table of Contents
 + [**HOW TO ORDER DATA**](#how-to-order-data)
 	+ [Using BC Data Catalogue](#using-bc-data-catalogue)
@@ -26,18 +25,6 @@ This document provides a set of procedures and best practices around downloading
 + [**FREQUENTLY ASKED QUESTIONS**](#frequently-asked-questions)
 
 -----------------------
-
-# Audience
-
-This document is meant for people who want to download data from the BCDC, aka the Catalogue, and iMapBC using DataBC's Distribution Service. This document does not contain any DataBC Program internal operational information.
-
-If you are interested in making data available via this service, head over to [Before you start](pages/before_you_start.md#before-you-start) and the [Publishing data to the DataBC Program](pages/publishing-data-to-the-databc-program.md) or the [FAQ](pages/faq.md#Downloading-data-from-the-BC-Geographic-Warehouse) pages.
-
-# Purpose
-
-The contents of this space is to assist data seekers to download data from the BCGW.
-
------------------------------------------------------------
 
 ## HOW TO ORDER DATA
 + In the BC Data Catalogue always refer to the **Who can download this dataset?** field in the **Access & Security** section, as that will identify what security profile the dataset is configured for.
@@ -130,15 +117,8 @@ When logged in to make an order to download data using this service, those past 
         + If this order isn't picked up within a week, then it will be deleted and the order will need to be resubmitted.
         + Some of the datasets in the BCGW include no geometry/spatial features, these will be exported as a csv alongside the format selected.
 
-
-## FREQUENTLY ASKED QUESTIONS
-[_Frequently Asked Questions Home Page_](pages/faq.md#PUBLISHING-METADATA-RECORDS-TO-THE-BC-DATA-CATALOGUE)
+-------------------------------------------------------
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > TIPS AND TRICKS][2]
-
--------------------------------------------------------
-
 [1]: #distribution-service
-[2]: ../index.md#tips-and-tricks
