@@ -353,6 +353,4 @@ The pattern for the location of XML schema files is:
 
 [RETURN TO TOP][1]
 
--------------------------------------------------------
-
 [1]: #file-based-content
