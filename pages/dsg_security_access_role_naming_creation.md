@@ -3,25 +3,23 @@ layout: default
 title: Role Naming & Creation
 nav_order: 272
 parent: Security and Access
-grand_parent: Data Standards and Guidelines
+grand_parent: General Data Standards and Guidelines
 has_toc: false
 ---
 
 # ROLE NAMING AND CREATION
-This standard should be consistently applied across platforms, databases and users within DataBC.
-The naming standard is based upon the Role Based Access Control (RBAC) security model and the IDIR naming standard.
 
------------------------
+The role naming standard is based upon the Role Based Access Control (RBAC) security model and the IDIR naming standard and should be consistently applied across platforms, databases and users within DataBC.
 
-## Purpose
-
-The contents of this page is to provide the audience with the information required to:
+This page describes information required to:
 
 + request a new role, including the timeline for the fulfillment of the request
 + implementation of roles, including but not limited to the role types, naming requirements and access types
 + granting IDIR and proxies and proxies to roles
 
------------------------
+|**AUDIENCE**|
+|:---:|
+|  |
 
 ## Audience
 
