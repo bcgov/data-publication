@@ -2,8 +2,8 @@
 layout: default
 title: Roles and Responsibilities
 nav_order: 245
-parent: BC Geographic Warehouse
-grand_parent: Data Standards and Guidelines
+grand_parent: BC Geographic Warehouse
+parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
@@ -11,17 +11,12 @@ has_toc: false
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
 
-## Purpose
+This page describes the roles and responsibilities involved in publishing data to the BC Geographic Warehouse through the Data BC program.
 
-This document describes in detail the roles and responsibilities of the people who are involved in publishing data to the Data BC program.
+|**AUDIENCE**|  |  |  |
+|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
------------------------
-
-## Audience
-
-This document is directed at those who will be publishing data to the BC Geographic Warehouse (BCGW), within the DataBC Program of the Digital Platforms and Data Division, OCIO Ministry of Citizens' Services. In addition, this document may be of interest to government Business Analysts, Business Portfolio Managers, and Application Administrators. 
-
------------------------
 ## Table of Contents
 + [**DATA DELIVERY ROLES**](#data-delivery-roles)
 	+ [Vendor Delivery Personnel](#vendor-delivery-personnel)
@@ -97,12 +92,8 @@ This document is directed at those who will be publishing data to the BC Geograp
 + Deployment of FME scripts to appropriate replication server home
 + Configure and scheduling of ongoing replication processes
 
-[RETURN TO TOP][1] 
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
-
 -------------------------------------------------------
 
-[1]: #roles-and-responsibilities
-[2]: ./dsg_bcgw.md
+[RETURN TO TOP][1] 
 
+[1]: #roles-and-responsibilities
