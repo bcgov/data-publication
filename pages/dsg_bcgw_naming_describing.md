@@ -2,7 +2,7 @@
 layout: default
 title: Naming & Describing
 nav_order: 26
-parent: Data Standards and Guidelines
+parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
