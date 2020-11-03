@@ -2,7 +2,6 @@
 layout: default
 title: Web-based Mapping
 nav_order: 7
-parent: Data Publication Services
 has_children: true
 has_toc: false
 ---
