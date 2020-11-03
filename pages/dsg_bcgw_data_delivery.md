@@ -2,30 +2,20 @@
 layout: default
 title: Data Delivery
 nav_order: 243
-parent: BC Geographic Warehouse
-grand_parent: Standards and Guidelines
+grand_parent: BC Geographic Warehouse
+parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
 # DATA DELIVERY
 
-Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. 
+Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, contractors, and the project’s business analyst. 
 
-This document describes in detail the standard procedures and guidelines for the publication of data to the BC Geographic Warehouse so that publication goes smoothly.
+This page outlines the standards and processes which must be followed when publishing new database objects, making changes to database objects, or updating data in the BC Geographic Warehouse.
 
------------------------
-
-## Purpose
-
-This document outlines the standards and processes which must be followed when publishing new database objects, making changes to database objects, or updating data in the BC Geographic Warehouse.
-
------------------------
-
-## Audience
-
-This document is directed at those who will be publishing data to the BC Geographic Warehouse (BCGW), within the DataBC Program of the Digital Platforms and Data Division, OCIO Ministry of Citizens' Services. In addition, this document may be of interest to government Business Analysts, Business Portfolio Managers, and Application Administrators. 
-
------------------------
+|**AUDIENCE**|  |  |  |
+|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 ## Table of Contents
 + [**ROLES AND RESPONSIBILITIES**](#roles-and-responsibilities)
@@ -362,8 +352,6 @@ WHSE_WATER_MANAGEMENT | SRM_WHSE_WATER_MGMT_BASE_PUB<br />SRM_WHSE_WATER_MGMT_US
 WHSE_WILDLIFE_INVENTORY | SRM_WHSE_WILDLIFE_INV_BASE_PUB<br />SRM_WHSE_WILDLIFE_INV_USER_GOV 
 WHSE_WILDLIFE_MANAGEMENT |  SRM_WHSE_WILD_MGMT_BASE_PUB<br />SRM_WHSE_WILD_MGMT_USER_GOV 
 
-[RETURN TO TOP][1]
-
 ----------------
 
 ## APPENDIX: WORKFLOW FOR CREATING AND DELETING BCGW DATABASE OBJECTS
@@ -402,8 +390,6 @@ A template for the README file is available [here]() for Geographic Sites Regist
 
 Before submitting a delivery kit to the DataBC program, make sure that you have tested it in the BCGW delivery environment.
 
-[RETURN TO TOP][1] 
-
 ----------------
 
 ## REFERENCES
@@ -414,10 +400,8 @@ Before submitting a delivery kit to the DataBC program, make sure that you have 
 
 Refer to [_Connecting to Gogs_](tips_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
 
+----------------
+
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > DATA PUBLICATION PROCESS][2]
-
--------------------------------------------------------
 [1]: #data-delivery
-[2]: ./dsg_bcgw
