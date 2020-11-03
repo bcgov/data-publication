@@ -21,7 +21,6 @@ This page is written in the context that you have reviewed the documentation as 
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 ## Table of Contents
-+ [**Audience**](#audience)
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW - IS MY DATA READY FOR THE BCGW?**](#workflow---is-my-data-ready-for-the-bcgw)
 + [**BEFORE YOU START**](#before-you-start)
