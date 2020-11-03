@@ -2,7 +2,7 @@
 layout: default
 title: Naming & Describing
 nav_order: 26
-parent: BCGW Standards and Guidelines
+parent: General Data Standards and Guidelines
 has_toc: false
 ---
 
@@ -15,31 +15,15 @@ The way we name and describe data creates an understanding of what the data is, 
 + organize data into appropriate groupings
 + provide users with clear information on what the data is
 
-DataBC adheres to the standards in this document for naming and describing data components within the DataBC Program.
-
------------------------
-
-## Purpose
-
-This page describes general standards and guidelines for naming and describing data components within the DataBC Program, specifically in:
+DataBC adheres to the standards in this document for naming and describing data components within the DataBC Program, specifically in:
 
 + the BC Geographic Warehouse (BCGW)
 + the BC Data Catalogue BCDC)
 + the DataBC Data Modelling tool (currently Oracle Designer)
 
--------------------------
-
-## Audience
-
-These standards and guidelines are addressed specifically to:
-
-+ people providing data content to the BC Geographic Warehouse and/or the BC Data Catalogue.
-+ people writing metadata in the BC Data Catalogue.
-+ developers providing data models and files as part of the DataBC delivery kit publication process.
-+ developers describing web services that are consumed by DataBC processes (e.g., a JSON REST service consumed by a DataBC Extract-Transform-Load (ETL) processes)
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
------------------------
+|**AUDIENCE**|  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Developers* | *Data Modellers* | *Metadata Editors* | *DataBC Catalogue Team* |
 
 ## Table of Contents
 + [**Audience**](#audience)
@@ -122,8 +106,6 @@ A data component is any object used to capture or store information about the da
 |sequence names			|				|						|			|
 |index names			|				|						|			|
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## GENERAL NAMING GUIDELINES
@@ -143,9 +125,6 @@ An example of dataset/application acronym naming is FWA which maps to the title 
 This acronym is prefixed to all 'physical' database objects such as tables, views, packages, sequences, primary key names, foreign key names, roles and proxies. Functions and procedures that are not encapsulated in packages must also be prefixed with this acronym.
 
 The intent of requiring the prefixing the Dataset and Application Acronym on all objects is to reduce the possibility of namespace collisions. 
-
-
-[RETURN TO TOP][1]
  
 ------------------------------------------------------------------------------
 
@@ -291,9 +270,7 @@ Caution should be taken to ensure that the abbreviation process doesn't result i
    + When a table or view contains identical data to another table or view, but instead has less fields. 
       	+ This might be a public view of an already existing IDIR-only table.
    + Example: XYZ_EXISTING_TABLE_PA_SV
-
-[RETURN TO TOP][1] 
-
+   
 -----------------------------------------------------------
 
 ## ORACLE COMPONENT NAMING STANDARDS
@@ -617,8 +594,6 @@ Column headings in CSV files and XLSX spreadsheets should be clear enough to giv
 
 See this [Catalogue Resource](https://catalogue.data.gov.bc.ca/dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315/resource/824f2a99-d738-4b63-a492-a906d4c37be0/download/datadict_public.xlsx) for an example of a data dictionary document. Multiple resources within a single dataset can be described by a single data dictionary document.
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## BC DATA CATALOGUE CONTENT AND DESCRIBING GUIDELINES
@@ -667,15 +642,11 @@ Above all, keep in mind the intention of the *data seeker* when supplying keywor
 
 ![Parcel Map BC Keywords](images/image_keywords.png)
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## WEB SERVICES CONTENT AND DESCRIBING GUIDELINES
 
 --under construction--
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -704,11 +675,8 @@ Above all, keep in mind the intention of the *data seeker* when supplying keywor
 | `WHEN_UPDATED` | Date| | `The date and time the record was last modified.`|
 | `EXPIRY_DATE` | Date| | `The date and time the record expired.`|
 
-[RETURN TO TOP][1]
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][2]
-
 -------------------------------------------------------
 
+[RETURN TO TOP][1]
+
 [1]: #Naming-and-Describing
-[2]: ./dsg.md
