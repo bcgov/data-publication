@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Data Replication
+title: FME Data Replication
 nav_order: 241
-parent: BC Geographic Warehouse
-grand_parent: Data Standards and Guidelines
+grand_parent: BC Geographic Warehouse
+parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
-# DATA REPLICATION
+# FME DATA REPLICATION
 
 There are currently three mechanisms in place to reload BC Geographic Warehouse data objects when the source objects change:
 
@@ -15,21 +15,11 @@ There are currently three mechanisms in place to reload BC Geographic Warehouse 
 + Materialized Views (MVW)
 + Spatial Data Replication (SDR)
 
-This page describes standards and guidelines concerning the first of these - FME. This mechanism should be the default choice for all new DataBC data publications to the BC Geographic Warehouse.
+This page describes standards and guidelines for writing FME scripts to load data to the BC Geographic Warehouse. This mechanism should be the default choice for all new DataBC data publications to the BC Geographic Warehouse.
 
------------------------
-
-## Purpose
-
-This page provides standards and best practices for writing FME scripts to load data to the BC Geographic Warehouse.
-
------------------------
-
-## Audience
-
-This page will be of interest to anybody building FME scripts as part of a data delivery to the BC Geographic Warehouse. 
-
------------------------
+|**AUDIENCE**|  |  |  |  |
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* | *Contractors* |
 
 ## Table of Contents
 + [**RESPONSIBILITY FOR PUBLISHED DATA**](#responsibility-for-published-data)
@@ -41,13 +31,12 @@ This page will be of interest to anybody building FME scripts as part of a data 
 	+ [Handling Complex Curve Data](#handling-complex-curve-data)
 	+ [Proceeding Past Data Errors](#proceeding-past-data-errors)
 + [**KIRK**](#kirk)
+
 -----------------------
 
 ## RESPONSIBILITY FOR PUBLISHED DATA
 
 Individual business areas are responsible to ensure their data is complete and ready for publication. DataBC operates the BC Geographic Warehouse (BCGW) but is not responsible to assure the quality of the data. It is the responsibility of the business area to provide topologically correct and complete data.
-
-[RETURN TO TOP][1]
 
 -------------------------------------------------------
 
@@ -111,7 +100,6 @@ Contact the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team
 | spi_wildlife_nonsensitive_sp | api |csv |bcgw |`spi_wildlife_nonsensitive_sp_api_csv_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | webservice | csv |bcgw |`spi_wildlife_nonsensitive_sp_webservice_csv_bcgw.fmw`|
 
-
 [RETURN TO TOP][1]
 
 -------------------------------------------------------
@@ -157,8 +145,6 @@ By default, the [_FME Geodatabase Writer_](https://docs.safe.com/fme/html/FME_De
 |Dump Failed Features to File|Yes|
 |Failed Feature Dunp Filename|$(FAILED_FEATURES)|
 
-[RETURN TO TOP][1]
-
 -------------------------------------------------------
 
 ## KIRK
@@ -180,12 +166,8 @@ Note that currently there is no way for a developer to create or change a _KIRK_
 
 For new publications of _KIRK_-able cases, the vendor should delivery an FMW that works and has been tested in the BCGW delivery environment.  It does not need to follow DataBC standards.  The DataBC ETL group will take responsibility for replacing the FMW with a _KIRK_ definition.
 
+-------------------------------------------------------
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION SERVICES > STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
-
--------------------------------------------------------
-
 [1]: #data-replication
-[2]: ./dsg_bcgw.md
