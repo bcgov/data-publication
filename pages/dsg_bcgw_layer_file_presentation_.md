@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Layer File Presentation
-parent: BC Geographic Warehouse
-grand_parent: Data Standards and Guidelines
+grand_parent: BC Geographic Warehouse
+parent: BCGW Standards and Guidelines
 nav_order: 244
 has_toc: false
 ---
@@ -11,11 +11,7 @@ has_toc: false
 
 A layer file is an ESRI-based file with a .lyr extension that stores the path to a source dataset and other layer properties, including symbology. It provides a consistnent presentation for data and is built using ESRI's ArcGIS software.
 
------------------------
-
-## Purpose
-
-This document provides standards, guidelines and procedures for layerfile presentations and the cartographic symbology of spatial data in the BC Geographic Warehouse (BCGW) as required for DataBC's mapping applications and services. 
+This page provides standards, guidelines and procedures for layerfile presentations and the cartographic symbology of spatial data in the BC Geographic Warehouse (BCGW) as required for DataBC's mapping applications and services. 
 
 Specifically, the layer files are directly or indirectly used as the source for presentations in the following mapping applications and services:
 
@@ -26,13 +22,9 @@ Specifically, the layer files are directly or indirectly used as the source for 
 + Web Mapping Service (WMS)
 + B.C.'s Map Hub layers available through ArcGIS Online
 
------------------------
-
-## Audience
-
-This document is intended for GIS specialists who are creating or updating Esri ArcGIS layer files to be submitted to DataBC.
-
------------------------
+|**AUDIENCE**|
+|:---:|
+| *GIS Specialists* |
 
 ## Table of Contents
 + [**REQUIREMENTS**](#requirements)
@@ -64,8 +56,6 @@ Before a layer file can be created, the following must already exist:
 Esri layer file version:
 
 + **Layer files must be Esri ArcGIS 10.6** and use the file extension ".lyr"
-
-[RETURN TO TOP][1]
 
 ---------------------------------------------------------------------
 
@@ -445,8 +435,6 @@ Multiple labels ("Define classes of features...") based on scales are supported,
 + Layer joins and Query layers are not supported. 
 + Please contact DataBC to discuss modelling requirements and creating a view in the BCGW database.
 
-[RETURN TO TOP][1]
-
 ---------------------------------------------------------------------
 
 ## LAYER CHANGE PROCEDURES
@@ -459,19 +447,14 @@ Over time, the presentation of a layer may require modification.
 + The new layer file can be e-mailed or deposited on an agreed upon shared drive
 + A DataBC representative will ensure the layer file meets standards, stability, and performance prior to updating the new layer file in the Layer Library, etc.
 
-[RETURN TO TOP][1]
-
 -------------------------------------------------------
 
 ## REFERENCES
 
 + [_ArcGIS Desktop - What is a layer?_](https://desktop.arcgis.com/en/arcmap/10.6/map/working-with-layers/what-is-a-layer-.htm)
 
-[RETURN TO TOP][1]
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > BC GEOGRAPHIC WAREHOUSE][2]
-
 -------------------------------------------------------
 
+[RETURN TO TOP][1]
+
 [1]: #layer-file-presentation
-[2]: ./dsg_bcgw.md
