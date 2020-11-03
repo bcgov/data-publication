@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Classification Hierarchy
-nav_order: 246
+nav_order: 411
 parent: BCGW Standards and Guidelines
 grand_parent: BC Geographic Warehouse
 has_toc: false
@@ -49,3 +49,5 @@ Data that is stored in the BC Geographic Warehouse is classified into like group
 | |_Education_|Data relating to schools, universities and colleges.|
 | |_Social Services_|Data relating to society: characteristics of societies and cultures. For example, resources describing natural settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, crime and justice, recreational areas and activities, social impact assessments, and census information.|
 | |_Justice and Emergency_|Data relating to crimes and the judiciary system as well as emergency management and the coroner’s service.|
+
+----------------------------
