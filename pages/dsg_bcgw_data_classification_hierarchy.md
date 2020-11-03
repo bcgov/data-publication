@@ -16,13 +16,7 @@ Data that is stored in the BC Geographic Warehouse is classified into like group
 
 ## CATEGORY LEVEL DEFINITIONS
 
-The following table provides the following:
-
-+ **Level 1** category names
-  + Associated **Level 2** category names
-+ **Definition** for each level category
-
-|**Level 1 Category Name**|**Level 2 Category Name**|**Category Definition**|
+|**Category Name**|**Sub-Category Name**|**Definition**|
 |:---:|:---:|:---|
 |**Legal Information and Administrative Boundaries**| |Data which represents ownership, the right to carry on an activity or the right to access/use specified areas, or the conceptual data representing jurisdiction or responsibility for a specified area.|
 | | _Administrative Boundaries_|Data relating subdivisions of the province for organizational reasons and used for administration purposes by one or more organizations. e.g.: districts, regions, parks, etc.|
