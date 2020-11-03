@@ -1,7 +1,7 @@
 ---
 layout: default
 title: API Metadata Management
-nav_order: 112
+nav_order: 321
 grand_parent: BC Data Catalogue
 parent: Publication Workflow
 has_toc: false
