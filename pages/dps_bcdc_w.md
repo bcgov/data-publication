@@ -8,9 +8,8 @@ has_children: true
 has_toc: false
 ---
 
-**Audience:**| *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
+**Audience:**| Data Publishers | Data Custodians | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 |:---|:---:|:---:|:---:|:---:|:---:|
-
 
 # BC DATA CATALOGUE PUBLICATION WORKFLOW
 
