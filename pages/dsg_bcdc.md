@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Standards and Guidelines
+title: BCDC Standards and Guidelines
 nav_order: 23
 parent: BC Data Catalogue
 has_children: true
