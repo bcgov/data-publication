@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Application
-nav_order: 123
+nav_order: 113
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 padding: 1rem
@@ -18,9 +18,9 @@ has_toc: false
 
 **URL**: This is automatically generated once the title is filled in.
 
-**Organization**: This is the Ministry or Organization under which the metadata record is created.
+**Organization**: This is the higher level organization responsible for the items described in the metadata.
 
-**Sub-Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created.
+**Sub-Organization**: This is the custodial organization (often the Branch or Division) responsible for data or items.
 
 **Description**: Provide a meaningful description of the application here. Be sure to include any information that would be relevant to an end-user of your application.
 
@@ -120,11 +120,9 @@ It is suggested to use a standard file name as it would appear in your file syst
 Click **Finished** when complete.  This will save your metadata record for the application in DRAFT status.
 
 ------------------------------
-[RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION SERVICES > BC DATA CATALOGUE > PUBLICATION WORKFLOW][2]
+[RETURN TO TOP][1]
 
 -------------------------------------------------------
 
 [1]: #publishing-an-application-to-the-bc-data-catalogue
-[2]: ./dps_bcdc_w.md#CREATING-A-METADATA-RECORD
