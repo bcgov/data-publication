@@ -1,18 +1,12 @@
 ---
 layout: default
-title: BC Geographic Warehouse
+title: BCGW Standards and Guidelines
 nav_order: 24
-parent: Data Standards and Guidelines
+parent: BC Geographic Warehouse
 has_children: true
 has_toc: false
 ---
 
-# BC GEOGRAPHIC WAREHOUSE
+# BC GEOGRAPHIC WAREHOUSE - STANDARDS AND GUIDELINES
 
 The pages in this section provide information on the standards and guidelines for the BC Geographic Warehouse (BCGW). 
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][1]
-
--------------------------------------------------------
-
-[1]: ./dsg.md
