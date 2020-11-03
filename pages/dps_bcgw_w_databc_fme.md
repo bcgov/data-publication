@@ -2,8 +2,8 @@
 layout: default
 title: DataBC FME Framework
 nav_order: 132
-parent: BC Geographic Warehouse
-grand_parent: Data Publication Services
+parent: Publication Workflow
+grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
@@ -27,7 +27,7 @@ DataBC Data Architects and vendors and data providers who manage data and the lo
 
 ## Table of Contents
 + [**DATABC'S FME FRAMEWORK**](#databcs-fme-framework)
-	+ [​Overview of how to use the DataBC FME Framework](#overview-of-how-to-use-the-databc-fme-framework)
+	+ [Overview of how to use the DataBC FME Framework](#overview-of-how-to-use-the-databc-fme-framework)
 + [**ACCESSING THE FME FRAMEWORK**](#accessing-the-fme-framework)
 	+ [Allow Reader Feature Type Editing](#allow-reader-feature-type-editing)
 	+ [Enable FME Framework Customizations](#enable-fme-framework-customizations)
