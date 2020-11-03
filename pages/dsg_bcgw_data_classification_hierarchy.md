@@ -28,7 +28,7 @@ The following table provides the following:
 | | _Administrative Boundaries_|Data relating subdivisions of the province for organizational reasons and used for administration purposes by one or more organizations. e.g.: districts, regions, parks, etc.|
 | |_Land Ownership and Status_|Data relating to the ownership of land and the parcels into which the land has been subdivided. Includes the location and extent of registered titles, easements and utility rights-of-way, and surveyed highways and forest roads.|
 | |<_Licences and Permits_|Data relating to the right to access or use land for a specified purpose.|
-|**_Imagery and Base Maps_** ||Data which aids in the locating of natural and man-made features and that provides the required level of coverage in support of the development and management of land-related information.|
+|**Imagery and Base Maps** ||Data which aids in the locating of natural and man-made features and that provides the required level of coverage in support of the development and management of land-related information.|
 | |_Imagery_|Data related to a picture of the earth taken at some particular range within the electromagnetic spectrum (i.e. visible light, IR, etc.) from an earth-orbital satellite or air-craft.|
 | |_Geographical Names_|Data relating to the official names associated with specific features in the Province.|
 | |_Base Maps_|Data containing geographic features used for locational reference.|
