@@ -14,4 +14,6 @@ The Data Custodianship function is a vital part of good _data governance_. The g
 
 [_British Columbia First Nations' Data Governance Initiative_](https://www.bcfndgi.com/)
 
+Explore Data Standards and Guidelines for more information on the Roles and Responsibilities for the BC Data Catalogue and the BC Geographic Warehouse.
+
 -------------------------------------------------------
