@@ -7,7 +7,7 @@ has_toc: false
 nav_exclude: true
 ---
 
-![](images/image_DataBC.png)
+![](pages/images/image_DataBC.png)
 # DATA PUBLICATION SERVICES
 
 DataBC encourages and enables the strategic management and sharing of data across the government enterprise and with the public. It is responsible for the BC Data Catalogue, the Open Data initiative and the B.C. Spatial Data Infrastructure and associated products and services.
