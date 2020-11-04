@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Making Useful Metadata
-nav_order: 12
+nav_order: 111
 parent: Tips & Tricks
 has_toc: false
 ---
