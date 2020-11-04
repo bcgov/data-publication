@@ -10,4 +10,6 @@ has_toc: false
 
 The pages in this section decribe general standards and guidelines for publishing data to the DataBC Program.  
 
-Explore the BC Data Catalogue and the BC Geographic Warehouse sections for service specific standards and guidelines.
+Explore the BC Data Catalogue, BC Geographic Warehouse and Location Services sections for service specific standards and guidelines.
+
+----------------------------------
