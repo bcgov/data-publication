@@ -7,11 +7,7 @@ has_toc: false
 
 # WE VALUE YOUR CONTRIBUTIONS
 
-Our goal in publishing these documents was to create a complete, clear, and correct repository of guides to help DataBC Program contributors and consumers. We welcome contributions; this document describes processes for providing contributions and feedback.
-
------------------------
-
-## Purpose
+Our goal in publishing these documents was to create a complete, clear, and correct repository of guides to help DataBC Program contributors and consumers. We welcome your contributions!
 
 This page describes two mechanisms for providing input on the documentation published on this site:
 + reporting errors in the documentation, and
@@ -41,8 +37,6 @@ If you would like to point out an error or make a comment on the content, this c
 1. Enter a **Title** that is brief to describe the issue.
 1. Enter a **Description** of the issue and what URL it is on.
 1. Click the ![Submit new issue](images/image_submit_new_issue.png) button. 
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -124,13 +118,8 @@ git push
 
  [DataBC](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
+-------------------------------------------------------
 
 [RETURN TO TOP][1] 
 
-[RETURN TO DATA PUBLICATION][2]
-
--------------------------------------------------------
-
 [1]: #we-value-your-contributions
-[2]: ../index.md
-
