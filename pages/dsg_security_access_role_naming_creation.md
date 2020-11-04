@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Role Naming & Creation
-nav_order: 272
+nav_order: 822
 parent: Security and Access
 grand_parent: General Data Standards and Guidelines
 has_toc: false
@@ -49,8 +49,6 @@ All BCGW/DBC objects being modelled in the DataBC repository should indicate whi
 ### Timelines
 
 Depending on existing requests and staff availability, new role requests may take up to 10 business days to be completed. If there is requirement to have it completed in less than 10 business days please contact the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team. 
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -208,8 +206,6 @@ Example:
 |`REG_LAND_AND_NATURAL_RESOURCE`|`REG_LNR`|
 |`REG_LEGAL_AND_ADMIN_BOUNDARIES`|`REG_LAB`|
 
-[RETURN TO TOP][1] 
-
 -----------------------------------------------------------
 
 ## GRANTING IDIR AND PROXIES
@@ -224,11 +220,8 @@ Example:
 
 See [_Proxy Naming Standards_](dsg_security_access_proxy_creation.md)
 
-[RETURN TO TOP][1]
-
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES > SECURITY AND ACCESS][2]
-
 -------------------------------------------------------
 
+[RETURN TO TOP][1]
+
 [1]: #Role-Naming-and-Creation
-[2]: ./dsg_security_access.md
