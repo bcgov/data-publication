@@ -1,13 +1,13 @@
 ---
 layout: default
-title: FME Data Replication
+title: Data Replication Using FME
 nav_order: 413
 grand_parent: BC Geographic Warehouse
 parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
-# FME DATA REPLICATION
+# DATA REPLICATION USING FME
 
 There are currently three mechanisms in place to reload BC Geographic Warehouse data objects when the source objects change:
 
@@ -170,4 +170,4 @@ For new publications of _KIRK_-able cases, the vendor should delivery an FMW tha
 
 [RETURN TO TOP][1]
 
-[1]: #data-replication
+[1]: #data-replication-using-fme
