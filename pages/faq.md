@@ -120,8 +120,6 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 -------------------------------------------------------
 
--------------------------------------------------------
-
 ## DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY
 
 ### What is Open Data and what is the difference between Open Data and "Access Only" public data?
@@ -552,9 +550,4 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION][2]
-
--------------------------------------------------------
-
 [1]: #frequently-asked-questions
-[2]: ../index.md
