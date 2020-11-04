@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Making Useful Metadata
-nav_order: 51
+nav_order: 12
 parent: Tips & Tricks
 has_toc: false
 ---
@@ -69,12 +69,8 @@ When completing the metadata record, there are both required and non-required fi
 |**Data Precision**| |This is uneditable and auto-populated from metadata in the BCGW|
 |**Comments**| |This is uneditable and auto-populated from metadata in the BCGW|
 
-[RETURN TO TOP][1]
-
-[RETURN TO TIPS & TRICKS][2]
-
 -------------------------------------------------------
 
-[1]: #making-useful-metadata
+[RETURN TO TOP][1]
 
-[2]: ./tips_tricks.md#
+[1]: #making-useful-metadata
