@@ -75,8 +75,6 @@ If not using an Easy Connect then the connection requires ESRI syntax and thus i
 + Example:  
         ArcGIS 10.6 - `<BCGW Host Name>``/``<BCGW Service Name>`
 
-[RETURN TO TOP][1]
-
 -----------------------
 
 ## ADDING DATA USING ARCGIS DESKTOP
@@ -120,9 +118,6 @@ _Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-e
    + This presentation can be turned off
    + Once added, **Save** and close the document.
    + Next time it is opened all connections should be live.
-
-
-[RETURN TO TOP][1]
 
 ----------------------------------------------------------- 
 
@@ -230,8 +225,6 @@ Due to these limitations there are two output MXDs created per Single MXD script
 + FOR ALL APPROACHES ALWAYS VERIFY\!
 + To verify, open MXD/LYR in ArcMap and check the data source tab in the table of contents.
 
-[RETURN TO TOP][1] 
-
 ------------------------------------------------------------------------------
 
 ## CONNECTING TO GOGS
@@ -246,12 +239,8 @@ Connecting to the DataBC Gogs repositories requires that you log in first.
 + Select your choice and proceed with the login screens.
    + BC Government employees will user their IDIR id
  
+ -------------------------------------------------------
+ 
 [RETURN TO TOP][1] 
 
-[RETURN TO DATA PUBLICATION][2]
-
--------------------------------------------------------
-
 [1]: #tips-and-tricks
-[2]: ../index.md#
-
