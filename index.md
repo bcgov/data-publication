@@ -4,7 +4,6 @@ title: Data Publication Services
 nav_order: 1
 has_children: false
 has_toc: false
-nav_exclude: true
 ---
 
 ![](pages/images/image_DataBC.png)
