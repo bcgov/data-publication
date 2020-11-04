@@ -1,37 +1,24 @@
 ---
 layout: default
 title: Staging Area
-nav_order: 28
+nav_order: 83
 parent: General Data Standards and Guidelines
 has_toc: false
 ---
 
 # STAGING AREA
 
-This guide provides the necessary information for all locations and access to multiples staging areas, depending on the type of data being published.  Contact information is also provided for additional assistance.
+DataBC manages multiple staging areas to allow for the transfer and storage of file based source datasets for the intent to be published via DataBC's access channels, including:
 
------------------------
-
-## Purpose
-
-DataBC manages multiple staging areas to allow for the transfer and storage of file based source datasets for the intent to be published via DataBC's access channels.
-
-+ BC Geographic Warehouse (BCGW)
-+ BC Data Catalogue (BCDC)
++ the BC Geographic Warehouse (BCGW)
++ the BC Data Catalogue (BCDC)
 + Tilecache
 
------------------------
+This page describes the staging areas, how to request access and specific requirements, including data quality. 
 
-## Audience
-
-These staging area standards are addressed specifically to:
-
-+ people providing data content to the BC Geographic Warehouse,
-+ developers providing data models and files as part of the DataBC delivery kit publication process,
-+ developers describing web services that are consumed by DataBC processes (e.g., a JSON REST service consumed by a DataBC Extract-Transform-Load (ETL) processes),
-+ DataBC staff who review data models and review draft BC Data Catalogue records.
-
------------------------
+|**AUDIENCE**|  |  |  |
+|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Developers* | *Data Modellers* | *DataBC Catalogue Team* |
 
 ## Table of Contents
 + [**AGO (ArcGIS ONLINE) STAGING AREA LOCATION AND ACCESS**](#ago-arcgis-online-staging-area-location-and-access)
