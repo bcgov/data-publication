@@ -19,4 +19,4 @@ The province's area, varied topography and predominantly natural resource based 
 
 The information provided in this site describes the services that DataBC provides for data publication, along with supporting governance, standards, guidelines and client workflows. 
 
--------------------------------------------------------
+-----
