@@ -30,9 +30,9 @@ B.C.'s Map Hub is the provincial instance of AGO.  This page is intended to help
 
 ---------------------------------------------------------------------
 
-## BC's MAPHUB (ArcGIS ONLINE) - PUBLISHING WORKFLOW
+## B.C.'s MAP HUB - PUBLISHING WORKFLOW
 
-Below are the steps to follow when publishing an ArcGIS Online (AGO) application:
+Below are the steps to follow when publishing an AGO application:
 
 1. AGO user has a web mapping project destined for the public domain.
    1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes a requirement for a [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
@@ -64,7 +64,7 @@ Below are the steps to follow when publishing an ArcGIS Online (AGO) application
 
 ---------------------
 
-## BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS
+## BC DATA CATALOGUE METADATA GUIDELINES FOR AGO AUTHORS
 
 ### Custodianship
 
