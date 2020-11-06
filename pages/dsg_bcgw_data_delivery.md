@@ -51,7 +51,7 @@ This page outlines the standards and processes which must be followed when publi
 
 ## ROLES AND RESPONSIBILITIES
 
-Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. Please refer to [_Data Publication: Roles and Responsibilities_](dsg_bcgw_roles_and_responsibilities.md) for a description of the roles and responsibilities of each of these partners.
+Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. Please refer to the BC Geographic Warehouse > BCGW Standards and Guidelines > [_Roles and Responsibilities_](dsg_bcgw_roles_and_responsibilities.md) page for a description of the roles and responsibilities of each of these partners.
 
 -----------------------
 
@@ -251,7 +251,7 @@ Links:
 + ‘Workspace Properties’ should contain the usual Header type information about your script
 + If reading from the staging area, refer to the "read-only" version (\\data.bcgov\data_staging_ro\BCGW)
 
-See [_Data Replication Standards and Guidelines_](dps_bcgw_data_replication.md)
+See [_Data Replication_](dps_bcgw_data_replication.md)
 
 #### `revert_to_previous` Directory
 
@@ -364,11 +364,11 @@ There are two options to choose from when preparing the delivery kit DLL scripts
 
 #### Option 1: Starting by Building a Physical Model
 
-1. Using Oracle Designer, transform and export modelled spatial objects into the appropriate DDL files to be included in the delivery kit. Follow the standards defined in [Naming and Describing Standards](naming_and_describing.md) and [Data Guidance and Best Practices](data_guidance_and_best_practices.md). 
+1. Using Oracle Designer, transform and export modelled spatial objects into the appropriate DDL files to be included in the delivery kit. Follow the standards defined in [Naming and Describing Standards](dsg_naming_describing.md) and[Data Standards](dsg_bcgw_data_standards.md). 
 
-#### Option 2: Starting by Building Database Objects and Reverse-Engineering
+#### Option 2: Starting by Building Database Objects and Reverse-Engineering 
 
-1. Using a filled-in [Dataset log file](), copy and paste the column definitions into a DDL-generation spreadsheet available [here]().  
+1. Using a filled-in Dataset log file, copy and paste the column definitions into a DDL-generation spreadsheet (contact [DataBC](mailto:DataBC.DA@gov.bc.ca) for this).  
 1. Copy and clean up the content in the generated tabs into a single SQL file.  There should be one file per database table or view. Ensure that the DDL files include GRANT statements. Change any occurrences of SDO_GEOMETRY to NUMBER.  Run the SQL file(s) in BCGW DELIVERY to make sure there are no errors.  
 1. Using Oracle Designer Design Editor, reverse-engineer the DDL files into the appropriate Designer container.  Reverse engineer tables before views.
 1. If necessary, correct any definitions of constraints and triggers, column and table comments, etc.  Make sure that SHAPE and/or GEOMETRY column data types are changed back to SDO_GEOMETRY.
@@ -376,15 +376,16 @@ There are two options to choose from when preparing the delivery kit DLL scripts
 
 ### Write the Data Loading Script
 
-See [Data Replication Standards and Guidelines](data_replication_standards_and_guidelines.md) for guidance on building FME scripts.
+See [Data Replication](dsg_bcgw_data_replication.md) for guidance on building FME scripts.
 
 ### Write the Script for Managing the MDSYS USER_SDO_GEOM_METADATA View
 
-See [Data Guidance and Best Practices](data_guidance_and_best_practices.md#user_sdo_geom_metadata).  
+See [Data Standards](dsg_bcgw_data_standards.md#user_sdo_geom_metadata).  
 
 ### Write the README file
 
-A template for the README file is available [here]() for Geographic Sites Registry (GSR) publications and [here]() for all other BCGW publications.
++ README file for [Geographic Sites Registry (GSR) publications)](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/GSR_WHSE.N.N.N.readme)
++ README file for [all other BCGW publications](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/xyz_WHSE.N.N.N.readme).
 
 ### Test the README file (including rollback instructions) in BCGW Delivery
 
@@ -394,8 +395,6 @@ Before submitting a delivery kit to the DataBC program, make sure that you have 
 
 ## REFERENCES
 
-+ [_Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/xyz_WHSE.N.N.N.readme)
-+ [_GSR (Sites Registry)-specific Readme file template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/setup/GSR_WHSE.N.N.N.readme)
 + [_SDO extent metadata calculation template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/WHSE_SCHEMA_NAME/scripts/xyz_whse_compute_mdsys_extents.sql)
 
 Refer to [_Connecting to Gogs_](tips_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
