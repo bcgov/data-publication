@@ -6,13 +6,13 @@ nav_order: 71
 nav_exclude: true
 ---
 
-# BC MAPHUB - ARCGIS ONLINE (AGO)
+# B.C.'s MAP HUB - ARCGIS ONLINE (AGO)
 
 B.C.'s Map Hub is the official B.C. Government presence in ArcGIS Online.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others.
 
 -----------------------
 ## Table of Contents
-+ [**BC's MAPHUB (ArcGIS ONLINE) - PUBLISHING WORKFLOW**](#bcs-maphub-arcgis-online---publishing-workflow)
++ [**B.C.'s MAPHUB (ArcGIS ONLINE) - PUBLISHING WORKFLOW**](#bcs-maphub-arcgis-online---publishing-workflow)
 + [**BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS**](#bc-data-catalogue-metadata-guidelines-for-arcgis-online-authors)
 	+ [Custodianship](#custodianship)
 	+ [Metadata](#metadata)
