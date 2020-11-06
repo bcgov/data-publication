@@ -70,7 +70,7 @@ Below are the steps to follow when publishing an AGO application:
 
 + All public facing ArcGIS Online (AGO) web maps, applications and AGO-hosted layers must have a _Data Custodian_. 
 + This is typically someone at the Director level who has responsibility for the business (i.e., they have authority based on legislation or policy). 
-+ For more information on a Data Custodian’s role, obligations and responsibilities, along with roles related to the _Data Custodian_, please refer to [_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md#a-guide-for-data-custodians-and-data-managers) and the [_Data Custodianship Guidelines for BC_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf).
++ For more information on a Data Custodian’s role, obligations and responsibilities, along with roles related to the _Data Custodian_, please refer to [_A Guide for Data Custodians and Data Managers_](dsg_bcdc_roles_responsibilities.md#dsg_bcdc_roles_responsibilities) and the [_Data Custodianship Guidelines for BC_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf).
 
 ### Metadata
 
