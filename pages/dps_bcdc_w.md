@@ -40,9 +40,8 @@ This page is written in the context that you have reviewed all information in th
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation: 
-+ Data Standards and Guidelines 
-	+ [BC Data Catalogue](./dsg_bcdc.md)
-	+ [Naming and Describing](./dsg_naming_describing.md)
++ [BCDC Standards and Guidelines](./dsg_bcdc.md)
++ [Naming and Describing](./dsg_naming_describing.md)
 + [Open Data](./open_data.md)
 
 [RETURN TO TOP][1]
@@ -79,7 +78,7 @@ Organizations in the Broader Public Sector (BPS) may publish metadata records an
 
 ------------------------------
 
- ## LICENSES
+## LICENSES
 
 There are three licensing options for data published in the BC Data Catalogue:
 
@@ -126,7 +125,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 |:---|:---|
 |[Application](./glossary.md/#application)|[Workflow](./dps_bcdc_w_application.md)|
 |[Dataset](./glossary.md/#dataset)|[Workflow](./dps_bcdc_w_dataset.md)|
-|[Gepgraphic Dataset](./glossary.md/#geographic-dataset)|[Workflow](./dps_bcdc_w_geographic_dataset.md)|
+|[Geographic Dataset](./glossary.md/#geographic_dataset)|[Workflow](./dps_bcdc_w_geographic_dataset.md)|
 |[Web Service - API](./glossary.md/#webservice_api)|[Workflow](./dps_bcdc_w_webservice_api.md)|
 
 1.  Click the **Create Dataset** button.
@@ -146,19 +145,18 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 ------------------------------
 
 ## MANAGING METADATA RESOURCES
-_Note: To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)._
 
 Resources are the data in the metadata record and are added to the record to provide users with access to your data.
 
 For details on how to add resources, see the workflow for your dataset type in the [Creating a Metadata Record](#CREATING-A-METADATA-RECORD) section above.
 
-**Notes:** 	
-+ **Only files less than 150MB in size can be uploaded to the Catalogue.**
-+ **If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.**
+_Notes:_
++ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)
++ Only files less than 150MB in size can be uploaded to the Catalogue.
++ If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.
 
 ### REORDERING RESOURCES
 The **Reorder resources** button allows you to control the order of resources in the metadata record.
-
 
 ### EDITING EXISTING RESOURCES
 
