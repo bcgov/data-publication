@@ -27,7 +27,7 @@ _need from Meg_
 # Audience
 
 Who is this page targeted at? 
-_need from Meg_
+_The Map Hub is the official B.C. Government presence in ArcGIS Online.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others._
 
 # Purpose
 
