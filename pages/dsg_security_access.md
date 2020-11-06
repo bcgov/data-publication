@@ -2,7 +2,7 @@
 layout: default
 title: Security and Access
 nav_order: 82
-parent: General Data Standards and Guidelines
+parent: Common Data Standards and Guidelines
 has_children: true
 has_toc: false
 ---
