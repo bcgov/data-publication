@@ -282,7 +282,7 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?
 
 + There are two ways:
-   1. Public datasets published to the BC Geographic Warehouse are all made available in ArcGIS Online ([_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)) as part of the [_Data Publication Workflow_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse). 
+   1. Public datasets published to the BC Geographic Warehouse are all made available in ArcGIS Online ([_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) as part of the [_Data Publication Workflow_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse). 
       1. These datasets are stored in the BC Geographic Warehouse, published as web services and registered as items in B.C.’s Map Hub. These services can then be used in any ArcGIS Online web map (or used by other web mapping platforms that can consume ESRI rest services). 
 	  1. In some cases we may replicate BCGW layers to ArcGIS Online; the data is hosted in ArcGIS Online and updated from data sources on a regular schedule to keep it current.  These "hosted layers" can then be used in any ArcGIS Online web map (or used by other web mapping platforms that can consume ESRI rest services).  This is a pattern typically chosen for layers that may see high traffic periods that need to leverage ArcGIS Online’s scalability to meet high traffic demand. 
    1. You may also upload datasets yourself to ArcGIS Online. 
@@ -401,7 +401,7 @@ Before asking to publish data to the BCGW, consider:
 #### How do I get the refresh scheduled frequency changed?
 
 + The refresh frequency of a dataset may change over its lifecycle. This can be altered as needed to meet the business requirements. 
-+ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Dataset Refresh Frequesncy Change Request**, providing the url of the dataset(s) affected.
++ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Dataset Refresh Frequency Change Request**, providing the url of the dataset(s) affected.
 
 #### How do I determine the source of a dataset in the BCGW?
 
