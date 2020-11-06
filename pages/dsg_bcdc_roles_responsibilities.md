@@ -265,7 +265,7 @@ The effort required to utilize the BCGW depends on the nature and complexity of 
 
 ![Steps for placing data in the warehouse](images/Steps_for_placing_data_in_the_warehouse.JPG)
 
-The _Data Manager_ is usually responsible for preparing data for population and distribution using the BCGW. The process is fairly straightforward, but it does involve a number of steps. DataBC's Strategic Initiatives Division, who operates the BCGW, has staff available to work with _Data Managers_ to make the process as streamlined as possible.
+The _Data Manager_ is usually responsible for preparing data for population and distribution using the BCGW. The process is fairly straightforward, but it does involve a number of steps. DataBC has staff available to work with _Data Managers_ to make the process as streamlined as possible.
 
 If you are a _Data Manager_, these are steps that you will undertake in order to place your data in the BCGW. 
 
@@ -330,17 +330,17 @@ A number of different methods already exist, so it's a matter of selecting the m
 
 So by now, we have the data correctly represented in the warehouse and the process in place for populating the data from the operational system. But the data is not yet ready for access by BCGW users.
 
-### Define a Metadata Profile
+### Define a Metadata Record
 
-#### Why is a Metadata Profile Required?
+#### Why is a Metadata Record Required?
 
-_Metadata_ is information that describe data. A metadata profile is a collection of information that describes a wide variety of data characteristics, including such topics as geographic extent of the data, when the data was collected, who collected it, who owns it, its format, quality, version number, rights of use, how often it's updated, its intended usage, and so on.
+_Metadata_ is information that describe data. A metadata record is a collection of information that describes a wide variety of data characteristics, including such topics as geographic extent of the data, when the data was collected, who collected it, who owns it, its format, quality, version number, rights of use, how often it's updated, its intended usage, and so on.
 
-Creating a metadata profile is important for the following reasons:
+Creating a metadata record is important for the following reasons:
 
 + It provides the context for the data and allows it to be described and managed in a consistent way, similar to other datasets.
-+ It supports user self-service. Users can browse the metadata profile to understand the purpose and characteristics of a data set and decide whether it's right for their needs.
-+ It supports sustainment in that it embodies knowledge about the data that might otherwise remain in a person's head, and not be captured.
++ It supports user self-service. Users can browse the metadata record to understand the purpose and characteristics of a data set and decide whether it is right for their needs.
++ It supports sustainment in that it embodies knowledge about the data that might otherwise remain with a particular person or program, and not be captured.
 
 There are international standards for metadata that DataBC follows. This provides interoperability with other data service utilities, meaning that descriptions of your data can be widely published and accessed (assuming your security profile allows this).
 
@@ -350,8 +350,8 @@ Visit [DataBC](https://data.gov.bc.ca) for more information about the [BC Data C
 
 + You or your _Business Analyst_ will use DataBC's metadata management tool to enter the metadata that describes your data. 
    + You may need to get the necessary permissions set up with DataBC. 
-   + Also, DataBC may provide training on using its metadata management tool, if necessary.  
-+ This will then need to be reviewed and approved by DataBC.
+   + DataBC may provide training on using its metadata management tool, if necessary.  
++ Your metadata record will then be reviewed and approved by DataBC.
    + As _Data Manager_, you will have authority to edit your metadata profile in order to keep it up to date.)
 
 ### Define A Security Profile
