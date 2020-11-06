@@ -8,12 +8,12 @@ nav_exclude: true
 
 # B.C.'s MAP HUB - ARCGIS ONLINE (AGO)
 
-B.C.'s Map Hub is the official B.C. Government presence in ArcGIS Online.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others.
+B.C.'s Map Hub is the official B.C. Government presence in ArcGIS Online.  ArcGIS Online is a web based GIS.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others.
 
 -----------------------
 ## Table of Contents
 + [**B.C.'s MAPHUB - PUBLISHING WORKFLOW**](#bcs-maphub-arcgis-online---publishing-workflow)
-+ [**BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS**](#bc-data-catalogue-metadata-guidelines-for-arcgis-online-authors)
++ [**BC DATA CATALOGUE METADATA GUIDELINES FOR AGO AUTHORS**](#bc-data-catalogue-metadata-guidelines-for-arcgis-online-authors)
 	+ [Custodianship](#custodianship)
 	+ [Metadata](#metadata)
 	+ [Why Should I Create Metadata?](#why-should-i-create-metadata)
@@ -24,8 +24,10 @@ B.C.'s Map Hub is the official B.C. Government presence in ArcGIS Online.  It is
 -----------------------
 
 # Audience
-
-AGO content creators, especially those within the B.C.'s Map Hub AGO organization, will find this page a useful resource.
+|**AUDIENCE**|  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|
+| *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
+AGO content creators (especially those within the B.C.'s Map Hub AGO organization) interested in using provincial data or publishing content (data, maps, apps) will find this page a useful resource.
 
 # Purpose
 
