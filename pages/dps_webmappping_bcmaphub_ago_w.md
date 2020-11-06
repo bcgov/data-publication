@@ -38,7 +38,7 @@ Below are the steps to follow when publishing an AGO application:
    1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes a requirement for a [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
       1. AGO users need to get BCDC _Editor_ privileges set up so that when they send in their publication request form, they are able to create BCDC metadata record(s) for their AGO items and check off the boxes that indicate BCDC records are complete for each item that needs one.
       1. Please email the [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services) team with your Director’s approval (an email stating this approval from your Director is an acceptable means of communicating the approval) to get set up with _Editor_ privileges for your program area.
-1.	AGO user creates their AGO content in [_B.C.’s Map Hub_](https://governmentofbc.maps.arcgis.com/home/index.html).
+1. AGO user creates their AGO content in [_B.C.’s Map Hub_](https://governmentofbc.maps.arcgis.com/home/index.html).
 1. Metadata is required in 2 places (AGO and BCDC)
     1. AGO user populates **the AGO contents’ item details pages** with metadata. Each AGO item has its own item details page accessible to the public.
        1. Documentation for filling out AGO pages is available under [_Public Publication Requests > Content Publication Guidelines_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol). 
