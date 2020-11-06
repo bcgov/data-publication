@@ -119,13 +119,12 @@ In order to help us determine how your data best fits into these options and ser
    + If the audience is the public, is the intention to make the data under the [_BC Open Government Licence_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)?  
 + Are there existing or new applications that will use this data?    
 + What tools (visualize or otherwise) will be used to access the data?
-   + [_DataBC Products & Services_](https://www2.gov.bc.ca/gov/content/data/about-data-management/databc/databc-products-services)
-   		+ [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
-   		+ [iMapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc) 
-   		+ [_Web-mapping Frameworks_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/webmapping)
-   		+ [_BC's Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
-   		+ [_Data Distribution Services (Downloads)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
-   		+ Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
+   + [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
+   + [iMapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc) 
+   + [_Web-mapping Frameworks_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/webmapping)
+   + [_BC's Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
+   + [_Data Distribution Services (Downloads)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
+   + Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
    + Outside DataBC tools/application (existing applications or potentially a new application)
 
 [RETURN TO TOP][1]
