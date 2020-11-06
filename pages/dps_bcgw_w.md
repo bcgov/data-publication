@@ -44,11 +44,10 @@ This page is written in the context that you have reviewed the documentation as 
 
 The first step in the process is to review the following documentation: 
 + [Data Governance](dg.md)
-+ Standards and Guidelines
-	+ [Before You Start](dsg_before_you_start.md)
-	+ [BC Geographic Warehouse](dsg_bcgw.md) (all)
-	+ [BC Data Catalogue](dsg_bcdc.md) (all)
-	+ [Data Classification Hierarchy](dsg_data_classification_hierarchy.md)
++ [Before You Start](dsg_before_you_start.md)
++ [BCGW Standards and Guidelines](dsg_bcgw.md) (all)
++ [BCDC Standards and Guidelines](dsg_bcdc.md) (all)
++ [Common Standards and Guidelines]
 	+ [Naming and Describing](dsg_naming_describing.md)
 	+ [Security and Access](dsg_security_access.md) (all)
 	+ [Staging Area](dsg_staging_area.md)
