@@ -15,7 +15,6 @@ has_toc: false
 	+ [How do I publish data as Open Data?](#how-do-i-publish-data-as-open-data)
 	+ [Are there restrictions on how data licensed under OGL-BC can be used?](#are-there-restrictions-on-how-data-licensed-under-ogl-bc-can-be-used)
 	+ [How do I publish data as Open Data if I am a Crown Corporation or BC Agency?](#how-do-i-publish-data-as-open-data-if-i-am-a-crown-corporation-or-bc-agency)
-	+ [How do I create an Open Data Licence?](#how-do-i-create-an-open-data-licence)
 + [**PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE**](#publishing-metadata-records-to-the-bc-data-catalogue)
 	+ [How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?](#how-do-i-publish-metadata-records-in-the-bc-data-catalogue-as-a-crown-corp-or-bc-agency)
 	+ [How do I get authorization to publish records in the BC Data Catalogue?](#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
@@ -170,18 +169,7 @@ The following sections will help explain the difference between **Open Data** an
 
 ### How do I publish data as Open Data if I am a Crown Corporation or BC Agency?
 
-+ The Broader Public Sector (BPS) cannot use the OGL-BC and thus require their own open data licence.
-
-### How do I create an Open Data Licence?
-1. _Copy_ our [_Open Government Licence - British Columbia_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with the open data licences used by the Federal Government and other Provincial and Local Governments.
-1. _Modify_ the following text to personalize it for your organization
-   1. Change the Licence Name: e.g., change ‘Open Government Licence – British Columbia’ to ‘Open Government Licence – _BC Oil and Gas Commission_’. The organization name should be the same as is found on the [_BC List of Agencies, Crown Corps, etc_](https://www2.gov.bc.ca/gov/content?id=F024503C72F64D8380441972977188D6)
-   1. Change the line ‘Contains information licensed under the Open Government Licence – British Columbia.’ to ‘Contains information licensed under the Open Government Licence – _BC Oil and Gas Commission_’, for example.
-   1. Information Provider – change ‘means Her Majesty the Queen in right of the Province of British Columbia.’ to ‘means _BC Oil and Gas Commission_’
-   1. Versioning – change ‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information’ to ‘This is version 1.0 of the Open Government Licence for _BC Oil and Gas Commission_ Information’
-   1. Remove: ‘Note’ line re: copyright can be removed
-1. Publish the OGL to a public site so that it can add it to the drop down list of licence options in the BC Data Catalogue.
-1. Examples: [_BC Assessment_](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx),  [_EBC_](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
++ The Broader Public Sector (BPS) cannot use the OGL-BC and thus require their own open data licence. See [How to Become a Provider to the Catalogue](dps_bcdc_w.md#how-to-become-a-provider-to-the-catalogue) for more information.
  
 [RETURN TO TOP][1]
 
