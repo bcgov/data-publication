@@ -2,7 +2,7 @@
 layout: default
 title: Naming & Describing
 nav_order: 81
-parent: General Data Standards and Guidelines
+parent: Common Data Standards and Guidelines
 has_toc: false
 ---
 
