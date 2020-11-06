@@ -34,9 +34,9 @@ The DataBC Program makes data available through combinations of several differen
 + the [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
 + the [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
 + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
-+ [_Web Map Services (WMS) and Feature Services (WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
++ [_BC Map Services (WMS and WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
 + [_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
-+ [_Data Download_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8) through the BC Data Catalogue, iMapBC and (___coming soon___) the Order Fulfiller Interface (OFI) Application Programming Interface (API)
++ [_Data Distribution Services_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8) through the BC Data Catalogue, iMapBC and (___coming soon___) the Order Fulfiller Interface (OFI) Application Programming Interface (API)
 
 In addition, other agencies provide mechanisms for accessing DataBC data:
 
@@ -90,22 +90,18 @@ In order to help us determine how your data best fits into these options and ser
 + What is the file format and where is the source data currently stored? 
    + Is it in database or a file store?
 
-[RETURN TO TOP][1]
-
 -----------------------------------------
 
 ### Custodianship Considerations
 
 + Has this dataset been created by the Province of British Columbia?
-   + If no, is your business area the authorized [_Data Steward_](dsg_bcdc_roles_responsibilities.md#the-data-steward)? 
-         + For example, BCStats acts as the authorized _Data Steward_ for data collected and disseminated by Statistics Canada.
+   + If no, is your business area the authorized [_Data Steward_](dsg_bcdc_roles_responsibilities.md#the-data-steward)?
+   		+ For example, BCStats acts as the authorized _Data Steward_ for data collected and disseminated by Statistics Canada.
 + Do you have Director level approval? 
    + Your Director will be the _Data Custodian_, and ultimately accountable for the dataset.
    + Refer to [_What is a Data Custodian_](dsg_bcdc_roles_responsibilities.md#what-is-a-data-custodian) for further details.
 + Is there a program (staff and resources) in place to ensure this data kept up-to-date? Are there identified staff managing the data, i.e., Data Manager?
    + Refer to [_What it means to be a Data Manager_](dsg_bcdc_roles_responsibilities.md#what-it-means-to-be-a-data-manager) for further details.
-
-[RETURN TO TOP][1]
 
 -----------------------------------------
 
@@ -115,8 +111,6 @@ In order to help us determine how your data best fits into these options and ser
    + required by legislation or policy? (e.g., to provide public access)
    + necessary to assist staff in carrying out tasks required by legislation or policy?
 
-[RETURN TO TOP][1]
-
 -----------------------------------------
 
 ### Audience Considerations
@@ -125,11 +119,12 @@ In order to help us determine how your data best fits into these options and ser
    + If the audience is the public, is the intention to make the data under the [_BC Open Government Licence_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)?  
 + Are there existing or new applications that will use this data?    
 + What tools (visualize or otherwise) will be used to access the data?
-   + [_DataBC Products & Services_](https://www2.gov.bc.ca/gov/content?id=A3358A6053464AE484A105D6E877833F)
-   		+ [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43) 
-   		+ [_B.C. Map Services_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
-   		+ [_B.C.'s Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
-   		+ [_Data Distribution (Downloads)_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
+   + [_DataBC Products & Services_](https://www2.gov.bc.ca/gov/content/data/about-data-management/databc/databc-products-services)
+   		+ [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
+   		+ [iMapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc) 
+   		+ [_Web-mapping Frameworks_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/webmapping)
+   		+ [_BC's Map Hub (ArcGIS Online)_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
+   		+ [_Data Distribution Services (Downloads)_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
    		+ Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
    + Outside DataBC tools/application (existing applications or potentially a new application)
 
@@ -147,8 +142,6 @@ In order to help us determine how your data best fits into these options and ser
 + Do you have a data modelling vendor in place?
 + Have you identified who will create and maintain the metadata record in the BC Data Catalogue?
 + Have you identified GIS staff who will produce the layerfiles (.lyr) via ArcMap for the spatial dataset(s) and QA/QC both the data and the visualizations?
-
-[RETURN TO TOP][1]
 
 -----------------------------------------
 
@@ -187,10 +180,7 @@ In certain circumstances there may be additional charges for the following:
 
 The amount of the charge will be discussed at the [_Discovery Whiteboard_](dps_bcgw_w.md#discovery-whiteboard), held at the beginning of the publication process.
 
-Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the [_Discovery Whiteboard_](dps_bcgw_w.md#discovery-whiteboard).
-
-
-[RETURN TO TOP][1]
+Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the Discovery Whiteboard.
 
 -----------------------------------------
 
@@ -200,7 +190,7 @@ Please send answers to the questions above to the DataBC [Data Architecture Serv
 
 In addition, the following resources are available:
 
-+ Data Publication Services > BC Geographic Warehouse > [_Publication Workflow_](dps_bcgw_w.md): a step by step guide to the data onboarding process for data to be loaded into the BC Geographic Warehouse.
++ BC Geographic Warehouse > [_Publication Workflow_](dps_bcgw_w.md): a step by step guide to the data onboarding process for data to be loaded into the BC Geographic Warehouse.
 + [_Frequently Asked Questions_](faq.md)
 + [_DataBC Program Key Contacts_](faq.md#WHOS-WHO-AT-DATABC)
 
@@ -208,9 +198,4 @@ In addition, the following resources are available:
 
 [RETURN TO TOP][1]
 
-[RETURN TO DATA PUBLICATION > DATA STANDARDS AND GUIDELINES][2]
-
--------------------------------------------------------
-
 [1]: #before-you-start
-[2]: ./dsg.md
