@@ -8,7 +8,7 @@ nav_exclude: true
 
 # B.C.'s MAP HUB - ARCGIS ONLINE (AGO)
 
-B.C.'s Map Hub is the provincial instance of AGO.  This page is intended to help users understand what provincial data is already available in AGO and what resources are available to assist preparation and publication of AGO content (sharing to public).
+B.C.'s Map Hub is the provincial instance of AGO.  This page is intended to help users understand what provincial data is already available in AGO and what resources are available to assist with preparation and publication of AGO content (sharing to public).
 
 -----------------------
 ## Table of Contents
