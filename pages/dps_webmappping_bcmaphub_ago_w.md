@@ -77,22 +77,20 @@ Below are the steps to follow when publishing an AGO application:
 + **Metadata is required in 2 places for AGO content:**  BC Data Catalogue (BCDC), and AGO item details pages.
 	+ See the [_table_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
 
-++ **BCDC** - All public facing AGO hosted content (data, maps, apps) requires BC Data Catalogue (BCDC) metadata.
++ **BCDC** - All public facing AGO hosted content (data, maps, apps) requires BC Data Catalogue (BCDC) metadata.
 	+ The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the main/parent 		application requires a BCDC metadata record.
 	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org with the Catalogue. 
 		++ This role is approved and appointed by the _Data Custodian_ as you will be creating/editing metadata records on their behalf. 
 		++ As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or 				responsibilities. 
 		++ To request _Editor_ privileges please e-mail [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services).
 
-++ **AGO item details pages**
++ **AGO item details pages**
 	+ See: Documentation for filling out AGO pages available under [_Public Publication Requests > Content Publication Guidelines_]
 
 
 ### Why Should I Create Metadata?
 
-+ Metadata adds value to your content.
-
-+ Metadata helps people discover data. 
++ Metadata adds value to your content and helps people discover your content. 
 	+ BCDC metadata stores information about your content such as its currency, searchable keywords, structure, and contact information etc.  These and other types of 		metadata help people find content and further help to inform them about the utility and intended use. 
 	+ The BCDC is indexed by Google so that people searching for data in web browsers outside of the BCDC interface can still find your data.
 
