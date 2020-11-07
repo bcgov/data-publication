@@ -23,8 +23,8 @@ B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/ar
 
 -----------------------
 
-# Audience
-
+|**AUDIENCE**|  |  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
 ---------------------------------------------------------------------
