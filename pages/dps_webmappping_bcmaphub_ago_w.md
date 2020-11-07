@@ -77,12 +77,8 @@ Below are the steps to follow when publishing an AGO application:
 	+ See the [_table_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
 
 + **BCDC**
-	+ All public facing AGO hosted content (data, maps, apps) requires BCDC metadata.
-	++ The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the main/parent 		application requires a BCDC metadata record.
-	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org with the Catalogue. 
-		++ This role is approved and appointed by the _Data Custodian_ as you will be creating/editing metadata records on their behalf. 
-		++ As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or 				responsibilities. 
-		++ To request _Editor_ privileges please e-mail [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services).
+	+ All public facing AGO hosted content (data, maps, apps) requires BCDC metadata.  The exception to this is when the AGO content is not **stand-alone** and is only a 		component of a main/parent public-facing app. In this case only the main/parent application requires a BCDC metadata record.
+	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org within the Catalogue. This role is 		approved and appointed by the _Data Custodian_. You will be creating/editing metadata records on the custodian's behalf. As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or responsibilities. To request _Editor_ privileges please e-mail [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services).
 
 + **AGO item details pages**
 	+ See: Documentation for filling out AGO pages available under [_Public Publication Requests > Content Publication Guidelines_]
