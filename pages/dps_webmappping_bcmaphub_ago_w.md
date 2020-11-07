@@ -81,7 +81,7 @@ Below are the steps to follow when publishing an AGO application:
 	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org within the Catalogue. This role is 		approved and appointed by the _Data Custodian_. You will be creating/editing metadata records on the custodian's behalf. As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or responsibilities. To request _Editor_ privileges please e-mail [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services).
 
 + **AGO item details pages**
-	+ See: Documentation for filling out AGO pages available under [_Public Publication Requests > Content Publication Guidelines_]
+	+ Documentation for filling out AGO pages available under [_Public Publication Requests > Content Publication Guidelines_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
 
 
 ### Why Should I Create Metadata?
