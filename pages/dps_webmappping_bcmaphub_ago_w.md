@@ -75,11 +75,7 @@ Below are the steps to follow when publishing an AGO application:
 ### Metadata
 
 + All public facing AGO web maps, applications and AGO-hosted layers **require** an associated metadata record in the BC Data Catalogue (BCDC). 
-	+ The exception to this is when the AGO content is not **stand-alone** and is a component of a public-facing main app or map (e.g., an AGO public map that is contained within a AGO public application). 
-	+ In this case only the application is required to have an associated metadata record.
-
-+ A published metadata is required before an AGO app, map, or layer can be published. 
-	+ It is recommended that this process be started as early as possible so that metadata creation does not become a limiting factor to AGO app/map publishing. 
+	+ The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the application is 	required to have an associated metadata record.
 	+ See the [_table_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
 
 + In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization with the Catalogue. 
