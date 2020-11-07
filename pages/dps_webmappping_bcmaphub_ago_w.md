@@ -13,7 +13,7 @@ B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/ar
 -----------------------
 ## Table of Contents
 + [**B.C.'s MAP HUB - PUBLISHING WORKFLOW**](#bcs-map-hub---publishing-workflow)
-+ [**BC DATA CATALOGUE METADATA GUIDELINES FOR AGO AUTHORS**](#bc-data-catalogue-metadata-guidelines-for-ago-authors)
++ [**BC DATA CATALOGUE (BCDC) METADATA GUIDELINES FOR AGO AUTHORS**](#bc-data-catalogue-BCDC-metadata-guidelines-for-ago-authors)
 	+ [Custodianship](#custodianship)
 	+ [Metadata](#metadata)
 	+ [Why Should I Create Metadata?](#why-should-i-create-metadata)
