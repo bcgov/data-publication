@@ -76,8 +76,9 @@ Below are the steps to follow when publishing an AGO application:
 + **Metadata is required in 2 places for AGO content:**  BCDC, and AGO item details pages.
 	+ See the [_table_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
 
-+ **BCDC** - All public facing AGO hosted content (data, maps, apps) requires BCDC metadata.
-	+ The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the main/parent 		application requires a BCDC metadata record.
++ **BCDC**
+	+ All public facing AGO hosted content (data, maps, apps) requires BCDC metadata.
+	++ The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the main/parent 		application requires a BCDC metadata record.
 	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org with the Catalogue. 
 		++ This role is approved and appointed by the _Data Custodian_ as you will be creating/editing metadata records on their behalf. 
 		++ As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or 				responsibilities. 
@@ -94,12 +95,8 @@ Below are the steps to follow when publishing an AGO application:
 	+ The BCDC is indexed by Google so that people searching for data in web browsers outside of the BCDC interface can still find your data.
 
 ### AGO-Specific Metadata Requirements
-
-For metadata records specific to AGO content there are certain requirements that must be met:
-	+ AGO-related BCDC metadata records must have all of the following tags to improve search ability: AGO, AGOL, and ArcGIS Online
-	+ The Description section within the metadata record should specify and properly describe the AGO app or map and its objective, i.e. “An interactive map that…” or “A web application that…”
 	
-BCDC metadata records are required as indicated in the following table:
+Metadata required as indicated in the following table:
 
 |Public AGO Item Type|BCDC record required?|AGO Item Details required to be filled out?|
 |:---|:---|:---|
