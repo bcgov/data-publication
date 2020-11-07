@@ -63,7 +63,7 @@ Below are the steps to follow when publishing an AGO application:
 
 ---------------------
 
-## BC DATA CATALOGUE METADATA GUIDELINES FOR AGO AUTHORS
+## BC DATA CATALOGUE (BCDC) METADATA GUIDELINES FOR AGO AUTHORS
 
 ### Custodianship
 
@@ -73,10 +73,10 @@ Below are the steps to follow when publishing an AGO application:
 
 ### Metadata
 
-+ **Metadata is required in 2 places for AGO content:**  BC Data Catalogue (BCDC), and AGO item details pages.
++ **Metadata is required in 2 places for AGO content:**  BCDC, and AGO item details pages.
 	+ See the [_table_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
 
-+ **BCDC** - All public facing AGO hosted content (data, maps, apps) requires BC Data Catalogue (BCDC) metadata.
++ **BCDC** - All public facing AGO hosted content (data, maps, apps) requires BCDC metadata.
 	+ The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the main/parent 		application requires a BCDC metadata record.
 	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org with the Catalogue. 
 		++ This role is approved and appointed by the _Data Custodian_ as you will be creating/editing metadata records on their behalf. 
