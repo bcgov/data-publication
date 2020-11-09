@@ -15,7 +15,7 @@ has_toc: false
 	+ [How do I publish data as Open Data?](#how-do-i-publish-data-as-open-data)
 	+ [Are there restrictions on how data licensed under OGL-BC can be used?](#are-there-restrictions-on-how-data-licensed-under-ogl-bc-can-be-used)
 	+ [How do I publish data as Open Data if I am a Crown Corporation or BC Agency?](#how-do-i-publish-data-as-open-data-if-i-am-a-crown-corporation-or-bc-agency)
-+ [**PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE**](#publishing-metadata-records-to-the-bc-data-catalogue)
++ [**METADATA RECORDS AND THE BC DATA CATALOGUE**](#metadata-records-and-the-bc-data-catalogue)
 	+ [How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?](#how-do-i-publish-metadata-records-in-the-bc-data-catalogue-as-a-crown-corp-or-bc-agency)
 	+ [How do I get authorization to publish records in the BC Data Catalogue?](#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
 	+ [How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?](#how-do-i-change-the-contact-name-recorded-for-a-dataset-when-that-contact-has-moved-to-a-different-role-or-retired)
@@ -175,7 +175,7 @@ The following sections will help explain the difference between **Open Data** an
 
 -------------------------------------------------------
 
-## PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE
+## METADATA RECORDS AND THE BC DATA CATALOGUE
 
 ### How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?
 
@@ -226,6 +226,11 @@ The following sections will help explain the difference between **Open Data** an
 |Datasets will be available in BC Map Hub|No|Yes|
 |Datasets will be permanent layers in iMapBC and the Layer Library|No|Yes|
 |Datasets will be available through WMS/WFS services|No|Yes| 
+
+### How can I find my related datasets in the Catalogue?
+
++ Use the Dashboard (spedometer icon on the top right of the menu bar) to view datasets that you have created.
++ Search for your name in the Catalogue search bar to view datasets that you have either created or where you are listed as a contact.
 
 [RETURN TO TOP][1]
 
