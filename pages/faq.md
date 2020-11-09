@@ -38,6 +38,7 @@ has_toc: false
 	+ [How long does it take to publish to the BCGW?](#how-long-does-it-take-to-publish-to-the-bcgw)
 	+ [What data service formats can be made available for my BCGW data?](#what-data-service-formats-can-be-made-available-for-my-bcgw-data)
 	+ [What government channels can be used to access my BCGW data?](#what-government-channels-can-be-used-to-access-my-bcgw-data)
+	+ [What is the LRDW?](#what-is-the-lrdw)
 	+ [Refreshing Data - the ETL Process](#refreshing-data---the-etl-process)
 	+ [Access security](#access-security)
 	+ [Downloading data from the BC Geographic Warehouse](#downloading-data-from-the-bc-geographic-warehouse)
@@ -325,7 +326,6 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 + Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse).
 
-
 ### How long does it take to publish to the BCGW?
 
 The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delay is lack of data readiness. 
@@ -352,6 +352,9 @@ Before asking to publish data to the BCGW, consider:
 1. iMapBC
 2. BC Map Hub (ArcGIS Online, aka AGO)
 3. Data Download from iMapBC and the BC Data Catalogue
+
+### What is the LRDW?
++ If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historic name for what is now the BCGW or the BC Geographic Warehouse. 
 
 ### Refreshing Data - the ETL Process
 
