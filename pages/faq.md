@@ -22,6 +22,7 @@ has_toc: false
 	+ [Can I do bulk changes to Catalogue records?](#can-i-do-bulk-changes-to-catalogue-records)
 	+ [How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?](#how-do-i-addupdated-descriptions-or-short-names-of-fields-at-the-bottom-of-a-metadata-record-for-data-in-the-bcgw)
 	+ [Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?](#why-would-i-just-upload-a-tabular-dataset-to-the-bc-data-catalogue-instead-of-publishing-it-to-the-bcgw)
+	+ [How can I find my related datasets in the Catalogue?](#how-can-I-find-my-related-datasets-in-the-catalogue)
 + [**IMAPBC AND LAYER LIBRARY LAYER PRESENTATIONS**](#imapbc-and-layer-library-layer-presentations)
 	+ [How do I update a presentation (layer file) for my dataset?](#how-do-i-update-a-presentation-layer-file-for-my-dataset)
 	+ [How do I update an existing permanent presentation in iMapBC that is not my data?](#how-do-i-update-an-existing-permanent-presentation-in-imapbc-that-is-not-my-data)
