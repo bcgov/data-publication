@@ -230,7 +230,7 @@ The following sections will help explain the difference between **Open Data** an
 
 ### How can I find my related datasets in the Catalogue?
 
-+ Use the Dashboard (spedometer icon on the top right of the menu bar) to view datasets that you have created.
++ Use the Dashboard (speedometer icon on the top right of the menu bar) to view datasets that you have created.
 + Search for your name in the Catalogue search bar to view datasets that you have either created or where you are listed as a contact.
 
 [RETURN TO TOP][1]
