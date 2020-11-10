@@ -7,7 +7,7 @@ has_toc: false
 
 # BEFORE YOU START 
 
-Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)? Before your data is published, we will need to gather some information from you. The questions on this page will help the [DataBC Data Architecture](mailto:DataBC.DA@gov.bc.ca) team learn about your requirements and to determine whether the DataBC Program can meet them.
+Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)? Before your data is published, we will need to gather some information from you. The questions on this page will help the [DataBC Data Architecture Services](faq.html#data-architecture-services) team learn about your requirements and to determine whether the DataBC Program can meet them.
 
 |**AUDIENCE**|
 |:---:|
