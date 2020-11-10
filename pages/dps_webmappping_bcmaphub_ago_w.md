@@ -95,7 +95,7 @@ Metadata required as indicated in the following table:
 ||No (if app is not stand-alone but a component of a main app)|Yes - include reference to corresponding BCDC record|
 |Web Map|Yes (if map is stand-alone, where map is not a component of an app)|Yes - include reference to corresponding BCDC record|
 ||No (if map is not stand-alone but a component of a main app|Yes - include reference to corresponding BCDC record|
-|AGO Hosted Data Layers (features, tiles...) - [**_New information_**](#glossary.md#new-infromation)|Yes|Yes - include reference to corresponding BCDC record|
+|AGO Hosted Data Layers (features, tiles...) - [**_New information_**](glossary.md#new-infromation)|Yes|Yes - include reference to corresponding BCDC record|
 |AGO Hosted Data Layers (features, tiles...) - [**_Enhanced information_**](glossary.md#enhanced-information)|Yes (if information cannot be accessed or recreated by an average _public_ user)|Yes - include reference to corresponding BCDC record|
 | |No (if AGO Item Details page sufficiently describes hot the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided)|Yes - sufficiently described how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided.  Referenced BCDC record(s) for source data.|
 AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes - provide reference to source|
