@@ -133,7 +133,7 @@ In order to help us determine how your data best fits into these options and ser
 
 ### Dataset Readiness
 
-To find out if your data is ready for the BCGW, see [Workflow - Is my data ready for the BCGW?](dps_bcgw_w.html#workflow---is-my-data-ready-for-the-bcgw)
+To find out if your data is ready for the BCGW, see [Workflow - Is my data ready for the BCGW?](dps_bcgw_w.md#workflow---is-my-data-ready-for-the-bcgw)
 
 -----------------------------------------
 
