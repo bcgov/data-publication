@@ -23,7 +23,6 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 	+ [Dataset Readiness](#dataset-readiness)
 	+ [Financial Obligations](#financial-obligations)
 + [**NEXT STEPS**](#next-steps)
-+ [**REFERENCES**](#references)
 
 -----------------------
 
@@ -180,7 +179,7 @@ Changes to the structure of the dataset after the initial load may incur additio
 
 Please send answers to the questions above to the DataBC [Data Architecture Services](mailto:DataBC.da@gov.bc.ca) team. 
 
-In addition, the following resources are available:
+In addition, the following resources will help to answer any questions you may have on the publication process:
 
 + BC Geographic Warehouse > [_Publication Workflow_](dps_bcgw_w.md): a step by step guide to the data onboarding process for data to be loaded into the BC Geographic Warehouse.
 + [_Frequently Asked Questions_](faq.md)
