@@ -47,7 +47,7 @@ The page covers the following topics:
 	+ [Create a Plan](#create-a-plan)
 	+ [Create the Warehouse Data Model](#create-the-warehouse-data-model)
 	+ [Define the Population Process](#define-the-population-process)
-	+ [Define a Metadata Profile](#define-a-metadata-profile)
+	+ [Define a Metadata Record](#define-a-metadata-record)
 	+ [Define A Security Profile](#define-a-security-profile)
 	+ [Define A Presentation Profile](#define-a-presentation-profile)
 	+ [Define Downloadable Data Products](#define-downloadable-data-products)
