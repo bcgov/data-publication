@@ -1,6 +1,6 @@
 ---
 layout: default
-title: B.C.'s Map Hub (ArcGIS Online)
+title: B.C.'s Map Hub (ArcGIS Online) Publication Workflow
 parent: Web-based Mapping
 nav_order: 71
 ---
@@ -19,7 +19,7 @@ This page is written in the context that you have reviewed all information in th
 
 -----------------------
 ## Table of Contents
-+ [**B.C.'s MAP HUB - PUBLISHING WORKFLOW**](#bcs-map-hub---publishing-workflow)
++ [**B.C.'s MAP HUB - PUBLICATION WORKFLOW**](#bcs-map-hub---publishing-workflow)
 + [**BC DATA CATALOGUE METADATA GUIDELINES FOR AGO AUTHORS**](#bc-data-catalogue-metadata-guidelines-for-ago-authors)
 	+ [Custodianship](#custodianship)
 	+ [Metadata](#metadata)
@@ -38,7 +38,7 @@ This page is written in the context that you have reviewed all information in th
 
 ---------------------------------------------------------------------
 
-## B.C.'s MAP HUB - PUBLISHING WORKFLOW
+## B.C.'s MAP HUB - PUBLICATION WORKFLOW
 
 Below are the steps to follow when publishing an AGO application:
 
