@@ -133,14 +133,7 @@ In order to help us determine how your data best fits into these options and ser
 
 ### Dataset Readiness
 
-+ What are the anticipated publication timelines for your data? 
-+ Is there a date when this dataset needs to be available through the DataBC Program?
-+ Are there any other time constraints we should be aware of? 
-   + For example, is the data tied to the release of a computer systems application or a Minister's announcement? 
-+ Is the data for the dataset already available?  
-+ Do you have a data modelling vendor in place?
-+ Have you identified who will create and maintain the metadata record in the BC Data Catalogue?
-+ Have you identified GIS staff who will produce the layerfiles (.lyr) via ArcMap for the spatial dataset(s) and QA/QC both the data and the visualizations?
+To find out if your data is ready for the BCGW, see [Workflow - Is my data ready for the BCGW?](dps_bcgw_w.html#workflow---is-my-data-ready-for-the-bcgw)
 
 -----------------------------------------
 
