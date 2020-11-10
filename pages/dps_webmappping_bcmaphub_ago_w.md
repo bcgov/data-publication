@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BC MapHub (ArcGIS Online)
+title: B.C.'s Map Hub (ArcGIS Online)
 parent: Web-based Mapping
 nav_order: 71
 ---
@@ -8,6 +8,14 @@ nav_order: 71
 # B.C.'s MAP HUB - ARCGIS ONLINE (AGO)
 
 B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview).  This page is intended to help users understand what provincial data is already available in AGO and what resources are available to assist with preparation and publication of AGO content (sharing to public).
+
+This page is written in the context that you have reviewed all information in the ‘Documentation Review’ section.
+
+-----------------------
+
+|**AUDIENCE**|  |  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
 -----------------------
 ## Table of Contents
@@ -20,11 +28,16 @@ B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/ar
 	+ [Use of Existing BC Geographic Warehouse or External Sources](#use-of-existing-bc-geographic-warehouse-or-external-sources)
 	+ [Definitions](#definitions)
 
------------------------
+---------------------------------------------------------------------
 
-|**AUDIENCE**|  |  |  |  |  | 
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
+## DOCUMENTATION REVIEW
+
++ [B.C. MapHub](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) (all content)
++ [_Open Data_](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
++ BC Data Catalogue
+	+ [BCDC Standards and Guidelines](dsg_bcdc.md)(all)
+	+ [Publication Workflow](dps_bcdc_w.md)
+
 
 ---------------------------------------------------------------------
 
@@ -33,51 +46,44 @@ B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/ar
 Below are the steps to follow when publishing an AGO application:
 
 1. AGO user has a web mapping project destined for the public domain.
-   1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes a requirement for a [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
-      1. AGO users need to get BCDC _Editor_ privileges set up so that when they send in their publication request form, they are able to create BCDC metadata record(s) for their AGO items and check off the boxes that indicate BCDC records are complete for each item that needs one.
-      1. Please email the [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services) team with your Director’s approval (an email stating this approval from your Director is an acceptable means of communicating the approval) to get set up with _Editor_ privileges for your program area.
+	1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes a requirement for a [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
+		1. AGO users need to have editing privileges in the BC Data Catalogue, so when the publication request form is sent, they are able to create BCDC metadata record(s) for their AGO items and check off the boxes that indicate BCDC records are complete for each item that needs one.
 1. AGO user creates their AGO content in [_B.C.’s Map Hub_](https://governmentofbc.maps.arcgis.com/home/index.html).
-1. Metadata is required in 2 places (AGO and BCDC)
-    1. AGO user populates **the AGO contents’ item details pages** with metadata. Each AGO item has its own item details page accessible to the public.
-       1. Documentation for filling out AGO pages is available under [_Public Publication Requests > Content Publication Guidelines_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol). 
+1. Metadata is required in 2 places - AGO and BC Data Catalogue:
+	1. AGO
+		1. Populate **the AGO contents’ item details pages** with metadata. Each AGO item has its own item details page accessible to the public.
 		1. Tips:
 			1. Remember to include link(s) to your corresponding BCDC record(s) in the description section(s). 
 				1. You might have to go back to do this later if you haven’t created your BCDC records yet. 
 				1. Permalinks (URLs with unique ids instead of titles) are available from your BCDC records
 				1. Select the **Show the Permalink** icon on the BCDC metadata record and copy the URL in the _address bar_
-			1.	If you have a main application, it is a good practice to include a link to it from the description sections of any supporting AGO maps or apps etc, given that the public can land on these pages.
-			1. Best practice is to include information which a member of the public would need to ensure they can access your content easily and also easily understand for what the content is intended. 
-	1. AGO user **creates BCDC records** for their AGO content (only for items that require it; i.e. apps, standalone web maps, AGO hosted feature layers…). 
-		1. Refer to the [_BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS_](#bc-data-catalogue-metadata-guidelines-for-arcgis-online-authors) section below for further information. 
-			1. If needed, we can be available for online tutorials.
-		1. Additional information on the process of preparing new data for publication in the [Gogs/Wiki User Guide](https://gogs.data.gov.bc.ca/DataBC/FAQ/wiki/Catalogue+User+Guide), including steps to publish as [_Open Data_](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc).
-			1. Refer to [_Connecting to Gogs_](tips_and_tricks.md#connecting-to-gogs) for Gogs login instructions
-		1. There is a table [_below_](#ago-specific-metadata-requirements) which provides further clarification on when an AGO item needs a BCDC record.
+			1. If you have a main application, it is a good practice to include a link to it from the description sections of any supporting AGO maps or apps etc, given that the public can land on these pages.
+			1. Best practice is to include information which a member of the public would need to ensure they can easily access your content and also easily understand the intended use. 
+	1. BC Data Catalogue
+		1. **Create a metadata record** for the AGO content (only for items that require it; i.e. apps, standalone web maps, AGO hosted feature layers…). See [_AGO SPECIFIC METADATA REQUIREMENTS_](#ago-specific-metadata-requirements) for more information. 
+		1. Refer to the [_BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS_](#bc-data-catalogue-bcdc-metadata-guidelines-for-ago-authors) section below for further information. If needed, we can be available for online tutorials.
 		1. When BCDC records are complete and ready to publish, AGO user must toggle the record state from Draft to Pending Publish (a flag for us to follow up).
 1. AGO user fills out the [_Publication Request Form_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) when all their content, metadata requirements and remaining items on the checklist are complete. 
    1. AGO user then obtains their Project Sponsor to approve and sign (typically Director level).
 1. AGO user **submits the approved checklist** to complete the publication process, via email **to** [_data@gov.bc.ca_](mailto:data@gov.bc.ca) and **cc** [_Maps Services_](mailto:datamaps@gov.bc.ca).
 
-[RETURN TO TOP][1]
-
 ---------------------
 
-## BC DATA CATALOGUE (BCDC) METADATA GUIDELINES FOR AGO AUTHORS
+## BC DATA CATALOGUE METADATA GUIDELINES FOR AGO AUTHORS
 
 ### Custodianship
 
-+ All public facing ArcGIS Online (AGO) web maps, applications and AGO-hosted layers must have a _Data Custodian_. 
-+ This is typically someone at the Director level who has responsibility for the business (i.e., they have authority based on legislation or policy). 
-+ For more information on a Data Custodian’s role, obligations and responsibilities, along with roles related to the _Data Custodian_, please refer to [_A Guide for Data Custodians and Data Managers_](dsg_bcdc_roles_responsibilities.md#dsg_bcdc_roles_responsibilities) and the [_Data Custodianship Guidelines for BC_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf).
++ All public facing ArcGIS Online (AGO) web maps, applications and AGO-hosted layers must have a [Data Custodian](dsg_bcdc_roles_responsibilities.html#what-it-means-to-be-a-data-custodian). 
++ AGO users that are publishing data should be familiar with the associated roles and responsibilities for custodianship under BCDC Standards and Guildeines > [Roles and Responsibilities](dsg_bcdc_roles_responsibilities.md).
 
 ### Metadata
 
 + **Metadata is required in 2 places for AGO content:**  BCDC, and AGO item details pages.
-	+ See the [_table_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
+	+ See [_AGO SPECIFIC METADATA REQUIREMENTS_](#ago-specific-metadata-requirements) below for more information on metadata requirements for specific types of AGO items.
 
 + **BCDC**
-	+ All public facing AGO hosted content (data, maps, apps) requires BCDC metadata.  The exception to this is when the AGO content is not **stand-alone** and is only a 		component of a main/parent public-facing app. In this case only the main/parent application requires a BCDC metadata record.
-	+ In order to create and edit AGO metadata records within the BCDC you must be an _Editor_ for the appropriate organization/sub-org within the Catalogue. This role is 		approved and appointed by the _Data Custodian_. You will be creating/editing metadata records on the custodian's behalf. As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or responsibilities. To request _Editor_ privileges please e-mail [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services).
+	+ All public facing AGO hosted content (data, maps, apps) requires a metadata record in the BC Data Catalogue.  The exception to this is when the AGO content is not **stand-alone** and is only a component of a main/parent public-facing app. In this case only the main/parent application requires a BCDC metadata record.
+	+ In order to create and edit metadata records for AGO content within the BC Data Catalogue, you must be an Editor for the appropriate organization/sub-org within the Catalogue. This role is approved and appointed by the _Data Custodian_. You will be creating/editing metadata records on the custodian's behalf. As such, it is the _Editor’s_ role to inform the _Data Custodian_ of new data holdings for which the _Data Custodian_ will have obligations or responsibilities. To request _Editor_ privileges please e-mail [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services).
 
 + **AGO item details pages**
 	+ Documentation for completing AGO item details pages available under [_Public Publication Requests > Content Publication Guidelines_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol)
