@@ -69,7 +69,7 @@ There are five options for where data gets stored in the DataBC Program, each wi
 
 ## QUESTIONS
 
-In order to help us determine how your data best fits into these options and services, please take a moment to answer the following questions, and send your responses, or questions/concerns to <DataBC.DA@gov.bc.ca>.
+In order to help us determine how your data best fits into these options and services, please take a moment to answer the following questions, and send your responses, or questions/concerns to the [DataBC Data Architecture Services](faq.md#data-architecture-services) team.
 
 ### Questions about the Data
 
@@ -177,7 +177,7 @@ Changes to the structure of the dataset after the initial load may incur additio
 
 ## NEXT STEPS
 
-Please send answers to the questions above to the DataBC [Data Architecture Services](mailto:DataBC.da@gov.bc.ca) team. 
+Please send answers to the questions above to the [DataBC Data Architecture Services](faq.md#data-architecture-services) team. 
 
 In addition, the following resources will help to answer any questions you may have on the publication process:
 
