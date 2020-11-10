@@ -86,8 +86,6 @@ Below are the steps to follow when publishing an AGO application:
 For additional information on metadata, refer to the BCDC Standards and Guidelines and Publication Workflow pages in the [Documentation Review](#documentation-review) section above.
 
 ### AGO-Specific Metadata Requirements
-	
-Metadata required as indicated in the following table:
 
 |Public AGO Item Type|BCDC record required?|AGO Item Details required to be filled out?|
 |:---|:---|:---|
