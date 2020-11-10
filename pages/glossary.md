@@ -19,11 +19,16 @@ has_toc: false
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
 | **D** |   |<a name="dataset">Dataset</a>|A dataset type in the metadata record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
-|       |   |<a name="data_custodian">Data Custodian</a>|A **Role** in the BC Data Catalogue, the Data Custodian is someone who:
+|       |   |Data Custodian|A **Role** in the BC Data Catalogue, the Data Custodian is someone who:
 |       |   |   | 1. protects and promotes the use of data holdings under their care;
 |       |   |   | 2. sets policies, and is accountable for defining the appropriate use of the data;
 |       |   |   | 3. provides the authoritative version of the data; and
 |       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
+|       |   |Data Manager| A **Role** in the BC Data Catalogue, the Data Manager is someone who:
+|       |   |   | 1. is appointed by a Data Custodian to manage a specific data set according to policies, plans and standards defined by the Data Custodian;
+|       |   |   | 2. may take direction from a Data Steward designated by the Data Custodian;
+|       |   |   | 3. is responsible for day-to-day management of the data and may coordinate with operations staff;
+|       |   |   | 4. usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.
 |       |   |Delivery Kit | A collection of files that are required by DataBC to migrate to the Test and Production instance of the BCGW. Delivery Kits are built by a vendor and are required for new database objects, changes to existing, or updating data in the BCGW. |
 | **E** |ETL|Extract Transform Load | Extracting data from operational sources, transforming it to fit operational needs, and loading it to the BCGW. |
 |       |   | Enhanced Information | Existing information that has become value-added through the addition of information not already contained within the data, or information that was created as a result of an analysis process or amalgamation of information. For the purposes of AGO metadata requirements, if the AGO layer Item Details page can sufficiently describe how the information was added/created and the sources from which it came so that an average user (i.e., member of the public) could access and recreate this enhanced information based on the information provided, then no additional metadata record would be required for this layer. This being said however, it may be advisable to create such a metadata record to address the volume of questions from interested users.
