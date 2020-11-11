@@ -19,7 +19,7 @@ has_toc: false
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
 | **D** |   |<a name="dataset">Dataset</a>|A dataset type in the metadata record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
-|       |   |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
+|       |DA |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
 |       |   |Data Custodian|A **Role** in the BC Data Catalogue, the Data Custodian is someone who:
 |       |   |   | 1. protects and promotes the use of data holdings under their care;
 |       |   |   | 2. sets policies, and is accountable for defining the appropriate use of the data;
