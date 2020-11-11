@@ -60,7 +60,7 @@ The page covers the following topics:
 
 ## IT IS ALL ABOUT THE INFORMATION
 
-This guide is about managing information within the BCGW and making it available for decision making. The following points provide some context.
+This guide is about managing information within the DataBC Program and making it available for decision making. The following points provide some context.
 
 + **We use a lot of information**
    + The Province collects and uses a wide variety of information. 
