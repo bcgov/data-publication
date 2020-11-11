@@ -150,8 +150,10 @@ You will typically be responsible for some or all of these activities:
 + Data quality assurance
 + Metadata capture and maintenance
 + Define business rule for security and access to data
-+ Data population and distribution
++ Data population and distribution*
 + User support
+
+*The _Data Manager_ is usually responsible for preparing data for population and distribution using the BCGW. The process is fairly straightforward, but it does involve a number of steps. DataBC will work with _Data Managers_ to make the process as streamlined as possible.
 
 ## THE DATA STEWARD
 
@@ -172,15 +174,7 @@ The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship
 
 -------------------
 
-
-
-**Steps for Placing Data in the Warehouse** 
-
-The effort required to utilize the BCGW depends on the nature and complexity of your data set. The steps described here can be "right-sized" to fit your needs.
-
-![Steps for placing data in the warehouse](images/Steps_for_placing_data_in_the_warehouse.JPG)
-
-The _Data Manager_ is usually responsible for preparing data for population and distribution using the BCGW. The process is fairly straightforward, but it does involve a number of steps. DataBC has staff available to work with _Data Managers_ to make the process as streamlined as possible.
+# HERE
 
 If you are a _Data Manager_, these are steps that you will undertake in order to place your data in the BCGW. 
 
