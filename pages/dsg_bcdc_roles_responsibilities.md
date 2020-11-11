@@ -91,16 +91,9 @@ This guide is about managing information within the BCGW and making it available
 
 -----------------------
 
-## WHAT IT MEANS TO BE A DATA CUSTODIAN
+## THE DATA CUSTODIAN
 
-### What is a Data Custodian?
-
-A _Data Custodian_ is someone who:
-
-+ protects and promotes the use of data holdings under their care;
-+ sets policies, and is accountable for defining the appropriate use of the data;
-+ provides the authoritative version of the data; and
-+ is ultimately accountable for issues related to definition, collection, management and authorized use of the data. Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
+### What is a [Data Custodian](glossary.md#data-custodian)?
 
 ### Am I a Data Custodian?
 
@@ -141,40 +134,7 @@ If you are a Data Custodian, you have these responsibilities:
 
 ### The Data Manager
 
-While the _Data Custodian_ concentrates on issues of governance, the day-to-day management of data is the responsibility of the _Data Manager_. In effect, the _Data Manager_ is the person who carries out the policies and directions set by the _Data Custodian_. There could be several _Data Managers_ for a data holding, and the role can be delegated.
-
-This is discussed further in the [_WHAT IT MEANS TO BE A DATA MANAGER_](#what-it-means-to-be-a-data-manager) section below.
-
-### The Data Steward
-
-Sometimes the _Data Custodian_ may not have the resource available to fulfill his or her responsibilities, or it may be more efficient to conduct activities in concert with another group. In these cases, a _Data Steward_ may become involved.
-
-These are the characteristics of a _Data Steward_:
-
-+ Usually at the director level, like the _Data Custodian_
-+ Ability and resources to provide a set of services needed by the _Data Custodian_
-
-Do not confuse the _Data Steward_ with the _Data Manager_. The _Data Steward_ has an agreement with the _Data Custodian_ to provide a specific set of custodial duties on behalf of the _Data Custodian_.
-
-The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship Agreement** that lays out the specific responsibilities that are being delegated to the _Data Steward_ by the _Data Custodian_.
-
-Note that the involvement of a _Data Steward_ doesn't change the obligations of the _Data Custodian_. The _Data Custodian_ is still accountable for the governance and use of the data.
-
-### Other Roles
-
-+ A _Data Administrator_ is responsible for setting policies and standards related to managing and protecting data.
-+ A _Discipline Authority_ is a **business expert** who understands the business relevance of data standards, and supports their application and use to meet an organization's needs.
-
-----------
-
-## WHAT IT MEANS TO BE A DATA MANAGER
-
-### What is a Data Manager?
-
-+ A person appointed by a _Data Custodian_ to manage a specific data set according to policies, plans and standards defined by the _Data Custodian_.
-+ May take direction from a _Data Steward_ designated by the _Data Custodian_.
-+ Responsible for day-to-day management of the data and may coordinate operations staff.
-+ Usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.
+### What is a [Data Manager](glossary.md#data-manager)?
 
 ### Am I a Data Manager?
 
@@ -182,9 +142,9 @@ You are a _Data Manager_ if you have been directed by a _Data Custodian_ to have
 
 ### Obligations and Responsibilities of a Data Manager
 
-The main obligation of a _Data Manager_ is to ensure that the _Data Custodian's_ directions are properly fulfilled.
+The main obligation of a _Data Manager_ is to ensure that the _Data Custodian's_ directions are properly fulfilled. There could be several _Data Managers_ for a data holding, and the role can be delegated.
 
-You will typically be responsible for these activities (though perhaps not all of them):
+You will typically be responsible for some or all of these activities:
 
 + Data capture and storage
 + Data quality assurance
@@ -193,7 +153,20 @@ You will typically be responsible for these activities (though perhaps not all o
 + Data population and distribution
 + User support
 
-Data population and distribution may involve the BCGW, and this is discussed further in the next section.
+### The Data Steward
+
+### What is a [Data Steward](glossary.md#data-steward)?
+
+When the _Data Custodian_ does not have the resources available to fulfill their responsibilities, or it may be more efficient to conduct activities in concert with another group, a _Data Steward_ may become involved.
+
+The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship Agreement** that defines the specific [responsibilities](#responsibilities-of-a-data-custodian) that are being delegated to the _Data Steward_ by the _Data Custodian_.
+
+*Note: the involvement of a _Data Steward_ does not change the obligations of the _Data Custodian_. The _Data Custodian_ remains accountable for the governance and use of the data.*
+
+### Other Roles
+
++ [Data Administrator](glossary.md#data-administrator)
++ [Discipline Authority](glossary.md#discipline-authority)
 
 -----------------------------
 
