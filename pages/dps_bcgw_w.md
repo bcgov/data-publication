@@ -67,6 +67,10 @@ The first step in the process is to review the following documentation:
 
 Complete the questions in the Before You Start documentation.  This will help you to answer questions about your data that will be discussed at the Whiteboard Session with DataBC.
 
+Familiarize yourself with the steps involved in publishing data to the BCGW as the effort required depends on the nature and complexity of your data set. The steps described here can be "right-sized" to fit your needs.
+
+![Steps for placing data in the warehouse](images/Steps_for_placing_data_in_the_warehouse.JPG)
+
 ------------------------------
 
 ## WHITEBOARD SESSIONS
