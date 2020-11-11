@@ -140,9 +140,11 @@ If you are a Data Custodian, you have these responsibilities:
 
 You are a _Data Manager_ if you have been directed by a _Data Custodian_ to have the day-to-day responsibility for managing a data set.
 
-### Obligations and Responsibilities of a Data Manager
+### Obligations of a Data Manager
 
 The main obligation of a _Data Manager_ is to ensure that the _Data Custodian's_ directions are properly fulfilled. There could be several _Data Managers_ for a data holding, and the role can be delegated.
+
+### Responsibilities of a Data Manager
 
 You will typically be responsible for some or all of these activities:
 
