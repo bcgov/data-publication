@@ -49,3 +49,19 @@ The BCGW's data publishing and distribution process works as follows:
 #### Information Management through the BCGW
 
 ![Information Management through the BCGW](images/image_information_management_through_the_BCGW.png)
+
+## MAKING USE OF THE BCGW
+
+### Benefits
+
+The BCGW provides the opportunity and means for _Data Custodians_ to present their data to a wide audience of users.
+
+In this respect, the BCGW is enabling technology. It provides two sets of services - one set to assist _Data Custodians_ to present their data, the other set to help user access and use the data.
+
+These are the benefits:
+
++ Relieves _Data Custodians_ and managers of many of the costs and headaches of making their data widely accessible
++ Easier user access to manage by virtue of a standard security model
++ Provides ability to structure, integrate and package data to better suit user needs
++ Improves the user experience by offering a standard user interface and set of familiar tools
++ Allows easier viewing and integration with other BCGW data
