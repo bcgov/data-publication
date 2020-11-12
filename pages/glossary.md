@@ -24,7 +24,8 @@ has_toc: false
 |       |   |   | 1. protects and promotes the use of data holdings under their care;
 |       |   |   | 2. sets policies, and is accountable for defining the appropriate use of the data;
 |       |   |   | 3. provides the authoritative version of the data; and
-|       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
+|       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. 
+|       |   |   |Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
 |       |   |Data Manager| A **Role** in the BC Data Catalogue, the Data Manager is someone who:
 |       |   |   | 1. is appointed by a Data Custodian to manage a specific data set according to policies, plans and standards defined by the Data Custodian;
 |       |   |   | 2. may take direction from a Data Steward designated by the Data Custodian;
