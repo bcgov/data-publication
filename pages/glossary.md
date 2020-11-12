@@ -30,6 +30,7 @@ has_toc: false
 |       |   |   | 2. may take direction from a Data Steward designated by the Data Custodian;
 |       |   |   | 3. is responsible for day-to-day management of the data and may coordinate with operations staff;
 |       |   |   | 4. usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.
+|       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor.
 |       |   |Data Steward| A **Role** in the BC Data Catalogue, the Data Steward is someone who:
 |       |   |   | 1. has an agreement with the Data Custodian to provide a specific set of custodial duties on behalf of the Data Custodian;
 |       |   |   | 1. has the ability and resources to provide this specific set of custodial duties as required by the Data Custodian;
@@ -41,7 +42,9 @@ has_toc: false
 | **F** |FME  |Feature Manipluation Engine | ETL software written by Safe Software that is used by DataBC for the majority of data loads to BCGW feature classes. |
 | **G** |     |<a name="geographic_dataset">Geographic Dataset</a>|A dataset type in the metadata record, this category is used for data that contains geospatial information along with other data.  In the metadata record, additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This category must be used for all BCGW Datasets.|
 |       |GOGS |Go Git Service | DataBC uses the Gogs Repository as a Source Code Management System to store BCGW Data Delivery Kits. The developers should use their own forked repository during development. When the project is ready to be delivered to the Ministry for testing in the delivery environment or for a final delivery, the vendor makes a pull request to the Ministry's DA's. Details are available in the [Gogs Instructions for Vendors](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/Gogs_Instructions_For_Vendors.md). |
-| **N** |     | New information | Information that resides only in AGO and does not exist within the BCGW or the BCDC.|
+| **M** |     |Metadata| Simply put, metadata is data about data. Examples of BC Data Catalogue metadata are: database table descriptions, data relationship mapping, storing who created/updated data, and purpose of the data.
+|       |     |Metadata Editor| A person responsible for creating or maintaining metadata in the BC Data Catalogue.
+| **N** |     |New information | Information that resides only in AGO and does not exist within the BCGW or the BCDC.|
 | **O** |OGL-BC|Open Government Licence - British Columbia | Information on the Open Government Licence - British Columbia can be found [here](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) | 
 | **P** |      |<a name="point_of_contact">Point of Contact | A **Role** in the BC Data Catalogue metadata record, the Point of Contact is the person available to contact for questions end-users may have about the dataset. | 
 | **S** |SDE  |Spatial Database Engine | Software created by ESRI which allows arcGIS to communicate with Relational Database Systems to manipulate spatially-enabled data. |
