@@ -18,6 +18,7 @@ has_toc: false
 |       |   | BCGW Production | Production is an instance of the BCGW that is the main operational data repository for the province’s SDI. |
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
 | **D** |   |<a name="dataset">Dataset</a>|A dataset type in the metadata record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
+|       |   |Dataset Logfile| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
 |       |DA |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
 |       |   |Data Custodian|A **Role** in the BC Data Catalogue, the Data Custodian is someone who:
@@ -44,6 +45,7 @@ has_toc: false
 | **F** |FME  |Feature Manipluation Engine | ETL software written by Safe Software that is used by DataBC for the majority of data loads to BCGW feature classes. |
 | **G** |     |<a name="geographic_dataset">Geographic Dataset</a>|A dataset type in the metadata record, this category is used for data that contains geospatial information along with other data.  In the metadata record, additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This category must be used for all BCGW Datasets.|
 |       |GOGS |Go Git Service | DataBC uses the Gogs Repository as a Source Code Management System to store BCGW Data Delivery Kits. The developers should use their own forked repository during development. When the project is ready to be delivered to the Ministry for testing in the delivery environment or for a final delivery, the vendor makes a pull request to the Ministry's DA's. Details are available in the [Gogs Instructions for Vendors](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/Gogs_Instructions_For_Vendors.md). |
+| **L** |     |Logical Data Model| A formal description of the structure of a data set, as described in the Dataset Logfile.
 | **M** |     |Metadata| Simply put, metadata is data about data. Examples of BC Data Catalogue metadata are: database table descriptions, data relationship mapping, storing who created/updated data, and purpose of the data.
 |       |     |Metadata Editor| A person responsible for creating or maintaining metadata in the BC Data Catalogue.
 | **N** |     |New information | Information that resides only in AGO and does not exist within the BCGW or the BCDC.|
