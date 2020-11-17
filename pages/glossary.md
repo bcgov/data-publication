@@ -30,8 +30,9 @@ has_toc: false
 |       |   |   | 1. is appointed by a Data Custodian to manage a specific data set according to policies, plans and standards defined by the Data Custodian;
 |       |   |   | 2. may take direction from a Data Steward designated by the Data Custodian;
 |       |   |   | 3. is responsible for day-to-day management of the data and may coordinate with operations staff;
-|       |   |   | 4. usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.
-|       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor.
+|       |   |   | 4. usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.|
+|       |   |Data Model| A formal description of the structure of a data set - that is, the types of data, their properties and relationships. A data model is created to describe how your data will be stored in the BCGW.|
+|       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor. |
 |       |   |Data Steward| A **Role** in the BC Data Catalogue, the Data Steward is someone who:
 |       |   |   | 1. has an agreement with the Data Custodian to provide a specific set of custodial duties on behalf of the Data Custodian;
 |       |   |   | 1. has the ability and resources to provide this specific set of custodial duties as required by the Data Custodian;
