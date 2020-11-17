@@ -51,6 +51,7 @@ has_toc: false
 | **N** |     |New information | Information that resides only in AGO and does not exist within the BCGW or the BCDC.|
 | **O** |OGL-BC|Open Government Licence - British Columbia | Information on the Open Government Licence - British Columbia can be found [here](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) | 
 | **P** |      |<a name="point_of_contact">Point of Contact | A **Role** in the BC Data Catalogue metadata record, the Point of Contact is the person available to contact for questions end-users may have about the dataset. | 
+|       |     |Population| The process of retrieving data from the Data Custodian's source system, transforming it as required and storing it in the BCGW.
 | **S** |SDE  |Spatial Database Engine | Software created by ESRI which allows arcGIS to communicate with Relational Database Systems to manipulate spatially-enabled data. |
 |       |SDI  |Spatial Data Infrastructure | DataBC’s geographic information infrastructure including the data warehouse, middle tier, servers, and related spatial services. |
 |       |SDO  |Spatial Data Object | It is a data storage option for spatial attributes, created by Oracle Corporation
