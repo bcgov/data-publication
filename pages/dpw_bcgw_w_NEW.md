@@ -6,6 +6,7 @@ parent: BC Geographic Warehouse
 grand_parent: Data Publication Services
 has_children: true
 has_toc: false
+nav_exclude: true
 ---
 
 # BC GEOGRAPHIC WAREHOUSE PUBLICATION WORKFLOW
@@ -45,7 +46,7 @@ Though the steps described in this page represent the complete BCGW population s
 
 ![Steps for placing data in the warehouse](images/Steps_for_placing_data_in_the_warehouse.JPG)
 
-### Create a Plan
+## Create a Plan
 
 Depending on the size and complexity of your data, the steps required to prepare the data and make it accessible using the BCGW may take days or weeks, and will require participation from your staff throughout the process. To better understand the process and specific requirements, start first with reviewing the BCGW Readiness Worflow and the answering the questions in Before You Start. Then, you can create a work plan to ensure you have the required time and resources. 
 
@@ -60,11 +61,14 @@ Depending on the size and complexity of your data, the steps required to prepare
 + Identify your Business Analyst (or person desginated to act in this role) from your team that will facilitate the process.
 + Your Business Analyst will set up a whiteboard session that will be attended by you, technical staff, and any vendors who may be involved in developing and maintaining your operational system. 
 
-### Whiteboard Session
+## Whiteboard Sessions
 
-Once you have completed the documentation review and questions, it's time to contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to schedule a Whiteboard Session.  This purpose of this session is to discuss your dataset, the questions you answered in Before You Start as well as provide you with some personal guidance on next steps for the process.
+Once you have completed the documentation review and questions, it's time to contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to schedule the first of two Whiteboard Sessions - the Discovery Whiteboard. The Technical Whiteboard will be completed during the Data Modelling process.
 
-+ The purpose of the whiteboard session is to develop a plan that defines all the resource required, role and responsibilities, issue and timelines.
+### **Discovery Whiteboard**
+
+This purpose of this session is to discuss your dataset, the questions you answered in Before You Start, develop a plan that defines all the resource required, role and responsibilities, issue and timelines as well as provide you with some personal guidance on next steps for the process.
+
 + This plan must be approved by you before work proceeds.
 + Your Business Analyst will then implement and manage the plan to completion.
 + Based on need, a Stewardship agreement may be developed.
@@ -72,8 +76,6 @@ Once you have completed the documentation review and questions, it's time to con
 
 *We will ask that you send us a sample of the data so we can provide constructive feedback in the session.*
 
-### **Discovery Whiteboard**
-  
 **Resources**
 
 Having the right people available for the session allows us to all move forward efficiently. Please ensure attendance for the following resources from your business area:
@@ -100,7 +102,15 @@ The following resources from DataBC will be in attendance:
 
 -------------------------------
 
-## DATASET LOGFILE
+## DATA MODELLING
+
+### Create the Warehouse Data Model
+
+When your data is stored in the BCGW, it may have to be structured differently from how it is organized in your operational system. This is because it may be used for different purposes, serving a different audience that uses DataBC's applications and infrastructure for browsing and accessing the data. Your data, as described in your [_Data Model_](glossary.md#data-model), is also required to conform to the [BCGW Standards and Guidelines](dsg_bcgw.md). 
+
+The [_Data Manager_](glossary.md#data-manager) is responsible for ensuring the data is modelled as per these standards and guidelines and uses the [Dataset Logfile](glossary.md#dataset-logfile) (also referred to as the [_Logical Data Model_](glossary.md#logical-data-model) to complete this.
+
+### Dataset Logfile
 
 The [Dataset Logfile](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile/) is where you provide specific details about your dataset in order to capture the following information:
 
@@ -108,10 +118,13 @@ The [Dataset Logfile](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/
    + **Data Details:** Dataset Title, Descriptions, Source, Feature Type and Count and who to create Metadata
    + **Security Details:** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
    + **Data Model Details:** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
+   
+_Note that the Dataset Logfile directory contains two TEMPLATE files, one for [GSR](faq.md#What-is-the-Geographic-Sites-Registry-GSR) dataloads and one for non-GSR dataloads._
 
-_Note that that Dataset Logfile directory contains two TEMPLATE files, one for [GSR](faq.md#What-is-the-Geographic-Sites-Registry-GSR) dataloads and one for non-GSR dataloads._
+will be accessible to BCGW users. This is because it's an important element of metadata (see Define a Metadata Profile) that can help users utilize the data in their own systems environments.
 
-### WORKFLOW: DATASET LOGFILE
+ Once this has been reviewed and approved, the physical data model must be created.
++ Create and provide the resulting scripts that will be used to build the tables, layers and views in the warehouse.
 
 ### [Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
 
