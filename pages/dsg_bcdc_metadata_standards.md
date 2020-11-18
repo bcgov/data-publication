@@ -28,7 +28,7 @@ This page describes recommended metadata standards and provides a high-level sum
 
 ## WHAT IS METADATA AND WHY IS IT IMPORTANT?
 
-**Definition**:  _data about data_
+**Definition**:  [_Metadata_](glossary.md#metadata)
 
 Metadata is data (or information) which describes some aspect of data. Everything from database table descriptions, data relationship mapping, storing who created/updated data, purpose of the data, can be classified as metadata.  
 
@@ -42,10 +42,13 @@ In the DataBC Program, we value the importance of using metadata to describe the
 + Enables historical data tracking (i.e.: audit columns)
 + Facilitates data design discussions
 + Provides data consistency 
++ Supports user self-service to understand the purpose and characteristics of a data set
 + Can be used to help troubleshoot data issues; i.e.
    + who is the data custodian / person responsible for the data?
    + what is the security classification?
    + will the change impact other data?
+   
+There are international standards for metadata that DataBC follows. This provides interoperability with other data service utilities, meaning that descriptions of your data can be widely published and accessed (assuming your security profile allows this).
 
 ### Metadata should be:
 
