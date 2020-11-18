@@ -53,7 +53,7 @@ Depending on the size and complexity of your data, the steps required to prepare
 
 2. [Before You Start](#documentation-review)
 
-3. Create a work plan **### WHAT ARE WE ASKING THEM TO HAVE IN THEIR WORK PLAN?**
+3. Create a work plan
 + Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to get started and provide advice about resourcing. 
 + Identify your Business Analyst (or person desginated to act in this role) from your team that will facilitate the process.
 + Your Business Analyst will set up a whiteboard session that will be attended by you, technical staff, and any vendors who may be involved in developing and maintaining your operational system. 
@@ -64,7 +64,7 @@ Once you have completed the documentation review and questions, it's time to con
 
 ### **Discovery Whiteboard**
 
-This purpose of this session is to discuss your dataset, the questions you answered in Before You Start, develop a plan that defines all the resource required, role and responsibilities, issue and timelines as well as provide you with some personal guidance on next steps for the process.
+This purpose of this session is to discuss your dataset, the questions you answered in Before You Start, develop a plan that defines all the resources required, roles and responsibilities, issues and timelines as well as provide you with some personal guidance on next steps for the process.
 
 + This plan must be approved by you before work proceeds.
 + Your Business Analyst will then implement and manage the plan to completion.
@@ -101,28 +101,59 @@ The following resources from DataBC will be in attendance:
 
 ## DATA MODELLING
 
-### Create the Warehouse Data Model
-
 When your data is stored in the BCGW, it may have to be structured differently from how it is organized in your operational system. This is because it may be used for different purposes or may be serving a different audience that uses DataBC's applications and infrastructure for browsing and accessing the data. 
 
-Your data, as described in your [_Data Model_](glossary.md#data-model), is also required to conform to the [BCGW Standards and Guidelines](dsg_bcgw.md). The [_Data Manager_](glossary.md#data-manager) is responsible for ensuring the data is modelled as per these standards and guidelines. The [Dataset Logfile](glossary.md#dataset-logfile) (also referred to as the [_Logical Data Model_](glossary.md#logical-data-model) is used to complete this. It is common for programs that do not have internal resources for data modelling to have this work carried out by an external vendor/developer. In this case, you will provide input to the vendor/developer so the data model can be created.
+Your data, as described in your [_Data Model_](glossary.md#data-model), is also required to conform to the [BCGW Standards and Guidelines](dsg_bcgw.md). The [_Data Manager_](glossary.md#data-manager) is responsible for ensuring the data is modelled as per these standards and guidelines. 
+
+It is common for programs that do not have internal resources for data modelling to have this work carried out by a vendor. In this case, you will provide input to the vendor so the data model can be created. 
 
 ### Dataset Logfile
 
-The [Dataset Logfile](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile/) is where you provide specific details about your dataset in order to capture the following information:
+The [Dataset Logfile](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile/) is where you provide specific details about your dataset in order to capture the following information: 
 
    + **Business Details:** Overarching Title, Description, Custodian, Business Area Contacts and IMB BA/BPM
    + **Data Details:** Dataset Title, Descriptions, Source, Feature Type and Count and who to create Metadata
    + **Security Details:** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
    + **Data Model Details:** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
    
-_Note that the Dataset Logfile directory contains two TEMPLATE files, one for [GSR](faq.md#What-is-the-Geographic-Sites-Registry-GSR) dataloads and one for non-GSR dataloads._
+_Note that the Dataset Logfile directory contains two TEMPLATE files, one for [GSR](glossary.md#geographic-sites-registry) dataloads and one for non-GSR dataloads._
 
 [Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
 
 ![Dataset Logfile Workflow](images/wf_DatsetLogfile.png)
 
-DataBC will then review the model (and provide feedback when required).  Once the Dataset Logfile has been reviewed and approved, the Data Modelling vendor will populate specific scripts used to build the tables, layers and views in the warehouse, known as the [Delivery Kit](glossary.md#delivery-kit). 
+Once the Dataset Logfile has been reviewed and approved, the Technical Whiteboard Session will be scheuled.
+
+## Technical Whiteboard
+
+The purpose of the Technical Whiteboard Session is to discuss the technical details of your dataset after your Dataset Logfile has been completed.  During this session, we will discuss:
++ Specifics about data model based on Dataset Logfile and access to source data
++ Security model for Database, iMap, Distribution, WMS, Open Data
++ Replication mechanism and frequency
+
+Depending on the complexity of your dataset, you may be required to create a [logical data model](glossary.md#logical-data-model) (e.g., ddl, erd) along with your [physical data model](glossary.md#physical-data-model). The DataBC team will work with you and/or your vendor to leverage any existing source models during this process. 
+
+**Client resources for session:**
+
+|Type|Resource|Attendance|Action Items from Session|
+|:---|:---|:---|:--|
+|Business Area|Data Suppliers|**Required**|Provide IDIRs and/or BCeIDs of users and data managers|
+||||If not using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](dsg_bcgw_data_delivery.md#repository-container-checkout-list-completed)|
+|Business Area|IMB: BA/BP|**Required**|_if Named User access is required, security configuration for: Database Roles, Proxy Accounts, Firewalls_|
+|Business Area|Vendor/Developer|_Optional_|If using vendor/developer: complete [_Data Delivery Standards - Repository Container Checkout List_](dsg_bcgw_data_delivery.md#repository-container-checkout-list-completed)|
+
+**DataBC Resources for session:**
+
+|Type|Resource|Attendance|Action Items from Session|
+|:---|:---|:---|:--
+|DataBC|DataBC DA|**Required**|Account Management may include: Gogs, BCGW (del/test/prod), Staging Area, Oracle Designer, BCGW Delivery passwords|
+||||Finalize database object names|
+||||_if Named User access is required, security configuration for: Database Roles, Proxy accounts, iMap Workspaces, Firewalls_
+|DataBC|DataBC ETL|_Optional_|
+
+### The Data Model
+
+Clients will provide input to their vendor/developer so the data model can be created. DataBC will then review the model (and provide feedback when required) prior to your vendor/developer delivering the final product.
 
 **Resources for data modelling**
 
@@ -132,48 +163,22 @@ DataBC will then review the model (and provide feedback when required).  Once th
 |Business Area|IMB: BA/BP|cc'd on communication|
 |Business Area|Vendor/Developer|**Required** to complete Data Model|
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to review Data Model|
-   
+
+### Data Population
+
+Based on your data type, different methods are used for [_Data Population_](glossary.md#data-population):
++ Non-spatial Oracle to Oracle tables are accepted as materialized views
++ Spatial population is completed using FME
+   + see [DataBC's FME Framework](dps_bcgw_w_databc_fme.md) for more information
++ _Note: SDR is being deprecated._
+
+Once the population process has been initiated, test the transformation process to confirm that the warehouse model is correct (e.g. source fields are mapped correctly to destination fields). The DataBC team can be available to you for consultation and support during the population process, if required.
+
+When this process is completed, the data has been correctly represented in the warehouse and the process is in place for populating the data from the operational system, but the data is not yet ready for access by BCGW users. This will 
+
 -------------------------------
 
-## Depending on the complexity of your dataset, you may be required to create logical and/or physical data amodels.
-we will work with client and/or vendor to IMB to leverage existing source models during this process. we can accept ddl, erd, etc.
 
-Logfile - conceptual (could be other formats)
-
-Logical review - designer
-Physical review - designer
-approved, next
-
-### Define the Population Process - IS THIS STEP CURRENT/CORRECT? WE NEED TO UPDATE THIS SECTION - IS THIS NOT OUR ETL PROCESS?
-
-
-non-spatial oracle to oracle are accepted as MVW
-spatial is FME only
-_Note: SDR is being deprecated._
-
-A number of different methods can be used for [_Population_](glossary.md#population). It is the responsibility of the business area (who must also provide the funding) to select the most appropriate method and then configure it to the specific needs of your data. The DataBC team can be available to you for consultation and support, if required.
-
-Population Methods:
-1. FME
-
-! required to review the data to ensure the transformation is correct - source field mapped to destination field correctly.
-
-#### Activities
-
-+ Initiate and fund a small project to develop the transformation process that will move the operational data into the warehouse.
-+ Test the transformation process with a sample set of data to confirm that the warehouse model is correct. 
-   + This is an important task. If problems are encountered then the data model will have to be fixed.
-+ The next step is to test the transformation process with a full set of data to confirm that the process itself works correctly. 
-   + Again, if there are problems, then the data transformation process will have to be corrected.
-
-When this process is compelted, the data has been correctly represented in the warehouse and the process is in place for populating the data from the operational system, but the data is not yet ready for access by BCGW users. This will 
-
-
-
-
-
-## FOR DELIVERY
-This process is also referred to as creating the [Physical Data Model](glossary.md#physical-data-model).
 
 
 
