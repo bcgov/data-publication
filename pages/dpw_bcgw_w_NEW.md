@@ -122,7 +122,7 @@ _Note that the Dataset Logfile directory contains two TEMPLATE files, one for [G
 
 ![Dataset Logfile Workflow](images/wf_DatsetLogfile.png)
 
-Once the Dataset Logfile has been reviewed and approved, the Technical Whiteboard Session will be scheuled.
+Once the Dataset Logfile has been reviewed and approved, the Technical Whiteboard Session will be scheduled.
 
 ## Technical Whiteboard
 
