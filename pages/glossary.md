@@ -17,24 +17,25 @@ has_toc: false
 |       |   |B.C. MapHub|The B.C. Map Hub is the official B.C. Government presence in ArcGIS Online.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others. |
 |       |   | BCGW Production | Production is an instance of the BCGW that is the main operational data repository for the province’s SDI. |
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
+| **C** |   |Conceptual Data Model| An organized view of database concepts and their relationships. The purpose of creating a conceptual data model is to establish entities, their attributes, and relationships.
 | **D** |   |<a name="dataset">Dataset</a>|A dataset type in the metadata record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
 |       |   |Dataset Logfile| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
 |       |DA |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
-|       |   |Data Custodian|A **Role** in the BC Data Catalogue, the Data Custodian is someone who:
+|       |   |Data Custodian| A _Role_ in the BC Data Catalogue, the Data Custodian is someone who:
 |       |   |   | 1. protects and promotes the use of data holdings under their care;
 |       |   |   | 2. sets policies, and is accountable for defining the appropriate use of the data;
 |       |   |   | 3. provides the authoritative version of the data; and
 |       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. 
 |       |   |   |Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
-|       |   |Data Manager| A **Role** in the BC Data Catalogue, the Data Manager is someone who:
+|       |   |Data Manager| A _Role_ in the BC Data Catalogue, the Data Manager is someone who:
 |       |   |   | 1. is appointed by a Data Custodian to manage a specific data set according to policies, plans and standards defined by the Data Custodian;
 |       |   |   | 2. may take direction from a Data Steward designated by the Data Custodian;
 |       |   |   | 3. is responsible for day-to-day management of the data and may coordinate with operations staff;
 |       |   |   | 4. usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.|
 |       |   |Data Model| A formal description of the structure of a data set - that is, the types of data, their properties and relationships. A data model is created to describe how your data will be stored in the BCGW.|
 |       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor. |
-|       |   |Data Steward| A **Role** in the BC Data Catalogue, the Data Steward is someone who:
+|       |   |Data Steward| A _Role_ in the BC Data Catalogue, the Data Steward is someone who:
 |       |   |   | 1. has an agreement with the Data Custodian to provide a specific set of custodial duties on behalf of the Data Custodian;
 |       |   |   | 1. has the ability and resources to provide this specific set of custodial duties as required by the Data Custodian;
 |       |   |   | 2. is usually at the director level, like the Data Custodian;
@@ -45,12 +46,13 @@ has_toc: false
 | **F** |FME  |Feature Manipluation Engine | ETL software written by Safe Software that is used by DataBC for the majority of data loads to BCGW feature classes. |
 | **G** |     |<a name="geographic_dataset">Geographic Dataset</a>|A dataset type in the metadata record, this category is used for data that contains geospatial information along with other data.  In the metadata record, additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This category must be used for all BCGW Datasets.|
 |       |GOGS |Go Git Service | DataBC uses the Gogs Repository as a Source Code Management System to store BCGW Data Delivery Kits. The developers should use their own forked repository during development. When the project is ready to be delivered to the Ministry for testing in the delivery environment or for a final delivery, the vendor makes a pull request to the Ministry's DA's. Details are available in the [Gogs Instructions for Vendors](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/Gogs_Instructions_For_Vendors.md). |
-| **L** |     |Logical Data Model| A formal description of the structure of a data set, as described in the Dataset Logfile.
+| **L** |     |Logical Data Model| Used to define the structure of data elements and to set relationships between them. The logical data model adds further information to the conceptual data model elements and is a formal description of the structure of a data set.
 | **M** |     |Metadata| Simply put, metadata is data about data. Examples of BC Data Catalogue metadata are: database table descriptions, data relationship mapping, storing who created/updated data, and purpose of the data.
 |       |     |Metadata Editor| A person responsible for creating or maintaining metadata in the BC Data Catalogue.
 | **N** |     |New information | Information that resides only in AGO and does not exist within the BCGW or the BCDC.|
 | **O** |OGL-BC|Open Government Licence - British Columbia | Information on the Open Government Licence - British Columbia can be found [here](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) | 
-| **P** |      |<a name="point_of_contact">Point of Contact | A **Role** in the BC Data Catalogue metadata record, the Point of Contact is the person available to contact for questions end-users may have about the dataset. | 
+| **P** |     |Physical Data Model| Describes a database-specific implementation of the data model. The physical data model also helps in visualizing database structure by replicating database column keys, constraints, indexes, triggers, and other RDBMS features.
+|       |     |<a name="point_of_contact">Point of Contact | A _Role_ in the BC Data Catalogue metadata record, the Point of Contact is the person available to contact for questions end-users may have about the dataset. | 
 |       |     |Population| The process of retrieving data from the Data Custodian's source system, transforming it as required and storing it in the BCGW.
 | **S** |SDE  |Spatial Database Engine | Software created by ESRI which allows arcGIS to communicate with Relational Database Systems to manipulate spatially-enabled data. |
 |       |SDI  |Spatial Data Infrastructure | DataBC’s geographic information infrastructure including the data warehouse, middle tier, servers, and related spatial services. |
