@@ -44,7 +44,6 @@ has_toc: false
 	+ [Access security](#access-security)
 	+ [Downloading data from the BC Geographic Warehouse](#downloading-data-from-the-bc-geographic-warehouse)
 	+ [Feature Codes](#feature-codes)
-	+ [What is the Geographic Sites Registry (GSR)?](#what-is-the-geographic-sites-registry-gsr)
 	+ [Retiring datasets from the BC Geographic Warehouse](#retiring-datasets-from-the-bc-geographic-warehouse)
 + [**GETTING ACCESS TO THE THINGS YOU NEED**](#getting-access-to-the-things-you-need)
 	+ [How do I get access to the DataBC File Staging Area?](#how-do-i-get-access-to-the-databc-file-staging-area)
@@ -453,17 +452,6 @@ Before asking to publish data to the BCGW, consider:
 + Datasets that only contain one type of information do not need an FCODE.
 + Datasets that already have FCODEs that are used to separate and symbolize different values, it is recommend to create an FCODE when a new value is then created.
 + Refer to [_How do I get an Feature Code (FCODE) created/updated?_](#how-do-i-get-a-feature-code-fcode-createdupdated)
-
-### What is the Geographic Sites Registry (GSR)?
-
-The Geographic Sites Registry (GSR) is a set of tables and views in the BC Geographic Warehouse used to store and present geographic point locations where services are provided to the public.  
-
-Examples of GSR datasets are:
-+ [_Hospitals in BC_](https://catalogue.data.gov.bc.ca/dataset/383eaf98-afd7-436a-9556-67ecf14f64a7),  
-+ [_First Responders_](https://catalogue.data.gov.bc.ca/dataset/652c49eb-7295-4ae2-8f26-39103f23b50d), and 
-+ [_Court Locations_](https://catalogue.data.gov.bc.ca/dataset/c95a2ad5-f62a-43d6-8678-80a617b6200e).
-
-GSR is architected in a way that makes it easy (and inexpensive) to add new GSR datasets and make changes to existing ones.
 
 ### Retiring datasets from the BC Geographic Warehouse
 
