@@ -34,6 +34,7 @@ has_toc: false
 |       |   |   | 3. is responsible for day-to-day management of the data and may coordinate with operations staff;
 |       |   |   | 4. usually has technical knowledge of the data, its collection & storage, and ways in which the data is commonly used.|
 |       |   |Data Model| A formal description of the structure of a data set - that is, the types of data, their properties and relationships. A data model is created to describe how your data will be stored in the BCGW.|
+|       |   |Data Population| The process of retrieving data from the Data Custodian's source system, transforming it as required and storing it in the BCGW.
 |       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor. |
 |       |   |Data Steward| A _Role_ in the BC Data Catalogue, the Data Steward is someone who:
 |       |   |   | 1. has an agreement with the Data Custodian to provide a specific set of custodial duties on behalf of the Data Custodian;
@@ -54,7 +55,6 @@ has_toc: false
 | **O** |OGL-BC|Open Government Licence - British Columbia | Information on the Open Government Licence - British Columbia can be found [here](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) | 
 | **P** |     |Physical Data Model| Describes a database-specific implementation of the data model. The physical data model also helps in visualizing database structure by replicating database column keys, constraints, indexes, triggers, and other RDBMS features.
 |       |     |<a name="point_of_contact">Point of Contact | A _Role_ in the BC Data Catalogue metadata record, the Point of Contact is the person available to contact for questions end-users may have about the dataset. | 
-|       |     |Population| The process of retrieving data from the Data Custodian's source system, transforming it as required and storing it in the BCGW.
 | **S** |SDE  |Spatial Database Engine | Software created by ESRI which allows arcGIS to communicate with Relational Database Systems to manipulate spatially-enabled data. |
 |       |SDI  |Spatial Data Infrastructure | DataBC’s geographic information infrastructure including the data warehouse, middle tier, servers, and related spatial services. |
 |       |SDO  |Spatial Data Object | It is a data storage option for spatial attributes, created by Oracle Corporation
