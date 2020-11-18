@@ -26,12 +26,12 @@ This page is written in the context that you have reviewed the documentation as 
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the following documentation: 
-+ [Before You Start](dsg_before_you_start.md)
-+ [BCDC Standards and Guidelines](dsg_bcdc.md) (all)
-+ [BCGW Standards and Guidelines](dsg_bcgw.md) (all)
-+ [Common Data Standards and Guidelines](dsg.md) (all)
-+ [Data Governance](dg.md)
-+ [Open Data](open_data.md)
++ **[Before You Start](dsg_before_you_start.md)**
++ **[BCDC Standards and Guidelines](dsg_bcdc.md) (all)**
++ **[BCGW Standards and Guidelines](dsg_bcgw.md) (all)**
++ **[Common Data Standards and Guidelines](dsg.md) (all)**
++ **[Data Governance](dg.md)**
++ **[Open Data](open_data.md)**
 
 ------------------------------
 
