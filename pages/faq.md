@@ -109,8 +109,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 #### DataBC
 
-+ When nothing above seems to apply,
-+ _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
++ When nothing above seems to apply, contact: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
  
 [RETURN TO TOP][1]
 
