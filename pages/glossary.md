@@ -57,7 +57,8 @@ has_toc: false
 |       |     |<a name="point_of_contact">Point of Contact | A _Role_ in the BC Data Catalogue metadata record, the Point of Contact is the person available to contact for questions end-users may have about the dataset. | 
 | **S** |SDE  |Spatial Database Engine | Software created by ESRI which allows arcGIS to communicate with Relational Database Systems to manipulate spatially-enabled data. |
 |       |SDI  |Spatial Data Infrastructure | DataBC’s geographic information infrastructure including the data warehouse, middle tier, servers, and related spatial services. |
-|       |SDO  |Spatial Data Object | It is a data storage option for spatial attributes, created by Oracle Corporation
+|       |SDO  |Spatial Data Object | It is a data storage option for spatial attributes, created by Oracle Corporation |
+|       |     |Security Profile | Defines who may access your data and what they can use it for. The security profile (which is part of the metadata) is very important because it ensures that user access is consistent with your policies for data security, confidentiality and appropriate use. |
 | **V** |VPN  |Virtual Private Network | Service which provides secure, encrypted transport of traffic from external networks into the BC Government’s network (entitled SPAN/BC). It is intended for telecommuters, mobile workers, external partners, vendors and contractors who use commercial Internet Service Providers and need to access SPAN/BC. |
 | **W** |     |<a name="webservice_api">Web Service - API</a>|A dataset type in the metadata record, this category is used for metadata relating to web services or application programming interfaces.|
   
