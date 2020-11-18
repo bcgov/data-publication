@@ -63,31 +63,37 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 + When you're looking for data that is not found in the BC Data Catalogue or BC Geographic Warehouse, submit a [_DataBC - Data Request_](https://forms.gov.bc.ca/databc-data-request/) form.
 
-#### Data Discovery Services 
+#### BC Data Catalogue Services 
 
 + Questions about the BC Data Catalogue (BCDC)
 + Questions about Open Data and the process of publishing data under an open data licence  
 + Publishing tabular data to the BC Data Catalogue, but not to the BC Geographic Warehouse
-+ Arranging named user access to iMapBC or Distribution Services
-+ Arranging access to the DataBC File Staging Area
 + _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
 
-#### Data Publication Services 
+#### Data Architecture Services 
 
 + Publishing/republishing spatial or non-spatial data to the BC Geographic Warehouse (BCGW)
-+ BC Geographic Warehouse data replication requests
++ Arranging named user access to iMapBC or Distribution Services
 + Questions about representation of spatial data in the BC Geographic Warehouse (e.g., registration, projection, etc.)
-+ Questions about BC Geographic Warehouse data replication
-+ Questions about other replication services
++ Arranging access to the DataBC File Staging Area
++ Publishing a layer presentation to iMapBC or the Layer Library
 + Questions about DataBC Program data standards
 + Questions about data governance and management
 + _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) 
 
-**BCGW Data Retirements**
+#### BC Geographic Warehouse Data Retirements
+
 + Retirements of datasets held in the BC Geographic Warehouse (BCGW)
 + Request for retirements
 + Notifications of intent and decision
 + _Contact_: [LDATARET@Victoria1.gov.bc.ca](LDATARET@Victoria1.gov.bc.ca)
+
+#### Data Population (ETL) Services
+
++ BC Geographic Warehouse data replication requests
++ Questions about BC Geographic Warehouse data replication
++ Questions about other replication services
++ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
 
 #### Map Services 
 
@@ -97,7 +103,6 @@ The following is a list of DataBC groups with direction on their areas of expert
 + BC Map Hub
 + Data Mashup Framework (DMF)
 + Simple Map Kit (SMK)
-+ Publishing a layer presentation to iMapBC or the Layer Library
 + _Contact_: [datamaps@gov.bc.ca](mailto:datamaps@gov.bc.ca)
 
 #### Location Services 
@@ -109,7 +114,8 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 #### DataBC
 
-+ When nothing above seems to apply, contact: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
++ When nothing above seems to apply,
++ _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
  
 [RETURN TO TOP][1]
 
