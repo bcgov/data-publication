@@ -71,7 +71,7 @@ Though the steps described in this page represent the complete BCGW population s
 
 ![Steps for placing data in the warehouse](images/Steps_for_placing_data_in_the_warehouse.JPG)
 
-## Create a Plan
+### Create a Plan
 
 Depending on the size and complexity of your data, the steps required to prepare the data and make it accessible using the BCGW may take days or weeks, and will require participation from your staff throughout the process. To better understand the process and specific requirements, start first with reviewing the BCGW Readiness Worflow and the answering the questions in Before You Start. Then, you can create a work plan to ensure you have the required time and resources. 
 
@@ -85,11 +85,11 @@ Depending on the size and complexity of your data, the steps required to prepare
 + Identify your Business Analyst (or person desginated to act in this role) from your team that will facilitate the process.
 + Your Business Analyst will set up a whiteboard session that will be attended by you, technical staff, and any vendors who may be involved in developing and maintaining your operational system. 
 
-## Whiteboard Sessions
+### Whiteboard Sessions
 
 Once you have completed the documentation review and questions, it's time to contact [DataBC DA](mailto:DataBC.DA@gov.bc.ca) to schedule the first of two Whiteboard Sessions - the Discovery Whiteboard. The Technical Whiteboard is the other Whiteboard Session and will be completed during the Data Modelling process.
 
-### **Discovery Whiteboard**
+#### **Discovery Whiteboard**
 
 This purpose of this session is to discuss your dataset, the questions you answered in Before You Start, develop a plan that defines all the resources required, roles and responsibilities, issues and timelines as well as provide you with some personal guidance on next steps for the process.
 
