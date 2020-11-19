@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Open Data 
-nav_order: 50
+nav_order: 10
+has_children: false
 has_toc: false
 ---
 
@@ -23,8 +24,4 @@ The following is a list of resources to support the use of the open license with
 + [_API Terms of Use for Information provided under the OGL-BC_](https://www2.gov.bc.ca/gov/content/data/open-data/api-terms-of-use-for-ogl-information)
 + [_Open Data Physical Dataset Format Standard (PDF, 181 KB)_](http://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf)
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > RELATED STANDARDS AND RESOURCES][2]
-
 -------------------------------------------------------
-
-[2]: ../index.md#related-standards-and-resources
