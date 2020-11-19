@@ -64,7 +64,7 @@ The effort required to publish data to the BCGW depends on the nature and comple
 
 Though the steps described in this page represent the complete BCGW population sequence, the process will be "right-sized" to fit your needs. To determine which steps are required for your dataset, we recommend thinking first about the final steps of the process (i.e., how will I present my data and what data products will I provide?), and then working backwards. This can help you define the security, metadata and other modelling requirements.
 
-![Steps for placing data in the warehouse](images/Steps_for_placing_data_in_the_warehouse.JPG)
+![Steps for publishing data in the warehouse](images/data_preparation.png)
 
 ### Create a Plan
 
