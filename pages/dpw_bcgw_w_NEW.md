@@ -25,9 +25,9 @@ This page is written in the context that you have reviewed the documentation as 
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**DATA PREPARATION**](#data-preparation)
-+ [**Create a Plan**](#create-a-plan)
-+ [**Whiteboard Sessions**](#whiteboard-sessions)
-	+ [**Discovery Whiteboard**](#discovery-whiteboard)
+	+ [Create a Plan](#create-a-plan)
+	+ [Whiteboard Sessions](#whiteboard-sessions)
+		+ [**Discovery Whiteboard**](#discovery-whiteboard)
 + [**DATA MODELLING**](#data-modelling)
 	+ [Dataset Logfile](#dataset-logfile)
 + [**Technical Whiteboard**](#technical-whiteboard)
