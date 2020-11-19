@@ -478,6 +478,21 @@ Before asking to publish data to the BCGW, consider:
 
 -------------------------------------------------------
 
+## DOWNLOADING DATA
+
+### Why is there no data in my AOI (Area of Interest) when I download data?
+
++ You are likely attempting to download non-spatial data as a spatial file (i.e., fdgb or shapefile). Try downloading as a csv instead.
++ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) if you continue to experience issues.
+
+### After I receive notification that my data has been assembled, there are no files in the directory.
+
++ There may be firewall limitations on your end tht prevent you from accessing the data. Try accessing the file(s) using a public wifi connection.
++ Large orders have a time delay built in to the process. You may have received notification that your order has been assembled, but it may still be working away at zipping up the data for you.  Try again in 5 minutes. 
++ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) if you continue to experience issues.
+
+-------------------------------------------------------
+
 ## GETTING ACCESS TO THE THINGS YOU NEED
 
 ### How do I get access to the DataBC File Staging Area?
