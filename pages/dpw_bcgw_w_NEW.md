@@ -79,8 +79,8 @@ Depending on the size and complexity of your data, the steps required to prepare
 2. **[Before You Start](#documentation-review)**
 
 3. Create a work plan
-+ Identify your Business Analyst (or person desginated to act in this role) from your team that will facilitate the process.
-+ Your Business Analyst will set up a whiteboard session that will be attended by you, technical staff, and any vendors who may be involved in developing and maintaining your operational system. 
+	+ Identify your Business Analyst (or person desginated to act in this role) from your team that will facilitate the process.
+	+ Your Business Analyst will set up a whiteboard session that will be attended by you, technical staff, and any vendors who may be involved in developing and maintaining your operational system. 
 
 ### Whiteboard Sessions
 
