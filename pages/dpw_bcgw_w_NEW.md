@@ -21,7 +21,35 @@ This page is written in the context that you have reviewed the documentation as 
 |:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
----------------------------
+-----------------------
+## Table of Contents
++ [**DOCUMENTATION REVIEW**](#documentation-review)
++ [**DATA PREPARATION**](#data-preparation)
++ [**Create a Plan**](#create-a-plan)
++ [**Whiteboard Sessions**](#whiteboard-sessions)
+	+ [**Discovery Whiteboard**](#discovery-whiteboard)
++ [**DATA MODELLING**](#data-modelling)
+	+ [Dataset Logfile](#dataset-logfile)
++ [**Technical Whiteboard**](#technical-whiteboard)
+	+ [The Data Model](#the-data-model)
+	+ [Data Population](#data-population)
++ [**DATA DEPLOYMENT - DELIVERY AND TEST**](#data-deployment---delivery-and-test)
+	+ [BC Data Catalogue Metadata Record](#bc-data-catalogue-metadata-record)
+		+ [Security Profile](#security-profile)
+	+ [Deploy and Approve Content in Delivery](#deploy-and-approve-content-in-delivery)
+	+ [Migrate and Approve Content in Test](#migrate-and-approve-content-in-test)
+		+ [Migration Bookings for TEST](#migration-bookings-for-test)
++ [**LAYERFILE PRESENTATION**](#layerfile-presentation)
+		+ [Activities](#activities)
++ [**DATA DISTRIBUTION**](#data-distribution)
+		+ [Activities](#activities)
++ [**DATA REPLICATION**](#data-replication)
++ [**DATA DEPLOYMENT - PRODUCTION**](#data-deployment---production)
+	+ [Deploy and Approve Data Content in Production](#deploy-and-approve-data-content-in-production)
+		+ [Migration Bookings for PROD](#migration-bookings-for-prod)
++ [**FINAL REVIEW**](#final-review)
+  
+-----------------------
 
 ## DOCUMENTATION REVIEW
 
@@ -177,11 +205,11 @@ When this process is completed, the data has been correctly represented in the w
 
 -------------------------------
 
-## DATA DEPLOYMENT
+## DATA DEPLOYMENT - DELIVERY AND TEST
 
 ### BC Data Catalogue Metadata Record
 
-Each data publication in the BCGW requires a related metadata record in the BC Data Catalogue. You or your Business Analyst will use DataBC's metadata management tool to enter the metadata that describes your data. For information on creating a BC Data Catalogue Metadata record, visit the [BC Data Catalogue](dps_bcdc.md) section.
+Each data publication in the BCGW requires a related metadata record in the BC Data Catalogue. You or your Business Analyst will use the BC Data Catalogue to enter the metadata that describes your data. For information on creating a BC Data Catalogue metadata record, visit the [BC Data Catalogue](dps_bcdc.md) section.
 
 #### Security Profile
 
@@ -189,7 +217,7 @@ Each data publication in the BCGW requires a related metadata record in the BC D
 + Work with DataBC staff to ensure that your [_Security Profile_](glossary.md#security-profile) is complete, addressing all of your data and all types of user access.
 + Create any required data use agreements. (Note that it is your responsibility to ensure compliance with Freedom of Information and Protection of Privacy policies.)
 
-### DEPLOY AND APPROVE CONTENT IN DELIVERY
+### Deploy and Approve Content in Delivery
 Once the data modelling is complete and in parallel with drafting the metadata record, the data can be deployed to the BCGW Delivery environment via a Delivery Kit.
 
 **Resources**
@@ -207,13 +235,177 @@ Once the data modelling is complete and in parallel with drafting the metadata r
  
 -------------------------------
 
+### Migrate and Approve Content in Test
 
+Once the data has been successfully deployed to BCGW Delivery, DataBC can then migrate the dataset(s) to TEST.  During this time:
++ the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
++ DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
 
+#### Migration Bookings for TEST
++ ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
 
+**Resources for Test Deployment**
 
+|Type|Resource|Responsibility|Action Items|
+|:---|:---|:---|:--|
+|Business Area|Data Suppliers|**Required**|Coordinate with BA/BPM to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Test** and provide date and time for migration
+||||Coordinate with the BA/BPM to provide the **OKAY** to migrate if there is a dependency on a operational migration|
+||||Data testing - content, performance|
+|Business Area|IMB: BA/BPM|**Required**|Coordinate with Data Supplier to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Test** and provide date and time for migration
+||||Coordinate with the Data Supplier to provide the **OKAY** to migrate if there is a dependency on a operational migration|
+||||Data testing - content, performance|
+|Business Area|Vendor/Developer|_Optional_|
+|DataBC|DataBC DA|**Required**|Schedule migration
+||||Data testing - content, performance|
+|DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
 
+-----------------------
 
+## LAYERFILE PRESENTATION
 
+The purpose of a [layerfile](glossary.md#layerfile) presentation is to present data in a consistent manner that best supports users' needs for analysis and decision-making. In effect, it represents a business view of the data from the users' perspective, rather than the operational view of the source system. Ideally, the layerfile presentation should make invisible the complexities and technicalities of the underlying physical data structures. 
 
+Layerfile presentations for iMapBC and ArcGIS can be built at any time throughout the process, but must be configured for the data once it is deployed in PRODUCTION. 
+Typically, it includes elements such as these:
 
++ user-friendly names for data layers, tables and columns, e.g.,
+   + `VEG_VEGETATIVE_COVER_POLYGON` becomes Vegetative Land Cover,
+   + `PRI_UTIL_LEVEL_CD` becomes Primary Utilization Code
++ translation of codes into understandable descriptions
+   + e.g., `{1,2,3}` becomes `{high, medium, low}`
++ colours, symbols and fonts to distinguish different data types
+   + e.g., blue for rivers
++ grouping of records according to logical category
 
+This step usually requires substantial input from the business area. You can expedite the process by identifying who will make decisions about presentation and then arranging one or two focused meetings to reach agreement.
+
+#### Activities
+
++ DataBC will contact you to discuss how you want your data named and presented.
+   + You may also provide an ArcGIS layer file. If you do this, DataBC will review and approve the file
+   + Alternatively, you may ask DataBC to develop a layer file on your behalf. 
+      + In this case, DataBC will develop a first version according to your instructions and then send to you for review and approval.
++ Once the layer file is defined, DataBC will translate it for use with in various warehouse access channels for use with web mapping tools such as iMapBC.
++ You will then be asked to review and approve the translation within a test environment.
+
+For more information about the various tools available to view, analyze and connect to data, visit the [BC Government's Data page](https://www2.gov.bc.ca/gov/content/data).
+
+-----------------------
+
+## DATA DISTRIBUTION
+
+[_Data products_](glossary.md#data-products) are important because they specify how your data can be used to support analysis and decision-making. You can define them based on types of use of the data (for instance, it may help users if you apply some pre-processing to the data to save them having to do it), or based on how your data is capable of being accessed (e.g., your data model may not support fine-grained access to the data).
+
+Data Distribution configuration is completed to implement access and security for datasets that are stored in the BCGW and available for download via:
+	+ BC Data Catalogue
+	+ iMapBC  
+
+#### Activities
+
++ Through discussion with users, develop an understanding of how they would like data assembled or "pre-packaged".
++ Within the technical constraints of your data and the BCGW, define a set of data products. 
+   + DataBC can help in defining the data products and translating the definitions into technical specifications.
++ It is important that you reflect the security requirements associated with data products explicitly in the security profile because this will govern who may access the data products.
+
+**Required for Action Items:**
+
++ Security model as indicated in the Data Suppliers in the Dataset Logfile
++ If Named User, then IDIRs and/or BCeIDs as provided by the Data Suppliers
++ Column Short Names as provided by the Data Suppliers in the Dataset Logfile
+
+**Action Items**
+
+|**Resource**|**Action Item**|
+|:---|:---|
+|_DataBC: DA/Catalogue Services_| Publish distribution link in metadata|
+
+**Resources**
+
+|Type|Resource|Action|
+|:---|:---|:---:|
+|Business Area|Data Suppliers|_Input_|
+|Business Area|IMB: BA/BP|_Not Required_|
+|Business Area|Vendor/Developer|_Not Required_|
+|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
+|DataBC|[DataBC Catalogue Services](mailto:Datacat@gov.bc.ca)|Publish distribution link in metadata|
+ 
+-------------------------------------
+
+## DATA REPLICATION
+
+Data Replication provides the channel in which the data is updated.  Some datasets require frequent, scheduled updates, while others may be updated less frequently or on an ad-hoc basis. DataBC DA and [ETL](glossary.md#ETL) services will work with you to set up the replication process for your dataset.
+
+**Required for Action Items:**
+
++ for file based source data, usually ESRI File Geodatabase to be located in the BCGW Staging Area
++ for database source data	
+	+ Proxy account and passwords for source Del/Test/Prod as provided by the  ***Business Area IMB*** 
++ SQL query for materialized view replication
++ FME Workspace (FMW) file
+	+ Provided by business area client (or client’s vendor)
++ [_Using the DataBC FME Framework_](dps_bcgw_w_databc_fme.md)
++ Replication frequency as identified by the ***Data Suppliers*** in the Dataset Logfile
+
+**Action Items**
+
+|Resource|Action Item|
+|:---|:---|
+|_DataBC: DA_|Perform QA on FMW scripts|
+|_DataBC: ETL_| Schedules replication for FMW|
+
+**Resources**
+
+|Type|Resource|Action|
+|:---|:---|:---:|
+|Business Area|Data Suppliers|_Input_|
+|Business Area|IMB: BA/BP|_Input_|
+|Business Area|Vendor/Developer|_Not Required_|
+|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
+|DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|**Required**|
+
+[RETURN TO TOP][1]
+
+-----------------------
+
+## DATA DEPLOYMENT - PRODUCTION
+
+### Deploy and Approve Data Content in Production
+
+Once the data has been successfully tested and approved in BCGW TEST, DataBC can then migrate the dataset(s) to PROD. During this time:
++ the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
++ DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
+
+#### Migration Bookings for PROD
+
+***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
+
+**Resources for Production Deployment**
+
+|Type|Resource|Responsibility|Action Items|
+|:---|:---|:---|:---|
+|Business Area|Data Suppliers|**Required**|Coordinate with BA/BPM to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
+||||Coordinate with the BA/BPM to provide the **OKAY** to migrate if there is a dependency on a operational migration|
+||||Data confirmation - content, performance|
+|Business Area|IMB: BA/BP|**Required**|Coordinate with Data Supplier to notify [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) via email that Delivery kit is ready to promote to **BCGW Prod** and provide date and time for migration
+||||Coordinate with the Data Supplier to provide the **OKAY** to migrate if there is a dependency on a operational migration|
+||||Data confirmation - content, performance|
+|Business Area|Vendor/Developer|_Optional_|
+|DataBC|DataBC DA|**Required**|Schedule migration|
+||||Cooridinate with DataBC Delivery Specialist to migrate Delivery kit|
+|||| Kick off all access pieces|
+||||Data confirmation - content, performance|
+|DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
+
+-----------------------
+
+## FINAL REVIEW
+
+Your dataset has been modelled and loaded into the BCGW in Production, your layerfile is presented in iMap and available in ArcGIS, you have a metadata record in the BC Data Catalogue where users can find detailed information and download your dataset, the data may be automatically getting updated on a nightly basis...now what?
+
+Please review all the functions and access points that have been configured for your dataset.  Provide [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with any feedback or issues you may come across, or even just let us know how excited you are to have your data published through the DataBC Program! 
+
+-----------------------
+
+[RETURN TO TOP][1]
+
+[1]: #bc-geographic-warehouse-publication-workflow
