@@ -43,6 +43,8 @@ This page is written in the context that you have reviewed the documentation as 
 + [**DATA DEPLOYMENT - PRODUCTION**](#data-deployment---production)
 	+ [Deploy and Approve Data Content in Production](#deploy-and-approve-data-content-in-production)
 + [**FINAL REVIEW**](#final-review)
++ [**COMMUNICATION**](#communication)
++ [**DATA MAINTENANCE**](#data-maintenance)
   
 -----------------------
 
@@ -401,6 +403,47 @@ Please review all the functions and access points that have been configured for 
 
 -----------------------
 
-[RETURN TO TOP][1]
+## COMMUNICATION
+
+Continued engagement with your clients is important. This applies both at the levels of their business and their individual needs. Once you have completed the steps described above, your data will be ready for use. You now need to let your user audience know that your data is available for access.
+
+#### Activities
+
++ Decide on a communication strategy. 
+   + Who do you have to reach? 
+   + What are the messages that you want to convey? 
+   + Users will want to know about the characteristics of the data and data products, what they can be used for, if there are restrictions on who may use them.
++ Launch the strategy. 
+   + Initial promotion may involve several channels and extend over a period of months.
++ Sustain the strategy. 
+   + Communication must continue throughout the lifetime of the data. 
+   + You will need to continue to promote your data, to inform users of changes to the data, and to solicit their ideas and feedback.
+
+------------------------   
+
+## DATA MAINTENANCE
+
+If there are data structure changes needed to your tables, layers or views in the warehouse, DataBC will work with you to modify the models and transformation process to ensure data continues to be provided as expected to BCGW users.
+
+#### Why is Data Maintenance Required?
+
+Once you have the data available for access via the BCGW, you must keep the pipeline flowing smoothly. You will enter into the maintenance phase, which involves less day-to-day effort, but is nevertheless important.
+
+Over time the nature and application of a data holding may change. It's up to you as Data Manager to periodically update the models and profiles described above. You must also decide when obsolete data should be retired and removed from the BCGW.
+
+#### Activities
+
++ Establish procedures for maintaining the data. These must address items such as:
+   + who is responsible for day-to-day operations
+   + how updates to the data are handled
+   + how quality assurance is conducted (quality assurance is not DataBC's responsibility)
+   + how changes to profiles and models are handled
+   + how records management is done
++ Provide user support. 
+   + This includes assigning resources to answer users' business-related questions and resolve issues (technical support will be handled through DataBC and Shared Services)
+   
+[RETURN TO TOP][1] 
+
+------------------------   
 
 [1]: #bc-geographic-warehouse-publication-workflow
