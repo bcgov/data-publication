@@ -241,7 +241,7 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 + the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
 + DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
 
-#### Migration Bookings for TEST
+#### Migration Bookings for Test
 + ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
 
 **Resources for Test Deployment**
@@ -375,7 +375,7 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 + the client will test data for content and performance in end-user platforms and provide feedback to DataBC from testing
 + DataBC will test data for content and performance in standard desktop and web-based mapping platforms (ArcGIS, iMapBC) and provide feedback to the client from testing
 
-#### Migration Bookings for PROD
+#### Migration Bookings for Production
 
 ***DataBC*** will book tentative migrations where there is a dependency on a source database migration and will only promote once the business area has informed us that their migration was successful.
 
