@@ -37,7 +37,7 @@ The first step in the process is to review the following documentation:
 
 ## DATA PREPARATION
 
-The effort required to publish data to the BCGW depends on the nature and complexity of your data set. As a _Data Publisher_, you will need to keep in mind that this process is to not just end up with your data in the BCGW, but that it is packaged and presented in a format that makes it easy for your clients to use it for planning, analysis and decision-making.
+The effort required to publish data to the BCGW depends on the nature and complexity of your data set. As a [_Data Publisher_](glossary.md#data-publisher), you will need to keep in mind that this process is to not just end up with your data in the BCGW, but that it is packaged and presented in a format that makes it easy for your clients to use it for planning, analysis and decision-making.
 
 Though the steps described in this page represent the complete BCGW population sequence, the process will be "right-sized" to fit your needs. To determine which steps are required for your dataset, we recommend thinking first about the final steps of the process (i.e., how will I present my data and what data products will I provide?), and then working backwards. This can help you define the security, metadata and other modelling requirements.
 
@@ -51,16 +51,15 @@ Depending on the size and complexity of your data, the steps required to prepare
 
 ![BCGW Readiness Workflow](images/wf_BCGWReadiness.png)
 
-2. [Before You Start](#documentation-review)
+2. **[Before You Start](#documentation-review)**
 
 3. Create a work plan
-+ Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to get started and provide advice about resourcing. 
 + Identify your Business Analyst (or person desginated to act in this role) from your team that will facilitate the process.
 + Your Business Analyst will set up a whiteboard session that will be attended by you, technical staff, and any vendors who may be involved in developing and maintaining your operational system. 
 
 ## Whiteboard Sessions
 
-Once you have completed the documentation review and questions, it's time to contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to schedule the first of two Whiteboard Sessions - the Discovery Whiteboard. The Technical Whiteboard is the other Whiteboard Session and will be completed during the Data Modelling process.
+Once you have completed the documentation review and questions, it's time to contact [DataBC DA](mailto:DataBC.DA@gov.bc.ca) to schedule the first of two Whiteboard Sessions - the Discovery Whiteboard. The Technical Whiteboard is the other Whiteboard Session and will be completed during the Data Modelling process.
 
 ### **Discovery Whiteboard**
 
@@ -174,11 +173,39 @@ Based on your data type, different methods are used for [_Data Population_](glos
 
 Once the population process has been initiated, test the transformation process to confirm that the warehouse model is correct (e.g. source fields are mapped correctly to destination fields). The DataBC team can be available to you for consultation and support during the population process, if required.
 
-When this process is completed, the data has been correctly represented in the warehouse and the process is in place for populating the data from the operational system, but the data is not yet ready for access by BCGW users. This will 
+When this process is completed, the data has been correctly represented in the warehouse and the process is in place for populating the data from the operational system, but the data is not yet ready for access by BCGW users.
 
 -------------------------------
 
+## DATA DEPLOYMENT
 
+### BC Data Catalogue Metadata Record
+
+Each data publication in the BCGW requires a related metadata record in the BC Data Catalogue. You or your Business Analyst will use DataBC's metadata management tool to enter the metadata that describes your data. For information on creating a BC Data Catalogue Metadata record, visit the [BC Data Catalogue](dps_bcdc.md) section.
+
+#### Security Profile
+
++ Define a [_Security Profile_](glossary.md#security-profile) by defining access rules and restrictions that cover browsing, viewing, ordering and downloading your data via the BCGW. This is done using the metadata management tool.
++ Work with DataBC staff to ensure that your [_Security Profile_](glossary.md#security-profile) is complete, addressing all of your data and all types of user access.
++ Create any required data use agreements. (Note that it is your responsibility to ensure compliance with Freedom of Information and Protection of Privacy policies.)
+
+### DEPLOY AND APPROVE CONTENT IN DELIVERY
+Once the data modelling is complete and in parallel with drafting the metadata record, the data can be deployed to the BCGW Delivery environment via a Delivery Kit.
+
+**Resources**
+
+|Type|Resource|Action Items|
+|:---|:---|:---|
+|Business Area|Data Suppliers|**Required** to review data|
+|||Create metadata record in BC Data Catalogue
+|||_If data is spatial, create layerfile(s)_
+|Business Area|IMB: BA/BP|**Required** to notify **Data Supplier(s)** if using their own vendors
+|Business Area|Vendor/Developer|**Required** to deploy Delivery Kit to BCGW Delivery|
+|DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required** to notify **Data Supplier(s)** if using DataBC's existing Vendor|
+
+[RETURN TO TOP][1]
+ 
+-------------------------------
 
 
 
