@@ -27,17 +27,17 @@ The page covers the following topics:
 
 ## Table of Contents
 + [**THE DATA CUSTODIAN**](#the-data-custodian)
-	+ [What is a [Data Custodian](glossary.md#data-custodian)?](#what-is-a-data-custodianglossarymddata-custodian)
+	+ [What is a Data Custodian?](#what-is-a-data-custodianglossarymddata-custodian)
 	+ [Am I a Data Custodian?](#am-i-a-data-custodian)
 	+ [Obligations of a Data Custodian](#obligations-of-a-data-custodian)
 	+ [Responsibilities of a Data Custodian](#responsibilities-of-a-data-custodian)
 + [**THE DATA MANAGER**](#the-data-manager)
-	+ [What is a [Data Manager](glossary.md#data-manager)?](#what-is-a-data-managerglossarymddata-manager)
+	+ [What is a Data Manager?](#what-is-a-data-managerglossarymddata-manager)
 	+ [Am I a Data Manager?](#am-i-a-data-manager)
 	+ [Obligations of a Data Manager](#obligations-of-a-data-manager)
 	+ [Responsibilities of a Data Manager](#responsibilities-of-a-data-manager)
 + [**THE DATA STEWARD**](#the-data-steward)
-	+ [What is a [Data Steward](glossary.md#data-steward)?](#what-is-a-data-stewardglossarymddata-steward)
+	+ [What is a Data Steward?](#what-is-a-data-stewardglossarymddata-steward)
 	+ [Other Roles](#other-roles)
 	+ [Resources](#resources)
 	
@@ -78,7 +78,7 @@ This guide is about managing information within the DataBC Program and making it
 
 ## THE DATA CUSTODIAN
 
-### What is a [Data Custodian](glossary.md#data-custodian)?
+**Definition: [Data Custodian](glossary.md#data-custodian)**
 
 ### Am I a Data Custodian?
 
@@ -117,7 +117,7 @@ If you are a Data Custodian, you have these responsibilities:
 
 ## THE DATA MANAGER
 
-### What is a [Data Manager](glossary.md#data-manager)?
+**Definition: [Data Manager](glossary.md#data-manager)**
 
 ### Am I a Data Manager?
 
@@ -146,7 +146,7 @@ You will typically be responsible for some or all of these activities:
 
 ## THE DATA STEWARD
 
-### What is a [Data Steward](glossary.md#data-steward)?
+**Definition: [Data Steward](glossary.md#data-steward)**
 
 When the _Data Custodian_ does not have the resources available to fulfill their responsibilities, or it may be more efficient to conduct activities in concert with another group, a _Data Steward_ may become involved.
 
