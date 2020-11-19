@@ -23,39 +23,24 @@ The page covers the following topics:
 |:---:|:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
+-----------------------
+
 ## Table of Contents
-+ [**IT IS ALL ABOUT THE INFORMATION**](#it-is-all-about-the-information)
-+ [**WHAT IT MEANS TO BE A DATA CUSTODIAN**](#what-it-means-to-be-a-data-custodian)
-	+ [What is a Data Custodian?](#what-is-a-data-custodian)
++ [**THE DATA CUSTODIAN**](#the-data-custodian)
+	+ [What is a [Data Custodian](glossary.md#data-custodian)?](#what-is-a-data-custodianglossarymddata-custodian)
 	+ [Am I a Data Custodian?](#am-i-a-data-custodian)
 	+ [Obligations of a Data Custodian](#obligations-of-a-data-custodian)
 	+ [Responsibilities of a Data Custodian](#responsibilities-of-a-data-custodian)
-+ [**RELATED ROLES**](#related-roles)
-	+ [The Data Manager](#the-data-manager)
-	+ [The Data Steward](#the-data-steward)
-	+ [Other Roles](#other-roles)
-+ [**WHAT IT MEANS TO BE A DATA MANAGER**](#what-it-means-to-be-a-data-manager)
-	+ [What is a Data Manager?](#what-is-a-data-manager)
++ [**THE DATA MANAGER**](#the-data-manager)
+	+ [What is a [Data Manager](glossary.md#data-manager)?](#what-is-a-data-managerglossarymddata-manager)
 	+ [Am I a Data Manager?](#am-i-a-data-manager)
-	+ [Obligations and Responsibilities of a Data Manager](#obligations-and-responsibilities-of-a-data-manager)
-+ [**THE BC GEOGRAPHIC WAREHOUSE (BCGW)**](#the-bc-geographic-warehouse-bcgw)
-	+ [Why the BCGW?](#why-the-bcgw)
-	+ [How does the BCGW Work?](#how-does-the-bcgw-work)
-+ [**MAKING USE OF THE BCGW**](#making-use-of-the-bcgw)
-	+ [Benefits](#benefits)
-	+ [Start with the End in Mind](#start-with-the-end-in-mind)
-	+ [Create a Plan](#create-a-plan)
-	+ [Create the Warehouse Data Model](#create-the-warehouse-data-model)
-	+ [Define the Population Process](#define-the-population-process)
-	+ [Define a Metadata Record](#define-a-metadata-record)
-	+ [Define A Security Profile](#define-a-security-profile)
-	+ [Define A Presentation Profile](#define-a-presentation-profile)
-	+ [Define Downloadable Data Products](#define-downloadable-data-products)
-	+ [Communicate](#communicate)
-	+ [Maintain the Data](#maintain-the-data)
-+ [**MORE INFORMATION**](#more-information)
-	+ [Contact DataBC](#contact-databc)
-
+	+ [Obligations of a Data Manager](#obligations-of-a-data-manager)
+	+ [Responsibilities of a Data Manager](#responsibilities-of-a-data-manager)
++ [**THE DATA STEWARD**](#the-data-steward)
+	+ [What is a [Data Steward](glossary.md#data-steward)?](#what-is-a-data-stewardglossarymddata-steward)
+	+ [Other Roles](#other-roles)
+	+ [Resources](#resources)
+	
 -----------------------
 
 ## IT IS ALL ABOUT THE INFORMATION
