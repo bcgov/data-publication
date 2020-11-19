@@ -26,18 +26,16 @@ The page covers the following topics:
 -----------------------
 
 ## Table of Contents
++ [**IT IS ALL ABOUT THE INFORMATION**](#it-is-all-about-the-information)
 + [**THE DATA CUSTODIAN**](#the-data-custodian)
-	+ [What is a Data Custodian?](#what-is-a-data-custodianglossarymddata-custodian)
 	+ [Am I a Data Custodian?](#am-i-a-data-custodian)
 	+ [Obligations of a Data Custodian](#obligations-of-a-data-custodian)
 	+ [Responsibilities of a Data Custodian](#responsibilities-of-a-data-custodian)
 + [**THE DATA MANAGER**](#the-data-manager)
-	+ [What is a Data Manager?](#what-is-a-data-managerglossarymddata-manager)
 	+ [Am I a Data Manager?](#am-i-a-data-manager)
 	+ [Obligations of a Data Manager](#obligations-of-a-data-manager)
 	+ [Responsibilities of a Data Manager](#responsibilities-of-a-data-manager)
 + [**THE DATA STEWARD**](#the-data-steward)
-	+ [What is a Data Steward?](#what-is-a-data-stewardglossarymddata-steward)
 	+ [Other Roles](#other-roles)
 	+ [Resources](#resources)
 	
