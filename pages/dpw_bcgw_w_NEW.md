@@ -30,7 +30,7 @@ This page is written in the context that you have reviewed the documentation as 
 	+ [Whiteboard Sessions](#whiteboard-sessions)
 + [**DATA MODELLING**](#data-modelling)
 	+ [Dataset Logfile](#dataset-logfile)
-+ [**Technical Whiteboard**](#technical-whiteboard)
+	+ [Technical Whiteboard](#technical-whiteboard)
 	+ [The Data Model](#the-data-model)
 	+ [Data Population](#data-population)
 + [**DATA DEPLOYMENT - DELIVERY AND TEST**](#data-deployment---delivery-and-test)
@@ -146,7 +146,7 @@ _Note that the Dataset Logfile directory contains two TEMPLATE files, one for [G
 
 Once the Dataset Logfile has been reviewed and approved, the Technical Whiteboard Session will be scheduled.
 
-## Technical Whiteboard
+### Technical Whiteboard
 
 The purpose of the Technical Whiteboard Session is to discuss the technical details of your dataset after your Dataset Logfile has been completed.  During this session, we will discuss:
 + Specifics about data model based on Dataset Logfile and access to source data
