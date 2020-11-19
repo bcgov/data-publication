@@ -120,6 +120,8 @@ The following resources from DataBC will be in attendance:
 |DataBC|[DataBC ETL](mailto:DataBC.DA@gov.bc.ca)|_As Required_|
 |DataBC|[DataBC Catalogue Admin](mailto:datacat@gov.bc.ca)|_Optional_|
 
+[RETURN TO TOP][1] 
+
 -------------------------------
 
 ## DATA MODELLING
@@ -199,6 +201,8 @@ Once the population process has been initiated, test the transformation process 
 
 When this process is completed, the data has been correctly represented in the warehouse and the process is in place for populating the data from the operational system, but the data is not yet ready for access by BCGW users.
 
+[RETURN TO TOP][1] 
+
 -------------------------------
 
 ## DATA DEPLOYMENT - DELIVERY AND TEST
@@ -255,6 +259,8 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 ||||Data testing - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Migrate Delivery Kit|
 
+[RETURN TO TOP][1] 
+
 -----------------------
 
 ## LAYERFILE PRESENTATION
@@ -285,6 +291,8 @@ This step usually requires substantial input from the business area. You can exp
 + You will then be asked to review and approve the translation within a test environment.
 
 For more information about the various tools available to view, analyze and connect to data, visit the [BC Government's Data page](https://www2.gov.bc.ca/gov/content/data).
+
+[RETURN TO TOP][1] 
 
 -----------------------
 
@@ -325,6 +333,8 @@ Data Distribution configuration is completed to implement access and security fo
 |DataBC|[DataBC DAs](mailto:DataBC.DA@gov.bc.ca)|**Required**|
 |DataBC|[DataBC Catalogue Services](mailto:Datacat@gov.bc.ca)|Publish distribution link in metadata|
  
+[RETURN TO TOP][1] 
+
 -------------------------------------
 
 ## DATA REPLICATION
@@ -391,6 +401,8 @@ Once the data has been successfully tested and approved in BCGW TEST, DataBC can
 |||| Kick off all access pieces|
 ||||Data confirmation - content, performance|
 |DataBC|DataBC Delivery Specialist|**Required**|Cooridinate with DataBC DA to migrate Delivery kit|
+
+[RETURN TO TOP][1] 
 
 -----------------------
 
