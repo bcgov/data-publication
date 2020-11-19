@@ -22,12 +22,12 @@ This page is written in the context that you have reviewed the documentation as 
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 -----------------------
+
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**DATA PREPARATION**](#data-preparation)
 	+ [Create a Plan](#create-a-plan)
 	+ [Whiteboard Sessions](#whiteboard-sessions)
-		+ [**Discovery Whiteboard**](#discovery-whiteboard)
 + [**DATA MODELLING**](#data-modelling)
 	+ [Dataset Logfile](#dataset-logfile)
 + [**Technical Whiteboard**](#technical-whiteboard)
@@ -35,18 +35,13 @@ This page is written in the context that you have reviewed the documentation as 
 	+ [Data Population](#data-population)
 + [**DATA DEPLOYMENT - DELIVERY AND TEST**](#data-deployment---delivery-and-test)
 	+ [BC Data Catalogue Metadata Record](#bc-data-catalogue-metadata-record)
-		+ [Security Profile](#security-profile)
 	+ [Deploy and Approve Content in Delivery](#deploy-and-approve-content-in-delivery)
 	+ [Migrate and Approve Content in Test](#migrate-and-approve-content-in-test)
-		+ [Migration Bookings for TEST](#migration-bookings-for-test)
 + [**LAYERFILE PRESENTATION**](#layerfile-presentation)
-		+ [Activities](#activities)
 + [**DATA DISTRIBUTION**](#data-distribution)
-		+ [Activities](#activities)
 + [**DATA REPLICATION**](#data-replication)
 + [**DATA DEPLOYMENT - PRODUCTION**](#data-deployment---production)
 	+ [Deploy and Approve Data Content in Production](#deploy-and-approve-data-content-in-production)
-		+ [Migration Bookings for PROD](#migration-bookings-for-prod)
 + [**FINAL REVIEW**](#final-review)
   
 -----------------------
