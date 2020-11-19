@@ -6,7 +6,6 @@ parent: BC Geographic Warehouse
 grand_parent: Data Publication Services
 has_children: true
 has_toc: false
-nav_exclude: true
 ---
 
 # BC GEOGRAPHIC WAREHOUSE PUBLICATION WORKFLOW
