@@ -22,7 +22,6 @@ This page describes procedures and best practices for downloading data stored in
 	+ [Current Order Details](#current-order-details)
 	+ [Past Order Submissions](#past-order-submissions)
 + [**EMAIL NOTIFICATIONS**](#email-notifications)
-+ [**FREQUENTLY ASKED QUESTIONS**](#frequently-asked-questions)
 
 -----------------------
 
