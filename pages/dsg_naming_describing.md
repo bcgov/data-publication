@@ -465,9 +465,8 @@ There are 3 to 5 mandatory attributes in a spatial layer depending on the geomet
 | `FEATURE_AREA_SQM`| NUMBER(19,4)| Yes|` The system calculated area of a two-dimensional polygon in square meters.`|
 | `FEATURE_LENGTH_M`| NUMBER(19,4)| Yes| `The system calculated length or perimeter of a geometry in meters.`|
 | `SHAPE` |MDSYS.SDO_GEOMETRY| Yes| `The column used to reference the spatial coordinates defining the feature.`|
-| `OBJECTID`| NUMBER(38)| No| 'A system managed column with unique ids, required for  database objects registered with the ArcGIS geodatabase.`|
+| `OBJECTID`| NUMBER(38)| No| `A system managed column with unique ids, required for  database objects registered with the ArcGIS geodatabase.`|
 | `SE_ANNO_CAD_DATA`| BLOB| Yes| `A binary column used by spatial tools to store annotation, curve features and CAD data when using the SDO_GEOMETRY storage data type.`|
-`
 
 ### Common Standardized Optional Columns
 
