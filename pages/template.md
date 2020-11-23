@@ -1,13 +1,21 @@
 ---
 layout: default
+nav_order:
 title: template
+parent:
+grand_parent:
+has_toc: false
 nav_exclude: true
 ---
 # THIS IS THE TITLE (H1)
 
-Short introductory section (a sentence or two)
+Short introductory section (a sentence or two), including the purpose.
 
------------------------
+|**AUDIENCE**|  |  |  |  | 
+|:---:|:---:|:---:|:---:|:---:|
+| *Audience 1* | *Audience 2* | *Audience 3* | *Audience 4* | *Audience 5* |
+
+
 ## Table of Contents
 + [**H2 HEADING 1**](#H2-HEADING-1)
 	+ [H3 Heading 11](#H3-Heading-11)
@@ -21,16 +29,6 @@ Short introductory section (a sentence or two)
 	+ [H3 Heading 33](#H3-Heading-33)
 
 -----------------------
-
-# Audience
-
-Who is this page targeted at? 
-
-# Purpose
-
-What's the purpose of this page?
-
----------------------------------------------------------------------
 
 ## H2 HEADING 1
 
@@ -47,8 +45,6 @@ text,text,text
 ##### H5 HEADING 1111
 
 text,text,text
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -70,9 +66,6 @@ text,text,text
 ### H3 Heading 23
 
 text,text,text
-
-
-[RETURN TO TOP][1]
  
 ------------------------------------------------------------------------------
 
@@ -95,13 +88,8 @@ text,text,text
 
 text,text,text
 
+-------------------------------------------------------
 
 [RETURN TO TOP][1]
 
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
-
--------------------------------------------------------
-
 [1]: #This-is-the-title-H1
-[2]: publishing_data_to_databc.md#publishing-data-to-the-databc-program
-

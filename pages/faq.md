@@ -1,20 +1,14 @@
 ---
 layout: default
-title: Frequently Asked Questions
-nav_order: 130
+title: FAQ
+nav_order: 12
 has_toc: false
 ---
 
-# FREQUENTLY ASKED QUESTIONS (FAQ)
+# FREQUENTLY ASKED QUESTIONS
 
-This page provides a list of frequently asked questions and answers to help you as a client who is publishing data within the DataBC Program. 
-
------------------------
 ## Table of Contents
-+ [**Audience**](#audience)
-+ [**Purpose**](#purpose)
 + [**WHO'S WHO AT DATABC**](#whos-who-at-databc)
-+ [**BC DATA CATALOGUE ROLES**](#bc-data-catalogue-roles)
 + [**DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY**](#data-publication-licensing-options---open-dataaccess-only)
 	+ [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#what-is-open-data-and-what-is-the-difference-between-open-data-and-access-only-public-data)
 	+ [Why should I consider publishing data under an open data licence?](#why-should-i-consider-publishing-data-under-an-open-data-licence)
@@ -22,14 +16,14 @@ This page provides a list of frequently asked questions and answers to help you 
 	+ [How do I publish data as Open Data?](#how-do-i-publish-data-as-open-data)
 	+ [Are there restrictions on how data licensed under OGL-BC can be used?](#are-there-restrictions-on-how-data-licensed-under-ogl-bc-can-be-used)
 	+ [How do I publish data as Open Data if I am a Crown Corporation or BC Agency?](#how-do-i-publish-data-as-open-data-if-i-am-a-crown-corporation-or-bc-agency)
-	+ [How do I create an Open Data Licence?](#how-do-i-create-an-open-data-licence)
-+ [**PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE**](#publishing-metadata-records-to-the-bc-data-catalogue)
++ [**METADATA RECORDS AND THE BC DATA CATALOGUE**](#metadata-records-and-the-bc-data-catalogue)
 	+ [How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?](#how-do-i-publish-metadata-records-in-the-bc-data-catalogue-as-a-crown-corp-or-bc-agency)
 	+ [How do I get authorization to publish records in the BC Data Catalogue?](#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
 	+ [How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?](#how-do-i-change-the-contact-name-recorded-for-a-dataset-when-that-contact-has-moved-to-a-different-role-or-retired)
 	+ [Can I do bulk changes to Catalogue records?](#can-i-do-bulk-changes-to-catalogue-records)
 	+ [How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?](#how-do-i-addupdated-descriptions-or-short-names-of-fields-at-the-bottom-of-a-metadata-record-for-data-in-the-bcgw)
 	+ [Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?](#why-would-i-just-upload-a-tabular-dataset-to-the-bc-data-catalogue-instead-of-publishing-it-to-the-bcgw)
+	+ [How can I find my related datasets in the Catalogue?](#how-can-I-find-my-related-datasets-in-the-catalogue)
 + [**IMAPBC AND LAYER LIBRARY LAYER PRESENTATIONS**](#imapbc-and-layer-library-layer-presentations)
 	+ [How do I update a presentation (layer file) for my dataset?](#how-do-i-update-a-presentation-layer-file-for-my-dataset)
 	+ [How do I update an existing permanent presentation in iMapBC that is not my data?](#how-do-i-update-an-existing-permanent-presentation-in-imapbc-that-is-not-my-data)
@@ -45,11 +39,11 @@ This page provides a list of frequently asked questions and answers to help you 
 	+ [How long does it take to publish to the BCGW?](#how-long-does-it-take-to-publish-to-the-bcgw)
 	+ [What data service formats can be made available for my BCGW data?](#what-data-service-formats-can-be-made-available-for-my-bcgw-data)
 	+ [What government channels can be used to access my BCGW data?](#what-government-channels-can-be-used-to-access-my-bcgw-data)
+	+ [What is the LRDW?](#what-is-the-lrdw)
 	+ [Refreshing Data - the ETL Process](#refreshing-data---the-etl-process)
 	+ [Access security](#access-security)
 	+ [Downloading data from the BC Geographic Warehouse](#downloading-data-from-the-bc-geographic-warehouse)
 	+ [Feature Codes](#feature-codes)
-	+ [What is the Geographic Sites Registry (GSR)?](#what-is-the-geographic-sites-registry-gsr)
 	+ [Retiring datasets from the BC Geographic Warehouse](#retiring-datasets-from-the-bc-geographic-warehouse)
 + [**GETTING ACCESS TO THE THINGS YOU NEED**](#getting-access-to-the-things-you-need)
 	+ [How do I get access to the DataBC File Staging Area?](#how-do-i-get-access-to-the-databc-file-staging-area)
@@ -60,16 +54,6 @@ This page provides a list of frequently asked questions and answers to help you 
 	+ [I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?](#ive-taken-over-responsibility-for-maintaining-a-dataset-that-has-been-published-to-databc-how-do-i-get-access-to-what-i-need)
 
 -----------------------
-
-## Audience
-
-This page's intended audience is anyone who is interested in or is currently publishing data to the DataBC Program as well as to people using DataBC Program Services (e.g., the BC Geographic Warehouse, BC Data Catalogue, iMapBC, BC MapHub, etc.)
-
-## Purpose
-
-This page provides answers to frequently asked questions and identifies DataBC contacts, with emails, for specific functional areas. 
-
----------------------------------------------------------------------
 
 ## WHO'S WHO AT DATABC
 
@@ -137,22 +121,6 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 -------------------------------------------------------
 
-## BC DATA CATALOGUE ROLES
-
-There are 3 roles associated with data holdings in the BC Data Catalogue: Data Custodian, Data Steward, and Data Manager. To familiarize yourself with the responsibilities of each of these, review the following documentation:  
-   + [_A Guide for Data Custodians and Data Managers_](a_guide_for_data_custodians_and_data_managers.md)
-     + [_Data Custodian_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-custodian)
-     + [_Data Steward_](a_guide_for_data_custodians_and_data_managers.md#the-data-steward)
-     + [_Data Manager_](a_guide_for_data_custodians_and_data_managers.md#what-it-means-to-be-a-data-manager)
-
-+ Other documents explaining guidelnes, roles and responsibilities:
-   + [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
-   + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
-
-[RETURN TO TOP][1]
-
--------------------------------------------------------
-
 ## DATA PUBLICATION LICENSING OPTIONS - OPEN DATA/ACCESS ONLY
 
 ### What is Open Data and what is the difference between Open Data and "Access Only" public data?
@@ -173,7 +141,6 @@ The following sections will help explain the difference between **Open Data** an
 
 + Crown copyright is a form of copyright claim used by the governments of a number of Commonwealth realms. It provides special copyright rules for the Crown, i.e. government departments and (generally) state entities - [_Wikipedia_](https://en.wikipedia.org/wiki/Crown_copyright#:~:text=Crown%20copyright%20is%20a%20form,and%20(generally)%20state%20entities.).
 + You can find information about Crown Copyright on this [_BC Government website_](https://www2.gov.bc.ca/gov/content/home/copyright).  
-   
 
 ### Why should I consider publishing data under an open data licence?
 
@@ -204,24 +171,13 @@ The following sections will help explain the difference between **Open Data** an
 
 ### How do I publish data as Open Data if I am a Crown Corporation or BC Agency?
 
-+ The Broader Public Sector (BPS) cannot use the OGL-BC and thus require their own open data licence.
-
-### How do I create an Open Data Licence?
-1. _Copy_ our [_Open Government Licence - British Columbia_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with the open data licences used by the Federal Government and other Provincial and Local Governments.
-1. _Modify_ the following text to personalize it for your organization
-   1. Change the Licence Name: e.g., change ‘Open Government Licence – British Columbia’ to ‘Open Government Licence – _BC Oil and Gas Commission_’. The organization name should be the same as is found on the [_BC List of Agencies, Crown Corps, etc_](https://www2.gov.bc.ca/gov/content?id=F024503C72F64D8380441972977188D6)
-   1. Change the line ‘Contains information licensed under the Open Government Licence – British Columbia.’ to ‘Contains information licensed under the Open Government Licence – _BC Oil and Gas Commission_’, for example.
-   1. Information Provider – change ‘means Her Majesty the Queen in right of the Province of British Columbia.’ to ‘means _BC Oil and Gas Commission_’
-   1. Versioning – change ‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information’ to ‘This is version 1.0 of the Open Government Licence for _BC Oil and Gas Commission_ Information’
-   1. Remove: ‘Note’ line re: copyright can be removed
-1. Publish the OGL to a public site so that it can add it to the drop down list of licence options in the BC Data Catalogue.
-1. Examples: [_BC Assessment_](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx),  [_EBC_](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
++ The Broader Public Sector (BPS) cannot use the OGL-BC and thus require their own open data licence. See [How to Become a Provider to the Catalogue](dps_bcdc_w.md#how-to-become-a-provider-to-the-catalogue) for more information.
  
 [RETURN TO TOP][1]
 
 -------------------------------------------------------
 
-## PUBLISHING METADATA RECORDS TO THE BC DATA CATALOGUE
+## METADATA RECORDS AND THE BC DATA CATALOGUE
 
 ### How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?
 
@@ -273,6 +229,15 @@ The following sections will help explain the difference between **Open Data** an
 |Datasets will be permanent layers in iMapBC and the Layer Library|No|Yes|
 |Datasets will be available through WMS/WFS services|No|Yes| 
 
+### How can I find my related datasets in the Catalogue?
+
++ Use the Dashboard (speedometer icon on the top right of the menu bar) to:
+	+ view a feed of the last 15 actions you have taken
+	+ view datasets that you have created
+	+ view the Organization(s) and Sub-Organization(s) that you belong to
+	+ view the Unpublished datasets within your Sub-Organization(s)
++ Search for your name in the Catalogue search bar to view datasets that you have either created or where you are listed as a contact.
+
 [RETURN TO TOP][1]
 
 -------------------------------------------------------
@@ -316,7 +281,7 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?
 
 + There are two ways:
-   1. Public datasets published to the BC Geographic Warehouse are all made available in ArcGIS Online ([_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)) as part of the [_Data Publication Workflow_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse). 
+   1. Public datasets published to the BC Geographic Warehouse are all made available in ArcGIS Online ([_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) as part of the [_Data Publication Workflow_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse). 
       1. These datasets are stored in the BC Geographic Warehouse, published as web services and registered as items in B.C.’s Map Hub. These services can then be used in any ArcGIS Online web map (or used by other web mapping platforms that can consume ESRI rest services). 
 	  1. In some cases we may replicate BCGW layers to ArcGIS Online; the data is hosted in ArcGIS Online and updated from data sources on a regular schedule to keep it current.  These "hosted layers" can then be used in any ArcGIS Online web map (or used by other web mapping platforms that can consume ESRI rest services).  This is a pattern typically chosen for layers that may see high traffic periods that need to leverage ArcGIS Online’s scalability to meet high traffic demand. 
    1. You may also upload datasets yourself to ArcGIS Online. 
@@ -361,7 +326,6 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 + Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse).
 
-
 ### How long does it take to publish to the BCGW?
 
 The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delay is lack of data readiness. 
@@ -388,6 +352,9 @@ Before asking to publish data to the BCGW, consider:
 1. iMapBC
 2. BC Map Hub (ArcGIS Online, aka AGO)
 3. Data Download from iMapBC and the BC Data Catalogue
+
+### What is the LRDW?
++ If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historic name for what is now the BCGW or the BC Geographic Warehouse. 
 
 ### Refreshing Data - the ETL Process
 
@@ -435,7 +402,7 @@ Before asking to publish data to the BCGW, consider:
 #### How do I get the refresh scheduled frequency changed?
 
 + The refresh frequency of a dataset may change over its lifecycle. This can be altered as needed to meet the business requirements. 
-+ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Dataset Refresh Frequesncy Change Request**, providing the url of the dataset(s) affected.
++ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Dataset Refresh Frequency Change Request**, providing the url of the dataset(s) affected.
 
 #### How do I determine the source of a dataset in the BCGW?
 
@@ -486,17 +453,6 @@ Before asking to publish data to the BCGW, consider:
 + Datasets that already have FCODEs that are used to separate and symbolize different values, it is recommend to create an FCODE when a new value is then created.
 + Refer to [_How do I get an Feature Code (FCODE) created/updated?_](#how-do-i-get-a-feature-code-fcode-createdupdated)
 
-### What is the Geographic Sites Registry (GSR)?
-
-The Geographic Sites Registry (GSR) is a set of tables and views in the BC Geographic Warehouse used to store and present geographic point locations where services are provided to the public.  
-
-Examples of GSR datasets are:
-+ [_Hospitals in BC_](https://catalogue.data.gov.bc.ca/dataset/383eaf98-afd7-436a-9556-67ecf14f64a7),  
-+ [_First Responders_](https://catalogue.data.gov.bc.ca/dataset/652c49eb-7295-4ae2-8f26-39103f23b50d), and 
-+ [_Court Locations_](https://catalogue.data.gov.bc.ca/dataset/c95a2ad5-f62a-43d6-8678-80a617b6200e).
-
-GSR is architected in a way that makes it easy (and inexpensive) to add new GSR datasets and make changes to existing ones.
-
 ### Retiring datasets from the BC Geographic Warehouse
 
 #### How do I retire a dataset from the BCGW?
@@ -519,6 +475,21 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
 + Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca), for further information and assistance.
 
 [RETURN TO TOP][1]
+
+-------------------------------------------------------
+
+## DOWNLOADING DATA
+
+### Why is there no data in my AOI (Area of Interest) when I download data?
+
++ You are likely attempting to download non-spatial data as a spatial file (i.e., fdgb or shapefile). Try downloading as a csv instead.
++ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) if you continue to experience issues.
+
+### After I receive notification that my data has been assembled, there are no files in the directory.
+
++ There may be firewall limitations on your end tht prevent you from accessing the data. Try accessing the file(s) using a public wifi connection.
++ Large orders have a time delay built in to the process. You may have received notification that your order has been assembled, but it may still be working away at zipping up the data for you.  Try again in 5 minutes. 
++ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) if you continue to experience issues.
 
 -------------------------------------------------------
 
@@ -580,12 +551,8 @@ GSR is architected in a way that makes it easy (and inexpensive) to add new GSR 
    1. BC Data Catalogue
    1. DataBC File Staging Area
 
-[RETURN TO TOP][1]
-
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM > ADDITIONAL REFERENCES][2]
-
 -------------------------------------------------------
 
-[1]: #frequently-asked-questions-faq
-[2]: ../index.md#additional-references
+[RETURN TO TOP][1]
 
+[1]: #frequently-asked-questions

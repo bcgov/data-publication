@@ -30,4 +30,18 @@ table {
   min-width: 100%;
   background-color: $blue-100;
   color: #b07f13;
+  border-style: solid;
+}
+
+.side-bar {
+  width: 400px;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  position: fixed;
+}
+
+.main {
+  width: calc(
+    (100%-400px));
+  margin-left: 400px;
 }

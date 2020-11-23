@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" modified="2020-10-19T21:55:50.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="TenUu0KSY2lcBOVMXX8g" version="13.8.0" type="github">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="3162" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" value="Workflow: BCGW Readiness" style="swimlane;html=1;childLayout=stackLayout;startSize=70;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=20;align=center;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="-1080" y="50" width="820" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-2" value="" style="swimlane;html=1;startSize=0;whiteSpace=wrap;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="70" width="820" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="BV2q5p9ctBvcztRm7qWQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;fontStyle=1" parent="77e6c97f196da883-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2435" y="659.1399999999999" as="sourcePoint" />
+            <mxPoint x="2435" y="659.1399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2tCSn5X5kFdM__O0FERV-108" value="" style="curved=1;endArrow=classic;html=1;entryX=-0.028;entryY=0.428;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-2" source="2tCSn5X5kFdM__O0FERV-1" target="2tCSn5X5kFdM__O0FERV-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="113" y="610" as="sourcePoint" />
+            <mxPoint x="1040" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="200" />
+              <mxPoint x="50" y="290" />
+              <mxPoint x="110" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2tCSn5X5kFdM__O0FERV-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Quick_Start_Center.svg;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="30" y="293.72" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-34" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="180" y="239.7" width="160" height="109.53" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-14" value="What are the anticipated timelines for your data?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-34" vertex="1">
+          <mxGeometry y="89.53" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scheduler;pointerEvents=1;" parent="WSfQPqF3ies6_VGlYtEs-34" vertex="1">
+          <mxGeometry x="40" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2tCSn5X5kFdM__O0FERV-4" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="190" y="80.00000000000003" width="150" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="2tCSn5X5kFdM__O0FERV-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/customicondesign-office7-shadow-png/128/Product-documentation.png" parent="2tCSn5X5kFdM__O0FERV-4" vertex="1">
+          <mxGeometry x="30.5" width="89" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="2tCSn5X5kFdM__O0FERV-3" value="Documentation Review" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2tCSn5X5kFdM__O0FERV-4" vertex="1">
+          <mxGeometry y="89" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-20" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="180" y="390" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-15" value="Is there a date this dataset needs to be available through the DataBC Program? (e.g. tied to legislation or software release?)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-20" vertex="1">
+          <mxGeometry y="93" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/xomo-basics/128/document-08-128.png" parent="WSfQPqF3ies6_VGlYtEs-20" vertex="1">
+          <mxGeometry x="35" y="-2" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-28" value="" style="curved=1;endArrow=classic;html=1;entryX=1.014;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WSfQPqF3ies6_VGlYtEs-20" target="WSfQPqF3ies6_VGlYtEs-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="50" as="sourcePoint" />
+            <mxPoint x="175" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-21" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="180" y="580" width="160" height="117.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.scheduler;pointerEvents=1;fillColor=#FF3333;" parent="WSfQPqF3ies6_VGlYtEs-21" vertex="1">
+          <mxGeometry x="45" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-16" value="Are there any other time constraints we should be aware of?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-21" vertex="1">
+          <mxGeometry y="97.00000000000006" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-25" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="420" y="75.75000000000003" width="160" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-19" value="Have you idenfitied GIS staff that will produce and QA/QC both the data and the visualizations?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-25" vertex="1">
+          <mxGeometry x="41" y="97.5" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/iconslandgps/PNG/128x128/GIS/Layers.png;fillColor=#E6E6E6;" parent="WSfQPqF3ies6_VGlYtEs-25" vertex="1">
+          <mxGeometry x="89.75" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-27" value="" style="curved=1;endArrow=classic;html=1;entryX=0.944;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-2" target="WSfQPqF3ies6_VGlYtEs-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="276" as="sourcePoint" />
+            <mxPoint x="1050" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-29" value="" style="curved=1;endArrow=classic;html=1;exitX=1.071;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.071;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-2" source="WSfQPqF3ies6_VGlYtEs-4" target="WSfQPqF3ies6_VGlYtEs-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="210" as="sourcePoint" />
+            <mxPoint x="780" y="198" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-Ag5X-3Hhz4MKtl7owg-2" value="" style="curved=1;endArrow=classic;html=1;entryX=1.014;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-2" source="2tCSn5X5kFdM__O0FERV-2" target="WSfQPqF3ies6_VGlYtEs-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.5" y="220" as="sourcePoint" />
+            <mxPoint x="436.69000000000005" y="-249.19000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-32" value="" style="curved=1;endArrow=classic;html=1;exitX=0.984;exitY=0.132;exitDx=0;exitDy=0;exitPerimeter=0;" parent="77e6c97f196da883-2" source="WSfQPqF3ies6_VGlYtEs-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="210" as="sourcePoint" />
+            <mxPoint x="590" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-23" value="" style="group;rotation=90;" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="430" y="390" width="160" height="120.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/477_Algorithm_design_method_model_process_Data_Science_Fabrication_Lab-128.png;fillColor=#E6E6E6;" parent="WSfQPqF3ies6_VGlYtEs-23" vertex="1">
+          <mxGeometry x="71" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-31" value="" style="curved=1;endArrow=classic;html=1;" parent="WSfQPqF3ies6_VGlYtEs-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="171" y="50.00000000000003" as="sourcePoint" />
+            <mxPoint x="160" y="-100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="-65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-18" value="Do you have a data modelling vendor in place?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-23" vertex="1">
+          <mxGeometry x="41" y="100.00000000000006" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-24" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="471" y="234.47" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-10" value="Have you identified the Editor for the metadata in the BC Data Catalogue?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-24" vertex="1">
+          <mxGeometry y="100" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-8" value="" style="group" parent="WSfQPqF3ies6_VGlYtEs-24" vertex="1" connectable="0">
+          <mxGeometry width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-9" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="WSfQPqF3ies6_VGlYtEs-8" vertex="1">
+          <mxGeometry x="45.5" y="10" width="64.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-30" value="" style="curved=1;endArrow=classic;html=1;entryX=0.99;entryY=0.66;entryDx=0;entryDy=0;entryPerimeter=0;" parent="77e6c97f196da883-2" target="WSfQPqF3ies6_VGlYtEs-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="590" as="sourcePoint" />
+            <mxPoint x="1091" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-33" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="77e6c97f196da883-2" source="WSfQPqF3ies6_VGlYtEs-12" target="u-Ag5X-3Hhz4MKtl7owg-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="114.75" as="sourcePoint" />
+            <mxPoint x="1091" y="160" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-22" value="" style="group" parent="77e6c97f196da883-2" vertex="1" connectable="0">
+          <mxGeometry x="430" y="580" width="160" height="110.95000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fillColor=#E6E6E6;" parent="WSfQPqF3ies6_VGlYtEs-22" vertex="1">
+          <mxGeometry x="86" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WSfQPqF3ies6_VGlYtEs-17" value="Is the data for the dataset already available?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WSfQPqF3ies6_VGlYtEs-22" vertex="1">
+          <mxGeometry x="41" y="90.95000000000005" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u-Ag5X-3Hhz4MKtl7owg-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/greenline/512/check-128.png" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="700" y="75.75" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
