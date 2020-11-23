@@ -1,15 +1,21 @@
 ---
 layout: default
-title: Contributing
-nav_order: 200
+title: Provide Feedback
+nav_order: 14
 has_toc: false
 ---
 
 # WE VALUE YOUR CONTRIBUTIONS
 
-Our goal in publishing these documents was to create a complete, clear, and correct repository of guides to help DataBC Program contributors and consumers. We welcome contributions; this document describes processes for providing contributions and feedback.
+Our goal in publishing these documents was to create a complete, clear, and correct repository of guides to help DataBC Program contributors and consumers. We welcome your contributions!
+
+This page describes two mechanisms for providing input on the documentation published on this site:
++ reporting errors in the documentation, and
++ suggesting additions to existing pages or 
++ the addition of new pages.
 
 -----------------------
+
 ## Table of Contents
 + [**REPORTING ISSUES WITH THE DOCUMENTATION**](#reporting-issues-with-the-documentation)
 + [**CHANGING PAGES OR ADDING NEW ONES**](#changing-pages-or-adding-new-ones)
@@ -23,20 +29,6 @@ Our goal in publishing these documents was to create a complete, clear, and corr
 
 -----------------------
 
-# Audience
-
-This page is any person wishing to provide feedback on, or contributions to, [Publishing Data to the DataBC Program](../index.md#index.md).
-
-
-# Purpose
-
-This page describes two mechanisms for providing input on the guides published at [Publishing Data to the DataBC Program](../index.md#index.md):
-+ reporting errors in the documentation, and
-+ suggesting additions to existing pages or 
-+ the addition of new pages.
-
----------------------------------------------------------------------
-
 ## REPORTING ISSUES WITH THE DOCUMENTATION
 
 If you would like to point out an error or make a comment on the content, this can most easily be done by creating an issue:
@@ -45,8 +37,6 @@ If you would like to point out an error or make a comment on the content, this c
 1. Enter a **Title** that is brief to describe the issue.
 1. Enter a **Description** of the issue and what URL it is on.
 1. Click the ![Submit new issue](images/image_submit_new_issue.png) button. 
-
-[RETURN TO TOP][1] 
 
 -----------------------------------------------------------
 
@@ -126,15 +116,10 @@ git push
 1. Enter a **Description** of the changes made.
 1. Click the final ![Create pull request](images/image_create_pull_request2.png) button. 
 
-DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
-
-
-[RETURN TO TOP][1] 
-
-[RETURN TO PUBLISHING DATA TO THE DATABC PROGRAM][2]
+ [DataBC](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
 -------------------------------------------------------
 
-[1]: #we-value-your-contributions
-[2]: publishing_data_to_databc.md#publishing-data-to-the-databc-program
+[RETURN TO TOP][1] 
 
+[1]: #we-value-your-contributions
