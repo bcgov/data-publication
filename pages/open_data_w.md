@@ -6,15 +6,12 @@ nav_order: 105
 has_toc: false
 ---
 
-|**AUDIENCE**| |
-|:---:|:---:|
-| *Data Custodians* | *Data Publishers* | 
-
-
 # HOW TO OBTAIN AN OPEN DATA LICENCE
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
-
+|**AUDIENCE**| |
+|:---:|:---:|
+| *Data Custodians* | *Data Publishers* | 
 
 ## Review the Open Data Policy
 Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
@@ -37,7 +34,7 @@ All datasets under the OGL-BC require a metadata record in the BC Data Catalogue
 
 Irregardless if a dataset is under the OGL, any BC Governement or Broader Public Sector (BPS) dataset can be published in the Catalogue.
 
-To obtain an account and publish metadata records follow the [__BCDC Publication Workflow__](dps_bcdc_w.md).
+To obtain an __account__ and publish metadata records follow the [Catalogue documation](dps_bcdc.md) and the [__BCDC Publication Workflow__](dps_bcdc_w.md).
 
 ## Complete the Open Data Assessment and Checklist
 The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and the appropriate people contacted and then this is sent back to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
