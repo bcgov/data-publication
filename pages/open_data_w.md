@@ -45,9 +45,9 @@ To obtain an __account__ and publish metadata records follow the [BCDC documenta
 The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) must be completed and the appropriate people contacted.
 
 The checklist ensures the following:
-#### That the data contains __no personal information__.
+### That the data contains __no personal information__.
 
-#### That the __province has the intelectual property__ of the data
+### That the __province has the intelectual property__ of the data
 This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data.
 
 Data Creation:
@@ -67,13 +67,13 @@ Restrictions of Use:
 + Did the province gain access to the data under a contractual arrangement that may restrict further distribution and licensing of the data to third parties?   
 + Has the data been exclusively licensed to a third party (precluding the province from being able to license the data to others, including under the OGL-BC)? 
 
-#### That the data is __not under any legal, contractual or policy contraint__.
+### That the data is __not under any legal, contractual or policy contraint__.
 
-#### That the data is __publicly releasable__
+### That the data is __publicly releasable__
 This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
  + A Ministry MISO may also have their own set of questions.
 
-#### That the data is __not currently for sale__.
+### That the data is __not currently for sale__.
 
 ## SIGNATURES
 Signatures are required from the following:
