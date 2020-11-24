@@ -45,23 +45,35 @@ To obtain an __account__ and publish metadata records follow the [BCDC documenta
 The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) must be completed and the appropriate people contacted.
 
 The checklist ensures the following:
-### There the data contains __no personal information__.
+#### That the data contains __no personal information__.
 
-### That the __province has the intelectual property__ of the data
+#### That the __province has the intelectual property__ of the data
 This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data.
-+ Data Creation:
- +  Has the dataset been created solely by BC government employees?  If no, you will need to provide further details of the creation of the dataset, such as: 
-  + Was the dataset created: 
-   + by contractors on behalf of government (in which case we would need to review the contract); or  
-   + by another third party (we would need to know the terms under which the province can use the created dataset). 
 
-### That the data is __not under any legal, contractual or policy contraint__.
+Data Creation:
++  Has the dataset been created solely by BC government employees?  If no, you will need to provide further details of the creation of the dataset, such as: 
+ + Was the dataset created by:
+  + contractors on behalf of government (in which case we would need to review the contract); or  
+  + by another third party (we would need to know the terms under which the province can use the created dataset). 
 
-### That the data is __publicly releasable__
+Data Source(s):
++ Is the data contained in the dataset BC government-owned data? 
++ Is the data (or any of the data) derived from a third-party source? Broader public sector such as crown corporations, health authorities and public post-secondary institutions are external to core government and are separate legal entities for the purposes of copyright ownership. 
++ If the data is third-party sourced:  
+ + Does the dataset comprise of direct reproduction of a sizable “chunk” of data in the same organized structure as the source of the data?  
+ + Has the source data been further manipulated (mathematical computation run to create new numbers, been reformatted into different columns/rows, etc.)? 
+
+Restrictions of Use:
++ Did the province gain access to the data under a contractual arrangement that may restrict further distribution and licensing of the data to third parties?   
++ Has the data been exclusively licensed to a third party (precluding the province from being able to license the data to others, including under the OGL-BC)? 
+
+#### That the data is __not under any legal, contractual or policy contraint__.
+
+#### That the data is __publicly releasable__
 This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
  + A Ministry MISO may also have their own set of questions.
 
-### That the data is __not currently for sale__.
+#### That the data is __not currently for sale__.
 
 ## SIGNATURES
 Signatures are required from the following:
