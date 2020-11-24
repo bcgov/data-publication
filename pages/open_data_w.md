@@ -61,7 +61,7 @@ Signatures are required from the following:
 Accepted signatures can be by signing and scanning the Open Data Assessment and Checklist or from an e-approval process the ministry has in place.
 
 ## REVIEW WITH THE MINISTRY GOVERNMENT COMMUNICAITON OFFICER
-We recommend working with your Government Communication Officer around the release of a dataset under the OGL-BC.
+We recommend working with your Government Communication Officer around the release of a dataset under the this licence.
 
 ## FINAL PUBLICATION
 A member of the DataBC Program will assist the publication of the metadata record and provide any feedback necessary.
