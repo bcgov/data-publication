@@ -8,19 +8,16 @@ has_toc: false
  
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
-
-
 __How to Obtain BC's Open Data Licence:__
 
 ## Review the Open Data Policy
 Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
 
-
-
-To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) the an Completed and submitted [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and submitted along with: 
+## Review the Open Government Licence - BC 
+Review the [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) to ensure the licence is correct for the needs of the businss and data. 
 
 ## Complete the Open Data Assessment and Checklist
-The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). confirms:
+The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and the appropriate people contacted and then this is sent back to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
 
 1. There the data contains __no personal information__.
 1. That the __province has the intelectual property__ of the data
@@ -51,7 +48,6 @@ A BC Data Catalogue (BCDC) __metadata record__ is [published](dps_bcdc_w.md) and
 
 ## Final Publication
 1. We recommend working with your Government Communication Officer around the release of a dataset under the OGL-BC.
-1. Send the Open Data Assessment and Checklist to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
 1. A member of the DataBC Program will assist the publication of the metadata record and provide any feedback necessary.
 
 ## RESOURCES
