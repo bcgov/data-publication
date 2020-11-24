@@ -66,8 +66,10 @@ We recommend working with your Government Communication Officer around the relea
 ## FINAL PUBLICATION
 A member of the DataBC Program will assist the publication of the metadata record and provide any feedback necessary.
 
+Follow up with the DataBC Program Services Team you are working with in regards to publishing data or contact [data@gov.bc.ca](mailto:data@gov.bc.ca).
+
 ## MAINTAINANCE
-Data should be continually updated and maintained.
+Data should be continually updated and maintained. The life cycle of a datasets may also include retirement and archiving.
 
 
 -------------------------------------------------------
