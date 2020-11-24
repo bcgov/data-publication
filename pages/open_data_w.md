@@ -24,30 +24,31 @@ It is recommended to publish data under an Open Government Licence, where possib
 + [_API Terms of Use for Information provided under the OGL-BC_](https://www2.gov.bc.ca/gov/content/data/open-data/api-terms-of-use-for-ogl-information)
 + [_Open Data Physical Dataset Format Standard (PDF, 181 KB)_](http://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf)
 
-__How to Obtain BC's Open Data Licence:__
+## PUBLISHING DATA UNDER THE OPEN GOVERNMENT LICENCE - BRITISH COLUMBIA
 
-To publish a dataset under the [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) an [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and submitted along with: 
+To publish a dataset under the Open Government Licence - British Columbia (OGL-BC), the Open Data Assessment and Checklist is required to be completed and submitted.  
 
-1. __Signatures__ are required from the following and can be submitted to the DataBC Program in the form of a scanned signature in the [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) or an e-approval process the ministry has in place:
+1. __Signatures__ are required from the following:
 	1. The Data Custodian
 	1. The Custodial organization’s Deputy Minister or designated alternate.
-1. The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). confirms:
-	1. There the data contains __no personal information__.
-	1. That the __province has the intelectual property__ of the data and is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
+These can be submitted to the DataBC Program in the form of a scanned signature in the document or using an e-approval process your ministry has in place.
+
+1. The Open Data Assessment and Checklist confirms:
+	1. The data contains __no personal information__.
+	1. That the __province has the intelectual property__ of the data. This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
 	1. That the data is __not under any legal, contractual or policy contraint__.
 	1. That the data is __publicly releasable__ and is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
 	1. That the data is __not currently for sale__.
-1. It is in an __open format__, e.g., 
-	- CSV, 
-	- Shape File (SHP), 
-	- JSON,
-	- GeoPackage,
-	- or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+	1. That the data is in an __open format__, e.g., 
+		- CSV, 
+		- Shape File (SHP), 
+		- JSON,
+		- GeoPackage,
+		- or additional formats noted by the OCIO’s Open Data Physical Dataset Format Standard. 
 	- and for guidelines for [open format file content](dsg_bcdc_file_based_content.md).
 1. A BC Data Catalogue (BCDC) __metadata record__ is [published](dps_bcdc_w.md) and 
 	1. The record links to __[Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)__.
 	
-
 __Final Publication__:
 1. We recommend working with your Government Communication Officer around the release of a dataset under the OGL-BC.
 1. Send the Open Data Assessment and Checklist to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
