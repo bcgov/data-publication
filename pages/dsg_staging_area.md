@@ -104,6 +104,9 @@ This page describes the staging areas, how to request access and specific requir
 + Datasets are required to have valid geometries set at the standard tolerances and precision. Please use Check and/or Repair geometry tools prior to uploading to Staging.
 + It is imperative the naming and structure of each participating dataset remain constant; as well, Geodatabase names should conform to naming standards as provided in:
  [BCGW File Geodatabase Standards](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
++ See the [guidelines on file based content](dsg_bcdc_file_based_content.md) to assist in the structure of the content.
++ See the [Naming and Describing Standards](dsg_naming_describing.md) used for the BCGW as these too can assist in building a model or attributes of a file.
+
  
 -------------------------------------------------------
  
