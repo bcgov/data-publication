@@ -6,7 +6,11 @@ nav_order: 110
 has_toc: false
 ---
 
-## CREATING AN OPEN GOVERNMENT LICENCE - OTHER
+# CREATING AN OPEN GOVERNMENT LICENCE - OTHER
+
+|**AUDIENCE**|
+|:---:|
+| *Data Publishers in the Broader Public Sector (BPS)* |
 
 The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These are suggested steps to create an Open Government Licence for your organization:
 
