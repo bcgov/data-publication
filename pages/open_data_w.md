@@ -44,6 +44,7 @@ To obtain an __account__ and publish metadata records follow the [BCDC documenta
 ## COMPLETE AND SUBMIT THE OPEN DATA ASSESSMENT AND CHECKLIST
 The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) must be completed and the appropriate people contacted.
 
+The checklist ensures the following:
 1. There the data contains __no personal information__.
 1. That the __province has the intelectual property__ of the data
  + This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
