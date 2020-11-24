@@ -8,7 +8,7 @@ has_toc: false
  
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
-Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
+Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
 
 __How to Obtain BC's Open Data Licence:__
 
@@ -29,7 +29,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 	- JSON,
 	- GeoPackage,
 	- or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
-	- and for guidelines for [open format file content](dsg_bcdc_file_based_content.md)
+	- and for guidelines for [open format file content](dsg_bcdc_file_based_content.md).
 1. A BC Data Catalogue (BCDC) __metadata record__ is [published](dps_bcdc_w.md) and 
 	1. The record links to __[Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)__.
 	
