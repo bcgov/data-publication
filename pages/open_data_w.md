@@ -18,7 +18,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 		1. There is no personal information.
 		1. That the province has the intelectual properties of the data confirmed by [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
 		1. That the data is not under any legal, contactual or policy contraint.
-		1. That the data is publicly releasable and confirmed from tThe Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
+		1. That the data is publicly releasable and confirmed from the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
 		1. That the data is not currently for sale.
 		1. It is in an open format, e.g., 
 			+ CSV, 
