@@ -2,7 +2,7 @@
 layout: default
 title: Open Government Licence - Other
 parent: Open Data
-nav_order: 101
+nav_order: 110
 has_toc: false
 ---
 
