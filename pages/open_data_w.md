@@ -22,11 +22,11 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 		1. That the data is __publicly releasable__ and is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
 		1. That the data is __not currently for sale__.
 		1. It is in an __open format__, e.g., 
-			- CSV, 
-			- Shape File (SHP), 
-			- JSON,
-			- GeoPackage,
-			- or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+			* CSV, 
+			* Shape File (SHP), 
+			* JSON,
+			* GeoPackage,
+			* or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 1. A BC Data Catalogue (BCDC) __metadata record__ is [published](dps_bcdc_w.md) and 
 	1. The record links to __[Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)__.
 	
