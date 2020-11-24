@@ -26,7 +26,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 		1. It is in an __open format__, e.g., 
 			+ CSV, 
 			+ Shape File (SHP), 
-			+ JSON, 
+			+ JSON,
 			+ GeoPackage,
 			+ or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 1. A BC Data Catalogue (BCDC) __metadata record__ is [published](dps_bcdc_w.md) and 
