@@ -9,7 +9,7 @@ has_toc: false
 # HOW TO OBTAIN AN OPEN DATA LICENCE
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
-This document is intended for BC Government employees to follow to apply our open data licence to datasets that under their authority.
+This document is intended for BC Government employees to follow to apply our open data licence to datasets that are under their authority.
 
 Broader Public Sector (BPS) agencies are required to [create their own licence](open_data_licence_create.md) but are welcome to publish data in the BC Data Catalogue (BCDC).
 * Refer to the [BCDC documation](dps_bcdc.md)
