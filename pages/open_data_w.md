@@ -8,7 +8,7 @@ has_toc: false
  
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
-__Approvals and Confirmation:__
+__How to Obtain BC's Open Data Licence:__
 
 To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) the following needs to be completed: 
 1. Completed and submitted [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). 
@@ -36,7 +36,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 __Final Publication__:
 1. We recommend working with your Government Communication Officer around the release of a dataset under the OGL-BC.
 1. Send the Open Data Assessment and Checklist to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
-
+1. A member of the DataBC Program will assist the publication of the metadata record and provide any feedback necessary.
 
 ## RESOURCES
 
