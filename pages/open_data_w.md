@@ -11,11 +11,11 @@ It is recommended to publish data under an Open Government Licence, where possib
 __Approvals and Confirmation:__
 
 To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) the following needs to be completed: 
-1. Completed and submitted [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). 
-	1. Signature is required from and can be in the form of a scanned signature of the document or an e-approval process the ministry has in place:
+1. Completed and submitted [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). 
+	1. __Signatures__ are required from the follow and can be submitted to the DataBC Program in the form of a scanned signature of the document or an e-approval process the ministry has in place:
 		1. The Data Custodian
 		1. The Custodial organization’s Deputy Minister or designated alternate.
-	1. The Checklist Confirms:
+	1. The __Checklist__ Confirms:
 		1. There is no personal information.
 		1. That the province has the intelectual properties of the data confirmed by [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
 		1. That the data is not under any legal, contactual or policy contraint.
@@ -27,7 +27,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 			+ JSON, 
 			+ GeoPackage,
 			+ or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
-1. A BC Data Catalogue (BCDC) metadata record is [published](dps_bcdc_w.md) and 
+1. A BC Data Catalogue (BCDC) __metadata record__ is [published](dps_bcdc_w.md) and 
 	1. The record links to __[Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)__.
 	
 
