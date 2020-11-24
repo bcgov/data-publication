@@ -13,8 +13,8 @@ __How to Obtain BC's Open Data Licence:__
 ## Review the Open Data Policy
 Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
 
-## Review the Open Government Licence - BC 
-Review the [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) to ensure the licence is correct for the needs of the businss and data. 
+## Review the Open Government Licence - British Columbia (OGL-BC) 
+Review the [OGL-BC](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) to ensure the licence is correct for the needs of the businss and data. 
 
 ## Ensure the Data is an Open Format
 Data can be released in multiple formats but at least one must be in an __open format__, e.g., 
@@ -27,11 +27,11 @@ Data can be released in multiple formats but at least one must be in an __open f
 Guidelines for [open format file content](dsg_bcdc_file_based_content.md).
 
 ## BC Data Catalogue Metadata Records
-A metadata record is required in the BC Data Catalogue (BCDC).
+All datasets under the OGL-BC require a metadata record in the BC Data Catalogue (BCDC), aka, the Catalouge.
 
-Irregardless if a dataset is under the OGL, any BC Governement or Broader Public Sector (BPS) dataset can be catalogue in the Catalogue.
+Irregardless if a dataset is under the OGL, any BC Governement or Broader Public Sector (BPS) dataset can be published in the Catalogue.
 
-Follow the following [__BCDC Publication Workflow__](dps_bcdc_w.html) to cataloguing records.
+To obtain an account and publish metadata records follow the [__BCDC Publication Workflow__](dps_bcdc_w.md).
 
 ## Complete the Open Data Assessment and Checklist
 The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and the appropriate people contacted and then this is sent back to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
