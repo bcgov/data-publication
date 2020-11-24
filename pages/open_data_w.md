@@ -18,10 +18,10 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 	1. The __Checklist__ confirms:
 		1. There is __no personal information__.
 		1. That the __province has the intelectual property__ of the data.
-			+ This is confiramation by contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
+			+ __This is to be confirmed by contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)__](mailto:QPIPPCopyright@gov.bc.ca).
 		1. That the data is __not under any legal, contractual or policy contraint__.
 		1. That the data is __publicly releasable__
-			+ This is confirmed by contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
+			+ __This is to be confirmed by contacting the [Ministry Information Security Officer (MISO)__](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
 		1. That the data is __not currently for sale__.
 		1. It is in an __open format__, e.g., 
 			+ CSV, 
