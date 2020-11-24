@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Government Licence - Other
+title: Creating an Open Government Licence
 parent: Open Data
 nav_order: 110
 has_toc: false
