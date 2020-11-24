@@ -8,7 +8,7 @@ has_toc: false
 
 # CREATING AN OPEN GOVERNMENT LICENCE
 
-The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must create their own. These are suggested steps to create an Open Government Licence for your organization:
+The Broader Public Sector (BPS) may publish records in the BC Data Catalogue but is not permitted to use the OGL-BC and thus must create their own. These are suggested steps to create an Open Government Licence for your organization. Other organizations may also use this as a template.
 
 |**AUDIENCE**|
 |:---:|
@@ -23,7 +23,7 @@ Modify the identified text to personalize it for your org
 1. **Licence Name** change:
 	+ _‘Open Government License – British Columbia’_ to
 	+ _‘Open Government License – BC Oil and Gas Commission’_
-		+ This name should be the same that is found on the BC List of Agencies, Crown Corps, etc
+		+ This name should be the same that is found on the [BC List of Agencies, Crown Corps, etc](https://www.bcpublicsectorboardapplications.gov.bc.ca/s/directoryofagencies)
 1. Change line:
 	+ _‘Contains information licensed under the Open Government Licence – British Columbia.’_ to
 	+ _‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission’_.
