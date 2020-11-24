@@ -42,6 +42,7 @@ __Final Publication__:
 
 The following is a list of resources to support the use of the open license with the B.C. Government:
 
++ [_BCDC Publication Workflow_](dps_bcdc_w.html)
 + [_Open Information and Open Data Policy (PDF, 500MB)_](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
 + [_Open Government Licence - British Columbia_](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
 + [_Open Data Assessment and Checklist - Blank (DOCX, 30 KB)_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)
