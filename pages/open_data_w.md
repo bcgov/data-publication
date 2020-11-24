@@ -16,7 +16,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 	1. The Data Custodian
 	1. The Custodial organization’s Deputy Minister or designated alternate.
 1. The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). confirms:
-	1. There is __no personal information__.
+	1. There the data contains __no personal information__.
 	1. That the __province has the intelectual property__ of the data and is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
 	1. That the data is __not under any legal, contractual or policy contraint__.
 	1. That the data is __publicly releasable__ and is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
