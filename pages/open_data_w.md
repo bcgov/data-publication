@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Open Data Workflow
-nav_order: 101
-has_oarent: true
+parent: Open Data
+nav_order: 105
 has_toc: false
 ---
 
