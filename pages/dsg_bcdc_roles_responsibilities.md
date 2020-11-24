@@ -76,7 +76,7 @@ This guide is about managing information within the DataBC Program and making it
 
 ## THE DATA CUSTODIAN
 
-**Definition: [Data Custodian](glossary.md#data-custodian)**
+**Definition: [Data Custodian](glossary.md#Data-Custodian)**
 
 ### Am I a Data Custodian?
 
