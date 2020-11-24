@@ -47,7 +47,7 @@ The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/
 The checklist ensures the following:
 ### That the data contains __no personal information__.
 
-### That the __province has the intelectual property__ of the data
+### That the __province has the intelectual property__ of the data.
 This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data.
 
 Data Creation:
@@ -69,7 +69,7 @@ Restrictions of Use:
 
 ### That the data is __not under any legal, contractual or policy contraint__.
 
-### That the data is __publicly releasable__
+### That the data is __publicly releasable__.
 This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
  + A Ministry MISO may also have their own set of questions.
 
