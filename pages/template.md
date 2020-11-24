@@ -52,7 +52,7 @@ It is helpful to use the auto-numbering as you can re-order list items and do no
 **Bullets, Hyperlinks, Bold and Italic**
 
 When using bullets, they can be represented using the plus sign or an asterisk and indented using a tab:
-* All definitions should be moved to the [Glossary](glossary.md), linked to the particular text and italicized e.g., [_Data Custodian_](glossary.md#data-custodian)
+* All definitions should be moved to the [**Glossary**](glossary.md), linked to the particular text and italicized e.g., [_Data Custodian_](glossary.md#data-custodian)
 + Hyperlinks:
 	+ Hyperlinks to pages within this repo should be linked using the .md as well as the specific section (where applicable) and **bolded** e.g., BC Data Catalogue > BCDC Standards and Guidelines > [**Roles and Responsibilities**](dsg_bcdc_roles_responsibilities.md#the-data-steward)
 	* Hyperlinks to external pages shoudl be represented using a permalink where possible and using the URL if no permalink is available. e.g., [Data Catalogue](https://data.gov.bc.ca/)
