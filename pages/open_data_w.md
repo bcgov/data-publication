@@ -5,14 +5,21 @@ parent: Open Data
 nav_order: 105
 has_toc: false
 ---
+ 
+It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this license to be applied, like Shiny.
 
-# OPEN DATA
+To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) the following needs to be completed: 
+1. Completed [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). These include:
+  1. Inside this includes:
+    1. Confrimation from [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
+	  1. Confirmation from [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca) that the province has the intelectual properties of the data.
+    1. A signature from the Custodial organization’s Deputy Minister or designated alternate.
+1. it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+1. A metadata record in the BC Data Catalogue is published and the record links to the appropriate Open Data Licence.
 
-In July 2011, the B.C. Government introduced its Open Information and Open Data Policy, becoming the first province in Canada to publish its data under an _open license_.
+Once these approvals are in place, and the completed Open Data Assessment and Checkist and signature, the data can be published under OGL-BC
 
-Opening up Government data is key to enabling engagement with citizens by using new technologies to connect the Public to Government and to one another. Making Government data available online invites individuals, businesses and organizations to use this data in creating new innovative opportunities and solving problems for the betterment of all British Columbians.
 
-The B.C. Government produces and maintains thousands of datasets that represent a broad range of information about natural resources, the economy, justice, education and social programs.  Over 1500 datasets in the B.C. Data Catalogue are free for anyone to use or re-purpose under the Open Government Licence - British Columbia (OGL-BC).
 
 ## RESOURCES
 
