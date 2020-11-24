@@ -5,10 +5,9 @@ parent: Open Data
 nav_order: 105
 has_toc: false
 ---
- 
-It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
-__How to Obtain BC's Open Data Licence:__
+# How to Obtain and Open Data Licence
+It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
 ## Review the Open Data Policy
 Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
@@ -55,14 +54,5 @@ Signatures are required from the following and can be submitted to the DataBC Pr
 1. We recommend working with your Government Communication Officer around the release of a dataset under the OGL-BC.
 1. A member of the DataBC Program will assist the publication of the metadata record and provide any feedback necessary.
 
-## RESOURCES
-
-The following is a list of resources to support the use of the open license with the B.C. Government:
-
-+ [_Open Information and Open Data Policy (PDF, 500MB)_](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
-+ [_Open Government Licence - British Columbia_](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
-+ [_Open Data Assessment and Checklist - Blank (DOCX, 30 KB)_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)
-+ [_API Terms of Use for Information provided under the OGL-BC_](https://www2.gov.bc.ca/gov/content/data/open-data/api-terms-of-use-for-ogl-information)
-+ [_Open Data Physical Dataset Format Standard (PDF, 181 KB)_](http://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf)
 
 -------------------------------------------------------
