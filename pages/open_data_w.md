@@ -6,7 +6,7 @@ nav_order: 105
 has_toc: false
 ---
  
-It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this license to be applied, like Shiny.
+It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
 
 __Approvals and Confrimation:__
 
