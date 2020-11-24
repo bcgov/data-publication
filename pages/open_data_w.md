@@ -15,7 +15,7 @@ To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)]
 	1. __Signatures__ are required from the follow and can be submitted to the DataBC Program in the form of a scanned signature of the document or an e-approval process the ministry has in place:
 		1. The Data Custodian
 		1. The Custodial organization’s Deputy Minister or designated alternate.
-	1. The __Checklist__ Confirms:
+	1. The __Checklist__ confirms:
 		1. There is no personal information.
 		1. That the province has the intelectual properties of the data confirmed by [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
 		1. That the data is not under any legal, contactual or policy contraint.
