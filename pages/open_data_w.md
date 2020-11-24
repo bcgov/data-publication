@@ -8,16 +8,24 @@ has_toc: false
  
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this license to be applied, like Shiny.
 
-To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc) the following needs to be completed: 
+To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) the following needs to be completed: 
 1. Completed [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). These include:
-	1. Confrimation from [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
-	1. Confirmation from [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca) that the province has the intelectual properties of the data.
+	1. Confrimation from [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7) to make open.
+	1. Confirmation from [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca) that the province has the intelectual properties of the data to allow it to be open.
 	1. A signature from the Custodial organization’s Deputy Minister or designated alternate.
-1. it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
-1. A metadata record in the BC Data Catalogue is published and the record links to the appropriate Open Data Licence.
+1. It is in an open format, e.g., 
+	+ CSV, 
+	+ Shape File (SHP), 
+	+ JSON, 
+	+ GeoPackage,
+	+ or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
+1. A BC Data Catalogue (BCDC) metadata record is [published](dps_bcdc_w.md) and 
+	1. The record links to __[Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)__.
+	
 
-Once these approvals are in place, and the completed Open Data Assessment and Checkist and signature, the data can be published under OGL-BC
-
+Final Publication:
+1. We recommend working with your Government Communication Officer around the release of a dataset under the OGL-BC.
+1. Send the Open Data Assessment and Checklist to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
 
 
 ## RESOURCES
