@@ -6,7 +6,7 @@ nav_order: 110
 has_toc: false
 ---
 
-# CREATING AN OPEN GOVERNMENT LICENCE - OTHER
+# CREATING AN OPEN GOVERNMENT LICENCE
 
 |**AUDIENCE**|
 |:---:|
@@ -16,7 +16,7 @@ The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must
 
 1. Copy our [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with Federal and other Local Governments
 	+ examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
-1. Modify the identified text to personalize it for your org
+2. Modify the identified text to personalize it for your org
 	1. **Licence Name** change:
 		+ _‘Open Government License – British Columbia’_ to
 		+ _‘Open Government License – BC Oil and Gas Commission’_
@@ -32,6 +32,6 @@ The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must
 		+ _‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information.’_
 	1. **Note**: remove section on BC Government Copyright or whole line:
 		+ _'Note: as per B.C. Government Copyright, the following licence only applies to records in the B.C. Data Catalogue that specify it.'_
-1. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
+3. Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
 ------------------------------------
