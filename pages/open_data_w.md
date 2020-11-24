@@ -35,7 +35,7 @@ Data can be released in multiple formats but at least one must be in an __open f
 For guidelines on [open format file content](dsg_bcdc_file_based_content.md) formating.
 
 ## BC DATA CATALOGUE METADATA RECORDS
-All datasets under the OGL-BC require a metadata record in the BC Data Catalogue (BCDC), aka, the Catalouge.
+All datasets under the OGL-BC require a metadata record in the BC Data Catalogue (BCDC), aka, the Catalogue.
 
 Irregardless if a dataset is under the OGL, any BC Governement or Broader Public Sector (BPS) dataset can be published in the BCDC.
 
