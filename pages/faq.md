@@ -68,7 +68,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 ### Data Publication Services 
 
-+ BC Geographic Warehouse (BCGW)](dps_bcgw.md)
++ [BC Geographic Warehouse (BCGW)](dps_bcgw.md)
 	+ [Data Publication](dps_bcgw_w.md)
 	+ [Data Replication](dsg_bcgw_data_replication.md) aka, ETL Services
 	+ Data Retirement _Contact_: [LDATARET@Victoria1.gov.bc.ca](LDATARET@Victoria1.gov.bc.ca)
