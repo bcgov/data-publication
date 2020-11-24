@@ -34,6 +34,7 @@ Modify the identified text to personalize it for your org
 	+ _‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information.’_
 1. **Note**: remove section on BC Government Copyright or whole line:
 	+ _'Note: as per B.C. Government Copyright, the following licence only applies to records in the B.C. Data Catalogue that specify it.'_
+
 ## PUBLISH THE LICENCE 
 Publish the OGL to a public site so that it can add it to the drop down list of licence options.
 
