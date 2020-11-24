@@ -16,7 +16,8 @@ The Broader Public Sector (BPS) is not permitted to use the OGL-BC and thus must
 
 ## CREATE A COPY OF THE LICENCE
 Copy our [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with Federal and other Local Governments
-	+ examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
++ examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
+
 ## MODIFY THE LICENCE
 Modify the identified text to personalize it for your org
 1. **Licence Name** change:
