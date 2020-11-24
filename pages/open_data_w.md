@@ -47,7 +47,12 @@ The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/
 The checklist ensures the following:
 1. There the data contains __no personal information__.
 1. That the __province has the intelectual property__ of the data
- + This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
+ + This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data.
+  + Data Creation:
+   +  Has the dataset been created solely by BC government employees?  If no, you will need to provide further details of the creation of the dataset, such as: 
+    + Was the dataset created: 
+     + by contractors on behalf of government (in which case we would need to review the contract); or  
+     + by another third party (we would need to know the terms under which the province can use the created dataset). 
 1. That the data is __not under any legal, contractual or policy contraint__.
 1. That the data is __publicly releasable__
  + This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
