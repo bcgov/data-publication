@@ -24,7 +24,7 @@ Modify the identified text to personalize it for your org
 	+ _‘Open Government License – British Columbia’_ to
 	+ _‘Open Government License – BC Oil and Gas Commission’_
 		+ This name should be the same that is found on the [BC List of Agencies, Crown Corps, etc](https://www.bcpublicsectorboardapplications.gov.bc.ca/s/directoryofagencies)
-1. Change line:
+1. Change the name of the licence in the text:
 	+ _‘Contains information licensed under the Open Government Licence – British Columbia.’_ to
 	+ _‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission’_.
 1. **Information Provider** change:
