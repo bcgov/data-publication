@@ -32,7 +32,7 @@ Data can be released in multiple formats but at least one must be in an __open f
 - GeoPackage,
 - or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 
-Guidelines for [open format file content](dsg_bcdc_file_based_content.md).
+For guidelines on [open format file content](dsg_bcdc_file_based_content.md) formating.
 
 ## BC DATA CATALOGUE METADATA RECORDS
 All datasets under the OGL-BC require a metadata record in the BC Data Catalogue (BCDC), aka, the Catalouge.
