@@ -42,7 +42,7 @@ Irregardless if a dataset is under the OGL, any BC Governement or Broader Public
 To obtain an __account__ and publish metadata records follow the [BCDC documentation](dps_bcdc.md) and the [Publication Workflow](dps_bcdc_w.md).
 
 ## COMPLETE AND SUBMIT THE OPEN DATA ASSESSMENT AND CHECKLIST
-The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and the appropriate people contacted and then this is sent back to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
+The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) must be completed and the appropriate people contacted.
 
 1. There the data contains __no personal information__.
 1. That the __province has the intelectual property__ of the data
@@ -63,10 +63,8 @@ Accepted signatures can be by signing and scanning the Open Data Assessment and 
 ## REVIEW WITH THE MINISTRY GOVERNMENT COMMUNICAITON OFFICER
 We recommend working with your Government Communication Officer around the release of a dataset under the this licence.
 
-## FINAL PUBLICATION
-A member of the DataBC Program will assist the publication of the metadata record and provide any feedback necessary.
-
-Follow up with the DataBC Program Services Team you are working with in regards to publishing data or contact [data@gov.bc.ca](mailto:data@gov.bc.ca).
+## WHO TO CONTACT FOR FINAL PUBLICATION
+The completed form as well as questions are to be directed to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
 
 ## MAINTAINANCE
 Data should be continually updated and maintained. The life cycle of a datasets may also include retirement and archiving.
