@@ -59,10 +59,6 @@ has_toc: false
 
 The following is a list of DataBC groups with direction on their areas of expertise and who to contact when you need assistance and clarification.
 
-### Data Requests
-
-+ When you're looking for data that is not found in the BC Data Catalogue or BC Geographic Warehouse, submit a [_DataBC - Data Request_](https://forms.gov.bc.ca/databc-data-request/) form.
-
 ### Data Discovery Services 
 
 + [BC Data Catalogue (BCDC)](dps_bcdc.md)
@@ -81,23 +77,26 @@ The following is a list of DataBC groups with direction on their areas of expert
 + Data governance and management
 + _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) 
 
-### Map Services 
-
-+ Internet Mapping Framework 2 (IMF2)
-+ iMapBC
-+ Layer files and Layer Library
-+ WMS/WFS
-+ BC Map Hub
-+ Data Mashup Framework (DMF)
-+ Simple Map Kit (SMK)
-+ _Contact_: [datamaps@gov.bc.ca](mailto:datamaps@gov.bc.ca)
-
 ### Location Services 
 
-+ BC Geocoder
++ [BC Geocoder](dps_loc_address_geocoder.md)
 + Address Validator
 + BC Route Planner
 + _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
+
+### Map Services 
+
++ [BC Map Hub AGO](dps_maphub_w.md)
++ iMapBC
++ [Internet Mapping Framework 2 (IMF2)](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks/imf2.html)
++ [Layer files and Layer Library](dsg_bcgw_layer_file_presentation.md)
++ [Simple Map Kit (SMK)](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks/smk.html)
++ WMS/WFS
++ _Contact_: [datamaps@gov.bc.ca](mailto:datamaps@gov.bc.ca)
+
+### Data Requests
+
++ When you're looking for data that is not found in the BC Data Catalogue or BC Geographic Warehouse, submit a [_DataBC - Data Request_](https://forms.gov.bc.ca/databc-data-request/) form.
 
 ### DataBC
 
