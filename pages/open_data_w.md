@@ -19,20 +19,16 @@ Before starting the process review the [Open Information and Open Data Policy](h
 
 To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) the an Completed and submitted [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and submitted along with: 
 
-## Open Data Assessment and Checklist
+## Complete the Open Data Assessment and Checklist
 The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). confirms:
 
-### There the data contains __no personal information__.
-
-### That the __province has the intelectual property__ of the data
-This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
-
-### That the data is __not under any legal, contractual or policy contraint__.
-
-### That the data is __publicly releasable__
-This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
-
-### That the data is __not currently for sale__.
+1. There the data contains __no personal information__.
+1. That the __province has the intelectual property__ of the data
+ + This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca).
+1. That the data is __not under any legal, contractual or policy contraint__.
+1. That the data is __publicly releasable__
+ + This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
+1. That the data is __not currently for sale__.
 
 ## Open Format
 It is in an __open format__, e.g., 
