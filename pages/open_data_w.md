@@ -13,7 +13,7 @@ __How to Obtain BC's Open Data Licence:__
 To publish a dataset under [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) the following needs to be completed: 
 1. Completed and submitted [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). 
 	1. __Signatures__ are required from the following and can be submitted to the DataBC Program in the form of a scanned signature of the document or an e-approval process the ministry has in place:
-		1 . The Data Custodian
+		1. The Data Custodian
 		1. The Custodial organization’s Deputy Minister or designated alternate.
 	1. The __Checklist__ confirms:
 		1. There is __no personal information__.
