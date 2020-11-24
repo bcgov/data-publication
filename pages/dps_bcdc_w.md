@@ -89,9 +89,9 @@ There are three licensing options for data published in the BC Data Catalogue:
 	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
 1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
  
-   It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.  Some tools require this license to be applied, like Shiny.
+   It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this license to be applied, like Shiny.
 
-   To publish a dataset under OGL-BC you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). These include:
+   To publish a dataset under OGL-BC, [follow the full steps here](open_data_w.md) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). These include:
 
 	+ [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
 	+ [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca)
@@ -102,11 +102,13 @@ There are three licensing options for data published in the BC Data Catalogue:
 	+ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 	+ The Catalogue record links to the appropriate Open Data Licence.
 	
-1. [Open Government - (Other)](./dps_bcdc_w_open_govt_licence_other.md)
+1. [Open Government - (Other)](./open_data_licence_create.md)
 
 	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
-
+	
 	Federal Licences are listed as there are times when BC Government employees require data to be published for their own consumption via one or more channels.
+
+	New licences can be added to the drop down.
 
 [RETURN TO TOP][1]
 
