@@ -39,7 +39,7 @@ All datasets under the OGL-BC require a metadata record in the BC Data Catalogue
 
 Irregardless if a dataset is under the OGL, any BC Governement or Broader Public Sector (BPS) dataset can be published in the BCDC.
 
-To obtain an __account__ and publish metadata records follow the [BCDC documentation](dps_bcdc.md) and the [__BCDC Publication Workflow__](dps_bcdc_w.md).
+To obtain an __account__ and publish metadata records follow the [BCDC documentation](dps_bcdc.md) and the [Publication Workflow](dps_bcdc_w.md).
 
 ## COMPLETE AND SUBMIT THE OPEN DATA ASSESSMENT AND CHECKLIST
 The [__Open Data Assessment and Checklist__](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) needs to be completed and the appropriate people contacted and then this is sent back to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
