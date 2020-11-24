@@ -19,7 +19,7 @@ Copy our [Open Government Licence - British Columbia](https://www2.gov.bc.ca/go
 + examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
 
 ## MODIFY THE LICENCE
-Modify the identified text to personalize it for your org
+Modify the identified text to personalize it for your org. The following uses the BC Oil and Gas Commission as an example.
 1. **Licence Name** change:
 	+ _‘Open Government License – British Columbia’_ to
 	+ _‘Open Government License – BC Oil and Gas Commission’_
