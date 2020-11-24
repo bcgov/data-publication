@@ -6,8 +6,15 @@ nav_order: 105
 has_toc: false
 ---
 
-# How to Obtain and Open Data Licence
+|**AUDIENCE**| |
+|:---:|:---:|
+| *Data Custodians* | *Data Publishers* | 
+
+
+# HOW TO OBTAIN AN OPEN DATA LICENCE
 It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
+
+
 
 ## Review the Open Data Policy
 Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
