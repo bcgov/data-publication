@@ -51,6 +51,7 @@ The checklist ensures the following:
 1. That the data is __not under any legal, contractual or policy contraint__.
 1. That the data is __publicly releasable__
  + This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
+ + A Ministry MISO may also have their own set of questions.
 1. That the data is __not currently for sale__.
 
 
