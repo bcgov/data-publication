@@ -11,4 +11,10 @@ has_toc: false
 
 The pages in this section describe Security and Access standards and guidelines for data published through the DataBC Program.
 
++ [BCGW Proxy Naming Standards](dsg_security_access_proxy_creation_standards.md)
++ [BCGW Role Naming Standards](dsg_security_access_role_naming_creation.md)
++ ADAM Role Naming Standards
+  + For iMapBC and IMF2: Prefix __MPCM__ and then follow the BCGW Role Naming Standards
+  + For Distribtion: Prefix __DWDS__ and then follow the BCGW Role Naming Standards
+
 -------------------------------------------------------
