@@ -78,20 +78,20 @@ Organizations in the Broader Public Sector (BPS) may publish metadata records an
 
 ------------------------------
 
-## LICENSES
+## LICENCES
 
-There are three licensing options for data published in the BC Data Catalogue:
+There are three licencing options for data published in the BC Data Catalogue:
 
 1. [Access Only](https://www2.gov.bc.ca/gov/content/home/copyright)
    
-   Access only is the standard and is a statement of use that is restrictive as defined in the Crown Copyright Page.
+   Access only is a statement of use that is restrictive as defined in the Crown Copyright Page.
 	+ “reproduction is not permitted without written permission.”
 	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
-1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
+1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
  
    It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this license to be applied, like Shiny.
 
-   To publish a dataset under OGL-BC, [follow the full steps here](open_data_w.md) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx). These include:
+   To publish a dataset under OGL-BC, [follow the full steps here](open_data_w.md) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). These include:
 
 	+ [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
 	+ [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca)
