@@ -20,7 +20,7 @@ The following is a list of resources to support the use of the open license with
 
 + [_Open Information and Open Data Policy (PDF, 500MB)_](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf)
 + [_Open Government Licence - British Columbia_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
-+ [_Open Data Assessment and Checklist - Blank (DOCX, 30 KB)_](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx)
++ [_Open Data Assessment and Checklist - Blank (DOCX, 30 KB)_](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65)
 + [_API Terms of Use for Information provided under the OGL-BC_](https://www2.gov.bc.ca/gov/content?id=D1EE0A405E584363B205CD4353E02C88)
 + [_Open Data Physical Dataset Format Standard (PDF, 181 KB)_](http://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf)
 
