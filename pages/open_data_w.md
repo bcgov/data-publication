@@ -42,7 +42,7 @@ Irregardless if a dataset is under the OGL, any BC Governement or Broader Public
 To obtain an __account__ and publish metadata records follow the [BCDC documentation](dps_bcdc.md) and the [Publication Workflow](dps_bcdc_w.md).
 
 ## COMPLETE AND SUBMIT THE OPEN DATA ASSESSMENT AND CHECKLIST
-The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/gov/data/open-data/open_data_assessment_and_checklist.docx) must be completed and the appropriate people contacted.
+The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65) must be completed and the appropriate people contacted.
 
 The checklist ensures the following:
 ### That the data contains __no personal information__.
