@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 # HOW TO ASSOCIATE DATA TO BC'S OPEN DATA LICENCE
-It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this licence to be applied, like Shiny.
+It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
 
 This document is intended for BC Government employees to follow to apply our open data licence to datasets that are under their authority.
 
