@@ -89,7 +89,7 @@ There are three licencing options for data published in the BC Data Catalogue:
 	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
 1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
  
-   It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive. Some tools require this license to be applied, like Shiny.
+   It is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
 
    To publish a dataset under OGL-BC, [follow the full steps here](open_data_w.md) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). These include:
 
