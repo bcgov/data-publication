@@ -94,9 +94,9 @@ Add contacts for the following **Roles**:
 
 |BCDC Security Classication| [Information Security Classification Levels](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description
 |:---|:---|:---|
-|High - Cabinet, High - Confidential, High - Sensitivity|Protected C | Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records
-|Medium - Personal, Medium - Sensitivity|Protected B | Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege
-|Low - Sensitivity|Protected A | Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information
+|High - Cabinet, High - Confidential, High - Sensitivity|Protected C | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records
+|Medium - Personal, Medium - Sensitivity|Protected B | Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege
+|Low - Sensitivity|Protected A | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information
 |Low - Public|Public|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)
 
 ------------------------------
