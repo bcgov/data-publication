@@ -689,7 +689,7 @@ This section applies to any reader that natively connects to an Oracle database.
 
 ##### Source Service Name (SRC_ORA_SERVICENAME)
 
-+ 
++ Source Oracle service name
 
 	|Field|Value|
 	|:---|:---|
@@ -705,7 +705,7 @@ This section applies to any reader that natively connects to an Oracle database.
 
 ##### Source Host (SRC_HOST)
 
-+ 
++ Source host
 
 	|Field|Value|
 	|:---|:---|
@@ -735,7 +735,7 @@ This section applies to any reader that natively connects to an Oracle database.
 
 ##### Source Schema Owner Password (SRC_ORA_PASSWORD)
 
-+ 
++ Source Oracle password
 
 	|Field|Value|
 	|:---|:---|
@@ -750,7 +750,7 @@ This section applies to any reader that natively connects to an Oracle database.
 
 ##### Source Easy Connect String (SRC_EASYCONNECT)
 
-+ 
++ Source Easy Connect string
 
 	|Field|Value|
 	|:---|:---|
