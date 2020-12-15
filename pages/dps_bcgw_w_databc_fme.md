@@ -654,7 +654,6 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Link From**|Reader → Parameters → Advanced → Override Username → Link to User Parameter → SRC_ORA_PROXY_SCHEMA |
 
 ##### Source Schema Owner Name (SRC_ORA_SCHEMA)
-
 +
 	|Field|Value|
 	|:---|:---|
@@ -667,12 +666,10 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Default Value**|The owner (schema) of the table or view to be read, e.g., FORESTVIEW|
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name |
 
-
 ![](images/image_ora_feature_type.png)   
 
-
 ##### Source Feature Name (SRC_FEATURE_1)
-+ 
++
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
@@ -684,9 +681,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Default Value**|name of table or view, e.g., CUT_BLOCK_SHAPE|
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name |
 
-
 ![](images/image_ora_feature_type.png)  
-
 
 ##### Source Service Name (SRC_ORA_SERVICENAME)
 + 
