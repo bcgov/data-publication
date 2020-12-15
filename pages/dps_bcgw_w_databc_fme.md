@@ -734,7 +734,9 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Link From**|nowhere - used internally by **SRC_EASYCONNECT**  |
 
 ##### Source Schema Owner Password (SRC_ORA_PASSWORD)
+
 + 
+
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|private |
@@ -747,7 +749,9 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Link From**|Reader → Parameters → Advanced → Override Username → Link to User Parameter → SRC_ORA_PASSWORD |
 
 ##### Source Easy Connect String (SRC_EASYCONNECT)
+
 + 
+
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|private |
