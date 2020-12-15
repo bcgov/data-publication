@@ -654,14 +654,16 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Link From**|Reader → Parameters → Advanced → Override Username → Link to User Parameter → SRC_ORA_PROXY_SCHEMA |
 
 ##### Source Schema Owner Name (SRC_ORA_SCHEMA)
-+
+
++ Use this parameter to specify the schema that owns the source table/view.
+ 
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
 	|**Type**|Text |
 	|**Name**|SRC_ORA_SCHEMA |
 	|**Prompt**|Source Database Schema|
-	|**Configuration**|N/A |
+	|**Configuration**|N/A | 
 	|**Attribute Assignment**|Default |
 	|**Default Value**|The owner (schema) of the table or view to be read, e.g., FORESTVIEW|
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name |
