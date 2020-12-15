@@ -507,7 +507,7 @@ However, when run on the GTS environment, the framework will calculate the name 
 #### Esri Shapefile (SHP)
 
 + This section describes the parameters that need to be defined when configuring a Esri Shapefile reader.
-+ Rename the automatically created Published Parameter **SourceDataset_SHP** to **SRC_DATASET_SHP_FILE_1**.
++ Rename the automatically created Published Parameter **SourceDataset_SHP** to **SRC_DATASET_SHP_1**.
 
 ##### Source Shapefile Name (SRC_DATASET_SHP_1)
 + 
