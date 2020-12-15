@@ -967,7 +967,7 @@ The following parameters are required for the Esri SDE Geodatabase writer.
 	|**Configuration**|N/A |
 	|**Attribute Assignment**|Default |
 	|**Default Value**|import DataBCFMWTemplate<br>params = DataBCFMWTemplate.CalcParams(FME_MacroValues)<br>return params.getDestDatabaseConnectionFilePath() |
-	|**Link From**|Writer → Service Name or Easy Connect → Link to User Parameter → DEST_SDE_CONNFILE  |
+	|**Link From**|Writer → Connection File → Link to User Parameter → DEST_SDE_CONNFILE  |
 
 ##### Failed Features (FAILED_FEATURES)
 + This parameter is used to calculate the file path where the failed features files (FFS) will get stored.  This parameter should be linked to the Geodatabase Writer parameter called “Failed Features Dump filename” (Geodatabase Writer->Parameters->Advanced->Failed Features Dump filename). In addition, the Writer parameter “Ignore Failed Features” should be set to “Yes” (which allows the script to continue after failed features are encountered), and also the Writer parameter “Dump Failed Features to File” needs to be set to “Yes” (which, along with the Failed Feature Dump filename”, would allow the failed features to be saved out to an .FFS file for troubleshooting purposes). 
