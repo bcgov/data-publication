@@ -655,6 +655,7 @@ This section applies to any reader that natively connects to an Oracle database.
 
 ##### Source Schema Owner Name (SRC_ORA_SCHEMA)
 +
+
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
