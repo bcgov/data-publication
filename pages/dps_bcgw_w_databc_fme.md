@@ -666,7 +666,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Default Value**|The owner (schema) of the table or view to be read, e.g., FORESTVIEW|
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name |
 
-![](images/image_ora_feature_type.png)   
+![](images/image_ora_feature_type.png)
 
 ##### Source Feature Name (SRC_FEATURE_1)
 +
@@ -676,7 +676,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Type**|Text |
 	|**Name**|SRC_FEATURE_1 |
 	|**Prompt**|Source table/view to be read and used in the replication |
-	|**Configuration**|N/A | 
+	|**Configuration**|N/A |
 	|**Attribute Assignment**|Default |
 	|**Default Value**|name of table or view, e.g., CUT_BLOCK_SHAPE|
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name |
