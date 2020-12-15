@@ -671,9 +671,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	![](images/image_ora_feature_type.png)
 
 ##### Source Feature Name (SRC_FEATURE_1)
-
 +
-
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
@@ -685,7 +683,7 @@ This section applies to any reader that natively connects to an Oracle database.
 	|**Default Value**|name of table or view, e.g., CUT_BLOCK_SHAPE|
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name |
 
-	![](images/image_ora_feature_type.png)  
+	![](images/image_ora_feature_type.png)
 
 ##### Source Service Name (SRC_ORA_SERVICENAME)
 + 
