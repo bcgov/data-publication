@@ -672,7 +672,7 @@ This section applies to any reader that natively connects to an Oracle database.
 
 ##### Source Feature Name (SRC_FEATURE_1)
 
-+ 
++ Use this parameter to specify the Oracle table or view being read.
 
 	|Field|Value|
 	|:---|:---|
