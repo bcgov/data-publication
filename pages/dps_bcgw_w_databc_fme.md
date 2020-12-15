@@ -671,7 +671,9 @@ This section applies to any reader that natively connects to an Oracle database.
 	![](images/image_ora_feature_type.png)
 
 ##### Source Feature Name (SRC_FEATURE_1)
-+
+
++ 
+
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
@@ -686,7 +688,9 @@ This section applies to any reader that natively connects to an Oracle database.
 	![](images/image_ora_feature_type.png)
 
 ##### Source Service Name (SRC_ORA_SERVICENAME)
+
 + 
+
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
@@ -700,7 +704,9 @@ This section applies to any reader that natively connects to an Oracle database.
 
 
 ##### Source Host (SRC_HOST)
+
 + 
+
 	|Field|Value|
 	|:---|:---|
 	|**Published/Private**|published |
