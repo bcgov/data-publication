@@ -120,7 +120,7 @@ The title of the dataset or application, and the acronym derived from it, are th
 
 The acronym is 3 to 5 characters in length and should be a representation of the business function of the dataset or the application that the dataset supports. It is used to identify the dataset or application in the Meta Repository (currently Oracle Designer) container name, all accounts on delivery servers, database schemas, and the prefix for all database objects created on any of the DataBC program's databases. It is mandatory that the dataset acronym be vetted by DataBC's DA and DBA for duplication as it must be unique. 
 
-In a database designed for holding data that supports applications (e.g., DataBC's DBC database), an acronym should represent the particular application that the data supports. In a data warehouse (e.g., DataBC's BCGW), an acronym should represent a business function rather than any particulr application since application names can change while the function of a dataset might not.
+In a database designed for holding data that supports applications (e.g., DataBC's DBC database), an acronym should represent the particular application that the data supports. In a data warehouse (e.g., DataBC's BCGW), an acronym should represent a business function rather than any particular application since application names can change while the function of a dataset might not.
 
 An example of dataset/application acronym naming is FWA which maps to the title "Fresh Watershed Atlas". Usually the acronym is the first letter of each word in the title.
 
