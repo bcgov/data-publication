@@ -48,7 +48,9 @@ The checklist ensures the following:
 ### That the data contains __no personal information__.
 
 ### That the __province has the intelectual property__ of the data.
-This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data.
+This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data and will ask for a copy of the data.
++ Recommend sending them the data in a format they can open, like csv or xlsx.
++ If the data is huge, a subset of rows can also be provided.
 
 Data Creation:
 +  Has the dataset been created solely by BC government employees?  If no, you will need to provide further details of the creation of the dataset, such as: 
