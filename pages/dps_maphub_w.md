@@ -53,13 +53,13 @@ Below are the steps to follow when publishing an AGO application:
 			1. Remember to include link(s) to your corresponding BCDC record(s) in the description section(s). 
 				1. You might have to go back to do this later if you haven’t created your BCDC records yet. 
 				1. Permalinks (URLs with unique ids instead of titles) are available from your BCDC records
-				1. Select the **Show the Permalink** icon on the BCDC metadata record and copy the URL in the _address bar_
+				1. Select the **Show the Permalink** icon on the BCDC metadata record and copy the permalink URL from the _address bar_
 			1. If you have a main application, it is a good practice to include a link to it from the description sections of any supporting AGO maps or apps etc, given that the public can land on these pages.
 			1. Best practice is to include information which a member of the public would need to ensure they can easily access your content and also easily understand the intended use. 
 	+  BC Data Catalogue
 		1. **Create a metadata record** for the AGO content (only for items that require it; i.e. apps, standalone web maps, AGO hosted feature layers…). See [_AGO SPECIFIC METADATA REQUIREMENTS_](#ago-specific-metadata-requirements) for more information. 
 		1. Refer to the [_BC DATA CATALOGUE METADATA GUIDELINES FOR ArcGIS ONLINE AUTHORS_](#bc-data-catalogue-bcdc-metadata-guidelines-for-ago-authors) section below for further information. If needed, we can be available for online tutorials.
-		1. When BCDC records are complete and ready to publish, AGO user must toggle the record state from Draft to Pending Publish (a flag for us to follow up).
+		1. When BCDC records are complete and ready to publish, editor/author must toggle the record state from Draft to Pending Publish (a flag for us to follow up).
 1. AGO user fills out the [_Publication Request Form_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) when all their content, metadata requirements and remaining items on the checklist are complete. 
    1. AGO user then obtains their Project Sponsor to approve and sign (typically Director level).
 1. AGO user **submits the approved checklist** to complete the publication process, via email **to** [_data@gov.bc.ca_](mailto:data@gov.bc.ca) and **cc** [_Maps Services_](mailto:datamaps@gov.bc.ca).
@@ -71,7 +71,7 @@ Below are the steps to follow when publishing an AGO application:
 ### Custodianship
 
 + All public facing ArcGIS Online (AGO) web maps, applications and AGO-hosted layers must have a [Data Custodian](glossary.md#data-custodian). 
-+ AGO users that are publishing data should be familiar with the associated roles and responsibilities for custodianship under BCDC Standards and Guidelines > [Roles and Responsibilities](dsg_bcdc_roles_responsibilities.md).
++ AGO users who are publishing data should be familiar with the associated roles and responsibilities for custodianship under BCDC Standards and Guidelines > [Roles and Responsibilities](dsg_bcdc_roles_responsibilities.md).
 
 ### Metadata
 
