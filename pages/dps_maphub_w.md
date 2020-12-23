@@ -71,7 +71,7 @@ Below are the steps to follow when publishing an AGO application:
 ### Custodianship
 
 + All public facing ArcGIS Online (AGO) web maps, applications and AGO-hosted layers must have a [Data Custodian](glossary.md#data-custodian). 
-+ AGO users that are publishing data should be familiar with the associated roles and responsibilities for custodianship under BCDC Standards and Guildeines > [Roles and Responsibilities](dsg_bcdc_roles_responsibilities.md).
++ AGO users that are publishing data should be familiar with the associated roles and responsibilities for custodianship under BCDC Standards and Guidelines > [Roles and Responsibilities](dsg_bcdc_roles_responsibilities.md).
 
 ### Metadata
 
