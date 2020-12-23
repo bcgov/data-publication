@@ -1,6 +1,6 @@
 ---
 layout: default
-title: B.C.'s Map Hub (ArcGIS Online) Publication Workflow
+title: B.C.'s Map Hub (ArcGIS Online) Content Publishing Information
 parent: Web-based Mapping
 nav_order: 71
 ---
