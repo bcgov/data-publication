@@ -54,7 +54,7 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 	+ [https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html#cql-tutorial](https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html#cql-tutorial)
 
 + WMS/WFS can be accessed through existing application programming interfaces (API) such as Leaflet, ArcGIS API for Javascript, and Openlayers. 
-+ WMS/WFS can be accessed can be accessed via client applications suchs as ArcGIS Desktop/Pro and QGIS.
++ WMS/WFS can be accessed can be accessed via client applications suchs as ArcGIS [Desktop/Pro](https://desktop.arcgis.com/en/arcmap/latest/map/web-maps-and-services/using-wms-service-layers.htm) and [QGIS](http://www.qgistutorials.com/en/docs/working_with_wms.html).
 
 + Don’t forget curl and wget!
 
