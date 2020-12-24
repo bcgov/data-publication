@@ -52,7 +52,9 @@ This page describes the staging areas, how to request access and specific requir
 ## STAGING AREA NAMING AND DATA QUALITY
 
 ### Valid Geometry
-+ Datasets are required to have valid geometries set at the standard tolerances and precision. 
++ Datasets are required to have valid geometries set at the [standard tolerances and precision](https://www.esri.com/arcgis-blog/products/arcgis-pro/analytics/geoprocessing-resolution-tolerance-and-hair/). 
+   + XY Resolution should be 0.0001 meters (1/10 millimeters) or its equivalent in map units. For example, if a feature class is stored in state plane feet, the default precision will be 0.0003281 feet (0.003937 inches). If coordinates are in latitude-longitude, the default resolution is 0.000000001 degrees.
+ + XY Tolerance should be 0.001 meters or its equivalent in map units.  This is 10 times larger than the default resolution value and is recommended in most cases.
 + Please use Check and/or Repair geometry tools prior to uploading to Staging.
 
 ### Naming and File Type Consistency
