@@ -25,7 +25,8 @@ is  a standardized HTTP interface used to access/query/analyze feature attribute
 	+ [HEADER - LEVEL 3](#header---level-3)
 		+ [HEADER - LEVEL 4](#header---level-4)
 			+ [HEADER - LEVEL 5](#header---level-5)
-
+			
+Thanks to Michelle D. for all her hard work on these services and documentation.
 -----------------------
 
 ## DOCUMENTATION REVIEW
