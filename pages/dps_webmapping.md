@@ -19,3 +19,5 @@ To learn more about the tools and services available that help make B.C. Governm
 + [Internet Mapping Framework 2 (IMF2)](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks/imf2.html)
 + [Simple Map Kit (SMK)](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks/smk.html)
 + [WMS/WFS](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
+
+[**Tips and tricks using WMS and WFS**](tips_tricks_webservices.md)
