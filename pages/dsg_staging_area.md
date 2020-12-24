@@ -51,15 +51,16 @@ This page describes the staging areas, how to request access and specific requir
 
 ## STAGING AREA NAMING AND DATA QUALITY
 
-+ Valid Geometry
-++ Datasets are required to have valid geometries set at the standard tolerances and precision. 
-++ Please use Check and/or Repair geometry tools prior to uploading to Staging.
-+ Naming and File Type Consistency
-++ File naming and structure of each participating dataset must remain constant, i.e.,
-+++ File names must not change case or spelling.
-+++ File types must stay the same.
-+++ Fields/attribute names must not change case or spelling.
-++ Geodatabase names should conform to naming standards as provided in:
+Valid Geometry
++ Datasets are required to have valid geometries set at the standard tolerances and precision. 
++ Please use Check and/or Repair geometry tools prior to uploading to Staging.
+
+Naming and File Type Consistency
++ File naming and structure of each participating dataset must remain constant, i.e.,
+   + File names must not change case or spelling.
+   + File types must stay the same.
+   + Fields/attribute names must not change case or spelling.
++ Geodatabase names should conform to naming standards as provided in:
  [BCGW File Geodatabase Standards](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
 + See the [guidelines on file based content](dsg_bcdc_file_based_content.md) to assist in the structure of the content.
 + See the [Naming and Describing Standards](dsg_naming_describing.md) used for the BCGW as these too can assist in building a model or attributes of a file.
