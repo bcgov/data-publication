@@ -2,9 +2,9 @@
 layout: default
 nav_order: 112
 title: Web Services Tips and Tricks
-parent:Tips & Tricks
+parent: Tips & Tricks
 has_toc: false
-nav_exclude: true
+
 ---
 # WHAT ARE WFS AND WMS
 
