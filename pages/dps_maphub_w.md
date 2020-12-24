@@ -135,4 +135,4 @@ AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes 
 
 [RETURN TO TOP][1]
 
-[1]: #data-publication-workflow---ago
+[1]: #bcs-map-hub---publication-workflow
