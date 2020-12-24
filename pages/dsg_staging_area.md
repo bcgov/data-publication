@@ -51,11 +51,11 @@ This page describes the staging areas, how to request access and specific requir
 
 ## STAGING AREA NAMING AND DATA QUALITY
 
-Valid Geometry
+### Valid Geometry
 + Datasets are required to have valid geometries set at the standard tolerances and precision. 
 + Please use Check and/or Repair geometry tools prior to uploading to Staging.
 
-Naming and File Type Consistency
+### Naming and File Type Consistency
 + File naming and structure of each participating dataset must remain constant, i.e.,
    + File names must not change case or spelling.
    + File types must stay the same.
