@@ -16,6 +16,8 @@ is a standardized HTTP interface used to styling & render data into a map (image
 [Web Feature Services (WFS)](https://en.wikipedia.org/wiki/Web_Feature_Service)
 is  a standardized HTTP interface used to access/query/analyze feature attributes. 
 
+Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard work on these services and documentation.
+
 |**AUDIENCE**|  |  |  |  | 
 |:---:|:---:|:---:|:---:|:---:|
 | *Audience 1* | *Audience 2* | *Audience 3* | *Audience 4* | *Audience 5* |
@@ -26,8 +28,6 @@ is  a standardized HTTP interface used to access/query/analyze feature attribute
 		+ [HEADER - LEVEL 4](#header---level-4)
 			+ [HEADER - LEVEL 5](#header---level-5)
 			
-Thanks to Michelle D. for all her hard work on these services and documentation.
-
 -----------------------
 
 ## DOCUMENTATION REVIEW
