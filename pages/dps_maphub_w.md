@@ -53,7 +53,7 @@ Below are the steps to follow when publishing an AGO application:
 	+ AGO
 		1. **Populate the AGO item details pages** with metadata. Each AGO item has its own item details page accessible to the public.
 1. Complete the [_Publication Request Form_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) including your Project Sponsor's approval signature (typically Director level).
-1. **Sumit the approved checklist** to complete the publication process, via email **to** [_data@gov.bc.ca_](mailto:data@gov.bc.ca) and **cc** [_Maps Services_](mailto:datamaps@gov.bc.ca).
+1. **Submit the approved checklist** to complete the publication process, via email **to** [_data@gov.bc.ca_](mailto:data@gov.bc.ca) and **cc** [_Maps Services_](mailto:datamaps@gov.bc.ca).
 ---------------------
 
 ## METADATA GUIDELINES FOR AGO AUTHORS
