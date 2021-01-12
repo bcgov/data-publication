@@ -10,7 +10,7 @@ has_toc: false
 
 Visualize and analyze the wealth of B.C. geographic information using a variety of web-based map tools and map services.
 
-To learn more about the tools and services available that help make B.C. Government's data accessible to online users, visit [Web-based Mapping](https://www2.gov.bc.ca/gov/content?id=347AC53EB6F84601841241BD51FF3871) webpage and [Web-Mapping Framework Options](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks).
+To learn more about the tools and services available that help make B.C. Government's data accessible to online users, see [BC Map Services](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E), [Web-based Mapping](https://www2.gov.bc.ca/gov/content?id=347AC53EB6F84601841241BD51FF3871) and [Web-Mapping Framework Options](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks).
 
 
 + [BC Map Hub (AGO)](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)  
