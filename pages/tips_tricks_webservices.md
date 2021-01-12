@@ -1,14 +1,14 @@
 ---
 layout: default
 nav_order: 112
-title: Web Services Tips and Tricks
+title: WFS and WMS
 parent: Tips & Tricks
 has_toc: false
 
 ---
-# WHAT ARE WFS AND WMS
+# WFS AND WMS TIPS AND TRICKS
 
-Developed by the  Open Geospatial Consortium (OGC), an international not for profit organization.
+WFS and WMS were developed by the Open Geospatial Consortium (OGC), an international not for profit organization.
 
 [Web Map Services (WMS)](https://en.wikipedia.org/wiki/Web_Map_Service)
 is a standardized HTTP interface used to styling & render data into a map (image) and perform identify operations.
@@ -20,25 +20,11 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 
 |**AUDIENCE**|  |  |  |  | 
 |:---:|:---:|:---:|:---:|:---:|
-| *Audience 1* | *Audience 2* | *Audience 3* | *Audience 4* | *Audience 5* |
+| *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
-## Table of Contents
-+ [**HEADER - LEVEL 2**](#header---level-2)
-	+ [HEADER - LEVEL 3](#header---level-3)
-		+ [HEADER - LEVEL 4](#header---level-4)
-			+ [HEADER - LEVEL 5](#header---level-5)
-			
 -----------------------
 
-## DOCUMENTATION REVIEW
-
-**DataBC BC Map Serivces documentation** [https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
-
-+ What does DataBC offer for WMS?
-	+ [http://openmaps.gov.bc.ca](http://openmaps.gov.bc.ca) the root of this url/domain will redirect to this page.
-	+ Documentation for other spatially related resources can be found here: [https://bcgov.github.io/bcwebmaps-options/](https://bcgov.github.io/bcwebmaps-options/)
-
-**BC Data Catalogue Search Results for WMS available** [http://catalogue.data.gov.bc.ca/dataset?download_audience=Public&res_format=wms](http://catalogue.data.gov.bc.ca/dataset?download_audience=Public&res_format=wms)
+**[BC Data Catalogue Search Results for WMS](http://catalogue.data.gov.bc.ca/dataset?download_audience=Public&res_format=wms)**
 
 **Links**
 + [http://www.opengeospatial.org/standards/wms](http://www.opengeospatial.org/standards/wms)
@@ -57,8 +43,6 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 + WMS/WFS can be accessed can be accessed via client applications suchs as ArcGIS [Desktop/Pro](https://desktop.arcgis.com/en/arcmap/latest/map/web-maps-and-services/using-wms-service-layers.htm) and [QGIS](http://www.qgistutorials.com/en/docs/working_with_wms.html).
 
 + Don’t forget curl and wget!
-
-
 
 -----------------------
 
@@ -292,4 +276,4 @@ var parameterswfs = L.Util.extend(defaultParameterswfs);
 
 [RETURN TO TOP][1]
 
-[1]: #what-are-wfs-and-wms
+[1]: #wfs-and-wms-tips-and-tricks
