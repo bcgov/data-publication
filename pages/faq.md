@@ -255,20 +255,20 @@ The following sections will help explain the difference between **Open Data** an
 
 + DataBC hosts iMapBC as a service for data residing in the BCGW.
    + To publish data in iMapBC, the data must be available in the BCGW.
-   + Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse).
+   + Refer to: [The BC Geographic Warehouse (BCGW)](#the-bc-geographic-warehouse-bcgw) section below.
 
 ### How do I get my data into WMS/WFS?
 
 + DataBC hosts WMS/WFS as a service for data residing in the BCGW.
    + To publish data in this service, the data must be available in the BCGW.
-   + Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse).
+   + Refer to: [The BC Geographic Warehouse (BCGW)](#the-bc-geographic-warehouse-bcgw) section below.
 
 ## ARCGIS ONLINE (aka AGO, B.C.'s MAP HUB)
 
 ### How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?
 
 + There are two ways:
-   1. Public datasets published to the BC Geographic Warehouse are all made available in ArcGIS Online ([_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) as part of the [_Data Publication Workflow_](pages/bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse). 
+   1. Public datasets published to the BC Geographic Warehouse are all made available in ArcGIS Online ([_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) as part of the [_BC Geographic Warehouse - Publication Workflow_](dps_bcgw_w.md). 
       1. These datasets are stored in the BC Geographic Warehouse, published as web services and registered as items in B.C.’s Map Hub. These services can then be used in any ArcGIS Online web map (or used by other web mapping platforms that can consume ESRI rest services). 
 	  1. In some cases we may replicate BCGW layers to ArcGIS Online; the data is hosted in ArcGIS Online and updated from data sources on a regular schedule to keep it current.  These "hosted layers" can then be used in any ArcGIS Online web map (or used by other web mapping platforms that can consume ESRI rest services).  This is a pattern typically chosen for layers that may see high traffic periods that need to leverage ArcGIS Online’s scalability to meet high traffic demand. 
    1. You may also upload datasets yourself to ArcGIS Online. 
@@ -311,7 +311,7 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 ### How do I publish data to the BCGW? Who do I contact at DataBC to publish my data to the BCGW?
 
-+ Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](https://github.com/bcgov/data-publication/blob/master/pages/dps_bcgw_w.md).
++ Refer to: [_BC Geographic Warehouse - Publication Workflow_](dps_bcgw_w.md).
 
 ### How long does it take to publish to the BCGW?
 
@@ -384,16 +384,16 @@ Before asking to publish data to the BCGW, consider:
 
 #### How do I request that my dataset be refreshed (outside the normal schedule)?
 
-+ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Dataset Refresh Request - Outside of Normal Schedule**, providing the url of the dataset(s) affected.
++ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Request: Dataset Refresh - Outside of Normal Schedule**, providing the url of the dataset(s) affected.
 
 #### How do I get the refresh scheduled frequency changed?
 
 + The refresh frequency of a dataset may change over its lifecycle. This can be altered as needed to meet the business requirements. 
-+ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Dataset Refresh Frequency Change Request**, providing the url of the dataset(s) affected.
++ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Request: Dataset Refresh Frequency Change**, providing the url of the dataset(s) affected.
 
 #### How do I determine the source of a dataset in the BCGW?
 
-+ A custodial business area or delegate may email  [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Source of Dataset in BCGW Request**, providing the url of the dataset(s) to determine a source. 
++ A custodial business area or delegate may email  [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Request: Source of Dataset in BCGW**, providing the url of the dataset(s) to determine a source. 
 + As folks move around government or retire, at times the knowledge of the data flow may become unknown to a data provider. 
 + The DataBC Architecture Services team can assist with understanding how the data gets from source to the BCGW.
 
@@ -444,7 +444,7 @@ Before asking to publish data to the BCGW, consider:
 
 #### How do I retire a dataset from the BCGW?
 
-+ Refer to [BCGW Data Retirement Process] for details of the retirement process
++ Refer to: [BCGW Data Retirement Process] for details of the retirement process
 
 --under construction--
 
