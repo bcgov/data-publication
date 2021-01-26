@@ -311,7 +311,7 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 ### How do I publish data to the BCGW? Who do I contact at DataBC to publish my data to the BCGW?
 
-+ Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](bcgw_data_onboarding_workflow.md#data-publication-workflow---bc-geographical-warehouse).
++ Refer to the [_Data Publication Workflow - BC Geographical Warehouse_](https://github.com/bcgov/data-publication/blob/master/pages/dps_bcgw_w.md).
 
 ### How long does it take to publish to the BCGW?
 
