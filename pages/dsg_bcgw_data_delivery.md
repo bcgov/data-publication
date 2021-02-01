@@ -395,7 +395,7 @@ Before submitting a delivery kit to the DataBC program, make sure that you have 
 
 ## REFERENCES
 
-+ [_SDO extent metadata calculation template_](https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/xyz_WHSE/WHSE_SCHEMA_NAME/scripts/xyz_whse_compute_mdsys_extents.sql)
++ [_SDO extent metadata calculation template_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/scripts/xyz_whse_compute_mdsys_extents.sql)
 
 Refer to [_Connecting to Gogs_](tips_tricks.md#connecting-to-gogs) for details on how to log in to Gogs.    
 
