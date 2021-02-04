@@ -15,6 +15,6 @@ For more information on this service see the [BC Address Geocoder website](https
 
 B.C. local governments interested in contributing their address data for use in the BC Address Geocoder are encouraged to contact DataBC at [Data@gov.bc.ca](mailto:Data@gov.bc.ca).
 
-BC Geocoder [Frequently Asked Questions](https://www2.gov.bc.ca/gov/content?id=6EAB0DFF70314BB8B396E863F7BF10A0).
+BC Geocoder [Frequently Asked Questions](https://github.com/bcgov/ols-geocoder/blob/gh-pages/faq.md).
 
 -------------------------------------------------------
