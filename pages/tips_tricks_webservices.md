@@ -65,7 +65,7 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 
 WMS/WFS requests can be made for all layers or as a separate service each layer/feature class:
 + [http://openmaps.gov.bc.ca/geo/pub/wms?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/wms?request=GetCapabilities)
-+ [http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilitie](http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilitie)
++ [http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilities)
 + [http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wms?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wms?request=GetCapabilities)
 + [http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wfs?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wfs?request=GetCapabilities)
 
