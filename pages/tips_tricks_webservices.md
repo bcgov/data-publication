@@ -65,7 +65,7 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 
 WMS/WFS requests can be made for all layers or as a separate service each layer/feature class:
 + [http://openmaps.gov.bc.ca/geo/pub/wms?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/wms?request=GetCapabilities)
-+ [http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilitie](http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilitie)
++ [http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/wfs?request=GetCapabilities)
 + [http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wms?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wms?request=GetCapabilities)
 + [http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wfs?request=GetCapabilities](http://openmaps.gov.bc.ca/geo/pub/WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY/wfs?request=GetCapabilities)
 
@@ -138,22 +138,29 @@ Response in JSON:
 
 ### MORE COMPLEX
 
-**Give me all the Dams in the Cariboo District, as KML points**:
+**Give me all the Dams in the Cariboo District, output as KML**:
 
 [https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&request=GetMap&version=1.1.1&format=application/vnd.google-earth.kml+xml&layers=WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&styles=3959&height=2048&width=2048&transparent=false&srs=EPSG:4326&format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:download;SUPEROVERLAY:false&CQL_FILTER=%22REGION_NAME%22=%27CARIBOO%27&bbox=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526](https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&request=GetMap&version=1.1.1&format=application/vnd.google-earth.kml+xml&layers=WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&styles=3959&height=2048&width=2048&transparent=false&srs=EPSG:4326&format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:download;SUPEROVERLAY:false&CQL_FILTER=%22REGION_NAME%22=%27CARIBOO%27&bbox=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526)
 
-**Give me the attributes and location of the Water Well with Well Tag # 65501 in JSON**:
+**Give me the attributes and location of the Water Well with Well Tag # 65501, output as JSON**:
 
 [http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=text%2Fjavascript&format_options=callback%3AgetJson&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501&callback=getJson&_=1525714041640](http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=text%2Fjavascript&format_options=callback%3AgetJson&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501&callback=getJson&_=1525714041640)
 
-**Give me Land Parcel Information at a specified location in HTML**:
+**Give me Land Parcel Information at a specified location, output as HTML**:
 
 [https://openmaps.gov.bc.ca/geo/pub/WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&BBOX=48.40785014436799116,-123.36256681214997855,48.41958084268204487,-123.34925222208043749&CRS=EPSG:4326&WIDTH=538&HEIGHT=474&LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&STYLES=&FORMAT=image/png&QUERY_LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&INFO_FORMAT=text/html&I=109&J=187&FEATURE_COUNT=10](https://openmaps.gov.bc.ca/geo/pub/WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&BBOX=48.40785014436799116,-123.36256681214997855,48.41958084268204487,-123.34925222208043749&CRS=EPSG:4326&WIDTH=538&HEIGHT=474&LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&STYLES=&FORMAT=image/png&QUERY_LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&INFO_FORMAT=text/html&I=109&J=187&FEATURE_COUNT=10)
 
-**Give me All objects from the major cities object that fall within a Vancouver Island bounding box**:
+**Give me all features from the Major Cities layer that fall within a Vancouver Island bounding box, output as JSON**:
 
 [https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=json&typeName=WHSE_BASEMAPPING.BC_MAJOR_CITIES_POINTS_500M&SRSNAME=EPSG%3A3005&CQL_FILTER=WITHIN%28GEOMETRY%2C%20POLYGON%20%28%28830772.7%20367537.4%2C%201202463%20367537.4%2C%201202463%20651616.7%2C%20830772.7%20651616.7%2C%20830772.7%20367537.4%29%29%29](https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=json&typeName=WHSE_BASEMAPPING.BC_MAJOR_CITIES_POINTS_500M&SRSNAME=EPSG%3A3005&CQL_FILTER=WITHIN%28GEOMETRY%2C%20POLYGON%20%28%28830772.7%20367537.4%2C%201202463%20367537.4%2C%201202463%20651616.7%2C%20830772.7%20651616.7%2C%20830772.7%20367537.4%29%29%29)
 
+**Give me the Community Health Service Area based intersection of a point location I supply, output as JSON**:
+
+[https://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=pub%3AWHSE_ADMIN_BOUNDARIES.BCHA_CMNTY_HEALTH_SERV_AREA_SP&srsname=EPSG:4326&cql_filter=INTERSECTS(SHAPE,POINT(1224584.57951%20469989.94624))&propertyName=CMNTY_HLTH_SERV_AREA_NAME,LOCAL_HLTH_AREA_NAME,HLTH_SERVICE_DLVR_AREA_NAME,HLTH_AUTHORITY_NAME&outputFormat=application%2Fjson](https://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=pub%3AWHSE_ADMIN_BOUNDARIES.BCHA_CMNTY_HEALTH_SERV_AREA_SP&srsname=EPSG:4326&cql_filter=INTERSECTS(SHAPE,POINT(1224584.57951%20469989.94624))&propertyName=CMNTY_HLTH_SERV_AREA_NAME,LOCAL_HLTH_AREA_NAME,HLTH_SERVICE_DLVR_AREA_NAME,HLTH_AUTHORITY_NAME&outputFormat=application%2Fjson)
+
+**Give me the Crown Tenures for a bounding box, output as text**:
+
+[https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50](https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50)
 -----------------------
 
 ## MAX NUMBER OF FEATURE LIMIT - PAGINATION AND WORK-AROUNDS FOR LARGER DATASETS
@@ -170,13 +177,13 @@ Using this constraint and a query of the hits in a wfs request allows the develo
 
 [https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&CQL_FILTER=DWITHIN(GEOMETRY,POINT(1161815%20452123),1000,meters)&resulttype=hits](https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&CQL_FILTER=DWITHIN(GEOMETRY,POINT(1161815%20452123),1000,meters)&resulttype=hits)
 
-Taking from geoserver docs..”Maximum number of features” — Maximum number of features that a WFS GetFeature operation should generate, 
+Taking from geoserver docs..."Maximum number of features" — Maximum number of features that a WFS GetFeature operation should generate, 
 regardless of the actual number of query hits. A WFS request can potentially contain a large dataset that is impractical to download to 
 a client, and/or too large for a client’s renderer. Maximum feature limits are also available for feature types. 
 
  
 Some examples for developers - 
-1. If I request a count of more than the 10,000 max feature limit.. like this in csv output:
+1. If I request a count of more than the 10,000 max feature limit.. like this in CSV output:
 + [https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=csv&typeNames=WHSE_ENVIRONMENTAL_MONITORING.EMS_MONITORING_LOCN_GROUPS_SVW&propertyName=OBJECTID&count=100000](https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=csv&typeNames=WHSE_ENVIRONMENTAL_MONITORING.EMS_MONITORING_LOCN_GROUPS_SVW&propertyName=OBJECTID&count=100000)  
 + I will get 10,0001 features returned.. a warning that perhaps there are more features in the object (greater that the WFS max feature limit) – but this isn’t really obvious to the untrained eye.
 
