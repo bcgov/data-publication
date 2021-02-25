@@ -57,6 +57,12 @@ has_toc: false
 
 ## WHO'S WHO AT DATABC
 
+### Technical Support regarding DataBC products and services
++ (250) 952-6801
++ NRSApplications@gov.bc.ca
++ https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals
+
+
 The following is a list of DataBC groups with direction on their areas of expertise and who to contact when you need assistance and clarification.
 
 ### Data Discovery Services 
