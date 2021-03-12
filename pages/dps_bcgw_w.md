@@ -36,7 +36,7 @@ This page is written in the context that you have reviewed the documentation as 
 	+ [BC Data Catalogue Metadata Record](#bc-data-catalogue-metadata-record)
 	+ [Deploy and Approve Content in Delivery](#deploy-and-approve-content-in-delivery)
 	+ [Migrate and Approve Content in Test](#migrate-and-approve-content-in-test)
-+ [**LAYERFILE PRESENTATION**](#layerfile-presentation)
++ [**LAYER FILE PRESENTATION**](#layer-file-presentation)
 + [**DATA DISTRIBUTION**](#data-distribution)
 + [**DATA REPLICATION**](#data-replication)
 + [**DATA DEPLOYMENT - PRODUCTION**](#data-deployment---production)
@@ -263,7 +263,7 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 
 -----------------------
 
-## LAYERFILE PRESENTATION
+## LAYER FILE PRESENTATION
 
 The purpose of a [layerfile](glossary.md#layerfile) presentation is to present data in a consistent manner that best supports users' needs for analysis and decision-making. In effect, it represents a business view of the data from the users' perspective, rather than the operational view of the source system. Ideally, the layerfile presentation should make invisible the complexities and technicalities of the underlying physical data structures. 
 
