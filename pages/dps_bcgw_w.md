@@ -281,7 +281,7 @@ Typically, it includes elements such as these:
 
 This step usually requires substantial input from the business area. You can expedite the process by identifying who will make decisions about presentation and then arranging one or two focused meetings to reach agreement.
 
-For more information on the requirements for layer presentations as required for DataBC’s mapping applications and services, please see DataBC's [layer file presentation standards](dsg_bcgw_layer_file_presentation.md). 
+For more information on the requirements for layer presentations as required for DataBC’s mapping applications and services, please see DataBC's [Layer File Presentation Standards](dsg_bcgw_layer_file_presentation.md). 
 
 #### Activities
 
