@@ -267,7 +267,7 @@ Once the data has been successfully deployed to BCGW Delivery, DataBC can then m
 
 The purpose of a [layerfile](glossary.md#layerfile) presentation is to present data in a consistent manner that best supports users' needs for analysis and decision-making. In effect, it represents a business view of the data from the users' perspective, rather than the operational view of the source system. Ideally, the layerfile presentation should make invisible the complexities and technicalities of the underlying physical data structures. 
 
-Layerfile presentations for iMapBC and ArcGIS can be built at any time throughout the process, but must be configured for the data once it is deployed in PRODUCTION. 
+Layerfile presentations for iMapBC and ArcGIS can be built at any time throughout the process, but must be configured for the data once deployed in PRODUCTION. 
 Typically, it includes elements such as these:
 
 + user-friendly names for data layers, tables and columns, e.g.,
@@ -281,14 +281,17 @@ Typically, it includes elements such as these:
 
 This step usually requires substantial input from the business area. You can expedite the process by identifying who will make decisions about presentation and then arranging one or two focused meetings to reach agreement.
 
+For more information on the requirements for layer presentations as required for DataBC’s mapping applications and services, please see DataBC's [layer file presentation standards](dsg_bcgw_layer_file_presentation.md). 
+
 #### Activities
 
 + DataBC will contact you to discuss how you want your data named and presented.
    + You may also provide an ArcGIS layer file. If you do this, DataBC will review and approve the file
-   + Alternatively, you may ask DataBC to develop a layer file on your behalf. 
+   + Alternatively, you may ask DataBC to develop an ArcGIS layer file on your behalf. 
       + In this case, DataBC will develop a first version according to your instructions and then send to you for review and approval.
-+ Once the layer file is defined, DataBC will translate it for use with in various warehouse access channels for use with web mapping tools such as iMapBC.
++ Once the layer file is defined, DataBC will translate it for use within various warehouse access channels for use with web mapping tools such as iMapBC.
 + You will then be asked to review and approve the translation within a test environment.
++ The layer file will then be migrated into production by DataBC, and you may be asked to review and approve at this final stage in production.
 
 For more information about the various tools available to view, analyze and connect to data, visit the [BC Government's Data page](https://www2.gov.bc.ca/gov/content/data).
 
