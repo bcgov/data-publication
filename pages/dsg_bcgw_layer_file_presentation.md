@@ -53,8 +53,10 @@ Before a layer file can be created, the following must already exist:
 + The spatial dataset must already be modelled and published in the BC Geographic Warehouse (BCGW) database.
 + There must already be a BC Data Catalogue (BCDC) metadata record for the dataset.
 
-Esri layer file version:
+Layer file and BCGW database credentials:
++ **IMPORTANT:** The layer file must not be created with embedded credentials to the BCGW database. 
 
+Esri layer file version:
 + **Layer files must be Esri ArcGIS 10.6** and use the file extension ".lyr"
 
 ---------------------------------------------------------------------
@@ -246,7 +248,12 @@ The following standard ratios must be used for minimum and maximum scales:
 Confirm the correct dataset and connection properties are being used.
 
 + Are the correct Connection Properties to the production BCGW instance being used?
+   + **IMPORTANT:** The BCGW database connection MUST NOT be configured with embedded credentials  
+      + Do not create your layer file with BCGW data sourced using an .sde Database Connection file that has a user name and password saved
+      + i.e., when you add your layer file to a new MXD you should always be asked for your BCGW username and password. 
+      + _Embedded credentials are a potential security threat._ 
 + Is the correct BCGW dataset (Feature Class) being used?
+
 
 ### Selection Tab
 
