@@ -45,7 +45,7 @@ There are five options for where data gets stored in the DataBC Program, each wi
 **Security** - Public | ![](/images/green_check.png) | ![](/images/green_check.png)  | ![](/images/green_check.png) <br /> through the public publication request form | ![](/images/green_check.png)  | ![](/images/green_check.png) |
 **Security** - IDIR	| ![](/images/green_check.png) <br /> for metadata only | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 **Security** - Named Users | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
-**Security** - Role-based | ![](/images/grey_dash.png) | ![](/images/green_check.png) <br /> in comination with Public, IDIR, Named Users | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
+**Security** - Role-based | ![](/images/grey_dash.png) | ![](/images/green_check.png) <br /> in combination with Public, IDIR, Named Users | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 **Security** - BCeID | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 **Format** | BCGW dataset (Oracle object), ArcGIS Rest, atom, cded, cvs, e00, fgdb, geojson, georss, gft, html, json, kml, kmz, openapi-json, pdf, rdf, shp, tsv, txt, wms, wmts, xls, xlsx, xml, zip, other | Oracle object (spatial and non-spatial) | WMS, WFS, Shapefile, CSV, TXT, GPX, GeoJSON | Any | Any
 **File Size** | < 150 mb | datasets configured for distribution: < 2 GB zipped | < 500 mb | > 150 mb | Any
