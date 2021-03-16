@@ -1,9 +1,3 @@
----
-layout: default
-title: Before You Start
-nav_order: 2
-has_toc: false
----
 
 # BEFORE YOU START 
 
