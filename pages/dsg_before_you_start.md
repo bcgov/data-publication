@@ -110,7 +110,7 @@ Changes to the structure of the dataset after the initial load may incur additio
 
 ## DATA PUBLICATION REQUEST
 
-To request a data publication using the DataBC Program's services, complete and submit the [Before You Start](images/Before_You_Start.docx) form.
+To request a data publication using DataBC's services, complete and submit the [Before You Start](images/Before_You_Start.docx) form.
 
 -----------------------------------------
 
