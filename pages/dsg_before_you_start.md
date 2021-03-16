@@ -15,13 +15,9 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 
 ## Table of Contents
 + [**DATA PUBLICATION CHANNELS**](#data-publication-channels)
-+ [**QUESTIONS**](#questions)
-	+ [Questions about the Data](#questions-about-the-data)
-	+ [Custodianship Considerations](#custodianship-considerations)
-	+ [Relationship to Legislation](#relationship-to-legislation)
-	+ [Audience Considerations](#audience-considerations)
-	+ [Dataset Readiness](#dataset-readiness)
-	+ [Financial Obligations](#financial-obligations)
++ [**DATASET READINESS**](#dataset-readiness)
++ [**FINANCIAL OBLIGATIONS**](#financial-obligations)
++ [**DATA PUBLICATION REQUEST**](#data-publication-request)
 + [**NEXT STEPS**](#next-steps)
 
 -----------------------
@@ -67,78 +63,13 @@ There are five options for where data gets stored in the DataBC Program, each wi
 
 -----------------------------------------
 
-## QUESTIONS
-
-To request a data publication using the DataBC Program's services, complete and submit the [Before You Start](images/Before_You_Start.docx) form.
-
-In order to help us determine how your data best fits into these options and services, please take a moment to answer the following questions (copy and paste into an email or word doc), and send your responses, or questions/concerns to the [DataBC Data Architecture Services](faq.md#data-architecture-services) team.
-
-### Questions about the Data
-
-+ Provide a short description of the dataset(s).
-+ Does the data already exist in the DataBC Program? (e.g., the BC Geographic Warehouse, the BC Data Catalogue, etc.)
-   + If these are replacement dataset(s), what are the dataset(s) to retire?
-+ Does this data belong with any other groupings of data in the BC Geographic Warehouse?
-+ Is the data provincial in extent? This doesn't mean that the dataset necessarily contains data for all parts of the province.  It just means that if there were data for some other part of the province then it would be included in the dataset.
-   + If not provincial in extent now, is there an intent to make the dataset provincial in extent in the future?
-
-#### Dataset Complexity
-
-+ How many datasets (please indicate if point, line, polygon, or non-spatial) and approximately how many attribute field columns are there in each dataset? 
-+ What is the size of each dataset (approx. how many features/records?)
-+ What is its intended growth (e.g., it will grow 10% over the next year and 1% after?)
-+ How frequently is the data to be updated? (nightly, weekly, monthly, annually, ad-hoc)
-+ What is the file format and where is the source data currently stored? 
-   + Is it in database or a file store?
-
------------------------------------------
-
-### Custodianship Considerations
-
-+ Has this dataset been created by the Province of British Columbia?
-   + If no, is your business area the authorized [_Data Steward_](dsg_bcdc_roles_responsibilities.md#the-data-steward)?
-   		+ For example, BCStats acts as the authorized _Data Steward_ for data collected and disseminated by Statistics Canada.
-+ Do you have Director level approval? 
-   + Your Director will be the _Data Custodian_, and ultimately accountable for the dataset.
-   + Refer to [_What is a Data Custodian_](dsg_bcdc_roles_responsibilities.md#what-is-a-data-custodian) for further details.
-+ Is there a program (staff and resources) in place to ensure this data kept up-to-date? Are there identified staff managing the data, i.e., Data Manager?
-   + Refer to [_What it means to be a Data Manager_](dsg_bcdc_roles_responsibilities.md#what-it-means-to-be-a-data-manager) for further details.
-
------------------------------------------
-
-### Relationship to Legislation
-
-+ Is this dataset associated with legislation or policy? In other words, is the dataset:
-   + required by legislation or policy? (e.g., to provide public access)
-   + necessary to assist staff in carrying out tasks required by legislation or policy?
-
------------------------------------------
-
-### Audience Considerations
-
-+ Who is the intended audience? Public, BC Government, People with a Business BCeID, Individual specific people. 
-   + If the audience is the public, is the intention to make the data under the [_BC Open Government Licence_](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)?  
-+ Are there existing or new applications that will use this data?    
-+ What tools (visualize or otherwise) will be used to access the data?
-   + [BC Data Catalogue](https://catalogue.data.gov.bc.ca)
-   + [iMapBC](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc) 
-   + [Web-mapping Frameworks](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/bc-spatial-data-infrastructure/webmapping)
-   		+ [BC's Map Hub (ArcGIS Online)](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2) 
-   + [Data Distribution Services (Downloads)](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/data-distribution-services)
-   + Direct Connect for internal government GIS users (e.g., ArcGIS/ArcMap, SQL Developer) 
-   + Outside DataBC tools/application (existing applications or potentially a new application)
-
-[RETURN TO TOP][1]
-
------------------------------------------
-
-### Dataset Readiness
+## DATASET READINESS
 
 To find out if your data is ready for the BCGW, see [Workflow - Is my data ready for the BCGW?](dps_bcgw_w.md#workflow---is-my-data-ready-for-the-bcgw)
 
 -----------------------------------------
 
-### Financial Obligations
+## FINANCIAL OBLIGATIONS
 
 DataBC operates on a cost-recovery basis, so there _may_ be a charge to your branch for making your data available through the DataBC program. 
 
@@ -177,15 +108,17 @@ Changes to the structure of the dataset after the initial load may incur additio
 
 -----------------------------------------
 
+## DATA PUBLICATION REQUEST
+
+To request a data publication using the DataBC Program's services, complete and submit the [Before You Start](images/Before_You_Start.docx) form.
+
+-----------------------------------------
+
 ## NEXT STEPS
 
-Please send answers to the questions above to the [DataBC Data Architecture Services](faq.md#data-architecture-services) team. 
+Once you have submitted the [Before You Start](#data-publication-request) form to DataBC, you will receive a response from one of our team members outlining next steps. 
 
-In addition, the following resources will help to answer any questions you may have on the publication process:
-
-+ BC Geographic Warehouse > [_Publication Workflow_](dps_bcgw_w.md): a step by step guide to the data onboarding process for data to be loaded into the BC Geographic Warehouse.
-+ [_Frequently Asked Questions_](faq.md)
-+ [_DataBC Program Key Contacts_](faq.md#WHOS-WHO-AT-DATABC)
+To learn more about the data publication process, check out the standards, guidelines and workflows within this site. If you have any questions along the way, one of our [_DataBC Program Key Contacts_](faq.md#WHOS-WHO-AT-DATABC) will be happy to assist.
 
 -----------------------------------------
 
