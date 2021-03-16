@@ -11,7 +11,7 @@ has_toc: false
 When completing the metadata record, there are both required and non-required fields. The table below will help to define some of the fields that can be completed in a metadata record and provide suggestions on how to best complete this with your end-users in mind.
 
 * Mandatory fields are marked with an *.
-* Not all fields are included for each resource type. For a full list see [the table here:](https://github.com/bcgov/data-standards/blob/master/pages/metadata_standards.md#MANDATORY-METADATA-FOR-THE-BC-DATA-CATALOGUE)
+* Not all fields are included for each resource type. For a full list see [the table here:](dsg_bcdc_metadata_standards.md)
 
 |Data Element|Example(s)|Recommendations|
 |:---|:---|:---|
