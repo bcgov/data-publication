@@ -69,6 +69,8 @@ There are five options for where data gets stored in the DataBC Program, each wi
 
 ## QUESTIONS
 
+To request a data publication using the DataBC Program's services, complete and submit the [Before You Start](images/Before_You_Start.docx) form.
+
 In order to help us determine how your data best fits into these options and services, please take a moment to answer the following questions (copy and paste into an email or word doc), and send your responses, or questions/concerns to the [DataBC Data Architecture Services](faq.md#data-architecture-services) team.
 
 ### Questions about the Data
