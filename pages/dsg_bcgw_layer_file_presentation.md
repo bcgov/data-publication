@@ -288,6 +288,7 @@ Symbology defines how geographic features are displayed
 + Recommend choosing symbology from the ArcMap styles in 'Style References...' - > 'ESRI_Optimized'
 + Using Simple Marker/Line/Fill symbols is highly recommended - these can be more easily translated into all DataBC services
 + Using Picture Marker/Line/Fill symbols is not recommended - these symbols aren't always translated into all DataBC services (e.g., WMS) and so a simple default symbol will be automatically defined (in these cases the default colour or simple shape may not always be suitable)
++ Using multiple levels/layers in a particular symbology style is not recommended (e.g., thick line below a thinner line, or a hatched polygon fill over a solid polygon fill) - these symbols are usually not translated into iMapBC and other DataBC services. It is best to have only a single level for each symbol.
 + Use the standard category \<all other values\> when you anticipate that new values will be added to your dataset over time which won't be captured within your currently-defined categories.
 + Themes on fields that contain codes or cryptic text should have their Symbol Labels written out in plain text for general understanding. 
 
