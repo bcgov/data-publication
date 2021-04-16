@@ -439,6 +439,7 @@ Multiple labels ("Define classes of features...") based on scales are supported,
 + Labels should not black as black is not visible against imagery.
 + Halos should be turned on and be set to 1 or 2 depending on the size and density of the labels.
 + Complex label expressions are **not** accepted, like VB or Python.
+   + However, concatenation of fields is permitted.
 
 ### Joins and Relates tab
 
