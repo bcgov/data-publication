@@ -20,6 +20,7 @@ has_toc: false
 	+ [How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?](#how-do-i-publish-metadata-records-in-the-bc-data-catalogue-as-a-crown-corp-or-bc-agency)
 	+ [How do I get authorization to publish records in the BC Data Catalogue?](#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
 	+ [How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?](#how-do-i-change-the-contact-name-recorded-for-a-dataset-when-that-contact-has-moved-to-a-different-role-or-retired)
+	+ [How do I change the branch or ministry name or move a branch that has moved to another ministry listed in the catalogue?](#how-do-i-change-the-branch-or-ministry-name-or-move-a-branch-that-has-moved-to-another-ministry-listed-in-the-catalogue)
 	+ [Can I do bulk changes to Catalogue records?](#can-i-do-bulk-changes-to-catalogue-records)
 	+ [How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?](#how-do-i-addupdated-descriptions-or-short-names-of-fields-at-the-bottom-of-a-metadata-record-for-data-in-the-bcgw)
 	+ [Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?](#why-would-i-just-upload-a-tabular-dataset-to-the-bc-data-catalogue-instead-of-publishing-it-to-the-bcgw)
@@ -189,7 +190,7 @@ The following sections will help explain the difference between **Open Data** an
    + These editors can then change the contact information. 
    + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
-### How do I change the branch or ministry name or flag my branch that has moved to another ministry listed in the catalogue?
+### How do I change the branch or ministry name or move a branch that has moved to another ministry listed in the catalogue?
 
 + Organizations regularly change names or move to other ministries as functions shift.
 + A custodian of a branch or an already delegator editor of an organization can inform us of any organizational change. 
