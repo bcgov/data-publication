@@ -180,14 +180,21 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I get authorization to publish records in the BC Data Catalogue?
 
 + To obtain an account to publish and manage data and metadata records for data, applications and services, approval from the Custodian is required. The custodian may be a Director or Executive Director of a Branch.
-+ Please send the request and the custodian's approval to: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
++ Please send the request and the custodian's approval to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
 ### How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?
 
 + We do require that each Catalogue record have a way to contact the business area for further questions or access.
 + The custodian of the dataset can authorize one or more people to be editors of their records. 
    + These editors can then change the contact information. 
-   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
+   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
+
+### How do I change the branch or ministry name or flag my branch that has moved to another ministry listed in the catalogue?
+
++ Organizations regularly change names or move to other ministries as functions shift.
++ A custodian of a branch or an already delegator editor of an organization can inform us of any organizational change. 
+   + The administrator of the catalogue can rename and move organizations around. 
+   + Requests to organizatonal structure changes can be sent to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
 ### Can I do bulk changes to Catalogue records?
 
@@ -195,14 +202,14 @@ The following sections will help explain the difference between **Open Data** an
    + Change a contact from one person to another
    + Change a resource or more information link to a new URL
    + Change a record from one state to another, e.g., Pending Archive to Archive or push a Published record back to Draft.
-+ Requests such as these can be sent to: [datacat@gov.bc.ca](mailto:datacat@gov.bc.ca).
++ Requests such as these can be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
 ### How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?
 
 + These field descriptions and short names (for Shapefiles) all come from the BC Geographic Warehouse system metadata.
 + To update these, we require the object name, field name and the new definition for the Description or Short Name.
    + If there are multiple datasets or a large number of columns, we can prepare an export to use.
-+ This request then be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) 
++ This request then be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca). 
 
 ### Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?
 
