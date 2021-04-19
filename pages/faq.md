@@ -193,7 +193,7 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I change the branch or ministry name or move a branch that has moved to another ministry listed in the catalogue?
 
 + Organizations regularly change names or move to other ministries as functions shift.
-+ A custodian of a branch or an already delegator editor of an organization can inform us of any organizational change. 
++ A custodian of a branch or an already delegated editor of an organization can inform us of any organizational change. 
    + The administrator of the catalogue can rename and move organizations around. 
    + Requests to organizatonal structure changes can be sent to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
