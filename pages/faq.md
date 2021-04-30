@@ -60,7 +60,7 @@ has_toc: false
 
 ### Technical Support regarding DataBC products and services
 + (250) 952-6801
-+ NRSApplications@gov.bc.ca
++ NRMenquiries@gov.bc.ca
 + https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals
 
 
