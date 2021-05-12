@@ -2,7 +2,7 @@
 ##### _This page applies to Data or Applications that consume data created by the Province of British Columbia, as well as Data or Applications published in the BC Data Catalogue by a Broader Public Sector Agency. The use of the term 'Application' on this page refers to an application that consumes provincial government data._
 
 ## Introduction
-Data or Applications that are published by the Province of British Columbia must be licenced for use. Additionally, Broader Public Sector organizations may publish data or applications in the BC Data Catalogue, and are required to publish under an Open Data licence for thier orgnization.
+Data or Applications that are published by the Province of British Columbia must be licenced for use. Additionally, Broader Public Sector organizations may publish data or applications in the BC Data Catalogue, and are required to publish under an Open Data licence for thier organization.
 
 All data and applications published in the BC Data Catalogue are required to reference the licence under which they can be used. This page describes the licences available to be applied to data and applications and links to the specific policy and/or licence. Best practices are also described for publishing using specific data formats or applications.
 
