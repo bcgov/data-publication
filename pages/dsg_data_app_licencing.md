@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Publication Services
+nav_order: 
+has_children: false
+has_toc: false
+nav_exclude: true
+
 # DATA AND APPLICATION LICENCING 
 ##### _This page applies to Data or Applications that consume data created by the Province of British Columbia, as well as Data or Applications published in the BC Data Catalogue by a Broader Public Sector Agency. The use of the term 'Application' on this page refers to an application that consumes provincial government data._
 
