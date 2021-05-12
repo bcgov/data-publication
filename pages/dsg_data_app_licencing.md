@@ -13,6 +13,9 @@ All data and applications published in the BC Data Catalogue are required to ref
 |Crown Copyright (Access Only)|Yes|Yes|[Copyright](https://www2.gov.bc.ca/gov/content/home/copyright)|Data or Applications created by the Province of BC that are not eligible to be licenced under the Open Government Licence - British Columbia|
 |Open Data Licence - Other|Yes|Yes|Licence hosted by organization that owns the licence|Data or Applications created by a Broader Public Sector Agency|
 
+## BC Data Cataloge Best Practices related to licencing
+When publishing data or applications, while some content is required to have a BC Data Catalogue records, DataBC recommends creating a record in the BC Data Catalogue for all Data and Applications. The purpose of this is to make the data findable by any end-user. 
+
 ## BC Data Catalogue Requirements
 |**Data/Applcation Publishing Location**|**BC Data Catalogue Record Required?**|
 |:---|:---|
