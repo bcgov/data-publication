@@ -37,3 +37,17 @@ When publishing data or applications, while some content is required to have a B
 |Publicly available website - Application|Yes|
 |Publicly available Open Source website - Data|Yes - Open Data Licence required|
 |Publicly available Open Source website - Application|No - but recommended|
+
+|BC Data Catalogue Record Type| |**Core Mandate**|**DataBC Mandate**|**Best Practice**|**Why not?**|
+|:---|:---|:---|:---|:---|:---|
+|Data|OGL-BC|Yes| | | |
+|Data|Access-Only| | | | |
+|Data|Secure| | | | |
+|Application|IMF2| |Yes| | |
+|Application|B.C.'s MapHub| |Yes| | |
+|Application|SMK| | | |Yes|
+|API|via API Gateway| | | | |
+|Service|WMS| | | | |
+|Service|WFS| | | | |
+|Service|KML| | | | |
+
