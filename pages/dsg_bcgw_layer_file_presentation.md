@@ -347,6 +347,7 @@ It may be tempting not to use the Outlined layer, since the user usually has con
    + 45° (forward diagonal)
    + 90° (Vertical)
    + 135° (backwards diagonal)
++ Presentation layer name example: Burn Severity Rating - All Years - Hatched
 
 #### Line Symbology
 
