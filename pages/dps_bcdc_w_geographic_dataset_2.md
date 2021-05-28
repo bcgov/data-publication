@@ -10,7 +10,7 @@ has_toc: true
 
 ## PUBLISHING A GEOGRAPHIC DATASET TO THE BC DATA CATALOGUE
 
-## ADD GEOGRAPHIC DATA RESOURCE
+## GEOGRAPHIC DATA RESOURCE MANAGEMENT
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
