@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add a Record Content
+title: Add or Modify a Record
 nav_order: 
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
