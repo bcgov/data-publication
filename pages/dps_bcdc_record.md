@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add or Modify a Record
+title: Manage a Record
 nav_order: 33
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
@@ -8,7 +8,7 @@ has_children: true
 has_toc: true
 ---
 
-# BC DATA CATALOGUE RECORD CONTENT
+# BC DATA CATALOGUE RECORD MANAGEMENT
 
 **This document is being update to correstpond with the BC Data Catalogue Beta release**
 
