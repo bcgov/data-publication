@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add a Record Content
+title: Add a Geographic Resource
 nav_order: 
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# BC DATA CATALOGUE PUBLICATION WORKFLOW
+## PUBLISHING A GEOGRAPHIC DATASET TO THE BC DATA CATALOGUE
 
 ## ADD GEOGRAPHIC DATA RESOURCE
 
