@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Record Content
+title: Add a Record Content
 nav_order: 
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
+has_children: true
 has_toc: true
 ---
 
