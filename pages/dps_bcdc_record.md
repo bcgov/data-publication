@@ -16,11 +16,10 @@ has_toc: true
 + [**ADD RECORD**](#add-record)
 
 ## Associated Pages
-+ [**Resources Management**](./dps_bcdc_w_resource.md)
-    - [Manage Application Management](./dps_bcdc_w_application_2.md)
-    - [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
-    - [Tabular Data/Document Management](./dps_bcdc_w_dataset_2.md)
-    - [Webservice/API Management](./dps_bcdc_w_webservice_api_2.md)
+- [Application Management](./dps_bcdc_w_application_2.md)
+- [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
+- [Tabular Data/Document Management](./dps_bcdc_w_dataset_2.md)
+- [Webservice/API Management](./dps_bcdc_w_webservice_api_2.md)
 
 ---------------
 
