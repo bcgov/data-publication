@@ -19,7 +19,7 @@ has_toc: true
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as describled below.
+1. Fill out all the required fields for each resource type as described below.
 
 ## WEB SERVICE OR API RESOURCES
 
@@ -27,7 +27,7 @@ has_toc: true
 
 **RESOURCE**
 
-+ **URL**: is a link to a web service or api.
++ **URL**: is a link to a web service or API.
 
 + **FILE**: s currently an option although not applicable to web services or APIs.
 
@@ -42,10 +42,10 @@ has_toc: true
 
 **Temporal Extent**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
-+ **Beginning Date** is the start date for the preiod the data is captured for.
-+ **End Date** is the end date for the preiod the data is captured for. 
++ **Beginning Date** is the start date for the period the data is captured for.
++ **End Date** is the end date for the period the data is captured for. 
 
-**Resource Stroage Format**: describes the file extension for the resource.
+**Resource Storage Format**: describes the file extension for the resource.
 
 **Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
@@ -55,7 +55,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 
 **Resource Access Method**: describes how the end-user can access the data.
 
-+ **Link to iMap** shows an interacive preview of the data in iMapBC.
++ **Link to iMap** shows an interactive preview of the data in iMapBC.
 
 Click **Save** when done
 
