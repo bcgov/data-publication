@@ -43,8 +43,8 @@ This page is written in the context that you have reviewed all information in th
 
 The first step in the process is to review the documentation: 
 + [BCDC Standards and Guidelines](./dsg_bcdc.md)
-+ [Naming and Describing](https://bcgov.github.io/data-publication/pages/dsg_naming_describing.html)
-+ [Open Data](https://bcgov.github.io/data-publication/pages/open_data.html)
++ [Naming and Describing](./dsg_naming_describing.html)
++ [Open Data](./open_data.html)
 
 [RETURN TO TOP][1]
 
@@ -52,13 +52,13 @@ The first step in the process is to review the documentation:
 
 ## WORKFLOW DIAGRAMS
 
-### [BCDC Metadata Readiness Workflow](https://bcgov.github.io/data-publication/pages/images/wf_MetadataReadiness.svg)
+### [BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
-![BCDC Metadata Readiness Workflow](https://bcgov.github.io/data-publication/pages/images/wf_MetadataReadiness.svg)
+![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
 
-### [BCDC Metadata Creation Workflow](https://bcgov.github.io/data-publication/pages/images/wf_MetadataCreation.svg)
+### [BCDC Metadata Creation Workflow](./images/wf_MetadataCreation.svg)
 Once you are ready, use the steps in this workflow to guide you through the process of creating a metadata record.
-![BCDC Metadata Creation Workflow](https://bcgov.github.io/data-publication/pages/images/wf_MetadataCreation.svg)
+![BCDC Metadata Creation Workflow](./images/wf_MetadataCreation.svg)
 
 [RETURN TO TOP][1]
 
@@ -95,7 +95,7 @@ There are three licencing options for data published data in the BC Data Catalog
  
    For data that is under the Intelectual Property or "ownership of the Province of BC and meets all the requirements of being open data, it is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
 
-   To publish a dataset under OGL-BC, [follow the full steps here](https://bcgov.github.io/data-publication/pages/open_data.html) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). These include:
+   To publish a dataset under OGL-BC, [follow the full steps here](./open_data.html) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). These include:
 
 	+ [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
 	+ [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca)
@@ -106,7 +106,7 @@ There are three licencing options for data published data in the BC Data Catalog
 	+ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 	+ The Catalogue record links to the appropriate Open Data Licence.
 	
-1. [Open Government - (Other)](https://bcgov.github.io/data-publication/pages/open_data_licence_create.html)
+1. [Open Government - (Other)](./open_data_licence_create.html)
 
 	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
 	
@@ -119,7 +119,7 @@ There are three licencing options for data published data in the BC Data Catalog
 ------------------------------
 
 ## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_api_dev_workflow.md)._
+_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)._
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
@@ -130,16 +130,16 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 
         |Metadata Pages| |
         |:---|:---|
-        |[Record](https://bcgov.github.io/data-publication/pages/glossary.html#record)|[Workflow](./dps_bcdc_content.md#add-record)|
-        |[Application](https://bcgov.github.io/data-publication/pages/glossary.html#application)|[Workflow](./dps_bcdc_content.md#add-application-resource)|
-        |[Dataset](https://bcgov.github.io/data-publication/pages/glossary.html#dataset)|[Workflow](./dps_bcdc_content.md#add-tabular-or-document-resource)|
-        |[Geographic Dataset](https://bcgov.github.io/data-publication/pages/glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_content.md##add-geographic-data-resource)|
-        |[Web Service - API](https://bcgov.github.io/data-publication/pages/glossary.html#webservice_api)|[Workflow](./dps_bcdc_content.md#add-weservice-or-api-resource)|
+        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_content.md#add-record)|
+        |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_content.md#add-application-resource)|
+        |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_content.md#add-tabular-or-document-resource)|
+        |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_content.md##add-geographic-data-resource)|
+        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_content.md#add-weservice-or-api-resource)|
 
 1.  Click the **Add Dataset** button.
 
 1. Complete all mandatory fields (minimum requirement). We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](https://bcgov.github.io/data-publication/pages/tips_tricks_making_useful_metadata.html). 
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.html). 
 
 ### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
 
