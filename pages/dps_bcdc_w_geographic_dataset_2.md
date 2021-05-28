@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Geographic Resources
+title: Geographic Resources - Beta
 nav_order: 333
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
