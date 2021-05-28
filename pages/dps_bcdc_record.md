@@ -10,18 +10,18 @@ has_toc: true
 
 # BC DATA CATALOGUE RECORD MANAGEMENT
 
-**This document is being update to correstpond with the BC Data Catalogue Beta release**
+**This document is being update to correspond with the BC Data Catalogue Beta release**
 
 ## ADD RECORD
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
 **Title**: This is the title of your metadata record.
-+ This is limited to 100 characters as it is used in the url creation.
++ This is limited to 100 characters as it is used in the URL creation.
 
 **URL**: This is automatically generated while typing in the Title.
 
 **Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created.
-+ The Minsitry or parent organization is no longer required to be defined at the record level.
++ The Ministry or parent organization is no longer required to be defined at the record level.
 
 **Description**: Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset.
 
@@ -56,9 +56,9 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 + **URL**: Any related web site URL's can be added here.
 
 **Security Classification**:
-+ The Security Classification has been updated and records transformated to reflect the OCIO's standard.
++ The Security Classification has been updated and records transformed to reflect the OCIO's standard.
 
-    |BCDC Security Classication (**Old**)| [Information Security Classification Levels (**NEW**)](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
+    |BCDC Security Classification (**Old**)| [Information Security Classification Levels (**NEW**)](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
     |:---|:---|:---|
     |Low - Public|**Public**|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)|
     |Low - Sensitivity|**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
@@ -70,21 +70,21 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
     |Access Type| Description
     |:---|:---|
-    |Public| All users are able to access the dataset.
+    |Public| All users can access the dataset.
     |Government and Business BCeID| Only people with IDIR and Business BCeID credentials can access the dataset.
     |Government| Only IDIR credentials can access the dataset.
     |Named Users| Only specific named users can access the dataset.
 
-**Who can download this data?**: desribes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
+**Who can download this data?**: describes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
 + The order reflects the most accessible to the most secure
 
     |Access Type| Description
     |-|-|
-    |Public| All users are able to access the dataset.
-    |Government and Business BCeID| Only people with IDIR and Business BCeID credentials can access the applciation.
+    |Public| All users are can access the dataset.
+    |Government and Business BCeID| Only people with IDIR and Business BCeID credentials can access the application.
     |Government| Only IDIR credentials can access the dataset.
     |Named Users| Only specific named users can access the dataset.
-    |Not downloadable| Resource cannot be downloaded. Specifically for the BC Geographic Warehouse (BCGW), the dataset is not configured via the Distribution Service.
+    |Not downloadable| Resource cannot be downloaded. Specifically, for the BC Geographic Warehouse (BCGW), the dataset is not configured via the Distribution Service.
 
 **Who can view this record?**: describes who can view the metadata record.
 + The order reflects the most accessible to the most secure
@@ -98,7 +98,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 **State**: When creating a new metadata record, the state will be set to DRAFT once you click on this state. 
 
-**Resource Status**: is the status of the dataset, service, API or applicaiton as described by one of the types below: 
+**Resource Status**: is the status of the dataset, service, API or application as described by one of the types below: 
 + A resource or record changes status over its lifecycle.
    
     |Data Update Status| Description|
@@ -106,14 +106,14 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Ongoing|Resources that are regularly updated should be described as ongoing.|
     |Completed|Resources with no plan for future updates should be described as completed.|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
-    |Historical Archive|Resources that exist, but have been archived (can also be desribed as no longer relevant) should be described as historical archive.|
+    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive.|
     |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete.|
     |Planned|Resources that do not currently exist, but are planned for the future, should be described as planned.|
     |Required|
 **Record Lifecycle History**:
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.
-+ **Type** is used to provide details to users on when resources are created, published, modified, archived or destroyed. 
-+ **Date** is the date the resource was either created, published, modified, archived or destroyed. 
++ **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
++ **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
 
 ---------------
 # ADD RESOURCES
@@ -125,11 +125,11 @@ When there are changes to a resource in a metadata record, a new date type and c
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
-4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Inforamtion](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
+4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record level
-1. Fill out all the required fields for each resource type as describled below.
+1. Fill out all the required fields for each resource type as described below.
 
 Navigate to the resource type as needed:
 - [Application](./dps_bcdc_w_application_2.md)
