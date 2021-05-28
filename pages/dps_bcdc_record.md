@@ -8,11 +8,11 @@ has_children: true
 has_toc: true
 ---
 
-# BC DATA CATALOGUE RECORD MANAGEMENT
+## BC DATA CATALOGUE RECORD MANAGEMENT
 
 **This document is being updated to correspond with the BC Data Catalogue Beta release**
 
-## ADD RECORD
+## METADATA RECORD MANAGEMENT
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
 **Title**: This is the title of your metadata record.
@@ -116,7 +116,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 + **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
 
 ---------------
-# ADD RESOURCES
+## ADD RESOURCES
 1. Resources to a record can be the following types:
     - [Manage Application Management](./dps_bcdc_w_application_2.md)
     - [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
