@@ -130,11 +130,11 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 
         |Metadata Pages| |
         |:---|:---|
-        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_content.md#add-record)|
-        |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_content.md#add-application-resource)|
-        |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_content.md#add-tabular-or-document-resource)|
-        |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_content.md##add-geographic-data-resource)|
-        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_content.md#add-weservice-or-api-resource)|
+        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_record.md)|
+        |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_application_2.md)|
+        |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_dataset_2.md)|
+        |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_gegraphic_dataset_2.md)|
+        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_weservice_or_api_2.md)|
 
 1.  Click the **Add Dataset** button.
 
