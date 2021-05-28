@@ -42,7 +42,7 @@ This page is written in the context that you have reviewed all information in th
 ## DOCUMENTATION REVIEW
 
 The first step in the process is to review the documentation: 
-+ [BCDC Standards and Guidelines](./dsg_bcdc.md)
++ [BCDC Standards and Guidelines](./dsg_bcdc.html)
 + [Naming and Describing](./dsg_naming_describing.html)
 + [Open Data](./open_data.html)
 
@@ -119,7 +119,7 @@ There are three licencing options for data published data in the BC Data Catalog
 ------------------------------
 
 ## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)._
+_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_dev_workflow.html)._
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
@@ -130,11 +130,11 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 
         |Metadata Pages| |
         |:---|:---|
-        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_record.md)|
-        |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_application_2.md)|
-        |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_dataset_2.md)|
-        |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_gegraphic_dataset_2.md)|
-        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_weservice_or_api_2.md)|
+        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_record.html)|
+        |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_w_application_2.html)|
+        |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_w_dataset_2.html)|
+        |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_w_geographic_dataset_2.html)|
+        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_w_webservice_or_api_2.html)|
 
 1.  Click the **Add Dataset** button.
 
