@@ -66,7 +66,6 @@ Click **Save** when done
 
 + Additional resources can be added by repeating the process above or adding other resource types.
 
----------------
 
 ## OTHER RESOURCES TYPES
 - [Application](./dps_bcdc_w_application_2.md)
