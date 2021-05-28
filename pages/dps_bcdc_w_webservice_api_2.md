@@ -8,9 +8,22 @@ has_children: false
 has_toc: true
 ---
 
-## PUBLISHING A WEB SERVICE OR API TO THE BC DATA CATALOGUE
+# BC DATA CATALOUGE RESOURCE MANAGEMENT
+1. Resources to a record can be the following types:
+    - [Application](#add-application-resource)
+    - [Geographic Data](#add-geographic-data-resource)
+    - [Tabular Data/Document](#add-tabular-or-document-resource)
+    - [Webservice/API](#add-weservice-or-api-resource)
+1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
+2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
+3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
+4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Inforamtion](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
-## WEB SERVICE OR API RESOURCE MANAGEMENT
+**To add a resource:**
+1. Click the **Add Resource** button on the toolbar at the record leve.
+1. Fill out all the required fields for each resource type as describled below.
+
+# WEB SERVICE OR API RESOURCES
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
@@ -21,6 +34,7 @@ has_toc: true
 + **FILE**: s currently an option although not applicable to web services or APIs.
 
 ---------------
+**Resource Type**: Select **Webservice/API**
 
 **Resource Description**: is a detailed description of the resource.
 
