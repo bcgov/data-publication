@@ -21,7 +21,7 @@ has_toc: true
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as describled below.
+1. Fill out all the required fields for each resource type as described below.
 
 ## GEOGRAPHIC DATA RESOURCE MANAGEMENT
 
@@ -41,7 +41,7 @@ has_toc: true
 The **Manage BCGW Resources** button will add the ability for users to custom download data from the BCGW if:
 + it is stored in the BCGW **and** 
 + they have permissions to access it **and**
-+ the BCGW schema and object name (e.g, _schema.table_) has been added to the main page of the metadata record
++ the BCGW schema and object name (e.g., _schema.table_) has been added to the main page of the metadata record
 
 1. Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
 1. Fill in the following details, where the update cycle is the mandatory field:
@@ -66,10 +66,10 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 
 **Temporal Extent**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
-+ **Beginning Date** is the start date for the preiod the data is captured for.
-+ **End Date** is the end date for the preiod the data is captured for. 
++ **Beginning Date** is the start date for the period the data is captured for.
++ **End Date** is the end date for the period the data is captured for. 
 
-**Resource Stroage Format**: describes the file extension for the resource.
+**Resource Storage Format**: describes the file extension for the resource.
 
 **Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
@@ -78,14 +78,14 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 
     |Spatial Datatype| Description|
     |:---|:---|
-    |SDE_BINARY| This is the older ESRI based geometry that used to be what the BCGW prior to 2014, most minitiries do not use this anymore.|
+    |SDE_BINARY| This is the older ESRI based geometry that used to be what the BCGW prior to 2014, ESRI has moved to ST_GEOMETRY.|
     |SDO_GEOMETRY| This is Oracle geometry and what the BCGW and NRM uses predominately as their datatype.|
     |ST_GEOMETRY| This is the current ESRI based geometry.|
-    |N-A| Select if not stored in a database, e.g. , shaoe file (.shp)|
+    |N-A| Select if not stored in a database, e.g., shape file (.shp)|
     
 
 **Object Name**: is the object name as it appears in the BCGW: _SCHEMA.OBJECT_. Example: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
-+ For BC Geographic Datasets, this is what is used to populate automatically the metadata record with
++ For BC Geographic Datasets, this is what is used to automatically populate the metadata record with
     - The data definitions table that is extracted from the Oracle metadata.
     - For public datasets that are available in iMapBC:
         - The WMS resource
@@ -107,25 +107,25 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 **Preview Information**:
 + These details are filled in automatically when:
     - Stored in the BC Geographic Warehouse
-    - Have a public presenation in iMapBC
+    - Have a public presentation in iMapBC
     - A WMS REST endpoint created
-    - A Newwork Link KL file created.  
+    - A Network Link KL file created.  
 + These fields can be used for other purposes
 + These values populate the **Preview** button map and **Link to iMapBC** button.
 
 + **Layer Name**
-+ **Preview Latutude** allows you to provide a map preview centroid latitude.
++ **Preview Latitude** allows you to provide a map preview centroid latitude.
 + **Preview Longitude** allows you to provide a map preview centroid longitude.
 + **Preview Map Service URL** allows you to provide an alias for the map service URL.
 + **Preview Zoom level** allows you to provide an initial zoom level for the map preview.
 + **Image URL** shows a preview of the data as a static image.
-+ **Link to iMap** shows an interacive preview of the data in iMapBC.
++ **Link to iMap** shows an interactive preview of the data in iMapBC.
 
-**Geograhic Extent**:
-+ **North/South/East/West** these are autopopulated with the bounding box of the province.
+**Geographic Extent**:
++ **North/South/East/West** these are auto populated with the bounding box of the province.
 
 
-Cick **Save** when done
+Click **Save** when done
 
 + Additional resources can be added by repeating the process above or adding other resource types.
 
