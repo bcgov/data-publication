@@ -30,11 +30,11 @@ has_toc: true
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
-**RESOURCE**
+**_Resource_**
 
 + **URL**: is a link to an application. This may be public or secure.
 
-+ **FILE**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
++ **File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
 ---------------
 
@@ -49,7 +49,7 @@ has_toc: true
 
 **Resource Update Cycle**: describes how often the resource is updated.
 
-**Temporal Extent**:
+**_Temporal Extent_**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
 + **Beginning Date** is the start date for the period the data is captured for.
 + **End Date** is the end date for the period the data is captured for. 
