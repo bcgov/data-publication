@@ -9,9 +9,9 @@ has_toc: true
 
 # BC DATA CATALOGUE PUBLICATION WORKFLOW
 
-**This document is being update to correstpond with the BC Data Catalogue Beta release**
+**This document is being updated to correspond with the BC Data Catalogue Beta release**
 
-When data is published to the DataBC Program through any of its services, as well as published under the [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your reponsibilities are as a publisher to the BC Data Catalogue and how to create a metadata record in the BC Data Catalogue.
+When data is published to the DataBC Program through any of its services, as well as published under the [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your responsibilities are as a publisher to the BC Data Catalogue and how to create a metadata record in the BC Data Catalogue.
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
@@ -72,7 +72,7 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 3. The name of the Ministry/Organization and Sub-Organization (as it appears in the Catalogue and if that needs to be renamed) in your email. 
 4. All names and IDIRs for those requiring access.
 5. Forward all this to [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with the subject: "BCDC Editor Request". 
-6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relavant information to get you started as an Editor in the BC Data Catalogue.
+6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
 + For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](#Licences) section below for more information on this.  
@@ -93,7 +93,7 @@ There are three licencing options for data published data in the BC Data Catalog
 	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
 1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
  
-   For data that is under the Intelectual Property or "ownership of the Province of BC and meets all the requirements of being open data, it is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
+   For data that is under the Intellectual Property or "ownership of the Province of BC and meets all the requirements of being open data, it is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
 
    To publish a dataset under OGL-BC, [follow the full steps here](./open_data.html) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). These include:
 
@@ -125,7 +125,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
 1. Complete the record details to describe what you are publishing and then you will be able to add different resource types after.
-    + This is a change from the previous Catalogue where you had to specify the Resource Type at the begining. 
+    + This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
     + Follow the workflow link below for details on the specific fields for each dataset type.
 
         |Metadata Pages| |
@@ -178,14 +178,14 @@ There are two ways to edit a resource in the metadata record:
 
 ### REPLACING AN EXISTING RESOURCE
 
-While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above):
+While in edit mode on a resource (see [Editing Existing Resources](#EDITING-EXISTING-RESOURCES) section above):
 1. Click the **Remove** button at the end of the **File** URL.
 1. Re-upload or provide a new link to your data.
 1. Make any other edits needed to reflect the updated/new resource.
 1. Click **Update Resource** to save your changes.
 
 ### DELETING AN EXISTING RESOURCE
-While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXISTING-RESOURCES) section above):
+While in edit mode on a resource (see [Editing Existing Resources](#EDITING-EXISTING-RESOURCES) section above):
 1. Click the **Delete** button at the bottom of the page. 
 
 [RETURN TO TOP][1]
@@ -194,7 +194,7 @@ While in edit mode on a resource (see [Editing Exisitng Resources](#EDITING-EXIS
 
 ## METADATA MANAGEMENT AND MAINTENANCE
 
-Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodain (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
+Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
 
 [RETURN TO TOP][1]
 
@@ -208,7 +208,7 @@ Once the metadata record is complete, the editor sets the **Record State** to **
 
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-1. Change the dataset **Record State**(first metadata element):
+1. Change the dataset **Record State** (first metadata element):
 	+ from **DRAFT**
 	+ to **PENDING PUBLISH**
 1. Click **Update Dataset**.
@@ -224,7 +224,7 @@ _**Note on Publication timing**: if there is a specific time and date that the r
 
 Once your metadata record is in the Published state, it is then visible and searchable in the BC Data Catalogue for all users.  
 
-Data Custodians should regularly reivew all metadata records within ther Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
+Data Custodians should regularly review all metadata records within their Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
 
 [RETURN TO TOP][1]
 
@@ -252,7 +252,7 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 	+ from **PUBLISHED**
 	+ to **PENDING ARCHIVE**.
 	
-Once the record has been set to **PENDING ARCHIVE**, DataBC will then reivew the record to ensure it is ready for archiving, this includes:	
+Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
 + removing all resources from the record
 + confirming the correct Org and Sub-Org
 + confirming that records with a replacement dataset contain "DEPRECATED" in the title
@@ -272,7 +272,7 @@ Archived datasets:
 ## METADATA GROUPS
 
 Metadata Groups provide a listing of like datasets for a specific purpose and can contain records from across multiple organizations.
-+ These are not intended to replace a full listing of records for an sub-organization.
++ These are not intended to replace a full listing of records for a sub-organization.
 + Groups by default are public but a request them to be visible to IDIR only can be made.
 
 To create a group, the following information is required and can be sent to [DataBC](mailto:data@gov.bc.ca).
@@ -281,7 +281,7 @@ To create a group, the following information is required and can be sent to [Dat
 + **Group Name**:
 + **Group Description**:
 + **URL**: _for more information_
-+ **Image**: _either a file or url_
++ **Image**: _either a file or URL_
 + **Members**: _list of IDIRs who will maintain the Group_
 + **Group visibility**: Public or IDIR
 
@@ -297,7 +297,7 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 + Old name
 + New name
 + List of data providers (Editors)
-	+ When an update is requested for a sub-organization we ask that the members and contacts list be reviewed.
+	+ When an update is requested for a sub-organization, we ask that the members and contacts list be reviewed.
 	+ DataBC can provide you with a current list to review.
 
 [RETURN TO TOP][1]
