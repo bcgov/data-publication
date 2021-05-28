@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add a Tabular Resource
+title: Tabular Resources
 nav_order: 332
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
@@ -10,7 +10,7 @@ has_toc: true
 
 ## PUBLISHING A TABULAR DATA OR DOCUMENT TO THE BC DATA CATALOGUE
 
-## ADD TABULAR DATA OR DOCUMENT RESOURCE
+## TABULAR DATA OR DOCUMENT RESOURCE MANAGEMENT
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
