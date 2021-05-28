@@ -27,6 +27,7 @@ has_toc: true
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
+---------------
 **RESOURCE**
 
 + **URL**: is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
@@ -51,7 +52,9 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 		+ **End Date** is the end date for the period the data is captured for. 
 1. Click the **Save** button.
 1. Click the **Finish** button on the _Successfully added._ pop-up.
+
 ---------------
+
 **Resource Type**: Select **Geographic Data**
 
 **Resource Description**: is a detailed description of the resource.
