@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web Service or API Resource
+title: Web Service or API Resources
 nav_order: 335
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
