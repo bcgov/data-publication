@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Records - Beta
+title: Records
 nav_order: 331
 parent: Publication Workflow - Beta
 grand_parent: BC Data Catalogue
