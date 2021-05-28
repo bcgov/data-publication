@@ -3,7 +3,7 @@ layout: default
 title: Publication Workflow Beta
 nav_order: 
 parent: BC Data Catalogue
-has_children: true
+has_children: false
 has_toc: true
 ---
 
