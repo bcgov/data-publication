@@ -59,6 +59,7 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 ---------------
 
 **Resource Type**: Select **Geographic Data**
+---------------
 
 **Resource Description**: is a detailed description of the resource.
 
