@@ -12,17 +12,6 @@ has_toc: true
 
 **This document is being update to correstpond with the BC Data Catalogue Beta release**
 
-## Table of Contents
-+ [**ADD RECORD**](#add-record)
-
-## Associated Pages
-- [Application Management](./dps_bcdc_w_application_2.md)
-- [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
-- [Tabular Data/Document Management](./dps_bcdc_w_dataset_2.md)
-- [Webservice/API Management](./dps_bcdc_w_webservice_api_2.md)
-
----------------
-
 ## ADD RECORD
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
@@ -139,10 +128,10 @@ When there are changes to a resource in a metadata record, a new date type and c
 4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Inforamtion](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 To add a resource:
-1. Click the **Add Resource** button on the toolbar at the record leve.
+1. Click the **Add Resource** button on the toolbar at the record level
 1. Fill out all the required fields for each resource type as describled below.
 
-Navigate to the resource type
+Navigate to the resource type as needed:
 - [Application](./dps_bcdc_w_application_2.md)
 - [Geographic Data](./dps_bcdc_w_geographic_2.md)
 - [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
@@ -150,4 +139,4 @@ Navigate to the resource type
 
 [RETURN TO TOP][1]
 
-[1]: #bc-data-catalogue-record-content
+[1]: #bc-data-catalogue-record-management
