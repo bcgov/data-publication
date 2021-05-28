@@ -35,8 +35,6 @@ has_toc: true
 
 **Resource Type**: Select **Webservice/API**
 
----------------
-
 **Resource Description**: is a detailed description of the resource.
 
 **Supplemental Information**: Any additional relevant information about the resource can be included here.
