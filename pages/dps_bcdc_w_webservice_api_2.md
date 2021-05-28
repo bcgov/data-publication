@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add a Web Service or API Resource
+title: Web Service or API Resource
 nav_order: 335
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
@@ -10,7 +10,7 @@ has_toc: true
 
 ## PUBLISHING A WEB SERVICE OR API TO THE BC DATA CATALOGUE
 
-## ADD  WEB SERVICE OR API RESOURCE
+## WEB SERVICE OR API RESOURCE MANAGEMENT
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
