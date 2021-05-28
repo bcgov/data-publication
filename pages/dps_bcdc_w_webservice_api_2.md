@@ -27,14 +27,17 @@ has_toc: true
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
-**RESOURCE**
+**_Resource_**
 
 + **URL**: is a link to a web service or API.
 
-+ **FILE**: s currently an option although not applicable to web services or APIs.
++ **File**: s currently an option although not applicable to web services or APIs.
 
 ---------------
+
 **Resource Type**: Select **Webservice/API**
+
+
 ---------------
 
 **Resource Description**: is a detailed description of the resource.
@@ -43,7 +46,7 @@ has_toc: true
 
 **Resource Update Cycle**: describes how often the resource is updated.
 
-**Temporal Extent**:
+**_Temporal Extent_**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
 + **Beginning Date** is the start date for the period the data is captured for.
 + **End Date** is the end date for the period the data is captured for. 
