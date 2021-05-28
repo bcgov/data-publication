@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tabular Resources
+title: Tabular Data Resources
 nav_order: 334
 parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
