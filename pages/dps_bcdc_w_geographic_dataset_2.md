@@ -2,8 +2,8 @@
 layout: default
 title: Add a Geographic Resource
 nav_order: 
-parent: Publication Workflow Beta
-grand_parent: BC Data Catalogue
+parent: BC Data Catalogue
+grand_parent: Publication Workflow Beta
 has_children: false
 has_toc: true
 ---
