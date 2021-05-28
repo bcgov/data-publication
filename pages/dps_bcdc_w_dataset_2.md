@@ -34,9 +34,9 @@ has_toc: true
 
 + **FILE**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
----------------
-
 **Resource Type**: Select **Tabular Data/Document**
+
+---------------
 
 **Resource Description**: is a detailed description of the resource.
 
@@ -66,6 +66,7 @@ Click **Save** when done
 
 + Additional resources can be added by repeating the process above or adding other resource types.
 
+---------------
 
 ## OTHER RESOURCES TYPES
 - [Application](./dps_bcdc_w_application_2.md)
