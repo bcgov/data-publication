@@ -26,7 +26,7 @@ has_toc: true
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-## APPLICATION RESOURCE MANAGENT
+## APPLICATION RESOURCE MANAGEMENT
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
