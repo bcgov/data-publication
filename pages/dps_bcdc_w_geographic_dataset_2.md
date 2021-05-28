@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Add a Geographic Resource
-nav_order: 
-parent: Add or Modify a Record
-grand_parent: Publication Workflow Beta
+nav_order: 331
+parent: Publication Workflow Beta
+grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
 ---
