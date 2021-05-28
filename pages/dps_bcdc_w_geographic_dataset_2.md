@@ -29,14 +29,12 @@ has_toc: true
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
----------------
-
-**RESOURCE**
+**_Resource_**
 
 + **URL**: is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
     - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
 
-+ **FILE**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
++ **File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
  **BCGW Resources**
 
@@ -59,6 +57,8 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 ---------------
 
 **Resource Type**: Select **Geographic Data**
+
+
 ---------------
 
 **Resource Description**: is a detailed description of the resource.
@@ -67,7 +67,7 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 
 **Resource Update Cycle**: describes how often the resource is updated.
 
-**Temporal Extent**:
+**_Temporal Extent_**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
 + **Beginning Date** is the start date for the period the data is captured for.
 + **End Date** is the end date for the period the data is captured for. 
@@ -107,7 +107,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 
 **Resource Access Method**: describes how the end-user can access the data.
 
-**Preview Information**:
+**_Preview Information_**:
 + These details are filled in automatically when:
     - Stored in the BC Geographic Warehouse
     - Have a public presentation in iMapBC
@@ -124,7 +124,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 + **Image URL** shows a preview of the data as a static image.
 + **Link to iMap** shows an interactive preview of the data in iMapBC.
 
-**Geographic Extent**:
+**_Geographic Extent_**:
 + **North/South/East/West** these are auto populated with the bounding box of the province.
 
 
