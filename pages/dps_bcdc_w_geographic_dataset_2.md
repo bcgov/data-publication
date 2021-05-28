@@ -17,10 +17,10 @@ has_toc: true
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
-4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Inforamtion](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
+4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 **To add a resource:**
-1. Click the **Add Resource** button on the toolbar at the record leve.
+1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as describled below.
 
 ## GEOGRAPHIC DATA RESOURCE MANAGEMENT
@@ -28,6 +28,7 @@ has_toc: true
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
 ---------------
+
 **RESOURCE**
 
 + **URL**: is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
