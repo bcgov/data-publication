@@ -20,7 +20,7 @@ has_toc: true
 4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Inforamtion](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 **To add a resource:**
-1. Click the **Add Resource** button on the toolbar at the record leve.
+1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as describled below.
 
 ## APPLICATION RESOURCE MANAGENT
@@ -29,8 +29,7 @@ has_toc: true
 
 **RESOURCE**
 
-+ **URL**: is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
-    - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
++ **URL**: is a link to a application. This may be public or secure.
 
 + **FILE**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
