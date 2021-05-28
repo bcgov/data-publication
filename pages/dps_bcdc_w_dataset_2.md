@@ -36,6 +36,7 @@ has_toc: true
 
 + **FILE**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
+---------------
 **Resource Type**: Select **Tabular Data/Document**
 
 ---------------
