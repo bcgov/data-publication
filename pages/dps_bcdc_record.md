@@ -2,7 +2,7 @@
 layout: default
 title: Records - Beta
 nav_order: 331
-parent: Publication Workflow Beta
+parent: Publication Workflow - Beta
 grand_parent: BC Data Catalogue
 has_children: true
 has_toc: true
@@ -14,11 +14,13 @@ has_toc: true
 
 ## Table of Contents
 + [**ADD RECORD**](#add-record)
-+ [**ADD RESOURCES**](#add-resources)
-    - [**APPLICATIONS**](#add-application-resource)
-    - [**GEOGRAPHIC DATA**](#add-geographic-data-resource)
-    - [**TABULAR OR DOCUMENTS**](#add-tabular-or-document-resource)
-    - [**WEBSERVICE OR API**](#add-weservice-or-api-resource)
+
+## Associated Pages
++ [**Resources Management**](./dps_bcdc_w_resource.md)
+    - [Manage Application Management](./dps_bcdc_w_application_2.md)
+    - [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
+    - [Tabular Data/Document Management](./dps_bcdc_w_dataset_2.md)
+    - [Webservice/API Management](./dps_bcdc_w_webservice_api_2.md)
 
 ---------------
 
@@ -128,10 +130,10 @@ When there are changes to a resource in a metadata record, a new date type and c
 ---------------
 # ADD RESOURCES
 1. Resources to a record can be the following types:
-    - [Application](#add-application-resource)
-    - [Geographic Data](#add-geographic-data-resource)
-    - [Tabular Data/Document](#add-tabular-or-document-resource)
-    - [Webservice/API](#add-weservice-or-api-resource)
+    - [Manage Application Management](./dps_bcdc_w_application_2.md)
+    - [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
+    - [Tabular Data/Document Management](./dps_bcdc_w_dataset_2.md)
+    - [Webservice/API Management](./dps_bcdc_w_webservice_api_2.md)
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
@@ -141,13 +143,11 @@ To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record leve.
 1. Fill out all the required fields for each resource type as describled below.
 
-## ADD APPLICATION RESOURCE
-
-## ADD GEOGRAPHIC DATA RESOURCE
-
-## ADD TABULAR OR DOCUMENT RESOURCE
-
-## ADD WEBSERVICE OR API RESOURCE
+Navigate to the resource type
+- [Application](./dps_bcdc_w_application_2.md)
+- [Geographic Data](./dps_bcdc_w_geographic_2.md)
+- [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
+- [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
 
 [RETURN TO TOP][1]
 
