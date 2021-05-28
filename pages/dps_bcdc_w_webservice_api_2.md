@@ -23,7 +23,7 @@ has_toc: true
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-## WEB SERVICE OR API RESOURCES
+## WEB SERVICE OR API RESOURCE MANAGEMENT
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
@@ -35,6 +35,7 @@ has_toc: true
 
 ---------------
 **Resource Type**: Select **Webservice/API**
+---------------
 
 **Resource Description**: is a detailed description of the resource.
 
