@@ -8,12 +8,12 @@ has_children: false
 has_toc: true
 ---
 
-# BC DATA CATALOUGE RESOURCE MANAGEMENT
+## BC DATA CATALOUGE RESOURCE MANAGEMENT
 1. Resources to a record can be the following types:
-    - [Application](#add-application-resource)
-    - [Geographic Data](#add-geographic-data-resource)
-    - [Tabular Data/Document](#add-tabular-or-document-resource)
-    - [Webservice/API](#add-weservice-or-api-resource)
+    - [Application](./dps_bcdc_w_application_2.md)
+    - [Geographic Data](./dps_bcdc_w_geographic_2.md)
+    - [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
+    - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
@@ -23,11 +23,11 @@ has_toc: true
 1. Click the **Add Resource** button on the toolbar at the record leve.
 1. Fill out all the required fields for each resource type as describled below.
 
-# WEB SERVICE OR API RESOURCES
+## WEB SERVICE OR API RESOURCES
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
-### RESOURCE
+**RESOURCE**
 
 + **URL**: is a link to a web service or api.
 
@@ -62,6 +62,11 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 Click **Save** when done
 
 + Additional resources can be added by repeating the process above or adding other resource types.
-+ or create other resources types
-+  ADD GEOGRAPHIC RESOURCE
-+  ADD WEBSERVICE OR API RESOURCE
+
+
+## OTHER RESOURCES TYPES
+- [Application](./dps_bcdc_w_application_2.md)
+- [Geographic Data](./dps_bcdc_w_geographic_2.md)
+- [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
+- [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
+
