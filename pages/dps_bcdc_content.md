@@ -1,8 +1,8 @@
 ---
 layout: default
-title: BCDC Content
+title: Record Content
 nav_order: 
-parent: Publication Workflow
+parent: Publication Workflow Beta
 grand_parent: BC Data Catalogue
 has_toc: true
 ---
