@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-## BC DATA CATALOUGE RESOURCE MANAGEMENT
+## BC DATA CATALOGUE RESOURCE MANAGEMENT
 1. Resources to a record can be the following types:
     - [Application](./dps_bcdc_w_application_2.md)
     - [Geographic Data](./dps_bcdc_w_geographic_2.md)
