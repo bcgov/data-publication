@@ -10,7 +10,7 @@ has_toc: true
 
 # BC DATA CATALOGUE RECORD MANAGEMENT
 
-**This document is being update to correspond with the BC Data Catalogue Beta release**
+**This document is being updated to correspond with the BC Data Catalogue Beta release**
 
 ## ADD RECORD
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
