@@ -15,7 +15,7 @@ has_toc: true
 ## ADD RECORD
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
-**_Title_**: This is the title of your metadata record.
+**Title**: This is the title of your metadata record.
 + This is limited to 100 characters as it is used in the url creation.
 
 **URL**: This is automatically generated while typing in the Title.
