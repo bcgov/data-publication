@@ -134,7 +134,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
         |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_w_application_2.html)|
         |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_w_dataset_2.html)|
         |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_w_geographic_dataset_2.html)|
-        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_w_webservice_or_api_2.html)|
+        |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_w_webservice_api_2.html)|
 
 1.  Click the **Add Dataset** button.
 
