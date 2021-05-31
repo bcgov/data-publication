@@ -68,7 +68,7 @@ Once you are ready, use the steps in this workflow to guide you through the proc
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the Data Custodian (Director or Executive Director) is required. Here are the steps to complete this, provide:
 
-1. Approval from the Data Custodian to for publish and manage records and data on their behalf.
+1. Approval from the Data Custodian to publish and manage records and data on their behalf.
 3. The name of the Ministry/Organization and Sub-Organization (as it appears in the Catalogue and if that needs to be renamed) in your email. 
 4. All names and IDIRs for those requiring access.
 5. Forward all this to [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with the subject: "BCDC Editor Request". 
