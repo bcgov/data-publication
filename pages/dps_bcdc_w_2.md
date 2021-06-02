@@ -108,7 +108,7 @@ There are three licencing options for data published data in the BC Data Catalog
 	+ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 	+ The Catalogue record links to the appropriate Open Data Licence.
 	
-1. [Open Government - (Other)](./open_data_licence_create.md)
+1. [Open Government - (Other)](./open_data_licence_create.md#creating-an-open-government-licence)
 
 	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
 	
