@@ -95,7 +95,7 @@ There are three licencing options for data published data in the BC Data Catalog
  
    For data that is under the Intellectual Property or "ownership of the Province of BC and meets all the requirements of being open data, it is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
 
-   To publish a dataset under OGL-BC, [follow the full steps here](./open_data.html) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). 
+   To publish a dataset under OGL-BC, [follow the full steps here](./open_data_w.md) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). 
    
    These include:
 
