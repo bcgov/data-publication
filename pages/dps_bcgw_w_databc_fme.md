@@ -93,7 +93,7 @@ The FME Framework requires you to be able to link published parameters to reader
 1. Open FME Workbench and from the menu bar
 1. Choose **Tools** → **FME Options**
 1. Select **Workbench** in the left hand panel of the **FME Options** popup
-1. Check the box **Allow reader feature type editing** in the **General Defaults** section
+1. Check the box **Allow reader feature type editing** in the **General Defaults** section (or in some FME versions, you'll need to expand the **Reader/Writer Options** section to find the check box) 
 
 ![allow-feature-type-editing](images/image_allow_feature_type_editing.png)
 
