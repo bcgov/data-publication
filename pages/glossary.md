@@ -18,6 +18,12 @@ has_toc: false
 |       |   | BCGW Production | Production is an instance of the BCGW that is the main operational data repository for the province’s SDI. |
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
 | **C** |   |Conceptual Data Model| An organized view of database concepts and their relationships. The purpose of creating a conceptual data model is to establish entities, their attributes, and relationships.
+|       |   |<a name="custodian">Custodian</a>| A _Role_ in the BC Data Catalogue, the Data Custodian is someone who:
+|       |   |   | 1. protects and promotes the use of data holdings under their care;
+|       |   |   | 2. sets policies, and is accountable for defining the appropriate use of the data;
+|       |   |   | 3. provides the authoritative version of the data; and
+|       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. 
+|       |   |   |Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
 | **D** |   |<a name="dataset">Dataset</a>|A dataset type in the metadata record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
 |       |   |Dataset Logfile| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
