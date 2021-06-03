@@ -15,24 +15,20 @@ has_toc: true
 ## METADATA RECORD MANAGEMENT
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
-**Title**: This is the title of your metadata record.
+**Title**: This is the title of your metadata record, and is a required field.
 + This is limited to 100 characters as it is used in the URL creation.
 + This text must be unique to the BC Data Catalogue.
-+ This is a required field.
 
-**URL**: This is automatically generated while typing in the **Title**.
+**URL**: This is automatically generated while typing in the **Title**, and is a required field.
 + This must be unique to the BC Data Catalogue.
 + This does not need to be the same as the Title, but by default it is created to match the **Title** as entered.
-+ This is a required field.
 
-**Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created.
+**Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created, and is a require field.
 + The Ministry or parent organization is no longer required to be defined at the record level.
-+ This a required field.
 
-**Description**: Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset.
-+ This is a required field
+**Description**: Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset, and is a required field.
 
-**Licence**: describes the license the data is being published under. See [Licences](./dps_bcdc_w.md#licences) section for more info.
+**Licence**: describes the license the data is being published under. See [Licences](./dps_bcdc_w.md#licences) section for more info, and is a required field. 
 + This is a required field
 
 **Contacts** 
