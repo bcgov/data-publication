@@ -103,7 +103,7 @@ The FME Framework requires you to be able to link published parameters to reader
 1. Choose **Tools** → **FME Options**
 1. Select **Default Paths** in the left hand panel of the **FME Options** popup
 1. Click on the **+** symbol in the **Shared FME Folders** section
-1. Enter this file: **\\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\fmeCustomizations**
+1. Enter this directory: **\\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\fmeCustomizations**
 1. Click **YES** on the popup to create one or more of the required subfolders
 1. Click **OK**
 
