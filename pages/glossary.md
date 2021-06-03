@@ -19,7 +19,7 @@ has_toc: false
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
 |       |   |<a name="business_expert">Business Expert</a>| A_Role_ in the BC Data Catalogue, the Business Expert is someone who:
 |       |   |   | 1. provides business context to the published data; and
-|       |   |   | 2. provides insight to consumers of data rational and other possible records to answer questions. 
+|       |   |   | 2. provides insight to consumers of data rationale and other possible records to answer questions. 
 | **C** |   |Conceptual Data Model| An organized view of database concepts and their relationships. The purpose of creating a conceptual data model is to establish entities, their attributes, and relationships.
 |       |   |<a name="custodian">Custodian</a>| A _Role_ in the BC Data Catalogue, the Data Custodian is someone who:
 |       |   |   | 1. protects and promotes the use of data holdings under their care;
