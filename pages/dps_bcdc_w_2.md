@@ -132,7 +132,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 
         |Metadata Pages| |
         |:---|:---|
-        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_record.html)|
+        |[Record](./glossary.html#record)|[Workflow](./dps_bcdc_record.md)|
         |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_w_application_2.html)|
         |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_w_dataset_2.html)|
         |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_w_geographic_dataset_2.html)|
