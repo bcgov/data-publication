@@ -42,10 +42,13 @@ has_toc: false
 |       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor. |
 |       |   |<a name="data_steward">Data Steward</a>| A _Role_ in the BC Data Catalogue, the Data Steward is someone who:
 |       |   |   | 1. has an agreement with the Data Custodian to provide a specific set of custodial duties on behalf of the Data Custodian;
-|       |   |   | 1. has the ability and resources to provide this specific set of custodial duties as required by the Data Custodian;
-|       |   |   | 2. is usually at the director level, like the Data Custodian;
+|       |   |   | 2. has the ability and resources to provide this specific set of custodial duties as required by the Data Custodian;
+|       |   |   | 3. is usually at the director level, like the Data Custodian;
 |       |   |Delivery Kit | A collection of files that are required by DataBC to migrate to the Test and Production instance of the BCGW. Delivery Kits are built by a vendor and are required for new database objects, changes to existing, or updating data in the BCGW. |
 |       |   | Discipline Authority| A business expert who understands the business relevance of data standards, and supports their application and use to meet an organization's needs.
+|       |   |<a name="distributor"Distributor<a/>| A_Role_ in the BC Data Catalogue, the Distributor is someone who:
+|       |   |   | 1. distributes the published data on behalf of the Organization (branch or division), and
+|       |   |   | 2. does not own the record and resources, but works closely with the other roles associated to the record.
 | **E** |ETL|Extract Transform Load | Extracting data from operational sources, transforming it to fit operational needs, and loading it to the BCGW. |
 |       |   | Enhanced Information | Existing information that has become value-added through the addition of information not already contained within the data, or information that was created as a result of an analysis process or amalgamation of information. For the purposes of AGO metadata requirements, if the AGO layer Item Details page can sufficiently describe how the information was added/created and the sources from which it came so that an average user (i.e., member of the public) could access and recreate this enhanced information based on the information provided, then no additional metadata record would be required for this layer. This being said however, it may be advisable to create such a metadata record to address the volume of questions from interested users.
 | **F** |FME  |Feature Manipluation Engine | ETL software written by Safe Software that is used by DataBC for the majority of data loads to BCGW feature classes. |
