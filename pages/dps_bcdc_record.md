@@ -17,15 +17,23 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 **Title**: This is the title of your metadata record.
 + This is limited to 100 characters as it is used in the URL creation.
++ This text must be unique to the BC Data Catalogue.
++ This is a required field.
 
-**URL**: This is automatically generated while typing in the Title.
+**URL**: This is automatically generated while typing in the **Title**.
++ This must be unique to the BC Data Catalogue.
++ This does not need to be the same as the Title, but by default it is created to match the **Title** as entered.
++ This is a required field.
 
 **Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created.
 + The Ministry or parent organization is no longer required to be defined at the record level.
++ This a required field.
 
 **Description**: Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset.
++ This is a required field
 
 **Licence**: describes the license the data is being published under. See [Licences](./dps_bcdc_w.md#licences) section for more info.
++ This is a required field
 
 **Contacts** 
 
@@ -36,7 +44,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 + **Role**: Contact role type 
     1. [Point of Contact](./glossary.html#point_of_contact) (required) 
         - Recommend the first contact to be a generic inbox.
-        - **NEW** On each record there is a **Contact Data Expert** button, this opens up an email with a defined email template that will go to the first contact listed.
+        - **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.
     3. [Business Expert](./glossary.html/#business_expert) (optional)
     4. [Data Manager](./glossary.html/#data-manager) (optional)
     5. [Custodian](./glossary.html/#data_custodian) (optional) 
