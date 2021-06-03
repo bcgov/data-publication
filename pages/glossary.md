@@ -28,7 +28,7 @@ has_toc: false
 |       |   |Dataset Logfile| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
 |       |DA |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
-|       |   |Data Manager| A _Role_ in the BC Data Catalogue, the Data Manager is someone who:
+|       |   |<a name="data_manager">Data Manager</a>| A _Role_ in the BC Data Catalogue, the Data Manager is someone who:
 |       |   |   | 1. is appointed by a Data Custodian to manage a specific data set according to policies, plans and standards defined by the Data Custodian;
 |       |   |   | 2. may take direction from a Data Steward designated by the Data Custodian;
 |       |   |   | 3. is responsible for day-to-day management of the data and may coordinate with operations staff;
