@@ -43,7 +43,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
         - **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.
     3. [Business Expert](./glossary.md/#business_expert) (optional)
     4. [Data Manager](./glossary.md/#data-manager) (optional)
-    5. [Custodian](./glossary.md/#data_custodian) (optional) 
+    5. [Custodian](./glossary.md/#custodian) (optional) 
     6. [Data Steward](./glossary.md/#data-steward) (optional) 
     7. [Distributor](./glossary.md/#distributor) (optional) 
 
