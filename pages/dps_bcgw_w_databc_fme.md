@@ -23,6 +23,7 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 + [**ACCESSING THE FME FRAMEWORK**](#accessing-the-fme-framework)
 	+ [Allow Reader Feature Type Editing](#allow-reader-feature-type-editing)
 	+ [Enable FME Framework Customizations](#enable-fme-framework-customizations)
+	+ [Set the Path to the Python Scripts Underlying the FME Framework](set-the-path-to-the-python-scripts-underlying-the-fme-framework)
 + [**CREATING AN FMW**](#creating-an-fmw)
 	+ [If developing on a GTS server, configure a dbCreds.json file](#if-developing-on-a-gts-server-configure-a-dbcredsjson-file)
 	+ [Add the Source Reader(s)](#add-the-source-readers)
@@ -108,6 +109,19 @@ The FME Framework requires you to be able to link published parameters to reader
 1. Click **OK**
 
 ![enabling-customizations](images/image_shared_folders.png)
+
+### Set the Path to the Python Scripts Underlying the FME Framework
+
+1. Open the Windows Command Prompt window (in the Start Menu list under the Windows System folder)
+1. Check if you have already defined the PYTHONPATH user environment variable
+	1. Type the `set` command at the prompt
+	1. Look for a variable listed called PYTHONPATH and if it is set to the correct location
+1. If there is no PYTHONPATH variable, then you'll create it now
+	1. At the prompt type the following: `setx PYTHONPATH "\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\"`
+	1. A SUCCESS message should be displayed
+	1. Note: a new/updated environment variable won't be visible in the **set** list until after you exit the Commond Prompt window
+	1. Exit the Command Prompt window
+
 
 [RETURN TO TOP][1] 
 
