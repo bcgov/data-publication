@@ -44,7 +44,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     3. [Business Expert](./glossary.md/#business_expert) (optional)
     4. [Data Manager](./glossary.md/#data_manager) (optional)
     5. [Custodian](./glossary.md/#custodian) (optional) 
-    6. [Data Steward](./glossary.md/#data-steward) (optional) 
+    6. [Data Steward](./glossary.md/#data_steward) (optional) 
     7. [Distributor](./glossary.md/#distributor) (optional) 
 
 + **Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to those logged in as IDIR.
