@@ -71,7 +71,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Medium - Personal, Medium - Sensitivity|**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
     |High - Cabinet, High - Confidential, High - Sensitivity|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
 
-**Who can view this data?**: describes who can view for example BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
+**Who can view this data?**: describes who can view, for example, the BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
 + The order reflects the most accessible to the most secure
 
     |Access Type| Description
@@ -100,7 +100,9 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Public | All users of the catalogue can view the metadata record.
     |IDIR | Only IDIR credentials can view the metadata record.
 
-**Keywords**: These are the searchable terms for the metadata record. Enter meaningful keywords here. Think of what users may use for search terms to find the dataset in the Catalogue.
+**Keywords**: These are the searchable terms for the metadata record, and at least one keyword is required, however, not limited to just one keywork 
++ Enter meaningful keywords here. 
++ Think of what users may use for search terms to find the dataset in the Catalogue.
 
 **State**: When creating a new metadata record, the state will be set to DRAFT once you click on this state. 
 
