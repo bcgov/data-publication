@@ -37,7 +37,7 @@ has_toc: false
 |       |   |Data Population| The process of retrieving data from the Data Custodian's source system, transforming it as required and storing it in the BCGW.
 |       |   |Data Products| Pre-defined packages of data that BCGW users can browse and download via the BCGW's data catalogue.
 |       |   |Data Publisher| A person responsible for publishing data to the DataBC Program. This person could hold the responsibilties of any of the following roles in the BC Data Catalogue: Data Custodian, Data Manager, or Data Steward and could also be a Metadata Editor. |
-|       |   |Data Steward| A _Role_ in the BC Data Catalogue, the Data Steward is someone who:
+|       |   |<a name="data_steward">Data Steward</a>| A _Role_ in the BC Data Catalogue, the Data Steward is someone who:
 |       |   |   | 1. has an agreement with the Data Custodian to provide a specific set of custodial duties on behalf of the Data Custodian;
 |       |   |   | 1. has the ability and resources to provide this specific set of custodial duties as required by the Data Custodian;
 |       |   |   | 2. is usually at the director level, like the Data Custodian;
