@@ -29,7 +29,6 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 **Description**: Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset, and is a required field.
 
 **Licence**: describes the license the data is being published under. See [Licences](./dps_bcdc_w.md#licences) section for more info, and is a required field. 
-+ This is a required field
 
 **Contacts** 
 
@@ -49,13 +48,16 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 + **Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to those logged in as IDIR.
 
-**Purpose**: This is a summary of the intentions for which the dataset was developed.
+**Purpose**: This is a summary of the intentions for which the dataset was developed, and is an optional field. 
++ To provide a complete picture into the nature of the record and resources, it is encouraged to provide some text before publishing so consumers will understand the purpose of and how to use the published data.
 
-**Data Quality**: This is descriptive text that can include information about issues, completeness, consistency, etc.
+**Data Quality**: This is descriptive text that can include information about issues, completeness, consistency, etc., and is an optional field.
++ To provide a complete picture into the record's quality, it is encouraged to provide some text before publishing so consumers will understand the data quality of the published data.
 
-**Lineage Statement**: This is information about the events or source data used in constructing the data.
+**Lineage Statement**: This is information about the events or source data used in constructing the data, and is an optional field.
++ To provide a complete picture into the record's source data, it si encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
 
-**More Info**
+**More Info**: This is additional information (one or more references) to support the dataset or the pubishing organization, and is an optional set of fields.
 + **Description** (**NEW**): Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend to use the + Permalink, thus when pages are moved around the link is not broken.
 + **URL**: Any related web site URL's can be added here.
 
