@@ -10,7 +10,7 @@ has_toc: false
 | |Acronym|Term|Definition|
 |-|:---:|:---|:---|
 |**A** |    |<a name="access_approver">Access Approver</a>|A _Role_ in the BC Data Catalogue, the Access Approver is someone who:
-|      |    |       | 1. can approve access requests to a BCGW **Named User** list.
+|      |    |       | 1. can approve access requests to a [BCGW](./glossary.md#BCGW) **Named User** list.
 |      |    |<a name="application">Application</a>|A dataset type in the metadata record, this category is used for applications that provide access to data.|
 |      |    |ArcGIS | Developed by ESRI, ArcGIS is a geographic information system (GIS) for working with maps and geographic information maintained by the Environmental Systems Research Institute (Esri). It is used for creating and using maps, compiling geographic data, analyzing mapped information, sharing and discovering geographic information, using maps and geographic information in a range of applications, and managing geographic information in a database.|
 |       |AGO|ArcGIS Online|ArcGIS Online is a cloud-based mapping and analysis solution. It is used to make maps, analyze data, and to share and collaborate. Users can access workflow-specific apps, maps and data, and tools for being mobile in the field.|
