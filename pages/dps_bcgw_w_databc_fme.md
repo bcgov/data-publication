@@ -23,7 +23,7 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 + [**ACCESSING THE FME FRAMEWORK**](#accessing-the-fme-framework)
 	+ [Allow Reader Feature Type Editing](#allow-reader-feature-type-editing)
 	+ [Enable FME Framework Customizations](#enable-fme-framework-customizations)
-	+ [Set the Path to the Python Scripts Underlying the FME Framework](set-the-path-to-the-python-scripts-underlying-the-fme-framework)
+	+ [Set the Path to the Python Scripts Underlying the FME Framework](#set-the-path-to-the-python-scripts-underlying-the-fme-framework)
 + [**CREATING AN FMW**](#creating-an-fmw)
 	+ [If developing on a GTS server, configure a dbCreds.json file](#if-developing-on-a-gts-server-configure-a-dbcredsjson-file)
 	+ [Add the Source Reader(s)](#add-the-source-readers)
