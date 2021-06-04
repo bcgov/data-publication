@@ -117,10 +117,11 @@ The FME Framework requires you to be able to link published parameters to reader
 	1. Type the `set` command at the prompt
 	1. Look for a variable listed called PYTHONPATH and if it is set to the correct location
 1. If there is no PYTHONPATH variable, then you'll create it now
-	1. At the prompt type the following: `setx PYTHONPATH "\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\"`
+	1. At the prompt type the following:  
+ `setx PYTHONPATH "\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\"`
 	1. A SUCCESS message should be displayed
 	1. Note: a new/updated environment variable won't be visible in the **set** list until after you exit the Commond Prompt window
-	1. Exit the Command Prompt window
+1. Exit the Command Prompt window
 
 
 [RETURN TO TOP][1] 
