@@ -40,11 +40,11 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     1. [Point of Contact](./glossary.md/#point_of_contact) (required) 
         - Recommend the first contact to be a generic inbox.
         - **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.
-    2. [Access Approver](./glossary.md/#access_approver) (optional)
+    2. [Access Approver](./glossary.md/#access_approver) (optional) - **NEW**
     3. [Business Expert](./glossary.md/#business_expert) (optional)
-    4. [Data Manager](./glossary.md/#data_manager) (optional)
+    4. [Data Manager](./glossary.md/#data_manager) (optional) - **NEW**
     5. [Custodian](./glossary.md/#custodian) (optional) 
-    6. [Data Steward](./glossary.md/#data_steward) (optional) 
+    6. [Data Steward](./glossary.md/#data_steward) (optional) - **NEW**
     7. [Distributor](./glossary.md/#distributor) (optional) 
 
 + **Displayed**: Check this box to display the contact to all catalogue users (public access). Unchecked, this contact information will only be visible to those logged in as IDIR.
