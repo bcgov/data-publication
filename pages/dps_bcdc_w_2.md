@@ -140,11 +140,6 @@ _Note: To use the CKAN API for creating metadata, more information is available 
         |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_w_geographic_dataset_2.html)|
         |[Web Service - API](./glossary.html#webservice_api)|[Workflow](./dps_bcdc_w_webservice_api_2.html)|
 
-1.  Click the **Add Dataset** button.
-
-1. Complete all mandatory fields (minimum requirement). We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.html). 
-
 ### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
 
 The use of the BC Map Hub has a requirement for the creation of metadata alongside data and maps. The following documentation will assist in that process:
