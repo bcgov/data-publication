@@ -10,11 +10,11 @@ has_toc: false
 | |Acronym|Term|Definition|
 |-|:---:|:---|:---|
 |**A** |    |<a name="access_approver">Access Approver</a>|A _Role_ in the BC Data Catalogue, the Access Approver is someone who:
-|      |    |       | 1. can approve access requests to a Named User list.
+|      |    |       | 1. can approve access requests to a BCGW **Named User** list.
 |      |    |<a name="application">Application</a>|A dataset type in the metadata record, this category is used for applications that provide access to data.|
 |      |    |ArcGIS | Developed by ESRI, ArcGIS is a geographic information system (GIS) for working with maps and geographic information maintained by the Environmental Systems Research Institute (Esri). It is used for creating and using maps, compiling geographic data, analyzing mapped information, sharing and discovering geographic information, using maps and geographic information in a range of applications, and managing geographic information in a database.|
 |       |AGO|ArcGIS Online|ArcGIS Online is a cloud-based mapping and analysis solution. It is used to make maps, analyze data, and to share and collaborate. Users can access workflow-specific apps, maps and data, and tools for being mobile in the field.|
-|**B** |BCGW|BC Geographic Warehouse| The BCGW is a spatially enabled Oracle Database that contains thousands of spatial and non-spatial datasets. |
+|**B** |BCGW|<a name="BCGW">BC Geographic Warehouse</a>| The BCGW is a spatially enabled Oracle Database that contains thousands of spatial and non-spatial datasets. |
 |       |   | BCGW Delivery | Delivery is an instance of the BCGW that is open to vendors to use as a proofing ground for all components being prepared for migration to BCGW Production. | 
 |       |   |B.C. MapHub|The B.C. Map Hub is the official B.C. Government presence in ArcGIS Online.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others. |
 |       |   | BCGW Production | Production is an instance of the BCGW that is the main operational data repository for the province’s SDI. |
