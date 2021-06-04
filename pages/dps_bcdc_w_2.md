@@ -126,9 +126,11 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
-1. Complete the record details to describe what you are publishing and then you will be able to add different resource types after.
+1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
     + This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
-    + Follow the workflow link below for details on the specific fields for each dataset type.
+    + Follow the [Workflow](./dps_bcdc_record.md#bc-data-catalogue-record-management) to complete all mandatory fields (minimum requirement). 
+    + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md).
 
         |Metadata Pages| |
         |:---|:---|
