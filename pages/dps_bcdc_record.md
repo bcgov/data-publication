@@ -23,7 +23,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 + This must be unique to the BC Data Catalogue.
 + This does not need to be the same as the Title, but by default it is created to match the **Title** as entered.
 
-**Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created, and is a require field.
+**Organization**: This is the Sub-Organization (often the Branch or Division) under which the metadata record is created, and is a required field.
 + The Ministry or parent organization is no longer required to be defined at the record level.
 
 **Description**: Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset, and is a required field.
@@ -40,6 +40,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     1. [Point of Contact](./glossary.md/#point_of_contact) (required) 
         - Recommend the first contact to be a generic inbox.
         - **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.
+    2. [Access Approver](./glossary.md/#access_approver) (optional)
     3. [Business Expert](./glossary.md/#business_expert) (optional)
     4. [Data Manager](./glossary.md/#data_manager) (optional)
     5. [Custodian](./glossary.md/#custodian) (optional) 
