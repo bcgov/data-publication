@@ -40,7 +40,7 @@ Specifically, the layer files are directly or indirectly used as the source for 
 	+ [Symbology Tab](#symbology-tab)
 	+ [Fields Tab](#fields-tab)
 	+ [Definition Query Tab](#definition-query-tab)
-	+ [Labels Tab ](#labels-tab-)
+	+ [Labels Tab ](#labels-tab)
 	+ [Joins and Relates tab](#joins-and-relates-tab)
 + [**LAYER CHANGE PROCEDURES**](#layer-change-procedures)
 + [**REFERENCES**](#references)
@@ -423,6 +423,7 @@ A definition query limits/filters the features from the data source, so that onl
 
 + Do not use double quotes around column names.
 + Do not use "NOT IN" statements.
++ The Geoserver WMS service currently does not support definition queries based on NULL values.
 
 ### Labels Tab 
 
