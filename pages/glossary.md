@@ -9,7 +9,7 @@ has_toc: false
 
 | |Acronym|Term|Definition|
 |-|:---:|:---|:---|
-|**A** |    |<a name="access_approver">Access Approver</a>|A_Role_ in the BC Data Catalogue, the Access Approver is someone who:
+|**A** |    |<a name="access_approver">Access Approver</a>|A _Role_ in the BC Data Catalogue, the Access Approver is someone who:
 |      |    |       | 1. can approve access requests to the BCGW;
 |      |    |       | 2. can approve association to a Named User list.
 |      |    |<a name="application">Application</a>|A dataset type in the metadata record, this category is used for applications that provide access to data.|
@@ -20,7 +20,7 @@ has_toc: false
 |       |   |B.C. MapHub|The B.C. Map Hub is the official B.C. Government presence in ArcGIS Online.  It is a collaborative place to explore, engage, innovate and communicate using the language of maps and data.  Search for content, browse maps, ask questions and for government professionals - author content.  Make a map, share your data, collaborate with others. |
 |       |   | BCGW Production | Production is an instance of the BCGW that is the main operational data repository for the province’s SDI. |
 |       |   | BCGW Test  | Test is an instance of the BCGW that is used by DataBC, business areas, and vendors to review data warehouse objects and updates as deployed from vendor Delivery Kits. BCGW Test is not open for vendors to deliver to, rather DataBC staff deploy and populate objects. Once a Delivery Kit deploys successfully, notification is sent and connect details are provided to begin testing. |
-|       |   |<a name="business_expert">Business Expert</a>| A_Role_ in the BC Data Catalogue, the Business Expert is someone who:
+|       |   |<a name="business_expert">Business Expert</a>| A _Role_ in the BC Data Catalogue, the Business Expert is someone who:
 |       |   |   | 1. provides business context to the published data; and
 |       |   |   | 2. provides insight to consumers of data rationale and other possible records to answer questions. 
 | **C** |   |Conceptual Data Model| An organized view of database concepts and their relationships. The purpose of creating a conceptual data model is to establish entities, their attributes, and relationships.
