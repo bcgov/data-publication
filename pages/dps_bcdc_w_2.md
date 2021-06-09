@@ -130,7 +130,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
     + This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
     + Follow the [Workflow](./dps_bcdc_record.md#bc-data-catalogue-record-management) to complete all mandatory fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md).
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata).
 
         |Metadata Pages| |
         |:---|:---|
