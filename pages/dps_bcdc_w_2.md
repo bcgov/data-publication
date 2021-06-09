@@ -133,9 +133,9 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata).
 1. Click the [**Save**] button. 
 
+
         |Metadata Pages| |
         |:---|:---|
-        |[Record](./glossary.md#record)|[Workflow](./dps_bcdc_record.md#bc-data-catalogue-record-management)|
         |[Application](./glossary.html#application)|[Workflow](./dps_bcdc_w_application_2.html)|
         |[Dataset](./glossary.html#dataset)|[Workflow](./dps_bcdc_w_dataset_2.html)|
         |[Geographic Dataset](./glossary.html#geographic_dataset)|[Workflow](./dps_bcdc_w_geographic_dataset_2.html)|
