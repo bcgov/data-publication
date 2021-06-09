@@ -512,6 +512,11 @@ Before asking to publish data to the BCGW, consider:
 + Some datasets have data use agreements that must be signed with the custodial business area.
 + Review the contacts shown on the metadata records to discuss access.
 
+**Quick links for commonly requested access**:
++ TRIM/Lidar: Contact [GeoBCInfo@gov.bc.ca](mailto:GeoBCInfo@gov.bc.ca)
++ Archaeology* Request access [here](https://www2.gov.bc.ca/gov/content?id=9F951D7978B64B1C878B4D8957A1CFC7).
++ General Government Enquiries are requested [here](https://www2.gov.bc.ca/gov/content?id=6A77C17D0CCB48F897F8598CCC019111).
+
 ### How do I get an account to BCGW?
 
 + Fill out the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261)
