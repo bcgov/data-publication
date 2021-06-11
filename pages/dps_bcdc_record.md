@@ -65,6 +65,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 **Security Classification**:
 + The Security Classification has been updated and records transformed to reflect the OCIO's standard.
++ This is a required field.
 
     |BCDC Security Classification (**Old**)| [Information Security Classification Levels (**NEW**)](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
     |:---|:---|:---|
@@ -74,7 +75,8 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |High - Cabinet, High - Confidential, High - Sensitivity|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
 
 **Who can view this data?**: describes who can view, for example, the BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
-+ The order reflects the most accessible to the most secure
++ The order reflects the most accessible to the most secure.
++ This is a required field.
 
     |Access Type| Description
     |:---|:---|
@@ -84,7 +86,8 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Named Users| Only specific named users can access the dataset.
 
 **Who can download this data?**: describes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
-+ The order reflects the most accessible to the most secure
++ The order reflects the most accessible to the most secure.
++ This is a required field.
 
     |Access Type| Description
     |-|-|
@@ -95,7 +98,8 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Not downloadable| Resource cannot be downloaded. Specifically, for the BC Geographic Warehouse (BCGW), the dataset is not configured via the Distribution Service.
 
 **Who can view this record?**: describes who can view the metadata record.
-+ The order reflects the most accessible to the most secure
++ The order reflects the most accessible to the most secure.
++ This is a required field.
 
     |Access Type| Description
     |:---|:---|
@@ -110,16 +114,19 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 **Resource Status**: is the status of the dataset, service, API or application as described by one of the types below: 
 + A resource or record changes status over its lifecycle.
++ This is a required field. 
    
-    |Data Update Status| Description|
+    |Data Update Status|Description|
     |:---|:---|
-    |Ongoing|Resources that are regularly updated should be described as ongoing.|
-    |Completed|Resources with no plan for future updates should be described as completed.|
-    |Destroyed|Resources that no longer exist should be described as destroyed.|
-    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive.|
-    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete.|
     |Planned|Resources that do not currently exist, but are planned for the future, should be described as planned.|
-    |Required|
+    |Under Development| |
+    |Ongoing|Resources that are regularly updated should be described as ongoing.|
+    |Required| |
+    |Completed|Resources with no plan for future updates should be described as completed.|
+    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete.|
+    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive.|
+    |Destroyed|Resources that no longer exist should be described as destroyed.|
+   
 **Record Lifecycle History**:
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.
 + **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
