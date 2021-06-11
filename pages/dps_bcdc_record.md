@@ -123,8 +123,8 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Ongoing|Resources that are regularly updated should be described as ongoing.|
     |Required| |
     |Completed|Resources with no plan for future updates should be described as completed.|
-    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete.|
-    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive.|
+    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - **Replacement Record**|
+    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. when selected, additional inforomation will be required - **Retention Expiry Date** and **Source Data Path**|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
    
 **Record Lifecycle History**:
