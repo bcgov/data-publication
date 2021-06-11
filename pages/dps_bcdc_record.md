@@ -138,7 +138,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 <a name=retention_expiry_date>**Rentention Expiry Date**</a>:
 + Is required when **Resource Status** is **Historical Archive**
 
-<a name-source_data_path>**Source Data Path**</a>:
+<a name=source_data_path>**Source Data Path**</a>:
 + Is required when **Resource Status** is **Historical Archive**
 
 ---------------
