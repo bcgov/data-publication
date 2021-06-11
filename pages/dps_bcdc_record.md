@@ -132,6 +132,15 @@ When there are changes to a resource in a metadata record, a new date type and c
 + **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
 + **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
 
+**Replacement Record**: 
++ Is required when **Resource Status** is **Obsolete**
+
+**Rentention Expiry Date**:
++ Is required when **Resource Status** is **Historical Archive**
+
+**Source Data Path**:
++ Is required when **Resource Status** is **Historical Archive**
+
 ---------------
 ## ADD RESOURCES
 1. Resources to a record can be the following types:
