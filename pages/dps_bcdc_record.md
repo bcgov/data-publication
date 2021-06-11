@@ -160,7 +160,7 @@ To add a resource:
 1. Fill out all the required fields for each resource type as described below.
 
 Navigate to the resource type as needed:
-- [Application](./dps_bcdc_w_application_2.md)
+- [Application](./dps_bcdc_w_application_2.md#bc-data-catalogue-resource-management)
 - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
 - [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
 - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
