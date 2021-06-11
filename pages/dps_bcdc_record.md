@@ -128,9 +128,11 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Destroyed|Resources that no longer exist should be described as destroyed.|
    
 **Record Lifecycle History**:
-When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.
+When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.  
 + **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
+     +  Required when creating a record.
 + **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
+     +  Required when creating a record.
 
 <a name=replacement_record>**Replacement Record**</a>: URL of the new record replacing this dataset after it is retired (archived).
 + Is required when **Resource Status** is **Obsolete**
