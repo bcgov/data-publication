@@ -124,7 +124,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Required| |
     |Completed|Resources with no plan for future updates should be described as completed.|
     |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - [**Replacement Record**](./dps_bcdc_record.md#replacement_record)|
-    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. when selected, additional inforomation will be required - **Retention Expiry Date** and **Source Data Path**|
+    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. when selected, additional inforomation will be required - [**Retention Expiry Date**](./dps_dcbc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_dcbc_record.md#source_data_path)|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
    
 **Record Lifecycle History**:
@@ -135,10 +135,10 @@ When there are changes to a resource in a metadata record, a new date type and c
 <a name=replacement_record>**Replacement Record**</a>: URL of the new record replacing this dataset after it is retired (archived).
 + Is required when **Resource Status** is **Obsolete**
 
-**Rentention Expiry Date**:
+<a name=retention_expiry_date>**Rentention Expiry Date**</a>:
 + Is required when **Resource Status** is **Historical Archive**
 
-**Source Data Path**:
+<a name-source_data_path>**Source Data Path**</a>:
 + Is required when **Resource Status** is **Historical Archive**
 
 ---------------
