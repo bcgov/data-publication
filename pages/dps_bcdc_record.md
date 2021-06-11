@@ -123,7 +123,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     |Ongoing|Resources that are regularly updated should be described as ongoing.|
     |Required| |
     |Completed|Resources with no plan for future updates should be described as completed.|
-    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - <a name=replacement_record>**Replacement Record**</a>|
+    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - **Replacement Record**|
     |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. when selected, additional inforomation will be required - **Retention Expiry Date** and **Source Data Path**|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
    
@@ -132,7 +132,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 + **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
 + **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
 
-[**Replacement Record**](replacement_record): URL of the new record replacing this dataset after it is retired (archived).
+<a name=replacement_record>**Replacement Record**</a>: URL of the new record replacing this dataset after it is retired (archived).
 + Is required when **Resource Status** is **Obsolete**
 
 **Rentention Expiry Date**:
