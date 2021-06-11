@@ -132,7 +132,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 + **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
 + **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
 
-**Replacement Record**: URL of the new record replacing this dataset after it is retired (archived).
+[**Replacement Record**](replacement_record): URL of the new record replacing this dataset after it is retired (archived).
 + Is required when **Resource Status** is **Obsolete**
 
 **Rentention Expiry Date**:
