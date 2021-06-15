@@ -147,7 +147,7 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 
 Resources are the data in the metadata record and are added to the record to provide users with access to your data.
 
-To add Resources to a record, select the ![image](./images/Add_Resource.png) link. 
+To add Resources to a record, select the ![image](./images/Add_Resource.png) button on the top menu bar when viewing the metadata record. 
 
 _Notes:_
 + To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)
