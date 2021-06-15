@@ -147,11 +147,7 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 
 Resources are the data in the metadata record and are added to the record to provide users with access to your data.
 
-1. Resources to a record can be the following types:
-    - Application
-    - Geographic Data
-    - Tabular Data/Document
-    - Webservice/API
+1. Resources to a record can be the following types: Application, Geographic Data, Tabular Data/Document or Webservice/API.
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
