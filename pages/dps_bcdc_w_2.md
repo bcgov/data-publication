@@ -157,7 +157,7 @@ Resources are the data in the metadata record and are added to the record to pro
 1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-    - [Application](./dps_bcdc_w_application_2.md)
+    - [Application](./dps_bcdc_w_application_2.md#application-resource-management-in-the-bc-data-catalogue)
     - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
     - [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
     - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
