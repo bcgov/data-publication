@@ -273,6 +273,7 @@ Metadata Groups provide a listing of like datasets for a specific purpose and ca
 To create a group, the following information is required and can be sent to [DataBC](mailto:data@gov.bc.ca).
 
 **Requirements:**
+At any point this information needs to be updated or group members modidified, this can be done by emamiling [DataBC](mailto:data@gov.bc.ca).
 + **Group Name**:
 + **Group Description**:
 + **URL**: _for more information_
@@ -280,6 +281,19 @@ To create a group, the following information is required and can be sent to [Dat
 + **Members**: _list of IDIRs who will maintain the Group_
 + **Group visibility**: Public or IDIR
 
+**Managing Groups**
+A member of a catalogue group can add any record published as an item in the group.
+* However when adding records from other organizations, we do recommend reaching out to inform them of this. This builds a relationship between the data consimer and data providert they understand the value their data is providing your pusposes.
+
+**How to add Records to a Group**
+1. Log in to the catalogue
+1. Navigate to a metadata record to add to the group
+1. Click the **Group** button on the grey toolbar
+1. Select the group to add to in the drop down list
+1. Click the **Add to group** button
+
+Repeat the above steps for each record
+ 
 [RETURN TO TOP][1]
 
 ------------------------------
