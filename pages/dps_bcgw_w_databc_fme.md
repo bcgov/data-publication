@@ -46,22 +46,23 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 	+ [Destination Writers](#destination-writers)
 	+ [Workspace Parameters](#workspace-parameters)
 	+ [Documentation](#documentation)
+	+ [Illustration of Configuring an FME Script](#illustration-of-configuring-an-fme-script)
   
 -----------------------
 
 ## DATABC'S FME FRAMEWORK
 
-The DataBC FME Framework builds upon Safe Software's stock FMW by adding:
+The DataBC FME Framework builds upon Safe Software's stock FME script features by adding:
 
 1. A published and private parameter standard with some automated / scripted parameters, and
 
-1. Python procedures that runs at Startup and Shutdown.
+1. Python procedures that run at Startup and Shutdown.
 
 The purpose / goals of the DataBC FME Framework are to allow DataBC to:
 
 1. Easily identify the relationships between replication scripts, their source datasets and their destination datasets.  This is accomplished using standardized published parameters.
 
-1. Easily add new functionality to either startup / shutdown procedures that can be applied to all replications without the need to edit any of the FMWs.
+1. Easily add new functionality to either startup / shutdown procedures that can be applied to all replications without the need to edit any of the FME scripts.
 
 1. Keep passwords external to FME scripts; with the Framework, they are securely retrieved from our password management application at run time.
 
@@ -70,13 +71,13 @@ The DataBC FME Framework is available to developers outside of DataBC on the GTS
 
 ### ​Overview of how to use the DataBC FME Framework
 
-1. Start with a new FME Framework FMW file or one of the templates, available [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/gsr_whse/WHSE_IMAGERY_AND_BASE_MAPS/N.N.N_descriptive_name_of_release/dataload/gsr_zzz_sv_staging_csv_bcgw.fmw) for loading the GSR tables and [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw) for other dataloads.   
+1. Start with a new FME Framework FMW file or one of the templates, available [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/gsr_whse/WHSE_IMAGERY_AND_BASE_MAPS/N.N.N_descriptive_name_of_release/dataload/gsr_zzz_sv_staging_csv_bcgw.fmw) for loading the GSR tables and [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw) for loading other BCGW tables.   
 1. If developing on a GTS server, configure a dbCreds.json file. A template dbCreds.json file is available [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/dbCreds.json). Copy the [_dbCreds.json file_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/dbCreds.json) and [_this connection file_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw-i.bcgov__idwdlvr1.bcgov.sde)  to the directory containing the FMW that you are writing.
 1. Using the GTS 10.6 Kamloops environment, start FME by navigating to and executing the [_FME Launch script_](\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\fmeDBCFrameworkLauncher_10_6.cmd).
-1. Add and configure the reader(s).
-1. Add and configure the writer(s).
-1. Define the basic Framework parameters to control startup, shutdown, logging, and file change detection.
-1. Add in the File Change Detection transformer and any other transformers needed.
+1. Add and [configure the reader(s)](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#add-the-source-readers).
+1. Add and [configure the writer(s)](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#add-the-destination-writer).
+1. Define the basic Framework parameters to control [startup, shutdown, logging, and file change detection](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#define-the-workspace-parameters).
+1. Add in the [File Change Detection transformer](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#file-change-detector-v2) and any other transformers needed.
 1. Test the FMW by populating to the BCGW delivery environment.
 
 [RETURN TO TOP][1] 
@@ -137,7 +138,7 @@ The FME Framework requires you to be able to link published parameters to reader
 
 ### If developing on a GTS server, configure a dbCreds.json file
 
-The DataBC FME Framework, when run on a DataBC FME Workbench workstation or on FME Server, retrieve passwords from a password management system accessible only by DataBC processes. GTS servers do not have access to this password management system, so scripts that are running on the GTS environment need some other way of retrieving passwords. This is done through supplying a file called 'dbCreds.json' in the same directory in which the FMW being run by FME Workbench is located. Example files are available in Gogs in the same directories as the sample FMW's. Copy the example .json file to the same directory as your FMW, then open it up and add the required parameters. Also make sure to copy the associated .sde connection file into this same directory.
+The DataBC FME Framework, when run on a DataBC FME Workbench workstation or on FME Server, retrieves passwords from a password management system accessible only by DataBC processes. GTS servers do not have access to this password management system, so scripts that are running on the GTS environment need some other way of retrieving passwords. This is done through supplying a file called 'dbCreds.json' in the same directory in which the FMW being run by FME Workbench is located. Example files are available in Gogs in the same directories as the sample FMW's. Copy the example .json file to the same directory as your FMW, then open it up and add the required parameters. Also make sure to copy the associated .sde connection file into this same directory.
 
 When you deliver the FMW to DataBC, do not include the dbCreds.json file with the files you deliver.  Instead arrange with DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) to have the passwords included into our password management system.  
   
@@ -296,7 +297,7 @@ This section describes the parameters that need to be defined when configuring a
 	|**Configuration**|*.csv | 
 	|**Attribute Assignment**|Default |
 	|**Default Value**|Path to the CSV that is being replicated |
-	|**Link From**|Reader → Source CSV (CommaSeparatedValue) File → Link to User Parameter → SRC_DATASET_FGDB_1 |
+	|**Link From**|Reader → Source CSV (CommaSeparatedValue) File → Link to User Parameter → SRC_DATASET_CSV_1 |
 
 + When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...
 
@@ -304,11 +305,11 @@ This section describes the parameters that need to be defined when configuring a
 
 This section describes the parameters that need to be defined when configuring a Esri File Geodatabase reader.
 
-**NOTE**: If you are building an FMW that just reads from a FGDB and writes to the BCGW and does nothing in between but possibly rename columns and/or populate a primary key with a counter, then this ETL task might be doable using KIRK (*Keeping Information Replicated Kontinuously*).  See [_Appendix 4_](#appendix-4---kirk-preparation).
+**NOTE**: If you are building an FMW that just reads from a FGDB and writes to the BCGW and does nothing in between but possibly rename columns and/or populate a primary key with a counter, then this ETL task might be doable using KIRK (*Keeping Information Replicated Kontinuously*).  See [_Appendix 3_](#appendix-3---kirk-preparation).
 
 ##### Source FGDB Path and Name (SRC_DATASET_FGDB_1)
 
-+ This parameter describes the fgdb that contains the tables / feature classes that are to be read.  
++ This parameter describes the FGDB that contains the tables / feature classes that are to be read.  
    + Add the FGDB reader to the FMW that is being created.  
    + When the reader is created FME will automatically create a published parameter with a name starting with "SourceDataset_FILEGDB".  
    Find this parameter and edit it so that its name is "**SRC_DATASET_FGDB_1**"
@@ -568,7 +569,7 @@ However, when run on the GTS environment, the framework will calculate the name 
 	|**Configuration**|N/A | 
 	|**Attribute Assignment**|N/A |
 	|**Default Value**|Source GeoJSON File or URL, e.g., https://gwells-prod.pathfinder.gov.bc.ca/gwells/api/v1/gis/aquifers |
-	|**Link From**|Reader → Source GeoJSON File or URL → Link to User Parameter → SRC_DATASET_SHP_1  |
+	|**Link From**|Reader → Source GeoJSON File or URL → Link to User Parameter → SRC_GEOJSON_FILE_1  |
 
 #### Microsoft Access Database (MDB_ADO)
 
@@ -898,7 +899,7 @@ When linking to User Parameters:
 
 ##### Destination Schema Password (DEST_PASSWORD)
 
-+ This parameter is used to calculate the password for **DESC_SCHEMA**, either from the DataBC password management system (when run on a DataBC workstation or FME Server) or the **dbCreds.json** file (when run on a GTS server).
++ This parameter is used to calculate the password for **DEST_SCHEMA**, either from the DataBC password management system (when run on a DataBC workstation or FME Server) or the **dbCreds.json** file (when run on a GTS server).
 
 	|Field|Value|
 	|-----|-----|
@@ -1099,7 +1100,7 @@ shutIt.shutdown()
 This section describes commonly used FME transformers and provides guidelines for their use.
 
 #### File Change Detector v2
-+ This transformer normally is first transformer after a Reader. It filters records into two output ports:  **CHANGES** and **NO_CHANGES**.  **All** records from the file are output to the **CHANGES** port if the file has changed since the file was last successfully loaded into the same destination environment. **All** records from the file are output to the **NO_CHANGES** port if the file has not changed since the file was last successfully loaded into the same destination environment. Note that this transformer filters based on the status of the file, and not on whether individual records have changed.
++ This transformer is normally the first transformer after a Reader. It filters records into two output ports:  **CHANGES** and **NO_CHANGES**.  **All** records from the file are output to the **CHANGES** port if the file has changed since the file was last successfully loaded into the same destination environment. **All** records from the file are output to the **NO_CHANGES** port if the file has not changed since the file was last successfully loaded into the same destination environment. Note that this transformer filters based on the status of the file, and not on whether individual records have changed.
 
 #### BCDC File Change Detector
 
@@ -1346,6 +1347,9 @@ If the source FGDB columns map to BCGW columns having different names, then a fi
 |UPDATE_DATE|WHEN_UPDATED|
 |IS_PUBLIC|PUBLIC_IND|
 
+[RETURN TO TOP][1] 
+
+
 -------------------------------------------------------
 
 ## APPENDIX 4 - FINAL PUBLICATION CHECKLIST
@@ -1468,6 +1472,9 @@ Writer parameters have been set or linked to the appropriate Writer properties. 
 + Annotations are used to explain complex logic and Tester transformer tests.
 + For complex scripts (> 10 transformers) Bookmarks are used to document flows.
 
+### Illustration of Configuring an FME Script
+
+![configuring-fme](images/fme_setup.png)
 -----------------------------------------------------------
 
 [RETURN TO TOP][1] 
