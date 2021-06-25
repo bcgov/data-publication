@@ -132,7 +132,7 @@ The result of this is that when you view such data after load there may be some 
 |Parameter|Value|
 |:---|:---|
 |Stroke By|Maximum Deviation|
-|Maximum Deviation|.0001|
+|Maximum Deviation|0.0001|
 
 ### Proceeding Past Data Errors
 
