@@ -8,13 +8,12 @@ has_children: false
 has_toc: false
 ---
 
+# BC GEOGRAPHIC WAREHOUSE DATA RETIRMENT WORKFLOW
+
 
 |**AUDIENCE**|  |  |  |
 |:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* | *Data Consumers* 
-
-
-# BC GEOGRAPHIC WAREHOUSE DATA RETIRMENT WORKFLOW
 
 ### Retirement Process and Workflow
 Data Custodians are ultimately responsible for the Data Lifecycle of their data, which includes but is not limited to the maintenance, accuracy, licensing and the decision to replace, retire or archive their data.
