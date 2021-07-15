@@ -134,14 +134,14 @@ It is common for programs that do not have internal resources for data modelling
 
 ### Dataset Logfile
 
-The [Dataset Logfile](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/dataset_logfile/) is where you provide specific details about your dataset in order to capture the following information: 
+The [Dataset Logfile](images/Dataset_Model_Current_TEMPLATE.xlsx) is where you provide specific details about your dataset in order to capture the following information: 
 
    + **Business Details:** Overarching Title, Description, Custodian, Business Area Contacts and IMB BA/BPM
    + **Data Details:** Dataset Title, Descriptions, Source, Feature Type and Count and who to create Metadata
    + **Security Details:** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
    + **Data Model Details:** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
-   
-_Note that the Dataset Logfile directory contains two TEMPLATE files, one for [GSR](glossary.md#geographic-sites-registry) dataloads and one for non-GSR dataloads._
+
+For [GSR](glossary.md#geographic-sites-registry) dataloads, please use the [GSR Dataset Model Template](images/Dataset_Model_Current_TEMPLATE.xlsx)
 
 [Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
 
