@@ -141,7 +141,7 @@ The [Dataset Logfile](images/Dataset_Model_Current_TEMPLATE.xlsx) is where you p
    + **Security Details:** Database, Applications, iMapBC, Distribution, WMS, License Type, Replication Mechanism
    + **Data Model Details:** Object Name, Column Names, Column Definitions (data type, length) Short Names (for Distribution) and Column Definitions
 
-For [GSR](glossary.md#geographic-sites-registry) dataloads, please use the [GSR Dataset Model Template](images/Dataset_Model_Current_TEMPLATE.xlsx)
+For [GSR](glossary.md#geographic-sites-registry) dataloads, please use the [GSR Dataset Model Template](images/GSR_Dataset_Model_Current_TEMPLATE.xlsx).
 
 [Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
 
