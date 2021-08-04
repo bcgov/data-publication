@@ -93,6 +93,7 @@ This purpose of this session is to discuss your dataset, the questions you answe
 + Your Business Analyst will then implement and manage the plan to completion.
 + Based on need, a Stewardship agreement may be developed.
 + The process to establish the licensing requirements for the data is also initiated at this point using the Open Data Assessment Checklist.
++ Your [_Financial Obligations_](dsg_before_you_start.md#financial-obligations) and cost recovery for the DataBC program will be discussed during this meeting. 
 
 *We will ask that you send us a sample of the data so we can provide constructive feedback in the session.*
 
