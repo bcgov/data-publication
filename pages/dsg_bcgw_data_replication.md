@@ -7,7 +7,7 @@ parent: BCGW Standards and Guidelines
 has_toc: false
 ---
 
-# DATA REPLICATION USING FME
+# DATA REPLICATION
 
 There are currently three mechanisms in place to reload BC Geographic Warehouse data objects when the source objects change:
 
@@ -15,7 +15,6 @@ There are currently three mechanisms in place to reload BC Geographic Warehouse 
 + Materialized Views (MVW)
 + Spatial Data Replication (SDR)
 
-This page describes standards and guidelines for writing FME scripts to load data to the BC Geographic Warehouse. This mechanism should be the default choice for all new DataBC data publications to the BC Geographic Warehouse.
 
 |**AUDIENCE**|  |  |  |  |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,7 +22,7 @@ This page describes standards and guidelines for writing FME scripts to load dat
 
 ## Table of Contents
 + [**RESPONSIBILITY FOR PUBLISHED DATA**](#responsibility-for-published-data)
-+ [**DATABC FME FRAMEWORK**](#databc-fme-framework)
++ [**FME FRAMEWORK**](#fme-framework)
 	+ [Starting Point FMW](#starting-point-fmw)
 	+ [FMW File Naming](#fmw-file-naming)
 + [**FMW BEST PRACTICES**](#fmw-best-practices)
@@ -31,6 +30,7 @@ This page describes standards and guidelines for writing FME scripts to load dat
 	+ [Handling Complex Curve Data](#handling-complex-curve-data)
 	+ [Proceeding Past Data Errors](#proceeding-past-data-errors)
 + [**KIRK**](#kirk)
++ [**SDR**](#sdr)
 
 -----------------------
 
@@ -40,7 +40,8 @@ Individual business areas are responsible to ensure their data is complete and r
 
 -------------------------------------------------------
 
-## DATABC FME FRAMEWORK
+## FME FRAMEWORK
+This section describes standards and guidelines for writing FME scripts to load data to the BC Geographic Warehouse. This mechanism should be the default choice for all new DataBC data publications to the BC Geographic Warehouse.
 
 A step-by-step guide to using the DataBC FME Framework is available in the companion document [_Using the DataBC FME Framework_](dps_bcgw_w_databc_fme.md)
 
@@ -166,7 +167,7 @@ Note that currently there is no way for a developer to create or change a _KIRK_
 
 For new publications of _KIRK_-able cases, the vendor should delivery an FMW that works and has been tested in the BCGW delivery environment.  It does not need to follow DataBC standards.  The DataBC ETL group will take responsibility for replacing the FMW with a _KIRK_ definition.
 
-# SDR
+## SDR
 
 Spatial Data Replication
 
