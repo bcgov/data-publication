@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Replication Using FME
+title: Data Replication
 nav_order: 413
 grand_parent: BC Geographic Warehouse
 parent: BCGW Standards and Guidelines
@@ -165,6 +165,23 @@ In the future, support for more transformers and source data types will be added
 Note that currently there is no way for a developer to create or change a _KIRK_ definition.  
 
 For new publications of _KIRK_-able cases, the vendor should delivery an FMW that works and has been tested in the BCGW delivery environment.  It does not need to follow DataBC standards.  The DataBC ETL group will take responsibility for replacing the FMW with a _KIRK_ definition.
+
+# SDR
+
+Spatial Data Replication
+
+Examples of adding and removing columns to be configured in the SDR APP_UTILITY table.
+
+```
+PROMPT Deleting  SDR replication columns from 'SDR_REPLICATION_COLUMNS' for Table 'FTEN_RECREATION_LINES'
+
+DELETE FROM SDR_REPLICATION_COLUMNS WHERE TARGET_SCHEMA = 'WHSE_FOREST_TENURE' AND TARGET_NAME = 'FTEN_RECREATION_LINES' AND TARGET_COLUMN = 'SITE_LOCATION';
+
+PROMPT Inserting new SDR replication columns into 'SDR_REPLICATION_COLUMNS' for Table 'FTEN_RECREATION_LINES'
+
+INSERT INTO SDR_REPLICATION_COLUMNS (REPLICATION_COLUMN_ID, TARGET_SCHEMA, TARGET_NAME, TARGET_COLUMN, SOURCE_COLUMN, CHANGE_DETECTION_IND, WHO_CREATED, WHEN_CREATED, WHO_UPDATED, WHEN_UPDATED)
+VALUES (SDR_REPLICATION_COLUMNS_SEQ.NEXTVAL, 'WHSE_FOREST_TENURE', 'FTEN_RECREATION_LINES', 'SITE_LOCATION', 'SITE_LOCATION', 'Y', USER, SYSDATE, USER, SYSDATE);
+```
 
 -------------------------------------------------------
 
