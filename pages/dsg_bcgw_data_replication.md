@@ -171,7 +171,11 @@ For new publications of _KIRK_-able cases, the vendor should delivery an FMW tha
 
 ## SDR
 
-Spatial Data Replication
+Spatial Data Replication (SDR) replicated spatial data from Oracle databases though a mapping table.
+
+Standard model is to replicate to a base table and then make a spatial view accessable for users.
+
+The base tables include CHANGE_TIMESTAMP fields along with fields identified to identify triggers to replicate to the BCGW.
 
 Examples of adding and removing columns to be configured in the SDR APP_UTILITY table.
 
