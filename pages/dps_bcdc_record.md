@@ -77,6 +77,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 **Who can view this data?**: describes who can view, for example, the BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
 + The order reflects the most accessible to the most secure.
 + This is a required field.
++ To change this security in iMapBC, contact the Data Architecture team at databc.da@gov.bc.ca to discuss steps and configuration.
 
     |Access Type| Description
     |:---|:---|
@@ -88,6 +89,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 **Who can download this data?**: describes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
 + The order reflects the most accessible to the most secure.
 + This is a required field.
++ To change this security in the Distribution Service, contact the Data Architecture team at databc.da@gov.bc.ca to discuss steps and configuration.
 
     |Access Type| Description
     |-|-|
