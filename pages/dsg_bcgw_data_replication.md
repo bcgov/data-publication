@@ -167,6 +167,8 @@ Note that currently there is no way for a developer to create or change a _KIRK_
 
 For new publications of _KIRK_-able cases, the vendor should delivery an FMW that works and has been tested in the BCGW delivery environment.  It does not need to follow DataBC standards.  The DataBC ETL group will take responsibility for replacing the FMW with a _KIRK_ definition.
 
+-------------------------------------------------------
+
 ## SDR
 
 Spatial Data Replication
