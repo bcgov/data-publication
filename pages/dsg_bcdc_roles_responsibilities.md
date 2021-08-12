@@ -158,13 +158,13 @@ The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship
 
 ## BC DATA CATALOGUE EDITOR
 
-An Editor is someone who can create and maintain BC Data Catalogue records on behalf of a Data Custodian. Editors must be approved by the Data Custodian for the Branch/Division in which they will be creating and/or maintaining records. To request editing access within a Branch/Division in the BC Data Catalogue, see [How do I get authorization to publish records in the BC Data Catalogue?](faq.md#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue).
+An Editor is someone who can create and maintain BC Data Catalogue records on behalf of a Data Custodian. Editors must be approved by the Data Custodian for the Branch/Division in which they will be creating and/or maintaining records. To request editing access within a Branch/Division in the BC Data Catalogue, see [How do I get authorization to publish records in the BC Data Catalogue?](faq.md#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
 
 -----------------------
 
 ## METADATA CONTACTS
 
-Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact as listed in the metadata record. 
+Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact in the metadata record. 
 
 Contacts can be listed as Custodians, Business Experts, Distributors or Points of Contact. See the [Glossary](glossary.md) for the definition of these roles.
 
