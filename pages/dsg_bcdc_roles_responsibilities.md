@@ -36,6 +36,8 @@ The page covers the following topics:
 	+ [Obligations of a Data Manager](#obligations-of-a-data-manager)
 	+ [Responsibilities of a Data Manager](#responsibilities-of-a-data-manager)
 + [**THE DATA STEWARD**](#the-data-steward)
++ [**BC DATA CATALOGUE EDITOR**](#the-data-steward)
++ [**METADATA CONTACTS**](#the-data-steward)
 	+ [Other Roles](#other-roles)
 	+ [Resources](#resources)
 	
@@ -151,6 +153,22 @@ When the _Data Custodian_ does not have the resources available to fulfill their
 The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship Agreement** that defines the specific [responsibilities](#responsibilities-of-a-data-custodian) that are being delegated to the _Data Steward_ by the _Data Custodian_.
 
 *Note: the involvement of a _Data Steward_ does not change the obligations of the _Data Custodian_. The _Data Custodian_ remains accountable for the governance and use of the data.*
+
+-----------------------
+
+## BC DATA CATALOGUE EDITOR
+
+An Editor is someone who can create and maintain BC Data Catalogue records on behalf of a Data Custodian. Editors must be approved by the Data Custodian for the Branch/Division in which they will be creating and/or maintaining records. To request editing access within a Branch/Division in the BC Data Catalogue, see [How do I get authorization to publish records in the BC Data Catalogue?](faq.md#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue).
+
+-----------------------
+
+## METADATA CONTACTS
+
+Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact as listed in the metadata record. 
+
+Contacts can be listed as Custodians, Business Experts, Distributors or Points of Contact. See the [Glossary](glossary.md) for the definition of these roles.
+
+-----------------------
 
 ### Other Roles
 
