@@ -26,50 +26,12 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 + [**CREATING AN FMW**](#creating-an-fmw)
 	+ [If developing on a GTS server, configure a dbCreds.json file](#if-developing-on-a-gts-server-configure-a-dbcredsjson-file)
 	+ [Add the Source Reader(s)](#add-the-source-readers)
-		+ [Comma Separated Value (CSV)](#comma-separated-value-csv)
-		+ [Esri SDE Geodatabase (GEODATABASE_SDE)](#esri-sde-geodatabase-geodatabase_sde)
-		+ [Esri File (gdb) Geodatabase (GEODATABASE_FILE)](#esri-file-gdb-geodatabase-geodatabase_file)
-		+ [Esri Shapefile (SHP)](#esri-shapefile-shp)
-		+ [GeographicJavaScript Object Notation (GeoJSON)](#geographicjavascript-object-notation-geojson)
-		+ [Microsoft Access Database (MDB_ADO)](#microsoft-access-database-mdb_ado)
-		+ [Microsoft Excel (XLSX, XLS)](#microsoft-excel-xlsx-xls)
-		+ [Oracle Non-Spatial](#oracle-non-spatial)
-		+ [Oracle Spatial Object (SDO)](#oracle-spatial-object-sdo)
 	+ [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
-		+ [General comments](#general-comments)
-		+ [Comma Separated Values (CSV)](#comma-separated-values-csv)
-		+ [Esri File Geodatabase (GDB)](#esri-file-geodatabase-gdb)
-		+ [Esri Geodatabase (SDE_GEODATABASE)](#esri-geodatabase-sde_geodatabase)
-		+ [Esri Shapefile (SHP)](#esri-shapefile-shp)
-		+ [GeoJSON](#geojson)
-		+ [Microsoft Access Database (MDB_ADO)](#microsoft-access-database-mdb_ado)
-		+ [Microsoft Excel (XLSX)](#microsoft-excel-xlsx)
-		+ [Oracle Spatial Object (SDO) and Non-Spatial](#oracle-spatial-object-sdo-and-non-spatial)
 	+ [Add the Destination Writer](#add-the-destination-writer)
-		+ [Esri SDE Geodatabase (GEODATABASE_SDE)](#esri-sde-geodatabase-geodatabase_sde)
-		+ [Oracle Non-Spatial ](#oracle-non-spatial-)
-		+ [Oracle Spatial Object (SDO)](#oracle-spatial-object-sdo)
 	+ [Define the Destination Writer User Parameters](#define-the-destination-writer-user-parameters)
-		+ [Parameters Applying to All Writers](#parameters-applying-to-all-writers)
-		+ [Oracle (SPATIAL AND NON-SPATIAL)](#oracle-spatial-and-non-spatial)
-		+ [Esri SDE Geodatabase (SDE_GEODATABASE)](#esri-sde-geodatabase-sde_geodatabase)
 	+ [Configure the FMW Framework Parameters](#configure-the-fmw-framework-parameters)
-		+ [Log File (LOGFILE)](#log-file-logfile)
-		+ [File Change Detection (FILE_CHANGE_DETECTION)](#file-change-detection-file_change_detection)
 	+ [Define the Workspace Parameters](#define-the-workspace-parameters)
-		+ [Name](#name)
-		+ [Logging](#logging)
-		+ [Scripting → Startup Python Script](#scripting--startup-python-script)
-		+ [Scripting → Shutdown Python Script](#scripting--shutdown-python-script)
 	+ [Add the Transformers](#add-the-transformers)
-		+ [File Change Detector v2](#file-change-detector-v2)
-		+ [BCDC File Change Detector](#bcdc-file-change-detector)
-		+ [Logger](#logger)
-		+ [Tester](#tester)
-		+ [Reader and Writer Transformers, SQL Transformers, DatabaseJoiner](#reader-and-writer-transformers-sql-transformers-databasejoiner)
-		+ [Vertex Creator](#vertex-creator)
-		+ [Attribute Manager](#attribute-manager)
-		+ [Counter](#counter)
 + [**APPENDIX 1 - NOTIFICATIONS**](#appendix-1---notifications)
 + [**APPENDIX 2 - NON-BCGW DESTINATIONS**](#appendix-2---non-bcgw-destinations)
 	+ [BC Data Catalogue File Store](#bc-data-catalogue-file-store)
@@ -93,39 +55,6 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
   
 -----------------------
 
-## DATABC'S FME FRAMEWORK
-
-The DataBC FME Framework builds upon Safe Software's stock FME script features by adding:
-
-1. A published and private parameter standard with some automated / scripted parameters, and
-
-1. Python procedures that run at Startup and Shutdown.
-
-The purpose / goals of the DataBC FME Framework are to allow DataBC to:
-
-1. Easily identify the relationships between replication scripts, their source datasets and their destination datasets.  This is accomplished using standardized published parameters.
-
-1. Easily add new functionality to either startup / shutdown procedures that can be applied to all replications without the need to edit any of the FME scripts.
-
-1. Keep passwords external to FME scripts; with the Framework, they are securely retrieved from our password management application at run time.
-
-The DataBC FME Framework is available to developers outside of DataBC on the GTS 10.6 Kamloops Server.  Access to the GTS environments can be requested by completing the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261) form.
-
-
-### ​Overview of how to use the DataBC FME Framework
-
-1. Start with a new FME Framework FMW file or one of the templates, available [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/gsr_whse/WHSE_IMAGERY_AND_BASE_MAPS/N.N.N_descriptive_name_of_release/dataload/gsr_zzz_sv_staging_csv_bcgw.fmw) for loading the GSR tables and [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw) for loading other BCGW tables.   
-1. If developing on a GTS server, configure a dbCreds.json file. A template dbCreds.json file is available [_here_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/dbCreds.json). Copy the [_dbCreds.json file_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/dbCreds.json) and [_this connection file_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw-i.bcgov__idwdlvr1.bcgov.sde)  to the directory containing the FMW that you are writing.
-1. Using the GTS 10.6 Kamloops environment, start FME by navigating to and executing the [_FME Launch script_](\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\fmeDBCFrameworkLauncher_10_6.cmd).
-1. Add and [configure the reader(s)](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#add-the-source-readers).
-1. Add and [configure the writer(s)](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#add-the-destination-writer).
-1. Define the basic Framework parameters to control [startup, shutdown, logging, and file change detection](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#define-the-workspace-parameters).
-1. Add in the [File Change Detection transformer](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_databc_fme.html#file-change-detector-v2) and any other transformers needed.
-1. Test the FMW by populating to the BCGW delivery environment.
-
-[RETURN TO TOP][1] 
-
------------
 
 ## ACCESSING THE FME FRAMEWORK
 
@@ -197,7 +126,16 @@ FME Readers are added to a workspace using then menu item **Readers** → **Add 
 
 In general, FME scripts use FME Readers to read source dataset records. There are, however,  occasions where it is preferable to use a FeatureReader transformer, a SQL Creator transformer, or a SQL Executor transformer instead of an FME Reader. In particular, if the script implements a series of consecutive read-transform-write patterns, with subsequent read-transform-writes being executed depending on the success of earlier ones, then it is preferable to use FeatureReader and FeatureWriter transformers in a single script rather than using traditional Readers and Writers in multiple scripts called by FMEServerJobSubmitter. FeatureReader transformers can be inserted using the menu item **Transformers** → **Add Transformer...** → **FeatureReader**
 
-The following sections describe the properties to enter when adding a new Reader or equivalent transformer.
+The following sections describe the properties to enter when adding a new Reader or equivalent transformer:
++ [Comma Separated Value (CSV)](#comma-separated-value-csv)
++ [Esri SDE Geodatabase (GEODATABASE_SDE)](#esri-sde-geodatabase-geodatabase_sde)
++ [Esri File (gdb) Geodatabase (GEODATABASE_FILE)](#esri-file-gdb-geodatabase-geodatabase_file)
++ [Esri Shapefile (SHP)](#esri-shapefile-shp)
++ [GeographicJavaScript Object Notation (GeoJSON)](#geographicjavascript-object-notation-geojson)
++ [Microsoft Access Database (MDB_ADO)](#microsoft-access-database-mdb_ado)
++ [Microsoft Excel (XLSX, XLS)](#microsoft-excel-xlsx-xls)
++ [Oracle Non-Spatial](#oracle-non-spatial)
++ [Oracle Spatial Object (SDO)](#oracle-spatial-object-sdo)
 
 #### Comma Separated Value (CSV)
 + Comma Separated Value (.csv) files are a common source of data for the BCGW. They may be spatial (having latitude and longitude columns) or non-spatial.  Common locations of source CSV files are:
@@ -209,6 +147,8 @@ The following sections describe the properties to enter when adding a new Reader
 	|**Format**|CSV (Comma Separated Value)|
 	|**Dataset**|Select the .csv file to be read. <br>When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...)|
 	|**Parameters**|normally the defaults are fine|
+	
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
 
 #### Esri SDE Geodatabase (GEODATABASE_SDE)
 + Tables and views registered with SDE or the geodatabase in an Oracle SDE-enabled database should be read using the GEODATABASE_SDE reader.
@@ -218,6 +158,8 @@ The following sections describe the properties to enter when adding a new Reader
 	|**Format**|Esri Geodatabase (ArcSDE Geodb) |
 	|**Dataset**|N/A |
 	|**Parameters**|specify Connection File, check Override Credentials, specify Username, Password, Table List |
+	
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
 
 When adding a GEODATABASE_SDE reader, specify hard-coded values for the parameters listed above; they will be overridden by FME parameters at a later stage in the configuration.
 
@@ -232,6 +174,8 @@ When adding a GEODATABASE_SDE reader, specify hard-coded values for the paramete
 	|**Dataset**|select the .gdb folder. <br>When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...) |
 	|**Parameters**|Specify the feature types to read. |
 
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
+
 #### Esri Shapefile (SHP)
 + Common locations of source shapefiles  are:
 	1. The read-only staging area `\\data.bcgov\data_staging_ro\BCGW\...`
@@ -242,6 +186,8 @@ When adding a GEODATABASE_SDE reader, specify hard-coded values for the paramete
 	|**Format**|Esri Shapefile|
 	|**Dataset**|Select the .shp file to be read. <br>When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...) |
 	|**Parameters**|Normally the defaults are fine |
+
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
 
 #### GeographicJavaScript Object Notation (GeoJSON)
 + Common locations of source GeoJSON files  are:
@@ -254,6 +200,8 @@ When adding a GEODATABASE_SDE reader, specify hard-coded values for the paramete
 	|**Dataset**|Select the .json or .geojson file to be read or the URL to a web accessible file|
 	|**Parameters**|Normally the defaults are fine |
 
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
+
 #### Microsoft Access Database (MDB_ADO)
 + This reader is used in cases where the operational database management system is Microsoft Access and the database has been copied to the staging area. This is a fairly rare situation.
  
@@ -263,6 +211,8 @@ When adding a GEODATABASE_SDE reader, specify hard-coded values for the paramete
 	|**Dataset**|Select the .mdb or .accdb file to be read. <br>When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...)|
 	|**Parameters**|Enter password, if needed, and select the tables to be read  |
 
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
+
 #### Microsoft Excel (XLSX, XLS)
 + Some source spreadsheet datasets are in XLSX or XLS format rather than the open CSV format. This can be the case where there are other consumers of the spreadsheet who require to see the spreadsheet in the context of other sheets in the workbook. Having FME read from the XLSX/XLS workbook removes the need for the client to save an extra copy a the spreadsheet in CSV.
  
@@ -271,6 +221,8 @@ When adding a GEODATABASE_SDE reader, specify hard-coded values for the paramete
 	|**Format**|Microsoft Excel|
 	|**Dataset**|Select the .xlsx or .xls file to be read. <br>When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...)|
 	|**Parameters**|Select the sheet(s) to be read, the cell range(s), and columns.  |
+
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
 
 #### Oracle Non-Spatial
 + This reader is used in cases where the input dataset is non-spatial and not registered with SDE or an SDE geodatabase.
@@ -283,6 +235,8 @@ When adding a GEODATABASE_SDE reader, specify hard-coded values for the paramete
 
 When adding the reader, specify hard-coded values for the parameters listed above; they will be overridden by FME parameters at a later stage in the configuration.
 
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
+
 #### Oracle Spatial Object (SDO)
 + This reader is used in cases where the input dataset is spatial and not registered with SDE or an SDE geodatabase.
 
@@ -294,9 +248,21 @@ When adding the reader, specify hard-coded values for the parameters listed abov
 
 When adding the reader, specify hard-coded values for the parameters listed above; they will be overridden by FME parameters at a later stage in the configuration.
 
+Next: [Define the Source Reader User Parameters](#define-the-source-reader-user-parameters)
+
 ### Define the Source Reader User Parameters
 
 Configuring an FME Reader or FeatureReader transformer involves creating one or more published or private parameters and then, in some cases, linking those parameters to FME Reader properties.  The parameters that are required differ according to which reader format type is being configured. The parameters and their properties are defined in the sections below, organized by reader format type.  
+
++ [General comments](#general-comments)
++ [Comma Separated Values (CSV)](#comma-separated-values-csv)
++ [Esri File Geodatabase (GDB)](#esri-file-geodatabase-gdb)
++ [Esri Geodatabase (SDE_GEODATABASE)](#esri-geodatabase-sde_geodatabase)
++ [Esri Shapefile (SHP)](#esri-shapefile-shp)
++ [GeoJSON](#geojson)
++ [Microsoft Access Database (MDB_ADO)](#microsoft-access-database-mdb_ado)
++ [Microsoft Excel (XLSX)](#microsoft-excel-xlsx)
++ [Oracle Spatial Object (SDO) and Non-Spatial](#oracle-spatial-object-sdo-and-non-spatial)
 
 #### General comments
 
@@ -308,8 +274,6 @@ Configuring an FME Reader or FeatureReader transformer involves creating one or 
 + When adding a reader or specifying connection parameters in a transformer (e.g., SQLCreator, FeatureReader, DatabaseJoiner, etc.) choose the _Embed Connection Parameters_ option in the __Dataset:__ field. Then click on the __Parameters__ button and specify hard-coded values for the connection parameters; they will be overridden by FME parameters at a later stage in the configuration.
 
 ![](images/image_embed_connection_parameters.png)
-
-IMAGE SHOWING HARD-CODED PARAMETERS
 
 #### Comma Separated Values (CSV)
 
@@ -343,6 +307,8 @@ This section describes the parameters that need to be defined when configuring a
 	|**Link From**|Reader → Source CSV (CommaSeparatedValue) File → Link to User Parameter → SRC_DATASET_CSV_1 |
 
 + When specifying a staging area file, use the read-only path (\\data.bcgov\data_staging_ro\bcgw\...
+
+Next: [Add the Destination Writer](#add-the-destination-writer)
 
 #### Esri File Geodatabase (GDB)
 
@@ -433,6 +399,8 @@ In this example there is a single FGDB that contains multiple feature types that
 	|**Link From**|Reader → Feature Types → Properties → Feature Class or Table Name|
 
 ![](images/image_feature_type.png)
+
+Next: [Add the Destination Writer](#add-the-destination-writer)
 
 #### Esri Geodatabase (SDE_GEODATABASE)
 
@@ -562,6 +530,7 @@ When run from either DataBC's FME Workbench workstation or DataBC's FME Server m
 
 However, when run on the GTS environment, the framework will calculate the name of the sde connection file, but **it will not attempt to create it**. It will look for this connection file in the directory of the FMW file that is being run. For this to work the developer of the FMW will have to create the connection file either using arcpy or ArcCatalog. The name of the connection file should be <host>__<servicename>.sde, e.g., lrmbctsp.nrs.bcgov__DBP06.NRS.BCGOV.sde. If the name of your connection file is incorrect you will get an error message that tells you what name the framework is expecting the connection file to be called.
 
+Next: [Add the Destination Writer](#add-the-destination-writer)
 
 #### Esri Shapefile (SHP)
 
@@ -594,6 +563,8 @@ However, when run on the GTS environment, the framework will calculate the name 
 	|**Attribute Assignment**|Default |
 	|**Default Value**|Name of the shapefile without the .shp extension, e.g., ALC_Panel_regions |
 	|**Link From**|N/A |
+
+Next: [Add the Destination Writer](#add-the-destination-writer)
 
 #### GeoJSON
 
@@ -652,6 +623,8 @@ This section describes the parameters that need to be defined when configuring a
 
 ![](images/image_linking_mdb_sources.png)
 
+Next: [Add the Destination Writer](#add-the-destination-writer)
+
 #### Microsoft Excel (XLSX)
 
 This section describes the parameters that need to be defined when configuring a Microsoft Excel reader.
@@ -689,6 +662,8 @@ This section describes the parameters that need to be defined when configuring a
 	|**Link From**|Reader → Feature Types → Properties -> Sheet Name |
 
 ![](images/image_linking_xlsx_sources.png)
+
+Next: [Add the Destination Writer](#add-the-destination-writer)
 
 #### Oracle Spatial Object (SDO) and Non-Spatial
 
@@ -826,6 +801,9 @@ This section applies to any reader that natively connects to an Oracle database.
 
 In general, FME scripts use FME Writers to write to destination datasets.  There are, however,  occasions where it is preferable to use a FeatureWriter transformer instead of an FME Writer. In particular, if the script implements a series of consecutive read-transform-write patterns, with subsequent read-transform-writes being executed depending on the success of earlier ones, then it is preferable to use FeatureReader and FeatureWriter transformers in a single script rather than using traditional Readers and Writers in multiple scripts called by FMEServerJobSubmitter. 
 
++ [Esri SDE Geodatabase (GEODATABASE_SDE)](#esri-sde-geodatabase-geodatabase_sde)
++ [Oracle Non-Spatial ](#oracle-non-spatial-)
++ [Oracle Spatial Object (SDO)](#oracle-spatial-object-sdo)
 
 #### Esri SDE Geodatabase (GEODATABASE_SDE)
 + Adding this writer will take you through a series of panels, each of which include some of the fields defined below.
@@ -841,6 +819,8 @@ In general, FME scripts use FME Writers to write to destination datasets.  There
 The connection file specified can be one generated using ArcCatalog or ArcPy, pointing to the BCGW delivery environment. This hard-coded connection file, and the specified username and password will be overridden in a subsequent step.
 
 The Feature Type Panel noted above can be clicking the sprocket on the writer icon in the **Main** window after adding the writer.
+
+Next: [Define the Destination Writer User Parameters](#define-the-destination-writer-user-parameters)
 
 #### Oracle Non-Spatial 
 
@@ -858,6 +838,8 @@ The Feature Type Panel noted above can be clicking the sprocket on the writer ic
 The hard-coded username and password entered will be overridden in a subsequent step.
 
 The Feature Type Panel noted above can be reached by clicking the sprocket on the writer icon after adding the writer,
+
+Next: [Define the Destination Writer User Parameters](#define-the-destination-writer-user-parameters)
 
 #### Oracle Spatial Object (SDO)
 
@@ -878,6 +860,8 @@ The hard-coded username and password entered will be overridden in a subsequent 
 
 The Feature Type Panel noted above can be clicking the sprocket on the writer icon after adding the writer,
 
+Next: [Define the Destination Writer User Parameters](#define-the-destination-writer-user-parameters)
+
 ### Define the Destination Writer User Parameters
 
 Once defined, some parameters will be linked to items in the Navigation window.
@@ -888,6 +872,10 @@ When linking to User Parameters:
 1. Select **Link to User Parameter**
 1. Select the associated user parameter name in drop down list
 1. Click **OK**
+
++ [Parameters Applying to All Writers](#parameters-applying-to-all-writers)
++ [Oracle (SPATIAL AND NON-SPATIAL)](#oracle-spatial-and-non-spatial)
++ [Esri SDE Geodatabase (SDE_GEODATABASE)](#esri-sde-geodatabase-sde_geodatabase)
 
 #### Parameters Applying to All Writers
 
@@ -954,7 +942,8 @@ When linking to User Parameters:
 	|**Attribute Assignment**|Default |
 	|**Default Value**|import DataBCFMWTemplate<br>params = DataBCFMWTemplate.CalcParams(FME_MacroValues)<br>return params.getDestinationPassword() |
 	|**Link From**|Writer → Parameters → Advanced → Override Password → Link to User Parameter → DEST_PASSWORD |
-	
+
+Next: [Configure the FMW Framework Parameters](#configure-the-fmw-framework-parameters)	
 
 #### Oracle (SPATIAL AND NON-SPATIAL)
 
@@ -1005,6 +994,8 @@ The following parameters are required when using the FME native Oracle Spatial a
 	|**Default Value**|import DataBCFMWTemplate<br>params = DataBCFMWTemplate.CalcParams(FME_MacroValues)<br>return params.getDestinationServiceName() |
 	|**Link From**|N/A |
 
+Next: [Configure the FMW Framework Parameters](#configure-the-fmw-framework-parameters)	
+
 #### Esri SDE Geodatabase (SDE_GEODATABASE)
 
 The following parameters are required for the Esri SDE Geodatabase writer.
@@ -1051,6 +1042,7 @@ i.e., .\outputs\failed\<FMW name>\<DEST_SCHEMA>_<DEST_FEATURE_1>__failedFeatures
 	|**Default Value**|import DataBCFMWTemplate<br>params = DataBCFMWTemplate.CalcParams(FME_MacroValues)<br>return params.getFailedFeaturesFile() |
 	|**Link From**|Writer → Parameters → Advanced → Failed Feature Dump filename → Link to User Parameter → FAILED_FEATURES |
 
+Next: [Configure the FMW Framework Parameters](#configure-the-fmw-framework-parameters)	
 
 ### Configure the FMW Framework Parameters
 
@@ -1060,6 +1052,9 @@ When linking to User Parameters:
 1. Select **Link to User Parameter**
 1. Select the associated user parameter name in drop down list
 1. Click **OK**
+
++ [Log File (LOGFILE)](#log-file-logfile)
++ [File Change Detection (FILE_CHANGE_DETECTION)](#file-change-detection-file_change_detection)
 
 #### Log File (LOGFILE)
 + This parameter will populate the location for the log file when the script is run from FME Workbench.  This parameter is ignored when FMW's are run from FME Server.  The location for the log file will be an "./outputs/log" folder in the same folder as the FMW that is being run.  The code will create the folder if it does not already exist.
@@ -1075,7 +1070,6 @@ When linking to User Parameters:
 	|**Value**|import DataBCFMWTemplate<br>params = DataBCFMWTemplate.CalcParams(FME_MacroValues)<br>return params.getFMWLogFileRelativePath()|
 	|**Link From**| Workspace Parameters → Logging → Log File. See [_Logging_](#logging)|
 
-
 #### File Change Detection (FILE_CHANGE_DETECTION)
 + The File Change Detector transformer can be used to bypass loading from a file if the file has not changed since it was last loaded. Set the **FILE_CHANGE_DETECTION** to **FALSE** to bypass the transformer (and force a reload even if the file hasn't changed).
    
@@ -1090,9 +1084,16 @@ When linking to User Parameters:
 	|**Default Value**|TRUE|
 	|**Link From**|N/A|
 
+Next: [Define the Workspace Parameters](#define-the-workspace-parameters)
+
 ### Define the Workspace Parameters
 
 + Define the following workstation parameters in the **Workstation Parameters** section of the Navigator tree.
+
++ [Name](#name)
++ [Logging](#logging)
++ [Scripting → Startup Python Script](#scripting--startup-python-script)
++ [Scripting → Shutdown Python Script](#scripting--shutdown-python-script)
 
 #### Name
 
@@ -1138,9 +1139,20 @@ shutIt = DataBCFMWTemplate.Shutdown(fme)
 shutIt.shutdown()
 ```
 
+Next: [Add the Transformers](#add-the-transformers)
+
 ### Add the Transformers
 
 This section describes commonly used FME transformers and provides guidelines for their use.
+
++ [File Change Detector v2](#file-change-detector-v2)
++ [BCDC File Change Detector](#bcdc-file-change-detector)
++ [Logger](#logger)
++ [Tester](#tester)
++ [Reader and Writer Transformers, SQL Transformers, DatabaseJoiner](#reader-and-writer-transformers-sql-transformers-databasejoiner)
++ [Vertex Creator](#vertex-creator)
++ [Attribute Manager](#attribute-manager)
++ [Counter](#counter)
 
 #### File Change Detector v2
 + This transformer is normally the first transformer after a Reader. It filters records into two output ports:  **CHANGES** and **NO_CHANGES**.  **All** records from the file are output to the **CHANGES** port if the file has changed since the file was last successfully loaded into the same destination environment. **All** records from the file are output to the **NO_CHANGES** port if the file has not changed since the file was last successfully loaded into the same destination environment. Note that this transformer filters based on the status of the file, and not on whether individual records have changed.
