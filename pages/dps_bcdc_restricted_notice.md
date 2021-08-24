@@ -1,10 +1,10 @@
 Download of this Data is restricted or not accessible at this time.
 
-Each record includes a Access and Security section that outlines if a dataset is available to view or download and to what audience. 
+Please review metadata record for the following:
 
-Some datasets may have an accessible view that is available and the metadata will link to that. ou may request download access for this data through the Data Contact in the 'Contact Information' section on the Catalogue record.
++ The Access and Security section on the record for understanding of what is intended.
 
-Some data providers have sites where you can request access, for example
++ If another resource is linked that is available, this is usually linked in the description. 
 
 __Archaeology Data:__
 
