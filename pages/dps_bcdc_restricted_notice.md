@@ -6,12 +6,14 @@ Please review metadata record for the following:
 
 + If another resource is linked that is available, this is usually linked in the description. 
 
-__Archaeology Data:__
++ Some datasets are accessible upon request, example:
 
-https://www2.gov.bc.ca/gov/content?id=17EB21F8122D4061842C6B2CA468CFD5
+    __Archaeology Data:__
 
-__TRIM Data__
+    https://www2.gov.bc.ca/gov/content?id=17EB21F8122D4061842C6B2CA468CFD5
 
-[Email GeoBC](mailto:GeoBCInfo@gov.bc.ca)
+    __TRIM Data__
+
+    [Email GeoBC](mailto:GeoBCInfo@gov.bc.ca)
 
 If you are unable to reach the Data Contact, please contact the [DataBC Team](mailto:Data@gov.bc.ca) for assistance.
