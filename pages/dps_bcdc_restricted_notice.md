@@ -1,6 +1,8 @@
 Download of this Data is restricted or not accessible at this time.
 
-Some datasets may have an accessible view that is availale and the metadata will point to that. IfYou may request download access for this data through the Data Contact in the 'Contact Information' section on the Catalogue record.
+Each record includes a Access and Security section that outlines if a dataset is available to view or download and to what audience. 
+
+Some datasets may have an accessible view that is available and the metadata will link to that. ou may request download access for this data through the Data Contact in the 'Contact Information' section on the Catalogue record.
 
 Some data providers have sites where you can request access, for example
 
