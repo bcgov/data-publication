@@ -1,8 +1,13 @@
-Download of this Data is Restricted
-The dataset or resource cannot be downloaded because it not intended for public distribution.
+Download of this Data is restricted and not accessible at this time.
 
 You may request download access for this data through the Data Contact in the 'Contact Information' section on the Catalogue record.
 
-If you are unable to reach the Data Contact, please contact the DataBC Team for assistance.
+Some data providers have sites where you can request access, for example
 
-To see all of the catalogue resources that are available for public access or download follow this link.
+__Archaeology Data:__
+https://www2.gov.bc.ca/gov/content?id=17EB21F8122D4061842C6B2CA468CFD5
+
+__TRIM Data__
+[GeoBC](mailto:GeoBCInfo@gov.bc.ca)
+
+If you are unable to reach the Data Contact, please contact the DataBC Team for assistance.
