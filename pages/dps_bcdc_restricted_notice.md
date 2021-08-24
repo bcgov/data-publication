@@ -12,4 +12,4 @@ __TRIM Data__
 
 [Email GeoBC](mailto:GeoBCInfo@gov.bc.ca)
 
-If you are unable to reach the Data Contact, please contact the DataBC Team for assistance.
+If you are unable to reach the Data Contact, please contact the [DataBC Team](mailto:Data@gov.bc.ca) for assistance.
