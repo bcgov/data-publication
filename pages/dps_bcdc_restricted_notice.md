@@ -4,7 +4,7 @@ Please review metadata record for the following:
 
 + The Access and Security section on the record for understanding of what is intended.
 
-+ If another resource is linked that is available, this is usually linked in the description. 
++ At times some datasets have business views that are accessible, this is usually linked in the description. 
 
 + Some datasets are accessible upon request, example:
 
