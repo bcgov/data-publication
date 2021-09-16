@@ -84,7 +84,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     |SDE_BINARY| This is the older ESRI based geometry that used to be what the BCGW prior to 2014, ESRI has moved to ST_GEOMETRY.|
     |SDO_GEOMETRY| This is Oracle geometry and what the BCGW and NRM uses predominately as their datatype.|
     |ST_GEOMETRY| This is the current ESRI based geometry.|
-    |N-A| Select if not stored in a database, e.g., shape file (.shp)|
+    |N-A **NEW** |  Select if not stored in a database, e.g., shape file (.shp)|
     
 
 **Object Name**: is the object name as it appears in the BCGW: _SCHEMA.OBJECT_. Example: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
