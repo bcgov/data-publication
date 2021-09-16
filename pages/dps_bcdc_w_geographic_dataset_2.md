@@ -129,7 +129,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 **ISO Topic Category**: [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
 
 + Changes:
-    - Database field renamed 'iso_topic_category' from 'iso_topic_string'
+    - Database field renamed - [see change log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Resource Type**: 
 + Is the type of resource: Data, Reports, Abstraction or Not Applicable (**NEW**)
