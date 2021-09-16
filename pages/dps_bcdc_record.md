@@ -113,6 +113,16 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 + Think of what users may use for search terms to find the dataset in the Catalogue.
 
 **State**: When creating a new metadata record, the state will be set to DRAFT once you click on this state. 
++ Current there is a feature that allows greater visibility of editors across organizations. This is being reviewed.
+
+    |State|Record Visibility|Email Notificaiton|
+    |:---|:---|
+    |DRAFT|Only editors and admin of an org can see these records |None|
+    |PENDING PUBLISH|Only editors and admin of an org can see these records| Administrators |
+    |REJECTED| **Deleted** |
+    |PUBLISHED|Published records are visiable to users | |All Editors of that org|
+    |PENDING ARCHIVE|Pending archive records are visible to users until Archived |Administrators|
+    |ARCHIVED|Only editors of an org can see these records |All Editors of that org |
 
 **Resource Status**: is the status of the dataset, service, API or application as described by one of the types below: 
 + A resource or record changes status over its lifecycle.
@@ -133,6 +143,16 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.  
 + **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
      +  Required when creating a record.
+
+    |Type| Description
+    |:---|:---|
+    |Created|
+    |Published|
+    |Modififed|
+    |Archived|
+    |Destroyed|
+       
+    
 + **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
      +  Required when creating a record.
 
