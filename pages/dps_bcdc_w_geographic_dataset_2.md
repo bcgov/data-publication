@@ -122,7 +122,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 + For provincial data in the BC Geographic Warehouse as well as many other databases, these are stored as ESPG 3005: NAD83 BC Albers.
 
 + Changes:
-    - Field values were being stored as full label test, e.g., 'ESPG_3005 - NAD83 BC Albers', now is the shorted value, e.g., 'epsg3005'
+    - Field values were being stored as full label text, e.g., 'ESPG_3005 - NAD83 BC Albers', now is the shorted value, e.g., 'epsg3005'
 
 **JSON Table Schema**: (**NEW**)
 
