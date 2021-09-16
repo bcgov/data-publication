@@ -38,7 +38,11 @@ has_toc: true
 
  **BCGW Resources**
 
-The **Manage BCGW Resources** button will add the ability for users to custom download data from the BCGW if:
+The **Manage BCGW Resources** button has not be enabled as of yet.
+
+This describles the functionality in production.
+
+The button will add the ability for users to custom download data from the BCGW if:
 + it is stored in the BCGW **and** 
 + they have permissions to access it **and**
 + the BCGW schema and object name (e.g., _schema.table_) has been added to the main page of the metadata record
@@ -56,23 +60,38 @@ The **Manage BCGW Resources** button will add the ability for users to custom do
 
 ---------------
 
-**Resource Type**: Select **Geographic Data**
+**Type**: Select **Geographic Data**
 
-
++ Changes:
+    - Moved from the Record Level (type) to the Resource Level (bcdc_type)
+    - Database value of 'Geographic' has changed to all lowercase 'geographic'
+    
 ---------------
 
-**Resource Description**: is a detailed description of the resource.
+**Resource Description**: 
++ Is a detailed description of the resource.
 
-**Supplemental Information**: Any additional relevant information about the resource can be included here.
+**Supplemental Information**: 
++ Any additional relevant information about the resource can be included here.
 
-**Resource Update Cycle**: describes how often the resource is updated.
+**Resource Update Cycle**: 
++ Describes how often the resource is updated.
+
++ Changes
+    - New values: Nightly (nightly)
+    - Order now in order of frequency
 
 **_Temporal Extent_**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
 + **Beginning Date** is the start date for the period the data is captured for.
 + **End Date** is the end date for the period the data is captured for. 
 
++ Changes
+    - Database fields renamed from data_collection_start_date and data_collection_end_date
+
 **Resource Storage Format**: describes the file extension for the resource.
++ Changes:
+    - Moved from the Record Level to the Resource Level
 
 **Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
@@ -96,16 +115,28 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
         - The Preview Map details
         - The link to iMapBC will that dataset's specific presenatations
 
++ Changes:
+    - Moved from the Record Level to the Resource Level
+
 **Projection Name**: is the projection of your geographic data. Select from the drop-down list.
 + For provincial data in the BC Geographic Warehouse as well as many other databases, these are stored as ESPG 3005: NAD83 BC Albers.
+
++ Changes:
+    - Field values were being stored as full label test, e.g., 'ESPG_3005 - NAD83 BC Albers', now is the shorted value, e.g., 'epsg3005'
 
 **JSON Table Schema**: (**NEW**)
 
 **ISO Topic Category**: [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
 
-**Resource Type**: is the type of resource: Data, Reports or Abstraction.
++ Changes:
+    - Database field renamed 'iso_topic_category' from 'iso_topic_string'
+
+**Resource Type**: 
++ Is the type of resource: Data, Reports, Abstraction or Not Applicable (**NEW**)
 
 **Resource Access Method**: describes how the end-user can access the data.
+
++ Is the way the resource is accessible: Appication, Direct Access, Indirect Access, Service or Other (**NEW**)
 
 **_Preview Information_**:
 + These details are filled in automatically when:
@@ -115,6 +146,8 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     - A Network Link KL file created.  
 + These fields can be used for other purposes
 + These values populate the **Preview** button map and **Link to iMapBC** button.
+
++ Changes: these fields moved from the Record Level to the Resource Level
 
 + **Layer Name**
 + **Preview Latitude** allows you to provide a map preview centroid latitude.
@@ -126,6 +159,8 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 
 **_Geographic Extent_**:
 + **North/South/East/West** these are auto populated with the bounding box of the province.
+
++ Changes: these fields moved from the Record Level to the Resource Level
 
 
 Click **Save** when done
