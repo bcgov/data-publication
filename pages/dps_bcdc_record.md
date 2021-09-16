@@ -116,7 +116,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 + Current there is a feature that allows greater visibility of editors across organizations. This is being reviewed.
 
     |State|Record Visibility|Email Notificaiton|
-    |:---|:---|
+    |:---|:---|:---|
     |DRAFT|Only editors and admin of an org can see these records |None|
     |PENDING PUBLISH|Only editors and admin of an org can see these records| Administrators |
     |REJECTED| **Deleted** |
