@@ -21,6 +21,9 @@ has_toc: true
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
 4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
+Changeslog
+https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes
+
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
@@ -62,7 +65,7 @@ The button will add the ability for users to custom download data from the BCGW 
 
 **Type**: Select **Geographic Data**
 
-+ Changes:
++ **Changes**:
     - Moved from the Record Level (type) to the Resource Level (bcdc_type)
     - Database value of 'Geographic' has changed to all lowercase 'geographic'
     
@@ -77,7 +80,7 @@ The button will add the ability for users to custom download data from the BCGW 
 **Resource Update Cycle**: 
 + Describes how often the resource is updated.
 
-+ Changes
++ **Changes**
     - New values: Nightly (nightly)
     - Order now in order of frequency
 
@@ -86,12 +89,12 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 + **Beginning Date** is the start date for the period the data is captured for.
 + **End Date** is the end date for the period the data is captured for. 
 
-+ Changes
-    - Database fields renamed from data_collection_start_date and data_collection_end_date
++ **Changes**
+    - Database fields renamed - [see change log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Resource Storage Format**: describes the file extension for the resource.
-+ Changes:
-    - Moved from the Record Level to the Resource Level
++ **Changes**:
+    - Added Values: geopackage (gpkg); multiple
 
 **Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
@@ -103,7 +106,8 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     |SDE_BINARY| This is the older ESRI based geometry that used to be what the BCGW prior to 2014, ESRI has moved to ST_GEOMETRY.|
     |SDO_GEOMETRY| This is Oracle geometry and what the BCGW and NRM uses predominately as their datatype.|
     |ST_GEOMETRY| This is the current ESRI based geometry.|
-    |N-A **NEW** |  Select if not stored in a database, e.g., shape file (.shp)|
+    |N-A | **NEW** Select if not stored in a database||
+    |UNKNOWN |**NEW** Select if not unknown what spatial data type it is stored as, e.g., shape file (.shp)|
     
 
 **Object Name**: is the object name as it appears in the BCGW: _SCHEMA.OBJECT_. Example: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
@@ -115,20 +119,17 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
         - The Preview Map details
         - The link to iMapBC will that dataset's specific presenatations
 
-+ Changes:
-    - Moved from the Record Level to the Resource Level
-
 **Projection Name**: is the projection of your geographic data. Select from the drop-down list.
 + For provincial data in the BC Geographic Warehouse as well as many other databases, these are stored as ESPG 3005: NAD83 BC Albers.
 
-+ Changes:
++ **Changes**:
     - Field values were being stored as full label text, e.g., 'ESPG_3005 - NAD83 BC Albers', now is the shorted value, e.g., 'epsg3005'
 
 **JSON Table Schema**: (**NEW**)
 
 **ISO Topic Category**: [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
 
-+ Changes:
++ **Changes**:
     - Database field renamed - [see change log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Resource Type**: 
@@ -147,8 +148,6 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 + These fields can be used for other purposes
 + These values populate the **Preview** button map and **Link to iMapBC** button.
 
-+ Changes: these fields moved from the Record Level to the Resource Level
-
 + **Layer Name**
 + **Preview Latitude** allows you to provide a map preview centroid latitude.
 + **Preview Longitude** allows you to provide a map preview centroid longitude.
@@ -159,9 +158,6 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 
 **_Geographic Extent_**:
 + **North/South/East/West** these are auto populated with the bounding box of the province.
-
-+ Changes: these fields moved from the Record Level to the Resource Level
-
 
 Click **Save** when done
 
