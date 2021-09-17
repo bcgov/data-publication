@@ -21,7 +21,10 @@ has_toc: true
 
 ---------------
 
-**Resource Type**: Select **Application**
+**Type**: Select **Application**
+
++ **Changes**:
+    - Value: 'Application' has changed to all lowercase 'application'
 
 ---------------
 
@@ -33,6 +36,7 @@ has_toc: true
 
 **Resource Update Cycle**: describes how often the resource is updated.
 + This is **required**
+
 
 **_Temporal Extent_**:
 If your dataset is temporal in nature, you may _optionally_ provide the relevant dates in this area
