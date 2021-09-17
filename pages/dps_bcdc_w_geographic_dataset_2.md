@@ -93,7 +93,7 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 
 **Resource Storage Format**: describes the file extension for the resource.
 + **Changes**:
-    - Added Values: geopackage (gpkg); multiple
+    - **NEW** values: geopackage (gpkg); multiple
 
 **Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
