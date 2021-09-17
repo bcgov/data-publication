@@ -85,7 +85,7 @@ Data elements _optionality_ for each dataset type are as follows:
 ||Data type|Created|
 ||Date|_YYYY-MM-DD_|
 |_Access & Security_|Who can view this data?|
-||Who can view this record?|Public _defines who can see the data through different viewing applicaitons, e.g., the Catalouge or iMapBC_|
+||Who can view this record?|Public _defines who can see the data through different viewing applicaitons, e.g., the Catalogue or iMapBC_|
 ||Who can download this data?|Public _defines who can download the file_|
 ||Who can access this application|Public _defines who can see the metadata record_|
 ||License|See What Licence to use|
