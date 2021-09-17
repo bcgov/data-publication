@@ -66,8 +66,7 @@ The button will add the ability for users to custom download data from the BCGW 
 **Type**: Select **Geographic Data**
 
 + **Changes**:
-    - Moved from the Record Level (type) to the Resource Level (bcdc_type)
-    - Database value of 'Geographic' has changed to all lowercase 'geographic'
+    - Values: 'Geographic' has changed to all lowercase 'geographic'
     
 ---------------
 
@@ -81,7 +80,7 @@ The button will add the ability for users to custom download data from the BCGW 
 + Describes how often the resource is updated.
 
 + **Changes**
-    - New values: Nightly (nightly)
+    - **NEW** values: Nightly (nightly); Unknown (unknown)
     - Order now in order of frequency
 
 **_Temporal Extent_**:
