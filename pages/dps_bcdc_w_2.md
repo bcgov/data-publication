@@ -11,7 +11,7 @@ has_toc: true
 
 **This document is being updated to correspond with the BC Data Catalogue Beta release**
 
-When data is published to the DataBC Program through any of its services, as well as published under the [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your responsibilities are as a publisher to the BC Data Catalogue, and how to create a metadata record in the BC Data Catalogue.
+The BC Data Catalogue or Catalogue as called throughout these documents is intended for the Province of BC as well as Broader Public Sector organizations to publish metadata about their data holdings as well as applications or services. As well when data is published to the DataBC Program through any of its services, as well as published under the [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your responsibilities are as a publisher to the BC Data Catalogue, and how to create a metadata record in the BC Data Catalogue.
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
@@ -76,7 +76,7 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
 + For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](#Licences) section below for more information on this.  
-+ Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing your data to the Catalogue. 
++ Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing and cataloguing your data, application or service to the Catalogue. 
 
 [RETURN TO TOP][1]
 
@@ -88,7 +88,7 @@ There are three licencing options for data published data in the BC Data Catalog
 
 1. [Access Only](https://www2.gov.bc.ca/gov/content/home/copyright)
    
-   Access only is a statement of use that is restrictive as defined in the Crown Copyright Page.
+   Access only is a statement of use that is restrictive as defined in the [Crown Copyright](https://www2.gov.bc.ca/gov/content/home/copyright) Page.
 	+ “reproduction or distribution is not permitted without written permission.”
 	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
 1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
@@ -127,7 +127,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
 1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
-    + This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
+    + NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
     + Follow the [Workflow](./dps_bcdc_record.md#bc-data-catalogue-record-management) to complete all mandatory fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata).
@@ -145,17 +145,17 @@ The use of the BC Map Hub has a requirement for the creation of metadata alongsi
 
 ## MANAGING METADATA RESOURCES
 
-Resources are the data in the metadata record and are added to the record to provide users with access to your data.
+Resources are the additional metadata spefic to that resource as a record can have many resources.
 
 1. Resources to a record can be the following types: Application, Geographic Data, Tabular Data/Document or Webservice/API.
-1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
-2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
-3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
-4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
+1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store (csv)/ File Store (xlsx) or be externally referenced.
+1. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
+1. Resources that are sourced from the BC Geographic Warehouse are managed differently.
+1. If a resources requires authorization, we recommend that a process or form is added as a resource to the record to inform users how to get access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 **To add a resource:**
 1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described below.
+1. Fill out all the required fields for each resource type as described for each of these resource types.
 
     - [Application](./dps_bcdc_w_application_2.md#application-resource-management-in-the-bc-data-catalogue)
     - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
@@ -164,8 +164,7 @@ Resources are the data in the metadata record and are added to the record to pro
 
 _Notes:_
 + To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)
-+ Only files less than 150MB in size can be uploaded to the Catalogue.
-+ If the file is less than 150MB limit we recommend uploading the file to the Catalogue vs. storing the data elsewhere.
++ Only files less than 150MB in size can be uploaded to the Catalogue file store.
 
 ### REORDERING RESOURCES
 The **Reorder resources** button allows you to control the order of resources in the metadata record.
@@ -189,8 +188,9 @@ While in edit mode on a resource (see [Editing Existing Resources](#EDITING-EXIS
 1. Click **Update Resource** to save your changes.
 
 ### DELETING AN EXISTING RESOURCE
-While in edit mode on a resource (see [Editing Existing Resources](#EDITING-EXISTING-RESOURCES) section above):
-1. Click the **Delete** button at the bottom of the page. 
+For records that are still in draft:
+1. Click the **Delete** button at the top of the page. 
++ **TO BE CONFIGURED FOR EDITORS**
 
 [RETURN TO TOP][1]
 
@@ -206,27 +206,27 @@ Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_
 
 ## PUBLISHING A METADATA RECORD
 
-All new metadata records are created in the DRAFT record state.
+All new metadata records are created that allow the State to be asside DRAFT.
 
-Once the metadata record is complete, the editor sets the **Record State** to **Pending Publish**. Here are the steps:
+Once the metadata record is complete, the editor sets the **State** to **PENDING PUBLISH**. Here are the steps:
 
 1. Log into the Catalogue.
-1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-1. Change the dataset **Record State** (first metadata element):
+1. Navigate to the metadata record to be edited and click the "edit metadata" button on the top toolbar to start editing.
+1. Change the dataset **State**:
 	+ from **DRAFT**
 	+ to **PENDING PUBLISH**
-1. Click **Update Dataset**.
+1. Click **Save**.
 
-Once a metadata record has been set to **PENDING PUBLISH**, the DataBC is notified and will then review the record for: 
+Once a metadata record has been set to **PENDING PUBLISH**, administrators of the Catalogue at DataBC weill be notified and will then review the record for: 
 + Completeness
 + Data quality
 + Licence type
 
 If your metadata record is validated by DataBC, they will change the state to **PUBLSHED**.  Otherwise, a DataBC team member will contact you to discuss your record.
 
-_**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC](mailto:data@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
+_**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
-Once your metadata record is in the Published state, it is then visible and searchable in the BC Data Catalogue for all users.  
+Once your metadata record is in the Published state, it is then visible and searchable in the BC Data Catalogue for all users, unless set to IDIR visibility ad then a user must log into their IDIR to see the record.  
 
 Data Custodians should regularly review all metadata records within their Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
 
@@ -236,7 +236,9 @@ Data Custodians should regularly review all metadata records within their Sub-Or
 
 ## ARCHIVING A METADATA RECORD
 
-When a dataset is no longer relevant, it should be archived. Here are the steps to begin this process:
+When a dataset is no longer relevant, the **State** should be set to PENDING ARCHIVE, so as to notify DataBC Catalogue administrators as well it informs uses who read the metadata that there is an intending Archive. Recommend following the items as there are more fields available to give users more information, e.g., what is the replacement dataset or record.
+
+Here are the steps to begin this process:
 
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
@@ -248,11 +250,11 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 			+ Add the text "DEPRECATED - " to the beginning of the metadata Title
 		+ If there is no replacement, then either the main catalogue page can be used or a webpage about the data or program.
 		
-	1. If the data is going into **historicalArchive**, two additional fields must be completed:
+	1. If the data is going into **historicalArchive**, two additional fields can be completed:
 		1. **Retention Expiry Date**
 		1. **Source Data Path**
 		
-1.  Change the dataset **Record State**:
+1.  Change the dataset **State**:
 	+ from **PUBLISHED**
 	+ to **PENDING ARCHIVE**.
 	
@@ -262,12 +264,12 @@ Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the
 + confirming that records with a replacement dataset contain "DEPRECATED" in the title
 
 _Note: If the record is related to a BCGW dataset, it will be added to the next Notice of Intent (NOI) for archival._
+    - See the [BCGW Data Retirement Workflow](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_data_retirement.html)
 
-Once DataBC has confirmed the record is ready for archiving, they will update the **Record State** to **ARCHIVED**.
+Once DataBC has confirmed the record is ready for archiving, they will update the **State** to **ARCHIVED**.
 
 Archived datasets:
 + are only visible to logged in Catalogue members of the Sub-Org which the dataset resides in 
-+ do not contain resources
 
 [RETURN TO TOP][1]
 
@@ -296,7 +298,7 @@ To create a group, the following information is required and can be sent to [Dat
 ## ORGANIZATION AND SUB-ORGANIZATION UPDATES
 Organizations change names frequently and thus need continual maintenance.
 
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca):
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC DA](mailto:databc.da@gov.bc.ca):
 
 + Old name
 + New name
@@ -309,10 +311,10 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 ------------------------------
 
 ## BULK UPDATES
-When there are more than 20 records that require updating, a bulk update can be requested for [DataBC](mailto:data@gov.bc.ca) to complete or can be completed by a user via the API.
+When there are more than 20 records that require updating, a bulk update can be requested for [DataBC DA](mailto:databc.da@gov.bc.ca) to complete or can be completed by a user via the API.
 
 + Common bulk updates:
-	+ Branch/Division names
+	+ Branch/Division name
 	+ Contact information
 	+ State Change
 	+ URL modifications for More Info and Resources
