@@ -63,48 +63,48 @@ There are international standards for metadata that DataBC follows. This provide
 
 Data elements _optionality_ for each dataset type are as follows:
 
-|Section|Data Element|Example(s)|Application|Dataset|Geographic Dataset|Web Service - API|
-|:---|:---|:---|:---:|:---:|:---:|:---:|
-|_Dataset_|State|DRAFT|Required|Required|Required|Required|
-||Title|_descriptive title_|Required|Required|Required|Required|
-||URL|_https://....._|Required|Required|Required|Required|
-||Organization|Ministry of Citizen Services|Required|Required|Required|Required|
-||Sub-Organization|DataBC|Required|Required|Required|Required|
-||Description|_detailed description about the data_|Required|Required|Required|Required|
-||Purpose|_summary of the intentions for which the dataset was developed_|N/A|Optional|Optional|N/A|
-||Data Quality|_descriptive text that cn include info about issues, completeness, consistency, etc._|N/A|Optional|Optional|N/A|
-||Lineage Statement|_information about the events or source data used in constructing the data_|N/A|Optional|Optional|N/A|
-||More Info|_supporting url(s)_|Optional|Optional|Optional|Optional|
-||Keywords|_searchable term(s)_|Required|Required|Required|Required|
-||ISO Topic Category|unknown|N/A|N/A|Required|N/A|
-|_Contact_|Name|_contact's first and last name_|Required|Required|Required|Required|
-||Email|_someone@somewhere.ca_|Required|Required|Required|Required|
-||Organization|Ministry of Citizen Services|Required|Required|Required|Required|
-||Sub-Organization|DataBC|Required|Required|Required|Required|
-||Role|Custodian|Required|Required|Required|Required|
-||Contact Displayed|Yes|Required|Required|Required|Required|
-|_Data Currency / Update_|Resource Status|planned|Required|Required|Required|Required|
-||Data type|Created|N/A|Required|Required|N/A|
-||Date|_YYYY-MM-DD_|N/A|Required|Required|N/A|
-|_Access & Security_|Who can view this data?|Public|N/A|Required|Required|Required|
-||Who can view this record?|Public|Required|Required|Required|Required|
-||Who can download this data?|Public|N/A|Required|Required|Required|
-||Who can access this application|Public|Required|N/A|N/A|N/A|
-||License||N/A|Required|Required|Required|
-||Security Classification|LOW-PUBLIC|Required|Required|Required|Required|
-|_Preview Information_|Layer name|Name of the layer for preview|N/A|N/A|Optional|N/A|
-||Preview latitude|Latitude of layer for preview|N/A|N/A|Optional|N/A|
-||Preview longitude|Longitude of layer for preview|N/A|N/A|Optional|N/A|
-||Preview map service URL|URL of map service for preview|N/A|N/A|Optional|N/A|
-||Preview zoom level|Zoom level for preview|N/A|N/A|Optional|N/A|
-||Image URL|_URL for non map service images|N/A|N/A|Optional|N/A|
-||Link to iMap|_link_|N/A|N/A|Optional|N/A|
-|_Geographic extent_|North|60.0|N/A|N/A|Optional-system default|N/A|
-||South|48.0|N/A|N/A|Optional-system default|N/A|
-||East|-113.5|N/A|N/A|Optional-system default|N/A|
-||West|-139.5|N/A|N/A|Optional-system default|N/A|
-||Spatial Datatype|SDO_GEOMETRY|N/A|N/A|Optional|N/A|
-||Object Name|_schema.table(view)_|N/A|N/A|Optional|N/A|
+|Section|Data Element|Example(s)|
+|:---|:---|:---|
+|_Dataset_|State|DRAFT|
+||Title|_descriptive title_|
+||URL|_https://....._|
+||Organization|Ministry of Citizen Services|
+||Sub-Organization|DataBC|
+||Description|_detailed description about the data_|
+||Purpose|_summary of the intentions for which the dataset was developed_|
+||Data Quality|_descriptive text that cn include info about issues, completeness, consistency, etc._|
+||Lineage Statement|_information about the events or source data used in constructing the data_|
+||More Info|_supporting url(s)_|
+||Keywords|_searchable term(s)_|
+||ISO Topic Category|unknown|
+|_Contact_|Name|_contact's first and last name_|
+||Email|_someone@somewhere.ca_|
+||Organization|Ministry of Citizen Services|
+||Sub-Organization|DataBC|
+||Role|Custodian|
+||Contact Displayed|Yes|
+|_Data Currency / Update_|Resource Status|
+||Data type|Created|
+||Date|_YYYY-MM-DD_|
+|_Access & Security_|Who can view this data?|
+||Who can view this record?|
+||Who can download this data?|
+||Who can access this application|
+||License|See What Licence to use|
+||Security Classification|LOW-PUBLIC|
+|_Preview Information_|Layer name|Name of the layer for preview|
+||Preview latitude|Latitude of layer for preview|
+||Preview longitude|Longitude of layer for preview|
+||Preview map service URL|URL of map service for preview|
+||Preview zoom level|Zoom level for preview|
+||Image URL|_URL for non map service images|
+||Link to iMap|_link_|
+|_Geographic extent_|North|60.0|
+||South|48.0|
+||East|-113.5|
+||West|-139.5|
+||Spatial Datatype|
+||Object Name|_schema.table(view)_|
 
 ---------
 
