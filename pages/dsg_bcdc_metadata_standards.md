@@ -68,7 +68,6 @@ Data elements _optionality_ for each dataset type are as follows:
 |_Dataset_|State|DRAFT|
 ||Title|_descriptive title_|
 ||URL|_https://....._|
-||Organization|Ministry of Citizen Services|
 ||Sub-Organization|DataBC|
 ||Description|_detailed description about the data_|
 ||Purpose|_summary of the intentions for which the dataset was developed_|
@@ -79,7 +78,6 @@ Data elements _optionality_ for each dataset type are as follows:
 ||ISO Topic Category|unknown|
 |_Contact_|Name|_contact's first and last name_|
 ||Email|_someone@somewhere.ca_|
-||Organization|Ministry of Citizen Services|
 ||Sub-Organization|DataBC|
 ||Role|Custodian|
 ||Contact Displayed|Yes|
@@ -87,9 +85,9 @@ Data elements _optionality_ for each dataset type are as follows:
 ||Data type|Created|
 ||Date|_YYYY-MM-DD_|
 |_Access & Security_|Who can view this data?|
-||Who can view this record?|
-||Who can download this data?|
-||Who can access this application|
+||Who can view this record?|Public _defines who can see the data through different viewing applicaitons, e.g., the Catalouge or iMapBC_|
+||Who can download this data?|Public _defines who can download the file_|
+||Who can access this application|Public _defines who can see the metadata record_|
 ||License|See What Licence to use|
 ||Security Classification|LOW-PUBLIC|
 |_Preview Information_|Layer name|Name of the layer for preview|
@@ -103,7 +101,7 @@ Data elements _optionality_ for each dataset type are as follows:
 ||South|48.0|
 ||East|-113.5|
 ||West|-139.5|
-||Spatial Datatype|
+||Spatial Datatype|SDO Geometry|
 ||Object Name|_schema.table(view)_|
 
 ---------
