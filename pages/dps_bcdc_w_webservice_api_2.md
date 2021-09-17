@@ -35,8 +35,10 @@ has_toc: true
 
 ---------------
 
-**Resource Type**: Select **Webservice/API**
+**Type**: Select **Webservice/API**
 
++ **Changes**:
+    - Value: 'WebService' has changed to all lowercase 'webservice'
 
 ---------------
 
