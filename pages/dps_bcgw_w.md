@@ -28,7 +28,7 @@ This page is written in the context that you have reviewed the documentation as 
 	+ [Create a Plan](#create-a-plan)
 	+ [Whiteboard Sessions](#whiteboard-sessions)
 + [**DATA MODELLING**](#data-modelling)
-	+ [Dataset Logfile](#dataset-logfile)
+	+ [Dataset Model](#dataset-model)
 	+ [Technical Whiteboard](#technical-whiteboard)
 	+ [The Data Model](#the-data-model)
 	+ [Data Population](#data-population)
@@ -133,9 +133,9 @@ Your data, as described in your [_Data Model_](glossary.md#data-model), is also 
 
 It is common for programs that do not have internal resources for data modelling to have this work carried out by a vendor. In this case, you will provide input to the vendor so the data model can be created. 
 
-### Dataset Logfile
+### Dataset Model
 
-The [Dataset Logfile](images/Dataset_Model_Current_TEMPLATE.xlsx) is where you provide specific details about your dataset in order to capture the following information: 
+The [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) is where you provide specific details about your dataset in order to capture the following information: 
 
    + **Business Details:** Overarching Title, Description, Custodian, Business Area Contacts and IMB BA/BPM
    + **Data Details:** Dataset Title, Descriptions, Source, Feature Type and Count and who to create Metadata
@@ -144,16 +144,16 @@ The [Dataset Logfile](images/Dataset_Model_Current_TEMPLATE.xlsx) is where you p
 
 For [GSR](glossary.md#geographic-sites-registry) dataloads, please use the [GSR Dataset Model Template](images/GSR_Dataset_Model_Current_TEMPLATE.xlsx).
 
-[Dataset Logfile Workflow](images/wf_DatsetLogfile.svg)
+[Dataset Model Workflow](images/wf_DatsetLogfile.svg)
 
-![Dataset Logfile Workflow](images/wf_DatsetLogfile.png)
+![Dataset Model Workflow](images/wf_DatsetLogfile.png)
 
-Once the Dataset Logfile has been reviewed and approved, the Technical Whiteboard Session will be scheduled.
+Once the Dataset Model has been reviewed and approved, the Technical Whiteboard Session will be scheduled.
 
 ### Technical Whiteboard
 
-The purpose of the Technical Whiteboard Session is to discuss the technical details of your dataset after your Dataset Logfile has been completed.  During this session, we will discuss:
-+ Specifics about data model based on Dataset Logfile and access to source data
+The purpose of the Technical Whiteboard Session is to discuss the technical details of your dataset after your Dataset Model has been completed.  During this session, we will discuss:
++ Specifics about data model based on Dataset Model and access to source data
 + Security model for Database, iMap, Distribution, WMS, Open Data
 + Replication mechanism and frequency
 
