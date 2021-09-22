@@ -1477,7 +1477,7 @@ The following parameters have been defined:
 + [_FILE_CHANGE_DETECTION_](#File-Change-Detection-FILE_CHANGE_DETECTION) has been set to  **TRUE**
 + Writer → Workspace Parameters → Logging → Log File has been linked to [**_LOGFILE_**](#Log-File-LOGFILE)
 	
-If the fmw will be published in any other repo, add an additional parameter: 
+If the fmw will not be scheduled, you have the option to add an additional parameter: 
 	
 |Field|Value|
 |:---|:---|
