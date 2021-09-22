@@ -18,7 +18,6 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 | *Data Publishers* | *Data Architects* | *Vendors* | 
 
 ## Table of Contents
-+ [**Table of Contents**](#table-of-contents)
 + [**ACCESSING THE FME FRAMEWORK**](#accessing-the-fme-framework)
 	+ [Allow Reader Feature Type Editing](#allow-reader-feature-type-editing)
 	+ [Enable FME Framework Customizations](#enable-fme-framework-customizations)
@@ -1477,6 +1476,19 @@ The following parameters have been defined:
 + [_DEST_DB_ENV_KEY_](#Destination-Database-Keyword-DEST_DB_ENV_KEY) has been set to **DLV**
 + [_FILE_CHANGE_DETECTION_](#File-Change-Detection-FILE_CHANGE_DETECTION) has been set to  **TRUE**
 + Writer → Workspace Parameters → Logging → Log File has been linked to [**_LOGFILE_**](#Log-File-LOGFILE)
+	
+If the fmw will be published in any other repo, add an additional parameter: 
+	
+|Field|Value|
+|:---|:---|
+|**Published/Private**|published |
+|**Type**|Text |
+|**Name**|FMW_COMMENTS |
+|**Prompt**|Enter comments: |
+|**Configuration**|N/A | 
+|**Attribute Assignment**|Default |
+|**Default Value**|Add comments describing any relevant details required for the user to know when running the fmw. |
+|**Link From**|N/A|	
 
 ### Source Readers
 
