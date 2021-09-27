@@ -11,44 +11,39 @@ has_toc: true
 ## BC DATA CATALOGUE RESOURCE MANAGEMENT
 **This document is being updated to correspond with the BC Data Catalogue Beta release**
 
-1. Resources to a record can be the following types:
+1. There are four defined resource types:
     - [Application](./dps_bcdc_w_application_2.md)
     - [Document/Tabular Data](./dps_bcdc_w_dataset_2.md)
     - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
     - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
-2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
-3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
-4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
+2. Resources that are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
+3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
+    + If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
-[Changeslog#geographic-data-resource-level-changes](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
+
+## GEOGRAPHIC DATA RESOURCE MANAGEMENT
+
+Geographic datasets defined in the Catalogue, have additional attributes available through the User Interface (UI), where-as the other resource types are a subset of the fields available, e.g., Projection, Geographic Extents, Map Preview.
+
+**BC Geographic Warehouse (BCGW)** datasets
++ Geographic Data resources type is used if they are spatially enabled or not. This is to allow for the Data Distributuon Service to be configured for those datasets.
+
+### User Interface (UI) Fields
++ The following items are the field labels visible in the UI, for the database or API field names refer to the [schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset). 
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-## GEOGRAPHIC DATA RESOURCE MANAGEMENT
-
-Geographic datasets defined in the Catalogue, have additional attributes available through the User Interface (UI), where-as the other resource types are a subset of the fields available, e.g., Projection, Geographic Extents, Map Preview.
-+ Geographic resources are used for BC Geographic Warehouse (BCGW) datasets if they are spatially enabled or not. This is to allow for the Data Distributuon Service to be configured for those datasets.
-
-The following items are the field labels visible in the UI, for the database or API field names refer to the [schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset). 
-
 **Name**:
 + Is the title of the resource as it will appear on the metadata record. 
 
-**_Resource_**
++ **_Resource_ URL**:
+    + Is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
+        - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
 
-+ **URL**: is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
-    - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
-
-+ **File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
-
-+ **Beta Release Changes**: 
-
-    |Changes| Comments|
-    |:---|:---|
-    |Required Field|No longer a mandatory field|
++ **_Resource_ File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
  **BCGW Resources**
 
@@ -61,59 +56,44 @@ For BCGW resources to have the **Download/Access** button configured to pop-up t
 
 ---------------
 
-**Type**: Select **Geographic Data**
+**Type**:
 
-+ **Beta Release Changes**: 
-
-    |Changes| Comments|
-    |:---|:---|
-    |Value|'Geographic' has changed to all lowercase 'geographic'
+Select **Geographic Data**
     
 ---------------
 
 **Resource Description**: 
 + Is a detailed description of the resource.
++ **BCGW Specific**
+    + 'Refer to the Who an download this dataset' on the main page to determine if you have access.'
 
 **Supplemental Information**: 
 + Any additional relevant information about the resource can be included here.
-
-**Resource Update Cycle**: 
+ 
+**Resource Update Cycle**:  
 + Describes how often the resource is updated.
++ **BCGW Specific:** most common replication frequency is "Nightly"
+    
++ **NEW Values:** 'Nightly' (nightly); 'Unknown' (unknown)
 
-+ **Beta Release Changes**: 
+**_Temporal Extent_ Beginning Date** if the dataset is temporal in nature, the start date for the period the data is captured for.
 
-    |Changes| Comments|
-    |:---|:---|
-    |Values|**NEW** Nightly (nightly); Unknown (unknown)
-    |Order| Now in order of frequency not alphabetically|
+**_Temporal Extent_ End Date** if the dataset is temporal in nature, is the end date for the period the data is captured for. 
 
-**_Temporal Extent_**:
-If your dataset is temporal in nature, you may provide the relevant dates in this area
-+ **Beginning Date** is the start date for the period the data is captured for.
-+ **End Date** is the end date for the period the data is captured for. 
+**Resource Storage Format**: 
++ Describes the file extension for the resource.
++ **BCGW Specific:** select 'Other' but others that also apply, 'Multiple', 'Oracle/SDE'
 
-+ **Changes**
-    - Database fields renamed - [see change log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
-
-**Resource Storage Format**: describes the file extension for the resource.
-+ BCGW
-    + The following is used in Production: Other
-    + But others that also apply: Multiple, Oracle/SDE
-
-+ **Beta Release Changes**: 
-
-    |Changes| Comments|
-    |:---|:---|
-    |Values|**NEW** geopackage (gpkg); multiple
-
++ **NEW Values** geopackage (gpkg); multiple
 
 **Resource Storage Location**:
 + Is the location where the resource is stored. 
 + For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
++ **BCGW Specific:** select: 'BC Geographic Warehouse'
 
 **Spatial Datatype**: 
 + Refers to the datatype in a database. 
-+ For data stored in the BCGW, choose SDO_GEOMETRY.  If you are unsure, choose N-A.
++ **BCGW Specific: select 'SDO_GEOMETRY'
 
     |Spatial Datatype| Description|
     |:---|:---|
@@ -125,39 +105,37 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     
 
 **Object Name**: 
-+ Is the object name as it appears in the BCGW: _SCHEMA.OBJECT_.
-    +  E.g.,: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
-+ For BCGW Datasets, this is what is used to automatically populate the metadata record with
-    - The data definitions table that is extracted from the Oracle metadata.
-    - For public datasets that are available in iMapBC:
-        - The WMS resource
-        - The Network Link KML resource
-        - The Preview Map details
-        - The link to iMapBC will that dataset's specific presenatations
++ **BCGW Specific:** enter the _SCHEMA.OBJECT_ , e.g., WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
+    - The object name is what is used to automatically populate the metadata record with
+        - The data definitions table that is extracted from the Oracle metadata.
+        - For public datasets that are available in iMapBC:
+            - The WMS resource
+            - The Network Link KML resource
+            - The Preview Map details
+            - The link to iMapBC will that dataset's specific presenatations
 
 **Projection Name**: 
 + Is a drop down list of common projections used in BC for geographic data.
-+ For the BCGW as well as many other databases, these are stored as [ESPG_3005 - NAD83 BC Albers](https://epsg.io/3005).
-
-+ **Changes**:
-    - Field values were being stored as full label text, e.g., 'ESPG_3005 - NAD83 BC Albers', now is the shorted value, e.g., 'epsg3005'
++ **BCGW Specific:** select [ESPG_3005 - NAD83 BC Albers](https://epsg.io/3005).
 
 **JSON Table Schema**:
-(**NEW**)
++ **NEW Field**
 
 **ISO Topic Category**: 
 [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
 
 **Resource Type**: 
-+ Is the type of resource: Data, Reports, Abstraction or Not Applicable (**NEW**)
++ Is the type of resource
+
++ **NEW Value:** 'Not Applicable'
 
 **Resource Access Method**:
 + Describes how the end-user can access the data.
 
-+ Is the way the resource is accessible: Appication, Direct Access, Indirect Access, Service or Other (**NEW**)
++ **NEW Value:** 'Other'
 
 **_Preview Information_**:
-+ These details are filled in automatically when:
++ **BCGW Specific:** these details are filled in automatically when:
     - Stored in the BC Geographic Warehouse
     - Have a public presentation in iMapBC
     - A WMS REST endpoint created
@@ -165,13 +143,15 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
 + These fields can be used for other purposes
 + These values populate the **Preview** button map and **View in iMapBC ->** button.
 
-+ **Layer Name** is the name of the BCGW object.
-+ **Preview Latitude** allows you to provide a map preview centroid latitude.
-+ **Preview Longitude** allows you to provide a map preview centroid longitude.
-+ **Preview Map Service URL** allows you to provide an alias for the map service URL.
-+ **Preview Zoom level** allows you to provide an initial zoom level for the map preview.
-+ **Image URL** shows a preview of the data as a static image.
-+ **Link to iMap** shows an interactive preview of the data in iMapBC.
+    |Spatial Datatype| Description|
+    |:---|:---|
+    |**Layer Name**| is the name of the BCGW object.
+    |**Preview Latitude**| allows you to provide a map preview centroid latitude.
+    |**Preview Longitude**| allows you to provide a map preview centroid longitude.
+    |**Preview Map Service URL**| allows you to provide an alias for the map service URL.
+    | **Preview Zoom level**| allows you to provide an initial zoom level for the map preview.
+    |**Image URL**| shows a preview of the data as a static image.
+    |**Link to iMap**| shows an interactive preview of the data in iMapBC.
 
 **_Geographic Extent_**:
 + **North/South/East/West** these are auto populated with the bounding box of the province.
