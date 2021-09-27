@@ -154,7 +154,40 @@ Select **Geographic Data**
     |**Link to iMap**| shows an interactive preview of the data in iMapBC.
 
 **_Geographic Extent_**:
-+ **North/South/East/West** these are auto populated with the bounding box of the province.
++ **North/South/East/West** 
+
+
+|Field UI Label|Description|BCGW Specific|
+|:---|:---|:---|
+|**Spatial Datatype**| |SDO_GEOMETRY 
+| |SDE_BINARY: This is the older ESRI based geometry that used to be what the BCGW prior to 2014, ESRI has moved to ST_GEOMETRY.|
+|   |SDO_GEOMETRY: This is Oracle geometry and what the BCGW and NRM uses predominately as their datatype.|
+|    |ST_GEOMETRY: This is the current ESRI based geometry.|
+|    |N-A: **NEW** Select if not stored in a database||
+|    |UNKNOWN:**NEW** Select if not unknown what spatial data type it is stored as, e.g., shape file (.shp)|
+|**Object Name**| | e.g., WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
+| ||   - The object name is what is used to automatically populate the metadata record with
+| ||        - The data definitions table that is extracted from the Oracle metadata.
+| ||        - For public datasets that are available in iMapBC:
+| ||            - The WMS resource
+| ||            - The Network Link KML resource
+| ||            - The Preview Map details
+|**Projection Name**| Is a drop down list of common projections used in BC for geographic data | [ESPG_3005 - NAD83 BC Albers](https://epsg.io/3005).
+|**JSON Table Schema**| **NEW**| 
+|**ISO Topic Category**| [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html) 
+|**Resource Type** | Is the type of resource
+|**Resource Access Method**|Describes how the end-user can access the data
+||
+|**_Preview Information_**:|
+|**Layer Name**| is the name of the BCGW object.|Automatically populate when public WMS
+|**Preview Latitude**| allows you to provide a map preview centroid latitude.|Automatically populate when public WMS
+|**Preview Longitude**| allows you to provide a map preview centroid longitude.|Automatically populate when public WMS
+|**Preview Map Service URL**| allows you to provide an alias for the map service URL.|Automatically populate when public WMS
+| **Preview Zoom level**| allows you to provide an initial zoom level for the map preview.|Automatically populate when public WMS
+|**Image URL**| shows a preview of the data as a static image.
+|**Link to iMap**| shows an interactive preview of the data in iMapBC.|For publicly available presentations in iMapBC, automatically populate
+||
+|**North/South/East/West**|these are auto populated with the bounding box of the province.
 
 Click **Save** when done
 
