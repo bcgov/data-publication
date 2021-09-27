@@ -30,7 +30,7 @@ https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geograp
 
 ## GEOGRAPHIC DATA RESOURCE MANAGEMENT
 
-**Title**: is the title of the resource as it will appear on the metadata record. 
+**Name**: is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
@@ -39,27 +39,16 @@ https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geograp
 
 + **File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
++ **Changes**: No longer a mandatory field
+
  **BCGW Resources**
 
-The **Manage BCGW Resources** button has not be enabled as of yet.
+For Beta, the **Manage BCGW Resources** button has not be enabled as of yet.
 
-This describles the functionality in production.
-
-The button will add the ability for users to custom download data from the BCGW if:
-+ it is stored in the BCGW **and** 
-+ they have permissions to access it **and**
-+ the BCGW schema and object name (e.g., _schema.table_) has been added to the main page of the metadata record
-
-1. Click the **Yes** button on the _Object is available, would you like to add the resource link?_ pop-up.
-1. Fill in the following details, where the update cycle is the mandatory field:
-	+ **Resource Description** is a detailed description of the resource.
-	+ **Resource Update Cycle** describes how often the resource is updated.
-	+ **Supplemental information**: Any additional relevant information about the resource can be included here.
-	+ **Temporal Extent** If your dataset is temporal in nature, you may provide the relevant dates in this area
-		+ **Beginning Date** is the start date for the preiod the data is captured for.
-		+ **End Date** is the end date for the period the data is captured for. 
-1. Click the **Save** button.
-1. Click the **Finish** button on the _Successfully added._ pop-up.
+For BCGW resources to have the **Download/Access** button configured to pop-up the Persistant Order Widget (POW) the following have to be populated:
+1. **Title**: BC Geographic Warehouse Custom Download
+2. **Resource** Storage Location: BC Geographic Warehouse
+3. **Object Name**: WHSE% or REG% populated
 
 ---------------
 
@@ -92,13 +81,21 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     - Database fields renamed - [see change log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Resource Storage Format**: describes the file extension for the resource.
++ BCGW
+    + The following is used in Production: Other
+    + But others that also apply: Multiple, Oracle/SDE
+
 + **Changes**:
     - **NEW** values: geopackage (gpkg); multiple
 
-**Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
-**Spatial Datatype**: refers to the datatype in the database. 
-+ For data stored in the BC Geographic, choose SDO_GEOMETRY.  If you are unsure, choose N-A.
+**Resource Storage Location**:
++ Is the location where the resource is stored. 
++ For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
+
+**Spatial Datatype**: 
++ Refers to the datatype in a database. 
++ For data stored in the BCGW, choose SDO_GEOMETRY.  If you are unsure, choose N-A.
 
     |Spatial Datatype| Description|
     |:---|:---|
@@ -109,8 +106,10 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     |UNKNOWN |**NEW** Select if not unknown what spatial data type it is stored as, e.g., shape file (.shp)|
     
 
-**Object Name**: is the object name as it appears in the BCGW: _SCHEMA.OBJECT_. Example: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
-+ For BC Geographic Datasets, this is what is used to automatically populate the metadata record with
+**Object Name**: 
++ Is the object name as it appears in the BCGW: _SCHEMA.OBJECT_.
+    +  E.g.,: WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
++ For BCGW Datasets, this is what is used to automatically populate the metadata record with
     - The data definitions table that is extracted from the Oracle metadata.
     - For public datasets that are available in iMapBC:
         - The WMS resource
@@ -118,23 +117,24 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
         - The Preview Map details
         - The link to iMapBC will that dataset's specific presenatations
 
-**Projection Name**: is the projection of your geographic data. Select from the drop-down list.
-+ For provincial data in the BC Geographic Warehouse as well as many other databases, these are stored as ESPG 3005: NAD83 BC Albers.
+**Projection Name**: 
++ Is a drop down list of common projections used in BC for geographic data.
++ For the BCGW as well as many other databases, these are stored as [ESPG_3005 - NAD83 BC Albers](https://epsg.io/3005).
 
 + **Changes**:
     - Field values were being stored as full label text, e.g., 'ESPG_3005 - NAD83 BC Albers', now is the shorted value, e.g., 'epsg3005'
 
-**JSON Table Schema**: (**NEW**)
+**JSON Table Schema**:
+(**NEW**)
 
-**ISO Topic Category**: [Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
-
-+ **Changes**:
-    - Database field renamed - [see change log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
+**ISO Topic Category**: 
+[Topic Category Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15) More information: [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)  
 
 **Resource Type**: 
 + Is the type of resource: Data, Reports, Abstraction or Not Applicable (**NEW**)
 
-**Resource Access Method**: describes how the end-user can access the data.
+**Resource Access Method**:
++ Describes how the end-user can access the data.
 
 + Is the way the resource is accessible: Appication, Direct Access, Indirect Access, Service or Other (**NEW**)
 
@@ -145,9 +145,9 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     - A WMS REST endpoint created
     - A Network Link KL file created.  
 + These fields can be used for other purposes
-+ These values populate the **Preview** button map and **Link to iMapBC** button.
++ These values populate the **Preview** button map and **View in iMapBC ->** button.
 
-+ **Layer Name**
++ **Layer Name** is the name of the BCGW object.
 + **Preview Latitude** allows you to provide a map preview centroid latitude.
 + **Preview Longitude** allows you to provide a map preview centroid longitude.
 + **Preview Map Service URL** allows you to provide an alias for the map service URL.
