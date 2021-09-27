@@ -39,7 +39,11 @@ https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geograp
 
 + **File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
-+ **Changes**: No longer a mandatory field
++ **Beta Release Changes**: 
+
+    |Changes| Comments|
+    |:---|:---|
+    |No longer a mandatory field|
 
  **BCGW Resources**
 
@@ -54,8 +58,11 @@ For BCGW resources to have the **Download/Access** button configured to pop-up t
 
 **Type**: Select **Geographic Data**
 
-+ **Changes**:
-    - Values: 'Geographic' has changed to all lowercase 'geographic'
++ **Beta Release Changes**: 
+
+    |Changes| Comments|
+    |:---|:---|
+    |Value|'Geographic' has changed to all lowercase 'geographic'
     
 ---------------
 
@@ -68,9 +75,12 @@ For BCGW resources to have the **Download/Access** button configured to pop-up t
 **Resource Update Cycle**: 
 + Describes how often the resource is updated.
 
-+ **Changes**
-    - **NEW** values: Nightly (nightly); Unknown (unknown)
-    - Order now in order of frequency
++ **Beta Release Changes**: 
+
+    |Changes| Comments|
+    |:---|:---|
+    |Values|**NEW** Nightly (nightly); Unknown (unknown)
+    |Order| Now in order of frequency not alphabetically|
 
 **_Temporal Extent_**:
 If your dataset is temporal in nature, you may provide the relevant dates in this area
@@ -85,8 +95,11 @@ If your dataset is temporal in nature, you may provide the relevant dates in thi
     + The following is used in Production: Other
     + But others that also apply: Multiple, Oracle/SDE
 
-+ **Changes**:
-    - **NEW** values: geopackage (gpkg); multiple
++ **Beta Release Changes**: 
+
+    |Changes| Comments|
+    |:---|:---|
+    |Values|**NEW** geopackage (gpkg); multiple
 
 
 **Resource Storage Location**:
