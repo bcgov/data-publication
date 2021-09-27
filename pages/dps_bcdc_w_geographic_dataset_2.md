@@ -13,16 +13,15 @@ has_toc: true
 
 1. Resources to a record can be the following types:
     - [Application](./dps_bcdc_w_application_2.md)
+    - [Document/Tabular Data](./dps_bcdc_w_dataset_2.md)
     - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
-    - [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
     - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
 4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
-Changeslog
-https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes
+[Changeslog#geographic-data-resource-level-changes](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
@@ -30,7 +29,13 @@ https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geograp
 
 ## GEOGRAPHIC DATA RESOURCE MANAGEMENT
 
-**Name**: is the title of the resource as it will appear on the metadata record. 
+Geographic datasets defined in the Catalogue, have additional attributes available through the User Interface (UI), where-as the other resource types are a subset of the fields available, e.g., Projection, Geographic Extents, Map Preview.
++ Geographic resources are used for BC Geographic Warehouse (BCGW) datasets if they are spatially enabled or not. This is to allow for the Data Distributuon Service to be configured for those datasets.
+
+The following items are the field labels visible in the UI, for the database or API field names refer to the [schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset). 
+
+**Name**:
++ Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
@@ -43,7 +48,7 @@ https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geograp
 
     |Changes| Comments|
     |:---|:---|
-    |No longer a mandatory field|
+    |Required Field|No longer a mandatory field|
 
  **BCGW Resources**
 
