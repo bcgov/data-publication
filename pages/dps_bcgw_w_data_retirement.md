@@ -18,7 +18,7 @@ has_toc: false
 ### Retirement Process and Workflow
 Data Custodians are ultimately responsible for the Data Lifecycle of their data, which includes but is not limited to the maintenance, accuracy, licensing and the decision to replace, retire or archive their data.
 
-To retire data from the BCGW, the Data Custodian notifies [DataBC Data Retirement](Mailto:LDATARET@Victoria1.gov.bc.ca). 
+To retire data from the BCGW, the Data Custodian notifies [DataBC Data Retirement](Mailto:LDATARET@Victoria1.gov.bc.ca) with the following information: 
 
 **Information Required and Example:**
 
