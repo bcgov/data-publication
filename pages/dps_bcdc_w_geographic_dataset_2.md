@@ -109,7 +109,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
             - The _WMS getCapabilities request_ resources
             - The _Network Link KML_ resources
             - The _Preview Map_ details
-            - The -View in iMapBC_ button will that dataset's specific presentations
+            - The _View in iMapBC_ button will that dataset's specific presentations
      - Always check to make sure there is no space at the end of the value.
 
 **Projection Name**
