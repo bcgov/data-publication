@@ -71,7 +71,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
     
 + **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
 
-**_Temporal Extent_ Beginning Date** 
+**_Temporal Extent_ Beginning Date**
 + If the dataset is temporal in nature, the start date for the period the data is captured for.
 
 **_Temporal Extent_ End Date** 
@@ -79,7 +79,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 
 **Resource Storage Format**
 + Describes the file extension for the resource.
-+ **BCGW Specific**: select "Other" (`other`) but others that also apply, "Multiple" (`multiple`), "Oracle/SDE" (`oracle_sde`)
++ **BCGW Specific**: select "other" (`other`) but others that also apply, "multiple" (`multiple`), "Oracle/SDE" (`oracle_sde`)
 
 + **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
 
