@@ -29,9 +29,9 @@ Geographic datasets defined in the Catalogue, have additional attributes availab
 + Geographic Data resources type is used if they are spatially enabled or not. This is to allow for the Data Distribution Service to be configured for those datasets.
 + For Beta, the **Manage BCGW Resources** button has not be enabled yet.
 + To have the **Download/Access** button configured to pop-up the Persistent Order Widget (POW) the following must be populated:
-1. **Name:** 'BC Geographic Warehouse Custom Download'
-2. **Resource Storage Location:** 'BC Geographic Warehouse'
-3. **Object Name:** WHSE% or REG% populated
+1. **Name:** "BC Geographic Warehouse Custom Download"
+2. **Resource Storage Location:** "BC Geographic Warehouse"
+3. **Object Name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
 
 ### User Interface (UI) Fields
 + The following items are the field labels visible in the UI, for the database or API field names refer to the [schema](https://beta-catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset). 
@@ -102,7 +102,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
     
 **Object Name**
 + Is the name of the dataset stored in a database.
-+ **BCGW Specific**: enter the _SCHEMA.OBJECT_ , e.g., WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
++ **BCGW Specific**: enter the _SCHEMA.OBJECT_ , e.g., WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP
     - The object name is what is used to automatically populate the metadata record with
         - The data definitions table that is extracted from the Oracle metadata.
         - For public datasets that are available in iMapBC:
@@ -110,6 +110,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
             - The _Network Link KML_ resources
             - The _Preview Map_ details
             - The -View in iMapBC_ button will that dataset's specific presentations
+     - Always check to make sure there is no space at the end of the value.
 
 **Projection Name**
 + Is a drop down list of common projections used in BC for geographic data.
