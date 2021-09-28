@@ -20,13 +20,13 @@ Data Custodians are ultimately responsible for the Data Lifecycle of their data,
 
 To retire data from the BCGW, the Data Custodian notifies [DataBC Data Retirement](Mailto:LDATARET@Victoria1.gov.bc.ca). 
 
-![BCGW Data Retirement Workflow](images/BCGW_Data_Retirement_Workflow.PNG)
-
 **Information Required and Example:**
 
 | Schema Name|Table Name|Disposition Rationale|Replacement Schema|Replacement Table|
 | ------| ------| ------|------| ------|
 | WHSE_ADMIN_BOUNDARIES|FADM_DISTRICT|Dataset has been replaced |WHSE_LEGAL_ADMIN_BOUNDARIES|ADM_NR_DISTRICTS_SP|
+
+![BCGW Data Retirement Workflow](images/BCGW_Data_Retirement_Workflow.PNG)
 
 #### Notifications
 From the information provided by the custodian, a ***Notice of Intent*** is created that includes metadata links to replacement datasets if available. After review a ***Notice of Decision*** is sent out.
