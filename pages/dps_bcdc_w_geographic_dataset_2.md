@@ -145,7 +145,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 
     |Spatial Datatype| Description|
     |:---|:---|
-    |**Layer Name**| is the name of the BCGW object.
+    |**Layer Name**| is the name of the BCGW object and is only different if the WMS uses a generalized dataset, e.g., WHSE_BASEMAPPING.NTS_BC_CONTOUR_LINES_125M
     |**Preview Latitude**| allows you to provide a map preview centroid latitude.
     |**Preview Longitude**| allows you to provide a map preview centroid longitude.
     |**Preview Map Service URL**| allows you to provide an alias for the map service URL.
