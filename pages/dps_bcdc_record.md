@@ -17,7 +17,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 **Title**: This is the title of your metadata record, and is a required field.
 
-A well defined title reflects what the dataset or record is about. With many other produces the following together
+A well defined title reflects what the dataset or record is about. With many other produces the following together will assist to make a title unique and understanable to the public.
 
 1. Subject
 2. Type
