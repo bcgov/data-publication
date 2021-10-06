@@ -16,8 +16,18 @@ has_toc: true
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
 **Title**: This is the title of your metadata record, and is a required field.
+
+A well defined title reflects what the dataset or record is about. With many other produces the following together
+
+1. Subject
+2. Type
+3. Status (if multiple resources in different statuses, e.g., Draft, Proposed, Approved)
+4. Extent (if smaller or larger than the province of BC)
+
 + This is limited to 100 characters as it is used in the URL creation.
 + This text must be unique to the BC Data Catalogue.
++ Recommend to not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.
++ For records that will include multiple years, do not include the year in the title.
 
 **URL**: This is automatically generated while typing in the **Title**, and is a required field.
 + This must be unique to the BC Data Catalogue.
