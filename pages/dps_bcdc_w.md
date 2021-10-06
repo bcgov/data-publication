@@ -248,7 +248,12 @@ When a dataset is no longer relevant, it should be archived. Here are the steps 
 	+ to **PENDING ARCHIVE**.
 	
 Once the record has been set to **PENDING ARCHIVE**, DataBC will then reivew the record to ensure it is ready for archiving, this includes:	
-+ removing all resources from the record
++ for BCGW specific datasets:
+    - removing the resources for the WMS Get Capabilities and the Network Link KML
+    - add a new resource called "BCGW Deprecated Object" in peperation for migration of the new catalogue and the move of the object_name to the resource level.
+        - Copy over all the fields from the BCGW Custom Download
+        - when done then delete the BCGW Custom Download resource 
+    - remove the values in the Preview Details section
 + confirming the correct Org and Sub-Org
 + confirming that records with a replacement dataset contain "DEPRECATED" in the title
 
