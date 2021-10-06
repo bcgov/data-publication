@@ -259,7 +259,12 @@ Here are the steps to begin this process:
 	+ to **PENDING ARCHIVE**.
 	
 Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
-+ removing all resources from the record
++ for BCGW specific datasets:
+    - removing the URL for the WMS Get Capabilities and the Network Link KML
+    - changing the Title for BCGW Datasets to be "BCGW Deprecated Object"
+        - This will disable the _Download/Access_ button. 
+    - removing the preview details
+        - this will disable the Preview button and the Link to iMapBC
 + confirming the correct Org and Sub-Org
 + confirming that records with a replacement dataset contain "DEPRECATED" in the title
 
