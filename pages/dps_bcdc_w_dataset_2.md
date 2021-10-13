@@ -16,7 +16,7 @@ has_toc: true
     - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
     - [Document/Tabular Data](./dps_bcdc_w_dataset_2.md/#tabular-data-or-document-resource-management)
     - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
-1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
+1. Resources may reside, depending on type and size, within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
 4. If a resources requires authorization, we recommend that that process or form is added as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
