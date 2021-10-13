@@ -45,7 +45,7 @@ has_toc: true
 
 + **Changes**:
     - Value: 'dataset' has changed to 'document'
-    - Other changes [see changelog](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 ---------------
 
