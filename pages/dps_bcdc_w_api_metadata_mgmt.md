@@ -70,7 +70,7 @@ The following python syntax is used as an example from a specific organization
 
 ### How to create a resource with the API
 
-* All mandatory fields must be included to use this function.
+* Listed are all mandatory fields but there are other fields that can be populated and encourage that they are.
 
 ```
 import ckanapi
@@ -82,12 +82,13 @@ ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-H
 resp = ckan.action.resource_create(
         package_id='YOUR-PACKAGE-ID-HERE',
         upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        resource_storage_location="catalogue data store",
-        name="my-resource-name",
-        resource_type="Data",
-        format="csv",
-        resource_update_cycle="monthly",
-        resource_method="Direct Access")
+        name="my-resource-name-updated",
+	bcdc_type="document",
+	resource_update_cycle="monthly",
+	format="csv",
+	resource_storage_location="catalogue data store",
+	resource_type="data",
+	resource_access_method="direct access")
 
 
 print(resp)
@@ -114,8 +115,8 @@ resp = ckan.action.resource_update(
 	resource_update_cycle="monthly",
 	format="csv",
 	resource_storage_location="catalogue data store",
-	resource_type="Data",
-	resource_access_method="Direct Access")
+	resource_type="data",
+	resource_access_method="direct access")
 
 
 print(resp)
