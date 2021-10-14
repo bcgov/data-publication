@@ -9,7 +9,7 @@ has_toc: false
 
 # USING THE BC DATA CATALOGUE API FOR METADATA MANAGEMENT
 
-** This page is being updated to reflect the changes for the new Catalogue, currently in Beta but to be released soon**
+**This page is being updated to reflect the changes for the new Catalogue, currently in Beta but to be released soon**
 
 The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. This page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
 
