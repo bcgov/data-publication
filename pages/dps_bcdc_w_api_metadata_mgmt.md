@@ -75,7 +75,9 @@ The following python syntax is used as an example from a specific organization
 ```
 import ckanapi
 
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
+host = 'catalogue' 
+ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_create(
         package_id='YOUR-PACKAGE-ID-HERE',
@@ -100,7 +102,9 @@ print(resp)
 ```
 import ckanapi
 
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+# host production = 'catalogue'; test = 'cat'
+host = 'catalogue' 
+ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_update(
         id='RESOURCE-ID-TO-UPDATE-HERE',
@@ -124,7 +128,9 @@ print(resp)
 ```
 import ckanapi
 
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+# host production = 'catalogue'; test = 'cat'
+host = 'catalogue' 
+ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_patch(
         id='RESOURCE-ID-TO-UPDATE-HERE',
