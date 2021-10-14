@@ -20,7 +20,6 @@ The BC Data Catalogue is built using an open source data portal software called 
 
 ## Table of Contents
 + [**ARCHITECTURE**](#architecture)
-+ [**BC GEOGRAPHIC SPECIFIC ITEMS**](#bc-geographic-specific-items)
 + [**HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API**](#how-to-manage-metadata-records-and-resources-using-the-catalogue-api)
 	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
 	+ [How to update a resource with the API using resource_update](#how-to-update-a-resource-with-the-api-using-resource_update)
@@ -38,10 +37,6 @@ The base product on which BCDC is dependent is https://github.com/ckan/ckan - it
 Our main customization is done through a theme extension that we manage https://github.com/bcgov/ckanext-bcgov.
 
 The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
-
-## BC GEOGRAPHIC SPECIFIC ITEMS
-
-_under construction_
 
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 
