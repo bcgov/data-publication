@@ -9,17 +9,22 @@ has_toc: false
 
 # USING THE BC DATA CATALOGUE API FOR METADATA MANAGEMENT
 
+** This page is being updated to reflect the changes for the new Catalogue, currently in Beta but to be released soon**
+
 The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. This page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
 
 |**AUDIENCE**|
 |:---:|
 | *Metadata Editors* |
+| *Metadata Admin* |
 
 ## Table of Contents
 + [**ARCHITECTURE**](#architecture)
++ [**BC GEOGRAPHIC SPECIFIC ITEMS**](#bc-geographic-specific-items)
 + [**HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API**](#how-to-manage-metadata-records-and-resources-using-the-catalogue-api)
 	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
-	+ [How to update a resource with the API](#how-to-update-a-resource-with-the-api)
+	+ [How to update a resource with the API using resource_update](#how-to-update-a-resource-with-the-api-using-resource_update)
+	+ [How to update a resource with the API using resource_path](#how-to-update-a-resource-with-the-api-using-resource_patch)
 	+ [How to get the organization ID with the organization name](#how-to-get-the-organization-id-with-the-organization-name)
 	+ [How to get package names and package IDs within an organization](#how-to-get-package-names-and-package-ids-within-an-organization)
 	+ [How to get the resource names and resource IDs withing a package](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
@@ -33,6 +38,10 @@ The base product on which BCDC is dependent is https://github.com/ckan/ckan - it
 Our main customization is done through a theme extension that we manage https://github.com/bcgov/ckanext-bcgov.
 
 The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
+
+## BC GEOGRAPHIC SPECIFIC ITEMS
+
+_under construction_
 
 ## HOW TO MANAGE METADATA RECORDS AND RESOURCES USING THE CATALOGUE API
 
@@ -53,12 +62,16 @@ To obtain the GUID sub-org it requires the title name of the org
 
 **Your API Key**:
 1. Log into the Catalogue
-1. Click on your name in the upper right
-1. Bottom left corner is your personal API Key
+1. Click on the hamburger/pancake in the upper right
+2. Click on *Account Settings*
+3. Bottom left corner is your personal API Key
 
 The following python syntax is used as an example from a specific organization
 
 ### How to create a resource with the API
+
+* All mandatory fields must be included to use this function.
+
 ```
 import ckanapi
 
@@ -67,17 +80,23 @@ ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKE
 resp = ckan.action.resource_create(
         package_id='YOUR-PACKAGE-ID-HERE',
         upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        resource_storage_location="Catalogue Data Store",
+        resource_storage_location="catalogue data store",
         name="my-resource-name",
-        edc_resource_type="Data",
+        resource_type="Data",
         format="csv",
         resource_update_cycle="monthly",
-        resource_storage_access_method="Direct Access")
+        resource_method="Direct Access")
 
 
 print(resp)
 ```
-### How to update a resource with the API
+### How to update a resource with the API uusing resource_update
+
+* All mandatory fields must be included to use this function.
+* Recommend reviewing the json schema for a listing of all available fields and if mandatory or not.
+* The following is an example of loading a resource to the catalogue itself and fields defined for the Dataset/Tabular (bcdc_type="document"). Geographic Datasets require more fields.
+
+
 ```
 import ckanapi
 
@@ -86,12 +105,31 @@ ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKE
 resp = ckan.action.resource_update(
         id='RESOURCE-ID-TO-UPDATE-HERE',
         upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        resource_storage_location="Catalogue Data Store",
         name="my-resource-name-updated",
-        edc_resource_type="Data",
-        format="csv",
-        resource_update_cycle="monthly",
-        resource_storage_access_method="Direct Access")
+	bcdc_type="document",
+	resource_update_cycle="monthly",
+	format="csv",
+	resource_storage_location="catalogue data store",
+	resource_type="Data",
+	resource_access_method="Direct Access")
+
+
+print(resp)
+```
+
+### How to update a resource with the API using resource_patch
+
+* Is used to update just specific fields or the resource itself if .
+
+```
+import ckanapi
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+resp = ckan.action.resource_patch(
+        id='RESOURCE-ID-TO-UPDATE-HERE',
+        name="my-resource-name-updated",
+	description="my-resource-descrition-update")
 
 
 print(resp)
