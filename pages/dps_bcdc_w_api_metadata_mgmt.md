@@ -93,7 +93,7 @@ resp = ckan.action.resource_create(
 
 print(resp)
 ```
-### How to update a resource with the API uusing resource_update
+### How to update a resource with the API using resource_update
 
 * All mandatory fields must be included to use this function.
 * Recommend reviewing the json schema for a listing of all available fields and if mandatory or not.
