@@ -125,14 +125,14 @@ There are three licencing options for data published data in the BC Data Catalog
 ------------------------------
 
 ## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_metadata_mgmt.md#using-the-bc-data-catalogue-api-for-metadata-management)._
+_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_metadata_mgmt.md)._
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
 1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
     + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
-    + Follow the [Workflow](./dps_bcdc_record.md#bc-data-catalogue-record-management) to complete all mandatory fields (minimum requirement). 
+    + Follow the [Workflow](./dps_bcdc_record.md) to complete all mandatory fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata).
 1. Click the [**Save**] button. 
@@ -161,13 +161,13 @@ Resources are the additional metadata specific to that resource as a record can 
 1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described for each of these resource types.
 
-    - [Application](./dps_bcdc_w_application_2.md#application-resource-management-in-the-bc-data-catalogue)
-    - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
-    - [Tabular Data/Document](./dps_bcdc_w_dataset_2.md)
-    - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
+    - [Application](./dps_bcdc_w_application.md)
+    - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
+    - [Tabular Data/Document](./dps_bcdc_w_dataset.md)
+    - [Webservice/API](./dps_bcdc_w_webservice_api.md)
 
 _Notes:_
-+ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_dev_workflow.md)
++ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_metadata_mgmt.md)
 + Only files less than 150MB in size can be uploaded to the Catalogue file store.
 
 ### REORDERING RESOURCES
@@ -307,7 +307,7 @@ To create a group, the following information is required and can be sent to [Dat
 ## ORGANIZATION AND SUB-ORGANIZATION UPDATES
 Organizations change names frequently and thus need continual maintenance.
 
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC DA](mailto:databc.da@gov.bc.ca):
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca):
 
 + Old name
 + New name
@@ -320,7 +320,7 @@ If a Organization/Ministry or Sub-organization/Branch/Division/Program has chang
 ------------------------------
 
 ## BULK UPDATES
-When there are more than 20 records that require updating, a bulk update can be requested for [DataBC DA](mailto:databc.da@gov.bc.ca) to complete or can be completed by a user via the API.
+When there are more than 20 records that require updating, a bulk update can be requested for [DataBC](mailto:data@gov.bc.ca) to complete or can be completed by a user via the API.
 
 + Common bulk updates:
 	+ Branch/Division name
