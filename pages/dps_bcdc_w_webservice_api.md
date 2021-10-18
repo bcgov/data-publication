@@ -2,7 +2,7 @@
 layout: default
 title: Webservice/API Resources
 nav_order: 328
-parent: Publication Workflow
+parent: Resource Mgmt
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
