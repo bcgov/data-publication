@@ -33,11 +33,13 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ## HOW TO MANAGE RECORD USING THE CATALOGUE API
 To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
+See the [common calls](/dps_bcdc_api_w_common_calls.html) page to find how to get your API key and other information you may require.
+
 ### How to create a package with the API
 
 * Listed are all mandatory fields but there are other fields that can be populated and encourage that they are.
 
-**Currently modifying from creating a resource**
+_under construction_
 
 ```
 import ckanapi
@@ -47,15 +49,19 @@ host = 'catalogue'
 ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.package_create(
-        package_id='YOUR-PACKAGE-ID-HERE',
-        upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        name="my-resource-name-updated",
-	bcdc_type="document",
-	resource_update_cycle="monthly",
-	format="csv",
-	resource_storage_location="catalogue data store",
-	resource_type="data",
-	resource_access_method="direct access")
+        title="my-resource-name",
+	published_by="my-sub-org-here",
+	description="my-package-description",
+	license_id="licence id",
+	contacts=""
+	security_class="",
+	view_audience="",
+	download_audience="",
+	metadata_visibility="",
+	tag_string="",
+	publish_state="DRAFT",
+	resource_status=""	
+	)
 
 
 print(resp)
@@ -74,9 +80,9 @@ host = 'catalogue'
 ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_patch(
-        id='RESOURCE-ID-TO-UPDATE-HERE',
-        name="my-resource-name-updated",
-	description="my-resource-descrition-update")
+        package_id='PACKAGE-ID-TO-UPDATE-HERE',
+        name="my-packagee-name-updated",
+	description="my-package-descrition-updated")
 
 
 print(resp)
