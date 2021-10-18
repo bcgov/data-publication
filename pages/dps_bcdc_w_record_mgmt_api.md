@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Record Mgmt - API
-nav_order: 322
+nav_order: 332
 grand_parent: BC Data Catalogue
-parent: Publication Workflow
+parent: Record Management
 has_toc: false
 ---
 
