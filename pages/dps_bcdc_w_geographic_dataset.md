@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geographic Resources
-nav_order: 333
+nav_order: 323
 parent: Publication Workflow - Beta
 grand_parent: BC Data Catalogue
 has_children: false
@@ -12,10 +12,10 @@ has_toc: true
 **This document is actively being updated to correspond with the BC Data Catalogue Beta releases**
 
 1. There are four defined resource types: 
-    - [Application](./dps_bcdc_w_application_2.md)
-    - [Document/Tabular Data](./dps_bcdc_w_dataset_2.md)
-    - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
-    - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
+    - [Application](./dps_bcdc_w_application.md)
+    - [Document/Tabular Data](./dps_bcdc_w_dataset.md)
+    - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
+    - [Webservice/API](./dps_bcdc_w_webservice_api.md)
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
 3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
@@ -163,7 +163,7 @@ Click **Save** when done
 
 
 ## OTHER RESOURCES TYPES
-- [Application](./dps_bcdc_w_application_2.md)
-- [Document/Tabular Data](./dps_bcdc_w_dataset_2.md)
-- [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
-- [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
+- [Application](./dps_bcdc_w_application.md)
+- [Document/Tabular Data](./dps_bcdc_w_dataset.md)
+- [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
+- [Webservice/API](./dps_bcdc_w_webservice_api.md)
