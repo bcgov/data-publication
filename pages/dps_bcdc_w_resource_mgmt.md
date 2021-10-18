@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resource Mgmt
+title: Resource Management
 nav_order: 34
 parent: BC Data Catalogue
 has_children: true
