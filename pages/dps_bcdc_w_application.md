@@ -2,10 +2,9 @@
 layout: default
 title: Resource - Application
 nav_order: 325
-parent: Publication Workflow
-grand_parent: BC Data Catalogue
-has_children: false
-has_toc: true
+parent: Resource Mgmt
+has_toc: false
+has_children: true
 ---
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
