@@ -3,8 +3,9 @@ layout: default
 title: Resource - Application
 nav_order: 325
 parent: Resource Mgmt
-has_toc: false
-has_children: true
+grand_parent: BC Data Catalogue
+has_children: false
+has_toc: true
 ---
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
