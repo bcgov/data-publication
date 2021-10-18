@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Resource Mgmt - API
-nav_order: 346
+title:  Resource Mgmt via API
+nav_order: 341
 parent: Resource Management
-grandparent: BC Data Catalogue
-has_toc: true
+grand_parent: BC Data Catalogue
 has_children: false
+has_toc: false
 ---
 
 # USING THE BC DATA CATALOGUE API RESOURCE MANAGEMENT
