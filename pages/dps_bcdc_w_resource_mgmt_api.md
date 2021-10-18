@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resource Management - API
-nav_order: 327
+nav_order: 323
 grand_parent: BC Data Catalogue
 parent: Publication Workflow
 has_toc: false
