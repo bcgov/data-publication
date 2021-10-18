@@ -1,16 +1,20 @@
 ---
 layout: default
 title: Tabular Data Resources
-nav_order: 334
-parent: Publication Workflow - Beta
+nav_order: 324
+parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
 ---
 
 ## BC DATA CATALOGUE RESOURCE MANAGEMENT
-**This document is being updated to correspond with the BC Data Catalogue Beta release**
 
+**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+
+For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
+
+--------------
 1. Resources to a record can be the following types:
     - [Application](./dps_bcdc_w_application_2.md)
     - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
