@@ -75,7 +75,7 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 1. Approval from the Data Custodian to publish and manage records and data on their behalf.
 3. The name of the Ministry/Organization and Sub-Organization (as it appears in the Catalogue and if that needs to be renamed) in your email. 
 4. All names and IDIRs for those requiring access.
-5. Forward all this to [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) with the subject: "BCDC Editor Request". 
+5. Forward all this to [DataBC](mailto:DataBC@gov.bc.ca) with the subject: "BCDC Editor Request". 
 6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
