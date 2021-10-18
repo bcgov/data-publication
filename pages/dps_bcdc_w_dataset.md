@@ -16,10 +16,10 @@ For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github
 
 --------------
 1. Resources to a record can be the following types:
-    - [Application](./dps_bcdc_w_application_2.md)
-    - [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
-    - [Document/Tabular Data](./dps_bcdc_w_dataset_2.md/#tabular-data-or-document-resource-management)
-    - [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
+    - [Application](./dps_bcdc_w_application.md)
+    - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
+    - [Document/Tabular Data](./dps_bcdc_w_dataset.md)
+    - [Webservice/API](./dps_bcdc_w_webservice_api.md)
 1. Resources may reside, depending on type and size, within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
@@ -49,7 +49,7 @@ For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github
 
 + **Changes**:
     - Value: 'dataset' has changed to 'document'
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/pages/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 ---------------
 
@@ -81,7 +81,7 @@ Click **Save** when done
 
 
 ## OTHER RESOURCES TYPES
-- [Application](./dps_bcdc_w_application_2.md)
-- [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md)
-- [Document/Tabular Data](./dps_bcdc_w_dataset_2.md/#tabular-data-or-document-resource-management)
-- [Webservice/API](./dps_bcdc_w_webservice_api_2.md)
+- [Application](./dps_bcdc_w_application.md)
+- [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
+- [Document/Tabular Data](./dps_bcdc_w_dataset.md/)
+- [Webservice/API](./dps_bcdc_w_webservice_api.md)
