@@ -3,8 +3,9 @@ layout: default
 title: Tabular Data Resources
 nav_order: 326
 parent: Resource Mgmt
-has_toc: false
-has_children: true
+grand_parent: BC Data Catalogue
+has_children: false
+has_toc: true
 ---
 
 ## DOCUMENT or TABULAR DATA RESOURCE MANAGEMENT
