@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Resource Management - API
-nav_order: 323
+title: Resource Mgmt - API
+nav_order: 324
 grand_parent: BC Data Catalogue
 parent: Publication Workflow
 has_toc: false
 ---
 
-# USING THE BC DATA CATALOGUE API FOR METADATA MANAGEMENT
+# USING THE BC DATA CATALOGUE API RESOURCE MANAGEMENT
 
 **This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
 
