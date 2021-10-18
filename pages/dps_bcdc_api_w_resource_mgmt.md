@@ -32,6 +32,8 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## HOW TO MANAGE RESOURCES USING THE CATALOGUE API
 
+To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
+
 ### How to create a resource with the API
 
 * Listed are all mandatory fields but there are other fields that can be populated and encourage that they are.
