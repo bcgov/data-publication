@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Webservice/API Resources
-nav_order: 326
+nav_order: 328
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
@@ -69,7 +69,7 @@ Click **Save** when done
 
 ## OTHER RESOURCES TYPES
 - [Application](./dps_bcdc_w_application.md)
+- [Document/Tabular Data](./dps_bcdc_w_dataset.md)
 - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
-- [Tabular Data/Document](./dps_bcdc_w_dataset.md)
 - [Webservice/API](./dps_bcdc_w_webservice_api.md)
 
