@@ -29,11 +29,9 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     + [**How to get package names and package IDs within an organization**](#how-to-get-package-names-and-package-ids-within-an-organization)
     + [**How to get the resource names and resource IDs withing a package**](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
 + [**COMMON CALLS**](#common-calls)
-    +[**object name**](#object_name)
-    +[**bcdc type**](#bcdc_type)
-    +[**resource storage location**](#resource_storage_location)
-
-To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
+    + [**object name**](#object_name)
+    + [**bcdc type**](#bcdc_type)
+    + [**resource storage location**](#resource_storage_location)
 
 ## HOW TO GET INFORMATION
 
