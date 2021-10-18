@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Record Management
-nav_order: 331
+nav_order: 332
 grand_parent: BC Data Catalogue
 parent: How to use the API
 has_children: false
@@ -35,28 +35,7 @@ The BC Data Catalogue is built using an open source data portal software called 
 
 ## HOW TO MANAGE RESOURCES USING THE CATALOGUE API
 
-To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
-**Name of the org:**
-
-To obtain the GUID sub-org it requires the title name of the org
-
-1. **Option 1**:
-	1. Navigate to a record you manage
-	1. Click on the live link of the sub-org or branch name
-	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
-1. **Option 2**:
-	1. Open up the Catalogue Organizations tree
-	1. Navigate and click on the sub-org/branch name
-	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
-
-**Your API Key**:
-1. Log into the Catalogue
-1. Click on the hamburger/pancake in the upper right
-2. Click on *Account Settings*
-3. Bottom left corner is your personal API Key
-
-The following python syntax is used as an example from a specific organization
 
 ### How to create a package with the API
 
