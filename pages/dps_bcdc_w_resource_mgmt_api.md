@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Resource Mgmt via API
+title:  Resource Mgmt
 nav_order: 332
 parent: How to use the API
 grand_parent: BC Data Catalogue
