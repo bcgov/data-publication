@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resource Mgmt - API
-nav_order: 341
+nav_order: 346
 parent: Resource Management
 grandparent: BC Data Catalogue
 has_toc: true
