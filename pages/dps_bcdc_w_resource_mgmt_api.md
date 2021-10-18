@@ -8,7 +8,7 @@ has_children: false
 has_toc: false
 ---
 
-# USING THE BC DATA CATALOGUE API RESOURCE MANAGEMENT
+# RESOURCE MANAGEMENT USING THE BC DATA CATALOGUE API 
 
 **Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
 
@@ -170,4 +170,4 @@ for resource in pkg_data['resources']:
 
 [RETURN TO TOP][1]
 
-[1]: #using-the-bc-data-catalogue-api-for-metadata-management
+[1]: #resource-management-using-the-bc-data-catalogue-api
