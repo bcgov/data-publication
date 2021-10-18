@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Publication Workflow - Beta
-nav_order: 
+title: Publication Workflow
+nav_order: 32
 parent: BC Data Catalogue
 has_children: true
 has_toc: true
@@ -9,7 +9,9 @@ has_toc: true
 
 # BC DATA CATALOGUE PUBLICATION WORKFLOW
 
-**This document is being updated to correspond with the BC Data Catalogue Beta release**
+**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+
+For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
 The BC Data Catalogue or Catalogue as called throughout these documents is intended for the Province of BC as well as Broader Public Sector organizations to publish metadata about their data holdings as well as applications or services. As well when data is published to the DataBC Program through any of its services, as well as published under the [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your responsibilities are as a publisher to the BC Data Catalogue, and how to create a metadata record in the BC Data Catalogue.
 
