@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Record Mgmt - UI
-nav_order: 334
+title: Record Mgmt
+nav_order: 331
 parent: Record Managment
 grandparent: BC Data Catalogue
-has_children: true
-has_toc: true
+has_children: falso
+has_toc: falso
 ---
 
 ## BC DATA CATALOGUE RECORD MANAGEMENT
