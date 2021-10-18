@@ -9,7 +9,7 @@ has_toc: true
 
 # BC DATA CATALOGUE PUBLICATION WORKFLOW
 
-**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+**This document corresponds with the BC Data Catalogue Beta release that will go to production soon.**
 
 For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
