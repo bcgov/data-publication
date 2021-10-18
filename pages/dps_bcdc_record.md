@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Records
-nav_order: 331
-parent: Publication Workflow - Beta
+nav_order: 321
+parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: true
 has_toc: true
@@ -10,7 +10,9 @@ has_toc: true
 
 ## BC DATA CATALOGUE RECORD MANAGEMENT
 
-**This document is being updated to correspond with the BC Data Catalogue Beta release**
+**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+
+For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
 ## METADATA RECORD MANAGEMENT
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
