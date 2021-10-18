@@ -2,7 +2,7 @@
 layout: default
 title: Resource Mgmt - API
 nav_order: 342
-parent: Resource Mgmt
+parent: Resource Management
 has_toc: false
 has_children: true
 ---
