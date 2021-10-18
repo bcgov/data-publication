@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Record Mgmt via API
-nav_order: 332
+title: Record Management
+nav_order: 331
 grand_parent: BC Data Catalogue
-parent: Record Management
+parent: How to use the API
 has_children: false
 has_toc: false
 ---
 
-# USING THE BC DATA CATALOGUE API FOR RECORD MANAGEMENT
+# RECORD MANAGEMENT USING THE BC DATA CATALOGUE API
 
-**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+**Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
 
-For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
+For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
 -------------
 
@@ -24,7 +24,6 @@ The BC Data Catalogue is built using an open source data portal software called 
 | *Metadata Admin* |
 
 ## Table of Contents
-+ [**ARCHITECTURE**](#architecture)
 + [**HOW TO MANAGE PACKAGES USING THE CATALOGUE API**](#how-to-manage-packages-using-the-catalogue-api)
 	+ [How to create a record with the API](#how-to-create-a-resource-with-the-api)
 	+ [How to update a record with the API using package_patch](#how-to-update-a-resource-with-the-api-using-package_patch)
@@ -34,15 +33,7 @@ The BC Data Catalogue is built using an open source data portal software called 
 
 -----------------------
 
-## ARCHITECTURE
-
-The base product on which BCDC is dependent is https://github.com/ckan/ckan - it is an open source application that uses extensions in a plug-in architecture to extend and customize it.
-
-Our main customization is done through a theme extension that we manage https://github.com/bcgov/ckanext-bcgov.
-
-The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
-
-## HOW TO MANAGE  RESOURCES USING THE CATALOGUE API
+## HOW TO MANAGE RESOURCES USING THE CATALOGUE API
 
 To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
@@ -71,7 +62,8 @@ The following python syntax is used as an example from a specific organization
 
 * Listed are all mandatory fields but there are other fields that can be populated and encourage that they are.
 
-Currently modifying from creating a resource
+**Currently modifying from creating a resource**
+
 ```
 import ckanapi
 
