@@ -5,7 +5,7 @@ nav_order: 342
 parent: Resource Management
 grand_parent: BC Data Catalogue
 has_children: false
-has_toc: falso
+has_toc: false
 ---
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
