@@ -1,34 +1,26 @@
 ---
 layout: default
 title: Webservice/API Resources
-nav_order: 325
+nav_order: 326
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
 ---
 
-## BC DATA CATALOGUE RESOURCE MANAGEMENT
+## WEB SERVICE OR API RESOURCE MANAGEMENT
 
-**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+**This document has been corresponds with the BC Data Catalogue Beta release that will go to production soon.**
 
 For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
---------------
-
-1. Resources to a record can be the following types:
-    - [Application](./dps_bcdc_w_application.md)
-    - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
-    - [Tabular Data/Document](./dps_bcdc_w_dataset.md)
-    - [Webservice/API](./dps_bcdc_w_webservice_api.md)
-1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
-1. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
+---------------
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-## WEB SERVICE OR API RESOURCE MANAGEMENT
+---------------
 
 **Title**: is the title of the resource as it will appear on the metadata record. 
 
