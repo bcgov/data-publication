@@ -16,8 +16,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 -------------
 
-The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. This page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
-
 |**AUDIENCE**|
 |:---:|
 | *Metadata Editors* |
