@@ -1,18 +1,18 @@
 ---
 layout: default
 title:  Application
-nav_order: 345
+nav_order: 342
 parent: Resource Management
 grand_parent: BC Data Catalogue
 has_children: false
-has_toc: true
+has_toc: falso
 ---
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
 
-**This document corresponds with the BC Data Catalogue Beta release that will go to production soon.**
+**Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
 
-For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
+For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
 ---------------
 
