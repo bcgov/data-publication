@@ -2,7 +2,7 @@
 layout: default
 title: Resource - Application
 nav_order: 325
-parent: Resource Mgmt
+parent: Resource Management
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
