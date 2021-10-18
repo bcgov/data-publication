@@ -3,8 +3,8 @@ layout: default
 title: Resource Mgmt - API
 nav_order: 341
 parent: Resource Management
-has_toc: false
-has_children: true
+has_toc: true
+has_children: false
 ---
 
 # USING THE BC DATA CATALOGUE API RESOURCE MANAGEMENT
