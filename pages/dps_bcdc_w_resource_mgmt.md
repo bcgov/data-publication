@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resource Mgmt - UI
-nav_order: 3221
+nav_order: 34
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
