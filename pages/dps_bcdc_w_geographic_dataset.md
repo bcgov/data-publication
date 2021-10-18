@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Geographic Resources
-nav_order: 324
+title: Resource - Geographic
+nav_order: 325
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
