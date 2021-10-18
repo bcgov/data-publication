@@ -70,8 +70,6 @@ print(resp)
 
 * Is used to update just specific fields within a package.
 
-Currently modifying from updating a resource
-
 ```
 import ckanapi
 
