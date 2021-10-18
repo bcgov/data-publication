@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Dataset
-nav_order: 323
-parent: Publication Workflow
+nav_order: 333
+parent: Publication Workflow - Classic
 grand_parent: BC Data Catalogue
 has_toc: false
 ---
