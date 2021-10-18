@@ -22,14 +22,20 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 | *Metadata Admin* |
 
 ## Table of Contents
-+ [**How to get your API Key**](#how-to-get-your-api-key)
-+ [**How to get your organization name**](#how-to-get-you-organiation-guid)
-+ [How to get the organization ID with the organization name](#how-to-get-the-organization-id-with-the-organization-name)
-+ [How to get package names and package IDs within an organization](#how-to-get-package-names-and-package-ids-within-an-organization)
-+ [How to get the resource names and resource IDs withing a package](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
-  
++ [**HOW TO GET_INFORMATION**](#how-to-get-information)
+    + [**How to get your API Key**](#how-to-get-your-api-key)
+    + [**How to get your organization name**](#how-to-get-you-organiation-guid)
+    + [**How to get the organization ID with the organization name**](#how-to-get-the-organization-id-with-the-organization-name)
+    + [**How to get package names and package IDs within an organization**](#how-to-get-package-names-and-package-ids-within-an-organization)
+    + [**How to get the resource names and resource IDs withing a package**](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
++ [**COMMON CALLS**](#common-calls)
+    +[**object name**](#object_name)
+    +[**bcdc type**](#bcdc_type)
+    +[**resource storage location**](#resource_storage_location)
+
 To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
+## HOW TO GET INFORMATION
 
 ### How to get your API Key
 1. Log into the Catalogue
@@ -83,5 +89,19 @@ pkg_data = ckan.action.package_show(id="b67255a7-8040-43c0-935c-d74f168af215")
 for resource in pkg_data['resources']:
     print(resource['name'], resource['id'])
 ```
+
+## COMMON CALLS
+
+### object_name
+https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP
+
+### bcdc_type
+https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic
+
+### resource_storage_location
+https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse
+
+### format
+https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv
 
 -------------------------------------------------------
