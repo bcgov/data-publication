@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Application Resources
+title: Resource - Application
 nav_order: 325
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
