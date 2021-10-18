@@ -4,6 +4,7 @@ title: Record Mgmt - API
 nav_order: 332
 grand_parent: BC Data Catalogue
 parent: Record Management
+has_children: false
 has_toc: false
 ---
 
