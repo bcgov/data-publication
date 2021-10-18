@@ -2,7 +2,7 @@
 layout: default
 title: Resource - Geographic
 nav_order: 327
-parent: Resource Mgmt
+parent: Resource Management
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
