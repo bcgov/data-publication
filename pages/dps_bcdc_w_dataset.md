@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Tabular Data Resources
-nav_order: 325
+nav_order: 326
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
 ---
 
-## TABULAR DATA OR DOCUMENT RESOURCE MANAGEMENT
+## DOCUMENT or TABULAR DATA RESOURCE MANAGEMENT
 
 **This document corresponds with the BC Data Catalogue Beta release that will go to production soon.**
 
@@ -74,6 +74,6 @@ Click **Save** when done
 
 ## OTHER RESOURCES TYPES
 - [Application](./dps_bcdc_w_application.md)
-- [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
 - [Document/Tabular Data](./dps_bcdc_w_dataset.md/)
+- [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
 - [Webservice/API](./dps_bcdc_w_webservice_api.md)
