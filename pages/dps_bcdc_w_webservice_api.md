@@ -2,7 +2,7 @@
 layout: default
 title: Webservice/API
 nav_order: 345
-parent: Resource Management
+parent: How to use the UI
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: falso
