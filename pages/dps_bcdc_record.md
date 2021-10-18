@@ -181,11 +181,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 ---------------
 ## ADD RESOURCES
-1. Resources to a record can be the following types:
-    - [Manage Application Management](./dps_bcdc_w_application_2.md)
-    - [Geographic Data Management](./dps_bcdc_w_geographic_2.md)
-    - [Tabular Data/Document Management](./dps_bcdc_w_dataset_2.md)
-    - [Webservice/API Management](./dps_bcdc_w_webservice_api_2.md)
+1. Resources to a record can be the following types: [Applicatio](./dps_bcdc_w_application.md), [Geographic Data](./dps_bcdc_w_geographic.md), [Tabular Data/Document](./dps_bcdc_w_dataset.md), [Webservice/API](./dps_bcdc_w_webservice_api.md).
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse are managed differently.
 3. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
@@ -196,10 +192,10 @@ To add a resource:
 1. Fill out all the required fields for each resource type as described below.
 
 Navigate to the resource type as needed:
-- [Application](./dps_bcdc_w_application_2.md#bc-data-catalogue-resource-management)
-- [Geographic Data](./dps_bcdc_w_geographic_dataset_2.md#bc-data-catalogue-resource-management)
-- [Tabular Data/Document](./dps_bcdc_w_webservice_api_2.md#bc-data-catalogue-resource-management)
-- [Webservice/API](./dps_bcdc_w_webservice_api_2.md#web-service-or-api-resource-management)
+- [Application](./dps_bcdc_w_application.md#bc-data-catalogue-resource-management)
+- [Geographic Data](./dps_bcdc_w_geographic_dataset.md#bc-data-catalogue-resource-management)
+- [Tabular Data/Document](./dps_bcdc_w_webservice_api.md#bc-data-catalogue-resource-management)
+- [Webservice/API](./dps_bcdc_w_webservice_api.md#web-service-or-api-resource-management)
 
 [RETURN TO TOP][1]
 
