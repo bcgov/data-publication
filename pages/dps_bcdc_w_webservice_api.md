@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Webservice/API Resources
-nav_order: 328
-parent: Resource Mgmt
+nav_order: 348
+parent: Resource Management
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
