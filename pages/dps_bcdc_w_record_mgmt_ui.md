@@ -10,9 +10,9 @@ has_toc: false
 
 ## BC DATA CATALOGUE RECORD MANAGEMENT
 
-**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+**Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
 
-For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
+For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
 ---------------
 
