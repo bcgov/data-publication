@@ -4,8 +4,8 @@ title: Record Mgmt - UI
 nav_order: 331
 parent: Record Managment
 grandparent: BC Data Catalogue
-has_children: falso
-has_toc: falso
+has_children: false
+has_toc: false
 ---
 
 ## BC DATA CATALOGUE RECORD MANAGEMENT
