@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resource Mgmt - UI
+title: Resource Mgmt
 nav_order: 34
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
