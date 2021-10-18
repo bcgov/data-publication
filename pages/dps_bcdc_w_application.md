@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Application Resources
-nav_order: 322
+nav_order: 323
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
@@ -10,11 +10,17 @@ has_toc: true
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
 
-**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+**This document has been corresponds with the BC Data Catalogue Beta release that will go to production soon.**
 
 For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
---------------
+---------------
+
+**To add a resource:**
+1. Click the **Add Resource** button on the toolbar at the record level.
+1. Fill out all the required fields for each resource type as described below.
+
+---------------
 
 **Name**: is the name of the resource as it will appear resource record associated to the metadata record. 
 + This is **required**.
