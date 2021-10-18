@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Resource - Geographic
-nav_order: 325
-parent: Publication Workflow
-grand_parent: BC Data Catalogue
-has_children: false
-has_toc: true
+nav_order: 326
+parent: Resource Mgmt
+has_toc: false
+has_children: true
 ---
 
 ## GEOGRAPHIC DATA RESOURCE MANAGEMENT
