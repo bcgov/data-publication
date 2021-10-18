@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Record Mgmt - UI
-nav_order: 331
+nav_order: 334
 parent: Record Managment
 grandparent: BC Data Catalogue
 has_children: true
