@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Record Management
+title: Common Calls
 nav_order: 331
 grand_parent: BC Data Catalogue
 parent: How to use the API
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
-# RECORD MANAGEMENT USING THE BC DATA CATALOGUE API
+# COMMON CALLS USING THE BC DATA CATALOGUE API
 
 **Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
 
@@ -24,11 +24,11 @@ The BC Data Catalogue is built using an open source data portal software called 
 | *Metadata Admin* |
 
 ## Table of Contents
-  + [**How to get your API Key**](#how-to-get-your-api-key)
-  + [**How to get your organization name**](#how-to-get-you-organiation-guid)
-	+ [How to get the organization ID with the organization name](#how-to-get-the-organization-id-with-the-organization-name)
-	+ [How to get package names and package IDs within an organization](#how-to-get-package-names-and-package-ids-within-an-organization)
-	+ [How to get the resource names and resource IDs withing a package](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
++ [**How to get your API Key**](#how-to-get-your-api-key)
++ [**How to get your organization name**](#how-to-get-you-organiation-guid)
++ [How to get the organization ID with the organization name](#how-to-get-the-organization-id-with-the-organization-name)
++ [How to get package names and package IDs within an organization](#how-to-get-package-names-and-package-ids-within-an-organization)
++ [How to get the resource names and resource IDs withing a package](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
   
 To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
