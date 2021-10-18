@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Record Management
+title: Record Mgmt - UI
 nav_order: 321
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
