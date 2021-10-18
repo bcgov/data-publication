@@ -22,7 +22,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 | *Metadata Admin* |
 
 ## Table of Contents
-+ [**HOW TO GET_INFORMATION**](#how-to-get-information)
++ [**HOW TO GET INFORMATION**](#how-to-get-information)
     + [**How to get your API Key**](#how-to-get-your-api-key)
     + [**How to get your organization name**](#how-to-get-you-organiation-guid)
     + [**How to get the organization ID with the organization name**](#how-to-get-the-organization-id-with-the-organization-name)
