@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Resource Mgmt
+title:  Resource Management
 nav_order: 332
 parent: How to use the API
 grand_parent: BC Data Catalogue
@@ -130,41 +130,6 @@ resp = ckan.action.resource_patch(
 
 print(resp)
 ```
-
-### How to get the organization ID with the organization name
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-org = ckan.action.organization_show(id="information-management-cfd")
-print(org['name'], org['id'])
-```
-
-### How to get package names and package IDs within an organization
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-pkgs = ckan.action.package_search(fq="owner_org:a1a9c5cc-b601-4190-b206-13ba08c54292",rows=1000)
-for pkg in pkgs['results']:
-    print(pkg['name'], pkg['id'])
-
-```
-
-### How to get the resource names and resource IDs withing a package
-```
-import ckanapi
-
-ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
-
-pkg_data = ckan.action.package_show(id="b67255a7-8040-43c0-935c-d74f168af215")
-for resource in pkg_data['resources']:
-    print(resource['name'], resource['id'])
-```
-
--------------------------------------------------------
 
 [RETURN TO TOP][1]
 
