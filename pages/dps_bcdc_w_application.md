@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Application
-nav_order: 322
-parent: Publication Workflow
+nav_order: 332
+parent: Publication Workflow - Classic
 grand_parent: BC Data Catalogue
 has_toc: false
 ---
