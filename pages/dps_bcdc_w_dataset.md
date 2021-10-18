@@ -6,11 +6,11 @@ parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
----------------
+---
 
 ## TABULAR DATA OR DOCUMENT RESOURCE MANAGEMENT
 
-**This document has been corresponds with the BC Data Catalogue Beta release that will go to production soon.**
+**This document corresponds with the BC Data Catalogue Beta release that will go to production soon.**
 
 For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
