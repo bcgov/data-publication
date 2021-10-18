@@ -14,6 +14,7 @@ has_toc: true
 
 For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
+--------------
 
 **Name**: is the name of the resource as it will appear resource record associated to the metadata record. 
 + This is **required**.
