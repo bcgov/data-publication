@@ -1,14 +1,19 @@
 ---
 layout: default
 title: Application Resources
-nav_order: 332
-parent: Publication Workflow - Beta
+nav_order: 322
+parent: Publication Workflow
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
 ---
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
+
+**This document has been uppdated to correspond with the BC Data Catalogue Beta release that will go to production soon.**
+
+For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
+
 
 **Name**: is the name of the resource as it will appear resource record associated to the metadata record. 
 + This is **required**.
