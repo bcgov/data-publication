@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-## BC DATA CATALOGUE HOw TO USE THE API
+## BC DATA CATALOGUE HOW TO USE THE API
 
 _under construction_
 
