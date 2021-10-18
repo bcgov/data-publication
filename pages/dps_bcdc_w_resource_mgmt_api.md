@@ -16,7 +16,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 -------------
 
-The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the applicaiton itself. This page provides guidance on the use of the Catalogue API to manage metadata and data within the BC Data Catalogue.
+The BC Data Catalogue is built using an open source data portal software called [CKAN](https://github.com/ckan/ckan/blob/master/README.rst). Some users may prefer to use the API to manage thier content in the BC Data Catalogue, while others may prefer to use the application itself. This page provides guidance on the use of the Catalogue API to manage resources and data within the BC Data Catalogue.
 
 |**AUDIENCE**|
 |:---:|
@@ -24,7 +24,6 @@ The BC Data Catalogue is built using an open source data portal software called 
 | *Metadata Admin* |
 
 ## Table of Contents
-+ [**ARCHITECTURE**](#architecture)
 + [**HOW TO MANAGE RESOURCES USING THE CATALOGUE API**](#how-to-manage-resources-using-the-catalogue-api)
 	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
 	+ [How to update a resource with the API using resource_update](#how-to-update-a-resource-with-the-api-using-resource_update)
@@ -35,15 +34,7 @@ The BC Data Catalogue is built using an open source data portal software called 
 
 -----------------------
 
-## ARCHITECTURE
-
-The base product on which BCDC is dependent is https://github.com/ckan/ckan - it is an open source application that uses extensions in a plug-in architecture to extend and customize it.
-
-Our main customization is done through a theme extension that we manage https://github.com/bcgov/ckanext-bcgov.
-
-The application is supported by technical infrastructure and that has a number of integrations with other systems through a combination of database and API level connections.
-
-## HOW TO MANAGE  RESOURCES USING THE CATALOGUE API
+## HOW TO MANAGE RESOURCES USING THE CATALOGUE API
 
 To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
