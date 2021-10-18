@@ -16,6 +16,12 @@ For the classic catalogue pages see [BCDC Classic Worklfow](https://bcgov.github
 
 ---------------
 
+**To add a resource:**
+1. Click the **Add Resource** button on the toolbar at the record level.
+1. Fill out all the required fields for each resource type as described below.
+
+---------------
+
 Geographic datasets defined in the Catalogue, have additional attributes available through the User Interface (UI), where-as the other resource types are a subset of the fields available.
 
 **BC Geographic Warehouse (BCGW)** datasets
