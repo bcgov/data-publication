@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Records
+title: Record Management
 nav_order: 321
 parent: Publication Workflow
 grand_parent: BC Data Catalogue
@@ -221,8 +221,8 @@ To add a resource:
 
 Navigate to the resource type as needed:
 - [Application](./dps_bcdc_w_application.md)
+- [Document/Tabular Data](./dps_bcdc_w_dataset.md)
 - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
-- [Tabular Data/Document](./dps_bcdc_w_webservice_api.md)
 - [Webservice/API](./dps_bcdc_w_webservice_api.md)
 
 [RETURN TO TOP][1]
