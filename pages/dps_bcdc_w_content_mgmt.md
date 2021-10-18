@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Resource Management
+title: Management via UI
 nav_order: 34
 parent: BC Data Catalogue
 has_children: true
 has_toc: false
 ---
+## BC DATA CATALOGUE RECORD CONTENT MANAGEMENT
 
-## BC DATA CATALOGUE RESOURCE MANAGEMENT
+_under construction_
+
+## BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
 **This document is actively being updated to correspond with the BC Data Catalogue Beta releases**
 
 1. There are four defined resource types: 
