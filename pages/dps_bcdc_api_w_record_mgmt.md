@@ -43,7 +43,7 @@ _under construction_
 ```
 import ckanapi
 
-# to change host between prod and test, use the following: production = 'catalogue.data'; test = 'cat.data'
+# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
  
 ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
@@ -80,7 +80,7 @@ print(resp)
 ```
 import ckanapi
 
-# host production = 'catalogue'; test = 'cat'
+# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
 ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.package_patch(
