@@ -24,9 +24,8 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## Table of Contents
 + [**HOW TO MANAGE PACKAGES USING THE CATALOGUE API**](#how-to-manage-packages-using-the-catalogue-api)
-	+ [How to create a record with the API](#how-to-create-a-resource-with-the-api)
-	+ [How to update a record with the API using package_patch](#how-to-update-a-resource-with-the-api-using-package_patch)
-	+ [How to get the organization ID with the organization name](#how-to-get-the-organization-id-with-the-organization-name)
+	+ [How to create a record with the API](#how-to-create-a-record-with-the-api)
+	+ [How to update a record with the API using package_patch](#how-to-update-a-record-with-the-api-using-package_patch)
 
 -----------------------
 
@@ -84,7 +83,7 @@ import ckanapi
 # host production = 'catalogue'; test = 'cat'
 ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
-resp = ckan.action.resource_patch(
+resp = ckan.action.package_patch(
         package_id='PACKAGE-ID-TO-UPDATE-HERE',
         name="my-packagee-name-updated",
 	description="my-package-descrition-updated")
