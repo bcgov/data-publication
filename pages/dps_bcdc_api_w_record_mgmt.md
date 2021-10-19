@@ -49,18 +49,26 @@ host = 'catalogue'
 ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.package_create(
-        title="my-resource-name",
+        type="bcdc_dataset",
+	title="my-resource-name",
 	published_by="my-sub-org-here",
 	description="my-package-description",
 	license_id="licence id",
-	contacts=""
+	contacts={
+            delete: "0",
+	    private: "Display",
+            role: "pointOfContact",
+            email: "valid email"
+	    name:"contact name",
+            org: "organization id"}
 	security_class="",
 	view_audience="",
 	download_audience="",
 	metadata_visibility="",
-	tag_string="",
+	tag_string={
+		"keyword1","keyword2"}
 	publish_state="DRAFT",
-	resource_status=""	
+	resource_status="onGoing"	
 	)
 
 
