@@ -44,9 +44,9 @@ _under construction_
 ```
 import ckanapi
 
-# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
-host = 'catalogue' 
-ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+# to change host between prod and test, use the following: production = 'catalogue.data'; test = 'cat.data'
+ 
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.package_create(
         type="bcdc_dataset",
@@ -82,8 +82,7 @@ print(resp)
 import ckanapi
 
 # host production = 'catalogue'; test = 'cat'
-host = 'catalogue' 
-ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_patch(
         package_id='PACKAGE-ID-TO-UPDATE-HERE',
