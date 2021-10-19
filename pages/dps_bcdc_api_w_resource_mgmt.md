@@ -44,8 +44,8 @@ See the [common calls](/dps_bcdc_api_w_common_calls.html) page to find how to ge
 import ckanapi
 
 # to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
-host = 'catalogue' 
-ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_create(
         package_id='YOUR-PACKAGE-ID-HERE',
@@ -71,9 +71,8 @@ print(resp)
 ```
 import ckanapi
 
-# host production = 'catalogue'; test = 'cat'
-host = 'catalogue' 
-ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_update(
         id='RESOURCE-ID-TO-UPDATE-HERE',
@@ -97,9 +96,8 @@ print(resp)
 ```
 import ckanapi
 
-# host production = 'catalogue'; test = 'cat'
-host = 'catalogue' 
-ckan = ckanapi.RemoteCKAN('https://{host}.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
+# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
+ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.resource_patch(
         id='RESOURCE-ID-TO-UPDATE-HERE',
