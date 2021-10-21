@@ -7,6 +7,12 @@ has_children: true
 has_toc: false
 ---
 
+**Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
+
+For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
+
+---------------
+
 ## BC DATA CATALOGUE ADVANCED SEARCH
 
 Within the search bar, once can pass queries
