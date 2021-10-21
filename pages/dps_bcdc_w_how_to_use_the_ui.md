@@ -6,6 +6,22 @@ parent: BC Data Catalogue
 has_children: true
 has_toc: false
 ---
+
+## BC DATA CATALOGUE ADVANCED SEARCH
+
+Within the search bar, once can pass queruies
+
+**Records published during a certain date range**
+
+:* record_publish_date:[2017-01-01T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] *:
+
+**Records published as the Open Data Licence - British Columbia**
+:* license_id:2 *:
+
+**Combination of the two**
+
+:* record_publish_date:[2017-05-21T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] license_id:2 *:
+
 ## BC DATA CATALOGUE RECORD CONTENT MANAGEMENT
 
 _under construction_
