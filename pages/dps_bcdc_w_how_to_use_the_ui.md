@@ -9,7 +9,7 @@ has_toc: false
 
 ## BC DATA CATALOGUE ADVANCED SEARCH
 
-Within the search bar, once can pass queruies
+Within the search bar, once can pass queries
 
 **Records published during a certain date range**
 
