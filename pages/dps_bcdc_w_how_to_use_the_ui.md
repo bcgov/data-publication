@@ -13,7 +13,7 @@ Within the search bar, once can pass queruies
 
 **Records published during a certain date range**
 
-```:* record_publish_date:[2017-01-01T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] *:```
+```:* record_publish_date:[2017-01-01T00:00:00.000Z TO 2022-01-01T00:00:00.000Z] *:```
 
 **Records published as the Open Data Licence - British Columbia**
 
