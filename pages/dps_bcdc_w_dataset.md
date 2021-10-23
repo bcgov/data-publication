@@ -41,7 +41,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**:
     - Value: 'dataset' has changed to 'document'
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#tabular-data-resource-level-changes)
 
 ---------------
 
