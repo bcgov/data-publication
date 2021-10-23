@@ -56,6 +56,10 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 **Type**
 + Select **Geographic Data**
     
++ **Changes**:
+    - Value: 'Geographic Data' has changed to 'geographic data'
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
+
 ---------------
 
 **Resource Description**:
