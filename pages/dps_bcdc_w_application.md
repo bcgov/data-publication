@@ -20,7 +20,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-+ See the full list of value options for drop down fields, see the (BCDC Schema)[https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset]
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
 
 ---------------
 
