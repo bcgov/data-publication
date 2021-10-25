@@ -23,12 +23,13 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## Table of Contents
 + [**MANAGING SPECIFIC RESOURCES**](#managing-specific-resources)
-	+ [BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS](#bc-geographic-warehouse-(bcgw)-datasets)
+	+ [**BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS**](#bc-geographic-warehouse-(bcgw)-datasets)
 	    - [BCGW Dataset Resources](#bcgw-dataset-resources)
 	    - [BCGW WMS Resources](#bcgw-wms-resources)
 	    - [BCGW Network Link KML](#bcgw-network-link-kml-resources)
     + [**BC DATA CATALOUGE (BCDC) DATASETS**](#bc-data-catalogue-(bcdc)-datasets)
-+ [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
++ [**ADD A RESOURCE**](#add-a-resource)
+    + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
 ---------------
 **Resources**
@@ -36,10 +37,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 + See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 ---------------
-
-**To add a resource:**
-1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described below.
 
 # MANAGING SPECIFIC RESOURCES
 
@@ -90,7 +87,13 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-# RESOURCE TYPE SPECIFIC FIELDS
+# ADD A RESOURCE
+
+**To add a resource:**
+1. Click the **Add Resource** button on the toolbar at the record level.
+1. Fill out all the required fields for each resource type as described below.
+
+## RESOURCE TYPE SPECIFIC FIELDS
 
 \* indicates required fields.
 
