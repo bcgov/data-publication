@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  Application
+title:  Resrouce Mgmt
 nav_order: 342
 parent: How to use the UI
 grand_parent: BC Data Catalogue
 has_children: false
-has_toc: false
+has_toc: true
 ---
 
 ## RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
