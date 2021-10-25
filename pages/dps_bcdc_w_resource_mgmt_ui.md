@@ -26,7 +26,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
         + [BCGW Dataset Resources](#bcgw-dataset-resources)
         + [BCGW WMS Resources](#bcgw-wms-resources)
         + [BCGW Network Link KML](#bcgw-network-link-kml-resources)
-    - [**BC DATA CATALOUGE (BCDC) DATASETS**](#bc-data-catalogue-datasets)
+    - [**BC DATA CATALOGUE (BCDC) DATASETS**](#bc-data-catalogue-datasets)
 + [**ADD A RESOURCE**](#add-a-resource)
     - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
@@ -79,7 +79,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ### BCGW NETWORK LINK KML RESOURCES
 
 
-## BC DATA CATALOUGE DATASETS
+## BC DATA CATALOGUE DATASETS
 
 **Specific Field Requirements**
 
@@ -103,7 +103,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |**Type**\* (`bcdc_type`): Is the resource type that defines the available fields for a resource.|Select _'Application'_ (`application`)|Select _'Tabular'_ (`dataset`) |Select _'Geographic Dataset'_ (`geographic`)|Select _'WebService/API'_ (`webservice`)|
 |-> **Changes**: _DB values lowercase_ <-
 |**Resource** Description (`description`): Is a detailed description of the resource.|Y|Y|Y|Y|
-|**Supplemental** Information (`supplemental_info`): Any additional relevant information about the resource can be included here.|Y|Y|Y|Y|
+|**Supplemental Information** (`supplemental_info`): Any additional relevant information about the resource can be included here.|Y|Y|Y|Y|
 |**Resource** Update Cycle\* (`resource_update_cycle`): Describes how often the resource is updated.|Y|Y|Y|Y|
 |-> **NEW Values**: _'Nightly'_ (`nightly`); _'Unknown'_ (`unknown`) <-
 ||
