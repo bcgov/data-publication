@@ -32,7 +32,8 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     - Is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
     - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
 
-+ **File**: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
++ **File**:
+    - Is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
 
 
 ---------------
