@@ -1,4 +1,4 @@
----
+```---
 layout: default
 title: Tabular Data 
 nav_order: 
@@ -7,7 +7,7 @@ grand_parent: BC Data Catalogue
 has_children: false
 has_toc: false
 ---
-
+```
 ## DOCUMENT or TABULAR DATA RESOURCE MANAGEMENT
 
 **Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
