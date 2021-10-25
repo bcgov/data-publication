@@ -66,7 +66,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
 
-
 **_Temporal Extent_**
 
 + If your dataset is temporal in nature, you may provide the relevant dates in this area
@@ -76,7 +75,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 **Resource Storage Format**
 
 + Describes the file extension for the resource.
-+ See the full list of value options see the BCDC Schema as linked at the top of this page.
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
@@ -84,8 +82,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 **Resource Storage Location**
 
 + Is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
-+ See the full list of value options see the BCDC Schema as linked at the top of this page.
-
 
 + **Changes**:
    - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
@@ -98,12 +94,9 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + Is the type of resource, for Applications this may not be applicable and thus choose "Not Applicable".
 
-+ See the full list of value options see the BCDC Schema as linked at the top of this page.
-
 **Resource Access Method**
 
 + Describes how the end-user can access the application.
-+ See the full list of value options see the BCDC Schema as linked at the top of this page.
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
