@@ -22,11 +22,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## Table of Contents
 + [**MANAGING SPECIFIC RESOURCES**](#managing-specific-resources)
-    - [**BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS**](#bc-geographic-warehouse-(bcgw)-datasets)
+    - [**BC GEOGRAPHIC WAREHOUSE (BCGW)  DATASETS**](#bc-geographic-warehouse-bcgw-datasets)
         + [BCGW Dataset Resources](#bcgw-dataset-resources)
         + [BCGW WMS Resources](#bcgw-wms-resources)
         + [BCGW Network Link KML](#bcgw-network-link-kml-resources)
-    - [**BC DATA CATALOUGE (BCDC) DATASETS**](#bc-data-catalogue-(bcdc)-datasets)
+    - [**BC DATA CATALOUGE (BCDC) DATASETS**](#bc-data-catalogue-bcdc-datasets)
 + [**ADD A RESOURCE**](#add-a-resource)
     - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
@@ -39,9 +39,9 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 # MANAGING SPECIFIC RESOURCES
 
-## BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS
+## BC GEOGRAPHIC WAREHOUSE DATASETS
 
-### BCGW DATASET RESOURCE
+### BCGW DATASET RESOURCES
 
 + Geographic Data resources type is used if they are spatially enabled or not. This is to allow for the Data Distribution Service to be configured for those datasets.
 
@@ -73,13 +73,13 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
         - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
 
-### BCGW WMS RESOURCE
+### BCGW WMS RESOURCES
 
 
-### BCGW NETWORK LINK KML RESOURCE
+### BCGW NETWORK LINK KML RESOURCES
 
 
-## BC DATA CATALOUGE (BCDC) DATASETS
+## BC DATA CATALOUGE DATASETS
 
 **Specific Field Requirements**
 
