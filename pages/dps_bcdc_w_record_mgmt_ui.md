@@ -223,13 +223,7 @@ For resource management best practices and tips see [Resource Management]
 
 To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record level
-1. Fill out all the required fields for each resource type as described below.
-
-Navigate to the resource type as needed:
-- [Application](./dps_bcdc_w_application.md)
-- [Document/Tabular Data](./dps_bcdc_w_dataset.md)
-- [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
-- [Webservice/API](./dps_bcdc_w_webservice_api.md)
+1. Fill out all the required fields for each resource type as described in the [Resource Mangement](./dps_bcdc_w_resource_mgmt_ui.md) page.
 
 [RETURN TO TOP][1]
 
