@@ -30,7 +30,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ---------------
 
 
-**Title \***: Is the title of the resource as it will appear on the metadata record. 
+**Title\***: Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
@@ -42,7 +42,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-**Type \***: Is the resource type that defines the available fields for a resource.
+**Type\***: Is the resource type that defines the available fields for a resource.
 + Select **Document/Tabular Data**
 
 + **Changes**:
@@ -54,7 +54,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 **Supplemental Information**: Any additional relevant information about the resource can be included here.
 
-**Resource Update Cycle \***: Describes how often the resource is updated.
+**Resource Update Cycle\***: Describes how often the resource is updated.
 
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
@@ -65,12 +65,12 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     - **Beginning Date** is the start date for the period the data is captured for.
     - **End Date** is the end date for the period the data is captured for. 
 
-**Resource Storage Format \***: Describes the file extension for the resource.
+**Resource Storage Format\***: Describes the file extension for the resource.
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
 
-**Resource Storage Location \***: Is the location where the resource is stored.
+**Resource Storage Location\***: Is the location where the resource is stored.
 
 For files that have been uploaded using the Upload File above, choose Catalogue Data Store.
 
@@ -82,9 +82,9 @@ For files that have been uploaded using the Upload File above, choose Catalogue 
 
 + **Changes**: **NEW**
 
-**Resource Type \***: Is the type of resource: Data, Reports or Abstraction.
+**Resource Type\***: Is the type of resource: Data, Reports or Abstraction.
 
-**Resource Access Method \***: Describes how the end-user can access the data.
+**Resource Access Method\***: Describes how the end-user can access the data.
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
