@@ -1,4 +1,4 @@
----
+```---
 layout: default
 title:  Application
 nav_order: 
@@ -7,6 +7,7 @@ grand_parent: BC Data Catalogue
 has_children: false
 has_toc: false
 ---
+```
 
 ## APPLICATION RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE 
 
