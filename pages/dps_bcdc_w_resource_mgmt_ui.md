@@ -168,3 +168,9 @@ Click **Save** when done
 
 
 + Additional resources can be added by repeating the process above or adding other resource types.
+
+
+[RETURN TO TOP][1]
+
+[1]: #resource-management-using-the-bc-data-catalogue-ui
+
