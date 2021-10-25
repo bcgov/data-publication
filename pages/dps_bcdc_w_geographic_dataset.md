@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geographic
-nav_order: 344
+nav_order: 
 parent: How to use the UI
 grand_parent: BC Data Catalogue
 has_children: false
