@@ -16,7 +16,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-|**AUDIENCE**|
+|**AUDIENCE**| |
 |:---:|:---:|
 | *Metadata Editors* | *Metadata Admin* |
 
