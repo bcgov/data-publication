@@ -153,7 +153,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |**Link to iMap** (`link_to_imap`): shows an interactive preview of the data in iMapBC.|N|N|Y|N|
 ||
 |**Geographic Extent** (`geographic_extent`): These are auto populated with the bounding box of the province.|N|N|Y|N|
-|-> **Changes**: _Moved sectopm from record level_ <-
+|-> **Changes**: _Moved section from record level_ <-
 |**North** (`north_bound_latitude`)|N|N|60.0|N|
 |**South** (`south_bound_latitude`)|N|N|48.0|N|
 |**East** (`east_bound_longitude`)|N|N|-113.5|N|
