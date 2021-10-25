@@ -16,6 +16,12 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
+**Resources**
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
+
+---------------
+
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
@@ -58,7 +64,6 @@ __Note__: This field may be empty for those datasets that are just metadata abou
     
 + **Changes**:
     - Database Value: `Geographic Data` has changed to `geographic data`
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 ---------------
 
@@ -74,7 +79,6 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **_Temporal Extent_ Beginning Date**
 + If the dataset is temporal in nature, the start date for the period the data is captured for.
@@ -88,7 +92,6 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
-   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Resource Storage Location**
 + Is the location where the resource is stored. 
@@ -97,7 +100,6 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 
 + **Changes**:
    - **Database value** all database entries are now lower case. e.g., `BC Geographic Warehouse` has changed to `bc geographic warehouse`
-   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Spatial Datatype**
 + Refers to the datatype in a database. 
@@ -146,7 +148,6 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
-   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **_Preview Information_**
 + **BCGW Specific**: these details are filled in automatically when:
