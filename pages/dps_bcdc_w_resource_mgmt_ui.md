@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Resrouce Mgmt
+title:  Resource Management
 nav_order: 342
 parent: How to use the UI
 grand_parent: BC Data Catalogue
