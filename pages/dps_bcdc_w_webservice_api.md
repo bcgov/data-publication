@@ -38,8 +38,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 + **URL**: Is a link to a webservice location or file
     - Secure applications may also be listed.
 
-+ **File**
-    - Is when a file is uploaded directly into the Catalogue Data Store.
++ **File**: Is when a file is uploaded directly into the Catalogue Data Store.
 
 ---------------
 
