@@ -71,8 +71,10 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 **Resource Update Cycle**
 + Describes how often the resource is updated.
 + **BCGW Specific**: most common replication frequency is "Nightly".
-    
-+ **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
+
++ **Changes**:
+    - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **_Temporal Extent_ Beginning Date**
 + If the dataset is temporal in nature, the start date for the period the data is captured for.
@@ -84,12 +86,18 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 + Describes the file extension for the resource.
 + **BCGW Specific**: select "other" (`other`) but others that also apply, "multiple" (`multiple`), "Oracle/SDE" (`oracle_sde`)
 
-+ **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
++ **Changes**:
+   - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Resource Storage Location**
 + Is the location where the resource is stored. 
 + For files that have been uploaded using the _Upload File_ above, choose "Catalogue Data Store".
 + **BCGW Specific**: select: "BC Geographic Warehouse"
+
++ **Changes**:
+   - **Database case change** all database entries are now lower case. e.g., for "BC Geographic Warehouse", (`bc geographic warehouse`) was (`BC Geographic Warehouse`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Spatial Datatype**
 + Refers to the datatype in a database. 
@@ -136,7 +144,9 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 **Resource Access Method**
 + Describes how the end-user can access the data.
 
-+ **NEW Value** "Other" (`other`)
++ **Changes**:
+   - **NEW Value** "Other" (`other`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **_Preview Information_**
 + **BCGW Specific**: these details are filled in automatically when:
