@@ -70,7 +70,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 \* indicates required fields.
 
 |UI Field Label (DB field)|Application|Tabular/Docment|Geographic|WebService/API|Change Flag|
-|:---|:---|:---:|:---:|:---:|:---:|:---:|
+|:---|:---:|:---:|:---:|:---:|:---:|
 |**Name**\* (`name`):Is the title of the resource as it will appear on the metadata record.|Y|Y|Y|Y|N|
 |**Resource** (`url`): Is a link to a file or resource stored elsewhere.|Y|Y|Y|Y|N|
 |**Type**\* (`bcdc_type`): Is the resource type that defines the available fields for a resource.|Select _'Application'_ (`application`)|Select _'Tabular'_ (`dataset`) |Select _'Geographic Dataset'_ (`geographic`)|Select _'WebService/API'_ (`webservice`)|_DB values lowercase_|
