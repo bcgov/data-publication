@@ -23,12 +23,12 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ---------------
 
 
-**Title**: 
+**Title**
 + Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
-+ **URL**: 
++ **URL**
     - Is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
     - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
 
@@ -37,34 +37,72 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-**Type**: Select **Document/Tabular Data**
+**Type**
++ Select **Document/Tabular Data**
 
 + **Changes**:
-    - Value: 'dataset' has changed to 'document'
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#tabular-data-resource-level-changes)
+    - Database Value: 'Dataset' has changed to 'document'
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#document-and-tabular-data-resource-level-changes)
+
 
 ---------------
 
-**Resource Description**: is a detailed description of the resource.
+**Resource Description**
 
-**Supplemental Information**: Any additional relevant information about the resource can be included here.
++ Is a detailed description of the resource.
 
-**Resource Update Cycle**: describes how often the resource is updated.
+**Supplemental Information**
 
-**_Temporal Extent_**:
-If your dataset is temporal in nature, you may provide the relevant dates in this area
-+ **Beginning Date** is the start date for the period the data is captured for.
-+ **End Date** is the end date for the period the data is captured for. 
++ Any additional relevant information about the resource can be included here.
 
-**Resource Storage Format**: describes the file extension for the resource.
+**Resource Update Cycle**
 
-**Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
++ Describes how often the resource is updated.
 
-**JSON Table Schema**: (**NEW**)
++ **Changes**:
+    - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#document-and-tabular-data-resource-level-changes)
 
-**Resource Type**: is the type of resource: Data, Reports or Abstraction.
 
-**Resource Access Method**: describes how the end-user can access the data.
+**_Temporal Extent_**
+
++ If your dataset is temporal in nature, you may provide the relevant dates in this area
+    - **Beginning Date** is the start date for the period the data is captured for.
+    - **End Date** is the end date for the period the data is captured for. 
+
+**Resource Storage Format**
+
++ Describes the file extension for the resource.
+
++ **Changes**:
+   - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#document-and-tabular-data-resource-level-changes)
+
+**Resource Storage Location**
+
++ Is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
+
++ **Changes**:
+   - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#document-and-tabular-data-resource-level-changes)
+
+
+**JSON Table Schema**
+
++ **Changes**: **NEW**
+
+**Resource Type**
+
++ Is the type of resource: Data, Reports or Abstraction.
+
+**Resource Access Method**
+
++ Describes how the end-user can access the data.
+
++ **Changes**:
+   - **NEW Value** "Other" (`other`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#document-and-tabular-data-resource-level-changes)
+
 
 Click **Save** when done
 
