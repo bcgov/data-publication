@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tabular Data 
-nav_order: 343
+nav_order: 
 parent: How to use the UI
 grand_parent: BC Data Catalogue
 has_children: false
