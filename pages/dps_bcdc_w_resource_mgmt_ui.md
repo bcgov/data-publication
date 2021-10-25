@@ -22,11 +22,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## Table of Contents
 + [**MANAGING SPECIFIC RESOURCES**](#managing-specific-resources)
-    - [**BC GEOGRAPHIC WAREHOUSE (BCGW)  DATASETS**](#bc-geographic-warehouse-bcgw-datasets)
+    - [**BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS**](#bc-geographic-warehouse-datasets)
         + [BCGW Dataset Resources](#bcgw-dataset-resources)
         + [BCGW WMS Resources](#bcgw-wms-resources)
         + [BCGW Network Link KML](#bcgw-network-link-kml-resources)
-    - [**BC DATA CATALOUGE (BCDC) DATASETS**](#bc-data-catalogue-bcdc-datasets)
+    - [**BC DATA CATALOUGE (BCDC) DATASETS**](#bc-data-catalogue-datasets)
 + [**ADD A RESOURCE**](#add-a-resource)
     - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
