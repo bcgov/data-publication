@@ -82,7 +82,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 **Resource Type**: Is the type of resource.
 
-+ This field is being reviewed to determine if required.
++ This field is being reviewed to determine if still provides value.
 + For Applications this may not be applicable and thus choose "Not Applicable".
 
 **Resource Access Method**: Describes how the end-user can access the application.
