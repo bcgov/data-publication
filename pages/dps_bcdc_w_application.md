@@ -28,21 +28,19 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-**Title**
-+ Is the title of the resource as it will appear on the metadata record. 
+**Title**: Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
-+ **URL**
-    - Is a link to a applicaiton location
++ **URL**: Is a link to a applicaiton location
     - Secure applications may also be listed.
 
-+ **File**
++ **File**: Is when a file is uploaded directly into the Catalogue Data Store.
     - Files specific to an application most likely would not be defined as an application resource but another type, e.g, Document/Tabular Data.
 
 ---------------
 
-**Type**
+**Type**: Is the resource type that defines the available fields for a resource.
 
 + Select **Application**
 
@@ -51,17 +49,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-**Resource Description**
+**Resource Description**: Is a detailed description of the resource.
 
-+ Is a detailed description of the resource.
+**Supplemental Information**: Any additional relevant information about the resource can be included here.
 
-**Supplemental Information**
-
-+ Any additional relevant information about the resource can be included here.
-
-**Resource Update Cycle**
-
-+ Describes how often the resource is updated.
+**Resource Update Cycle**: Describes how often the resource is updated.
 
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
@@ -72,16 +64,14 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     - **Beginning Date** is the start date for the period the data is captured for.
     - **End Date** is the end date for the period the data is captured for. 
 
-**Resource Storage Format**
-
-+ Describes the file extension for the resource.
+**Resource Storage Format**: Describes the file extension for the resource.
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
 
-**Resource Storage Location**
+**Resource Storage Location**: Is the location where the resource is stored.
 
-+ Is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
++ For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
 + **Changes**:
    - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
@@ -90,13 +80,12 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**: **NEW**
 
-**Resource Type**
+**Resource Type**: Is the type of resource.
 
-+ Is the type of resource, for Applications this may not be applicable and thus choose "Not Applicable".
++ This field is being reviewed to determine if required.
++ For Applications this may not be applicable and thus choose "Not Applicable".
 
-**Resource Access Method**
-
-+ Describes how the end-user can access the application.
+**Resource Access Method**: Describes how the end-user can access the application.
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
