@@ -76,32 +76,32 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |**Type**\* (`bcdc_type`)|Is the resource type that defines the available fields for a resource.|Select _'Application'_ (`application`)|Select _'Tabular'_ (`dataset`) |Select _'Geographic Dataset'_ (`geographic`)|Select _'WebService/API'_ (`webservice`)|_DB values lowercase_|
 |**Resource** Description (`description`)| Is a detailed description of the resource.|Y|Y|Y|Y|N|
 |**Supplemental** Information (`supplemental_info`)|Any additional relevant information about the resource can be included here.|Y|Y|Y|Y|N|
-|**Resource** Update Cycle\* (`resource_update_cycle`)|Describes how often the resource is updated.|Y|Y|Y|Y|Y **NEW Values** _'Nightly'_ (`nightly`); _'Unknown'_ (`unknown`)|
+|**Resource** Update Cycle\* (`resource_update_cycle`)|Describes how often the resource is updated.|Y|Y|Y|Y|**NEW Values** _'Nightly'_ (`nightly`); _'Unknown'_ (`unknown`)|
 ||
-|**Temporal Extent** (`temporal_extent`)|If the dataset is temporal in nature'.|Y|Y|Y|Y|Y _Database fields rename_|
+|**Temporal Extent** (`temporal_extent`)|If the dataset is temporal in nature'.|Y|Y|Y|Y|_Database fields rename_|
 |**Beginning Date** (`beginning_date`)|the start date for the period the data is captured for|Y|Y|Y|Y|Y|
 |**End Date** (`end_date`)|the end date for the period the data is captured for. |Y|Y|Y|Y|Y|
 ||
-|**Resource Storage Format**\* (`format`)|Describes the file extension for the resource.|Y|Y|Y|Y|Y **NEW Values** _'geopackage'_ (`gpkg`); _'multiple'_ (`multiple`)|
-|**Resource Storage Location**\* (`resource_storage_location`)||Y|Y|Y|Y|Y _All values are now lowercase_|
-|**Spatial Datatype**\* (`spatial_datatype`)||Y|Y|Y|Y|Y _Moved from record level_|
-|**Object Short Name** (`object_short_name`)||N|N|Y|N|Y _Moved from record level_
-|**Object Table Comments** (`object_table_comments`)||N|N|Y|N|Y _Moved from record level_
+|**Resource Storage Format**\* (`format`)|Describes the file extension for the resource.|Y|Y|Y|Y|**NEW Values** _'geopackage'_ (`gpkg`); _'multiple'_ (`multiple`)|
+|**Resource Storage Location**\* (`resource_storage_location`)||Y|Y|Y|Y|_All values are now lowercase_|
+|**Spatial Datatype**\* (`spatial_datatype`)||Y|Y|Y|Y|_Moved from record level_|
+|**Object Short Name** (`object_short_name`)||N|N|Y|N|_Moved from record level_
+|**Object Table Comments** (`object_table_comments`)||N|N|Y|N|_Moved from record level_
 ||
-|**Details**: (`details`)|For BCGW datasets, this is populated from the database metadata.|Y|Y|Y|Y|Y _Moved section from record level_|
+|**Details**: (`details`)|For BCGW datasets, this is populated from the database metadata.|Y|Y|Y|Y|_Moved section from record level_|
 |**Column Name** (`column_name`)||Y|Y|Y|Y|Y|
 |**Short Name** (`short_name`)|Short name used for download for Shape Files and CSV.|Y|Y|Y|Y|Y|
 |**Data Type** (`data_type`)|Field type|Y|Y|Y|Y|Y|
 |**Data Precision** (`data_precision`)|Field lenght|Y|Y|Y|Y|Y|
 |**Column Comments** (`column_comments`)|Field definition|Y|Y|Y|Y|Y|
 ||
-|**Projection Name**\* (`projection_name`)||N|N|Y|N|Y _Moved from record level_
+|**Projection Name**\* (`projection_name`)||N|N|Y|N|_Moved from record level_
 |**JSON Table Schema** (`json_table_schema`)||Y|Y|Y|Y|**NEW**|
-|**ISO Topic Category**\* (`iso_topic_category`)|[Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)||N|N|Y|N|Y _Moved from record level_
-|**Resource Type**\* (`resource_type`)|Is the type of resource. Being reviewed if useful.|Y|Y|Y|Y|Y **NEW Value** _'Not Applicable'_ (`na`)|
-|**Resource Access Method**\* (`resource_access_method`)|Describes how the end-user can access the data.|Y|Y|Y|Y|Y **NEW Value** _'Other'_ (`other`)|
+|**ISO Topic Category**\* (`iso_topic_category`)|[Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)||N|N|Y|N|_Moved from record level_
+|**Resource Type**\* (`resource_type`)|Is the type of resource. Being reviewed if useful.|Y|Y|Y|Y|**NEW Value** _'Not Applicable'_ (`na`)|
+|**Resource Access Method**\* (`resource_access_method`)|Describes how the end-user can access the data.|Y|Y|Y|Y|**NEW Value** _'Other'_ (`other`)|
 ||
-|**Preview Information**: (`preview_info`)|Automatically populated if public to build the Map Preview.|N|N|Y|N|Y _Moved section from record level_
+|**Preview Information**: (`preview_info`)|Automatically populated if public to build the Map Preview.|N|N|Y|N|_Moved section from record level_
 |**Layer Name** (`layer_name`)|is the name of the BCGW object and is only different if the WMS uses a generalized dataset.|N|N|Y|N|Y
 |**Preview Latitude** (`preview_latitude`)|allows you to provide a map preview centroid latitude.|N|N|Y|N|Y
 |**Preview Longitude** (`preview_longitude`)|allows you to provide a map preview centroid longitude.|N|N|Y|N|Y
@@ -110,7 +110,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |**Image URL** (`preview_image_url`)|shows a preview of the data as a static image.|N|N|Y|N|Y
 |**Link to iMap** (`link_to_imap`)|shows an interactive preview of the data in iMapBC.|N|N|Y|N|Y
 ||
-|**Geographic Extent** (`geographic_extent`)|These are auto populated with the bounding box of the province.|N|N|Y|N|Y _Moved from record level_
+|**Geographic Extent** (`geographic_extent`)|These are auto populated with the bounding box of the province.|N|N|Y|N|_Moved from record level_
 |**North** (`north_bound_latitude`)||N|N|60.0|N|Y
 |**South** (`south_bound_latitude`)||N|N|48.0|N|Y
 |**East** (`east_bound_longitude`)||N|N|-113.5|N|Y
