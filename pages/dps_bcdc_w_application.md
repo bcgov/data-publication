@@ -15,12 +15,15 @@ has_toc: false
 For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
 
 ---------------
+**Resources**
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
+
+---------------
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
-+ See the full list of value options for drop down fields, see the [BCDC Schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
 
 ---------------
 
