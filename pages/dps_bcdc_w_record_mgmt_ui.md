@@ -100,12 +100,13 @@ This is additional information (one or more references) to support the dataset o
 **Security Classification** _(mandatory field)_
 
 The Security Classification has been updated and records transformed to reflect the OCIO's standard.
-    |BCDC Security Classification (**Old**)| [Information Security Classification Levels (**NEW**)](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
-    |:---|:---|:---|
-    |Low - Public|**Public**|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)|
-    |Low - Sensitivity|**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
-    |Medium - Personal, Medium - Sensitivity|**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
-    |High - Cabinet, High - Confidential, High - Sensitivity|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
+
+|BCDC Security Classification (**Old**)| [Information Security Classification Levels (**NEW**)](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
+|:---|:---|:---|
+|Low - Public|**Public**|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)|
+|Low - Sensitivity|**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
+|Medium - Personal, Medium - Sensitivity|**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
+|High - Cabinet, High - Confidential, High - Sensitivity|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
 
 **Who can view this data?** _(mandatory field)_
 
@@ -167,6 +168,10 @@ When creating a new metadata record, the state will be set to DRAFT once you cli
     |PENDING ARCHIVE|Pending archive records are visible to users until Archived |Administrators|
     |ARCHIVED|Only editors of an org can see these records |All Editors of that org |
 
+**Changes**
++ REJECTED has been removed and a record moves from PENDING PUBLISH back to DRAFT
+
+
 **Resource Status** _(mandatory field)_
 
 Is the status of the dataset, service, API or application as described by one of the types below: 
@@ -183,6 +188,7 @@ Is the status of the dataset, service, API or application as described by one of
     |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - [**Replacement Record**](./dps_bcdc_record.md#replacement_record)|
     |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional inforomation will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
+    
    
 **Record Lifecycle History** _(mandatory field)_
 
