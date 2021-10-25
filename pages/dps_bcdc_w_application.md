@@ -17,6 +17,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ---------------
 **Resources**
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 ---------------
 
@@ -47,7 +48,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**:
     - Database Value: 'Application' has changed to 'application'
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 ---------------
 
@@ -65,7 +65,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
-    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 
 **_Temporal Extent_**
@@ -81,7 +80,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
-   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 **Resource Storage Location**
 
@@ -91,8 +89,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**:
    - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
-   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
-
 
 **JSON Table Schema**
 
@@ -111,8 +107,6 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
-   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
-
 
 Click **Save** when done
 
