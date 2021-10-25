@@ -96,7 +96,7 @@ __Note__: This field may be empty for those datasets that are just metadata abou
 + **BCGW Specific**: select: "BC Geographic Warehouse"
 
 + **Changes**:
-   - **Database case change** all database entries are now lower case. e.g., for "BC Geographic Warehouse", (`bc geographic warehouse`) was (`BC Geographic Warehouse`)
+   - **Database value** all database entries are now lower case. e.g., `BC Geographic Warehouse` has changed to `bc geographic warehouse`
    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#geographic-data-resource-level-changes)
 
 **Spatial Datatype**
