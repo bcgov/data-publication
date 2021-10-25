@@ -17,9 +17,8 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ---------------
 
 |**AUDIENCE**|
-|:---:|
-| *Metadata Editors* |
-| *Metadata Admin* |
+|:---:|:---:|
+| *Metadata Editors* | *Metadata Admin* |
 
 ## Table of Contents
 + [**MANAGING SPECIFIC RESOURCES**](#managing-specific-resources)
