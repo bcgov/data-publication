@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Application
-nav_order: 342
+nav_order: 
 parent: How to use the UI
 grand_parent: BC Data Catalogue
 has_children: false
