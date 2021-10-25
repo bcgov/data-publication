@@ -28,10 +28,9 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 1. Fill out all the required fields for each resource type as described below.
 
 ---------------
+* indicates required fields.
 
----------------
-
-**Title**: Is the title of the resource as it will appear on the metadata record. 
+**Title\***: Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
