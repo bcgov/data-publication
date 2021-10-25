@@ -31,40 +31,32 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-**Title**
-+ Is the title of the resource as it will appear on the metadata record. 
+**Title**: Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
-+ **URL**
-    - Is a link to a webservuce location or file
++ **URL**: Is a link to a webservice location or file
     - Secure applications may also be listed.
 
 + **File**
-    - Is to upload a file directly into the Catalogue Data Store.
+    - Is when a file is uploaded directly into the Catalogue Data Store.
 
 ---------------
 
-**Type**
+**Type\***
 
-+ Select **Webservice/API**
++ Select **WebService/API**
 
 + **Changes**:
     - Database Value: 'WebService' has changed to 'webservice'
 
 ---------------
 
-**Resource Description**
+**Resource Description**:  Is a detailed description of the resource.
 
-+ Is a detailed description of the resource.
+**Supplemental Information**: Any additional relevant information about the resource can be included here.
 
-**Supplemental Information**
-
-+ Any additional relevant information about the resource can be included here.
-
-**Resource Update Cycle**
-
-+ Describes how often the resource is updated.
+**Resource Update Cycle\***: Describes how often the resource is updated.
 
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
@@ -76,16 +68,14 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     - **Beginning Date** is the start date for the period the data is captured for.
     - **End Date** is the end date for the period the data is captured for. 
 
-**Resource Storage Format**
-
-+ Describes the file extension for the resource.
+**Resource Storage Format\***: Describes the file extension for the resource.
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
 
-**Resource Storage Location**
+**Resource Storage Location\***: Is the location where the resource is stored. 
 
-+ Is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
++ For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
 
 + **Changes**:
    - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
@@ -94,13 +84,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**: **NEW**
 
-**Resource Type**
+**Resource Type\***: Is the type of resource.
 
-+ Is the type of resource, for Applications this may not be applicable and thus choose "Not Applicable".
++ for Applications this may not be applicable and thus choose "Not Applicable".
 
-**Resource Access Method**
-
-+ Describes how the end-user can access the application.
+**Resource Access Method\***: Describes how the end-user can access the application.
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
