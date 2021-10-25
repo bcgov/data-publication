@@ -20,51 +20,96 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below.
 
----------------
-
-**Name**: is the name of the resource as it will appear resource record associated to the metadata record. 
-+ This is **required**.
-
-**_Resource_**: can either be presented as a URL or upload 
-
-+ **URL**: is a link to an application. This may be public or secure.
-
-+ <a name=upload_file>**File**</A>: is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
++ See the full list of value options for drop down fields, see the (BCDC Schema)[https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset]
 
 ---------------
 
-**Type**: Select **Application**
+**Title**
++ Is the title of the resource as it will appear on the metadata record. 
+
+**_Resource_**
+
++ **URL**
+    - Is a link to a applicaiton location
+    - Secure applications may also be listed.
+
++ **File**
+    - Files specific to an application most likely would not be defined as an application resource but another type, e.g, Document/Tabular Data.
+
+---------------
+
+**Type**
+
++ Select **Application**
 
 + **Changes**:
-    - Value: 'Application' has changed to all lowercase 'application'
+    - Database Value: 'Application' has changed to 'application'
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 ---------------
 
-**Resource Description**: is a detailed description of the resource.
-+ This is _optional_, but it is highly recommended that a brief description is provided to give the consumer context to the resource. 
+**Resource Description**
 
-**Supplemental Information**: Any additional relevant information about the resource can be included here.
-+ This is _optional_
++ Is a detailed description of the resource.
 
-**Resource Update Cycle**: describes how often the resource is updated.
-+ This is **required**
+**Supplemental Information**
+
++ Any additional relevant information about the resource can be included here.
+
+**Resource Update Cycle**
+
++ Describes how often the resource is updated.
+
++ **Changes**:
+    - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
+    - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 
-**_Temporal Extent_**:
-If your dataset is temporal in nature, you may _optionally_ provide the relevant dates in this area
-+ **Beginning Date** is the start date for the period for which the data is captured.
-+ **End Date** is the end date for the period for which the data is captured. 
+**_Temporal Extent_**
 
-**Resource Storage Format**: describes the file extension for the resource.
-+ This is **required**
++ If your dataset is temporal in nature, you may provide the relevant dates in this area
+    - **Beginning Date** is the start date for the period the data is captured for.
+    - **End Date** is the end date for the period the data is captured for. 
 
-**Resource Storage Location**: is the location where the resource is stored. For files that have been uploaded using the [_Upload File_](upload_file) above, choose Catalogue Data Store.
+**Resource Storage Format**
 
-**JSON Table Schema**: (**NEW**)
++ Describes the file extension for the resource.
++ See the full list of value options see the BCDC Schema as linked at the top of this page.
 
-**Resource Type**: is the type of resource: Data, Reports or Abstraction, and is **required**.
++ **Changes**:
+   - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
-**Resource Access Method**: describes how the end-user can access the data.
+**Resource Storage Location**
+
++ Is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
++ See the full list of value options see the BCDC Schema as linked at the top of this page.
+
+
++ **Changes**:
+   - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
+
+
+**JSON Table Schema**
+
++ **Changes**: **NEW**
+
+**Resource Type**
+
++ Is the type of resource, for Applications this may not be applicable and thus choose "Not Applicable".
+
++ See the full list of value options see the BCDC Schema as linked at the top of this page.
+
+**Resource Access Method**
+
++ Describes how the end-user can access the application.
++ See the full list of value options see the BCDC Schema as linked at the top of this page.
+
++ **Changes**:
+   - **NEW Value** "Other" (`other`)
+   - Other changes [see Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
+
 
 Click **Save** when done
 
@@ -74,6 +119,6 @@ Click **Save** when done
 
 ## OTHER RESOURCES TYPES
 - [Application](./dps_bcdc_w_application.md)
-- [Document/Tabular Data](./dps_bcdc_w_dataset.md)
+- [Document/Tabular Data](./dps_bcdc_w_dataset.md/)
 - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
 - [Webservice/API](./dps_bcdc_w_webservice_api.md)
