@@ -30,22 +30,19 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 ---------------
 
 
-**Title**
-+ Is the title of the resource as it will appear on the metadata record. 
+**Title \***: Is the title of the resource as it will appear on the metadata record. 
 
 **_Resource_**
 
-+ **URL**
-    - Is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
++ **URL**: Is a link to a file or resource stored elsewhere, e.g., a website or FTP site.
     - For resources that are not available unless authorized a link to a webpage or form to instruct consumers how to obtain access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3)
 
-+ **File**:
-    - Is to upload a file, e.g., CSV, directly into the Catalogue Data Store.
++ **File**: Is when a file is uploaded directly into the Catalogue Data Store.
 
 
 ---------------
 
-**Type**
+**Type \***: Is the resource type that defines the available fields for a resource.
 + Select **Document/Tabular Data**
 
 + **Changes**:
@@ -53,17 +50,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-**Resource Description**
+**Resource Description**: Is a detailed description of the resource.
 
-+ Is a detailed description of the resource.
+**Supplemental Information**: Any additional relevant information about the resource can be included here.
 
-**Supplemental Information**
-
-+ Any additional relevant information about the resource can be included here.
-
-**Resource Update Cycle**
-
-+ Describes how often the resource is updated.
+**Resource Update Cycle \***: Describes how often the resource is updated.
 
 + **Changes**:
     - **NEW Values** "Nightly" (`nightly`); "Unknown" (`unknown`)
@@ -74,16 +65,14 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     - **Beginning Date** is the start date for the period the data is captured for.
     - **End Date** is the end date for the period the data is captured for. 
 
-**Resource Storage Format**
-
-+ Describes the file extension for the resource.
+**Resource Storage Format \***: Describes the file extension for the resource.
 
 + **Changes**:
    - **NEW Values** "geopackage" (`gpkg`); "multiple" (`multiple`)
 
-**Resource Storage Location**
+**Resource Storage Location \***: Is the location where the resource is stored.
 
-+ Is the location where the resource is stored. For files that have been uploaded using the _Upload File_ above, choose Catalogue Data Store.
+For files that have been uploaded using the Upload File above, choose Catalogue Data Store.
 
 + **Changes**:
    - **Database value** all database entries are now lower case. e.g., `BC Data Catalogue` has changed to `bc data catalogue`
@@ -93,20 +82,14 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 + **Changes**: **NEW**
 
-**Resource Type**
+**Resource Type \***: Is the type of resource: Data, Reports or Abstraction.
 
-+ Is the type of resource: Data, Reports or Abstraction.
-
-**Resource Access Method**
-
-+ Describes how the end-user can access the data.
+**Resource Access Method \***: Describes how the end-user can access the data.
 
 + **Changes**:
    - **NEW Value** "Other" (`other`)
 
-
 Click **Save** when done
-
 
 + Additional resources can be added by repeating the process above or adding other resource types.
 
