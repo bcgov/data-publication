@@ -89,11 +89,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |**Object Table Comments** (`object_table_comments`)||N|N|Y|N|_Moved from record level_
 ||
 |**Details**: (`details`)|For BCGW datasets, this is populated from the database metadata.|Y|Y|Y|Y|_Moved section from record level_|
-|**Column Name** (`column_name`)||Y|Y|Y|Y|Y|
-|**Short Name** (`short_name`)|Short name used for download for Shape Files and CSV.|Y|Y|Y|Y|Y|
-|**Data Type** (`data_type`)|Field type|Y|Y|Y|Y|Y|
-|**Data Precision** (`data_precision`)|Field lenght|Y|Y|Y|Y|Y|
-|**Column Comments** (`column_comments`)|Field definition|Y|Y|Y|Y|Y|
+|**Column Name** (`column_name`)||Y|Y|Y|Y|^|
+|**Short Name** (`short_name`)|Short name used for download for Shape Files and CSV.|Y|Y|Y|Y|^|
+|**Data Type** (`data_type`)|Field type|Y|Y|Y|Y|^|
+|**Data Precision** (`data_precision`)|Field lenght|Y|Y|Y|Y|^|
+|**Column Comments** (`column_comments`)|Field definition|Y|Y|Y|Y|^|
 ||
 |**Projection Name**\* (`projection_name`)||N|N|Y|N|_Moved from record level_
 |**JSON Table Schema** (`json_table_schema`)||Y|Y|Y|Y|**NEW**|
@@ -102,19 +102,19 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |**Resource Access Method**\* (`resource_access_method`)|Describes how the end-user can access the data.|Y|Y|Y|Y|**NEW Value** _'Other'_ (`other`)|
 ||
 |**Preview Information**: (`preview_info`)|Automatically populated if public to build the Map Preview.|N|N|Y|N|_Moved section from record level_
-|**Layer Name** (`layer_name`)|is the name of the BCGW object and is only different if the WMS uses a generalized dataset.|N|N|Y|N|Y
-|**Preview Latitude** (`preview_latitude`)|allows you to provide a map preview centroid latitude.|N|N|Y|N|Y
-|**Preview Longitude** (`preview_longitude`)|allows you to provide a map preview centroid longitude.|N|N|Y|N|Y
-|**Preview Map Service URL** (`preview_map_service_url`)|allows you to provide an alias for the map service URL.|N|N|Y|N|Y
-|**Preview Zoom Level** (`preview_zoom_level`)|allows you to provide an initial zoom level for the map preview.|N|N|Y|N|Y
-|**Image URL** (`preview_image_url`)|shows a preview of the data as a static image.|N|N|Y|N|Y
-|**Link to iMap** (`link_to_imap`)|shows an interactive preview of the data in iMapBC.|N|N|Y|N|Y
+|**Layer Name** (`layer_name`)|is the name of the BCGW object and is only different if the WMS uses a generalized dataset.|N|N|Y|N|^
+|**Preview Latitude** (`preview_latitude`)|allows you to provide a map preview centroid latitude.|N|N|Y|N|^
+|**Preview Longitude** (`preview_longitude`)|allows you to provide a map preview centroid longitude.|N|N|Y|N|^
+|**Preview Map Service URL** (`preview_map_service_url`)|allows you to provide an alias for the map service URL.|N|N|Y|N|^
+|**Preview Zoom Level** (`preview_zoom_level`)|allows you to provide an initial zoom level for the map preview.|N|N|Y|N|^
+|**Image URL** (`preview_image_url`)|shows a preview of the data as a static image.|N|N|Y|N|^
+|**Link to iMap** (`link_to_imap`)|shows an interactive preview of the data in iMapBC.|N|N|Y|N|^
 ||
 |**Geographic Extent** (`geographic_extent`)|These are auto populated with the bounding box of the province.|N|N|Y|N|_Moved from record level_
-|**North** (`north_bound_latitude`)||N|N|60.0|N|Y
-|**South** (`south_bound_latitude`)||N|N|48.0|N|Y
-|**East** (`east_bound_longitude`)||N|N|-113.5|N|Y
-|**West** (`west_bound_longitude`)||N|N|-139.5|N|Y
+|**North** (`north_bound_latitude`)||N|N|60.0|N|^
+|**South** (`south_bound_latitude`)||N|N|48.0|N|^
+|**East** (`east_bound_longitude`)||N|N|-113.5|N|^
+|**West** (`west_bound_longitude`)||N|N|-139.5|N|^
 
 ----------------
 
