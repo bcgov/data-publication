@@ -3,7 +3,7 @@ layout: default
 title: Record Management
 nav_order: 331
 grand_parent: BC Data Catalogue
-parent: Content Management UI
+parent: Content Mgmt/Use - UI
 has_children: false
 has_toc: false
 ---
