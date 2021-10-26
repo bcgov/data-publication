@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Resource Management
-nav_order: 333
-parent: How to use the API
+nav_order: 343
+parent: Content Management/Use - API
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
