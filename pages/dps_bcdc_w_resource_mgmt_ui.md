@@ -27,7 +27,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
         - [**Application Resources**](#application-resources)
         - [**Document/Tabular Dataset Resources**](#doument-and-tabular-dataset-resources)
         - [**Geographic Dataset Resources**](#geographic-datasets-resources)
-             - [**BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS**](#bc-geographic-warehouse-datasets)
+             - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse-datasets)
         - [**WebService and API Resources**](#webservice-and-api-resources)
     - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
@@ -46,11 +46,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## RESOURCE TYPES
 
-### APPLICATION RESOURCES
+### Application Resources
 
-### GEOGRAPHIC RESOURCES
+### Geographic Dataset Resources
 
-#### BC GEOGRAPHIC WAREHOUSE DATASETS
+#### BC Geographic Warehouse Datasets
 
 + Geographic Data resources type is used if they are spatially enabled or not. 
    + This is to allow for the Data Distribution Service to be configured for those datasets.
@@ -83,9 +83,9 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
         - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
 
-### DOCUMENT/TABULAR DATASET RESOURCES
+### Documument and Tabular Dataset Resources
 
-### WEBSERVICE/API RESOURCES
+### WebService and API Resources
 
 ## RESOURCE TYPE SPECIFIC FIELDS
 
