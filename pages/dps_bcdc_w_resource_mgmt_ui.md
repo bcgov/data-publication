@@ -46,6 +46,12 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ## RESOURCE TYPES
 
+1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
+2. Resources that are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
+3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
+    + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
+
+
 ### Application Resources
 
 ### Geographic Dataset Resources
