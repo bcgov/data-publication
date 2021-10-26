@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to use the API
+title: Content Management/Use - API
 nav_order: 34
 parent: BC Data Catalogue
 has_children: true
