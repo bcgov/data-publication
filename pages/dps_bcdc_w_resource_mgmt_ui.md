@@ -16,9 +16,10 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-|**AUDIENCE**| |
-|:---:|:---:|
-| *Metadata Editors* | *Metadata Admin* |
+|**AUDIENCE**|**DEFINITION**|
+|:---|:---|
+|*Metadata Editors*|Users of the BC Data Catologue who prepare records and resources for publication and/or retirement.|
+|*Metadata Admin*|Users of the BC Data Catalogue who can prepare records an resources for publication and/or retimement, including the publishing and archiving of records.|
 
 ## Table of Contents
 + [**MANAGING SPECIFIC RESOURCES**](#managing-specific-resources)
