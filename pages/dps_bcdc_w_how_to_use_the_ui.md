@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to use the UI
+title: Content Management UI
 nav_order: 34
 parent: BC Data Catalogue
 has_children: true
