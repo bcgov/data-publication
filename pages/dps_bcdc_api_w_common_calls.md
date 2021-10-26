@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Common Calls
-nav_order: 331
+nav_order: 341
 grand_parent: BC Data Catalogue
-parent: How to use the API
+parent: Content Management/Use - API
 has_children: false
 has_toc: true
 ---
