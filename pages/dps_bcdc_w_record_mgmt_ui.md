@@ -10,12 +10,6 @@ has_toc: false
 
 ## BC DATA CATALOGUE RECORD MANAGEMENT
 
-**Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
-
-For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
-
----------------
-
 ## METADATA RECORD MANAGEMENT
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
