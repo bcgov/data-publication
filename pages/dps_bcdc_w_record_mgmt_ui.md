@@ -7,8 +7,14 @@ parent: Content Management UI
 has_children: false
 has_toc: false
 ---
-
 ## BC DATA CATALOGUE RECORD MANAGEMENT
+
+|**AUDIENCE**|
+|:---:|
+| *Metadata Editors* |
+| *Metadata Admin* |
+
+---------------
 
 **Resources**
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
