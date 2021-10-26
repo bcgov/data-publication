@@ -10,6 +10,12 @@ has_toc: false
 
 ## BC DATA CATALOGUE RECORD MANAGEMENT
 
+**Resources**
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
+
+---------------
+
 ## METADATA RECORD MANAGEMENT
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
