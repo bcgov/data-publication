@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Record Management
-nav_order: 332
+nav_order: 342
 grand_parent: BC Data Catalogue
-parent: How to use the API
+parent: Content Management/Use - API
 has_children: false
 has_toc: false
 ---
