@@ -31,10 +31,9 @@ Within the search bar, once can pass queries
 
 ## BC DATA CATALOGUE RECORD CONTENT MANAGEMENT
 
-_under construction_
+[Record Management](./dps_bcdc_w_resource_mgmt_ui.md)
 
 ## BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
-**This document is actively being updated to correspond with the BC Data Catalogue Beta releases**
 
 1. There are four defined resource types: 
     - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
