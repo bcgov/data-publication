@@ -10,12 +10,7 @@ has_toc: false
 
 # RECORD MANAGEMENT USING THE BC DATA CATALOGUE API
 
-**Corresponds to the Beta BC Data Catalogue release that will go to production soon.**
-
-For the classic catalogue specific user pages see [BCDC Classic Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_classic_w.html).
-
 -------------
-
 
 |**AUDIENCE**|
 |:---:|
@@ -27,6 +22,11 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 	+ [How to create a record with the API](#how-to-create-a-record-with-the-api)
 	+ [How to update a record with the API using package_patch](#how-to-update-a-record-with-the-api-using-package_patch)
 
+-----------------------
+**Resources**
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
++ 
 -----------------------
 
 ## HOW TO MANAGE RECORD USING THE CATALOGUE API
