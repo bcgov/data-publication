@@ -26,7 +26,7 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     - [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
         - [**Application Resources**](#application-resources)
         - [**Document/Tabular Dataset Resources**](#doument-and-tabular-dataset-resources)
-        - [**Geographic Dataset Resources**](#geographic-datasets-resources)
+        - [**Geographic Dataset Resources**](#geographic-dataset-resources)
              - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse-datasets)
         - [**WebService and API Resources**](#webservice-and-api-resources)
     - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
