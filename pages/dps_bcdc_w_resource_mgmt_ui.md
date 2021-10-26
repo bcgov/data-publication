@@ -2,7 +2,7 @@
 layout: default
 title:  Resource Management
 nav_order: 332
-parent: Content Management UI
+parent: Content Mgmt/Use - UI
 grand_parent: BC Data Catalogue
 has_children: false
 has_toc: true
