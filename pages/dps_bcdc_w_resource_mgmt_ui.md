@@ -22,13 +22,13 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 |*Metadata Admin*|Users of the BC Data Catalogue who can prepare records an resources for publication and/or retimement, including the publishing and archiving of records.|
 
 ## Table of Contents
-+ [**MANAGING SPECIFIC RESOURCES**](#managing-specific-resources)
-    - [**BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS**](#bc-geographic-warehouse-datasets)
-        + [BCGW Dataset Resources](#bcgw-dataset-resources)
-        + [BCGW WMS Resources](#bcgw-wms-resources)
-        + [BCGW Network Link KML](#bcgw-network-link-kml-resources)
-    - [**BC DATA CATALOGUE (BCDC) DATASETS**](#bc-data-catalogue-datasets)
 + [**ADD A RESOURCE**](#add-a-resource)
+    - [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
+        - [**Application Resources**](#application-resources)
+        - [**Document/Tabular Dataset Resources**](#doument-and-tabular-dataset-resources)
+        - [**Geographic Dataset Resources**](#geographic-datasets-resources)
+             - [**BC GEOGRAPHIC WAREHOUSE (BCGW) DATASETS**](#bc-geographic-warehouse-datasets)
+        - [**WebService and API Resources**](#webservice-and-api-resources)
     - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
 ---------------
@@ -38,11 +38,19 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
 
 ---------------
 
-# MANAGING SPECIFIC RESOURCES
+# ADD A RESOURCE
 
-## BC GEOGRAPHIC WAREHOUSE DATASETS
+**To add a resource:**
+1. Click the **Add Resource** button on the toolbar at the record level.
+1. Fill out all the required fields for each resource type as described below.
 
-### BCGW DATASET RESOURCES
+## RESOURCE TYPES
+
+### APPLICATION RESOURCES
+
+### GEOGRAPHIC RESOURCES
+
+#### BC GEOGRAPHIC WAREHOUSE DATASETS
 
 + Geographic Data resources type is used if they are spatially enabled or not. 
    + This is to allow for the Data Distribution Service to be configured for those datasets.
@@ -75,27 +83,9 @@ For the classic catalogue specific user pages see [BCDC Classic Workflow](https:
     + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
         - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
 
-[RETURN TO TOP][1]
+### DOCUMENT/TABULAR DATASET RESOURCES
 
-### BCGW WMS RESOURCES
-
-[RETURN TO TOP][1]
-
-### BCGW NETWORK LINK KML RESOURCES
-
-[RETURN TO TOP][1]
-
-## BC DATA CATALOGUE DATASETS
-
-**Specific Field Requirements**
-
----------------
-
-# ADD A RESOURCE
-
-**To add a resource:**
-1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described below.
+### WEBSERVICE/API RESOURCES
 
 ## RESOURCE TYPE SPECIFIC FIELDS
 
