@@ -7,6 +7,21 @@ has_children: true
 has_toc: false
 ---
 
+## BC DATA CATALOGUE RECORD CONTENT MANAGEMENT
+
+[Record Management](./dps_bcdc_w_resource_mgmt_ui.md)
+
+## BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
+
+[Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
+
+1. There are four defined resource types: 
+    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
+    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#doument-and-tabular-dataset-resources)
+    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-dataset-resources)
+    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api-resources)
+
+--------
 ## BC DATA CATALOGUE ADVANCED SEARCH
 
 Within the search bar, once can pass queries
@@ -22,17 +37,3 @@ Within the search bar, once can pass queries
 **Combination of the two**
 
 ```:* record_publish_date:[2017-05-21T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] license_id:2 *:```
-
-## BC DATA CATALOGUE RECORD CONTENT MANAGEMENT
-
-[Record Management](./dps_bcdc_w_resource_mgmt_ui.md)
-
-## BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
-
-[Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
-
-1. There are four defined resource types: 
-    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
-    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#doument-and-tabular-dataset-resources)
-    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-dataset-resources)
-    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api-resources)
