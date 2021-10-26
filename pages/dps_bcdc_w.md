@@ -161,13 +161,13 @@ Resources are the additional metadata specific to that resource as a record can 
 1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described for each of these resource types.
 
-    - [Application](./dps_bcdc_w_application.md)
-    - [Geographic Data](./dps_bcdc_w_geographic_dataset.md)
-    - [Tabular Data/Document](./dps_bcdc_w_dataset.md)
-    - [Webservice/API](./dps_bcdc_w_webservice_api.md)
+    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
+    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#doument-and-tabular-dataset-resources)
+    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-dataset-resources)
+    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api-resources)
 
 _Notes:_
-+ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_w_api_metadata_mgmt.md)
++ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_api_w_how_to_use.md)
 + Only files less than 150MB in size can be uploaded to the Catalogue file store.
 
 ### REORDERING RESOURCES
