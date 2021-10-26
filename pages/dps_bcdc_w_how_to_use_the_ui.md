@@ -35,6 +35,8 @@ Within the search bar, once can pass queries
 
 ## BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
 
+[Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
+
 1. There are four defined resource types: 
     - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
     - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#doument-and-tabular-dataset-resources)
