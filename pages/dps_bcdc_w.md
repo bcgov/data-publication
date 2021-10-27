@@ -124,7 +124,7 @@ _Note: To use the CKAN API for creating metadata, more information is available 
 1. Click the [**Add Dataset**] button.
 1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
     + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
-    + Follow the [Workflow](./dps_bcdc_record.md) to complete all mandatory fields (minimum requirement). 
+    + Follow the [Workflow](./dps_bcdc_w_record_mgmt_ui.md) to complete all mandatory fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata).
 1. Click the [**Save**] button. 
