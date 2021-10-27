@@ -93,22 +93,22 @@ for resource in pkg_data['resources']:
 ## COMMON CALLS
 
 + **Licence list** is found [here](https://licenses-bcdc.data.gov.bc.ca/bcdc_licenses.json).
-+ **JSON Schema** is found [here](https://cat.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset).
++ **JSON Schema** is found [here](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset).
 
 ### object_name
-[https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP](https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP)
+[https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP)
 
 ### bcdc_type
-[https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic](https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic)
+[https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic)
 
 ### resource_storage_location
-[https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse](https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse)
+[https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse)
 
 ### format
-[https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv](https://cat.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv)
+[https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv)
 
 ### licence_id
-[https://cat.data.gov.bc.ca/api/3/action/package_search?q=license_id:2](https://cat.data.gov.bc.ca/api/3/action/package_search?q=license_id:2)
+[https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=license_id:2](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=license_id:2)
 
 
 -------------------------------------------------------
