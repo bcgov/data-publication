@@ -93,7 +93,7 @@ has_toc: true
 
 **Name**\* (`name`): 
 
-+ Is the title of the resource as it will appear on the metadata record.
++ Is the title of the resource as it will appear on the resource record and card.
 
 |**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
@@ -188,7 +188,9 @@ has_toc: true
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **Changes**: _Moved from record level_ 
++ **Changes**:
+    - _Moved from record level_
+    - _Now a mandatory field_
 
 |**Object Short Name** (`object_short_name`): 
 + Short name used for download for Shape Files.
@@ -224,33 +226,84 @@ has_toc: true
 
 + **Changes**: _Moved section from record level_
 
-|**Projection Name**\* (`projection_name`): Is a drop down list of common projections used in BC for geographic data. |N|N|Y|N|
-|-> **Changes**:_Moved from record level_ <-
-|**JSON Table Schema** (`json_table_schema`): |Y|Y|Y|Y|
-|-> **Changes**: **NEW** field <-
-|**ISO Topic Category**\* (`iso_topic_category`): [Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)|N|N|Y|N|
-|-> **Changes**: _Moved from record level_ <-
-|**Resource Type**\* (`resource_type`): Is the type of resource. Being reviewed if useful.|Y|Y|Y|Y|
-|-> **NEW Value** _'Not Applicable'_ (`na`) <-
-|**Resource Access Method**\* (`resource_access_method`): Describes how the end-user can access the data.|Y|Y|Y|Y|
-|-> **NEW Value** _'Other'_ (`other`) <-
-||
-|**Preview Information**: (`preview_info`): Automatically populated if public to build the Map Preview.|N|N|Y|N|
-|-> **Changes**: _Moved section from record level_ <-
-|**Layer Name** (`layer_name`): is the name of the BCGW object and is only different if the WMS uses a generalized dataset.|N|N|Y|N|
-|**Preview Latitude** (`preview_latitude`): allows you to provide a map preview centroid latitude.|N|N|Y|N|
-|**Preview Longitude** (`preview_longitude`): allows you to provide a map preview centroid longitude.|N|N|Y|N|
-|**Preview Map Service URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.|N|N|Y|N|
-|**Preview Zoom Level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.|N|N|Y|N|
-|**Image URL** (`preview_image_url`): shows a preview of the data as a static image.|N|N|Y|N|
-|**Link to iMap** (`link_to_imap`): shows an interactive preview of the data in iMapBC.|N|N|Y|N|
-||
-|**Geographic Extent** (`geographic_extent`): These are auto populated with the bounding box of the province.|N|N|Y|N|
-|-> **Changes**: _Moved section from record level_ <-
-|**North** (`north_bound_latitude`)|N|N|60.0|N|
-|**South** (`south_bound_latitude`)|N|N|48.0|N|
-|**East** (`east_bound_longitude`)|N|N|-113.5|N|
-|**West** (`west_bound_longitude`)|N|N|-139.5|N|
+**Projection Name**\* (`projection_name`):
++ Is a drop down list of common projections used in BC for geographic data.
+
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|N|N|Y|N|
+
++ **Changes**:
+    - _Moved from record level_
+    - _Database values now short names instead of full label_
+
+
+**JSON Table Schema** (`json_table_schema`):
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|Y|Y|Y|Y|
+
++ **Changes**: **NEW** field
+
+**ISO Topic Category**\* (`iso_topic_category`): 
++ [Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). 
++ [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)
+
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|N|N|Y|N|
+
++ **Changes**: _Moved from record level_
+
+**Resource Type**\* (`resource_type`): 
++ Is the type of resource. Being reviewed if useful.
+
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|Y|Y|Y|Y|
+
++  **NEW Value**: _'Not Applicable'_ (`na`)
+
+**Resource Access Method**\* (`resource_access_method`):
++ Describes how the end-user can access the data.
+
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|Y|Y|Y|Y|
+
++  **NEW Value** _'Other'_ (`other`)
+
+**Preview Information**: (`preview_info`) **Secton**: 
++ Automatically populated if public to build the Map Preview.
+
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|N|N|Y|N|
+
++ **Layer Name** (`layer_name`): is the name of the BCGW object and is only different if the WMS uses a generalized dataset.
++ **Preview Latitude** (`preview_latitude`): allows you to provide a map preview centroid latitude.
++ **Preview Longitude** (`preview_longitude`): allows you to provide a map preview centroid longitude.
++ **Preview Map Service URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.
++ **Preview Zoom Level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.
++ **Image URL** (`preview_image_url`): shows a preview of the data as a static image.
++ **Link to iMap** (`link_to_imap`): shows an interactive preview of the data in iMapBC.
+
++ **Changes**: _Moved section from record level_ 
+
+
+**Geographic Extent** (`geographic_extent`) **Secton**:
++ These are auto populated with the bounding box of the province.
+
+|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|:---|:---:|:---:|:---:|:---:|
+|Available Field|N|N|Y|N|
+
++ **North** (`north_bound_latitude`): 60.0
++ **South** (`south_bound_latitude`): 48.0
++ **East** (`east_bound_longitude`): -113.5
++ **West** (`west_bound_longitude`):-139.5
+
++ **Changes**: _Moved section from record level_
 
 ----------------
 
