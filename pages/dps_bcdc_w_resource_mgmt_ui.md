@@ -222,7 +222,7 @@ has_toc: true
 + **Short Name** (`short_name`): Short name used for download for Shape Files and CSV.
 + **Data Type** (`data_type`): Field type
 + **Data Precision** (`data_precision`): Field length
-+ **Column Comments** (`column_comments`): Field definition|
++ **Column Comments** (`column_comments`): Field definition
 
 + **Changes**: _Moved section from record level_
 
