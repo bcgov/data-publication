@@ -61,7 +61,7 @@ has_toc: false
 ### Technical Support regarding DataBC products and services
 + (250) 952-6801
 + NRMenquiries@gov.bc.ca
-+ https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals
++ NRM Business Service Desk at the IIT Service Centre portal https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals/
 
 
 The following is a list of DataBC groups with direction on their areas of expertise and who to contact when you need assistance and clarification.
@@ -355,7 +355,7 @@ Before asking to publish data to the BCGW, consider:
 3. Data Download from iMapBC and the BC Data Catalogue
 
 ### What is the LRDW?
-+ If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historic name for what is now the BCGW or the BC Geographic Warehouse. 
++ If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historical name for what is now the BCGW or the BC Geographic Warehouse. 
 
 ### Refreshing Data - the ETL Process
 
@@ -444,14 +444,14 @@ Before asking to publish data to the BCGW, consider:
 #### How do I get a Feature Code (FCODE) created/updated?
 
 + Feature Codes or FCODEs are no longer mandatory in the BCGW.
-+ here are however still cases where these are needed.
++ There are however still cases where these are needed.
 + To obtain a new FCODE, contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
 #### Do I really need Feature Codes?
 
-+ Feature Codes or FCODEs are not mandatory in the BCGW but they are still useful to delineate features in a dataset.
++ Feature Codes or FCODEs are not mandatory in the BCGW but they are still sometimes useful to define or categorize features in a dataset.
 + Datasets that only contain one type of information do not need an FCODE.
-+ Datasets that already have FCODEs that are used to separate and symbolize different values, it is recommend to create an FCODE when a new value is then created.
++ Datasets that already have FCODEs that are used to separate and symbolize different values, it is recommended to create an FCODE when a new value is created.
 + Refer to [_How do I get an Feature Code (FCODE) created/updated?_](#how-do-i-get-a-feature-code-fcode-createdupdated)
 
 ### Retiring datasets from the BC Geographic Warehouse
