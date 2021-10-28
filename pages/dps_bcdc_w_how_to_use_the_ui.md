@@ -34,6 +34,10 @@ Within the search bar, once can pass queries
 
 ```:* license_id:2 *:```
 
+**Object Names**
+
+```:* WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP *:```
+
 **Combination of the two**
 
 ```:* record_publish_date:[2017-05-21T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] license_id:2 *:```
