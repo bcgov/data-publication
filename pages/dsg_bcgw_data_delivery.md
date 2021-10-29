@@ -51,7 +51,7 @@ This page outlines the standards and processes which must be followed when publi
 
 ## ROLES AND RESPONSIBILITIES
 
-Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. Please refer to the BC Geographic Warehouse > BCGW Standards and Guidelines > [_Roles and Responsibilities_](dsg_bcgw_roles_and_responsibilities.md) page for a description of the roles and responsibilities of each of these partners.
+Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved, and the project’s business analyst. Please refer to the BC Geographic Warehouse > BCGW Standards and Guidelines > [_Roles and Responsibilities_](dsg_bcgw_roles_responsibilities.md) page for a description of the roles and responsibilities of each of these partners.
 
 -----------------------
 
