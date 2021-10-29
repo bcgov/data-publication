@@ -16,14 +16,17 @@ has_toc: true
 |*Metadata Admin*|Users of the BC Data Catalogue who can prepare records an resources for publication and/or retimement, including the publishing and archiving of records.|
 
 ## Table of Contents
+
++ [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
+    - [**Application Resources**](#application-resources)
+    - [**Document/Tabular Dataset Resources**](#doument-and-tabular-dataset-resources)
+    - [**Geographic Dataset Resources**](#geographic-dataset-resources)
+         - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse-datasets)
+    - [**WebService and API Resources**](#webservice-and-api-resources)
 + [**ADD A RESOURCE**](#add-a-resource)
-    - [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
-        - [**Application Resources**](#application-resources)
-        - [**Document/Tabular Dataset Resources**](#doument-and-tabular-dataset-resources)
-        - [**Geographic Dataset Resources**](#geographic-dataset-resources)
-             - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse-datasets)
-        - [**WebService and API Resources**](#webservice-and-api-resources)
-    - [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
++ [**EDIT A RESOURCE**](#edit-a-resource)
+    - [**Replace a File in the Catalogue Data Store**](replace-a-file-in-the-catalogue-data-store)
++ [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
 ---------------
 **Resources**
@@ -32,13 +35,8 @@ has_toc: true
 
 ---------------
 
-# ADD A RESOURCE
 
-**To add a resource:**
-1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described below.
-
-## RESOURCE TYPES
+# RESOURCE TYPES
 
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
@@ -46,11 +44,11 @@ has_toc: true
     + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 
-### Application Resources
+## Application Resources
 
-### Geographic Dataset Resources
+## Geographic Dataset Resources
 
-#### BC Geographic Warehouse Datasets
+### BC Geographic Warehouse Datasets
 
 + Geographic Data resources type is used if they are spatially enabled or not. 
    + This is to allow for the Data Distribution Service to be configured for those datasets.
@@ -83,11 +81,36 @@ has_toc: true
     + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
         - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
 
-### Documument and Tabular Dataset Resources
+## Documument and Tabular Dataset Resources
 
-### WebService and API Resources
+## WebService and API Resources
 
-## RESOURCE TYPE SPECIFIC FIELDS
+# ADD A RESOURCE
+
+**To add a resource:**
+1. Click the **Add Resource** button on the toolbar at the record level.
+1. Fill out all the required fields for each resource type as described below as noted in the [field section](#resource-type-specific-fields).
+
+# EDIT A RESOURCE
+**To edit a resource:**
+1. Log In
+1. Navigate to the record to edit (that you have the privileges to do so) and either:
+    1. Click the **Pencil** icon on the Resource Card list on the right or
+       - This will open the resource in edit mode.
+    1. Click on the resource title or the View button.
+        1. Click on the _Edit resource_ button.
+1. Update the fiel(s) as needed out. See the [field section](#resource-type-specific-fields) for more details.
+
+## Replace a File in the Catalogue Data Store
+
+1. Once in edit mode of the resouce
+1. Click on the **File** circle
+1. Click on the **paper clip** icon
+1. Navigate to new replacement file
+1. Click **Open**
+1. Click **Save**
+
+# RESOURCE TYPE SPECIFIC FIELDS
 
 \* indicates required fields.
 
