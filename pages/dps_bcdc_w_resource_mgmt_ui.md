@@ -25,7 +25,7 @@ has_toc: true
     - [**WebService and API Resources**](#webservice-and-api-resources)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
-    - [**Replace a File in the Catalogue Data Store**](replace-a-file-in-the-catalogue-data-store)
+    - [**Replace a File in the Catalogue Data Store**](#replace-a-file-in-the-catalogue-data-store)
 + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
 ---------------
