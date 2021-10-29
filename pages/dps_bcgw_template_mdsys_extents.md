@@ -1,5 +1,3 @@
-
-
 ---
 layout: default
 title: Oracle MDSYS Extents
@@ -8,6 +6,7 @@ parent: BCGW Standards and Guidelines
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
+
 
 ```
 --
