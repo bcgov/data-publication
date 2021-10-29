@@ -9,7 +9,7 @@ grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
-
+```
 --
 -- Include the following SQL for each table and view where the extent is unknown or known not to be the entire Province.
 --
@@ -54,3 +54,4 @@ WHERE table_name = 'fillInTableOrView' AND column_name = 'SHAPE'  -- or GEOMETRY
 /
 COMMIT
 /
+```
