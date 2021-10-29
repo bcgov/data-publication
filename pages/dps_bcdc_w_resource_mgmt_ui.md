@@ -99,7 +99,7 @@ has_toc: true
        - This will open the resource in edit mode.
     1. Click on the resource title or the View button.
         1. Click on the _Edit resource_ button.
-1. Update the fiel(s) as needed out. See the [field section](#resource-type-specific-fields) for more details.
+1. Update the fiel(s) as needed. See the [field section](#resource-type-specific-fields) for more details.
 
 ## Replace a File in the Catalogue Data Store
 
