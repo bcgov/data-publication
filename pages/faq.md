@@ -87,7 +87,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 
 ### Location Services 
 
-+ [BC Geocoder](dps_loc_address_geocoder.md)
++ [BC Address Geocoder](dps_loc_address_geocoder.md)
 + Address Validator
 + BC Route Planner
 + _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
