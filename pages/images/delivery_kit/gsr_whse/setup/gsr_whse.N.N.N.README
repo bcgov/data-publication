@@ -1,0 +1,171 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+THIS IS A TEMPLATE - REPLACE ALL LINES WITH ~~~ IN THEM 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DESCRIPTION
+===========
+
+  Purpose  : This package provides BCGW objects for GSR_WHSE version ~~~N.N.N~~~
+  Release  : ~~~GSR_WHSE.N.N.N~~~
+  Created  : ~~~MONTH YEAR~~~
+  Author   : ~~~WHO-AM-I (WHERE-I-WORK)~~~ 
+
+OBJECTS CREATED/MODIFIED
+========================
+
+  SPATIAL VIEWS
+  -------------
+
+    ~~~WHSE_IMAGERY_AND_BASE_MAPS.VIEW_NAME_1_SV~~~
+
+  NON-SPATIAL VIEWS
+  -----------------
+
+    ~~~WHSE_IMAGERY_AND_BASE_MAPS.VIEW_NAME_2_VW~~~
+
+SOFTWARE/HARDWARE REQUIREMENTS
+==============================
+
+  Database: BCGW  
+  Oracle:   ORACLE12C
+  ArcSDE:   10.4.1
+
+THE FOLLOWING SCHEMA INFORMATION WAS PROVIDED BY DATABC PRIOR TO THIS DELIVERY
+==============================================================================
+
+  Schema:         WHSE_IMAGERY_AND_BASE_MAPS
+  Database roles: SRM_WHSE_IMG_BM_BASE_PUB
+
+THE FOLLOWING FILES HAVE BEEN PROVIDED FOR THE DELIVERY
+=======================================================
+
+  DDL FILES (ddl directory)
+  -------------------------
+  
+    GSR_WHSE.sql
+    GSR_WHSE.grt
+    GSR_WHSE.vw
+
+  DML FILES (scripts directory)
+  ---------------------------------------------------
+  
+    none
+	
+  FME FMW FILES (dataload directory)
+  ----------------------------------
+  
+    ~~~VIEW_NAME_1_staging_csv_bcgw.fmw~~~
+
+  FILES TO BE RUN IN THE EVENT THAT DELIVERY HAS TO BE UNDONE (revert_to_previous directory)
+  ------------------------------------------------------------------------------------------
+
+    none
+
+INSTALL INSTRUCTIONS
+====================
+
+  1. ACCESSING FILES AND PREPARING FOR THE INSTALL
+  ------------------------------------------------
+    In order to install the application the respective files need to be accessed from the Gogs repository,
+    and contents moved to the appropriate directories. Instructions for working with DataBC's Gogs environment can be found here:
+    https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/Gogs_Instructions_For_Vendors.md
+
+    1.1 Extract the delivery from the following Gogs repository:
+
+      https://gogs.data.gov.bc.ca/datasets/gsr_whse.git
+
+    1.2 Copy the files to their target directories as required.
+
+  2. CREATE THE DATABASE OBJECTS (Data Delivery Specialist does this)
+  -------------------------------------------------------------------
+
+    The following section describes the steps needed to create the objects. However, prior to executing these steps, confirm if
+    objects of the same name already exist in the same schema as described below. If so, skip to the section UNINSTALL INSTRUCTIONS.
+    Execute those instructions as necessary to remove the prior copies of the objects. Once complete, return to this step and 
+    continue with the installation. 
+
+    2.1 Change to the N.N.N_XXXXX\ddl folder
+    2.2 Connect to the target database as WHSE_IMAGERY_AND_BASE_MAPS using sqlplus, Toad, SQL*Developer, etc.)
+    2.3 Create the views.
+
+      2.3.1 Run the following: start GSR_WHSE.sql  (NOTE: Output will be spooled to the GSR_WHSE.lst file.)
+      2.3.2 Review the spooled output to check if any errors were encountered. If no errors are found then delete the spool file.
+
+    2.4 Exit sqlplus, Toad, SQL*Developer, etc.
+
+  3. REGISTER WITH SDE: Create SDE layers for spatial tables and spatial views (Data Delivery Specialist does this)
+  -----------------------------------------------------------------------------------------------------------------
+
+    The following section describes the steps needed to register the spatial layers.
+	
+	Using ArcCatalog, 
+	         - Open a database connection in ArcCatalog as the schema owner
+             - Select the spatial table
+			 - Right click and select Manage / Register with Geodatabase
+			 - After a brief delay, a "Register with Geodatabase" panel will pop-up
+			 - For "Object ID Field",  select the proper ArcGIS rowid column (normally OBJECTID)
+			 - For "Shape Field", select the proper geometry column (normally SHAPE or GEOMETRY)
+			 - For "Geometry Type", select POINT
+			 - For "Coordinate System", specify 3005 
+			 - For "Extent", leave blank 
+			 - Click the OK button.
+
+  4. RELOAD ALL TABLES and refresh materialized views  (DA does this)
+  -------------------------------------------------------------------
+
+    4.1 Run the metadata loads:
+    
+    Run the following FMW's in the BCGW_REP_ON_REQUEST repository:
+    gsr_custodians_staging_csv_bcgw.fmw
+    gsr_business_categories_staging_csv_bcgw.fmw
+    gsr_occupant_types_staging_csv_bcgw.fmw
+    gsr_noncore_columns_staging_csv_bcgw.fmw
+    gsr_column_mappings_staging_csv_bcgw.fmw
+
+    
+    4.2 FMW for this occupant type has been prepped and is sitting in {DA-FILLS-THIS-IN}
+
+          ~~~VIEW_NAME_1_staging_csv_bcgw.fmw~~~
+
+  5. Update Oracle Spatial Metadata 
+  ---------------------------------
+  
+    5.1 Change to the N.N.N_XXXXX\scripts folder
+
+      To update the metadata, connect to the target database as the schema owner using sqlplus, Toad, SQL*Developer, etc. and execute 
+      ~~~gsr_whse_compute_mdsys_extents.sql~~~
+
+
+        
+UNINSTALL INSTRUCTIONS
+======================
+
+  This section describes the steps that need to be taken if the delivery is making changes to objects that already exist in the BCGW.
+
+  Ensure that any data in SDE tables/layers is backed up or not required. 
+
+  Log into ArcCatalog as the schema owner and delete the following layers, in the following order:
+
+    ~~~VIEW_NAME_2_SV~~~
+    ~~~VIEW_NAME_1_SV~~~
+    
+
+REVERSION INSTRUCTIONS
+======================
+  
+   This section describes the steps that need to be taken if it is decided to undo a delivery and revert the BCGW to the previous version. 
+   
+   SQL and registration scripts must be supplied in the "revert_to_previous" directory. The process for reloading/restoring data must be described as well. In the case of tables loaded through FME, the tables can be reloaded using the FME fmw for the tables(s) currently stored in FME Server.
+   
+   
+   For views that just need to be deleted from the database for the delivery to be in a previous state:
+   
+   1) Log into ArcCatalog as the Schema owner and navigate to the objects and delete.
+
+
+NOTIFICATION
+============
+
+  Alert the Project Manager, the Application Manager, and the Business Analyst that the delivery
+  is complete. Any changes to ArcSDE layers should be communicated to ArcIMS/IMF support.
+

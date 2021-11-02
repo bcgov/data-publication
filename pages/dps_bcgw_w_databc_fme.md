@@ -59,6 +59,8 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 
 Before using the FME Framework for the first time there are a couple of FME options that have to be reset.  These steps should only have to be done once.
 
+Note that FME 2017 was the version used in preparing the following instructions and images.
+
 ### Allow Reader Feature Type Editing
 
 The FME Framework requires you to be able to link published parameters to reader feature types (tables).  By default, FME will not allow you to do this. You must explicitly allow FME to **Allow reader feature type editing**, by following these steps:
@@ -102,14 +104,14 @@ The FME Framework requires you to be able to link published parameters to reader
 
 ## CREATING AN FMW
 
-+ Start with a new FMW or one of the [_FME Framework templates_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit).
-	+ [_For Loading to a GSR view_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/gsr_whse/WHSE_IMAGERY_AND_BASE_MAPS/N.N.N_descriptive_name_of_release/dataload/gsr_zzz_sv_staging_csv_bcgw.fmw) 
-	+ [_For Loading to any other view_](https://gogs.data.gov.bc.ca/datasets/templates/src/branch/master/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw)
++ Start with a new FMW or one of the [_FME Framework templates_](images/delivery_kit).
+	+ [_For Loading to a GSR view_](images/delivery_kit/gsr_whse/WHSE_IMAGERY_AND_BASE_MAPS/N.N.N_descriptive_name_of_release/dataload/gsr_zzz_sv_staging_csv_bcgw.fmw) 
+	+ [_For Loading to any other view_](images/delivery_kit/xyz_whse/WHSE_SCHEMA_NAME/dataload/bcgw_table_name_staging_csv_bcgw.fmw)
 + Always test your scripts in the BCGW Delivery environment before submitting them to DataBC.
 
 ### If developing on a GTS server, configure a dbCreds.json file
 
-The DataBC FME Framework, when run on a DataBC FME Workbench workstation or on FME Server, retrieves passwords from a password management system accessible only by DataBC processes. GTS servers do not have access to this password management system, so scripts that are running on the GTS environment need some other way of retrieving passwords. This is done through supplying a file called 'dbCreds.json' in the same directory in which the FMW being run by FME Workbench is located. Example files are available in Gogs in the same directories as the sample FMW's. Copy the example .json file to the same directory as your FMW, then open it up and add the required parameters. Also make sure to copy the associated .sde connection file into this same directory.
+The DataBC FME Framework, when run on a DataBC FME Workbench workstation or on FME Server, retrieves passwords from a password management system accessible only by DataBC processes. GTS servers do not have access to this password management system, so scripts that are running on the GTS environment need some other way of retrieving passwords. This is done through supplying a file called 'dbCreds.json' in the same directory in which the FMW being run by FME Workbench is located. Example files are available [here](images\delivery_kit\xyz_whse\WHSE_SCHEMA_NAME\dataload). Copy the example .json file to the same directory as your FMW, then open it up and add the required parameters. Also make sure to copy the associated .sde connection file into this same directory.
 
 When you deliver the FMW to DataBC, do not include the dbCreds.json file with the files you deliver.  Instead arrange with DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) to have the passwords included into our password management system.  
   

@@ -1,0 +1,259 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+THIS IS A TEMPLATE - REPLACE THIS SECTION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DESCRIPTION
+===========
+
+  Purpose  : This package provides ~~~BCGW DBC~~~ objects for ~~~fillInProjectName~~~
+  Release  : ~~~xyz_whse.N.N.N~~~  or  ~~~xyz_app.N.N.N~~~
+  Created  : ~~~monthYear~~~
+  Author   : ~~~myNameWorkFor~~~ 
+
+OBJECTS CREATED/MODIFIED/DELETED, WITH GEOMETRY TYPES
+=====================================================
+
+     OBJECTS - CREATED
+  ------------------------
+    ~~~SCHEMA.TABLE_NAME_1_SP~~~	~~~(Point/MultiPoint/Line/Polygon)~~~
+    ~~~SCHEMA.TABLE_NAME_2_SP~~~	~~~(Point/MultiPoint/Line/Polygon)~~~
+    ~~~SCHEMA.TABLE_NAME_1_SV~~~	~~~(Point/MultiPoint/Line/Polygon)~~~
+    ~~~SCHEMA.TABLE_NAME_2_SV~~~	~~~(Point/MultiPoint/Line/Polygon)~~~
+    ~~~SCHEMA.TABLE_NAME_MV~~~		~~~(Point/MultiPoint/Line/Polygon/Tabular)~~~
+    ~~~SCHEMA.TABLE_NAME~~		~~~(Tabular)~~~
+
+	
+    OBJECTS - MODIFIED
+  ------------------------
+    ~~~SCHEMA.TABLE_NAME_SP~~~	~~~(Point/MultiPoint/Line/Polygon)~~~
+    ~~~SCHEMA.TABLE_NAME_SV~~~	~~~(Point/MultiPoint/Line/Polygon)~~~
+    ~~~SCHEMA.TABLE_NAME_MV~~~	~~~(Point/MultiPoint/Line/Polygon/Tabular)~~~
+    ~~~SCHEMA.TABLE_NAME~~~		~~~(Tabular)~~~
+
+    OBJECTS - DELETED
+  ----------------------
+    ~~~SCHEMA.TABLE_NAME_1_SP~~~
+    ~~~SCHEMA.TABLE_NAME_2_SP~~~
+     
+SOFTWARE/HARDWARE REQUIREMENTS
+==============================
+
+  Database: ~~~BCGW DBC~~~  
+  Oracle:   ~~~ORACLE12C~~~
+  ArcSDE:   ~~~10.6.1~~~
+
+THE FOLLOWING SCHEMA INFORMATION WAS PROVIDED BY DATABC PRIOR TO THIS DELIVERY
+==============================================================================
+
+  Database roles: ~~~ROLE1~~~ 
+                  ~~~ROLE2~~~
+                  ~~~ROLE3~~~	
+
+THE FOLLOWING FILES HAVE BEEN PROVIDED FOR THE DELIVERY
+=======================================================
+
+  DDL FILES (ddl directory; all names in lowercase)
+  -------------------------
+  
+    ~~~xyz_whse.con~~~
+    ~~~xyz_whse.grt~~~
+    ~~~xyz_whse.ind~~~
+    ~~~xyz_whse.sql~~~
+    ~~~xyz_whse.tab~~~
+    ~~~xyz_whse.trg~~~
+    ~~~xyz_whse.vw~~~
+    ~~~etc~~~
+
+  DML FILES (scripts directory; all names in lowercase)
+  ---------------------------------------------------
+  
+    ~~~xyz_whse_compute_mdsys_extents.sql~~~
+    ~~~xyz_whse_remove_mdsys_rows.sql~~~
+    ~~~etc~~~
+
+
+  FME FMW FILES (dataload directory - name all in lowercase)
+  ----------------------------------
+  
+    ~~~[warehouse layer name (in full)]_[source location]_[source format]_[destination location].fmw~~~
+    ~~~etc~~~
+
+  REVERT TO PREVIOUS FILES TO BE RUN (revert_to_previous directory)
+  ------------------------------------------------------------------------------------------
+  List any other scripts required to revert the object or database to the state prior to deployment
+	~~~ DDL files (note that all DDL can be in one file or one file per object) ~~~
+	~~~ MDSYS metadata calculation scripts ~~~
+	~~~ Data loading scripts (or you can just reference an existing FMW that has been saved to FME Server) ~~~
+    
+	
+  
+INSTALL INSTRUCTIONS
+====================
+
+  1. ACCESSING FILES AND PREPARING FOR THE INSTALL
+  ------------------------------------------------
+    In order to install the application the respective files need to be accessed from the Gogs repository,
+    and contents moved to the appropriate directories. Instructions for working with DataBC's Gogs environment can be found here:
+    https://gogs.data.gov.bc.ca/datasets/templates/src/master/delivery_kit/Gogs_Instructions_For_Vendors.md
+
+    1.1 Extract the delivery from the following Gogs repository:
+
+      ~~~https://gogs.data.gov.bc.ca/datasets/xyz_whse.git~~~
+
+    1.2 Clone the files to their target directories as required.
+
+  2. CREATE THE DATABASE OBJECTS
+  -------------------------------------------------------------------
+
+	If objects already exist in the same schema follow these the steps in 2.1, if not skip to 2.2.
+
+    2.1 Log into ArcCatalog as the schema owner
+		2.1.1 Select and Delete all views first:
+		  ~~~listViews~~~
+			  
+		2.1.2 Select and Delete all tables:
+		  ~~~listTables~~~
+		  
+	2.2 Change to the ddl directory
+    
+    2.3 Open a sql based tool as the schema owner (e.g., sqlplus, Toad, SQL*Developer)
+	    
+    2.4 Create the tables and triggers.
+      2.4.1 Run the following:  
+		    ~~~xyz_whse.sql~~~  
+           
+      2.4.2 Review the spooled output xyz_whse.lst to check if any errors were encountered. If no errors are found then delete the spool file.
+
+  3. REGISTER WITH THE GEODATABASE: Create SDE metadata for spatial tables and views
+  -----------------------------------------------------------------------------------------------------------------
+
+    The following section describes the steps needed to register the spatial layers with the Geodatabase.
+	
+	3.1 Log into ArcCatalog as the schema owner in the instance of the database desired
+	3.2 Navigate to the spatial table
+	3.3 Right click and select "Manage" -> "Register with Geodatabase"
+	3.4 In the "Register with Geodatabase" panel pop-up
+		.1 "Object ID Field": 
+				- If not already filled in, select the proper ArcGIS rowid column (normally OBJECTID)
+				
+		.2 "Shape Field":
+				- If not already filled in, select the proper geometry column (normally SHAPE or GEOMETRY)
+		
+		.3 "Geometry Type"
+				- select the appropriate value: POINT, MULTIPOINT, POLYGON or POLYLINE
+					- All point based datasets should be defined as POINT and not MULTIPOINT, although there are rare cases where MULTIPOINTS are accepted.
+
+		.4 "Coordinate System" - Type in the ESPG and the name will auto-populate. Ensure that you click out of this otherwise it may not retain this selection.
+				- 3005 (NAD_1983_BC_Environment_Albers) or 
+				- 4326 (GCS_WGS_1984) (i.e.,Geographic (Lat/Long) coordinates)
+		.5 "Extent", leave blank as this is calculated when the data is populated. The bounding box of the Province is:
+					- X Minimum = 200000.000 
+					- Y Minimum = 300000.000
+					- X Maximum = 1900000.000
+					- Y Maximum = 1800000.000
+		.6 M Values (measures) and or Z Values (elevation) values then press the 
+			.1 Click the "Environments" button to display the "Environment Settings" panel.
+			.2 Expand the "M Values" section and or the "Z Values" section
+					- Set "Output has M Values" or "Output has Z Values" to Enabled
+					- Specify appropriate values for resolution and tolerance (resolution <= .1 * tolerance)
+			.3 Click the OK button on the "Environment Settings" panel.
+		
+	3.5 Click the OK button on the "Register with Geodatabase" popup.
+
+
+  4. POPULATE ALL TABLES and refresh materialized views
+  -------------------------------------------------------------------
+	Populating tables may be done using different accepted tools, i.e., FMW, KIRK (FME based), MVW, or SDR
+	
+    4.1  For FME: Open FMWs in Workbench
+		4.1.1 Run the FMWs in the following order
+		  ~~~fmwName~~~
+		  ~~~fmw2Name~~~
+		  ~~~etc~~~
+		  
+	4.2 For KIRK: Only used or FGDB Sources and no special transformers
+		4.2.1 If an existing table and column mapping is like for like, a DA will log in and run the script.
+		4.2.2 If a new table a basic FMW can be created for initial population
+		 - For KIRK configuration: provide source, destination and a column mapping between the two
+		  ~~~SCHEMA.VIEW_NAME_1_MV~~~
+		  ~~~SCHEMA.VIEW_NAME_2_MV~~~
+		  ~~~SCHEMA.VIEW_NAME_3_MV~~~
+		  ~~~etc~~~
+		  	
+    4.3 For Materialized views: In a SQL based tool like Developer or Toad, refresh the following materialized views
+		  ~~~SCHEMA.VIEW_NAME_1_MV~~~
+		  ~~~SCHEMA.VIEW_NAME_2_MV~~~
+		  ~~~SCHEMA.VIEW_NAME_3_MV~~~
+		  ~~~etc~~~
+		  
+	4.4 For SDR (Spatial Data Replicator): Some Legacy Replications
+		- Contact your DA to identify requirements
+		  ~~~SCHEMA.VIEW_NAME_1_POLY~~~
+		  ~~~SCHEMA.VIEW_NAME_2_LINE~~~
+		  ~~~SCHEMA.VIEW_NAME_3_POINT~~~
+		  ~~~etc~~~
+		  
+  5. UPDATE ORACLE SPATIAL METADATA AND STATISTICS
+  ------------------------------------------------
+  Oracle Metadata
+ 
+    5.1 SDO Metadata Extents (USER_SDO_GEOM_METADATA), populated using sqlplus, Toad, SQL*Developer, etc from SDE Metadata
+		5.1.1 Log into a sql based too as the schema owner and open the following in the scripts directory
+		
+		 ~~~xyz_whse_compute_mdsys_extents.sql~~~
+		 
+	Keep sql tool open for 5.7
+
+ 
+  ESRI Metadata
+ 
+    5.2 Log into ArcCatalog as the schema owner
+    5.3 Navigate to the spatial table
+    5.4 Double click to open "Feature Class Properties"
+		5.4.1 Spatial Index: 
+			.1 Select "Indexes" tab -> click "Create"
+				- If greyed out, then there is a lock on the dataset or not logged in as the schema owner
+			.2 Click "OK" to close or "Apply" to continue
+             
+		5.4.2 Spatial Extents based on the data content for tables first and then views
+			.1 Select "Feature Extents" ab -> click "Recalculate"
+    5.5 Click OK
+       
+  Analyze Features  
+  
+	5.6 Registered tables/views/materialized views using ArcCatalog
+		5.6.1 Navigate to the registered table/view/materialized view
+        5.6.2 Right click and select "Manage" -> "Analyze..."
+ 
+    5.7 Unregistered tables/views/materialized views using SQL*Developer	
+        5.7.1 Create a database connection in SQL Developer as the schema owner
+        5.7.2 Navigate and right click on the table/view/materialized view
+        5.7.3 Select "Statistics" -> "Gather Statistics..."
+        5.7.4 For Sample Percent, choose 100
+        5.7.5 Click Apply
+             - A Confirmation message should indicate that statistics were gathered.
+        5.7.6 Click OK.
+     
+      
+REVERSION INSTRUCTIONS
+======================
+  
+   Describe the steps needed to be taken to revert the BCGW to the previous version. 
+   
+        
+   For new datasets that just need to be deleted from the database for the delivery to be in a previous state:
+   
+	1. Log into ArcCatalog as the Schema owner and navigate to the the objects and delete. Delete spatial views before tables.
+   
+	2. Run sql to delete record from mdsys metadata.
+		  ~~~xyz_whse_remove_mdsys_rows.sql~~~ (in the scripts folder)
+
+   
+   
+   For previously existing datasets include the process on reverting the objects or views to the previous state. Refer to scripts in the "revert_to_previous" or if last release was tagged in GoGS.   
+  
+NOTIFICATION
+============
+
+  Alert DataBC.DA@gov.bc.ca when the delivery is complete. 
+

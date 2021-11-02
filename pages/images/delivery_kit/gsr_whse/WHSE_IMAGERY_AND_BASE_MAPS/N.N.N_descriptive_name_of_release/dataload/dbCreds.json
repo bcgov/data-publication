@@ -1,0 +1,41 @@
+{
+ "_comment": [
+ "  DestinationCreds ", 
+ "          The template is designed to recieve a database key word ",
+ "             like PROD|TEST|DELIV.  Then based on the value of the keyword the config  ", 
+ "             file identifies what the destination database is.  When in production  ", 
+ "             the template will retrieve the password from Password Manager Pro via ", 
+ "             its rest api.  When in development credentials are retrieved from this  ", 
+ "             file.  The instance defined in the config file needs to match the  ", 
+ "             destination instance defined below for the credential retrieval  ", 
+ "             to function correctly " ],   
+ "destinationCreds" : [
+     { "servicename": "idwdlvr1.bcgov", 
+       "username": "WHSE_MONTREAL_CANADIANS",
+       "password": "thisIsNotThePassword"
+     }, 
+     {"servicename": "idwdlvr1.bcgov", 
+       "username": "WHSE_MONTREAL_CANADIANS_2",
+       "password": "thisIsNotThePassword"
+     }
+ ],
+ "_comment" : [
+ " Source_Creds_comment ", 
+ "           Once in production this file will no longer exist and  ", 
+ "           The credentials will be retireved from Password Manager Pro.  While  ", 
+ "           in development the template script will look read the source fmw  ", 
+ "           database instance and schmea, and match those values with the values ", 
+ "           in one of the hashs below to retrieve the password.  Currently there  ", 
+ "           only one hash defined but you can include as many as you require "], 
+ "sourceCredentials" : [
+     {"servicename": "envprod1.nrs.bcgov",
+      "username": "USERNAME",
+      "password": "thisIsNotThePassword"
+     }, 
+     {"SqlServerDbName": "nameOfSqlServerDB",
+      "SqlServerDbHost": "databaseHost",
+      "username": "UsernameOrSchemaName",
+      "password": "thisIsNotThePassword"
+     }
+ ]
+}

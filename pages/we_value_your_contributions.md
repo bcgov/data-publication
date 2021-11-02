@@ -66,7 +66,7 @@ A copy of the data-publication will now be in your repository, e.g., _userid/dat
 
 1. Copy the repo URL to your clipboard:
 	1. Click the ![Code](images/image_code.png) button.
-	1. Click the clipboard image ![clipboard](images/image_copy_url.png) as this copies the URL listed beside it
+	1. Click the clipboard image ![clipboard_image](images/image_copy_url.png) as this copies the URL listed beside it
 1. On your workstation, create a new directory to store and modify the repository files. 
 1. Either using a program of your choice or open a DOS/PowerShell to that directory.
 1. Enter the command to create a `data-publication` subdirectory:
@@ -84,7 +84,8 @@ A copy of the data-publication will now be in your repository, e.g., _userid/dat
 
 ### How to Create or Change Pages
 
-1. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-publication repository. 
+1. Fork the repository as described above.
+2. If any significant time has passed since you downloaded the files in the last section, you should make sure that your copy of the repository is up to date with the contents of the master bcgov/data-publication repository. 
 
 To do this, issue the following to commands:
    ```
@@ -97,7 +98,7 @@ To do this, issue the following to commands:
 
 ### How to Push to GitHub
 
-Your changes, additions, etc. on your local filesystem copy now have to be transferred up to your copy on GitHub. Do this by executing the following commands:
+Your changes, additions, etc. on your local filesystem copy now have to be transferred up to your fork on GitHub. Do this by executing the following commands:
 
 ```
 git add -A

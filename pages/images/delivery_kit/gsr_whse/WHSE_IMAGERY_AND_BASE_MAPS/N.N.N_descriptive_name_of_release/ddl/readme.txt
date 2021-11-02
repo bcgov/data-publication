@@ -1,0 +1,1 @@
+This is where DDL generated through Oracle Designer is put.

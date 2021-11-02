@@ -21,7 +21,7 @@ This page outlines the standards and processes which must be followed when publi
 + [**ROLES AND RESPONSIBILITIES**](#roles-and-responsibilities)
 + [**DATA DELIVERY CHECKLIST**](#data-delivery-checklist)
 	+ [Whiteboard Meeting(s) Held](#whiteboard-meetings-held)
-	+ [Dataset Logfile Completed and Reviewed](#dataset-logfile-completed-and-reviewed)
+	+ [Dataset Model Completed and Reviewed](#dataset-logfile-completed-and-reviewed)
 	+ [Data Delivery Loading Accounts Created and Verified](#data-delivery-loading-accounts-created-and-verified)
 	+ [Repository Container Checkout List Completed](#repository-container-checkout-list-completed)
 	+ [Oracle Designer Repository Container Created if Necessary](#oracle-designer-repository-container-created-if-necessary)
@@ -66,15 +66,15 @@ Under normal circumstances one or two whiteboard meetings are required:
 1. "Discovery" whiteboard meeting
    + Where the data suppliers provide an overview of the data and their intent for access purposes via DataBC Services. 
 1. "Technical" whiteboard meeting 
-   + Where the vendor provide information for Dataset Logfile creation/review/sign-off. 
+   + Where the vendor provide information for Dataset Model creation/review/sign-off. 
 
 **Responsibility of**: DataBC project lead spatial data administrator  
 
-### Dataset Logfile Completed and Reviewed
+### Dataset Model Completed and Reviewed
 
-The main output of the technical whiteboard meeting is an approved dataset logfile which summarizes business details, security requirements, data volumes, attributes and their data types / definitions, classification, and Open Data processes (if applicable).
+The main output of the technical whiteboard meeting is an approved dataset model which summarizes business details, security requirements, data volumes, attributes and their data types / definitions, classification, and Open Data processes (if applicable).
 
-+ [_Dataset Logfile_](dps_bcgw_w.md#dataset-logfile)
++ [_Dataset Model_](dps_bcgw_w.md#dataset-model)
 
 **Responsibility of**: Vendor delivery personnel and  DataBC project lead spatial data administrator
 
