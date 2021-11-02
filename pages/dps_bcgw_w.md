@@ -10,9 +10,9 @@ has_toc: false
 
 # BC GEOGRAPHIC WAREHOUSE PUBLICATION WORKFLOW
 
-When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherance to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  
+When data is published to the BCGW, it must undergo a rigorous and standardized publication process to ensure adherence to government data standards for quality and consistency.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for data publication.  
 
-The workflows described below will guide you through what your reponsibilities are as the client and how we work with you to load and publish your dataset in the BCGW.
+The workflows described below will guide you through what your responsibilities are as the client and how we work with you to load and publish your dataset in the BCGW.
 
 This page is written in the context that you have reviewed the documentation as listed below.
 
@@ -104,7 +104,7 @@ Having the right people available for the session allows us to all move forward 
 |Type|Resource|Attendance|Purpose|Action Items from Session|
 |:---|:---|:---|:---|:--|
 |Business Area|Data Suppliers|**Required**|Data overview|Provide copy of dataset to BCGW Staging Area|
-|||||Complete the [Dataset Logfile](#dataset-logfile) with assistance from ***DataBC DA*** and [_Data Delivery Standards - Data Delivery Checklist_](dsg_bcgw_data_delivery.md#data-delivery-checklist)|
+|||||Complete the [Dataset Model](#dataset-model) with assistance from ***DataBC DA*** and [_Data Delivery Standards - Data Delivery Checklist_](dsg_bcgw_data_delivery.md#data-delivery-checklist)|
 |||||Request access to the BCGW via the [_NRM Service Desk_](https://nrsservicedesk.gov.bc.ca/IM/scripts/LoginPage.asp)|
 |||| |Start working on the [Open Data](open_data.md) requirements, if applicable|
 |Business Area|IMB: BA/BP|**Required**|Access requirements|If a database or web service, provide access to the source data|
@@ -317,9 +317,9 @@ Data Distribution configuration is completed to implement access and security fo
 
 **Required for Action Items:**
 
-+ Security model as indicated in the Data Suppliers in the Dataset Logfile
++ Security model as indicated in the Data Suppliers in the [Dataset Logfile](#dataset-logfile)
 + If Named User, then IDIRs and/or BCeIDs as provided by the Data Suppliers
-+ Column Short Names as provided by the Data Suppliers in the Dataset Logfile
++ Column Short Names as provided by the Data Suppliers in the [Dataset Logfile](#dataset-logfile)
 
 **Action Items**
 
@@ -354,7 +354,7 @@ Data Replication provides the channel in which the data is updated.  Some datase
 + FME Workspace (FMW) file
 	+ Provided by business area client (or client’s vendor)
 + [_Using the DataBC FME Framework_](dps_bcgw_w_databc_fme.md)
-+ Replication frequency as identified by the ***Data Suppliers*** in the Dataset Logfile
++ Replication frequency as identified by the ***Data Suppliers*** in the [Dataset Logfile](#dataset-logfile)
 
 **Action Items**
 

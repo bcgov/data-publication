@@ -1,0 +1,1879 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    E:\sw_nt\FME2017\fme.exe Z:\Projects\DA_Operations\templates\delivery_kit\gsr_whse\WHSE_IMAGERY_AND_BASE_MAPS\N.N.N_descriptive_name_of_release\dataload\gsr_zzz_sv_staging_csv_bcgw.fmw
+#          --BUSINESS_ID "-1"
+#          --CUSTODIAN_ID "-1"
+#          --hasSourceDataID "fill in Y or N"
+#          --SRC_DATASET_CSV_1 "\\data.bcgov\data_staging_ro\BCGW\physical_infrastructure\csv_file.csv"
+#          --DEST_SCHEMA "WHSE_IMAGERY_AND_BASE_MAPS"
+#          --FILE_CHANGE_DETECTION "TRUE"
+#          --DEST_DB_ENV_KEY "DLV"
+#          --DEST_FEATURE_1 "GSR_zzz_SV"
+#          --DEST_FEATURE_2 "GSR_zzz_VW"
+#          --SUCCESS_EMAIL "mike.dunham-wilkie@gov.bc.ca"
+#          --FAILURE_EMAIL "dataetl@gov.bc.ca"
+#          --FAILURE_MESSAGE "Load failed - please check FME logs"
+#          --DEST_FME_SERVER "http://ascella"
+#    
+#    
+#!   REDIRECT_TERMINATORS="NONE"
+#!   LAST_SAVE_DATE="2020-08-06T14:13:59"
+#!   BEGIN_PYTHON="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;DataBCFMWTemplate&lt;lf&gt;start&lt;space&gt;=&lt;space&gt;DataBCFMWTemplate.Start&lt;openparen&gt;fme&lt;closeparen&gt;&lt;lf&gt;start.startup&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;"
+#!   USAGE="&lt;p&gt;Describe processing summary &lt;/p&gt;"
+#!   PYTHON_COMPATIBILITY="27"
+#!   END_TCL=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   FME_SERVER_SERVICES=""
+#!   USE_MARKDOWN="YES"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   VIEW_POSITION="-24.7527 -34.035"
+#!   PASSWORD=""
+#!   END_PYTHON="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;DataBCFMWTemplate&lt;lf&gt;shutIt&lt;space&gt;=&lt;space&gt;DataBCFMWTemplate.Shutdown&lt;openparen&gt;fme&lt;closeparen&gt;&lt;lf&gt;shutIt.shutdown&lt;openparen&gt;&lt;closeparen&gt;"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_DOCUMENT_PRIORGUID="41245d68-3f41-4bac-ab40-543cf784621a,b8aceded-94ce-4b9a-a36c-1e46b5f5a791,fe9d7e57-352c-4ed4-afd0-681ae970189d,7415c095-14a2-4aa6-9818-9634c48a4d2d,ab054bb8-6050-4f02-8244-056002502065,0f51d4c4-0800-4178-99ef-7d8d7ae87fb1,3e37b53a-67c3-4c24-b2d1-a84e9b6cbd64,8734f8b6-f10f-4af4-bbd3-3726144bd9cf,20f3132e-cfc8-4bdc-8375-efc5297d63dd,d56714f2-1d15-41d0-81e2-369a6c7827d6,3ebad911-326c-4945-ae8e-3de1b72a6ceb,39bb0dcd-f5b1-4d29-a011-8e4707b5ce0e,31ba21fa-5f29-4d34-a3c3-5901111dc6b5,b7a07870-dde5-4dd3-8a60-bb8faaa3d7e0,24e14f8d-c3bb-4729-a988-176405afd524,0e492407-538c-4503-812d-14553da2136f,8bfeb11c-534d-4dc3-bad4-75d75e87181c,46ab3bac-816b-4c79-a906-90090582d1d3,3cabdaf3-0587-49d1-a3f1-24728548d96c,c19dbbc1-12da-4ffe-96a0-1185d2faf66d,39bfc32d-e9c0-47e5-9711-0abcfaa18b31,4dc17ebc-f059-4dae-8ff9-c3f4de22e826,2503cf3e-5236-41b1-9215-4808e58de31f,d0f53a51-dc83-4b3c-ad1d-95654009802c,27484582-ed03-4a14-b9e5-e8409cc697ed,32f46fc4-00a1-4e09-81a7-76d2b0495840,b300b393-4a76-43ac-b901-6e8023c62e3b,0b7b9ea8-6067-4c76-8ec5-5fdd013f3b57,9a9d4189-6502-413f-92a4-345996070159,2ffd935f-8455-4d76-9e7f-51c24f63a0f7,66825747-e7d5-4865-af04-db10ff76f4d4,f5049f36-f914-419b-ba30-a6c8c96c1ebb,858f3d01-044b-4456-be0f-79dabd7d9aeb,3d0f74e3-0fc6-4480-94ab-ccf819174d61,29cfff38-ef6c-4c8e-9a9a-217b4e758dd8,d8bae085-a7a4-476e-b8bf-00cfcf9649a6,2a5a2088-911d-4719-a9ec-4e4b5dde8874,894d780b-ddbf-4131-b7a9-1976fe7f8f3c,cf3af6bb-24b1-42d9-91b1-30eed725d4da,55ef273e-caeb-40f7-ac44-e13993c7006c,61bb769c-2b97-4014-988c-63b4e0d160df,2857509d-bb9b-4dda-89cc-b10436f19421,ff4f476c-0ff1-4dbe-bbd8-1ded80542256,b838e5a6-db6b-4448-be5c-3dbca55c5173,5e1a7a04-ca6d-48d5-93bd-9502aa98a067,020cbb92-252d-4c6a-81c8-5f8c8bf1f394,e9afdc97-9d72-400c-973c-da15fcdc87a4,d0db1c97-577f-465c-918b-237f2a3254d2,4a310dc0-48ed-4ca5-882b-ab554da6353e,e668e0db-9657-4c83-a468-16a3b04abbbc,1a74839b-c3db-496d-8e2b-4023b387f06e,0fd72045-d975-406d-8dbc-7b0f7287880e,83b58095-85a5-431b-8e7d-b46326e03515,5548ad46-413a-49da-944b-97c39ad2db1b,6f76cf93-51fd-4c2a-9880-a4bb2ff565de"
+#!   SOURCE="NONE"
+#!   MARKDOWN_USAGE="Describe processing summary "
+#!   FME_GEOMETRY_HANDLING="Classic"
+#!   SOURCE_ROUTING_FILE=""
+#!   DESTINATION="NONE"
+#!   DOC_TOP_LEFT="76 -3340"
+#!   DESTINATION_ROUTING_FILE=""
+#!   HISTORY="June&lt;space&gt;26&lt;comma&gt;&lt;space&gt;2013,G.&lt;space&gt;Gale&lt;comma&gt;&lt;space&gt;DataBC,release&lt;space&gt;12.3&lt;space&gt;template&lt;space&gt;for&lt;space&gt;file&lt;space&gt;sources,Sept&lt;space&gt;11&lt;comma&gt;&lt;space&gt;2014,G.&lt;space&gt;Gale&lt;comma&gt;&lt;space&gt;DataBC,release&lt;space&gt;13.1&lt;space&gt;template&lt;space&gt;for&lt;space&gt;file&lt;space&gt;sources,&lt;lt&gt;date&lt;gt&gt;,&lt;lt&gt;workspace&lt;space&gt;developer&lt;gt&gt;,developed&lt;space&gt;script&lt;space&gt;for&lt;space&gt;&lt;lt&gt;ministry&lt;space&gt;business&lt;space&gt;area&lt;gt&gt;"
+#!   MAX_LOG_FEATURES="200"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_BUILD_NUM="17539"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Datum"
+#!   DESCRIPTION="&lt;p&gt;Use this as a starting point for loading records for the zzz GSR occupant type into the BCGW. &lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Fill in&lt;/strong&gt; &lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;strong&gt;BUSINESS_ID&lt;/strong&gt; &lt;/li&gt;&#10;&lt;li&gt;&lt;strong&gt;CUSTODIAN_ID&lt;/strong&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;strong&gt;hasSourceDataID&lt;/strong&gt; (= Y if the primary key id in the CSV is maintained on the operational side; N if it has to be generated as part of the load)&lt;/li&gt;&#10;&lt;li&gt;&lt;strong&gt;SRC_DATASET_CSV_1&lt;/strong&gt;  (CSV file in the staging area)&lt;/li&gt;&#10;&lt;li&gt;&lt;strong&gt;DEST_FEATURE_1&lt;/strong&gt; (name of the spatail view)&lt;/li&gt;&#10;&lt;li&gt;&#10;&lt;p&gt;&lt;strong&gt;DEST_FEATURE_2&lt;/strong&gt; (name of the internal non-core column view)&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&#10;&lt;p&gt;&lt;strong&gt;FAILURE_MESSAGE&lt;/strong&gt; and/or &lt;strong&gt;FAILURE_EMAIL&lt;/strong&gt; if the defaults aren&apos;t appropriate&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;"
+#!   IGNORE_READER_FAILURE="No"
+#!   MARKDOWN_DESCRIPTION="Use this as a starting point for loading records for the zzz GSR occupant type into the BCGW. &#10;&#10;**Fill in** &#10;&#10;&#10;* **BUSINESS_ID** &#10;* **CUSTODIAN_ID**&#10;* **hasSourceDataID** (= Y if the primary key id in the CSV is maintained on the operational side; N if it has to be generated as part of the load)&#10;* **SRC_DATASET_CSV_1**  (CSV file in the staging area)&#10;* **DEST_FEATURE_1** (name of the spatail view)&#10;* **DEST_FEATURE_2** (name of the internal non-core column view)&#10;&#10;* **FAILURE_MESSAGE** and/or **FAILURE_EMAIL** if the defaults aren&apos;t appropriate&#10;"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
+#!   FME_DOCUMENT_GUID="c731c081-f9a7-4275-825e-be91e3befe15"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   ZOOM_SCALE="101"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   DOC_EXTENTS="4839 3360"
+#!   WORKSPACE_VERSION="1"
+#!   WARN_INVALID_XFORM_PARAM="No"
+#!   BEGIN_TCL=""
+#!   LOG_FILE="$(LOGFILE)"
+#!   SHOW_INFO_NODES="true"
+#!   TERMINATE_REJECTED="NO"
+#!   CATEGORY="DataBC Warehouse Replication"
+#!   STRICT_PARAMETER_VALIDATION="false"
+#!   TITLE="GSR_zzz_SVW_staging_csv_bcgw&#10;"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="CSV"
+#!   DATASET="$(SRC_DATASET_CSV_1)"
+#!   KEYWORD="CSV_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="60"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename text fme_geometry fme_char(50) fme_primary_axis float multi_reader_type text fme_fill_color text fme_type text csv_type char(50) fme_secondary_axis float fme_feature_type text fme_text_size float csv_total_number_of_columns number(11,0) fme_text_string text csv_number_of_fields number(11,0) multi_reader_keyword text fme_rotation float fme_color text csv_line_number number(11,0) fme_start_angle float multi_reader_full_id int multi_reader_id int fme_sweep_angle float fme_dataset text"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="14440"
+#!   NAME="ZZZ [CSV]"
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   COORDSYS=""
+#!   MAX_FEATURES=""
+#!   START_FEATURE=""
+#!   FEATURE_TYPES=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="text/csv ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="_ENCODING CSV_OUT_ENCODING _WRITE_UTF8_BOM"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="NULL"
+#!   DATASET=""
+#!   KEYWORD="NULL_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="200"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="false"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_dataset char(50) fme_type char(50) fme_feature_type char(50) fme_primary_axis number(31,15) fme_basename char(50) fme_geometry fme_char(50) fme_secondary_axis number(31,15) fme_rotation number(31,15) fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_fill_color char(50) fme_text_size number(31,15) fme_text_string char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION=""
+#!   COORDSYS=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="auto"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="x_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="y_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="z_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(1)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="CSV"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(255)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(255)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(255)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(255)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="NULL"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="NULL"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_map"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="CSV"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_arc"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_null"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_line"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_line"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_null"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="NULL"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="null_null"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="NULL"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="NULL"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="47"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="3389.9 -658.245"
+#!   BOUNDING_RECT="3389.9 -658.245 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="NULL_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="CSV"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="37"
+#!   FEAT_GEOMTYPE="csv_none"
+#!   POSITION="80 -499.186"
+#!   BOUNDING_RECT="80 -499.186 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="CSV_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="col0" ATTR_TYPE="char(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#!   NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE="CSV_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#!   NAME="BCGW_SCHEDULED"
+#! />
+#! <ITEM
+#!   NAME="GSR_zzz_SVW_staging_csv_bcgw.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#!   UID=":WBDoc:LOG_FILE"
+#!   VALUE="$(LOGFILE)"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:SRC_DATASET_CSV_1"
+#!   VALUE="\\data.bcgov\data_staging_ro\BCGW\physical_infrastructure\GSR_Airports.csv"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":DatasetMgr_CSV_1:SourceDataset_CSV_1"
+#!   VALUE="$(SRC_DATASET_CSV_1)"
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
+#!   VALUE=""
+#! />
+#! </MODIFICATIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI INTEGER_OR_ATTR BUSINESS_ID Business ID:"
+#!   DEFAULT_VALUE="-1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI INTEGER_OR_ATTR CUSTODIAN_ID Custodian ID:"
+#!   DEFAULT_VALUE="-1"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_OR_ATTR hasSourceDataID Has Source Data ID?:"
+#!   DEFAULT_VALUE="fill in Y or N"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL FILENAME_MUSTEXIST SRC_DATASET_CSV_1 *.csv Source Dataset CSV (comma separated) file:"
+#!   DEFAULT_VALUE="\\data.bcgov\data_staging_ro\BCGW\physical_infrastructure\csv_file.csv"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_OR_ATTR DEST_SCHEMA Destination Schema (upper case please):"
+#!   DEFAULT_VALUE="WHSE_IMAGERY_AND_BASE_MAPS"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL CHOICE FILE_CHANGE_DETECTION TRUE%FALSE Set to TRUE to enable (else disable) change detection:"
+#!   DEFAULT_VALUE="TRUE"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL STRING_OR_CHOICE_OR_ATTR DEST_DB_ENV_KEY DLV%TST%PRD%DEV Destination Database Keyword (DLV|TST|PRD):"
+#!   DEFAULT_VALUE="DLV"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_OR_ATTR DEST_FEATURE_1 Destination Feature 1:"
+#!   DEFAULT_VALUE="GSR_zzz_SV"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_OR_ATTR DEST_FEATURE_2 Destination Feature 2:"
+#!   DEFAULT_VALUE="GSR_zzz_VW"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL TEXT_OR_ATTR SUCCESS_EMAIL Email address to send &quot;Success&quot; messages to:"
+#!   DEFAULT_VALUE="mike.dunham-wilkie@gov.bc.ca"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL TEXT_OR_ATTR FAILURE_EMAIL Email address to send &quot;Failure&quot; emails to:"
+#!   DEFAULT_VALUE="dataetl@gov.bc.ca"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL TEXT_OR_ATTR FAILURE_MESSAGE Body of email message to send on failure:"
+#!   DEFAULT_VALUE="Load failed - please check FME logs"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL TEXT DEST_FME_SERVER Dest FME server for Job Submitter:"
+#!   DEFAULT_VALUE="http://ascella"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM LOGFILE Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;DataBCFMWTemplate&lt;lf&gt;params&lt;space&gt;=&lt;space&gt;DataBCFMWTemplate.CalcParams&lt;openparen&gt;FME_MacroValues&lt;closeparen&gt;&lt;lf&gt;return&lt;space&gt;params.getFMWLogFileRelativePath&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM DEST_PASSWORD Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;DataBCFMWTemplate&lt;lf&gt;params&lt;space&gt;=&lt;space&gt;DataBCFMWTemplate.CalcParams&lt;openparen&gt;FME_MacroValues&lt;closeparen&gt;&lt;lf&gt;return&lt;space&gt;params.getDestinationPassword&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM DEST_SDE_CONNFILE Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;DataBCFMWTemplate&lt;lf&gt;params&lt;space&gt;=&lt;space&gt;DataBCFMWTemplate.CalcParams&lt;openparen&gt;FME_MacroValues&lt;closeparen&gt;&lt;lf&gt;return&lt;space&gt;params.getDestDatabaseConnectionFilePath&lt;openparen&gt;&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="2"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Source Types&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="80 20"
+#!   TOP_LEFT="80 20"
+#!   BOTTOM_RIGHT="80 20"
+#!   BOUNDING_RECT="80 20 0 0"
+#!   ORDER="4"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="SOURCE_HEADER"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="12"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;SOURCE DATA&#13;&lt;br&gt;&#13;&lt;br&gt;- Specify full UNC path name for file sources (no mappings)&#13;&lt;br&gt;- Specify fully qualified names for all servers&#13;&lt;br&gt;- Delivery scripts should source delivery database instances&#13;&lt;br&gt;  where they exist.&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1271 -1540"
+#!   TOP_LEFT="1271 -1540"
+#!   BOTTOM_RIGHT="1271 -1540"
+#!   BOUNDING_RECT="1271 -1540 0 0"
+#!   ORDER="5"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="21"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;FILE NAMING CONVENTION&#13;&lt;br&gt;&#13;&lt;br&gt;Components, separated by underscore characters ( _ )&#13;&lt;br&gt;&#13;&lt;br&gt;Components:&#13;&lt;br&gt;   Destination layer name (warehouse name in full)&#13;&lt;br&gt; _Source location&#13;&lt;br&gt; _Source format&#13;&lt;br&gt; _Destination location&#13;&lt;br&gt;  .fmw&#13;&lt;br&gt;&#13;&lt;br&gt;Examples:&#13;&lt;br&gt; cbm_intgd_cadastral_fabric_sp_icfprd_sde_bcgw.fmw&#13;&lt;br&gt; raad_aoa_provincial_staging_shp_bcgw.fmw&#13;&lt;br&gt; spi_wildlife_nonsensitive_sp_idwprod1_svw_bcgw.fmw&#13;&lt;br&gt; site_env_remediation_sites_sp_idwprod1_odb_bcgw.fmw&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="130 -2323"
+#!   TOP_LEFT="130 -2323"
+#!   BOTTOM_RIGHT="130 -2323"
+#!   BOUNDING_RECT="130 -2323 0 0"
+#!   ORDER="6"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="8"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;DELIVERY PACKAGE&#13;&lt;br&gt;&#13;&lt;br&gt;Container structure&#13;&lt;br&gt;       &amp;lt;container&amp;gt;&#13;&lt;br&gt;                 this workbench.fmw&#13;&lt;br&gt;                 &amp;lt;bin&amp;gt;&#13;&lt;br&gt;                       DataBCWhse.py&#13;&lt;br&gt;                  &amp;lt;docs&amp;gt;&#13;&lt;br&gt;                       fme2012template.docx&#13;&lt;br&gt;                  &amp;lt;outputs&amp;gt;&#13;&lt;br&gt;                        &amp;lt;audt&amp;gt; &#13;&lt;br&gt;                                etlFileChangeLog.txt&#13;&lt;br&gt;                                etlPopulationLog.txt&#13;&lt;br&gt;                        &amp;lt;failed_features&amp;gt;&#13;&lt;br&gt;                                {tester outputs}&#13;&lt;br&gt;                        &amp;lt;log&amp;gt;&#13;&lt;br&gt;                                 this workbench.log&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="135 -1548"
+#!   TOP_LEFT="135 -1548"
+#!   BOTTOM_RIGHT="135 -1548"
+#!   BOUNDING_RECT="135 -1548 0 0"
+#!   ORDER="7"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="10"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;WORKSPACE PROPERTIES&#13;&lt;br&gt;&#13;&lt;br&gt;Complete workspace properties according to the instructions&#13;&lt;br&gt;provided as template values at the bottom of the Navigator widow&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="96 -3024"
+#!   TOP_LEFT="96 -3024"
+#!   BOTTOM_RIGHT="96 -3024"
+#!   BOUNDING_RECT="96 -3024 0 0"
+#!   ORDER="8"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="23"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;WORKSPACE PARAMETERS&#13;&lt;br&gt;&#13;&lt;br&gt; - Workspace Title: name of script, less file extension&#13;&lt;br&gt; - Log File: .\outputs\log\&amp;lt;Workspace Title&amp;gt;.log&#13;&lt;br&gt; - Password: &amp;lt;no password&amp;gt;&#13;&lt;br&gt; - Startup Python Script: &amp;lt;provided&amp;gt;&#13;&lt;br&gt; - Shutdown Python Script: &amp;lt;provided&amp;gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1370 -2772"
+#!   TOP_LEFT="1370 -2772"
+#!   BOTTOM_RIGHT="1370 -2772"
+#!   BOUNDING_RECT="1370 -2772 0 0"
+#!   ORDER="9"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="22"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;DESTINATION FEATURE PARAMETERS&#13;&lt;br&gt;&#13;&lt;br&gt;Available on the properties pagefor each Destination Feature:&#13;&lt;br&gt; - Table Exists: Yes&#13;&lt;br&gt; - Drop Table First: N&#13;&lt;br&gt; - Truncate Table First: Y&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1298 -2394"
+#!   TOP_LEFT="1298 -2394"
+#!   BOTTOM_RIGHT="1298 -2394"
+#!   BOUNDING_RECT="1298 -2394 0 0"
+#!   ORDER="10"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="20"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;If you have multiple data sources, &#13;&lt;br&gt;you may duplicate the FileChangeDetector&#13;&lt;br&gt;for each one, or fan them into a single&#13;&lt;br&gt;FileChangeDetector and then fan them &#13;&lt;br&gt;out again afterwards, based on an&#13;&lt;br&gt;identifying attribute.&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4099 -2030"
+#!   TOP_LEFT="4099 -2030"
+#!   BOTTOM_RIGHT="4099 -2030"
+#!   BOUNDING_RECT="4099 -2030 0 0"
+#!   ORDER="11"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="29"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;The CHANGES output routes features from a&#13;&lt;br&gt;file-based source deemed to have changed&#13;&lt;br&gt;since its last replication.&#13;&lt;br&gt;&#13;&lt;br&gt;The NO_CHANGES output routes features&#13;&lt;br&gt;from a file based source deemed to not have&#13;&lt;br&gt;changed since its last replication.&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4091 -1704"
+#!   TOP_LEFT="4091 -1704"
+#!   BOTTOM_RIGHT="4091 -1704"
+#!   BOUNDING_RECT="4091 -1704 0 0"
+#!   ORDER="12"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="30"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Attach a file-based dataset reader to the &#13;&lt;br&gt;FILE SOURCE input.  File-based data &#13;&lt;br&gt;sources will be analyzed to determine if they &#13;&lt;br&gt;have changed since they were last replicated.&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4098 -1503"
+#!   TOP_LEFT="4098 -1503"
+#!   BOTTOM_RIGHT="4098 -1503"
+#!   BOUNDING_RECT="4098 -1503 0 0"
+#!   ORDER="13"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="3"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Destination Types&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2122 15"
+#!   TOP_LEFT="2122 15"
+#!   BOTTOM_RIGHT="2122 15"
+#!   BOUNDING_RECT="2122 15 0 0"
+#!   ORDER="15"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="DEST_HEADER"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="4"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Data Flow&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="970 1"
+#!   TOP_LEFT="970 1"
+#!   BOTTOM_RIGHT="970 1"
+#!   BOUNDING_RECT="970 1 0 0"
+#!   ORDER="16"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="24"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;PRIVATE PARAMETERS&#13;&lt;br&gt;&#13;&lt;br&gt;Publish the following parameters:&#13;&lt;br&gt; - Any data source name&#13;&lt;br&gt; - Any destination data service name&#13;&lt;br&gt;&#13;&lt;br&gt;Add new published parameters for any&#13;&lt;br&gt;destination dataset being populated, with&#13;&lt;br&gt;the following characteristics:&#13;&lt;br&gt; - Type: text&#13;&lt;br&gt; - Name: DestFeature*&#13;&lt;br&gt; - Prompt: Destination Feature *&#13;&lt;br&gt; - Default Value: &amp;lt;name of destination feature&amp;gt;&#13;&lt;br&gt;&#13;&lt;br&gt;* a number to distinguish between &#13;&lt;br&gt;  multiple destination features.&#13;&lt;br&gt;&#13;&lt;br&gt;Template includes private parameters:&#13;&lt;br&gt; - LogURL: URL to centralized logging service&#13;&lt;br&gt; - NotificationEmail: contact email&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2412 -2335"
+#!   TOP_LEFT="2412 -2335"
+#!   BOTTOM_RIGHT="2412 -2335"
+#!   BOUNDING_RECT="2412 -2335 0 0"
+#!   ORDER="17"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="13"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;DESTINATION DATA: DataBC Warehouse&#13;&lt;br&gt;&#13;&lt;br&gt;Use one of the following writers for populating the warehouse:&#13;&lt;br&gt; - SDE30 (ESRI ArcSDE)&#13;&lt;br&gt; - ORACLE8I_DB (Oracle Non Spatial)&#13;&lt;br&gt; - ORACLE8I (Oracle Spatial Object) - by permission&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1273 -1818"
+#!   TOP_LEFT="1273 -1818"
+#!   BOTTOM_RIGHT="1273 -1818"
+#!   BOUNDING_RECT="1273 -1818 0 0"
+#!   ORDER="18"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="15"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;ORACLE NON SPATIAL AND SPATIAL OBJECT fast facts&#13;&lt;br&gt;&#13;&lt;br&gt; - Destination Oracle Service: idwdlvr1.env.gov.bc.ca&#13;&lt;br&gt; - Username: &amp;lt;destination schema&amp;gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2279 -1886"
+#!   TOP_LEFT="2279 -1886"
+#!   BOTTOM_RIGHT="2279 -1886"
+#!   BOUNDING_RECT="2279 -1886 0 0"
+#!   ORDER="19"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="14"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;ESRI ArcSDE (SDE30) WRITER fast facts&#13;&lt;br&gt;&#13;&lt;br&gt; - Coordinate System: BCALB-83&#13;&lt;br&gt; - ArcSDE Dataset: bcgwdlv.bcgov&#13;&lt;br&gt; - ArcSDE Server name: bcgwdlv.bcgov&#13;&lt;br&gt; - Instance: port:5156&#13;&lt;br&gt; - User ID: &amp;lt;destination schema&amp;gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2511 -1553"
+#!   TOP_LEFT="2511 -1553"
+#!   BOTTOM_RIGHT="2511 -1553"
+#!   BOUNDING_RECT="2511 -1553 0 0"
+#!   ORDER="20"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="40"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:11px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Run Generic GSR File Loader&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1939.59 -385"
+#!   TOP_LEFT="1939.59 -385"
+#!   BOTTOM_RIGHT="1939.59 -385"
+#!   BOUNDING_RECT="1939.59 -385 0 0"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="34"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="49"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;write them to the null device so they get counted&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3297.15 -510.994"
+#!   TOP_LEFT="3297.15 -510.994"
+#!   BOTTOM_RIGHT="3296.15 -509.994"
+#!   BOUNDING_RECT="3297.15 -510.994 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="47"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="54"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;create _numFeaturesOutput copies&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2650.55 -387.962"
+#!   TOP_LEFT="2650.55 -387.962"
+#!   BOTTOM_RIGHT="2649.55 -386.962"
+#!   BOUNDING_RECT="2650.55 -387.962 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="39"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="25"
+#!   NAME="Parameters and Settings"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1255 -2194"
+#!   BOTTOM_RIGHT="3352 -3328"
+#!   BOUNDING_RECT="1255 -2194 2097 1134"
+#!   STICKY="true"
+#!   COLOUR="0.819608,0.501961,0.976471"
+#!   CONTENTS="24 22 23 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="16"
+#!   NAME="Readers and Writers"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1251 -1468"
+#!   BOTTOM_RIGHT="3339 -2150"
+#!   BOUNDING_RECT="1251 -1468 2088 682"
+#!   STICKY="true"
+#!   COLOUR="1,0.501961,0"
+#!   CONTENTS="15 12 14 13 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="17"
+#!   NAME="Setup and Configuration"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="76 -1471"
+#!   BOTTOM_RIGHT="1201 -3340"
+#!   BOUNDING_RECT="76 -1471 1125 1869"
+#!   STICKY="true"
+#!   COLOUR="0.0784314,0.0784314,0.756863"
+#!   CONTENTS="21 8 10 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="31"
+#!   NAME="File-based change detection"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="3522 -1442"
+#!   BOTTOM_RIGHT="4915 -2364"
+#!   BOUNDING_RECT="3522 -1442 1393 922"
+#!   STICKY="true"
+#!   COLOUR="0.431373,0.67451,0.301961"
+#!   CONTENTS="20 30 29 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="32"
+#!   TYPE="Sampler"
+#!   VERSION="1"
+#!   POSITION="1391.53 -528"
+#!   BOUNDING_RECT="1391.53 -528 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="14440"
+#! >
+#!     <OUTPUT_FEAT NAME="SAMPLED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="NOT_SAMPLED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RATE" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sampler"/>
+#!     <XFORM_PARM PARM_NAME="SAMPLE_TYPE_LONG" PARM_VALUE="First N Features"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="34"
+#!   TYPE="FMEServerJobSubmitter"
+#!   VERSION="3"
+#!   POSITION="1976.59 -531"
+#!   BOUNDING_RECT="1976.59 -531 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="JOB_SUCCEEDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="JOB_FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_submitted_job_ids{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_succeeded_job_ids{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_failed_job_ids{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="REPOSITORY" PARM_VALUE="GSR_SUPPORT"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_PARAMETERS" PARM_VALUE="BUSINESS_ID string $(BUSINESS_ID) CUSTODIAN_ID string $(CUSTODIAN_ID) hasSourceDataID string $(hasSourceDataID) SOURCE_DATASET_CSV_1 string $(SRC_DATASET_CSV_1) DEST_DB_ENV_KEY string $(DEST_DB_ENV_KEY) SUCCESS_EMAIL string $(SUCCESS_EMAIL) FAILURE_EMAIL string $(FAILURE_EMAIL) FAILURE_MESSAGE string $(FAILURE_MESSAGE) DEST_FEATURE_2 string $(DEST_FEATURE_2) DEST_FEATURE_1 string $(DEST_FEATURE_1) DEST_FME_SERVER string $(DEST_FME_SERVER)"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_NAME" PARM_VALUE="gsr_occupants_sp_csv_staging_bcgw_driver.fmw"/>
+#!     <XFORM_PARM PARM_NAME="CONNECTION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EMBED_CONNECTION_GROUP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PROCESSING_MODE" PARM_VALUE="In Sequence"/>
+#!     <XFORM_PARM PARM_NAME="SERVER_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="USERNAME" PARM_VALUE="dwrs"/>
+#!     <XFORM_PARM PARM_NAME="PROCESSING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRIORITY" PARM_VALUE="100"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FMEServerJobSubmitter"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="PASSWORD" PARM_VALUE="dwrs_fme"/>
+#!     <XFORM_PARM PARM_NAME="TM_TTL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SERVER_NAME" PARM_VALUE="$(DEST_FME_SERVER)"/>
+#!     <XFORM_PARM PARM_NAME="TM_TTC" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TM_TAG" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BLOCKING" PARM_VALUE="Yes"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="38"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="2656.11 -851.445"
+#!   BOUNDING_RECT="2656.11 -851.445 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="14440"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FMEServerJobSubmitter_Failed"/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="45"
+#!   TYPE="File Change Detector v2"
+#!   VERSION="1"
+#!   POSITION="758.002 -385"
+#!   BOUNDING_RECT="758.002 -385 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="CHANGES"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="NO_CHANGES"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="File_Change_Detector_v2"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="39"
+#!   TYPE="Cloner"
+#!   VERSION="0"
+#!   POSITION="2687.05 -516.713"
+#!   BOUNDING_RECT="2687.05 -516.713 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="COPY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_copynum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="col0" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COPYATT" PARM_VALUE="_copynum"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Cloner"/>
+#!     <XFORM_PARM PARM_NAME="COPIES" PARM_VALUE="@Value(_numFeaturesOutput)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="43"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="3470.82 -968.616"
+#!   BOUNDING_RECT="3470.82 -968.616 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Translation Terminated"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="42"
+#!   SOURCE_NODE="37"
+#!   TARGET_NODE="45"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 FILE_SOURCE"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="32"
+#!   TARGET_NODE="34"
+#!   SOURCE_PORT_DESC="fo 0 SAMPLED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="51"
+#!   SOURCE_NODE="34"
+#!   TARGET_NODE="39"
+#!   SOURCE_PORT_DESC="fo 0 JOB_SUCCEEDED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="48"
+#!   SOURCE_NODE="38"
+#!   TARGET_NODE="43"
+#!   SOURCE_PORT_DESC="fo 0 LOGGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="53"
+#!   SOURCE_NODE="39"
+#!   TARGET_NODE="47"
+#!   SOURCE_PORT_DESC="fo 0 COPY"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="45"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 CHANGES"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="52"
+#!   SOURCE_NODE="34"
+#!   TARGET_NODE="38"
+#!   SOURCE_PORT_DESC="fo 1 JOB_FAILED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! <SUBDOCUMENT
+#!   NAME="ArcSDELockRemover"
+#!   VIEW_POSITION="0 0"
+#!   DOC_DYNAMIC_INPUT_ATTRS="0"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_PROCESS_GROUP_BY=""
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   MARKDOWN_USAGE=""
+#!   HISTORY=""
+#!   DOC_EXTENTS="0 0"
+#!   LAST_SAVE_DATE=""
+#!   USE_MARKDOWN=""
+#!   USAGE=""
+#!   IS_VISIBLE="false"
+#!   DESCRIPTION="Test description&#10;"
+#!   MARKDOWN_DESCRIPTION=""
+#!   ZOOM_SCALE="99"
+#!   LAST_SAVE_BUILD=""
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   PYTHON_COMPATIBILITY=""
+#!   CATEGORY="DataBC"
+#!   TITLE="ArcSDELockRemover"
+#!   XFORM_DEPRECATED="No"
+#!   DOC_TOP_LEFT="0 0"
+#!   SUPPRESS_UPGRADE="false"
+#!   FME_DOCUMENT_GUID=""
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#! >
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT Data_Source Destination Instance:"
+#!   DEFAULT_VALUE="idwdlvr1.env.gov.bc.ca"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT User_ID User ID:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI PASSWORD Password Password:"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! </SUBDOCUMENT>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_CSV_1,CSV_IN_NETWORK_AUTHENTICATION_CSV_1,CSV_IN_NETWORK_PROXY_CSV_1,_SKIP_LINES_CSV_1,_SKIP_FOOTER_CSV_1,_STRIP_QUOTES_CSV_1,_DUPLICATE_DELIMS_CSV_1,SORT_GROUP_CSV_1,_SORT_PARAMS_CSV_1,FILTER_GROUP_CSV_1,_FILTER_PARAMS_CSV_1,_ENCODING_CSV_1
+DEFAULT_MACRO BUSINESS_ID -1
+GUI INTEGER BUSINESS_ID Business ID:
+DEFAULT_MACRO CUSTODIAN_ID -1
+GUI INTEGER CUSTODIAN_ID Custodian ID:
+DEFAULT_MACRO hasSourceDataID fill in Y or N
+GUI TEXT hasSourceDataID Has Source Data ID?:
+DEFAULT_MACRO SRC_DATASET_CSV_1 \\data.bcgov\data_staging_ro\BCGW\physical_infrastructure\csv_file.csv
+GUI OPTIONAL FILENAME_EXISTING SRC_DATASET_CSV_1 *.csv Source Dataset CSV (comma separated) file:
+DEFAULT_MACRO DEST_SCHEMA WHSE_IMAGERY_AND_BASE_MAPS
+GUI TEXT DEST_SCHEMA Destination Schema (upper case please):
+DEFAULT_MACRO FILE_CHANGE_DETECTION TRUE
+GUI OPTIONAL CHOICE FILE_CHANGE_DETECTION TRUE%FALSE Set to TRUE to enable (else disable) change detection:
+DEFAULT_MACRO DEST_DB_ENV_KEY DLV
+GUI OPTIONAL STRING_OR_CHOICE DEST_DB_ENV_KEY DLV%TST%PRD%DEV Destination Database Keyword (DLV|TST|PRD):
+DEFAULT_MACRO DEST_FEATURE_1 GSR_zzz_SV
+GUI TEXT DEST_FEATURE_1 Destination Feature 1:
+DEFAULT_MACRO DEST_FEATURE_2 GSR_zzz_VW
+GUI TEXT DEST_FEATURE_2 Destination Feature 2:
+DEFAULT_MACRO SUCCESS_EMAIL mike.dunham-wilkie@gov.bc.ca
+GUI OPTIONAL TEXT SUCCESS_EMAIL Email address to send "Success" messages to:
+DEFAULT_MACRO FAILURE_EMAIL dataetl@gov.bc.ca
+GUI OPTIONAL TEXT FAILURE_EMAIL Email address to send "Failure" emails to:
+DEFAULT_MACRO FAILURE_MESSAGE Load failed - please check FME logs
+GUI OPTIONAL TEXT FAILURE_MESSAGE Body of email message to send on failure:
+DEFAULT_MACRO DEST_FME_SERVER http://ascella
+GUI OPTIONAL TEXT DEST_FME_SERVER Dest FME server for Job Submitter:
+INCLUDE PYTHON
+def ParamFunc():
+  import DataBCFMWTemplate
+  params = DataBCFMWTemplate.CalcParams(FME_MacroValues)
+  return params.getFMWLogFileRelativePath()
+
+value = ParamFunc()
+macroName = 'LOGFILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  import DataBCFMWTemplate
+  params = DataBCFMWTemplate.CalcParams(FME_MacroValues)
+  return params.getDestinationPassword()
+
+value = ParamFunc()
+macroName = 'DEST_PASSWORD'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  import DataBCFMWTemplate
+  params = DataBCFMWTemplate.CalcParams(FME_MacroValues)
+  return params.getDestDatabaseConnectionFilePath()
+value = ParamFunc()
+macroName = 'DEST_SDE_CONNFILE'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE [ if {{$(BUSINESS_ID)} == {}} { puts_real {Parameter 'BUSINESS_ID' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(CUSTODIAN_ID)} == {}} { puts_real {Parameter 'CUSTODIAN_ID' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(hasSourceDataID)} == {}} { puts_real {Parameter 'hasSourceDataID' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DEST_SCHEMA)} == {}} { puts_real {Parameter 'DEST_SCHEMA' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DEST_FEATURE_1)} == {}} { puts_real {Parameter 'DEST_FEATURE_1' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DEST_FEATURE_2)} == {}} { puts_real {Parameter 'DEST_FEATURE_2' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+# ============================================================================ 
+# The following line defines the title presented to the user when this
+# mapping file is run through the FME GUI.  You may modify this
+# if a more meaningful title would be appropriate.
+GUI TITLE DBF to ORACLE8I_DB Translation 
+# ============================================================================ 
+# The following line names the log file to which useful statistics about
+# the translation will be written.  This line can be uncommented and
+# updated if you do wish to keep these statistics.
+# LOG_FILENAME translation.log
+# LOG_APPEND NO
+# ============================================================================ 
+# The following line instructs the FME to log any features that do not
+# match any of the source feature patterns listed further down in
+# this file.  If you are modifying this mapping file, this will be
+# useful to describe to you exactly which features you are losing
+# during translation, if the statistics indicate that features are
+# not being correlated or grouped.  Uncorrelated features do not
+# match any source specification, ungrouped features do not have
+# any corresponding _DEF line. 
+# FME_DEBUG UNGROUPED UNCORRELATED
+# ============================================================================ 
+# The following two lines define the type of reader and writer to be
+# used for this translation.  If you want to translate your data
+# back into its original format, you may make a copy of this file
+# and switch the reader and writer types.  If you rerun the FME, you
+# will get your original data back again (together with any modifications
+# you made in the meantime).  Note that several formats are NOT
+# bi-directional (for example, GIF can only be used as a WRITER)
+# so a reverse translation may not always be possible.
+#! START_WB_HEADER
+READER_TYPE CSV
+READER_KEYWORD CSV_1
+READER_GEN_DIRECTIVES _GROUP_BY_DATASET,no,_ALLOW_SPACES_IN_COLUMN_NAMES,yes,_SORT_TABLE_CONFIG,<quote>NOT_OK_IF_INVALID%NO_LABEL%ROW_DELIM:<semicolon>%COL_DELIM:<comma>%HAS_DEFAULTS%START_NUM_ROWS:3%<backslash><quote>Attribute<backslash><quote>%<backslash><quote>STRING_OR_CHOICE_ENCODED<space>ATTRIBUTES<space>%<backslash><quote>%%<backslash><quote>Alpha<solidus>Num<backslash><quote>%<backslash><quote>LOOKUP_CHOICE<space>SORT_CHOICE<space>Alphabetic<comma>alphabetic%Numeric<comma>numeric<backslash><quote>%alphabetic%<backslash><quote>Order<backslash><quote>%<backslash><quote>LOOKUP_CHOICE<space>SORT_ORDER<space>Ascending<comma>ascending%Descending<comma>descending<backslash><quote>%ascending<quote>,FILTER_GROUP,NO,_MERGE_SCHEMAS,YES,_SCHEMA,,groupBox_2,,groupBox_4,,groupBox_5,,_IN_FIELD_NAMES,YES,groupBox_6,,_SKIP_FOOTER,0,_DUPLICATE_DELIMS,no,_FILTER_TABLE_CONFIG,<quote>NOT_OK_IF_INVALID%NO_LABEL%ROW_DELIM:<semicolon>%COL_DELIM:<comma>%HAS_DEFAULTS%START_NUM_ROWS:3%<backslash><quote>Field<space>Name<backslash><quote>%<backslash><quote>STRING_OR_CHOICE_ENCODED<space>ATTRIBUTES<space>%<backslash><quote>%%<backslash><quote>Filter<backslash><quote>%<backslash><quote>STRING_ENCODED<space>_FILTER_REGEX<space><backslash><quote>%%<backslash><quote>Invert<space>Filter<backslash><quote>%<backslash><quote>CHECKBOX<space>_FILTER_UNMATCHED<space>yes%no<backslash><quote>%no<quote>,_SCHEMA_WITH_COL_NAMES,,_FIELD_NAMES_AFTER_HEADER,no,SCAN_MAX_FEATURES,10000,_SORT_PARAMS,,_STRIP_QUOTES,yes,groupBox,,SORT_GROUP,NO,_FILTER_PARAMS,,_IN_SEPARATOR,<comma>,_ENCODING,,_SKIP_LINES,1
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} NULL
+MULTI_WRITER_KEYWORD{0} NULL_1
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "CSV_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER CSV CSV_1
+# ============================================================================
+# The following GUI line prompts for a directory to be used as the
+# source of the CSV files.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be read.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_CSV_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER CSV CSV_1
+DEFAULT_MACRO SourceDataset_CSV_1 $(SRC_DATASET_CSV_1)
+GUI MULTIFILE SourceDataset_CSV_1 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|All_Files|*.* Source CSV (CommaSeparatedValue) File(s):
+# ============================================================================
+# Hardcode the settings that were used to generate this mapping file
+#
+DEFAULT_MACRO _SCHEMA_CSV_1 
+DEFAULT_MACRO _IN_FIELD_NAMES_CSV_1 YES
+DEFAULT_MACRO _FIELD_NAMES_AFTER_HEADER_CSV_1 no
+DEFAULT_MACRO _EXTENSION_CSV_1 CSV
+DEFAULT_MACRO _ALLOW_SPACES_IN_COLUMN_NAMES_CSV_1 yes
+DEFAULT_MACRO _GROUP_BY_DATASET_CSV_1 no
+CSV_1_SCHEMA 
+DEFAULT_MACRO _SKIP_LINES_CSV_1 1
+CSV_1_SKIP_LINES $(_SKIP_LINES_CSV_1)
+DEFAULT_MACRO _SKIP_FOOTER_CSV_1 0
+CSV_1_SKIP_FOOTER $(_SKIP_FOOTER_CSV_1)
+CSV_1_FIELD_NAMES $(_IN_FIELD_NAMES_CSV_1)
+CSV_1_FIELD_NAMES_AFTER_HEADER $(_FIELD_NAMES_AFTER_HEADER_CSV_1)
+DEFAULT_MACRO _STRIP_QUOTES_CSV_1 yes
+CSV_1_STRIP_QUOTES $(_STRIP_QUOTES_CSV_1)
+CSV_1_SEPARATOR (",")
+CSV_1_EXTENSION CSV
+DEFAULT_MACRO _DUPLICATE_DELIMS_CSV_1 no
+CSV_1_DUPLICATE_DELIMS $(_DUPLICATE_DELIMS_CSV_1)
+CSV_1_SEQUENCED no
+CSV_1_ALLOW_SPACES_IN_COLUMN_NAMES $(_ALLOW_SPACES_IN_COLUMN_NAMES_CSV_1)
+CSV_1_GROUP_BY_DATASET $(_GROUP_BY_DATASET_CSV_1)
+DEFAULT_MACRO SORT_GROUP_CSV_1 NO
+CSV_1_SORT_GROUP $(SORT_GROUP_CSV_1)
+DEFAULT_MACRO _SORT_PARAMS_CSV_1 
+CSV_1_SORT_PARAMS $(_SORT_PARAMS_CSV_1)
+DEFAULT_MACRO FILTER_GROUP_CSV_1 NO
+CSV_1_FILTER_GROUP $(FILTER_GROUP_CSV_1)
+DEFAULT_MACRO _FILTER_PARAMS_CSV_1 
+CSV_1_FILTER_PARAMS $(_FILTER_PARAMS_CSV_1)
+# =====================================================================
+# Provide some control over what attributes have the user-selected
+# encoding applied. Normally all attributes are updated after being
+# read, but the following lines exclude from this treatment all
+# attributes whose names start with fme_ or csv_.
+CSV_1_UNENCODED_ATTR_PREFIX fme_ csv_
+# ===========================================================================
+DEFAULT_MACRO CSV_IN_NETWORK_AUTHENTICATION_CSV_1 
+CSV_1_NETWORK_AUTHENTICATION "$(CSV_IN_NETWORK_AUTHENTICATION_CSV_1)"
+GUI OPTIONAL AUTHENTICATOR CSV_IN_NETWORK_AUTHENTICATION_CSV_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO CSV_IN_NETWORK_PROXY_CSV_1 
+CSV_1_NETWORK_PROXY "$(CSV_IN_NETWORK_PROXY_CSV_1)"
+GUI OPTIONAL AUTHENTICATOR CSV_IN_NETWORK_PROXY_CSV_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Proxy"%PROMPT_TYPE%PROXY Network Proxy
+GUI INTEGER _SKIP_LINES_CSV_1 Number of Lines to Skip:
+GUI INTEGER _SKIP_FOOTER_CSV_1 Number of Footer Lines to Skip:
+# GUI CHOICE _IN_FIELD_NAMES yes%no Field Names in File:
+# GUI CHOICE _FIELD_NAMES_AFTER_HEADER yes%no Field After Header:
+GUI CHOICE _STRIP_QUOTES_CSV_1 yes%no Strip Quotes From Fields:
+# GUI TEXT _IN_SEPARATOR Field Delimiter:
+# GUI TEXT _EXTENSION Default File Extension:
+GUI CHOICE _DUPLICATE_DELIMS_CSV_1 yes%no Skip Duplicate Delimiters:
+GUI CHOICE SORT_GROUP_CSV_1 yes%no Sorting Enabled:
+GUI OPTIONAL GUI_LINE_TABLE _SORT_PARAMS_CSV_1 NOT_OK_IF_INVALID%NO_LABEL%ROW_DELIM:;%COL_DELIM:,%HAS_DEFAULTS%START_NUM_ROWS:3%"Attribute"%"STRING_OR_CHOICE_ENCODED ATTRIBUTES %"%%"Alpha/Num"%"LOOKUP_CHOICE SORT_CHOICE Alphabetic,alphabetic%Numeric,numeric"%alphabetic%"Order"%"LOOKUP_CHOICE SORT_ORDER Ascending,ascending%Descending,descending"%ascending Sorting Parameters:
+GUI CHOICE FILTER_GROUP_CSV_1 yes%no Filter Enabled:
+GUI OPTIONAL GUI_LINE_TABLE _FILTER_PARAMS_CSV_1 NOT_OK_IF_INVALID%NO_LABEL%ROW_DELIM:;%COL_DELIM:,%HAS_DEFAULTS%START_NUM_ROWS:3%"Field Name"%"STRING_OR_CHOICE_ENCODED ATTRIBUTES %"%%"Filter"%"STRING_ENCODED _FILTER_REGEX "%%"Invert Filter"%"CHECKBOX _FILTER_UNMATCHED yes%no"%no Filter Parameters:
+# =====================================================================
+# Allows to set one of the character encodings for output file
+DEFAULT_MACRO _ENCODING_CSV_1 
+GUI OPTIONAL STRING_OR_ENCODING _ENCODING_CSV_1 SYSTEM%* Character Encoding:
+CSV_1_ENCODING $(_ENCODING_CSV_1)
+CSV_1_DATASET "$(SourceDataset_CSV_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "NULL_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER NULL NULL_1
+# ============================================================================
+# Just fake out a macro; it's not used
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_NULL_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER NULL NULL_1
+DEFAULT_MACRO DestDataset_NULL_1 NULL
+NULL_1_DATASET "$(DestDataset_NULL_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(LOGFILE)"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Datum
+FME_GEOMETRY_HANDLING Classic
+FME_STROKE_MAX_DEVIATION 0
+MAPPING_FILE_ID GSR_zzz_SVW_staging_csv_bcgw<lf>
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_CSV_1 CSV_1
+DEFAULT_MACRO DATASET_KEYWORD_NULL_1 NULL_1
+# -------------------------------------------------------------------------
+
+CSV_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+FME_BEGIN_PYTHON_ENC import<space>fme<lf>import<space>DataBCFMWTemplate<lf>start<space>=<space>DataBCFMWTemplate.Start<openparen>fme<closeparen><lf>start.startup<openparen><closeparen><lf>
+FME_END_PYTHON_ENC import<space>fme<lf>import<space>DataBCFMWTemplate<lf>shutIt<space>=<space>DataBCFMWTemplate.Shutdown<openparen>fme<closeparen><lf>shutIt.shutdown<openparen><closeparen>
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME gsr_zzz_sv_staging_csv_bcgw
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+CSV_1_DEF CSV   col0                         char(1)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD CSV_1   INPUT FEATURE_TYPE *    ROUTE CSV CSV_1::CSV TO FME_GENERIC ::CSV ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+CSV_1_MERGE_DEF CSV_1::CSV EXACT CSV
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV (CSV_1) Splitter"    INPUT FEATURE_TYPE CSV    OUTPUT FEATURE_TYPE CSV_CSV_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "File_Change_Detector_v2 FILE_SOURCE Input Collector"   INPUT FEATURE_TYPE CSV_CSV_1   OUTPUT FEATURE_TYPE File_Change_Detector_v2_FILE_SOURCE
+MACRO File_Change_Detector_v2_WORKSPACE_NAME File_Change_Detector_v2
+MACRO $(File_Change_Detector_v2_WORKSPACE_NAME)_XFORMER_NAME File_Change_Detector_v2
+MACRO $(File_Change_Detector_v2_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(File_Change_Detector_v2_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+INCLUDE_CUSTOM_TRANSFORMER_VER File Change Detector v2:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "File_Change_Detector_v2 CHANGES Output Renamer/Nuker"   INPUT FEATURE_TYPE File_Change_Detector_v2_CHANGES   OUTPUT FEATURE_TYPE File_Change_Detector_v2_CHANGES
+FACTORY_DEF * TeeFactory   FACTORY_NAME "File_Change_Detector_v2 NO_CHANGES Output Renamer/Nuker"   INPUT FEATURE_TYPE File_Change_Detector_v2_NO_CHANGES
+# -------------------------------------------------------------------------
+
+INCLUDE [ puts "MACRO REAL_RATE [expr 1 * -1 ]" ]
+FACTORY_DEF * SamplingFactory    FACTORY_NAME Sampler    SAMPLE_RATE $(REAL_RATE)    INPUT  FEATURE_TYPE File_Change_Detector_v2_CHANGES    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___
+# This TeeFactory is needed because Sampler will still output features if it has no OUTPUT clauses specified.
+# This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_SAMPLED
+
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * ServerFactory    FACTORY_NAME FMEServerJobSubmitter       INPUT  FEATURE_TYPE Sampler_SAMPLED    ACTION SUBMIT_JOB    EMBED_HOST "$(DEST_FME_SERVER)"    EMBED_USERNAME "dwrs"    EMBED_PASSWORD "dwrs_fme"    SUBMIT_JOB_REPOSITORY "GSR_SUPPORT"    SUBMIT_JOB_WORKSPACE "gsr_occupants_sp_csv_staging_bcgw_driver.fmw"    SUBMIT_JOB_BLOCKING TRUE    WORKSPACE_PARAMETERS "BUSINESS_ID string @EvaluateExpression(FDIV,STRING_ENCODED,$(BUSINESS_ID$encode),FMEServerJobSubmitter) CUSTODIAN_ID string @EvaluateExpression(FDIV,STRING_ENCODED,$(CUSTODIAN_ID$encode),FMEServerJobSubmitter) hasSourceDataID string @EvaluateExpression(FDIV,STRING_ENCODED,$(hasSourceDataID$encode),FMEServerJobSubmitter) SOURCE_DATASET_CSV_1 string @EvaluateExpression(FDIV,STRING_ENCODED,$(SRC_DATASET_CSV_1$encode),FMEServerJobSubmitter) DEST_DB_ENV_KEY string @EvaluateExpression(FDIV,STRING_ENCODED,$(DEST_DB_ENV_KEY$encode),FMEServerJobSubmitter) SUCCESS_EMAIL string @EvaluateExpression(FDIV,STRING_ENCODED,$(SUCCESS_EMAIL$encode),FMEServerJobSubmitter) FAILURE_EMAIL string @EvaluateExpression(FDIV,STRING_ENCODED,$(FAILURE_EMAIL$encode),FMEServerJobSubmitter) FAILURE_MESSAGE string @EvaluateExpression(FDIV,STRING_ENCODED,$(FAILURE_MESSAGE$encode),FMEServerJobSubmitter) DEST_FEATURE_2 string @EvaluateExpression(FDIV,STRING_ENCODED,$(DEST_FEATURE_2$encode),FMEServerJobSubmitter) DEST_FEATURE_1 string @EvaluateExpression(FDIV,STRING_ENCODED,$(DEST_FEATURE_1$encode),FMEServerJobSubmitter) DEST_FME_SERVER string @EvaluateExpression(FDIV,STRING_ENCODED,$(DEST_FME_SERVER$encode),FMEServerJobSubmitter)"    PRIORITY "100"    OUTPUT JOB_SUCCEEDED FEATURE_TYPE FMEServerJobSubmitter_JOB_SUCCEEDED    OUTPUT JOB_FAILED FEATURE_TYPE FMEServerJobSubmitter_JOB_FAILED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME FMEServerJobSubmitter_Failed_Logger    INPUT  FEATURE_TYPE FMEServerJobSubmitter_JOB_FAILED    OUTPUT FEATURE_TYPE FMEServerJobSubmitter_Failed_LOGGED                  @Log("FMEServerJobSubmitter_Failed: Feature is:","20","20")                  @FeatureType(FMEServerJobSubmitter_Failed_LOGGED)
+
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE FMEServerJobSubmitter_Failed_LOGGED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Translation Terminated")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Translation Terminated")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Cloner_CheckCopies    INPUT  FEATURE_TYPE FMEServerJobSubmitter_JOB_SUCCEEDED    TEST "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_numFeaturesOutput<closeparen>,Cloner)" TYPE INT ENCODED    OUTPUT PASSED FEATURE_TYPE __toOutput__
+FACTORY_DEF * TeeFactory    FACTORY_NAME Cloner_Cloner    INPUT FEATURE_TYPE __toOutput__    NUMBER_OF_COPIES "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_numFeaturesOutput<closeparen>,Cloner)"    COPY_NUMBER_ATTRIBUTE _copynum    OUTPUT FEATURE_TYPE Cloner_COPY
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Cloner_COPY TO NULL __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>NULL<closeparen> GEOMETRY    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+

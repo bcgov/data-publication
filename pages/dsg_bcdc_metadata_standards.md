@@ -108,7 +108,7 @@ Data elements _optionality_ for each dataset type are as follows:
 
 ## MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES
 
-Table and column descriptions are required for all objects in the BC Geographic Warehouse.  These descriptions are created by the BCGW data modeller, in consultation with the custodian and DataBC data administration staff.  The medium for defining the descriptions is the [Dataset Logfile](dps_bcgw_w.md#dataset-logfile).
+Table and column descriptions are required for all objects in the BC Geographic Warehouse.  These descriptions are created by the BCGW data modeller, in consultation with the custodian and DataBC data administration staff.  The medium for defining the descriptions is the [Dataset Model](dps_bcgw_w.md#dataset-model).
 
 ## MANDATORY METADATA FOR RESOURCES NOT IN THE BC GEOGRAPHIC WAREHOUSE
 
