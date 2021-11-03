@@ -46,6 +46,8 @@ has_toc: true
 
 ### Application
 
++ A type of resource associated to a record, this category is used for applications that provide access to data.
+
 [RETURN TO TOP][1]
 
 ### Document and Tabular Data
@@ -56,8 +58,9 @@ has_toc: true
 
 #### BC Geographic Warehouse
 
-+ Geographic Data resource type is used if they are spatially enabled or not. 
-   + This is to enable the Data Distribution Service to be configured for these resources.
++ A resource type associated to a record, this category is used for data that may, or may not, contains geospatial information along with other data.  
++ Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This category must be used for all BCGW resources.
++ This is to enable the Data Distribution Service to be configured for these resources.
 
 + The **Manage BCGW Resources** button has not be enabled in the new catalogue.  This is an enhancement for a future release. 
 
@@ -90,6 +93,8 @@ has_toc: true
 [RETURN TO TOP][1]
 
 ### WebService and API
+
++  A resource type associated to a record, this category is used for metadata relating to web services or application programming interfaces.
 
 [RETURN TO TOP][1]
 
