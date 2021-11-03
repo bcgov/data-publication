@@ -21,7 +21,7 @@ has_toc: true
    + [**Application**](#application)
    + [**Document/Tabular Data**](#document-and-tabular-data)
    + [**Geographic Data**](#geographic-data)
-      - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse)
+      - [**BC Geographic Warehouse (BCGW)**](#bc-geographic-bcgw-warehouse)
    + [**WebService and API**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
@@ -50,7 +50,7 @@ has_toc: true
 
 ### Geographic Data
 
-#### BC Geographic Warehouse Data
+#### BC Geographic Warehouse (BCGW)
 
 + Geographic Data resources type is used if they are spatially enabled or not. 
    + This is to allow for the Data Distribution Service to be configured for those datasets.
