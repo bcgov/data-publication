@@ -52,6 +52,8 @@ has_toc: true
 
 ### Document and Tabular Data
 
++ A type of resource associated to a record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.
+
 [RETURN TO TOP][1]
 
 ### Geographic Data
