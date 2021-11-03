@@ -18,11 +18,11 @@ has_toc: true
 ## Table of Contents
 
 + [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
-    - [**Application Resources**](#application-resources)
-    - [**Document/Tabular Dataset Resources**](#doument-and-tabular-dataset-resources)
-    - [**Geographic Dataset Resources**](#geographic-data-resources)
+    - [**Application Resources**](#application)
+    - [**Document/Tabular Dataset Resources**](#document-and-tabular-data)
+    - [**Geographic Dataset Resources**](#geographic-data)
          - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse)
-    - [**WebService and API Resources**](#webservice-and-api-resources)
+    - [**WebService and API Resources**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
     - [**Replace a File in the Catalogue Data Store**](#replace-a-file-in-the-catalogue-data-store)
@@ -44,11 +44,11 @@ has_toc: true
     + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 
-## Application Resources
+## Application
 
 [RETURN TO TOP][1]
 
-## Geographic Data Resources
+## Geographic Data
 
 ### BC Geographic Warehouse Data
 
@@ -85,11 +85,11 @@ has_toc: true
 
 [RETURN TO TOP][1]
 
-## Documument and Tabular Dataset Resources
+## Documument and Tabular Data
 
 [RETURN TO TOP][1]
 
-## WebService and API Resources
+## WebService and API
 
 # ADD A RESOURCE
 
