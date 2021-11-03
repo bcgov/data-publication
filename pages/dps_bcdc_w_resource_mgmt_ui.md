@@ -18,14 +18,14 @@ has_toc: true
 ## Table of Contents
 
 + [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
-    - [**Application**](#application)
-    - [**Document/Tabular Data**](#document-and-tabular-data)
-    - [**Geographic Data**](#geographic-data)
-         - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse)
-    - [**WebService and API**](#webservice-and-api)
+   + [**Application**](#application)
+   + [**Document/Tabular Data**](#document-and-tabular-data)
+   + **Geographic Data**](#geographic-data)
+      - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse)
+   + [**WebService and API**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
-    - [**Replace a File in the Catalogue Data Store**](#replace-a-file-in-the-catalogue-data-store)
+   + [**Replace a File in the Catalogue Data Store**](#replace-a-file-in-the-catalogue-data-store)
 + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 
 ---------------
@@ -36,7 +36,7 @@ has_toc: true
 ---------------
 
 
-# RESOURCE TYPES
+## RESOURCE TYPES
 
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources that are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
@@ -44,13 +44,13 @@ has_toc: true
     + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 
-## Application
+### Application
 
 [RETURN TO TOP][1]
 
-## Geographic Data
+### Geographic Data
 
-### BC Geographic Warehouse Data
+#### BC Geographic Warehouse Data
 
 + Geographic Data resources type is used if they are spatially enabled or not. 
    + This is to allow for the Data Distribution Service to be configured for those datasets.
@@ -85,13 +85,13 @@ has_toc: true
 
 [RETURN TO TOP][1]
 
-## Documument and Tabular Data
+### Documument and Tabular Data
 
 [RETURN TO TOP][1]
 
-## WebService and API
+### WebService and API
 
-# ADD A RESOURCE
+## ADD A RESOURCE
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
@@ -99,7 +99,7 @@ has_toc: true
 
 [RETURN TO TOP][1]
 
-# EDIT A RESOURCE
+## EDIT A RESOURCE
 **To edit a resource:**
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
@@ -111,7 +111,7 @@ has_toc: true
 
 [RETURN TO TOP][1]
 
-## Replace a File in the Catalogue Data Store
+### Replace a File in the Catalogue Data Store
 
 1. Once in edit mode of the resouce
 1. Click on the **File** circle
@@ -122,7 +122,7 @@ has_toc: true
 
 [RETURN TO TOP][1]
 
-# RESOURCE TYPE SPECIFIC FIELDS
+## RESOURCE TYPE SPECIFIC FIELDS
 
 \* indicates required fields.
 
@@ -344,9 +344,7 @@ has_toc: true
 
 Click **Save** when done
 
-
 + Additional resources can be added by repeating the process above or adding other resource types.
-
 
 [RETURN TO TOP][1]
 
