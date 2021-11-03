@@ -17,10 +17,10 @@ has_toc: true
 
 ## Table of Contents
 
-+ [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
++ [**RESOURCE TYPES**](#resource-types)
    + [**Application**](#application)
    + [**Document/Tabular Data**](#document-and-tabular-data)
-   + **Geographic Data**](#geographic-data)
+   + [**Geographic Data**](#geographic-data)
       - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse)
    + [**WebService and API**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
