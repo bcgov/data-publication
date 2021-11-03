@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-## RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE UI
+# RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE USER INTERFACE (UI)
 
 |**AUDIENCE**|**DEFINITION**|
 |:---|:---|
@@ -350,5 +350,5 @@ Click **Save** when done
 
 [RETURN TO TOP][1]
 
-[1]: #resource-management-using-the-bc-data-catalogue-ui
+[1]: #resource-management-in-the-bc-data-catalogue-user-interface-ui
 
