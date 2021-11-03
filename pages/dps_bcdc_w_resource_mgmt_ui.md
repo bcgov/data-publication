@@ -46,6 +46,8 @@ has_toc: true
 
 ## Application Resources
 
+[RETURN TO TOP][1]
+
 ## Geographic Dataset Resources
 
 ### BC Geographic Warehouse Datasets
@@ -81,7 +83,11 @@ has_toc: true
     + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
         - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
 
+[RETURN TO TOP][1]
+
 ## Documument and Tabular Dataset Resources
+
+[RETURN TO TOP][1]
 
 ## WebService and API Resources
 
@@ -90,6 +96,8 @@ has_toc: true
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below as noted in the [field section](#resource-type-specific-fields).
+
+[RETURN TO TOP][1]
 
 # EDIT A RESOURCE
 **To edit a resource:**
@@ -101,6 +109,8 @@ has_toc: true
         1. Click on the _Edit resource_ button.
 1. Update the fiel(s) as needed. See the [field section](#resource-type-specific-fields) for more details.
 
+[RETURN TO TOP][1]
+
 ## Replace a File in the Catalogue Data Store
 
 1. Once in edit mode of the resouce
@@ -109,6 +119,8 @@ has_toc: true
 1. Navigate to new replacement file
 1. Click **Open**
 1. Click **Save**
+
+[RETURN TO TOP][1]
 
 # RESOURCE TYPE SPECIFIC FIELDS
 
