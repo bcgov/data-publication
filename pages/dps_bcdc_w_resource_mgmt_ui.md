@@ -48,6 +48,10 @@ has_toc: true
 
 [RETURN TO TOP][1]
 
+### Document and Tabular Data
+
+[RETURN TO TOP][1]
+
 ### Geographic Data
 
 #### BC Geographic Warehouse
@@ -82,10 +86,6 @@ has_toc: true
 + **Projection Name** 
     + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
         - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
-
-[RETURN TO TOP][1]
-
-### Documument and Tabular Data
 
 [RETURN TO TOP][1]
 
