@@ -29,7 +29,7 @@ has_toc: false
 |       |   |   | 3. provides the authoritative version of the data; and
 |       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. 
 |       |   |   |Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
-| **D** |   |<a name="dataset">Dataset</a>|A dataset type in the metadata record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
+| **D** |   |<a name="dataset">Document/Tabular Data</a>|A resource type associated to a record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
 |       |   |Dataset Model| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
 |       |DA |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
