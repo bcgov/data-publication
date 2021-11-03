@@ -56,11 +56,13 @@ has_toc: true
 
 ### Geographic Data
 
-#### BC Geographic Warehouse
-
 + A resource type associated to a record, this category is used for data that may, or may not, contains geospatial information along with other data.  
 + Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This category must be used for all BCGW resources.
-+ This is to enable the Data Distribution Service to be configured for these resources.
+
+#### BC Geographic Warehouse
+
++ BC Geographic Warehouse is a selection available in the Resource Storage Location.  
++ This is to be selected to allow for the Data Distribution Service configuration for these resources.
 
 + The **Manage BCGW Resources** button has not be enabled in the new catalogue.  This is an enhancement for a future release. 
 
