@@ -29,8 +29,7 @@ has_toc: false
 |       |   |   | 3. provides the authoritative version of the data; and
 |       |   |   | 4. is ultimately accountable for issues related to definition, collection, management and authorized use of the data. 
 |       |   |   |Every data holding should have one and only one Data Custodian - usually someone at the Director or Executive Director level.
-| **D** |   |<a name="dataset">Document/Tabular Data</a>|A type of resource associated to a record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
-|       |   |Dataset Model| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
+| **D** |   |Dataset Model| An .xls file used in the Data Modelling process that describes business, data, security, and object details about a dataset. 
 |       |DBC|Data British Columbia | A database set up to hold DataBC applications and their system components. |
 |       |DA |Data Administrator|A person responsible for setting policies and standards related to managing and protecting data.
 |       |   |<a name="data_manager">Data Manager</a>| A _Role_ in the BC Data Catalogue, the Data Manager is someone who:
@@ -51,6 +50,8 @@ has_toc: false
 |       |   |<a name="distributor">Distributor<a/>| A_Role_ in the BC Data Catalogue, the Distributor is someone who:
 |       |   |   | 1. distributes the published data on behalf of the Organization (branch or division), and
 |       |   |   | 2. does not own the record and resources, but works closely with the other roles associated to the record.
+|       |   |<a name="dataset">Document/Tabular Data</a>|A type of resource associated to a record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
+|       |   
 | **E** |ETL|Extract Transform Load | Extracting data from operational sources, transforming it to fit operational needs, and loading it to the BCGW. |
 |       |   | Enhanced Information | Existing information that has become value-added through the addition of information not already contained within the data, or information that was created as a result of an analysis process or amalgamation of information. For the purposes of AGO metadata requirements, if the AGO layer Item Details page can sufficiently describe how the information was added/created and the sources from which it came so that an average user (i.e., member of the public) could access and recreate this enhanced information based on the information provided, then no additional metadata record would be required for this layer. This being said however, it may be advisable to create such a metadata record to address the volume of questions from interested users.
 | **F** |FME  |Feature Manipluation Engine | ETL software written by Safe Software that is used by DataBC for the majority of data loads to BCGW feature classes. |
