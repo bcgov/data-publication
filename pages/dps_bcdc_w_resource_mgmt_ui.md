@@ -52,13 +52,13 @@ has_toc: true
 
 #### BC Geographic Warehouse
 
-+ Geographic Data resources type is used if they are spatially enabled or not. 
-   + This is to allow for the Data Distribution Service to be configured for those datasets.
++ Geographic Data resource type is used if they are spatially enabled or not. 
+   + This is to enable the Data Distribution Service to be configured for these resources.
 
-+ For Beta, the **Manage BCGW Resources** button has not be enabled yet.
++ The **Manage BCGW Resources** button has not be enabled in the new catalogue.  This is an enhancement for a future release. 
 
 **Specific Field Requirements**
-+ To have the **Download/Access** button configured to pop-up the Persistent Order Widget (POW) the following must be populated:
++ To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
     1. **Name:** "BC Geographic Warehouse Custom Download"
     2. **Resource Storage Location:** "BC Geographic Warehouse"
     3. **Object Name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
