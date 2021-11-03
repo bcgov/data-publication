@@ -18,11 +18,11 @@ has_toc: true
 ## Table of Contents
 
 + [**RESOURCE TYPES**](#bc-geographic-warehouse-datasets)
-    - [**Application Resources**](#application)
-    - [**Document/Tabular Dataset Resources**](#document-and-tabular-data)
-    - [**Geographic Dataset Resources**](#geographic-data)
+    - [**Application**](#application)
+    - [**Document/Tabular Data**](#document-and-tabular-data)
+    - [**Geographic Data**](#geographic-data)
          - [**BC Geographic Warehouse (BCGW) Datasets**](#bc-geographic-warehouse)
-    - [**WebService and API Resources**](#webservice-and-api)
+    - [**WebService and API**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
     - [**Replace a File in the Catalogue Data Store**](#replace-a-file-in-the-catalogue-data-store)
