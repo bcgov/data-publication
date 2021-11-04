@@ -317,9 +317,9 @@ Data Distribution configuration is completed to implement access and security fo
 
 **Required for Action Items:**
 
-+ Security model as indicated in the Data Suppliers in the [Dataset Logfile](#dataset-logfile)
++ Security model as indicated in the Data Suppliers in the [Dataset Model](#dataset-model)
 + If Named User, then IDIRs and/or BCeIDs as provided by the Data Suppliers
-+ Column Short Names as provided by the Data Suppliers in the [Dataset Logfile](#dataset-logfile)
++ Column Short Names as provided by the Data Suppliers in the [Dataset Model](#dataset-model)
 
 **Action Items**
 
@@ -354,7 +354,7 @@ Data Replication provides the channel in which the data is updated.  Some datase
 + FME Workspace (FMW) file
 	+ Provided by business area client (or client’s vendor)
 + [_Using the DataBC FME Framework_](dps_bcgw_w_databc_fme.md)
-+ Replication frequency as identified by the ***Data Suppliers*** in the [Dataset Logfile](#dataset-logfile)
++ Replication frequency as identified by the ***Data Suppliers*** in the [Dataset Model](#dataset-model)
 
 **Action Items**
 
