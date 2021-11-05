@@ -9,7 +9,7 @@ has_toc: false
 
 # SECURITY AND ACCESS
 
-The pages in this section describe Security and Access standards and guidelines for data published through the DataBC Program.
+The pages in this section describe Security and Access standards and guidelines for data published via the DataBC Program's products.
 
 + [BCGW Proxy Naming Standards](dsg_security_access_proxy_creation_standards.md)
 + [BCGW Role Naming Standards](dsg_security_access_role_naming_creation.md)
