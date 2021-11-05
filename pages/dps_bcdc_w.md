@@ -19,6 +19,7 @@ This page is written in the context that you have reviewed all information in th
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**LICENCES**](#licences)
 + [**CREATING A METADATA RECORD**](#creating-a-metadata-record)
 	+ [METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)](#metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
