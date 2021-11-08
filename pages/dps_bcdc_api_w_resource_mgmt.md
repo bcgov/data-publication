@@ -21,7 +21,7 @@ has_toc: true
 + [**HOW TO MANAGE RESOURCES USING THE CATALOGUE API**](#how-to-manage-resources-using-the-catalogue-api)
 	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
 	+ [How to update a resource with the API using resource_update](#how-to-update-a-resource-with-the-api-using-resource_update)
-	+ [How to update a resource with the API using resource_path](#how-to-update-a-resource-with-the-api-using-resource_patch)
+	+ [How to update a resource with the API using resource_patch](#how-to-update-a-resource-with-the-api-using-resource_patch)
 
 
 -----------------------
@@ -53,13 +53,13 @@ ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKE
 resp = ckan.action.resource_create(
         package_id='YOUR-PACKAGE-ID-HERE',
         upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        name="my-resource-name-updated",
-	bcdc_type="document",
-	resource_update_cycle="monthly",
-	format="csv",
-	resource_storage_location="catalogue data store",
-	resource_type="data",
-	resource_access_method="direct access")
+        name='my-resource-name-updated',
+	bcdc_type='document',
+	resource_update_cycle='monthly',
+	format='csv',
+	resource_storage_location='catalogue data store',
+	resource_type='data',
+	resource_access_method='direct access')
 
 
 print(resp)
@@ -80,13 +80,13 @@ ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKE
 resp = ckan.action.resource_update(
         id='RESOURCE-ID-TO-UPDATE-HERE',
         upload=open('/Users/Documents/test_resource_csv_upload.csv'),
-        name="my-resource-name-updated",
-	bcdc_type="document",
-	resource_update_cycle="monthly",
-	format="csv",
-	resource_storage_location="catalogue data store",
-	resource_type="data",
-	resource_access_method="direct access")
+        name='my-resource-name-updated',
+	bcdc_type='document',
+	resource_update_cycle='monthly',
+	format='csv',
+	resource_storage_location='catalogue data store',
+	resource_type='data',
+	resource_access_method='direct access')
 
 
 print(resp)
@@ -104,8 +104,8 @@ ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKE
 
 resp = ckan.action.resource_patch(
         id='RESOURCE-ID-TO-UPDATE-HERE',
-        name="my-resource-name-updated",
-	description="my-resource-descrition-update")
+        name='my-resource-name-updated',
+	description='my-resource-descrition-update')
 
 
 print(resp)
