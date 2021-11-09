@@ -10,9 +10,9 @@ has_toc: false
 ## BC DATA CATALOGUE RECORD MANAGEMENT
 
 |**AUDIENCE**|
-|:---:|
-| *Metadata Editors* |
-| *Metadata Admin* |
+|:---|
+|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
+|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ---------------
 
