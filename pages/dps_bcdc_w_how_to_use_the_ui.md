@@ -16,10 +16,10 @@ has_toc: false
 [Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
 
 1. There are four defined resource types: 
-    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
-    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#doument-and-tabular-dataset-resources)
-    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-dataset-resources)
-    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api-resources)
+    - [Application](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#application)
+    - [Document/Tabular Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#document-and-tabular-data)
+    - [Geographic Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#geographic-data)
+    - [Webservice/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
 
 --------
 ## BC DATA CATALOGUE ADVANCED SEARCH
