@@ -31,7 +31,7 @@ has_toc: true
 ---------------
 **Resources**
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
-+ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#field-label-and-value-changes)
 
 ---------------
 
@@ -107,7 +107,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described below as noted in the [field section](#resource-type-specific-fields).
+1. Fill out all the required fields for each resource type as described below as noted in the [field section](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#resource-type-specific-fields).
 
 [RETURN TO TOP][1]
 
@@ -119,7 +119,7 @@ A resource type associated to a record, which is used for metadata relating to w
        - This will open the resource in edit mode.
     1. Click on the resource title or the View button.
         1. Click on the _Edit resource_ button.
-1. Update the fiel(s) as needed. See the [field section](#resource-type-specific-fields) for more details.
+1. Update the fiel(s) as needed. See the [field section](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#resource-type-specific-fields) for more details.
 
 [RETURN TO TOP][1]
 
