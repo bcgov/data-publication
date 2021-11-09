@@ -10,10 +10,10 @@ has_toc: true
 
 # RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE USER INTERFACE (UI)
 
-|**AUDIENCE**|**DEFINITION**|
-|:---|:---|
-|*Metadata Editors*|Users of the BC Data Catologue who prepare records and resources for publication and/or retirement.|
-|*Metadata Admin*|Users of the BC Data Catalogue who can prepare records an resources for publication and/or retimement, including the publishing and archiving of records.|
+|**AUDIENCE**|
+|:---|
+|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
+|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
 
@@ -38,28 +38,29 @@ has_toc: true
 
 ## RESOURCE TYPES
 
+There are four types of Resourses using in the BC Data Catalogue.  
+
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
-2. Resources that are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
+2. Resources which are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
 3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
     + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 
 ### Application
 
-+ A type of resource associated to a record, this category is used for applications that provide access to data.
+A type of resource associated to a record, which is used for applications that provide access to data.
 
 [RETURN TO TOP][1]
 
 ### Document and Tabular Data
 
-+ A type of resource associated to a record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.
+A type of resource associated to a record, which is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.
 
 [RETURN TO TOP][1]
 
 ### Geographic Data
 
-+ A resource type associated to a record, this category is used for data that may, or may not, contains geospatial information along with other data.  
-+ Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This category must be used for all BCGW resources.
+A resource type associated to a record, which is used for data that may, or may not, contains geospatial information along with other data.  Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This resource type **must** be used for all BCGW resources.
 
 #### BC Geographic Warehouse
 
@@ -98,7 +99,7 @@ has_toc: true
 
 ### WebService and API
 
-+  A resource type associated to a record, this category is used for metadata relating to web services or application programming interfaces.
+A resource type associated to a record, which is used for metadata relating to web services or application programming interfaces (APIs).
 
 [RETURN TO TOP][1]
 
