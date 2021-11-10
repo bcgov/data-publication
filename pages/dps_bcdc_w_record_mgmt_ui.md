@@ -7,7 +7,7 @@ parent: Content Mgmt/Use - UI
 has_children: false
 has_toc: false
 ---
-## BC DATA CATALOGUE RECORD MANAGEMENT
+# BC DATA CATALOGUE RECORD MANAGEMENT
 
 |**AUDIENCE**|
 |:---|
@@ -64,17 +64,17 @@ Describes the license the data is being published under. See [Licences](./dps_bc
 
 |Field Name |Descripion |Required/Optional|Comments|
 |:---|:---|:---:|:---|
-|**Name**| Contact full name or business area if group inbox|(required)
-|**Email**| Contact email address|(required)
-|**Organization**| Contact organization| |Ministry level has been removed|(required)
-|**Role**| Contact role type | 
-| |[Point of Contact](./glossary.md/#point_of_contact)| (required) |- Recommend the first contact to be a generic inbox. **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.
-| |[Access Approver](./glossary.md/#access_approver) |(optional) | **NEW** - Recommend that this role is not displayed to Public catalogue users.
-| |[Business Expert](./glossary.md/#business_expert) |(optional)
+|**Name**| Contact full name or business area if group inbox|(required)| |
+|**Email**| Contact email address|(required)| |
+|**Organization**| Contact organization| |Ministry level has been removed|(required)|
+|**Role**| Contact role type | | |
+| |[Point of Contact](./glossary.md/#point_of_contact)| (required) |- Recommend the first contact to be a generic inbox. **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.|
+| |[Access Approver](./glossary.md/#access_approver) |(optional) | **NEW** - Recommend that this role is not displayed to Public catalogue users.|
+| |[Business Expert](./glossary.md/#business_expert) |(optional)| |
 | |[Data Manager](./glossary.md/#data_manager) |(optional) | **NEW**|
-| |[Custodian](./glossary.md/#custodian)| (optional) 
-| |[Data Steward](./glossary.md/#data_steward)| (optional) | **NEW**
-| | [Distributor](./glossary.md/#distributor) |(optional) |
+| |[Custodian](./glossary.md/#custodian)| (optional) |- Recommend a custodian is identified and not displayed as a contact to the Public|
+| |[Data Steward](./glossary.md/#data_steward)| (optional) | **NEW**|
+| | [Distributor](./glossary.md/#distributor) |(optional) | |
 |**Displayed**:|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
 
 **Purpose** _(optional field)_
