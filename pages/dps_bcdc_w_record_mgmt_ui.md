@@ -292,7 +292,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record level
-1. Fill out all the required fields for each resource type as described in the [Resource Mangement](./dps_bcdc_w_resource_mgmt_ui.md) page.
+1. Fill out all the required fields for each resource type as described in the [Resource Mangement](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html) page.
 
 [RETURN TO TOP][1]
 
