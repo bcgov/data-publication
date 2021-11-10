@@ -325,4 +325,4 @@ When there are more than 20 records that require updating, a bulk update can be 
 
 -------------------------------------------------------
 
-[1]: https://bcgov.github.io/data-publication/pages/dps_bcdc_w.html
+[1]: #table-of-content
