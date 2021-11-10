@@ -13,9 +13,9 @@ has_toc: false
 -------------
 
 |**AUDIENCE**|
-|:---:|
-| *Metadata Editors* |
-| *Metadata Admin* |
+|:---|
+|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
+|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
 + [**HOW TO MANAGE PACKAGES USING THE CATALOGUE API**](#how-to-manage-packages-using-the-catalogue-api)
