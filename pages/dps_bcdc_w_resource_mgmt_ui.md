@@ -18,23 +18,16 @@ has_toc: true
 ## Table of Contents
 
 + [**RESOURCE TYPES**](#resource-types)
-   + [**Application**](#application)
-   + [**Document/Tabular Data**](#document-and-tabular-data)
-   + [**Geographic Data**](#geographic-data)
-      - [**BC Geographic Warehouse**](#bc-geographic-warehouse)
-   + [**WebService and API**](#webservice-and-api)
+   + [Application](#application)
+   + [Document/Tabular Data](#document-and-tabular-data)
+   + [Geographic Data](#geographic-data)
+      - [_BC Geographic Warehouse_](#bc-geographic-warehouse)
+   + [WebService and API**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
-   + [**Replace a File in the Catalogue Data Store**](#replace-a-file-in-the-catalogue-data-store)
+   + [Replace a File in the Catalogue Data Store](#replace-a-file-in-the-catalogue-data-store)
 + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
-
----------------
-**Resources**
-+ See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
-+ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#field-label-and-value-changes)
-
----------------
-
++ [**ADDITIONAL RESOURCES**](#additional-resources)
 
 ## RESOURCE TYPES
 
@@ -357,6 +350,16 @@ A resource type associated to a record, which is used for metadata relating to w
 Click **Save** when done
 
 + Additional resources can be added by repeating the process above or adding other resource types.
+
+[RETURN TO TOP][1]
+
+---------------
+
+## ADDITIONAL RESOURCES
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#field-label-and-value-changes)
+
+---------------
 
 [RETURN TO TOP][1]
 
