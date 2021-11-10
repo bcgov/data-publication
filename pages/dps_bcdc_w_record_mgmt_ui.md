@@ -17,7 +17,24 @@ has_toc: false
 ## Table of Contents
 + [**METADATA RECORD MANAGEMENT**](#metadata-record-management)
    + [Data Elements on a Record](#data-elements-on-a-record)
-      + [Title](title) 
+      + [_Title_](title) 
+      + [_URL_](url)
+      + [_Organization_](organization)
+      + [_Description_](description)
+      + [_Licence_](licence)
+      + [_Contacts_](contacts)
+      + [_Purpose_](purpose)
+      + [_Data Quality_](data-quality)
+      + [_Lineage Statement_](lineage-statement)
+      + [_More Info_](more-info)
+      + [_Security Classification_](security-classification)
+      + [_Who can view this data?_](who-can-view-this-data)
+      + [_Who can download this data?_](who-can-download-this-data)
+      + [_Who can view this record_](who-can-view-this-record)
+      + [_Keywords_](keywords)
+      + [_State_](state)
+      + [_Resource Status_](resource-status)
+      + [_Record Lifecycle History_](record-lifecycle-history)
 + [**RESOURCE MANAGEMENT**](#resource-management)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
@@ -107,9 +124,9 @@ This is information about the events or source data used in constructing the dat
 
 This is additional information (one or more references) to support the dataset or the pubishing organization, and the fields are an optional set of fields.
 + **Description** (**NEW**)
-    - Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend to use the + Permalink, thus when pages are moved around the link is not broken.
+   + Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend to use the + Permalink, thus when pages are moved around the link is not broken.
 + **URL**
-    - Any related web site URL's can be added here.
+   + Any related web site URL's can be added here.
 
 #### Security Classification
 
@@ -230,7 +247,7 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 <a name=source_data_path>**Source Data Path**</a>:
 + Is required when **Resource Status** is **Historical Archive**
-+ 
+
 [RETURN TO TOP][1]
 
 ---------------
