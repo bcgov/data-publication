@@ -14,13 +14,10 @@ has_toc: false
 |[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
 |[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
----------------
-
-**Resources**
-+ See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
-+ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
-
----------------
+## Table of Contents
++ [**METADATA RECORD MANAGEMENT**](#metadata-record-management)
++ [**RESOURCE MANAGEMENT**](#resource-management)
++ [**ADDITIONAL RESOURCES**](#additional-resources)
 
 ## METADATA RECORD MANAGEMENT
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
@@ -221,8 +218,11 @@ When there are changes to a resource in a metadata record, a new date type and c
 
 <a name=source_data_path>**Source Data Path**</a>:
 + Is required when **Resource Status** is **Historical Archive**
++ 
+[RETURN TO TOP][1]
 
 ---------------
+
 ## RESOURCE MANAGEMENT
 
 For resource management best practices and tips see [Resource Management] 
@@ -231,6 +231,16 @@ To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record level
 1. Fill out all the required fields for each resource type as described in the [Resource Mangement](./dps_bcdc_w_resource_mgmt_ui.md) page.
 
+[RETURN TO TOP][1]
+
+---------------
+
+## ADDITIONAL RESOURCES
+
++ See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
++ See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
+
+---------------
 [RETURN TO TOP][1]
 
 [1]: #bc-data-catalogue-record-management
