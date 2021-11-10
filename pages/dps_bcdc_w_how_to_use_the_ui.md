@@ -7,11 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-## BC DATA CATALOGUE RECORD CONTENT MANAGEMENT
-
-[Record Management](./dps_bcdc_w_resource_mgmt_ui.md)
-
-## BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
+# BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
 
 [Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
 
