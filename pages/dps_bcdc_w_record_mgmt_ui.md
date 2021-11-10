@@ -23,18 +23,18 @@ has_toc: false
       + [_Description_](#description)
       + [_Licence_](#licence)
       + [_Contacts_](#contacts)
-      + [_Purpose_](purpose)
-      + [_Data Quality_](data-quality)
-      + [_Lineage Statement_](lineage-statement)
-      + [_More Info_](more-info)
-      + [_Security Classification_](security-classification)
-      + [_Who can view this data?_](who-can-view-this-data)
-      + [_Who can download this data?_](who-can-download-this-data)
-      + [_Who can view this record_](who-can-view-this-record)
-      + [_Keywords_](keywords)
-      + [_State_](state)
-      + [_Resource Status_](resource-status)
-      + [_Record Lifecycle History_](record-lifecycle-history)
+      + [_Purpose_](#purpose)
+      + [_Data Quality_](#data-quality)
+      + [_Lineage Statement_](#lineage-statement)
+      + [_More Info_](#more-info)
+      + [_Security Classification_](#security-classification)
+      + [_Who can view this data?_](#who-can-view-this-data)
+      + [_Who can download this data?_](#who-can-download-this-data)
+      + [_Who can view this record_](#who-can-view-this-record)
+      + [_Keywords_](#keywords)
+      + [_State_](#state)
+      + [_Resource Status_](#resource-status)
+      + [_Record Lifecycle History_](#record-lifecycle-history)
 + [**RESOURCE MANAGEMENT**](#resource-management)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
@@ -44,6 +44,8 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 ### Data Elements on a Record
 
 Below is a list of fields with supporting details.  
+
+[RETURN TO TOP][1]
 
 #### Title
 
@@ -63,6 +65,8 @@ Tips:
 + Recommend to not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.
 + For records that will include multiple years, do not include the year in the title.
 
+[RETURN TO TOP][1]
+
 #### URL
 
 This is automatically generated while typing in the _**Title**_ with special characters and spaces are replaced with underscores.
@@ -70,21 +74,30 @@ This is automatically generated while typing in the _**Title**_ with special cha
 + This must be unique to the BC Data Catalogue.
 + This does not need to be the same as the Title.
 
+
+[RETURN TO TOP][1]
+
 #### Organization
 
 This is the Sub-Organization (often the Branch or Division) under which the metadata record is created.
 + This is a required field
 + The Ministry or parent organization is no longer required to be defined at the record level.
 
+[RETURN TO TOP][1]
+
 #### Description
 
 Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset, and is a required field.
+
+[RETURN TO TOP][1]
 
 #### Licence
 
 Describes the license the data is being published under. 
 + This is a required field
 + See [Licences](./dps_bcdc_w.md#licences) section for more info.
+
+[RETURN TO TOP][1]
 
 #### Contacts
 
@@ -105,20 +118,28 @@ At least one contact is required.
 | | [Distributor](./glossary.md/#distributor) |(optional) | |
 |**Displayed**:|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
 
+[RETURN TO TOP][1]
+
 #### Purpose
 
 This is a summary of the intentions for which the dataset was developed, and is an optional field. 
 + To provide a complete picture into the nature of the record and resources, it is encouraged to provide some text before publishing so consumers will understand the purpose of and how to use the published data.
+
+[RETURN TO TOP][1]
 
 #### Data Quality
 
 This is descriptive text that can include information about issues, completeness, consistency, etc., and is an optional field.
 + To provide a complete picture into the record's quality, it is encouraged to provide some text before publishing so consumers will understand the data quality of the published data.
 
+[RETURN TO TOP][1]
+
 #### Lineage Statement
 
 This is information about the events or source data used in constructing the data, and is an optional field.
 + To provide a complete picture into the record's source data, it si encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
+
+[RETURN TO TOP][1]
 
 #### More Info
 
@@ -127,6 +148,8 @@ This is additional information (one or more references) to support the dataset o
    + Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend to use the + Permalink, thus when pages are moved around the link is not broken.
 + **URL**
    + Any related web site URL's can be added here.
+
+[RETURN TO TOP][1]
 
 #### Security Classification
 
@@ -139,6 +162,8 @@ The Security Classification has been updated and records transformed to reflect 
 |Low - Sensitivity|**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
 |Medium - Personal, Medium - Sensitivity|**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
 |High - Cabinet, High - Confidential, High - Sensitivity|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
+
+[RETURN TO TOP][1]
 
 #### Who can view this data?
 
@@ -153,6 +178,8 @@ Describes who can view, for example, the BC Geographic Warehouse (BCGW) resource
     |Government and Business BCeID| Only people with IDIR and Business BCeID credentials can access the dataset.
     |Government| Only IDIR credentials can access the dataset.
     |Named Users| Only specific named users can access the dataset.
+
+[RETURN TO TOP][1]
 
 #### Who can download this data?
 
@@ -169,6 +196,8 @@ Describes the security level for access to download BC Geographic Warehouse (BCG
     |Named Users| Only specific named users can access the dataset.
     |Not downloadable| Resource cannot be downloaded. Specifically, for the BC Geographic Warehouse (BCGW), the dataset is not configured via the Distribution Service.
 
+[RETURN TO TOP][1]
+
 #### Who can view this record?
 
 Describes who can view the metadata record.
@@ -179,12 +208,16 @@ Describes who can view the metadata record.
     |:---|:---|
     |Public | All users of the catalogue can view the metadata record.
     |IDIR | Only IDIR credentials can view the metadata record.
+    
+[RETURN TO TOP][1]
 
 #### Keywords
 
 These are the searchable terms for the metadata record, and at least one keyword is required, however, not limited to just one keywork 
 + Enter meaningful keywords here. 
 + Think of what users may use for search terms to find the dataset in the Catalogue.
+
+[RETURN TO TOP][1]
 
 #### State
 
@@ -204,6 +237,8 @@ When creating a new metadata record, the state will be set to DRAFT once you cli
 **Changes**
 + REJECTED has been removed and a record moves from PENDING PUBLISH back to DRAFT
 
+[RETURN TO TOP][1]
+
 #### Resource Status
 
 Defines the status of the dataset, service, API or application as described by one of the types below: 
@@ -221,6 +256,7 @@ Defines the status of the dataset, service, API or application as described by o
     |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional inforomation will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
     
+[RETURN TO TOP][1]
    
 #### Record Lifecycle History
 
