@@ -123,16 +123,16 @@ There are three licencing options for data published data in the BC Data Catalog
 ------------------------------
 
 ## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_w_api_metadata_mgmt.md)._
+_Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_how_to_use.html)._
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
 1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
     + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
-    + Follow the [Workflow](./dps_bcdc_w_record_mgmt_ui.md) to complete all mandatory fields (minimum requirement). 
+    + Follow the [Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_record_mgmt_ui.html) to complete all mandatory/required fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata).
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](https://bcgov.github.io/data-publication/pages/tips_tricks_making_useful_metadata.html#making-useful-metadata).
 1. Click the [**Save**] button. 
 
 ### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
@@ -159,13 +159,13 @@ Resources are the additional metadata specific to that resource as a record can 
 1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described for each of these resource types.
 
-    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application-resources)
-    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#doument-and-tabular-dataset-resources)
-    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-dataset-resources)
-    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api-resources)
+    - [Application](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#application)
+    - [Document/Tabular Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#document-and-tabular-data)
+    - [Geographic Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#geographic-data)
+    - [Webservice/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
 
 _Notes:_
-+ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_api_w_how_to_use.md)
++ To use the CKAN API for managing resources, more information is available [here](https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_how_to_use.html)
 + Only files less than 150MB in size can be uploaded to the Catalogue file store.
 
 ### REORDERING RESOURCES
