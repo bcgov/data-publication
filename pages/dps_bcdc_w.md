@@ -13,7 +13,7 @@ The BC Data Catalogue or Catalogue, as called throughout these documents, is int
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
 |**AUDIENCE**|
-|:---:|
+|:---|
 |[*Data Publisher*](https://bcgov.github.io/data-publication/pages/glossary.html#data_publisher)| 
 |[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)| 
 |[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)| 
