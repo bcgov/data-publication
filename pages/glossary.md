@@ -74,7 +74,7 @@ has_toc: false
 | **V** |VPN  |Virtual Private Network | Service which provides secure, encrypted transport of traffic from external networks into the BC Government’s network (entitled SPAN/BC). It is intended for telecommuters, mobile workers, external partners, vendors and contractors who use commercial Internet Service Providers and need to access SPAN/BC. |
 | **W** |     |<a name="webservice_api">Web Service - API</a>|A resource type associated to a record, this category is used for metadata relating to web services or application programming interfaces.|
   
-Looking for an acronym or definition that's not in this list? Let us know at Data@gov.bc.ca.
+Looking for an acronym or definition that's not in this list? Let us know by emailing Data@gov.bc.ca.
 
 -------------------------------------------------------
 
