@@ -228,7 +228,7 @@ If your metadata record is validated by DataBC, they will change the state to **
 
 _**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
-Once your metadata record is in the Published state, it is then visible and searchable in the BC Data Catalogue for all users, unless set to IDIR visibility ad then a user must log into their IDIR to see the record.  
+Once your metadata record is in the Published state, it is visible and searchable in the BC Data Catalogue for all users, unless set to IDIR visibility.  Then a user must log into their IDIR to see the record.  
 
 Data Custodians should regularly review all metadata records within their Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
 
