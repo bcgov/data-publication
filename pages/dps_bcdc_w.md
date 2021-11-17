@@ -200,7 +200,7 @@ For records that are still in draft:
 
 ## METADATA MANAGEMENT AND MAINTENANCE
 
-Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
+Please review [BC Data Catalogue - Roles and Responsibilities](https://bcgov.github.io/data-publication/pages/dsg_bcdc_roles_responsibilities.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
 
 [RETURN TO TOP][1]
 
