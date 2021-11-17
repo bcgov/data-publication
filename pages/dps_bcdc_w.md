@@ -306,15 +306,18 @@ To create a group, the following information is required and can be sent to [Dat
 ------------------------------
 
 ## ORGANIZATION AND SUB-ORGANIZATION UPDATES
+
 Organizations change names frequently and thus need continual maintenance.
 
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca):
+If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca) and if you are not the Custodian but an Editor, cc them in the email: 
 
-+ Old name
-+ New name
-+ List of data providers (Editors)
-	+ When an update is requested for a sub-organization, we ask that the members and contacts list be reviewed.
-	+ DataBC can provide you with a current list to review.
++ **Subject Line**: BCDC Organization/Sub-Organization Update
++ **Body**:
+   + Old name of Organization (or Sub-Organization)
+   + New name of Organziation (or Sub-Organization)
+   + List of data providers (Editors)
+       + When an update is requested for a sub-organization, we ask that the members and contacts list be reviewed.
+       + DataBC can provide you with a current list to review.
 
 [RETURN TO TOP][1]
 
