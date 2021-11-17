@@ -178,7 +178,7 @@ There are two ways to edit a resource in the metadata record:
 1. On the resource card of the record page, click the pencil ![image](https://user-images.githubusercontent.com/32690119/118194859-f34e6b80-b3fe-11eb-9f72-13be9b382518.png) of the resource to edit.
 1. On the resource page, click the **Edit Resource** button on the toolbar.
 
-1. Make edits that follow the workflow for your dataset type under [Creating a New Metadata Record](#creating-a-metadata-record).
+1. Make edits that follow the workflow for your dataset type under [Creating a New Metadata Record](#creating-a-metadata-record) above.
 1. Click the **Save** button to save your changes.
 
 ### REPLACING AN EXISTING RESOURCE
