@@ -267,6 +267,9 @@ Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the
         - This will disable the _Download/Access_ button. 
     - removing the preview details
         - this will disable the Preview button and the Link to iMapBC
++ for BC's MapHub specific datasets:
+    - the corresponding data, app or map needs to be ideally deleted or at least unshared to public.
+    - any maps are updated to remove reference to the ago hosted data being retired
 + confirming the correct Org and Sub-Org
 + confirming that records with a replacement dataset contain "DEPRECATED" in the title
 
