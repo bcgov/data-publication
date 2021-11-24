@@ -24,16 +24,16 @@ Within the search bar, once can pass queries
 
 **Records published during a certain date range**
 
-```:* record_publish_date:[2021-01-01T00:00:00.000Z TO 2022-01-01T00:00:00.000Z] *:```
+```record_publish_date:[2021-01-01T00:00:00.000Z TO 2022-01-01T00:00:00.000Z]```
 
 **Records published as the Open Data Licence - British Columbia**
 
-```:* license_id:2 *:```
+```license_id:2```
 
 **Object Names**
 
-```:* WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP *:```
+``` WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP ```
 
-**Combination of the two**
+**Combination of two**
 
-```:* record_publish_date:[2017-05-21T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] license_id:2 *:```
+```record_publish_date:[2017-05-21T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] license_id:2```
