@@ -118,8 +118,8 @@ A resource type associated to a record, which is used for metadata relating to w
 
 ### Replace a file in the catalogue Data Store
 
-+ Notes:
-    - Do not upload a file from within an already zipped folder as the nature of windowns will add a number, e.g., 1 or seen as [1], to the end of the file name.
++ Requirement:
+    - Zipped folders can be uploaded but do not upload a file from within an already zipped folder.
 
 1. Once in edit mode of the resouce
 1. Click on the **File** circle
