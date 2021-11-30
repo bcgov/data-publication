@@ -1,3 +1,13 @@
+
+---
+layout: default
+title: Application
+nav_order: 394
+parent: Publication Workflow - Classic
+grand_parent: 
+has_toc: false
+---
+
 ## PUBLISHING AN APPLICATION TO THE BC DATA CATALOGUE
 
 ### Create Dataset
