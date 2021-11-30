@@ -12,7 +12,7 @@ When data is published to the DataBC Program through any of its services, it mus
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
-|**AUDIENCE**|  |  |  |  | 
+|   |  |**AUDIENCE**|  |  | 
 |:---:|:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
