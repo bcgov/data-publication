@@ -1,13 +1,12 @@
-```
+
 ---
 layout: default
 title: Web Service - API
 nav_order: 396
-parent: Publication Workflow - Classic
-grand_parent: BC Data Catalogue
+`parent: Publication Workflow - Classic`
+`grand_parent: BC Data Catalogue`
 has_toc: false
 ---
-```
 
 ## PUBLISHING A WEB SERVICE - API TO THE BC DATA CATALOGUE
 
