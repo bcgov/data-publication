@@ -4,6 +4,7 @@ title: API Management
 nav_order: 391
 parent: Publication Workflow - Classic
 grand_parent: BC Data Catalogue
+is_visble: false
 has_toc: false
 ---
 
