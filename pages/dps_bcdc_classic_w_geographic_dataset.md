@@ -4,7 +4,7 @@ title: Geographic Dataset
 nav_order: 394
 parent: Publication Workflow - Classic
 grand_parent: BC Data Catalogue
-is_visible: false
+nav_exclude: true
 has_toc: false
 ---
 
