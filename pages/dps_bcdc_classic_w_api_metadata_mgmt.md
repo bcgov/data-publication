@@ -1,3 +1,4 @@
+```
 ---
 layout: default
 title: API Metadata Management
@@ -6,6 +7,7 @@ grand_parent: BC Data Catalogue
 parent: Publication Workflow - Classic
 has_toc: false
 ---
+```
 
 # USING THE BC DATA CATALOGUE API FOR METADATA MANAGEMENT
 
