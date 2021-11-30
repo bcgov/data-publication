@@ -4,7 +4,7 @@ title: Web Service - API
 nav_order: 396
 parent: Publication Workflow - Classic
 grand_parent: BC Data Catalogue
-is_visible: false
+nav_exclude: true
 has_toc: false
 ---
 
