@@ -51,7 +51,7 @@ The following Oracle data types and their associated precision are supported for
 |:---:|:---|:---|
 |`BLOB`|Supported just for the SE_ANNO_CAD_DATA column. |SE_ANNO_CAD_DATA|
 |`CHAR(n)`|Strings where the length is constant and can contain just single-byte characters or numeric digits.  |CENSUS_SUBDIVISION_ID|
-|`DATE`|Dates and dates with time.|WHEN_CREATED|
+|`DATE`|Dates and dates with time. For details on storing and displaying dates and times, see the [_Government of British Columbia IM/IT Date and Time Standard (PDF)_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/date_and_time_standard.pdf). Time zones: Whenever possible, explain in the field description the time zone used for a date-time field.|WHEN_CREATED|
 |`NUMBER(10)`|Integers that are no larger than one billion.|FISH_FPHO_SYSID| 
 |`NUMBER(38)`|OBJECTID and integers that can be larger than one billion.|OBJECTID|
 |`NUMBER(n,d)`|Non-integer (fractional) numbers. |FEATURE_AREA_SQM
