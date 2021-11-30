@@ -1,3 +1,10 @@
+---
+layout: default
+title: BC Data Catalogue Classic
+nav_order: 39
+parent: 
+has_toc: false
+---
 
 # BC DATA CATALOGUE PUBLICATION WORKFLOW
 
