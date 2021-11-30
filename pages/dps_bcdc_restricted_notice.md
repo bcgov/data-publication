@@ -1,3 +1,13 @@
+---
+layout: default
+nav_order:
+title: template
+parent:
+grand_parent:
+has_toc: false
+nav_exclude: true
+---
+
 Download of this Data is restricted or not accessible at this time.
 
 Please review metadata record for the following:
