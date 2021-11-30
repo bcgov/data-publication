@@ -2,7 +2,8 @@
 layout: default
 title: BC Data Catalogue Classic
 nav_order: 39
-parent: 
+parent: BC Data Catalogue
+is_visible: false
 has_toc: false
 ---
 
