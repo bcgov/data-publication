@@ -1,13 +1,11 @@
-```
 ---
 layout: default
 title: Dataset
 nav_order: 393
 parent: Publication Workflow - Classic
-grand_parent: BC Data Catalogue
+grand_parent: 
 has_toc: false
 ---
-```
 
 ## PUBLISHING A DATASET TO THE BC DATA CATALOGUE
 
