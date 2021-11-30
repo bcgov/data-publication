@@ -1,13 +1,12 @@
-```
 ---
 layout: default
 title: Geographic Dataset
 nav_order: 394
 parent: Publication Workflow - Classic
-grand_parent: BC Data Catalogue
+grand_parent:
 has_toc: false
 ---
-```
+
 ## PUBLISHING A GEOGRAPHIC DATASET TO THE BC DATA CATALOGUE
 
 ### **Create Dataset**
