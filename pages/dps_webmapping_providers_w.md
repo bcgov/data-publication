@@ -53,6 +53,6 @@ Spatial atasets in the BCGW may be configured for web-mapping services, this req
 |**Security** | Named Users <br/> can be a mix of IDIR and Business BCeID  | ![](/images/green_check.png)| ![](/images/green_check.png) | Not Available | Not Available | Not Available *
 ||
 |**Area of Interest** | Entire dataset| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) |![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Area of Interest** | ![](/images/green_check.png)| Subset dataset| ![](/images/green_check.png) <br/> Available using Definition Queries | ![](/images/green_check.png) <br/> Available using Definition Queries | Not Available | Not Available
+|**Area of Interest** |Subset dataset| ![](/images/green_check.png)| ![](/images/green_check.png) <br/> Available using Definition Queries | ![](/images/green_check.png) <br/> Available using Definition Queries | Not Available | Not Available
 ||
 |**Tabular** | | Not Available </br> Joins are not supported | Not Available |Not Available|Not Available|Not Available
