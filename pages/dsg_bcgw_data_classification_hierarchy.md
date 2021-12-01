@@ -2,7 +2,7 @@
 layout: default
 title: Data Classification Hierarchy
 nav_order: 431
-parent: BCGW Standards and Guidelines
+parent: Publication - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
