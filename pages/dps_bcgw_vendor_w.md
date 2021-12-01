@@ -26,6 +26,7 @@ The pages in this section provide information on the standards and guidelines fo
 
 **Delivery**
 1. [Data Delivery](https://bcgov.github.io/data-publication/pages/dsg_bcgw_data_delivery.html) refers to the way the DataBC Program receives data that is being published in the BCGW.
+1. [MDSYS Extents](https://bcgov.github.io/data-publication/pages/dps_bcgw_template_mdsys_extents.html) provides examples of how to calculate MDSYS extents.
 
 **Replication or ETL**
 1. [Data Replication](https://bcgov.github.io/data-publication/pages/dsg_bcgw_data_replication.html) describes the replication mechanisms for refreshing or updating data in the BCGW.
