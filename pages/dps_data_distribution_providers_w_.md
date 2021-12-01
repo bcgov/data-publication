@@ -53,8 +53,8 @@ All datasets in the BCGW that are configured for distrubtion require
 |**Security** | Named Users <br/> can be a mix of IDIR and Business BCeID  | ![](/images/green_check.png) | ![](/images/green_check.png)  
 ||
 |**Format** | CSV | ![](/images/green_check.png) | ![](/images/green_check.png)
-|**Format** | ESRI File Geodatabse (fgdb) | ![](/images/green_check.png) | ![](/images/green_check.png)
-|**Format** | ESRI Shape File (shp) | ![](/images/green_check.png) | ![](/images/green_check.png)
+|**Format** | ESRI File Geodatabse <br/> (fgdb) | ![](/images/green_check.png) | ![](/images/green_check.png)
+|**Format** | ESRI Shape File<br/>  (shp) | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | GeoJSON | ![](/images/green_check.png) | ![](/images/green_check.png)
 ||
 |**Spatial** | | ![](/images/green_check.png) | ![](/images/green_check.png)
