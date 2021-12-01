@@ -29,12 +29,12 @@ This service allows for data in the BCGW to be orderable in a variety of formats
 Datasets configured for distribution: < 2 GB zipped 
 
 ## REQUIREMENTS
+All datasets in the BCGW that are configured for distrubtion require
 
-|Requirement| BC Data Catalogue | iMapBC | 
-|:---|:---:|:---:|
-|**Metadata**| ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Tabular** | ![](/images/green_check.png) | Not available
-|**Spatial** | ![](/images/green_check.png) | ![](/images/green_check.png)
+1. A metadata record.
+1. Have a profile defined as one the Security options below.
+    - Named Users is the only profile that requires additional configuration. 
+
 
 ## CONFIGURATION OPTIONS
  ![](/images/grey_dash.png)
@@ -44,7 +44,7 @@ Datasets configured for distribution: < 2 GB zipped
 |**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Security** | IDIR	| ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Security** | Business BCeID | ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Security** | Named Users | ![](/images/green_check.png) | ![](/images/green_check.png)  
+|**Security** | Named Users <br/> can be a mix of IDIR and Business BCeID  | ![](/images/green_check.png) | ![](/images/green_check.png)  
 ||
 |**Format** | CSV | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | ESRI e00 | Deprecated | Deprecated
@@ -53,6 +53,10 @@ Datasets configured for distribution: < 2 GB zipped
 |**Format** | GeoJSON | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | GeoPackage (gpkg) |Not available| Not available
 ||
+|**Spatial** | | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Spatial Extent** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Spatial Extent** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
+||
+|**Tabular** | | ![](/images/green_check.png) | Not available
 |**Attribute Query** | Subset dataset | Not available | ![](/images/green_check.png) 
+
