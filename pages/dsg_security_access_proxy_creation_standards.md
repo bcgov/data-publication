@@ -3,7 +3,7 @@ layout: default
 title: Proxy Creation
 nav_order: 448
 parent: Publication - Vendors
-grand_parent: Common Data Standards and Guidelines
+grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
