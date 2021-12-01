@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Data Standards
-nav_order: 414
-parent: BCGW Standards and Guidelines
+nav_order: 444
+parent: Publication - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
