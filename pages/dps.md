@@ -2,7 +2,7 @@
 layout: default
 title: Data Publication Services
 nav_order: 1
-has_children: true
+has_children: false
 has_toc: false
 nav_exclude: true
 
@@ -22,15 +22,3 @@ The BC Data Catalogue provides the easiest access to government's data holdings,
 The province's area, varied topography and predominantly natural resource based economy has positioned B.C. as a leader in geographic information management and generates a wealth of geographic information that is discoverable in the BC Data Catalogue.  DataBC provides access to this information through a suite of unique applications and services that comprise the B.C. Spatial Data Infrastructure.
 
 The information provided in this site describes the services that DataBC provides for data publication, along with supporting governance, standards, guidelines and client workflows. 
-
--------------------------------------------------------
-
-# DATA GOVERNANCE 
-
-The Data Custodianship function is a vital part of good _data governance_. The guidelines and standards in the documents below describe the data custodianship function, the roles and related accountability required to manage data, and explain its role in the data lifecycle, relating it to other important data management roles. 
-
-[_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
-
-[_British Columbia First Nations' Data Governance Initiative_](https://www.bcfndgi.com/)
-
-Explore Data Standards and Guidelines for more information on the Roles and Responsibilities for the BC Data Catalogue and the BC Geographic Warehouse.
