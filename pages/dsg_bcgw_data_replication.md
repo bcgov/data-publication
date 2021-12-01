@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Replication
-nav_order: 413
+nav_order: 433
 grand_parent: BC Geographic Warehouse
 parent: BCGW Standards and Guidelines
 has_toc: false
