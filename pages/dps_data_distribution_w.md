@@ -7,7 +7,7 @@ grand_parent: Data Publication Services
 has_toc: false
 ---
 
-# DATA DISTRIBUTION WORKFLOW
+# DATA DISTRIBUTION WORKFLOW FOR CONSUMERS
 
 This page describes procedures and best practices for downloading data stored in the BC Geographic Warehouse (BCGW) and exported out using the BC Data Catalogue (BCDC) and iMapBC.
 
