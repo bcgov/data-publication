@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Oracle MDSYS Extents
-nav_order: 417
-parent: BCGW Standards and Guidelines
+nav_order: 447
+parent: Publication - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
