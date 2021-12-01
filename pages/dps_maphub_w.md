@@ -2,7 +2,7 @@
 layout: default
 title: Publication Workflow - BC Maphub 
 parent: Web-based Mapping
-nav_order: 71
+nav_order: 81
 ---
 
 # B.C.'s MAP HUB - ARCGIS ONLINE (AGO)
