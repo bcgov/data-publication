@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Common Data Standards and Guidelines
-nav_order: 8
+nav_order: 11
+parent: Data Publication and Services
 has_children: true
 has_toc: false
 ---
