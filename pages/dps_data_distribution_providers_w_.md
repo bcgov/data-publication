@@ -7,16 +7,20 @@ grand_parent: Data Publication Services
 has_toc: false
 ---
 
-# DATA DISTRIBUTION WORKFLOW
+# DATA DISTRIBUTION WORKFLOW FOR PROVIDERS
 
-This page describes the requirements for distributing data from the BC Geographic Warehouse (BCGW) in a variety of formats using the BC Data Catalogue (BCDC) and iMapBC.
+This page describes the requirements and optiopns for distributing data from the BC Geographic Warehouse (BCGW).
+
+This service allows for data in the BCGW to be orderable in a variety of formats using the BC Data Catalogue (BCDC) and iMapBC.
 
 |**AUDIENCE**|  |
 |:---:|:---:|
 | *Data Providers* | *BA* |
 
 ## Table of Contents
-+ [**Requirements**](#how-to-order-data)
+
++ [**CONFIGURABLE PRODUCTS**](#configurable-products)
++ [**REQUIREMENTS**](#requirements)
 + [**CONFIGURATION OPTIONS**](#configuration-options)
 
 -----------------------
@@ -35,6 +39,7 @@ Datasets configured for distribution: < 2 GB zipped
 ## CONFIGURATION OPTIONS
  ![](/images/grey_dash.png)
  
+ 
 |Type|Subtype | BC Data Catalogue | iMapBC | 
 |:---|:---|:---:|:---:|
 |**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> for spatial data presented in iMap | 
@@ -44,10 +49,10 @@ Datasets configured for distribution: < 2 GB zipped
 ||
 |**Format** | CSV | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | ESRI e00 | Deprecated | Deprecated
-|**Format** | ESRI File Geodatabse | ![](/images/green_check.png) | ![](/images/green_check.png)
-|**Format** | ESRI Shape File | ![](/images/green_check.png) | ![](/images/green_check.png)
+|**Format** | ESRI File Geodatabse (fgdb) | ![](/images/green_check.png) | ![](/images/green_check.png)
+|**Format** | ESRI Shape File (shp) | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | GeoJSON | ![](/images/green_check.png) | ![](/images/green_check.png)
-|**Format** | GeoPackage |Not at this time| Not at this time
+|**Format** | GeoPackage (gpkg) |Not at this time| Not at this time
 ||
 |**Spatial Extent** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Spatial Extent** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
