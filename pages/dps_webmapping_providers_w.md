@@ -45,14 +45,14 @@ Spatial atasets in the BCGW may be configured for web-mapping services, this req
 ## CONFIGURATION OPTIONS
  ![](/images/grey_dash.png)
  
- |Type|Subtype | iMapBC <br/> for published presentations | WMS  | Network Link KML |BC Maphub Feature Layer 
+ |Type|Subtype | Layer File Library| iMapBC <br/> for published presentations | WMS  | Network Link KML |BC Maphub Feature Layer 
 |:---|:---:|:---:|:---:|:---:|:---:|
-|**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Security** | IDIR	| ![](/images/green_check.png) | ![](/images/green_check.png) | | Not Available *
-|**Security** | Business BCeID | ![](/images/green_check.png) | | | Not Available *
-|**Security** | Named Users <br/> can be a mix of IDIR and Business BCeID  | ![](/images/green_check.png) | Not Available | Not Available | Not Available *
+|**Security** | Public | ![](/images/green_check.png)| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Security** | IDIR	| ![](/images/green_check.png)| ![](/images/green_check.png) | ![](/images/green_check.png) | | Not Available *
+|**Security** | Business BCeID | ![](/images/green_check.png)| ![](/images/green_check.png) | | | Not Available *
+|**Security** | Named Users <br/> can be a mix of IDIR and Business BCeID  | ![](/images/green_check.png)| ![](/images/green_check.png) | Not Available | Not Available | Not Available *
 ||
-|**Area of Interest** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) |![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Area of Interest** | Subset dataset| ![](/images/green_check.png) <br/> Available using Definition Queries | ![](/images/green_check.png) <br/> Available using Definition Queries | Not Available | Not Available
+|**Area of Interest** | Entire dataset| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) |![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Area of Interest** | ![](/images/green_check.png)| Subset dataset| ![](/images/green_check.png) <br/> Available using Definition Queries | ![](/images/green_check.png) <br/> Available using Definition Queries | Not Available | Not Available
 ||
-|**Tabular** | | Not Available |Not Available|Not Available|Not Available
+|**Tabular** | | Not Available </br> Joins are not supported | Not Available |Not Available|Not Available|Not Available
