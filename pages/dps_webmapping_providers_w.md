@@ -9,7 +9,7 @@ has_toc: false
 
 # MAPPING PRESENATION WORKFLOW FOR PROVIDERS
 
-This page describes the requirements and optiopns for prensenting spatial data from the BC Geographic Warehouse (BCGW) in multiple web-mapping services.
+This page describes the requirements and optiopns for presenting spatial data from the BC Geographic Warehouse (BCGW) in multiple web-mapping services.
 
 
 |**AUDIENCE**|  |
@@ -28,13 +28,14 @@ This page describes the requirements and optiopns for prensenting spatial data f
 ## CONFIGURABLE PRODUCTS
 
 ## REQUIREMENTS
-Spatial atasets in the BCGW may be configured for web-mapping services, this requires.
+Spatial atasets in the BCGW may be configured for web-mapping services, this requires:
 
 1. A published spatial dataset in the BC Geographic Warehouse.
 1. A metadata record.
 1. A profile defined as one of the Security options below.
     - Named Users is the only profile that requires additional configuration.
-1. A presentation layer as created with the [Layer File Presenation document](./dsg_bcgw_layer_file_presentation.md).
+1. A presentation layer as created with the [Layer File Presenation document](./dsg_bcgw_layer_file_presentation.md)
+   - And published through to iMapBC.
 
 ## LIMITATIONS
 
