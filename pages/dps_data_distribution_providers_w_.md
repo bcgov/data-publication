@@ -46,7 +46,7 @@ All datasets in the BCGW that are configured for distrubtion require
  ![](/images/grey_dash.png)
  
  |Type|Subtype | BC Data Catalogue <br/> for published metadata  | iMapBC <br/> for published presentations  | 
-|:---|:---|:---:|:---:|
+|:---|:---:|:---:|:---:|
 |**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Security** | IDIR	| ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Security** | Business BCeID | ![](/images/green_check.png) | ![](/images/green_check.png) 
