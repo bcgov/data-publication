@@ -35,7 +35,7 @@ Spatial atasets in the BCGW may be configured for web-mapping services, this req
 1. A profile defined as one of the Security options below.
     - Named Users is the only profile that requires additional configuration.
 1. A presentation layer as created with the [Layer File Presenation document](./dsg_bcgw_layer_file_presentation.md)
-   - And published through to iMapBC.
+   - And published through to iMapBC production.
 
 ## LIMITATIONS
 
@@ -55,4 +55,4 @@ Spatial atasets in the BCGW may be configured for web-mapping services, this req
 |**Area of Interest** | Entire dataset| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> uses Defalt (Outline, All, etc) |![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Area of Interest** |Subset dataset| ![](/images/green_check.png)<br/> using Definition Queries| ![](/images/green_check.png) <br/> using Definition Queries | ![](/images/green_check.png) <br/> using Definition Queries | Not Available | Not Available
 ||
-|**Tabular** | | Not Available </br> Joins are not supported | Not Available |Not Available|Not Available|Not Available
+|**Tabular** | | Not Available <br/> joins are not supported | Not Available |Not Available|Not Available|Not Available
