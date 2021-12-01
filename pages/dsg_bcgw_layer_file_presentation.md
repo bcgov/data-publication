@@ -2,8 +2,8 @@
 layout: default
 title: Layer File Presentation
 grand_parent: BC Geographic Warehouse
-parent: BCGW Standards and Guidelines
-nav_order: 415
+parent: Publication Workflow
+nav_order: 421
 has_toc: false
 ---
 
