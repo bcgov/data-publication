@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 11
+nav_order: 9
 title: Tips and Tricks - WMS/WFS
 parent: Web-based Mapping
 has_toc: false
