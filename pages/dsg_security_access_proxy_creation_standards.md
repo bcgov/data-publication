@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Proxy Creation
-nav_order: 821
-parent: Security and Access
+nav_order: 448
+parent: Publication - Vendors
 grand_parent: Common Data Standards and Guidelines
 has_toc: false
 ---
