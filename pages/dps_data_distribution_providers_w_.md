@@ -39,21 +39,20 @@ Datasets configured for distribution: < 2 GB zipped
 ## CONFIGURATION OPTIONS
  ![](/images/grey_dash.png)
  
- 
-|Type|Subtype | BC Data Catalogue | iMapBC | 
+ |Type|Subtype | BC Data Catalogue <br/> for published metadata  | iMapBC <br/> for published presentations  | 
 |:---|:---|:---:|:---:|
-|**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> for spatial data presented in iMap | 
-|**Security** | IDIR	| ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Security** | IDIR	| ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Security** | Business BCeID | ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Security** | Named Users | ![](/images/green_check.png) | ![](/images/green_check.png) | 
+|**Security** | Named Users | ![](/images/green_check.png) | ![](/images/green_check.png)  
 ||
 |**Format** | CSV | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | ESRI e00 | Deprecated | Deprecated
 |**Format** | ESRI File Geodatabse (fgdb) | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | ESRI Shape File (shp) | ![](/images/green_check.png) | ![](/images/green_check.png)
 |**Format** | GeoJSON | ![](/images/green_check.png) | ![](/images/green_check.png)
-|**Format** | GeoPackage (gpkg) |Not at this time| Not at this time
+|**Format** | GeoPackage (gpkg) |Not available| Not available
 ||
 |**Spatial Extent** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Spatial Extent** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Attribute Query** | Subset dataset | No | ![](/images/green_check.png) 
+|**Attribute Query** | Subset dataset | Not available | ![](/images/green_check.png) 
