@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Retirement Workflow
+title: Retirement Workflow
 nav_order: 43
 parent: BC Geographic Warehouse
 grand_parent: Data Publication Services
