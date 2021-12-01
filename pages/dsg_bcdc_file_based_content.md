@@ -1,9 +1,8 @@
 ---
 layout: default
 title: File-based Content
-nav_order: 311
-parent: BCDC Standards and Guidelines
-grand_parent: BC Data Catalogue
+nav_order: 101
+parent: Appendix - Common Items
 has_toc: false
 ---
 
