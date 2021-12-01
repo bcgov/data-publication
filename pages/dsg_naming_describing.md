@@ -3,7 +3,7 @@ layout: default
 title: Naming & Describing
 nav_order: 111
 parent: Common Data Standards and Guidelines
-grandparent: Data Publication and Services
+grand_parent: Data Publication and Services
 has_toc: false
 ---
 
