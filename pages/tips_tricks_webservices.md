@@ -5,8 +5,8 @@ title: Tips & Tricks: WMS/WFS
 parent: Web-based Mapping
 grand_parent: Data Publication and Services
 has_toc: false
-
 ---
+
 # WFS AND WMS TIPS AND TRICKS
 
 WFS and WMS were developed by the Open Geospatial Consortium (OGC), an international not for profit organization.
