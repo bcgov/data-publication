@@ -27,13 +27,13 @@ This service allows for data in the BCGW to be orderable in a variety of formats
 -----------------------
 
 ## CONFIGURABLE PRODUCTS
-Datasets configured for distribution: < 2 GB zipped 
 
 ## REQUIREMENTS
 All datasets in the BCGW that are configured for distrubtion require
 
-1. A metadata record.
-1. Have a profile defined as one the Security options below.
+1. A published dataset in the BC Geographic Warehouse.
+2. A metadata record.
+3. A profile defined as one the Security options below.
     - Named Users is the only profile that requires additional configuration. 
 
 ## LIMITATIONS
