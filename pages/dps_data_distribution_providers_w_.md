@@ -25,6 +25,7 @@ This page describes the requirements for distributing data from the BC Geographi
 Datasets configured for distribution: < 2 GB zipped 
 
 ## REQUIREMENTS
+
 | | BC Data Catalogue | iMapBC | 
 |:---|:---:|:---:|
 |**Metadata** | ![](/images/green_check.png) | ![](/images/green_check.png) 
@@ -32,12 +33,13 @@ Datasets configured for distribution: < 2 GB zipped
 |**Spatial** | ![](/images/green_check.png) | ![](/images/green_check.png)
 
 ## OPTIONS
-
+ ![](/images/grey_dash.png)
+ 
 |Type|Subtype | BC Data Catalogue | iMapBC | 
 |:---|:---|:---:|:---:|
-|**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png)  | ![](/images/green_check.png) <br /> for spatial data presented in iMap | 
-|**Security** | IDIR	| ![](/images/green_check.png) <br /> for metadata only | ![](/images/green_check.png) 
-|**Security** | Business BCeID | ![](/images/grey_dash.png) | ![](/images/green_check.png) 
+|**Security** | Public | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> for spatial data presented in iMap | 
+|**Security** | IDIR	| ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Security** | Business BCeID | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Security** | Named Users | ![](/images/green_check.png) | ![](/images/green_check.png) | 
 ||
 |**Format** | CSV | ![](/images/green_check.png) | ![](/images/green_check.png)
@@ -48,5 +50,5 @@ Datasets configured for distribution: < 2 GB zipped
 |**Format** | GeoPackage |Not at this time| Not at this time
 ||
 |**Spatial Extent** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Spatial Extent** | Subset dataset | ![](/images/grey_dash.png) | ![](/images/green_check.png) 
+|**Spatial Extent** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Attribute Query** | Subset dataset | No | ![](/images/green_check.png) 
