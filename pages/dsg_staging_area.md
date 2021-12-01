@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Staging Areas
-nav_order: 112
-parent: Common Data Standards and Guidelines
-grand_parent: Data Publication and Services
+nav_order: 92
+parent: Appendix - Common Items
 has_toc: false
 ---
 
