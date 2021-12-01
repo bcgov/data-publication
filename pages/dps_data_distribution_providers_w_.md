@@ -58,8 +58,11 @@ All datasets in the BCGW that are configured for distrubtion require
 |**Format** | GeoJSON | ![](/images/green_check.png) | ![](/images/green_check.png)
 ||
 |**Spatial** | | ![](/images/green_check.png) | ![](/images/green_check.png)
-|**Spatial Extent** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
-|**Spatial Extent** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Area of Interest** | Entire dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Area of Interest** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Projection**|BC Albers   |![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Projection**|UTM Zone 7 through 11  |![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Projection**|Geographc Lat/Long |![](/images/green_check.png) | ![](/images/green_check.png) 
 ||
 |**Tabular** | | ![](/images/green_check.png) | Not available
 |**Attribute Query** | Subset dataset | Not available | ![](/images/green_check.png) <br/> as defined in a definition query 
