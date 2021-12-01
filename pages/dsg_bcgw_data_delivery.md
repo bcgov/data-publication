@@ -3,7 +3,7 @@ layout: default
 title: Data Delivery
 nav_order: 432
 grand_parent: BC Geographic Warehouse
-parent: BCGW Standards and Guidelines
+parent: Publication - Vendors
 has_toc: false
 ---
 
