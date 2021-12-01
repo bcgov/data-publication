@@ -16,8 +16,8 @@ This page describes the requirements for distributing data from the BC Geographi
 | *Data Providers* | *BA* |
 
 ## Table of Contents
-+ [**CONFIGURABLE PRODUCTS**](#how-to-order-data)
-+ [**SECURITY OPTIONS**](#security-options)
++ [**Requirements**](#how-to-order-data)
++ [**CONFIGURATION OPTIONS**](#configuration-options)
 
 -----------------------
 
@@ -26,13 +26,13 @@ Datasets configured for distribution: < 2 GB zipped
 
 ## REQUIREMENTS
 
-| | BC Data Catalogue | iMapBC | 
+|Requirement| BC Data Catalogue | iMapBC | 
 |:---|:---:|:---:|
-|**Metadata** | ![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Metadata**| ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Tabular** | ![](/images/green_check.png) | Not available
 |**Spatial** | ![](/images/green_check.png) | ![](/images/green_check.png)
 
-## OPTIONS
+## CONFIGURATION OPTIONS
  ![](/images/grey_dash.png)
  
 |Type|Subtype | BC Data Catalogue | iMapBC | 
