@@ -62,5 +62,5 @@ All datasets in the BCGW that are configured for distrubtion require
 |**Spatial Extent** | Subset dataset | ![](/images/green_check.png) | ![](/images/green_check.png) 
 ||
 |**Tabular** | | ![](/images/green_check.png) | Not available
-|**Attribute Query** | Subset dataset | Not available | ![](/images/green_check.png) 
+|**Attribute Query** | Subset dataset | Not available | ![](/images/green_check.png) <br/> as defined in a definition query 
 
