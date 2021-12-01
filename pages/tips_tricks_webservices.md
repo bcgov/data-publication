@@ -1,9 +1,9 @@
 ---
 layout: default
-nav_order: 112
-title: Tips: WFS and WMS
+nav_order: 11
+title: Tips & Tricks: WMS/WFS
 parent: Web-based Mapping
-grand_parent: Data Publication Services
+grand_parent: Data Publication and Services
 has_toc: false
 
 ---
