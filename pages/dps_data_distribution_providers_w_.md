@@ -33,8 +33,8 @@ All datasets in the BCGW that are configured for distrubtion require
 
 1. A published dataset in the BC Geographic Warehouse.
 2. A metadata record.
-3. A profile defined as one the Security options below.
-    - Named Users is the only profile that requires additional configuration. 
+3. A profile defined as one of the Security options below.
+    - Named Users is the only profile that requires additional configuration.
 
 As well if for download from iMapBC additionally require
 1. A presentation layer as created with the [Layer File Presenation document](./dsg_bcgw_layer_file_presentation.md).
