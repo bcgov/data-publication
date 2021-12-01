@@ -46,7 +46,7 @@ Spatial atasets in the BCGW may be configured for web-mapping services, this req
  ![](/images/grey_dash.png)
  
  |Type|Subtype | Layer File Library| iMapBC <br/> for published presentations | WMS  | Network Link KML |BC Maphub Feature Layer 
-|:---|:---:|:---:|:---:|:---:|:---:|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Security** | Public | ![](/images/green_check.png)| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Security** | IDIR	| ![](/images/green_check.png)| ![](/images/green_check.png) | ![](/images/green_check.png) | | Not Available *
 |**Security** | Business BCeID | ![](/images/green_check.png)| ![](/images/green_check.png) | | | Not Available *
