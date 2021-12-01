@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Naming & Describing
-nav_order: 111
-parent: Common Data Standards and Guidelines
-grand_parent: Data Publication and Services
+nav_order: 91
+parent: Appendix - Common Items
 has_toc: false
 ---
 
