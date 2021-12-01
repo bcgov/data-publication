@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Role Naming & Creation
-nav_order: 822
-parent: Security and Access
+nav_order: 449
+parent: Publication - Vendors
 grand_parent: Common Data Standards and Guidelines
 has_toc: false
 ---
