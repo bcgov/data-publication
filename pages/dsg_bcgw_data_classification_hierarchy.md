@@ -2,7 +2,7 @@
 layout: default
 title: Data Classification Hierarchy
 nav_order: 431
-parent: Publication - Vendors
+parent: Publication Workflow - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
