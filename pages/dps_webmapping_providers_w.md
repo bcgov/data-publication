@@ -13,9 +13,9 @@ has_toc: false
 This page describes the requirements and optiopns for presenting spatial data from the BC Geographic Warehouse (BCGW) in multiple web-mapping services.
 
 
-|**AUDIENCE**|  |
-|:---:|:---:|
-| *Data Providers* | *BA* |
+|**AUDIENCE**
+|:---|:---|:---|:---|
+|[*Data Publisher*](https://bcgov.github.io/data-publication/pages/glossary.html#data_publisher)|[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)|[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)|[*Data Steward*](https://bcgov.github.io/data-publication/pages/glossary.html#data_steward)
 
 ## Table of Contents
 
