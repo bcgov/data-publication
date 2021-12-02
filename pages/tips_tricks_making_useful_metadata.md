@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Making Useful Metadata
-nav_order: 111
-parent:	BCDC Standards and Guidelines
-grand_parent: BC Data Catalogue
+title: Tips & Tricks
+nav_order: 39
+parent:	BC Data Catalogue
+grand_parent: Data Publication and Services
 has_toc: false
 ---
 
