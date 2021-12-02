@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Roles and Responsibilities
+title: Roles & Responsibilities
 nav_order: 48
 parent: BC Geographic Warehouse
 has_toc: false
