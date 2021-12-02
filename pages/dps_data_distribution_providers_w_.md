@@ -13,9 +13,9 @@ This page describes the requirements and optiopns for distributing data from the
 
 This service allows for data in the BCGW to be orderable in a variety of formats using the BC Data Catalogue (BCDC) and iMapBC.
 
-|**AUDIENCE**|  |
-|:---:|:---:|
-| *Data Providers* | *BA* |
+|**AUDIENCE**| | | | |
+|:---|:---|:---|:---|:---|
+|[*Data Publisher*](https://bcgov.github.io/data-publication/pages/glossary.html#data_publisher)|[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)|[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)|[*Data Steward*](https://bcgov.github.io/data-publication/pages/glossary.html#data_steward)|[*Metadata Editor*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
 
 ## Table of Contents
 
