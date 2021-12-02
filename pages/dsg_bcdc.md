@@ -4,7 +4,7 @@ title: Standards & Guidelines
 nav_order: 35
 parent: BC Data Catalogue
 has_children: true
-nav_excluded: true
+nav_exclude: true
 has_toc: false
 ---
 
