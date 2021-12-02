@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Replication FME Framework
+title: Replication FME Framework
 nav_order: 421
 parent: Publication Workflow - Vendors
 grand_parent: BC Geographic Warehouse
