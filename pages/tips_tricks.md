@@ -110,7 +110,7 @@ _Tip: It is suggested to avoid using the Add Data button in ArcMap, as this re-e
 
 ## IDENTIFIED BUGS
 
-**1. RED (!) beside all layer names, indicating data sources are broken.**
+**1. RED (!) beside all layer names, indicating data sources are broken.** UNCONFIRMED IF STILL A BUG
 
   _Tip: Open the layer properties and review the Source - this will show the original object name for the broken layer. e.g., WHSE_BASEMAPPING.TRIM_WATER_LINES_
   
