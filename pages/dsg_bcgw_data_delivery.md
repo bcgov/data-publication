@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Data Delivery
-nav_order: 432
+nav_order: 431
 grand_parent: BC Geographic Warehouse
-parent: Publication - Vendors
+parent: Publication Workflow - Vendors
 has_toc: false
 ---
 
