@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Roles and Responsibilities
-nav_order: 422
-grand_parent: BC Geographic Warehouse
-parent: Publication Workflow
+nav_order: 48
+parent: BC Geographic Warehouse
 has_toc: false
 ---
 
