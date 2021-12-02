@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Roles and Responsibilties
-nav_order: 343
-grand_parent: BC Data Catalogue
-parent: Standards & Guidelines
+title: Roles & Responsibilties
+nav_order: 38
+parent: BC Data Catalogue
 has_toc: false
 ---
 
