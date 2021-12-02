@@ -29,7 +29,7 @@ This page details some helpful tips and tricks relating to data publication with
 	+ [VIA ArcCatalog](#via-arccatalog)
 	+ [VIA ArcGIS Documents](#via-arcgis-documents)
 		+ [Setting Data Sources Via Breaking and Repairing Data Links in ArcMap](#setting-data-sources-via-breaking-and-repairing-data-links-in-arcmap)
-+ [**CONNECTING TO GOGS**](#connecting-to-gogs)
+
 
 -----------------------
 
@@ -227,20 +227,7 @@ Due to these limitations there are two output MXDs created per Single MXD script
 + FOR ALL APPROACHES ALWAYS VERIFY\!
 + To verify, open MXD/LYR in ArcMap and check the data source tab in the table of contents.
 
-------------------------------------------------------------------------------
 
-## CONNECTING TO GOGS
-
-Connecting to the DataBC Gogs repositories requires that you log in first.
-
-+ Navigate to [_gogs.data.gov.bc.ca_](https://gogs/data.gov.bc.ca)
-+ Click on the ![Sign In With OpenID Connect](images/image_gogs_login.png) bar at the bottom of the form. 
-   + Do not use any of the other fields or buttons on the form. 
-![the whole form](images/image_gogs_buttons_to_use.png) 
-+ You can authenticate with an IDIR id, a GitHub id, or a BCEID id. 
-+ Select your choice and proceed with the login screens.
-   + BC Government employees will user their IDIR id
- 
  -------------------------------------------------------
  
 [RETURN TO TOP][1] 
