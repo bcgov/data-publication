@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Oracle MDSYS Extents
+title: Data Delivery - SDO Extents
 nav_order: 421
 parent: Publication Workflow - Vendors
 grand_parent: BC Geographic Warehouse
