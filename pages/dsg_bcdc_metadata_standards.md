@@ -61,48 +61,13 @@ There are international standards for metadata that DataBC follows. This provide
 
 ## MANDATORY METADATA FOR THE BC DATA CATALOGUE
 
-Data elements _optionality_ for each dataset type are as follows:
+Metadata fields that are mandatory in the catalogue are identied  
 
-|Section|Data Element|Example(s)|
-|:---|:---|:---|
-|_Dataset_|State|DRAFT|
-||Title|_descriptive title_|
-||URL|_https://....._|
-||Sub-Organization|DataBC|
-||Description|_detailed description about the data_|
-||Purpose|_summary of the intentions for which the dataset was developed_|
-||Data Quality|_descriptive text that cn include info about issues, completeness, consistency, etc._|
-||Lineage Statement|_information about the events or source data used in constructing the data_|
-||More Info|_supporting url(s)_|
-||Keywords|_searchable term(s)_|
-||ISO Topic Category|unknown|
-|_Contact_|Name|_contact's first and last name_|
-||Email|_someone@somewhere.ca_|
-||Sub-Organization|DataBC|
-||Role|Custodian|
-||Contact Displayed|Yes|
-|_Data Currency / Update_|Resource Status|
-||Data type|Created|
-||Date|_YYYY-MM-DD_|
-|_Access & Security_|Who can view this data?|
-||Who can view this record?|Public _defines who can see the data through different viewing applicaitons, e.g., the Catalogue or iMapBC_|
-||Who can download this data?|Public _defines who can download the file_|
-||Who can access this application|Public _defines who can see the metadata record_|
-||License|See What Licence to use|
-||Security Classification|LOW-PUBLIC|
-|_Preview Information_|Layer name|Name of the layer for preview|
-||Preview latitude|Latitude of layer for preview|
-||Preview longitude|Longitude of layer for preview|
-||Preview map service URL|URL of map service for preview|
-||Preview zoom level|Zoom level for preview|
-||Image URL|_URL for non map service images|
-||Link to iMap|_link_|
-|_Geographic extent_|North|60.0|
-||South|48.0|
-||East|-113.5|
-||West|-139.5|
-||Spatial Datatype|SDO Geometry|
-||Object Name|_schema.table(view)_|
+1. From the User Interface (UI)
+    + As an asterisk (\*).
+    + Refer to the UI [Record](dps_bcdc_w_record_mgmt_ui.md) and [Resource](dps_bcdc_w_resource_mgmt_ui.md) Management pages for more details.
+1. From the API
+    + See the link to the JSON Schema listed in the _Resources_ section of the API [Record](dps_bcdc_api_w_record_mgmt.md) or [Resource](dps_bcdc_api_w_resource_mgmt.md) Management pages.
 
 ---------
 
