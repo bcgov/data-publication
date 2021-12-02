@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Metadata Standards
-nav_order: 351
-grand_parent: BC Data Catalogue
-parent: Standards & Guidelines
+nav_order: 101
+parent: Appendix - Common Items
 has_toc: false
 ---
 
