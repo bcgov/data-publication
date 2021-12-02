@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Oracle MDSYS Extents
-nav_order: 447
-parent: Publication - Vendors
+nav_order: 441
+parent: Publication Workflow - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
