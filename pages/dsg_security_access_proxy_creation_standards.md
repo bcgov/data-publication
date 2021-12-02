@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Proxy Creation
-nav_order: 448
-parent: Publication - Vendors
+title: Proxy Creation Standard
+nav_order: 421
+parent: Publication Workflow - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
