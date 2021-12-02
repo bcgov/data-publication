@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Replication
-nav_order: 431
+nav_order: 421
 grand_parent: BC Geographic Warehouse
 parent: Publication Workflow - Vendors
 has_toc: false
