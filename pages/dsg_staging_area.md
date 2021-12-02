@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Staging Areas
-nav_order: 102
+nav_order: 101
 parent: Appendix - Common Items
 has_toc: false
 ---
