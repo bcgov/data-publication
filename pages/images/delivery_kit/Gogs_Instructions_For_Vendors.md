@@ -2,7 +2,7 @@
 layout: default
 title: GOGS Instructions
 nav_order: 448
-parent: Publication - Vendors
+parent: Publication Publication - Vendors
 grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
