@@ -237,9 +237,12 @@ The use of Code and Indicator fields are explained in [_Use of Indicator and Fla
 When a field stores a date-time, the description of the field should, whenever possible, describe the time zone used for the source data being modeled in the BCGW. 
 + Is the date and time stored as Coordinated Universal Time (UTC)? - **recommended**
 + Is the date and time always the local time? (i.e., for each data record, depends on the location for time zone plus time of year for standard vs. daylight savings time)
-+ Is the date and time always the same time zone and always standard time? (e.g., Pacific Standard Time, Mountain Standard Time)?
-+ Is the date and time always the same time zone and always daylight savings time? (e.g., Pacific Daylight Time, Mountain Daylight Time)?
-+ Is the date and time always the same time zone but depends on time of year for standard vs. daylight savings time (e.g., Pacific Time)?
++ Is the date and time always the same time zone and always standard time? 
+   + Example: Pacific Standard Time (PST), Mountain Standard Time (MST)
++ Is the date and time always the same time zone and always daylight savings time?
+   + Example: Pacific Daylight Time (PDT), Mountain Daylight Time (MDT)
++ Is the date and time always the same time zone but depends on time of year for standard vs. daylight savings time?
+  + Example: both PST and PDT
 + Is the date and time dependent on the system time and time zone (of the database or application) when the data was stored, collected, or calculated? 
    + For example, in Oracle databases, the system time zone of the database can be determined using the DBTIMEZONE function
 
