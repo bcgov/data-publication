@@ -234,12 +234,13 @@ The use of Code and Indicator fields are explained in [_Use of Indicator and Fla
 
 ### Date and Time Fields
 
-When a field stores a date-time, the description of the field should, whenever possible, describe the time zone used. 
+When a field stores a date-time, the description of the field should, whenever possible, describe the time zone used for the source data being modeled in the BCGW. 
 + Is the date and time stored as Coordinated Universal Time (UTC)? - **recommended**
-+ Does the date and time represent the local time when the date was collected or calculated (i.e., can change and depends on the location - and time of year for daylight savings or standard time(
-+ Is the date and time always related to one specific time zone (e.g., Pacific Standard Time, Mountain Standard Time)?
-+ Is the date and time always related to one specific time zone, but depends on whether standard or daylight savings (e.g., Pacific Time, Mountain Time)?
-+ Is the date and time for the field dependent on the system time (of the database or application) from when the data was collected or calculated? (e.g., in Oracle databases, the system time zone of the database can be determined using the DBTIMEZONE function)
++ Is the date and time always the local time? (i.e., depends on the time zone plus whether daylight savings or standard time)
++ Is the date and time always the same time zone and always standard time? (e.g., Pacific Standard Time, Mountain Standard Time)?
++ Is the date and time always the same time zone and always daylight savings time? (e.g., Pacific Daylight Time, Mountain Daylight Time)?
++ Is the date and time always the same time zone but depends on time of year for standard time vs. daylight savings time (e.g., Pacific Time, Mountain Time)?
++ Is the date and time dependent on the system time and time zone (of the database or application) when the data was collected or calculated? (e.g., in Oracle databases, the system time zone of the database can be determined using the DBTIMEZONE function)
 
 [RETURN TO TOP][1] 
 
