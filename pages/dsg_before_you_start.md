@@ -7,6 +7,18 @@ has_toc: false
 
 # BEFORE YOU START 
 
+-----------
+
+### **Note - Fiscal year end timelines:** 
+
+Please note that we will be **pausing intake for BC Geographic Warehouse data publications from February 1st to April 1st.**  This will allow the completion of in-progress work sooner and enable us to better serve new data publication work.  
+
+What this means for you: 
++ Requests received before February 1st, your project will follow the standard intake process 
++ Requests received between February 1st and April 1st , your project intake will begin after April 1st.
+
+----------
+
 Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)? Before your data is published, we will need to gather some information from you. The questions on this page will help the [DataBC Data Architecture Services](faq.md#data-architecture-services) team learn about your requirements and to determine whether the DataBC Program can meet them.
 
 |**AUDIENCE**|
