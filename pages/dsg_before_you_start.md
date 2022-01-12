@@ -11,7 +11,7 @@ has_toc: false
 
 ### **Note - Fiscal year end timelines:** 
 
-Please note that we will be **pausing intake for BC Geographic Warehouse data publications from February 1st to April 1st.**  This will allow the completion of in-progress work sooner and enable us to better serve new data publication work.  
+Please note that we will be **pausing intake for BC Geographic Warehouse data publications from February 1st to April 1st.**  This will enable us to complete data publication work already in progress.  
 
 What this means for you: 
 + Requests received before February 1st, your project will follow the standard intake process 
