@@ -47,5 +47,8 @@ There are three licencing options for data published data in the BC Data Catalog
 	Federal Licences are listed as there are times when BC Government employees require data to be published for their own consumption via one or more channels.
 
 	New licences can be added to the drop down.
+	
+
+Other [Frequently Asked Questions about licencing options](faq.html#data-publication-licensing-options---open-dataaccess-only)
 
 [RETURN TO TOP][1]
