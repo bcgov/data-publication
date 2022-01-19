@@ -9,6 +9,7 @@ has_toc: true
 
 ## Table of Contents
 
++ [**WHERE TO START WORKFLOW DIAGRAM**](#where-to-start-workflow-diagram)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
 + [**HOW TO PUBLISH METADATA RECORDS**](#how-to-publish-metadata-records)
 + [**HOW TO REORDER RESOURCES**](#how-to-reorder-resources)
@@ -24,6 +25,14 @@ has_toc: true
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
+## WHERE TO START WORKFLOW DIAGRAM
+
+[BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
+Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
+![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)
+
+------------------------------
+
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
