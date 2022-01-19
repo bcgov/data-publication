@@ -90,7 +90,7 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 For record creation and managmenent throught the **User interface (UI)**:
 * [Record Management](./dps_bcdc_w_record_mgmt_ui.md)
 
-For record managmenent throught the **User interface (UI)**:
+For record managmenent throught the **API**:
 * [API Record Managment](./dps_bcdc_api_w_record_mgmt.md)
 
 ------------------------------
@@ -106,7 +106,7 @@ For managmenent throught the **User interface (UI)**:
     - [Replacing a resource stored in the Catalogue Data Store](./dps_bcdc_w_resource_mgmt_ui.md#replace-a-file-in-the-catalogue-data-store)
 + [Deleteing a Resource](./dps_bcdc_w_resource_mgmt_ui.md#delete-a-resource)
 
-For resource managmenent throught the **User interface (UI)**:
+For resource managmenent throught the **API**:
 * [API Resource Managment](./dps_bcdc_api_w_resource_mgmt.md)
 
 [RETURN TO TOP][1]
