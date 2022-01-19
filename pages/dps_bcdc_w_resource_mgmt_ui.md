@@ -26,6 +26,7 @@ has_toc: true
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
    + [Replace a File in the Catalogue Data Store](#replace-a-file-in-the-catalogue-data-store)
++ [**DELETE A RESOURCE**](#delete-a-resource)
 + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
@@ -102,6 +103,9 @@ A resource type associated to a record, which is used for metadata relating to w
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below as noted in the [field section](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#resource-type-specific-fields).
 
++ Only files less than 150MB in size can be uploaded to the Catalogue file store.
+
+
 [RETURN TO TOP][1]
 
 ## EDIT A RESOURCE
@@ -113,6 +117,7 @@ A resource type associated to a record, which is used for metadata relating to w
     1. Click on the resource title or the View button.
         1. Click on the _Edit resource_ button.
 1. Update the fiel(s) as needed. See the [field section](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#resource-type-specific-fields) for more details.
+
 
 [RETURN TO TOP][1]
 
@@ -129,6 +134,22 @@ A resource type associated to a record, which is used for metadata relating to w
 1. Click **Save**
 
 [RETURN TO TOP][1]
+
+## DELETE A RESOURCE
+
+Editors can delete resources in any published state
+
+**To delete a resource:**
+1. Log In
+1. Navigate to the record to edit (that you have the privileges to do so) and either:
+    1. Click the **trashcan** icon on the Resource Card list on the right or
+       - This will open the resource in edit mode.
+    1. Click on the resource title or the View button.
+        1. Click on the _Delete resource_ button 
+
+[RETURN TO TOP][1]
+
+------------
 
 ## RESOURCE TYPE SPECIFIC FIELDS
 
