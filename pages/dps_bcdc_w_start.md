@@ -32,7 +32,7 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
-+ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./dps_licences.md) section below for more information on this.  
++ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./dps_licences.md) page for more information on this.  
 + Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing and cataloguing your data, application or service to the Catalogue. 
 
 [RETURN TO TOP][1]
