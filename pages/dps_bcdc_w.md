@@ -121,6 +121,8 @@ There are three licencing options for data published data in the BC Data Catalog
 ## CREATING A METADATA RECORD
 _Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_how_to_use.html)._
 
+All new metadata records are created that allow the **State** to be set to **Draft**. ![image](https://user-images.githubusercontent.com/32690119/150044352-48807ea7-f453-457c-b669-25faa3750dcb.png)
+
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
@@ -128,8 +130,9 @@ _Note: To use the CKAN API for creating metadata, more information is available 
     + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
     + Follow the [Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_record_mgmt_ui.html) to complete all mandatory/required fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](https://bcgov.github.io/data-publication/pages/tips_tricks_making_useful_metadata.html#making-useful-metadata).
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](https://bcgov.github.io/data-publication/pages/tips_tricks_making_useful_metadata.html#making-useful-metadata). 
 1. Click the [**Save**] button. 
+
 
 ### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
 
@@ -204,23 +207,22 @@ Please review [BC Data Catalogue - Roles and Responsibilities](https://bcgov.git
 
 ## PUBLISHING A METADATA RECORD
 
-All new metadata records are created that allow the State to be asside DRAFT.
-
-Once the metadata record is complete, the editor sets the **State** to **PENDING PUBLISH**. Here are the steps:
+Once the metadata record and its resources are complete and ready for publication review, the editor edits the **State** by setting it to **Pending Publish**. ![image](https://user-images.githubusercontent.com/32690119/150044206-9387636e-52ab-422d-8657-d20e9a54c0c7.png)
 
 1. Log into the Catalogue.
-1. Navigate to the metadata record to be edited and click the "edit metadata" button on the top toolbar to start editing.
-1. Change the dataset **State**:
-	+ from **DRAFT**
-	+ to **PENDING PUBLISH**
+1. Navigate to the metadata record to be edited and click the "Edit Dataset" button on the top toolbar to start editing.
+1. Scroll down to the State section
+1. Click on the state button **Pending Publish**
 1. Click **Save**.
 
-Once a metadata record has been set to **PENDING PUBLISH**, administrators of the Catalogue at DataBC weill be notified and will then review the record for: 
+Once a metadata record has been set to **Pending Publish**, administrators of the Catalogue at DataBC weill be notified and will then review the record for: 
 + Completeness
 + Data quality
 + Licence type
 
-If your metadata record is validated by DataBC, they will change the state to **PUBLSHED**.  Otherwise, a DataBC team member will contact you to discuss your record.
+If your metadata record is validated by DataBC, they will change the state to **Published**. ![image](https://user-images.githubusercontent.com/32690119/150044272-83c2752e-5f54-4555-b537-42c7afa399fe.png)
+
+Otherwise, a DataBC team member will contact you to discuss your record.
 
 _**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
@@ -234,7 +236,7 @@ Data Custodians should regularly review all metadata records within their Sub-Or
 
 ## ARCHIVING A METADATA RECORD
 
-When a dataset is no longer relevant, the **State** should be set to PENDING ARCHIVE, so as to notify DataBC Catalogue administrators as well it informs uses who read the metadata that there is an intending Archive. Recommend following the items as there are more fields available to give users more information, e.g., what is the replacement dataset or record.
+When a dataset is no longer relevant, the **State** should be set to **Pending Archive**, so as to notify DataBC Catalogue administrators as well it informs uses who read the metadata that there is an intending Archive. Recommend following the items as there are more fields available to give users more information, e.g., what is the replacement dataset or record.
 
 Here are the steps to begin this process:
 
@@ -253,8 +255,8 @@ Here are the steps to begin this process:
 		1. **Source Data Path**
 		
 1.  Change the dataset **State**:
-	+ from **PUBLISHED**
-	+ to **PENDING ARCHIVE**.
+	+ from **Published**
+	+ to **Pending Archive**.
 	
 Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
 + for BCGW specific datasets:
