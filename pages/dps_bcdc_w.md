@@ -79,7 +79,8 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 
 * New records are created in a Draft state.
 * A record in any state can be edited.
-* Only records in a state of Draft can be deleted.
+* Editors can only deleted records in a state of Draft.
+* Admins can delete records in any state.
 
 For record creation and managmenent throught the **User interface (UI)**:
 * [Record Management](./dps_bcdc_w_record_mgmt_ui.md)
