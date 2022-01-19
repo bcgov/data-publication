@@ -10,6 +10,7 @@ has_toc: true
 ## Table of Contents
 
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**HOW TO PUBLISH METADATA RECORDS**](#how-to-publish-metadata-records)
 + [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
 + [**HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS**](#how-to-add-or-update-organization-and-sub-organization-details)
 + [**HOW TO DO BULK UPDATES**](#how-to-do-bulk-updates)
@@ -31,10 +32,15 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
-+ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](#Licences) section below for more information on this.  
++ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./pages/dps_licences.html) section below for more information on this.  
 + Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing and cataloguing your data, application or service to the Catalogue. 
 
 [RETURN TO TOP][1]
+
+------------------------------
+## HOW TO PUBLISH METADATA RECORDS
+
+See the BC Data Catalogue [Publication Workflow](.pages/dps_bcdc_w.html)
 
 ------------------------------
 
