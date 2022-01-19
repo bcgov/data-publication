@@ -248,7 +248,7 @@ When creating a new metadata record, the state will be set to **Draft** once you
     |:---|:---|:---|
     |Draft|Only editors and admin of an org can see these records |None|
     |Pending Publish|Only editors and admin of an org can see these records| Administrators |
-    |Published|Published records are visiable to users | |All Editors of that org|
+    |Published|Published records are visiable to users |All Editors of that org|
     |Pending Archive|Pending archive records are visible to users until Archived |Administrators|
     |Archived|Only editors of an org can see these records |All Editors of that org |
 
