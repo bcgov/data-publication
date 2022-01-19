@@ -117,7 +117,7 @@ Once the metadata record and its resources are complete and ready for publicatio
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the **Edit Dataset** button on the top toolbar to start editing.
 1. Scroll down to the **State** section
-1. Click on the state button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above **Pending Publish** 
+1. Click on the state button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above **Pending Publish** which will turn it into the checkmark.
 1. Click **Save**.
 
 **Review by an administrator:**
@@ -163,7 +163,7 @@ When a dataset is no longer relevant, the **State** should be set to **Pending A
 		1. **Source Data Path**
 		
 1.  Change the dataset **State**:
-	+ by clicking the state button above ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **Pending Archive**
+	+ by clicking the state button above ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **Pending Archive**. The state selected will be the one with the checkmark.
 	
 Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
 + for BCGW specific datasets:
