@@ -20,13 +20,8 @@ This page is written in the context that you have reviewed all information in th
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
-+ [**CREATING A METADATA RECORD**](#creating-a-metadata-record)
-	+ [Metadata Requirements for Data and Maps in BC Map Hub (ArcGIS Online)](#metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
++ [**MANAGING METADATA RECORDS**](#managing-metadata-records)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
-	+ [Reordering Resources](#reordering-resources)
-	+ [Editing Existing Resources](#editing-existing-resources)
-	+ [Replacing an Existing Resource](#replacing-an-existing-resource)
-	+ [Deleting an Existing Resource](#deleting-an-existing-resource)
 + [**METADATA MANAGEMENT AND MAINTENANCE**](#metadata-management-and-maintenance)
 + [**PUBLISHING A METADATA RECORD**](#publishinga-metadata-record)
 + [**ARCHIVING A METADATA RECORD**](#archivinga-metadata-record)
@@ -60,42 +55,13 @@ Once you are ready, use the steps in this workflow to guide you through the proc
 
 ## PUBLICATION STATES
 
-Metadata and data both follow a life cycle and thus the Catalogue allows for multiple sates
+Metadata and data both follow a life cycle and thus the Catalogue allows for multiple states.
 
-### Draft
-
-![image](https://user-images.githubusercontent.com/32690119/150044352-48807ea7-f453-457c-b669-25faa3750dcb.png)
-
-+ Creating a new record, this state is only selectable and visible.
-+ It is also used:
-    + When a administrator requires additional edits to be made by an editor and thus giving an editor the change to notify an administrator it is ready to publish again thourh the Pending Publih state.
-
-**Visibility**: Only editors or adminstrators for a sub-organization can see these records.
-
-### Pending Publish
-
-![image](https://user-images.githubusercontent.com/32690119/150044272-83c2752e-5f54-4555-b537-42c7afa399fe.png)
-
-**Visibility**: Only editors or adminstrators for a sub-organization can see these records.
-
-###Published
-
-![image](https://user-images.githubusercontent.com/32690119/150044206-9387636e-52ab-422d-8657-d20e9a54c0c7.png)
-
-**Visibility**: 
-   + Public - if Metadata Visibility set to Public.
-   + IDIR - if Metadat Visibility set to IDIR
-
-### Pending Archive
-
-**Visibility**:
-   
-   + Public - if Metadata Visibility set to Public.
-   + IDIR - if Metadat Visibility set to IDIR
-
-## Archived
-
-**Visibility**: Only editors or adminstrators for a sub-organization can see these records.
+| Publication States|Draft|Pending Publish|Published|Pending Archive|Archvied|
+|:---|:---:|:---:|:---:|:---:|:---:|
+| | ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png)|
+|**Visibility**|Org Editors or <br> Adminstrators|Org Editors or <br> Adminstrators|Public or IDIR*|Public or IDIR*|Org Editors or <br> Adminstrators|Org Editors or <br> Adminstrators
+|**Notifications:**|None|Email to Admin|Email to Editors|Email to Admin|Email to Editors|
 
 ------------------------------
 
@@ -105,79 +71,33 @@ This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.
 
 ------------------------------
 
-## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_api_w_how_to_use.md)._
+## MANAGING METADATA RECORDS
 
-All new metadata records are created that allow the **State** to be set to **Draft**. 
+* New records are created in a Draft state.
+* A record in any state can be edited.
+* Only records in a state of Draft can be deleted.
 
-1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
-    + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
-1. Click the [**Add Dataset**] button.
-1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
-    + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
-    + Follow the [Workflow](./dps_bcdc_w_record_mgmt_ui.md) to complete all mandatory/required fields (minimum requirement). 
-    + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
-1. Click the [**Save**] button. 
+For record creation and managmenent throught the **User interface (UI)**:
+* [Record Management](./dps_bcdc_w_record_mgmt_ui.md)
 
-
-### METADATA REQUIREMENTS FOR DATA AND MAPS IN BC MAP HUB (ARCGIS ONLINE)
-
-The use of the BC Map Hub has a requirement for the creation of metadata alongside data and maps. The following documentation will assist in that process:
-+ [Publication Request Form](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx)
-+ [Content Publication Guidelines](./dps_maphub_w.md#bcs-map-hub---arcgis-online-ago)
-
-[RETURN TO TOP][1]
+For record managmenent throught the **User interface (UI)**:
+* [API Record Managment](./dps_bcdc_api_w_how_to_use.md)
 
 ------------------------------
 
 ## MANAGING METADATA RESOURCES
 
-Resources are the additional metadata specific to that resource as a record can have many resources.
+* Resources can be added, edited or deleted in any state.
 
-1. Resources to a record can be the following types: Application, Geographic Data, Tabular Data/Document or Webservice/API.
-1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store (csv)/ File Store (xlsx) or be externally referenced.
-1. At times resources are only metadata about a resource that is not accessible or requires authorization to access.
-1. Resources that are sourced from the BC Geographic Warehouse are managed differently.
-1. If a resources requires authorization, we recommend that a process or form is added as a resource to the record to inform users how to get access, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
+For managmenent throught the **User interface (UI)**:
 
-**To add a resource:**
-1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described for each of these resource types.
++ [Adding a Resource](./dps_bcdc_w_resource_mgmt_ui.md#add-a-resource)
++ [Editing a Resource](./dps_bcdc_w_resource_mgmt_ui.md#edit-a-resource)
+    - [Replacing a resource stored in the Catalogue Data Store](./dps_bcdc_w_resource_mgmt_ui.md#replace-a-file-in-the-catalogue-data-store)
++ [Deleteing a Resource](./dps_bcdc_w_resource_mgmt_ui.md#delete-a-resource)
 
-    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application)
-    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#document-and-tabular-data)
-    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-data)
-    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api)
-
-_Notes:_
-+ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_api_w_how_to_use.md)
-+ Only files less than 150MB in size can be uploaded to the Catalogue file store.
-
-### REORDERING RESOURCES
-The **Reorder resources** button allows you to control the order of resources in the metadata record.
-+ **TO BE CONFIGURED**
-
-### EDITING EXISTING RESOURCES
-
-There are two ways to edit a resource in the metadata record: 
-1. On the resource card of the record page, click the pencil ![image](https://user-images.githubusercontent.com/32690119/118194859-f34e6b80-b3fe-11eb-9f72-13be9b382518.png) of the resource to edit.
-1. On the resource page, click the **Edit Resource** button on the toolbar.
-
-1. Make edits that follow the workflow for your dataset type under [Creating a New Metadata Record](#creating-a-metadata-record) above.
-1. Click the **Save** button to save your changes.
-
-### REPLACING AN EXISTING RESOURCE
-
-While in edit mode on a resource (see [Editing Existing Resources](#EDITING-EXISTING-RESOURCES) section above):
-1. Click the **Remove** button at the end of the **File** URL.
-1. Re-upload or provide a new link to your data.
-1. Make any other edits needed to reflect the updated/new resource.
-1. Click **Update Resource** to save your changes.
-
-### DELETING AN EXISTING RESOURCE
-For records that are still in draft:
-1. Click the **Delete** button on to the toolbar. 
+For resource managmenent throught the **User interface (UI)**:
+* [API Resource Managment](./dps_bcdc_api_w_how_to_use.md)
 
 
 [RETURN TO TOP][1]
