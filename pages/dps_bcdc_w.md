@@ -20,6 +20,7 @@ This page is written in the context that you have reviewed all information in th
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
 + [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
++ [**PUBLICATION STATES**](#publication-states)
 + [**MANAGING METADATA RECORDS**](#managing-metadata-records)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
 + [**PUBLISHING A METADATA RECORD**](#publishinga-metadata-record)
@@ -108,28 +109,33 @@ For resource managmenent throught the **User interface (UI)**:
 
 ## PUBLISHING A METADATA RECORD
 
-Once the metadata record and its resources are complete and ready for publication review, the editor edits the **State** by setting it to **Pending Publish**. 
+Once the metadata record and its resources are complete and ready for publication review, the editor edits the **State** by setting it to **Pending Publish**.
+
+**To change the state of a record:**
 
 1. Log into the Catalogue.
-1. Navigate to the metadata record to be edited and click the "Edit Dataset" button on the top toolbar to start editing.
-1. Scroll down to the State section
-1. Click on the state button **Pending Publish**
+1. Navigate to the metadata record to be edited and click the **Edit Dataset** button on the top toolbar to start editing.
+1. Scroll down to the **State** section
+1. Click on the state button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above **Pending Publish** 
 1. Click **Save**.
 
-Once a metadata record has been set to **Pending Publish**, administrators of the Catalogue at DataBC weill be notified and will then review the record for: 
-+ Completeness
-+ Data quality
-+ Licence type
+**Review by an administrator:**
+1. Once a metadata record has been set to **Pending Publish**, administrators of the Catalogue at DataBC weill be notified and will then review the record for: 
+    + Completeness
+    + Data quality
+    + Licence type
+1. If your metadata record is validated by DataBC, they will change the state to **Published**.
+1. If you metadata record needs some work, a DataBC team member will change the state back to **Draft** and contact you to discuss your record.
 
-If your metadata record is validated by DataBC, they will change the state to **Published**.
+**_Notes_**
+* **Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
-Otherwise, a DataBC team member will contact you to discuss your record.
+* See the the different [Publication States](#publication-states) for notifications and visibility to users.
+ 
+* Once your metadata record is in the Published state, it is visible and searchable in the BC Data Catalogue for all users, unless set to IDIR visibility.  Then a user must log into their IDIR to see the record.  
 
-_**Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
+* Data Custodians should regularly review all metadata records within their Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
 
-Once your metadata record is in the Published state, it is visible and searchable in the BC Data Catalogue for all users, unless set to IDIR visibility.  Then a user must log into their IDIR to see the record.  
-
-Data Custodians should regularly review all metadata records within their Sub-Org for currency and completeness. This may be delegated to any of the other Roles or the Editor associated with the metadata record.
 
 [RETURN TO TOP][1]
 
@@ -139,7 +145,7 @@ Data Custodians should regularly review all metadata records within their Sub-Or
 
 When a dataset is no longer relevant, the **State** should be set to **Pending Archive**, so as to notify DataBC Catalogue administrators as well it informs uses who read the metadata that there is an intending Archive. Recommend following the items as there are more fields available to give users more information, e.g., what is the replacement dataset or record.
 
-Here are the steps to begin this process:
+**Here are the steps to begin this process:**
 
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
@@ -156,8 +162,7 @@ Here are the steps to begin this process:
 		1. **Source Data Path**
 		
 1.  Change the dataset **State**:
-	+ from **Published**
-	+ to **Pending Archive**.
+	+ by clicking the state button above ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **Pending Archive**
 	
 Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
 + for BCGW specific datasets:
