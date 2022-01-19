@@ -14,13 +14,12 @@ This page is written in the context that you have reviewed all information in th
 
 |**AUDIENCE**| | | | |
 |:---|:---|:---|:---|:---|
-|[*Data Publisher*](https://bcgov.github.io/data-publication/pages/glossary.html#data_publisher)|[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)|[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)|[*Data Steward*](https://bcgov.github.io/data-publication/pages/glossary.html#data_steward)|[*Metadata Editor*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
+|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
-+ [**LICENCES**](#licences)
 + [**CREATING A METADATA RECORD**](#creating-a-metadata-record)
 	+ [Metadata Requirements for Data and Maps in BC Map Hub (ArcGIS Online)](#metadata-requirements-for-data-and-maps-in-bc-map-hub-arcgis-online)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
@@ -31,9 +30,6 @@ This page is written in the context that you have reviewed all information in th
 + [**METADATA MANAGEMENT AND MAINTENANCE**](#metadata-management-and-maintenance)
 + [**PUBLISHING A METADATA RECORD**](#publishinga-metadata-record)
 + [**ARCHIVING A METADATA RECORD**](#archivinga-metadata-record)
-+ [**METADATA GROUPS**](#metadata-groups)
-+ [**ORGANIZATION AND SUB-ORGANIZATION UPDATES**](#organization-and-sub-organization-updates)
-+ [**BULK UPDATES**](#bulk-updates)
   
 ------------------------------
 
@@ -62,75 +58,66 @@ Once you are ready, use the steps in this workflow to guide you through the proc
 
 ------------------------------
 
-## HOW TO BECOME A PROVIDER TO THE CATALOGUE
+## PUBLICATION STATES
 
-To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the Data Custodian (Director or Executive Director) is required. Here are the steps to complete this, provide:
+Metadata and data both follow a life cycle and thus the Catalogue allows for multiple sates
 
-1. Approval from the Data Custodian to publish and manage records and data on their behalf.
-3. The name of the Ministry/Organization and Sub-Organization (as it appears in the Catalogue and if that needs to be renamed) in your email. 
-4. All names and IDIRs for those requiring access.
-5. Forward all this to [DataBC](mailto:Data@gov.bc.ca) with the subject: "BCDC Editor Request". 
-6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
+### Draft
 
-Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
-+ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](#Licences) section below for more information on this.  
-+ Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing and cataloguing your data, application or service to the Catalogue. 
+![image](https://user-images.githubusercontent.com/32690119/150044352-48807ea7-f453-457c-b669-25faa3750dcb.png)
 
-[RETURN TO TOP][1]
++ Creating a new record, this state is only selectable and visible.
++ It is also used:
+    + When a administrator requires additional edits to be made by an editor and thus giving an editor the change to notify an administrator it is ready to publish again thourh the Pending Publih state.
+
+**Visibility**: Only editors or adminstrators for a sub-organization can see these records.
+
+### Pending Publish
+
+![image](https://user-images.githubusercontent.com/32690119/150044272-83c2752e-5f54-4555-b537-42c7afa399fe.png)
+
+**Visibility**: Only editors or adminstrators for a sub-organization can see these records.
+
+###Published
+
+![image](https://user-images.githubusercontent.com/32690119/150044206-9387636e-52ab-422d-8657-d20e9a54c0c7.png)
+
+**Visibility**: 
+   + Public - if Metadata Visibility set to Public.
+   + IDIR - if Metadat Visibility set to IDIR
+
+### Pending Archive
+
+**Visibility**:
+   
+   + Public - if Metadata Visibility set to Public.
+   + IDIR - if Metadat Visibility set to IDIR
+
+## Archived
+
+**Visibility**: Only editors or adminstrators for a sub-organization can see these records.
 
 ------------------------------
 
-## LICENCES
+## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-There are three licencing options for data published data in the BC Data Catalogue:
-
-1. [Access Only](https://www2.gov.bc.ca/gov/content/home/copyright)
-   
-   Access only is a statement of use that is restrictive as defined in the [Crown Copyright](https://www2.gov.bc.ca/gov/content/home/copyright) Page.
-	+ “reproduction or distribution is not permitted without written permission.”
-	+ A user is then required to request permission through the [IPP office form](https://forms.gov.bc.ca/copyright-permission-request) and does have a fee associated with it. 
-1. [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61)
- 
-   For data that is under the Intellectual Property or "ownership of the Province of BC and meets all the requirements of being open data, it is recommended to publish data under an Open Government Licence, where possible, as it is much more permissive.
-
-   To publish a dataset under OGL-BC, [follow the full steps here](./open_data_w.md#how-to-associate-data-to-bcs-open-data-licence) but in brief you will need to obtain the required authorizations as noted in the [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65). 
-   
-   These include:
-
-	+ [The Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7)
-	+ [The Intellectual Properties Office (email)](mailto:QPIPPCopyright@gov.bc.ca)
-	+ The Custodial organization’s Deputy Minister or designated alternate
-
-   Once these approvals are in place, Data can be published under OGL-BC if:
-
-	+ it is in an open format, e.g., CSV, Shape File (SHP), JSON, or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
-	+ The Catalogue record links to the appropriate Open Data Licence.
-	
-1. [Open Government - (Other)](./open_data_licence_create.md#creating-an-open-government-licence)
-
-	The Catalogue contains datasets licenced under many other Open Government Licences, from the Broader Public Sector to Federal licences.
-	
-	Federal Licences are listed as there are times when BC Government employees require data to be published for their own consumption via one or more channels.
-
-	New licences can be added to the drop down.
-
-[RETURN TO TOP][1]
+This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md
 
 ------------------------------
 
 ## CREATING A METADATA RECORD
-_Note: To use the CKAN API for creating metadata, more information is available [here](https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_how_to_use.html)._
+_Note: To use the CKAN API for creating metadata, more information is available [here](./dps_bcdc_api_w_how_to_use.md)._
 
-All new metadata records are created that allow the **State** to be set to **Draft**. ![image](https://user-images.githubusercontent.com/32690119/150044352-48807ea7-f453-457c-b669-25faa3750dcb.png)
+All new metadata records are created that allow the **State** to be set to **Draft**. 
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
-1. Complete the [record](https://bcgov.github.io/data-publication/pages/glossary.html#record) details to describe what you are publishing and then you will be able to add different resource types after.
+1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
     + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
-    + Follow the [Workflow](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_record_mgmt_ui.html) to complete all mandatory/required fields (minimum requirement). 
+    + Follow the [Workflow](./dps_bcdc_w_record_mgmt_ui.md) to complete all mandatory/required fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
-	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](https://bcgov.github.io/data-publication/pages/tips_tricks_making_useful_metadata.html#making-useful-metadata). 
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
 1. Click the [**Save**] button. 
 
 
@@ -158,13 +145,13 @@ Resources are the additional metadata specific to that resource as a record can 
 1. Click the **+ Add Resource** button (![image](./images/image_add_resource.png)) on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described for each of these resource types.
 
-    - [Application](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#application)
-    - [Document/Tabular Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#document-and-tabular-data)
-    - [Geographic Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#geographic-data)
-    - [Webservice/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
+    - [Application](./dps_bcdc_w_resource_mgmt_ui.md#application)
+    - [Document/Tabular Data](./dps_bcdc_w_resource_mgmt_ui.md#document-and-tabular-data)
+    - [Geographic Data](./dps_bcdc_w_resource_mgmt_ui.md#geographic-data)
+    - [Webservice/API](./dps_bcdc_w_resource_mgmt_ui.md#webservice-and-api)
 
 _Notes:_
-+ To use the CKAN API for managing resources, more information is available [here](https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_how_to_use.html)
++ To use the CKAN API for managing resources, more information is available [here](./dps_bcdc_api_w_how_to_use.md)
 + Only files less than 150MB in size can be uploaded to the Catalogue file store.
 
 ### REORDERING RESOURCES
@@ -190,8 +177,8 @@ While in edit mode on a resource (see [Editing Existing Resources](#EDITING-EXIS
 
 ### DELETING AN EXISTING RESOURCE
 For records that are still in draft:
-1. Click the **Delete** button at the top of the page. 
-+ **TO BE CONFIGURED FOR EDITORS**
+1. Click the **Delete** button on to the toolbar. 
+
 
 [RETURN TO TOP][1]
 
@@ -199,7 +186,7 @@ For records that are still in draft:
 
 ## METADATA MANAGEMENT AND MAINTENANCE
 
-Please review [BC Data Catalogue - Roles and Responsibilities](https://bcgov.github.io/data-publication/pages/dsg_bcdc_roles_responsibilities.html), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
+Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
 
 [RETURN TO TOP][1]
 
@@ -207,7 +194,7 @@ Please review [BC Data Catalogue - Roles and Responsibilities](https://bcgov.git
 
 ## PUBLISHING A METADATA RECORD
 
-Once the metadata record and its resources are complete and ready for publication review, the editor edits the **State** by setting it to **Pending Publish**. ![image](https://user-images.githubusercontent.com/32690119/150044206-9387636e-52ab-422d-8657-d20e9a54c0c7.png)
+Once the metadata record and its resources are complete and ready for publication review, the editor edits the **State** by setting it to **Pending Publish**. 
 
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the "Edit Dataset" button on the top toolbar to start editing.
@@ -220,7 +207,7 @@ Once a metadata record has been set to **Pending Publish**, administrators of th
 + Data quality
 + Licence type
 
-If your metadata record is validated by DataBC, they will change the state to **Published**. ![image](https://user-images.githubusercontent.com/32690119/150044272-83c2752e-5f54-4555-b537-42c7afa399fe.png)
+If your metadata record is validated by DataBC, they will change the state to **Published**.
 
 Otherwise, a DataBC team member will contact you to discuss your record.
 
@@ -272,7 +259,7 @@ Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the
 + confirming that records with a replacement dataset contain "DEPRECATED" in the title
 
 _Note: If the record is related to a BCGW dataset, it will be added to the next Notice of Intent (NOI) for archival._
-    - See the [BCGW Data Retirement Workflow](https://bcgov.github.io/data-publication/pages/dps_bcgw_w_data_retirement.html)
+    - See the [BCGW Data Retirement Workflow](./dps_bcgw_w_data_retirement.md)
 
 Once DataBC has confirmed the record is ready for archiving, they will update the **State** to **ARCHIVED**.
 
@@ -281,56 +268,6 @@ Archived datasets:
 
 [RETURN TO TOP][1]
 
-------------------------------
-
-## METADATA GROUPS
-
-Metadata Groups provide a listing of like datasets for a specific purpose and can contain records from across multiple organizations.
-+ These are not intended to replace a full listing of records for a sub-organization.
-+ Groups by default are public but a request them to be visible to IDIR only can be made.
-
-To create a group, the following information is required and can be sent to [DataBC](mailto:data@gov.bc.ca).
-
-**Requirements:**
-+ **Group Name**:
-+ **Group Description**:
-+ **URL**: _for more information_
-+ **Image**: _either a file or URL_
-+ **Members**: _list of IDIRs who will maintain the Group_
-+ **Group visibility**: Public or IDIR
-
-[RETURN TO TOP][1]
-
-------------------------------
-
-## ORGANIZATION AND SUB-ORGANIZATION UPDATES
-
-Organizations change names frequently and thus need continual maintenance.
-
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca) and if you are not the Custodian but an Editor, cc them in the email: 
-
-+ **Subject Line**: BCDC Organization/Sub-Organization Update
-+ **Body**:
-   + Old name of Organization (or Sub-Organization)
-   + New name of Organziation (or Sub-Organization)
-   + List of data providers (Editors)
-       + When an update is requested for a sub-organization, we ask that the members and contacts list be reviewed.
-       + DataBC can provide you with a current list to review.
-
-[RETURN TO TOP][1]
-
-------------------------------
-
-## BULK UPDATES
-When there are more than 20 records that require updating, a bulk update can be requested for [DataBC](mailto:data@gov.bc.ca) to complete or can be completed by a user via the API.
-
-+ Common bulk updates:
-	+ Branch/Division name
-	+ Contact information
-	+ State Change
-	+ URL modifications for More Info and Resources
-
-[RETURN TO TOP][1]
 
 -------------------------------------------------------
 
