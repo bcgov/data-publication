@@ -31,7 +31,7 @@ has_toc: false
       + [_Security Classification_](#security-classification)
       + [_Who can view this data?_](#who-can-view-this-data)
       + [_Who can download this data?_](#who-can-download-this-data)
-      + [_Who can view this record_](#who-can-view-this-record)
+      + [_Who can view this record?_](#who-can-view-this-record)
       + [_Keywords_](#keywords)
       + [_State_](#state)
       + [_Resource Status_](#resource-status)
