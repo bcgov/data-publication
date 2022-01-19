@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Licences
-nav_order: 31
+nav_order: 35
 parent: BC Data Catalogue
 has_children: false
 has_toc: false
