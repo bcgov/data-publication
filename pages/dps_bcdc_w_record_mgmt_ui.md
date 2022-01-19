@@ -20,7 +20,7 @@ has_toc: false
    + [Data Elements on a Record](#data-elements-on-a-record)
       + [_Title_](#title) 
       + [_URL_](#url)
-      + [_Published By](#published-by)
+      + [_Published By_](#published-by)
       + [_Description_](#description)
       + [_Licence_](#licence)
       + [_Contacts_](#contacts)
