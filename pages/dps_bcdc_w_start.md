@@ -16,11 +16,13 @@ has_toc: true
 + [**HOW TO DO BULK UPDATES**](#how-to-do-bulk-updates)
 
 ------------------------------
+
 |**AUDIENCE**| | | | |
 |:---|:---|:---|:---|:---|
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
+
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the Data Custodian (Director or Executive Director) is required. Here are the steps to complete this, provide:
