@@ -240,7 +240,7 @@ These are the searchable terms for the metadata record, and at least one keyword
 
 #### State
 
-When creating a new metadata record, the state will be set to **Draft**. To do so select the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state.
+When creating a new metadata record, the state will be set to **Draft**. To do so click the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state. The state selected will become the checkmark.
 
 * To change a state a record must be saved, edited by clicking on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state desired.
 
