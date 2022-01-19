@@ -19,6 +19,7 @@ This page is written in the context that you have reviewed all information in th
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**WHAT DATA LICENCE TO USE?**](#what-data-licence-to-use)
 + [**CREATION AND PUBLICATION WORKFLOW DIAGRAM**](#creation-and-publication-workflow-diagram)
 + [**PUBLICATION STATES**](#publication-states)
 + [**MANAGING METADATA RECORDS**](#managing-metadata-records)
@@ -42,6 +43,14 @@ The first step in the process is to review the documentation:
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
 This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
+
+------------------------------
+
+## WHAT DATA LICENCE TO USE?
+
+Every dataset needs to define a licence or use statement. 
+
+This section moved to [Licences](./dps_licences.md) and licening options in the [FAQ](./faq.md#data-publication-licensing-options---open-dataaccess-only).
 
 ------------------------------
 
