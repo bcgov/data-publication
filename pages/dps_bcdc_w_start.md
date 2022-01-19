@@ -14,6 +14,7 @@ has_toc: true
 + [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
 + [**HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS**](#how-to-add-or-update-organization-and-sub-organization-details)
 + [**HOW TO DO BULK UPDATES**](#how-to-do-bulk-updates)
++ [**OTHER FREQUENTLY ASKED QUESTIONS**](#other-faq)
 
 ------------------------------
 
@@ -101,6 +102,12 @@ When there are more than 20 records that require updating, a bulk update can be 
 	+ Contact information
 	+ State Change
 	+ URL modifications for More Info and Resources
+
+------------------------------
+
+## OTHER FREQUENTLY ASKED QUESTIONS
+
+[Data Publication FAQ](./faq.html#metadata-records-and-the-bc-data-catalogue)
 
 [RETURN TO TOP][1]
 
