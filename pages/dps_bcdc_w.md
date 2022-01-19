@@ -18,8 +18,8 @@ This page is written in the context that you have reviewed all information in th
 
 ## Table of Contents
 + [**DOCUMENTATION REVIEW**](#documentation-review)
-+ [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
++ [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
 + [**MANAGING METADATA RECORDS**](#managing-metadata-records)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
 + [**METADATA MANAGEMENT AND MAINTENANCE**](#metadata-management-and-maintenance)
@@ -34,6 +34,12 @@ The first step in the process is to review the documentation:
 + [BCDC Standards and Guidelines](./dsg_bcdc.html)
 + [Naming and Describing](./dsg_naming_describing.html)
 + [Open Data](./open_data.html)
+
+------------------------------
+
+## HOW TO BECOME A PROVIDER TO THE CATALOGUE
+
+This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md)
 
 [RETURN TO TOP][1]
 
@@ -63,12 +69,7 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 |**Visibility**|Org Editors or <br> Adminstrators|Org Editors or <br> Adminstrators|Public or IDIR*|Public or IDIR*|Org Editors or <br> Adminstrators
 |**Notifications:**|None|Email to Admin|Email to Editors|Email to Admin|Email to Editors|
 
-* \* If Public or IDIR is dependent on what is selected for record visibility in the field _Who can view this record?_
-------------------------------
-
-## HOW TO BECOME A PROVIDER TO THE CATALOGUE
-
-This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md)
+\* If Public or IDIR is dependent on what is selected for record visibility in the field _Who can view this record?_
 
 ------------------------------
 
