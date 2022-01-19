@@ -29,7 +29,7 @@ has_toc: true
 
 [BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
-![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)
+[![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
 ------------------------------
 
