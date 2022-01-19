@@ -107,7 +107,7 @@ When there are more than 20 records that require updating, a bulk update can be 
 
 ## OTHER FREQUENTLY ASKED QUESTIONS
 
-[Data Publication FAQ](./faq.html#metadata-records-and-the-bc-data-catalogue)
+[Data Publication FAQ](./faq.md#metadata-records-and-the-bc-data-catalogue)
 
 [RETURN TO TOP][1]
 
