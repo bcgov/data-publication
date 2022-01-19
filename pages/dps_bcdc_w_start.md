@@ -18,7 +18,7 @@ has_toc: true
 ------------------------------
 |**AUDIENCE**| | | | |
 |:---|:---|:---|:---|:---|
-|[*Data Publisher*](https://bcgov.github.io/data-publication/pages/glossary.html#data_publisher)|[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)|[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)|[*Data Steward*](https://bcgov.github.io/data-publication/pages/glossary.html#data_steward)|[*Metadata Editor*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
+|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)|[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)|[*Data Steward*](https://bcgov.github.io/data-publication/pages/glossary.html#data_steward)|[*Metadata Editor*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
 
 ------------------------------
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
@@ -66,14 +66,19 @@ To create a group, the following information is required and can be sent to [Dat
 
 ## HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS
 
-Organizations need to be added or may change names frequently and thus need continual maintenance.
+Not all Ministry or Broader Public Sector organizations are listed in the catalgoue. Only those with records are listed.
 
-If a Organization/Ministry or Sub-organization/Branch/Division/Program has changed names, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca) and if you are not the Custodian but an Editor, cc them in the email: 
+To add or update a Organization/Ministry or Sub-organization/Branch/Division/Program names or details, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca) and if you are not the Custodian but an Editor, cc them in the email: 
 
-+ **Subject Line**: BCDC Organization/Sub-Organization Update
++ **Subject Line**: BCDC Organization/Sub-Organization Addition/Update
 + **Body**:
-   + Old name of Organization (or Sub-Organization)
-   + New name of Organziation (or Sub-Organization)
+   + Name of Minsitry of Oganization:
+      + If a sub-organization has moved to a different minsitry, include the new ministry or organization name.
+   + Name of Sub-Organization or Branch:
+      + If a name change include the old and new name  
+   + Additional Organization details
+       + Description:
+       + External URL:
    + List of data providers (Editors)
        + When an update is requested for a sub-organization, we ask that the members and contacts list be reviewed.
        + DataBC can provide you with a current list to review.
