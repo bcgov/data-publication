@@ -129,7 +129,7 @@ Once the metadata record and its resources are complete and ready for publicatio
 1. If you metadata record needs some work, a DataBC team member will change the state back to **Draft** and contact you to discuss your record.
 
 **_Notes_**
-* **Note on Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
+* **Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
 * See the the different [Publication States](#publication-states) for notifications and visibility to users.
  
