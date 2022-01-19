@@ -14,7 +14,7 @@ has_toc: true
 + [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
 + [**HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS**](#how-to-add-or-update-organization-and-sub-organization-details)
 + [**HOW TO DO BULK UPDATES**](#how-to-do-bulk-updates)
-+ [**OTHER FREQUENTLY ASKED QUESTIONS**](#other-requently-asked-questions)
++ [**OTHER FREQUENTLY ASKED QUESTIONS**](#other-frequently-asked-questions)
 
 ------------------------------
 
