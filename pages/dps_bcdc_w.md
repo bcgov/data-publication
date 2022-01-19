@@ -71,6 +71,7 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 \* If Public or IDIR is dependent on what is selected for record visibility in the field _Who can view this record?_
 
 [RETURN TO TOP][1]
+
 ------------------------------
 
 ## MANAGING METADATA RECORDS
@@ -102,6 +103,7 @@ For resource managmenent throught the **User interface (UI)**:
 * [API Resource Managment](./dps_bcdc_api_w_how_to_use.md)
 
 [RETURN TO TOP][1]
+
 ------------------------------
 
 ## PUBLISHING A METADATA RECORD
