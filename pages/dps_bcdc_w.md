@@ -101,7 +101,7 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md
+This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md)
 
 ------------------------------
 
