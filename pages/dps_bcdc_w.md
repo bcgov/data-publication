@@ -86,7 +86,7 @@ For record creation and managmenent throught the **User interface (UI)**:
 * [Record Management](./dps_bcdc_w_record_mgmt_ui.md)
 
 For record managmenent throught the **User interface (UI)**:
-* [API Record Managment](./dps_bcdc_api_w_how_to_use.md)
+* [API Record Managment](./dps_bcdc_api_w_record_mgmt.md)
 
 ------------------------------
 
@@ -102,7 +102,7 @@ For managmenent throught the **User interface (UI)**:
 + [Deleteing a Resource](./dps_bcdc_w_resource_mgmt_ui.md#delete-a-resource)
 
 For resource managmenent throught the **User interface (UI)**:
-* [API Resource Managment](./dps_bcdc_api_w_how_to_use.md)
+* [API Resource Managment](./dps_bcdc_api_w_resource_mgmt.md)
 
 [RETURN TO TOP][1]
 
