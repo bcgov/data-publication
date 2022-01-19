@@ -12,8 +12,8 @@ has_toc: true
 
 |**AUDIENCE**|
 |:---|
-|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
-|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
+|[*Metadata Editors*](./glossary.md#metadata_editor)|
+|[*Metadata Admin*](./pages/glossary.md#metadata_admin)|
 
 ## Table of Contents
 
@@ -101,7 +101,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
-1. Fill out all the required fields for each resource type as described below as noted in the [field section](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#resource-type-specific-fields).
+1. Fill out all the required fields for each resource type as described below as noted in the [field section](./dps_bcdc_w_resource_mgmt_ui.md#resource-type-specific-fields).
 
 + Only files less than 150MB in size can be uploaded to the Catalogue file store.
 
@@ -116,7 +116,7 @@ A resource type associated to a record, which is used for metadata relating to w
        - This will open the resource in edit mode.
     1. Click on the resource title or the View button.
         1. Click on the _Edit resource_ button.
-1. Update the fiel(s) as needed. See the [field section](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#resource-type-specific-fields) for more details.
+1. Update the fiel(s) as needed. See the [field section](./dps_bcdc_w_resource_mgmt_ui.md#resource-type-specific-fields) for more details.
 
 
 [RETURN TO TOP][1]
@@ -157,7 +157,9 @@ Editors can delete resources in any published state
 
 **Name**\* (`name`): 
 
-+ Is the title of the resource as it will appear on the resource record and card.
++ Is the name or titel of the resource as it will appear on the resource record and card.
++ A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
+    - For a full list of [actionable language](https://polaris.shopify.com/content/actionable-language) 
 
 |**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
