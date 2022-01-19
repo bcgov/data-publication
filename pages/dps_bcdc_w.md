@@ -22,7 +22,6 @@ This page is written in the context that you have reviewed all information in th
 + [**WORKFLOW DIAGRAMS**](#workflow-diagrams)
 + [**MANAGING METADATA RECORDS**](#managing-metadata-records)
 + [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
-+ [**METADATA MANAGEMENT AND MAINTENANCE**](#metadata-management-and-maintenance)
 + [**PUBLISHING A METADATA RECORD**](#publishinga-metadata-record)
 + [**ARCHIVING A METADATA RECORD**](#archivinga-metadata-record)
   
@@ -34,14 +33,14 @@ The first step in the process is to review the documentation:
 + [BCDC Standards and Guidelines](./dsg_bcdc.html)
 + [Naming and Describing](./dsg_naming_describing.html)
 + [Open Data](./open_data.html)
++ [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md)
+    - which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.**** 
 
 ------------------------------
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
 This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md)
-
-[RETURN TO TOP][1]
 
 ------------------------------
 
@@ -65,12 +64,13 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 
 | Publication States|Draft|Pending Publish|Published|Pending Archive|Archvied|
 |:---|:---:|:---:|:---:|:---:|:---:|
-| | ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) ->|<- ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png)|
+| | ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png)|
 |**Visibility**|Org Editors or <br> Adminstrators|Org Editors or <br> Adminstrators|Public or IDIR*|Public or IDIR*|Org Editors or <br> Adminstrators
 |**Notifications:**|None|Email to Admin|Email to Editors|Email to Admin|Email to Editors|
 
 \* If Public or IDIR is dependent on what is selected for record visibility in the field _Who can view this record?_
 
+[RETURN TO TOP][1]
 ------------------------------
 
 ## MANAGING METADATA RECORDS
@@ -101,17 +101,7 @@ For managmenent throught the **User interface (UI)**:
 For resource managmenent throught the **User interface (UI)**:
 * [API Resource Managment](./dps_bcdc_api_w_how_to_use.md)
 
-
 [RETURN TO TOP][1]
-
-------------------------------
-
-## METADATA MANAGEMENT AND MAINTENANCE
-
-Please review [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md), which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.
-
-[RETURN TO TOP][1]
-
 ------------------------------
 
 ## PUBLISHING A METADATA RECORD
