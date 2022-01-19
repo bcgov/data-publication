@@ -18,7 +18,7 @@ has_toc: true
 ------------------------------
 |**AUDIENCE**| | | | |
 |:---|:---|:---|:---|:---|
-|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](https://bcgov.github.io/data-publication/pages/glossary.html#custodian)|[*Data Manager*](https://bcgov.github.io/data-publication/pages/glossary.html#data_manager)|[*Data Steward*](https://bcgov.github.io/data-publication/pages/glossary.html#data_steward)|[*Metadata Editor*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
+|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
