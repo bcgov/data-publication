@@ -49,7 +49,7 @@ This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.
 
 ### [BCDC Metadata Creation and Publication Workflow](./images/wf_MetadataCreation.svg)
 Once you are ready, use the steps in this workflow to guide you through the process of creating a metadata record.
-![BCDC Metadata Creation Workflow](./images/wf_MetadataCreation.png)
+[![BCDC Metadata Creation Workflow](./images/wf_MetadataCreation.png)](./images/wf_MetadataCreation.svg) 
 
 [RETURN TO TOP][1]
 
