@@ -241,18 +241,16 @@ These are the searchable terms for the metadata record, and at least one keyword
 
 #### State
 
-When creating a new metadata record, the state will be set to DRAFT once you click on this state.
+When creating a new metadata record, the state will be set to **Draft** once you click on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above this state.
 + This is a required field.
-+ Current there is a feature that allows greater visibility of editors across organizations. This is being reviewed.
 
     |State|Record Visibility|Email Notificaiton|
     |:---|:---|:---|
-    |DRAFT|Only editors and admin of an org can see these records |None|
-    |PENDING PUBLISH|Only editors and admin of an org can see these records| Administrators |
-    |REJECTED| **Deleted** |
-    |PUBLISHED|Published records are visiable to users | |All Editors of that org|
-    |PENDING ARCHIVE|Pending archive records are visible to users until Archived |Administrators|
-    |ARCHIVED|Only editors of an org can see these records |All Editors of that org |
+    |Draft|Only editors and admin of an org can see these records |None|
+    |Pending Publish|Only editors and admin of an org can see these records| Administrators |
+    |Published|Published records are visiable to users | |All Editors of that org|
+    |Pending Archive|Pending archive records are visible to users until Archived |Administrators|
+    |Archived|Only editors of an org can see these records |All Editors of that org |
 
 **Changes**
 + REJECTED has been removed and a record moves from PENDING PUBLISH back to DRAFT
@@ -283,12 +281,13 @@ Defines the status of the dataset, service, API or application as described by o
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.  This comprises of two required fields. 
 
 **Type** is used to provide details to users on when resources are created, published, modified, archived, or destroyed. 
+ * A date can be selected for each of these date types.
 
-    |Type| Description
+    |Type|Description
     |:---|:---|
-    |Created|
-    |Published|
-    |Modififed|
+    |Created| 
+    |Published| 
+    |Modififed| 
     |Archived|
     |Destroyed|
          
