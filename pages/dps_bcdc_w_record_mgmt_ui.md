@@ -240,7 +240,12 @@ These are the searchable terms for the metadata record, and at least one keyword
 
 #### State
 
-When creating a new metadata record, the state will be set to **Draft** once you click on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above this state.
+When creating a new metadata record, the state will be set to **Draft**. To do so select the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state.
+
+* To change a state a record must be saved, edited by clicking on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state desired.
+
+* Only states that can transition between eachother will be visible in edit mode.
+
 + This is a required field.
 
     |State|Record Visibility|Email Notificaiton|
