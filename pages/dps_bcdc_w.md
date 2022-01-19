@@ -50,7 +50,7 @@ This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.
 
 Every dataset needs to define a licence or use statement. 
 
-This section moved to [Licences](./dps_licences.md) and licening options in the [FAQ](./faq.md#data-publication-licensing-options---open-dataaccess-only).
+This section moved to [Licences](./dps_licences.md) and see licening options in the [FAQ](./faq.md#data-publication-licensing-options---open-dataaccess-only).
 
 ------------------------------
 
