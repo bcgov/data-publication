@@ -41,7 +41,7 @@ The first step in the process is to review the documentation:
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md)
+This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
 
 ------------------------------
 
