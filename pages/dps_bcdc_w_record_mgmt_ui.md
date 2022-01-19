@@ -15,6 +15,7 @@ has_toc: false
 |[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
++ [**METADATA RECORD CREATION**](#metadata-record-creation)
 + [**METADATA RECORD MANAGEMENT**](#metadata-record-management)
    + [Data Elements on a Record](#data-elements-on-a-record)
       + [_Title_](#title) 
@@ -38,8 +39,27 @@ has_toc: false
 + [**RESOURCE MANAGEMENT**](#resource-management)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
-## METADATA RECORD MANAGEMENT
+------------------------------
+
+## METADATA RECORD CREATION
+
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
+
+1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
+    + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
+1. Click the [**Add Dataset**] button.
+1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
+    + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
+    + Follow the [metadata recrod managment section](#metadata-record-management) to complete all mandatory/required fields (minimum requirement). 
+    + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
+	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
+1. Click the [**Save**] button. 
+
+_Note:_ All new metadata records are created that allow the **State** to be set to **Draft**. 
+
+------------------------------
+
+## METADATA RECORD MANAGEMENT
 
 ### Data Elements on a Record
 
