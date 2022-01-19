@@ -11,6 +11,7 @@ has_toc: true
 
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
 + [**HOW TO PUBLISH METADATA RECORDS**](#how-to-publish-metadata-records)
++ [**HOW TO REORDER RESOURCES**](#how-to-reorder-resources)
 + [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
 + [**HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS**](#how-to-add-or-update-organization-and-sub-organization-details)
 + [**HOW TO DO BULK UPDATES**](#how-to-do-bulk-updates)
@@ -44,6 +45,22 @@ Organizations in the Broader Public Sector (BPS) may publish metadata records an
 ## HOW TO PUBLISH METADATA RECORDS
 
 See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
+
+------------------------------
+
+## HOW TO REORDER RESOURCES
+
+This funcationality is not available currently, however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
+
+To request this on your behalf email [DataBC](mailto:Data@gov.bc.ca) with:
+
+1. The catalogue record
+1. Desired order of resources
+   + How resources should be order should follow some guidelines for example
+       - User Guides should come first
+       - Cronological order for datasets that have a date range with newest first
+       - Those that have the highest value to the end users
+       - Or if there are a lot of resoruces, alphabetical may also be
 
 ------------------------------
 
