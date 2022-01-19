@@ -20,7 +20,7 @@ has_toc: false
    + [Data Elements on a Record](#data-elements-on-a-record)
       + [_Title_](#title) 
       + [_URL_](#url)
-      + [_Organization_](#organization)
+      + [_Published By](#published-by)
       + [_Description_](#description)
       + [_Licence_](#licence)
       + [_Contacts_](#contacts)
@@ -97,11 +97,10 @@ This is automatically generated while typing in the _**Title**_ with special cha
 
 [RETURN TO TOP][1]
 
-#### Organization
+#### Published By
 
-This is the Sub-Organization (often the Branch or Division) under which the metadata record is created.
+This is the Sub-Organization (often the Branch or Division) under which the metadata record is created and published.
 + This is a required field
-+ The Ministry or parent organization is no longer required to be defined at the record level.
 
 [RETURN TO TOP][1]
 
