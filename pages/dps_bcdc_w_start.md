@@ -11,6 +11,7 @@ has_toc: true
 
 + [**WHERE TO START WORKFLOW DIAGRAM**](#where-to-start-workflow-diagram)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
+    - [HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION](#how-to-become-a-provider-for-another-ogranization)
 + [**HOW TO PUBLISH METADATA RECORDS**](#how-to-publish-metadata-records)
 + [**HOW TO REORDER RESOURCES**](#how-to-reorder-resources)
 + [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
@@ -36,7 +37,7 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 
 ## HOW TO BECOME A PROVIDER TO THE CATALOGUE
 
-To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the Data Custodian (Director or Executive Director) is required. Here are the steps to complete this, provide:
+To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director) is required. Here are the steps to complete this, provide:
 
 1. Approval from the Data Custodian to publish and manage records and data on their behalf.
 3. The name of the Ministry/Organization and Sub-Organization (as it appears in the Catalogue and if that needs to be renamed) in your email. 
@@ -47,6 +48,15 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
 + For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./dps_licences.md) page for more information on this.  
 + Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing and cataloguing your data, application or service to the Catalogue. 
+
+### HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION
+
+It is common for oranizations to have staff who work in other Sub-Organizations or branches steward their data. There may be many reasons for this.
+
+* Therefore [Stewards](./dsg_bcdc_roles_responsibilities.md#the-data-steward) can become providers to the catalogue on behalf of another sub-organization's [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian).
+
+* To be granted access, is the same as the information outlined on how to get access but is useful to include that the editor will be steward.
+
 
 [RETURN TO TOP][1]
 
