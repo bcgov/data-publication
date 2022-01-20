@@ -71,8 +71,9 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 | Publication States|Draft|Pending Publish|Published|Pending Archive|Archvied|
 |:---|:---:|:---:|:---:|:---:|:---:|
 | | ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **->**|**<-** ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png)|
-|**Visibility**|Org Editors or <br> Adminstrators|Org Editors or <br> Adminstrators|Public or IDIR*|Public or IDIR*|Org Editors or <br> Adminstrators
+|**Who can the state:**|Editor or Admin|Editor or Admin|Admin only|Editor or Admin|Admin Only|
 |**Notifications:**|None|Email to Admin|Email to Editors|Email to Admin|Email to Editors|
+|**Visibility**|Org Editors or <br> Adminstrators|Org Editors or <br> Adminstrators|Public or IDIR*|Public or IDIR*|Org Editors or <br> Adminstrators
 
 \* If Public or IDIR is dependent on what is selected for record visibility in the field _Who can view this record?_
 
