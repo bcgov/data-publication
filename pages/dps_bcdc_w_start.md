@@ -51,7 +51,7 @@ Organizations in the Broader Public Sector (BPS) may publish metadata records an
 
 ### HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION
 
-It is common for oranizations to have staff who work in other Sub-Organizations or branches steward their data. There may be many reasons for this.
+It is common for oranizations to have staff who work in other Sub-Organizations or branches who steward their data. There may be many reasons for this.
 
 * Therefore [Stewards](./dsg_bcdc_roles_responsibilities.md#the-data-steward) can become providers to the catalogue on behalf of another sub-organization's [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian).
 
