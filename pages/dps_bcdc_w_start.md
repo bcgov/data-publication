@@ -11,7 +11,7 @@ has_toc: true
 
 + [**WHERE TO START WORKFLOW DIAGRAM**](#where-to-start-workflow-diagram)
 + [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
-    - [HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION](#how-to-become-a-provider-for-another-ogranization)
+    - [HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION](#how-to-become-a-provider-for-another-organization)
 + [**HOW TO PUBLISH METADATA RECORDS**](#how-to-publish-metadata-records)
 + [**HOW TO REORDER RESOURCES**](#how-to-reorder-resources)
 + [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
