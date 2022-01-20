@@ -55,7 +55,7 @@ It is common for oranizations to have staff who work in other Sub-Organizations 
 
 * Therefore [Stewards](./dsg_bcdc_roles_responsibilities.md#the-data-steward) can become providers to the catalogue on behalf of another sub-organization's [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian).
 
-* To be granted access, is the same as the information outlined on how to get access but is useful to include that the editor will be steward.
+* To be granted access, is the same as the information outlined on [how to get access above](#how-to-become-a-provider-to-the-catalogue) but is useful to include that the editor will be steward.
 
 
 [RETURN TO TOP][1]
