@@ -21,13 +21,21 @@ has_toc: true
    + [Application](#application)
    + [Document/Tabular Data](#document-and-tabular-data)
    + [Geographic Data](#geographic-data)
-      - [_BC Geographic Warehouse_](#bc-geographic-warehouse)
    + [WebService and API**](#webservice-and-api)
 + [**ADD A RESOURCE**](#add-a-resource)
 + [**EDIT A RESOURCE**](#edit-a-resource)
    + [Replace a File in the Catalogue Data Store](#replace-a-file-in-the-catalogue-data-store)
 + [**DELETE A RESOURCE**](#delete-a-resource)
 + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
++ [**DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT**](#databc-services-resource-naming-and-describing-guidelines)
+   + [**BC Geographic Warehouse**](#bc-geographaphic-warehouse)
+      + [Exportable Resources](#exportable-resource)
+         - Exportable; Exportable not enabled; Export disabled (retired)
+      + [Web Mapping Resources](#exportable-resource)
+          - WMS; WFS; Network Link KML; iMapBC or other IMF2 
+   + [**ArcGIS Online (AGO)**](#arcgis-online-(ago))
+       - Data; Web maps; Web apps; Tle services
+   + [**BC Data Catalogue**](#bc-data-catalogue)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
 ## RESOURCE TYPES
@@ -39,57 +47,17 @@ There are four types of Resourses using in the BC Data Catalogue.
 3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
     + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
-
 ### Application
 
 A type of resource associated to a record, which is used for applications that provide access to data.
-
-[RETURN TO TOP][1]
 
 ### Document and Tabular Data
 
 A type of resource associated to a record, which is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.
 
-[RETURN TO TOP][1]
-
 ### Geographic Data
 
 A resource type associated to a record, which is used for data that may, or may not, contains geospatial information along with other data.  Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This resource type **must** be used for all BCGW resources.
-
-#### BC Geographic Warehouse
-
-+ BC Geographic Warehouse is a selection available in the Resource Storage Location.  
-+ This is to be selected to allow for the Data Distribution Service configuration for these resources.
-
-+ The **Manage BCGW Resources** button has not be enabled in the new catalogue.  This is an enhancement for a future release. 
-
-**Specific Field Requirements**
-+ To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
-    1. **Name:** "BC Geographic Warehouse Custom Download"
-    2. **Resource Storage Location:** "BC Geographic Warehouse"
-    3. **Object Name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
-
-+ **Resource Storage Location** select "other" (`other`) but others that also apply, "multiple" (`multiple`), "Oracle/SDE" (`oracle_sde`)
-
-+ **Spatial Datatype** select "SDO_GEOMETRY"
-
-+ **Object Name**
-    - Is the name of the dataset stored in a database.
-    - Enter the _SCHEMA.OBJECT_ , e.g., WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP
-    - The object name is what is used to automatically populate the metadata record with
-        - The data definitions table that is extracted from the Oracle metadata.
-        - For public datasets that are available in iMapBC:
-            - The _WMS getCapabilities request_ resources
-            - The _Network Link KML_ resources
-            - The _Preview Map_ details
-            - The _View in iMapBC_ button will that dataset's specific presentations
-     - Always check to make sure there is no space at the end of the value.
-
-+ **Projection Name** 
-    + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
-        - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
-
-[RETURN TO TOP][1]
 
 ### WebService and API
 
@@ -381,6 +349,63 @@ Click **Save** when done
 
 ---------------
 
+## DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT
+
+### BC Geographic Warehouse
+
++ BC Geographic Warehouse is a selection available in the Resource Storage Location.  
++ This is to be selected to allow for the Data Distribution Service configuration for these resources.
+
++ The **Manage BCGW Resources** button has not be enabled in the new catalogue.  This is an enhancement for a future release. 
+
+#### Exportable Resources
+
+|Catalogue Fields| Exportable|Not Exportable|Retired|Replaced|
+|:---|:---|:---|:---|:---|
+| |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+
+#### Web Mapping Resources
+
+
+|Catalogue Fields| WMS|WFS|Network Link KML |iMapBC|
+|:---|:---|:---|:---|:---|
+
+
+### ArcGIS Online (AGO) Resources
+
+|Catalogue Fields| Data|Web Maps|Web Apps|Tile Services|
+|:---|:---|:---|:---|:---|
+
+
+**Specific Field Requirements**
++ To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
+    1. **Name:** "BC Geographic Warehouse Custom Download"
+    2. **Resource Storage Location:** "BC Geographic Warehouse"
+    3. **Object Name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
+
++ **Resource Storage Location** select "other" (`other`) but others that also apply, "multiple" (`multiple`), "Oracle/SDE" (`oracle_sde`)
+
++ **Spatial Datatype** select "SDO_GEOMETRY"
+
++ **Object Name**
+    - Is the name of the dataset stored in a database.
+    - Enter the _SCHEMA.OBJECT_ , e.g., WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP
+    - The object name is what is used to automatically populate the metadata record with
+        - The data definitions table that is extracted from the Oracle metadata.
+        - For public datasets that are available in iMapBC:
+            - The _WMS getCapabilities request_ resources
+            - The _Network Link KML_ resources
+            - The _Preview Map_ details
+            - The _View in iMapBC_ button will that dataset's specific presentations
+     - Always check to make sure there is no space at the end of the value.
+
++ **Projection Name** 
+    + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
+        - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
+
+[RETURN TO TOP][1]
+
+---------------
 ## ADDITIONAL RESOURCES
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
 + See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#field-label-and-value-changes)
