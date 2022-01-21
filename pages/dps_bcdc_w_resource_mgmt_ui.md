@@ -29,13 +29,13 @@ has_toc: true
 + [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
 + [**DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT**](#databc-services-resource-naming-and-describing-guidelines)
    + [**BC Geographic Warehouse**](#bc-geographaphic-warehouse)
-      + [Exportable Resources](#exportable-resource)
+      + [Exportable Resources](#exportable-resources)
          - Exportable; Exportable not enabled; Export disabled (retired)
-      + [Web Mapping Resources](#exportable-resource)
+      + [Web Mapping Resources](#exportable-resources)
           - WMS; WFS; Network Link KML; iMapBC or other IMF2 
-   + [**ArcGIS Online (AGO)**](#arcgis-online-(ago))
+   + [**ArcGIS Online (AGO)**](#arcgis-online-(ago)-resources)
        - Data; Web maps; Web apps; Tle services
-   + [**BC Data Catalogue**](#bc-data-catalogue)
+   + [**BC Data Catalogue Hosted Resources**](#bc-data-catalogue-hosted-resources)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
 ## RESOURCE TYPES
@@ -351,41 +351,49 @@ Click **Save** when done
 
 ## DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT
 
+This section is currently being developed.
+
 ### BC Geographic Warehouse
 
 + BC Geographic Warehouse is a selection available in the Resource Storage Location.  
-+ This is to be selected to allow for the Data Distribution Service configuration for these resources.
++ Certain resources will be generated on your behalf, including:
+    - Exportable or not
+         - This is created when working with the Data Publication Services team.
+    - WMS
+         - This is generated the week after publication to iMapBC.
+         - However the script to automate the creation of these is being redevoloped but through request we can add on your behalf.
+    - Network Link KML
+         - This is generated the week after publication to iMapBC.
+         - However the script to automate the creation of these is being redevoloped but through request we can add on your behalf.
++ Certain resources are in review for automatic generation, including:
+    - ArcGIS Online if hosted or served out through DataBC
+    - WFS
+    - iMapBC 
++ Certain fields will be populated on your behalf, including:
+    - Preview Details - includes map visible in the Preview popup and iMapBC link
+    - Object Details
 
-+ The **Manage BCGW Resources** button has not be enabled in the new catalogue.  This is an enhancement for a future release. 
-
-#### Exportable Resources
+#### Exportable or Not Resources
 
 |Catalogue Fields| Exportable|Not Exportable|Retired|Replaced|
 |:---|:---|:---|:---|:---|
-| |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+|Title |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+|URL| Leave blank for all of these
+|Type|Geographic for all of these|
+|Resource Description|The Distribution Service allows for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
+|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|
+|Resource Storage Format|multiple|Oracle/SDE|
+|Resource Storage Location|BC Geographic Warehouse|
+|Spatial Datatype|SDO Geometry|
+|Object Name|SCHEMA.TABLE
+|Prokection|EPSG_3005 - NAD83 BC Albers|
+|Resource Access Method|Indirect|
 
-#### Web Mapping Resources
-
-
-|Catalogue Fields| WMS|WFS|Network Link KML |iMapBC|
-|:---|:---|:---|:---|:---|
-
-
-### ArcGIS Online (AGO) Resources
-
-|Catalogue Fields| Data|Web Maps|Web Apps|Tile Services|
-|:---|:---|:---|:---|:---|
-
-
-**Specific Field Requirements**
+**Specific Field Requirements to Enable Export**
 + To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
     1. **Name:** "BC Geographic Warehouse Custom Download"
     2. **Resource Storage Location:** "BC Geographic Warehouse"
     3. **Object Name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
-
-+ **Resource Storage Location** select "other" (`other`) but others that also apply, "multiple" (`multiple`), "Oracle/SDE" (`oracle_sde`)
-
-+ **Spatial Datatype** select "SDO_GEOMETRY"
 
 + **Object Name**
     - Is the name of the dataset stored in a database.
@@ -399,9 +407,40 @@ Click **Save** when done
             - The _View in iMapBC_ button will that dataset's specific presentations
      - Always check to make sure there is no space at the end of the value.
 
-+ **Projection Name** 
-    + select ["ESPG_3005 - NAD83 BC Albers"](https://epsg.io/3005).
-        - There are a few datasets, that extend past the province that are [WGS 84 -- WGS84 - World Geodetic System 1984](https://epsg.io/4326) 
+#### Web Mapping Resources
+
+|Catalogue Fields| WMS|WFS|Network Link KML |iMapBC|
+|:---|:---|:---|:---|:---|
+|Title |View WMS getCapabilities request details|View WFS getCapabilities request details|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+|URL| Leave blank for all of these
+|Type|Webservice/API|
+|Resource Description|Web Mapping Service (WMS) allows for data to be fed out via a service from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
+|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to see or copy the WMS call. For more information see [Web Mapping Services](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E).|
+|Resource Storage Format|wms|wfs|kml|html or geojson
+|Resource Storage Location|BC Geographic Warehouse|
+|Spatial Datatype|SDO Geometry|
+|Object Name|SCHEMA.TABLE
+|Prokection|ESPG_4326 - WSG84 World Geodedic System 1984|ESPG_4326 - WSG84 World Geodedic System 1984|ESPG_4326 - WSG84 World Geodedic System 1984|
+|Resource Access Method|Service|Service|Service|Application|
+
+### ArcGIS Online (AGO) Resources
+
+|Catalogue Fields| Data|Web Maps|Web Apps|Tile Services|
+|:---|:---|:---|:---|:---|
+|Title |Data - Open item details ArcGIS Online (AGO)|Web map - Open item details ArcGIS Online (AGO)|Web app - Open item details ArcGIS Online (AGO)|Tile service - Open item details ArcGIS Online (AGO)|
+|URL| Leave blank for all of these
+|Type|Geographic|Application|Application|Service|
+|Resource Description|The Distribution Service allows for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
+|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|
+|Resource Storage Format|ArcGIS Rest|other|other|other
+|Resource Storage Location|BC Geographic Warehouse or ESRI ARcGIS Online if hosted|
+|Spatial Datatype|SDO Geometry|
+|Object Name|SCHEMA.TABLE
+|Prokection|EPSG_3005 - NAD83 BC Albers or hosted is ESPG_3857|Not Applicable|Not Applicable|
+|Resource Access Method|Direct|Application|Application|Direct|
+
+## BC Data Catalogue Hosted Resources
+
 
 [RETURN TO TOP][1]
 
