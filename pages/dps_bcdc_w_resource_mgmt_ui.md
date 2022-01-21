@@ -30,9 +30,12 @@ has_toc: true
 + [**DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT**](#databc-services-resource-naming-and-describing-guidelines---draft)
    + [**BC Geographic Warehouse**](#bc-geographic-warehouse)
       + [Exportable or Not Resources](#exportable-or-not-resources)
-         - Exportable; Exportable not enabled; Export disabled (retired)
+         - Exportable; Exportable not enabled
+      + [Retired or Replaced Resources](#retired-or-replaced-resources)
+         - Export disabled: retired or replaced
+      + [Generalized Resources](#generalized-resources)
       + [Web Mapping Resources](#web-mapping-resources)
-          - WMS; WFS; Network Link KML; iMapBC or other IMF2 
+         - WMS; WFS; Network Link KML; iMapBC or other IMF2 
    + [**ArcGIS Online (AGO)**](#arcgis-online-ago-resources)
        - Data; Web maps; Web apps; Tle services
    + [**BC Data Catalogue Hosted Resources**](#bc-data-catalogue-hosted-resources)
@@ -375,20 +378,20 @@ This section is currently being developed.
 
 #### Exportable or Not Resources
 
-|Catalogue Fields| Exportable|Not Exportable|Retired|Replaced|
-|:---|:---|:---|:---|:---|
-|Title |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
-|URL| Leave blank |Leave blank|Leave blank
-|Type|Geographic|Geographic|Geographic|Geographic
+|Catalogue Fields| Exportable|Not Exportable
+|:---|:---|:---|
+|Title |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|
+|URL| Leave blank |Leave blank
+|Type|Geographic|Geographic|
 |Resource Description|The Distribution Service allows for data to be exportable in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|The Distribution Service has not been enabled for export this data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
 |Supplemenental Info|See the main dataset page for more information.|The Distribution Service has been disabled for the data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
-|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|See the main dataset page for more information.|See the main dataset page for more information.|See the main dataset page for more information.
-|Resource Storage Format|multiple|Oracle/SDE|Oracle/SDE|Oracle/SDE
-|Resource Storage Location|BC Geographic Warehouse|BC Geographic Warehouse|BC Geographic Warehouse|BC Geographic Warehouse
-|Spatial Datatype|SDO Geometry|SDO Geometry|SDO Geometry|SDO Geometry|
-|Object Name|SCHEMA.TABLE|SCHEMA.TABLE|SCHEMA.TABLE|SCHEMA.TABLE
-|Prokection|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers
-|Resource Access Method|Indirect|Indirect|Indirect|Indirect|
+|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|See the main dataset page for more information.|
+|Resource Storage Format|multiple|Oracle/SDE|
+|Resource Storage Location|BC Geographic Warehouse|BC Geographic Warehouse|
+|Spatial Datatype|SDO Geometry|SDO Geometry|
+|Object Name|SCHEMA.TABLE|SCHEMA.TABLE|
+|Prokection|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|
+|Resource Access Method|Indirect|Indirect|
 
 **Specific Field Requirements to Enable Export**
 + To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
@@ -407,6 +410,24 @@ This section is currently being developed.
             - The _Preview Map_ details
             - The _View in iMapBC_ button will that dataset's specific presentations
      - Always check to make sure there is no space at the end of the value.
+
+#### Retired or Replaced Resources
+
+|Catalogue Fields| Retired|Replaced|
+|:---|:---|:---|
+|Title |View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+|URL| Leave blank |Leave blank|
+|Type|Geographic|Geographic
+|Resource Description|
+|Supplemenental Info|See the main dataset page for more information.|See the main dataset page for more information.|
+|Resource Storage Format|multiple|Oracle/SDE|
+|Resource Storage Location|BC Geographic Warehouse|BC Geographic Warehouse|
+|Spatial Datatype|SDO Geometry|SDO Geometry|
+|Object Name|SCHEMA.TABLE|SCHEMA.TABLE|
+|Prokection|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|
+|Resource Access Method|Indirect|Indirect|
+
+#### Generalized Resources
 
 #### Web Mapping Resources
 
