@@ -378,16 +378,17 @@ This section is currently being developed.
 |Catalogue Fields| Exportable|Not Exportable|Retired|Replaced|
 |:---|:---|:---|:---|:---|
 |Title |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
-|URL| Leave blank for all of these
-|Type|Geographic for all of these|
-|Resource Description|The Distribution Service allows for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
-|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|
-|Resource Storage Format|multiple|Oracle/SDE|
-|Resource Storage Location|BC Geographic Warehouse|
-|Spatial Datatype|SDO Geometry|
-|Object Name|SCHEMA.TABLE
-|Prokection|EPSG_3005 - NAD83 BC Albers|
-|Resource Access Method|Indirect|
+|URL| Leave blank |Leave blank|Leave blank
+|Type|Geographic|Geographic|Geographic|Geographic
+|Resource Description|The Distribution Service allows for data to be exportable in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|The Distribution Service has not been enabled for export this data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
+|Supplemenental Info|See the main dataset page for more information.|The Distribution Service has been disabled for the data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
+|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|See the main dataset page for more information.|See the main dataset page for more information.|See the main dataset page for more information.
+|Resource Storage Format|multiple|Oracle/SDE|Oracle/SDE|Oracle/SDE
+|Resource Storage Location|BC Geographic Warehouse|BC Geographic Warehouse|BC Geographic Warehouse|BC Geographic Warehouse
+|Spatial Datatype|SDO Geometry|SDO Geometry|SDO Geometry|SDO Geometry|
+|Object Name|SCHEMA.TABLE|SCHEMA.TABLE|SCHEMA.TABLE|SCHEMA.TABLE
+|Prokection|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers
+|Resource Access Method|Indirect|Indirect|Indirect|Indirect|
 
 **Specific Field Requirements to Enable Export**
 + To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
