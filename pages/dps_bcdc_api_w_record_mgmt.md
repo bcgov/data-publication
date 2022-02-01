@@ -56,18 +56,18 @@ resp = ckan.action.package_create(
 	contacts={
             delete: "0",
 	    private: "Display",
-            role: "select-from-list",
+            role: "select-from-list-see-json-schema",
             email: "valid email"
 	    name:"contact name",
             org: "organization id"}
-	security_class="select-from-list",
-	view_audience="select-from-list",
-	download_audience="select-from-list",
-	metadata_visibility="select-from-list",
+	security_class="select-from-list-see-json-schema",
+	view_audience="select-from-list-see-json-schema",
+	download_audience="select-from-list-see-json-schema",
+	metadata_visibility="select-from-list-see-json-schema",
 	tag_string={
 		"keyword1","keyword2"}
 	publish_state="DRAFT",
-	resource_status="select-from-list"	
+	resource_status="select-from-list-see-json-schema"	
 	)
 
 
