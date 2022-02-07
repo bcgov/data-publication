@@ -6,7 +6,7 @@ parent: Appendix - Common Items
 has_toc: false
 ---
 
-# STAGING AREA
+# STAGING AREAS
 
 DataBC manages multiple staging areas to allow for the transfer and storage of file based source datasets for the intent to be published via DataBC's access channels, including:
 
@@ -92,7 +92,7 @@ This page describes the staging areas, how to request access and specific requir
    + Location will be provided when granting access to this directory \...\data_staging_bcgw\
    + The second level of the [_Data Classification Hierarchy_](dsg_bcgw_data_classification_hierarchy.md) is used to determine what folder the data is to be located in. 
          + This location will be assigned by DataBC DA.
-+ Directory access requests are to be submitted through [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
++ To request access to the BCGW Staging Area, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13).
 
 -----------------------------------------------------------
 
@@ -102,7 +102,7 @@ This page describes the staging areas, how to request access and specific requir
   https://catalogue.data.gov.bc.ca/
 + Data intended for the BCGW and stored within BCDC's file store, are tabular with coordinate values that can be projected into point locations.
 + To acquire accounts for BCDC contact [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services) team
-+ To publish data to the BCGW contact [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
++ To publish data to the BCGW, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/28).
 
 -----------------------------------------------------------
 
@@ -111,7 +111,7 @@ This page describes the staging areas, how to request access and specific requir
 + The DBC Staging Area is only accessible via the GTS Servers and to a small set of users.
 + When uploading datasets to DBC Staging, directories are to be mapped as:
    + will be provided when granting access to this directory \...\data_staging_dbc\
-+ Directory access requests are to be submitted through [Data Architecture Services](mailto:DataBC.DA@gov.bc.ca)
++ To request access to the DBC Staging Area, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).
 
 -----------------------------------------------------------
 
