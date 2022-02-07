@@ -3,6 +3,7 @@ layout: default
 title: FAQ
 nav_order: 12
 has_toc: false
+nav_exclude: true
 ---
 
 # FREQUENTLY ASKED QUESTIONS
@@ -26,11 +27,11 @@ has_toc: false
 	+ [Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?](#why-would-i-just-upload-a-tabular-dataset-to-the-bc-data-catalogue-instead-of-publishing-it-to-the-bcgw)
 	+ [How can I find my related datasets in the Catalogue?](#how-can-I-find-my-related-datasets-in-the-catalogue)
 + [**IMAPBC AND LAYER LIBRARY LAYER PRESENTATIONS**](#imapbc-and-layer-library-layer-presentations)
-	+ [How do I update a presentation (layer file) for my dataset?](#how-do-i-update-a-presentation-layer-file-for-my-dataset)
-	+ [How do I update an existing permanent presentation in iMapBC that is not my data?](#how-do-i-update-an-existing-permanent-presentation-in-imapbc-that-is-not-my-data)
+	+ [How do I update a layer presentation for my dataset?](#how-do-i-update-a-layer-presentation-for-my-dataset)
+	+ [Can I update an existing layer presentation in iMapBC that is not my data?](#can-I-update-an-existing-layer-presentation-in-iMapBC-that-is-not-my-data)
 	+ [How can I request a new alternate/subset presentation of data that is not mine?](#how-can-i-request-a-new-alternatesubset-presentation-of-data-that-is-not-mine)
 	+ [How do I arrange for my data to become a permanent layer in iMapBC?](#how-do-i-arrange-for-my-data-to-become-a-permanent-layer-in-imapbc)
-	+ [How do I get my data into WMS/WFS?](#how-do-i-get-my-data-into-wmswfs)
+	+ [How do I make my data available as a WMS/WFS](#how-do-i-make-my-data-available-as-a-wmswfs)
 + [**ARCGIS ONLINE (aka AGO, B.C.'s MAP HUB)**](#arcgis-online-aka-ago-bcs-map-hub)
 	+ [How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?](#how-do-i-get-my-data-into-bcs-map-hub-the-provinces-cloud-instance-of-arcgis-online-)
 	+ [Why would I publish data to ArcGIS Online only and not to the BCGW?](#why-would-i-publish-data-to-arcgis-online-only-and-not-to-the-bcgw)
@@ -61,38 +62,36 @@ has_toc: false
 ### Technical Support regarding DataBC products and services
 + (250) 952-6801
 + NRMenquiries@gov.bc.ca
-+ NRM Business Service Desk at the IIT Service Centre portal: [https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals/](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals/)
++ https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portals
 
+**NEW** To submit product and service requests please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1).
 
-The following is a list of DataBC groups with direction on their areas of expertise and who to contact when you need assistance and clarification.
+### Our Teams at DataBC
 
-### Data Discovery Services 
+#### Data Discovery Services 
 
 + [BC Data Catalogue (BCDC)](dps_bcdc.md)
 + [Open Data](open_data.md) licencing and process
-+ [Distribution Service](dps_data_distribution.md) aka, data download
-+ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca)
++ [Distribution Service](dps_data_distribution.md) (data download)
 
-### Data Publication Services 
+#### Data Publication Services 
 
 + [BC Geographic Warehouse (BCGW)](dps_bcgw.md)
 	+ [Data Publication](dps_bcgw_w.md)
-	+ [Data Replication](dsg_bcgw_data_replication.md) aka, ETL Services
-	+ Data Retirement _Contact_: [LDATARET@Victoria1.gov.bc.ca](LDATARET@Victoria1.gov.bc.ca)
+	+ [Data Replication](dsg_bcgw_data_replication.md) - ETL (Extract, Transform, Load)
+	+ [Data Retirement](dps_bcgw_w_data_retirement.md)
 	+ [Data Security](dsg_security_access.md) via Roles and Proxy accounts
 + [Layer files and Layer Library](dsg_bcgw_layer_file_presentation.md)
 + [Data standards](dsg_bcgw.md)
 + Data governance and management
-+ _Contact_: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) 
 
-### Location Services 
+#### Location Services 
 
-+ [BC Address Geocoder](dps_loc_address_geocoder.md)
++ [BC Geocoder](dps_loc_address_geocoder.md)
 + Address Validator
 + BC Route Planner
-+ _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
 
-### Map Services 
+#### Map Services 
 
 + [BC Map Hub AGO](dps_maphub_w.md)
 + iMapBC
@@ -100,17 +99,7 @@ The following is a list of DataBC groups with direction on their areas of expert
 + [Layer files and Layer Library](dsg_bcgw_layer_file_presentation.md)
 + [Simple Map Kit (SMK)](https://bcgov.github.io/bcwebmaps-options/web-mapping-frameworks/smk.html)
 + WMS/WFS
-+ _Contact_: [datamaps@gov.bc.ca](mailto:datamaps@gov.bc.ca)
 
-### Data Requests
-
-+ When you're looking for data that is not found in the BC Data Catalogue or BC Geographic Warehouse, submit a [_DataBC - Data Request_](https://forms.gov.bc.ca/databc-data-request/) form.
-
-### DataBC
-
-+ When nothing above seems to apply,
-+ _Contact_: [Data@gov.bc.ca](mailto:Data@gov.bc.ca) 
- 
 [RETURN TO TOP][1]
 
 -------------------------------------------------------
@@ -176,26 +165,26 @@ The following sections will help explain the difference between **Open Data** an
 ### How do I publish Metadata Records in the BC Data Catalogue as a Crown Corp or BC Agency?
 
 + As a member of the Broader Public Sector (BPS) you may manage your own holdings within the BC Data Catalogue.
-+ To start this process, send an email to [Data@gov.bc.ca](mailto:Data@gov.bc.ca) with the subject line **Dataset Publication as a Crown Corp or BC Agency Request** and provide as much detail as possible.  
++ To start this process, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/16) with the subject as **Dataset Publication as a Crown Corp or BC Agency** and provide as much detail as possible in the description.  
 
 ### How do I get authorization to publish records in the BC Data Catalogue?
 
 + To obtain an account to publish and manage data and metadata records for data, applications and services, approval from the Custodian is required. The custodian may be a Director or Executive Director of a Branch.
-+ Please send the request and the custodian's approval to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13) for a new account.
 
 ### How do I change the contact name recorded for a dataset when that contact has moved to a different role or retired?
 
-+ We do require that each Catalogue record have a way to contact the business area for further questions or access.
++ Each BC Data Catalogue record is required to list at least one contact within the business area.
 + The custodian of the dataset can authorize one or more people to be editors of their records. 
    + These editors can then change the contact information. 
-   + Requests to have editors set up for BC Data Catalogue access can be sent by the custodian to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
-
+   + Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3) to have editors set up for BC Data Catalogue access.
+   
 ### How do I change the branch or ministry name or move a branch that has moved to another ministry listed in the catalogue?
 
 + Organizations regularly change names or move to other ministries as functions shift.
 + A custodian of a branch or an already delegated editor of an organization can inform us of any organizational change. 
    + The administrator of the catalogue can rename and move organizations around. 
-   + Requests to organizatonal structure changes can be sent to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
+   + Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) to update the organizatonal structure for your Ministry or Branch/Division.**
 
 ### Can I do bulk changes to Catalogue records?
 
@@ -203,14 +192,14 @@ The following sections will help explain the difference between **Open Data** an
    + Change a contact from one person to another
    + Change a resource or more information link to a new URL
    + Change a record from one state to another, e.g., Pending Archive to Archive or push a Published record back to Draft.
-+ Requests such as these can be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) for bulk changes in the BC Data Catalogue.**
 
 ### How do I add/updated descriptions or short names of fields at the bottom of a metadata record for data in the BCGW?
 
 + These field descriptions and short names (for Shapefiles) all come from the BC Geographic Warehouse system metadata.
 + To update these, we require the object name, field name and the new definition for the Description or Short Name.
    + If there are multiple datasets or a large number of columns, we can prepare an export to use.
-+ This request then be sent to: [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca). 
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) to make changes to the data model.
 
 ### Why would I just upload a tabular dataset to the BC Data Catalogue instead of publishing it to the BCGW?
 
@@ -245,25 +234,25 @@ The following sections will help explain the difference between **Open Data** an
 
 ## IMAPBC AND LAYER LIBRARY LAYER PRESENTATIONS
 
-### How do I update a presentation (layer file) for my dataset?
+### How do I update a layer presentation for my dataset?
 
-+ A custodian business area representative can import the layer file from the Layer Library available via:
++ A custodial business area representative can import the layer file from the Layer Library available via:
    + the TSAT toolbar available in ArcMap on the GTS ArcGIS Desktop, or
    + the [_Layer Library folder_](\\data.bcgov\layer_library) directly (must have read access) to load into ArcMap   
       + If this is not available to you, the layer file can be sent to you.
-   + Make the changes, as per the [_Layer Presentation Standards_](layer_file_presentation_standards.md#layer-presentation-standards) documentation
-   + Submit, via email, the new layer file to [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with subject line **Presentation Layer File Update** and attach the layer file with supporting details.
+   + Make the changes, as per the [_Layer File Presentation_](dsg_bcgw_layer_file_presentation.md) standards
+   + Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/31) and attach the layer file with supporting details.
 
-### How do I update an existing permanent presentation in iMapBC that is not my data?
+### Can I update an existing layer presentation in iMapBC that is not my data?
 
-+ Every presentation is authored by the custodial business area, therefore it is up to them to decide how they would like to proceed.
-+ This can be done by contacting the business area listed on the contact of the datasets metadata record.
-+ They will then follow the process shown in the [_above_](#how-do-i-update-a-presentation-layer-file-for-my-dataset) question.
-+ A presentation can be changed during an iMapBC session.
++ Layer presentations are authored by the custodial business area, therefore you may contact them to discuss your proposed updates.
++ This can be done by getting in touch with a contact listed in the dataset's metadata record.
++ They will then follow the process shown in the [_above_](#how-do-i-update-a-layer-presentation-for-my-dataset).
++ Note that iMapBC allows for symbology changes within a session.
 
 ### How can I request a new alternate/subset presentation of data that is not mine?
 
-+ Refer to [_How do I update an existing permanent presentation in iMapBC that is not my data?_](#How-do-I-update-an-existing-permanent-presentation-in-iMapBC-that-is-not-my-data).
++ Refer to [_Can I update an existing layer presentation in iMapBC that is not my data?_](#can-I-update-an-existing-layer-presentation-in-iMapBC-that-is-not-my-data).
 
 ### How do I arrange for my data to become a permanent layer in iMapBC?
 
@@ -271,11 +260,15 @@ The following sections will help explain the difference between **Open Data** an
    + To publish data in iMapBC, the data must be available in the BCGW.
    + Refer to: [The BC Geographic Warehouse (BCGW)](#the-bc-geographic-warehouse-bcgw) section below.
 
-### How do I get my data into WMS/WFS?
+### How do I make my data available as a WMS/WFS?
 
 + DataBC hosts WMS/WFS as a service for data residing in the BCGW.
    + To publish data in this service, the data must be available in the BCGW.
    + Refer to: [The BC Geographic Warehouse (BCGW)](#the-bc-geographic-warehouse-bcgw) section below.
+
+[RETURN TO TOP][1]
+
+-------------------------------------------------------
 
 ## ARCGIS ONLINE (aka AGO, B.C.'s MAP HUB)
 
@@ -306,8 +299,8 @@ The following sections will help explain the difference between **Open Data** an
 |Datasets can be secured for download by only named users|No|Yes|
 |Datasets will be permanent layers in iMapBC and the Layer Library|No|Yes|
 |Datasets will be available through WMS/WFS services|Yes (possible via AGO, may be limited)|Yes| 
-|Datasets with personal information can be stored|No|Contact DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) to discuss|
-|Datasets with sensitive information (excluding personal information) can be stored|Yes, if the data custodian agrees. Contact DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) for more information|Yes|
+|Datasets with personal information can be stored|No|Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/16) to discuss options|
+|Datasets with sensitive information (excluding personal information) can be stored|Yes, if the data custodian agrees.|Yes|
 |Datasets can be made available in an open format|Not at this time|Yes|
 
 ### How do I publish a map to ArcGIS Online so it's viewable to the public?
@@ -355,7 +348,9 @@ Before asking to publish data to the BCGW, consider:
 3. Data Download from iMapBC and the BC Data Catalogue
 
 ### What is the LRDW?
-+ If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historical name for what is now the BCGW or the BC Geographic Warehouse. 
++ If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historic name for what is now the BCGW or the BC Geographic Warehouse. 
+
+-------------------------------------------------------
 
 ### Refreshing Data - the ETL Process
 
@@ -394,86 +389,87 @@ Before asking to publish data to the BCGW, consider:
 #### How often is my dataset refreshed in the BCGW?
 
 + Refresh schedules are determined in consultation with the Data Custodian. The frequency may be anywhere from hourly to annually, depending on consumption requirements and how often the source data changes. "On request" replications are also supported.
-+ For further information, email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
 
 #### How do I request that my dataset be refreshed (outside the normal schedule)?
 
-+ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Request: Dataset Refresh - Outside of Normal Schedule**, providing the url of the dataset(s) affected.
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/31) to refresh your dataset.
 
-#### How do I get the refresh scheduled frequency changed?
+#### How do I get the scheduled refresh frequency changed?
 
 + The refresh frequency of a dataset may change over its lifecycle. This can be altered as needed to meet the business requirements. 
-+ Email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Request: Dataset Refresh Frequency Change**, providing the url of the dataset(s) affected.
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/31) to change the refresh schedule.
 
 #### How do I determine the source of a dataset in the BCGW?
 
-+ A custodial business area or delegate may email  [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with the subject line **Request: Source of Dataset in BCGW**, providing the url of the dataset(s) to determine a source. 
++ A custodial business area or delegate can open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14) with the subject line **Request: Source of Dataset in BCGW**, providing the url of the dataset(s) metadata record in the BC Data Catalogue. 
 + As folks move around government or retire, at times the knowledge of the data flow may become unknown to a data provider. 
 + The DataBC Architecture Services team can assist with understanding how the data gets from source to the BCGW.
 
 #### How do I change where my dataset is being replicated from?
 
 + Sources of datasets that are published into the BCGW change during its lifecycle and as such automated replication platforms will need to be updated to meet the new data management configuration. It is recommended to engage with DataBC early on when changing a source format as we can move alongside during the development, testing and finalization process.
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/31) to change where your dataset is being replicated from. 
+
+-------------------------------------------------------
 
 ### Access security
 
-#### How do I change the security set on my dataset in the BCGW?
+#### How do I change the security for my dataset in the BCGW?
 
 + The security of a dataset may change over time with its lifecycle. 
-   + Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) to develop a plan and to alter a security profile. 
+   + Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/31) to change the data model, with the subject line **Request: Update security for a dataset in the BCGW**, providing the url of the dataset(s) metadata record in the BC Data Catalogue. 
    + Altering a security profile will potentially include changes to BCGW Oracle Grants, iMapBC/IMF2, Distribution and its metadata in the BC Data Catalogue.
+
+-------------------------------------------------------
 
 ### Downloading data from the BC Geographic Warehouse
 
 #### How do I make something downloadable from the BCGW?
 
 + A custodial business are may choose to make datasets in the BCGW under their authority downloadable. Data can be downloaded using either the BC Data Catalogue or iMapBC.
-+ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) to discuss the desired security profile. Security options are,
-     1. Public download,
-     1. Download when authenticated with a valid IDIR,
-     1. Download when authenticated with a valid IDIR or Business BCeID,
-     1. Download only be specific IDIRs,
-     1. Download only be specific IDIRs or Business BCeIDs
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14) with the subject line **Request: Update distribution for a dataset in the BCGW**, providing the url of the dataset(s) metadata record in the BC Data Catalogue. 
+Security options are:
+     1. Public download
+     1. Download when authenticated with a valid IDIR
+     1. Download when authenticated with a valid IDIR or Business BCeID
+     1. Download when authenticated with a specific IDIR
+     1. Download when authenticated with a specific IDIR or Business BCeID
 
 #### I download data frequently, can I find my past orders?
 
 + This option is available for users who log in to iMapBC or the BC Data Catalogue when downloading datasets.
 
+-------------------------------------------------------
+
 ### Feature Codes
 
 #### How do I get a Feature Code (FCODE) created/updated?
 
-+ Feature Codes or FCODEs are no longer mandatory in the BCGW.
-+ There are however still cases where these are needed.
-+ To obtain a new FCODE, contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca).
++ Feature Codes or FCODEs are no longer mandatory in the BCGW, there are however still cases where these are needed.
++ To obtain a new FCODE, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14) with the subject line **Request: FCODE for a dataset in the BCGW**, providing the url of the dataset(s) metadata record in the BC Data Catalogue. 
 
 #### Do I really need Feature Codes?
 
-+ Feature Codes or FCODEs are not mandatory in the BCGW but they are still sometimes useful to define or categorize features in a dataset.
++ Feature Codes or FCODEs are not mandatory in the BCGW but they are still useful to delineate features in a dataset.
 + Datasets that only contain one type of information do not need an FCODE.
-+ Datasets that already have FCODEs that are used to separate and symbolize different values, it is recommended to create an FCODE when a new value is created.
++ Datasets that already have FCODEs that are used to separate and symbolize different values, it is recommend to create an FCODE when a new value is then created.
 + Refer to [_How do I get an Feature Code (FCODE) created/updated?_](#how-do-i-get-a-feature-code-fcode-createdupdated)
+
+-------------------------------------------------------
 
 ### Retiring datasets from the BC Geographic Warehouse
 
 #### How do I retire a dataset from the BCGW?
 
-+ Refer to: [BCGW Data Retirement Process] for details of the retirement process
-
---under construction--
-
-#### What is the retirement process?
-
-+ Data has a natural life cycle that includes data retirements for many reasons.
-+ A custodian within the business area may determine that a dataset, or set of data, is no longer needed for their business, or the needs of others, and they will initiate the retirement process.
-+ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca), for further information. 
++ Refer to the [Data Retirement Workflow](dps_bcgw_w_data_retirement.md) for retirement process details.
 
 #### Where is the list of past retirement notifications?
-+ [Past and currently in process retirements](https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1)
+
++ Refer to the [Data Retirement Workflow](dps_bcgw_w_data_retirement.md) for retirement process details.
 
 #### How do I retire data and/or a proxy that is in the BCGW and which is tied to my application?
 
-+ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca), for further information and assistance.
++ Refer to the [Data Retirement Workflow](dps_bcgw_w_data_retirement.md) for retirement process details.
 
 [RETURN TO TOP][1]
 
@@ -484,13 +480,13 @@ Before asking to publish data to the BCGW, consider:
 ### Why is there no data in my AOI (Area of Interest) when I download data?
 
 + You are likely attempting to download non-spatial data as a spatial file (i.e., fdgb or shapefile). Try downloading as a csv instead.
-+ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) if you continue to experience issues.
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/30) if you continue to experience issues.
 
 ### After I receive notification that my data has been assembled, there are no files in the directory.
 
-+ There may be firewall limitations on your end tht prevent you from accessing the data. Try accessing the file(s) using a public wifi connection.
++ There may be firewall limitations on your end that prevent you from accessing the data. Try accessing the file(s) using a public wifi connection.
 + Large orders have a time delay built in to the process. You may have received notification that your order has been assembled, but it may still be working away at zipping up the data for you.  Try again in 5 minutes. 
-+ Contact [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) if you continue to experience issues.
++ Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/30) if you continue to experience issues.
 
 -------------------------------------------------------
 
@@ -546,13 +542,9 @@ Before asking to publish data to the BCGW, consider:
 
 ### I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?
 
-+ Over time, business leads change and thus the people requiring on-boarding and access change.
-+ To start this process, email [DataBC.DA@gov.bc.ca](mailto:DataBC.DA@gov.bc.ca) with subject line **Editor Change Request** and provide the following information:
-   + Name of current editor you are replacing;
-   + Approval from Director or above for the dataset(s)' business area;
-   + At least one data set's BC Data Catalogue's url;
-   + Name of Ministry and/or the branch/division responsible the dataset(s).
-+ Access may involve accounts and security to:
++ To request access, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13).
+
++ Access may involve accounts and security for:
    1. BC Geographic Warehouse and secure Oracle database roles, iMapBC roles, and Distribution roles
    1. BC Data Catalogue
    1. DataBC File Staging Area
