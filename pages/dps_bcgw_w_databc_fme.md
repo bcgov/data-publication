@@ -113,7 +113,7 @@ The FME Framework requires you to be able to link published parameters to reader
 
 The DataBC FME Framework, when run on a DataBC FME Workbench workstation or on FME Server, retrieves passwords from a password management system accessible only by DataBC processes. GTS servers do not have access to this password management system, so scripts that are running on the GTS environment need some other way of retrieving passwords. This is done through supplying a file called 'dbCreds.json' in the same directory in which the FMW being run by FME Workbench is located. Example files are available [here](images\delivery_kit\xyz_whse\WHSE_SCHEMA_NAME\dataload). Copy the example .json file to the same directory as your FMW, then open it up and add the required parameters. Also make sure to copy the associated .sde connection file into this same directory.
 
-When you deliver the FMW to DataBC, do not include the dbCreds.json file with the files you deliver.  Instead arrange with DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) to have the passwords included into our password management system.  
+When you deliver the FMW to DataBC, do not include the dbCreds.json file with the files you deliver.  Instead arrange with DataBC to have the passwords included into our password management system.  
   
 [RETURN TO TOP][1] 
 
@@ -846,7 +846,7 @@ Next: [Define the Destination Writer User Parameters](#define-the-destination-wr
 
 + Adding this writer will take you through a series of panels, each of which include some of the fields defined below.
 
-+ **This writer is to be used only in exceptional circumstances. Contact [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) before using.**
++ **This writer is to be used only in exceptional circumstances. Contact DataBC before using.**
 
 	|Field/Panel|Value/Action|
 	|-----|-----|
@@ -950,7 +950,7 @@ Next: [Configure the FMW Framework Parameters](#configure-the-fmw-framework-para
 
 The following parameters are required when using the FME native Oracle Spatial and Non-spatial writers. 
 
-**NOTE: The Oracle native spatial writer should only be used in exceptional circumstances. Consult DataBC [Data Architecture Services](mailto:databc.da@gov.bc.ca) before using. The Non-spatial writer should be used for unregistered, non-spatial BCGW tables.**
+**NOTE: The Oracle native spatial writer should only be used in exceptional circumstances. Consult DataBC before using. The Non-spatial writer should be used for unregistered, non-spatial BCGW tables.**
 
 
 ##### Destination Easy Connect String (DEST_EASYCONNECT)
