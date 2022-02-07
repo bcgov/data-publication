@@ -17,13 +17,9 @@ This page describes information required to:
 + implementation of roles, including but not limited to the role types, naming requirements and access types
 + granting IDIR and proxies and proxies to roles
 
-|**AUDIENCE**|
-|:---:|
-|  |
-
-## Audience
-
-The target audience for this page are editors who require access to database schemas and who manage roles/access to other tools, such as ArcMap, SQL Developer and Toad. 
+| **AUDIENCE** | | |
+|:---:|:---:|:---:|
+|Data Managers |Database Administrators |Application Administrators
 
 -----------------------
 
@@ -42,13 +38,18 @@ The target audience for this page are editors who require access to database sch
 
 ## ROLE CREATION REQUEST
 
-Role creation requests are submitted to the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team. These requests primarily result from net new dataloads to the BCGW/DBC where named users security is required or for application access. Schema level roles will already exist unless a new schema is being created for an internal application.
+To request a new role to access a dataset in the BCGW, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13), using the 'Other' option with the Subject of **Request: BCGW Role Access**. In the description, please specify:
+* the schema and object name
+* the role name (if it already exists)
+* IDIR(s) for the people that require access
 
-All BCGW/DBC objects being modelled in the DataBC repository should indicate which role(s) it will be granted to. Therefore request for new roles should happen before the physically modelling is to be done.
+These requests primarily result from net new data publications to the BCGW where named user security is required for application access. Schema level roles will already exist unless a new schema is being created for an internal application.
+
+All BCGW objects being modelled in the DataBC repository should indicate which role(s) it will be granted to. Therefore requests for new roles should happen before the physical modelling is complete.
 
 ### Timelines
 
-Depending on existing requests and staff availability, new role requests may take up to 10 business days to be completed. If there is requirement to have it completed in less than 10 business days please contact the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team. 
+Depending on existing requests and staff availability, new role requests may take up to 10 business days to be completed. If there is requirement to have it completed in less than 10 business days please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13), using the 'Other' option with the Subject of **Request: BCGW Role Access - Urgent**. 
 
 -----------------------------------------------------------
 

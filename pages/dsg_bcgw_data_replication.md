@@ -59,8 +59,6 @@ The file naming convention consists of a series of components:
 
 `[bcgw object name (in full)]_[source location]_[source format]_[destination location].fmw`
 
-Contact the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team with any questions you may have. 
-
 **BCGW Object Name (in full)**
 
 + This is the full name of the BCGW table being loaded into in lowercase, e.g., spi_wildlife_nonsensitive_sp
@@ -100,6 +98,8 @@ Contact the [DataBC Data Architecture Services](mailto:DataBC.DA@gov.bc.ca) team
 | spi_wildlife_nonsensitive_sp | staging | multi |bcgw |`spi_wildlife_nonsensitive_sp_staging_multi_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | api |csv |bcgw |`spi_wildlife_nonsensitive_sp_api_csv_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | webservice | csv |bcgw |`spi_wildlife_nonsensitive_sp_webservice_csv_bcgw.fmw`|
+
+If you have any questions about DataBC's FME Framework, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).
 
 [RETURN TO TOP][1]
 

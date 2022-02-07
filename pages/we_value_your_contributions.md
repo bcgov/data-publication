@@ -117,7 +117,7 @@ git push
 1. Enter a **Description** of the changes made.
 1. Click the final ![Create pull request](images/image_create_pull_request2.png) button. 
 
- [DataBC](mailto:databc.da@gov.bc.ca) will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
+DataBC will review and either incorporate your changes or contact you if there is a reason the changes cannot be incorporated.
 
 -------------------------------------------------------
 

@@ -12,8 +12,7 @@ has_toc: false
 
 This page details some helpful tips and tricks relating to data publication within the DataBC Program.
 
----------------------
-
+-----------------------
 ## Table of Contents
 + [**CONNECTING TO THE BCGW**](#connecting-to-the-bcgw)
 	+ [Connecting to BCGW Production using ArcGIS Desktop](#connecting-to-bcgw-production-using-arcgis-desktop)
@@ -21,16 +20,12 @@ This page details some helpful tips and tricks relating to data publication with
 	+ [Connecting to BCGW Production using FME](#connecting-to-bcgw-production-using-fme)
 + [**ADDING DATA USING ARCGIS DESKTOP**](#adding-data-using-arcgis-desktop)
 	+ [ADDING LAYERFILES](#adding-layerfiles)
-		+ [TSAT toolbar in ArcMap](#tsat-toolbar-in-arcmap)
-		+ [ArcCatalog](#arccatalog)
 	+ [ADDING DATA DIRECTLY FROM BCGW](#adding-data-directly-from-bcgw)
 + [**IDENTIFIED BUGS**](#identified-bugs)
-+ [**UPDATING DATA SOURCES **](#updating-data-sources-)
++ [**UPDATING DATA SOURCES**](#updating-data-sources)
 	+ [VIA ArcCatalog](#via-arccatalog)
 	+ [VIA ArcGIS Documents](#via-arcgis-documents)
-		+ [Setting Data Sources Via Breaking and Repairing Data Links in ArcMap](#setting-data-sources-via-breaking-and-repairing-data-links-in-arcmap)
-
-
+  
 -----------------------
 
 ## CONNECTING TO THE BCGW
@@ -46,7 +41,7 @@ In ArcCatalog, under Database Connections, there should be a Database Connection
 + If you do not see this connection in ArcCatalog, click Add Database Connection and set the Database Connection properties to: 
    + Database Platform: **Oracle**
    + Instance: `<BCGW Host Name>``/``<BCGW Service Name>`
-     + If you do not know the instance information (BCGW Host Name and BCGW Service Name), please contact [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) for connection instructions.
+     + If you do not know the instance information (BCGW Host Name and BCGW Service Name), please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14), with the subject **Request: BCGW Production Instance Details**.
    + User Name: this is your IDIR
    + Password: this is your BCGW password _[How do I get an account to the BCGW?](https://github.com/bcgov/data-standards/blob/master/pages/faq.md#How-do-I-get-an-account-to-BCGW-and-specifically-Delivery-and-Test)_
    + **DO NOT** save your credentials in database connections as this will embed your username and password into any saved MXDs and LYRs that use this connection.  This poses a security threat and can corrupt your MXDs when you are required to [_change your password_](http://apps.bcgov/standards/dbc/Database_Account_Security_Policy).
@@ -60,7 +55,7 @@ The BC Geographic Warehouse has three environments: Delivery, Test, and Producti
 1. Click on Add Database Connection and fill in the appropriate parameters
    + Chose Database Platform: **Oracle**
    + Instance: `<Host Name>``/``<Service Name>` or `<tns alias>`
-     + If you do not know the instance information (BCGW Host Name and BCGW Service Name), please contact [DataBC Data Architecture Services](mailto:databc.da@gov.bc.ca) for connection instructions.
+     + If you do not know the instance information (BCGW Host Name and BCGW Service Name), please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14), with the subject **Request: BCGW [Delivery or Test] Instance Details**.
    + Again **DO NOT** save username or password
 1. Rename the sde database connection to the appropriate name for BCGW delivery or test database environments:
    + BCGWTEST.sde
@@ -226,7 +221,6 @@ Due to these limitations there are two output MXDs created per Single MXD script
 
 + FOR ALL APPROACHES ALWAYS VERIFY\!
 + To verify, open MXD/LYR in ArcMap and check the data source tab in the table of contents.
-
 
  -------------------------------------------------------
  

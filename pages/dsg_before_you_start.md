@@ -9,15 +9,15 @@ has_toc: false
 
 -----------
 
-### **Note - Fiscal year end timelines:** 
+## Note - Fiscal year end timelines:
 
-Please note that we will be **pausing intake for BC Geographic Warehouse data publications from February 1st to April 1st.**  This will enable us to complete data publication work already in progress.  
+Please note that we will be **pausing intake for BC Geographic Warehouse data publications from February 1st to April 1st.** This will enable us to complete data publication work already in progress.
 
-What this means for you: 
-+ Requests received before February 1st, your project will follow the standard intake process 
+What this means for you:
++ Requests received before February 1st, your project will follow the standard intake process
 + Requests received between February 1st and April 1st , your project intake will begin after April 1st.
 
-----------
+--------------
 
 Do you have a dataset that you'd like to publish through the [_DataBC Program_](https://data.gov.bc.ca/)? Before your data is published, we will need to gather some information from you. The questions on this page will help the [DataBC Data Architecture Services](faq.md#data-architecture-services) team learn about your requirements and to determine whether the DataBC Program can meet them.
 
@@ -38,8 +38,8 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 
 The DataBC Program makes data available through combinations of several different channels:
 
-+ the [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
-+ the [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
++ [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61)
++ [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca)
 + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
 + [_BC Map Services (WMS and WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
 + [_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
@@ -77,7 +77,7 @@ There are five options for where data gets stored in the DataBC Program, each wi
 
 ## DATASET READINESS
 
-To find out if your data is ready for the BCGW, see [Workflow - Is my data ready for the BCGW?](dps_bcgw_w.md#workflow---is-my-data-ready-for-the-bcgw)
+To find out if your data is ready for the BCGW, see [Data Publication - Am I Ready?](dps_bcgw_w.md#data-publication---am-i-ready)
 
 -----------------------------------------
 
@@ -105,8 +105,7 @@ In certain circumstances there may be additional charges for the following:
 + the dataset is extremely large (several million rows or larger)
 + the load requires extensive manipulation and transformation of the input data
 + we need to be heavily involved in operational planning (planning preparation of the data set)  
-+ the data source is nonstandard
-   + Standard sources are:
++ the data source is non-standard; standard sources are:
      + Oracle operational BC Government databases, 
      + csv files, 
      + shape files, 
@@ -116,21 +115,19 @@ In certain circumstances there may be additional charges for the following:
 
 The amount of the charge will be discussed at the [_Discovery Whiteboard_](dps_bcgw_w.md#discovery-whiteboard), held at the beginning of the publication process.
 
-Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the Discovery Whiteboard.
+Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are the addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the Discovery Whiteboard.
 
 -----------------------------------------
 
 ## DATA PUBLICATION REQUEST
 
-To request a data publication using DataBC's services, complete and submit the [Before You Start](images/Before_You_Start.docx) form.
+To request a data publication using DataBC's services, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/28).
 
 -----------------------------------------
 
 ## NEXT STEPS
 
-Once you have submitted the [Before You Start](#data-publication-request) form to DataBC, you will receive a response from one of our team members outlining next steps. 
-
-To learn more about the data publication process, check out the standards, guidelines and workflows within this site. If you have any questions along the way, one of our [_DataBC Program Key Contacts_](faq.md#WHOS-WHO-AT-DATABC) will be happy to assist.
+See [BC Geographic Warehouse Data Publication](dps_bcgw_w.md)
 
 -----------------------------------------
 
