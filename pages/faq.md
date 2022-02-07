@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 nav_order: 12
 has_toc: false
-nav_exclude: true
+nav_exclude: false
 ---
 
 # FREQUENTLY ASKED QUESTIONS
