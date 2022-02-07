@@ -18,13 +18,7 @@ has_toc: false
 ### Retirement Process and Workflow
 Data Custodians are ultimately responsible for the Data Lifecycle of their data, which includes but is not limited to the maintenance, accuracy, licensing and the decision to replace, retire or archive their data.
 
-To retire data from the BCGW, the Data Custodian notifies [DataBC Data Retirement](Mailto:LDATARET@Victoria1.gov.bc.ca) with the following information: 
-
-**Information Required and Example:**
-
-| Schema Name|Table Name|Disposition Rationale|Replacement Schema|Replacement Table|
-| ------| ------| ------|------| ------|
-| WHSE_ADMIN_BOUNDARIES|FADM_DISTRICT|Dataset has been replaced |WHSE_LEGAL_ADMIN_BOUNDARIES|ADM_NR_DISTRICTS_SP|
+To retire data from the BCGW, please open a ticket with the [ Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/26).
 
 ![BCGW Data Retirement Workflow](images/BCGW_Data_Retirement_Workflow.PNG)
 
@@ -33,8 +27,7 @@ From the information provided by the custodian, a ***Notice of Intent*** is crea
 
 These notifications are sent out twice a year to allow application managers to schedule updates to their applications. Emergency disabling or temporary disabling of datasets can happen but will require rationale.
 
-Notifications are sent out via [DataBC Data Retirement](Mailto:LDATARET@Victoria1.gov.bc.ca) and hosted in the BC Data Catalogue
- https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1
+Notifications are sent out by the DataBC Data Retirement team and [hosted in the BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1)
 
 **Notice of Intent (NOI)**
 Timelines: 
@@ -45,7 +38,7 @@ Timelines:
 **Notice of Decision (NOD)**
 Timelines: 
 * **Late July/Early Aug** with a **2 week** notice before dependencies will be removed.
-* [Mailto:DataBCDA@gov.bc.ca DataBC DA] will do a dependency analysis and will work to other areas within DataBC as well as application owners to disable or redirect datasets.
+* DataBC will do a dependency analysis and will work to other areas within DataBC as well as application owners to disable or redirect datasets.
 
 **Dependencies:**
 DataBC Managed:
