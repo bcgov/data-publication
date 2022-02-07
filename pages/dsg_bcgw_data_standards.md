@@ -118,7 +118,7 @@ When registering a table or view with the geodatabase, the default [_XY Toleranc
 
 ### Shape (Geometry) Column Name
 
-The standard column name for spatial geometry is `SHAPE`. Under some circumstances `GEOMETRY` can be used instead. Contact the [DataBC Architecture Services](mailto:DataBC.DA@gov.bc.ca) team for more information.
+The standard column name for spatial geometry is `SHAPE`. Under some circumstances `GEOMETRY` can be used instead.
 
 ### ObjectID Column Name
 
@@ -239,6 +239,8 @@ _NULL_ __should not__ be used as a value that represents not applicable.
 If an application is presenting data in a read-only fashion, then it may replace NULLs with some indicator value (e.g., 999999, -1, N/A), as long as the interpretation of these values is shown to the user.
 
 ------------------------------------------------------------------------------
+
+If you have questions about DataBC's Data Standards, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).
 
 ## REFERENCES
 
