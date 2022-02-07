@@ -64,8 +64,8 @@ Review the key questions below and be ready to discuss with DataBC before you in
 |Do you have a Data Manager identified who will be responsible for the day-to-day maintenance of the source data?|_Must be in place prior to initiating a data publicaiton request_|
 |Are there specific security needs that will need to be configured for access to the data (other than government or public access)?|_Additional costs may apply_|
 |Does your business area have a presence in the BC Data Catalogue?|_If not, DataBC can set this up for you with approval from the Data Custodian_|
-|Does your business area have a defined BC Data Catalogue editor that will create and maintain the metadata throughout its lifecycle?||_If not, DataBC can configure a new editor(s) with approval from the Data Custodian_|
-|How will your data be licensed when published?| |
+|Does your business area have a defined BC Data Catalogue editor that will create and maintain the metadata throughout its lifecycle?|_If not, DataBC can configure a new editor(s) with approval from the Data Custodian_|
+|How will your data be licensed when published?|See [Licences](dps_licences.md)|
 |Are there time constraints that will have an impact on the publication date for the data (tied to legislation or software releases)?| |
 
 [RETURN TO TOP][1] 
@@ -102,7 +102,7 @@ The following illustration shows the steps in the data publication process:
 
 Discussion in this session will focus on:
 1. Reviewing the Data Publication Work Plan and addressing any questions
-1. Reviewing the [Before You Start](dsg_before_you_start.md) document
+1. Reviewing your request to share data
 1. Reviewing the questions in [Data Publication - Am I Ready?](#data-publication-am-i-ready)
 1. Describing the [Data Publication Workflow](#data-publication-workflow)
 1. Review the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) and [Data Delivery Guidelines](dsg_bcgw_data_delivery.md)
@@ -195,4 +195,4 @@ Do you still have questions for DataBC about the data publication process? If so
 
 ------------------------  
 
-[1]: #bc-geographic-warehouse-publication-workflow
+[1]: #bc-geographic-warehouse-data-publication
