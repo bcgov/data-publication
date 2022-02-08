@@ -88,7 +88,9 @@ Accepted signatures can be by signing and scanning the Open Data Assessment and 
 We recommend working with your Government Communication Officer around the release of a dataset under the this licence.
 
 ## WHO TO CONTACT FOR FINAL PUBLICATION
-The completed form as well as questions are to be directed to [data@gov.bc.ca](mailto:data@gov.bc.ca) or the DataBC Program Services Team you are working with in regards to publishing data.
+The completed form as well as questions are to be directed to the DataBC Program Services Team you are working with in regards to publishing data.
+
+If you haven't started this process,  please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/28).
 
 ## MAINTAINANCE
 Data should be continually updated and maintained. The life cycle of a datasets may also include retirement and archiving.
