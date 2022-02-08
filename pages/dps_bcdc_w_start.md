@@ -39,15 +39,13 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director) is required. Here are the steps to complete this, provide:
 
-1. Approval from the Data Custodian to publish and manage records and data on their behalf.
-3. The name of the Ministry/Organization and Sub-Organization (as it appears in the Catalogue and if that needs to be renamed) in your email. 
-4. All names and IDIRs for those requiring access.
-5. Forward all this to [DataBC](mailto:Data@gov.bc.ca) with the subject: "BCDC Editor Request". 
-6. A Catalogue administrator will then add you as an editor to the Sub-Org and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
+To start this process please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3) to create a new account. There are also options to modify an existing, transfer or close an account.
+
+A Catalogue administrator will then action your request and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
 Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
 + For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./dps_licences.md) page for more information on this.  
-+ Contact [DataBC.DA](mailto:DataBC.DA@gov.bc.ca) to discuss publishing and cataloguing your data, application or service to the Catalogue. 
++ For new BSP accounts, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/16) with the subject as **Dataset Publication as a Crown Corp or BC Agency** and provide as much detail as possible in the description.
 
 ### HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION
 
@@ -71,7 +69,7 @@ See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
 
 This funcationality is not available currently, however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
 
-To request this on your behalf email [DataBC](mailto:Data@gov.bc.ca) with:
+For support, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 1. The catalogue record
 1. Desired order of resources
@@ -89,7 +87,7 @@ Metadata Groups provide a listing of like datasets for a specific purpose and ca
 + These are not intended to replace a full listing of records for a sub-organization.
 + Groups by default are public but a request them to be visible to IDIR only can be made.
 
-To create a group, the following information is required and can be sent to [DataBC](mailto:data@gov.bc.ca).
+To create a group, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 **Requirements:**
 + **Group Name**:
@@ -107,7 +105,7 @@ To create a group, the following information is required and can be sent to [Dat
 
 Not all Ministry or Broader Public Sector organizations are listed in the catalgoue. Only those with records are listed.
 
-To add or update a Organization/Ministry or Sub-organization/Branch/Division/Program names or details, the following can be following information can be sent to [DataBC](mailto:data@gov.bc.ca) and if you are not the Custodian but an Editor, cc them in the email: 
+To add or update a Organization/Ministry or Sub-organization/Branch/Division/Program names or details, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 + **Subject Line**: BCDC Organization/Sub-Organization Addition/Update
 + **Body**:
@@ -131,7 +129,7 @@ For editors of multiple sub-organizations, they will be able to select a record 
 ------------------------------
 
 ## HOW TO DO BULK UPDATES
-When there are more than 20 records that require updating, a bulk update can be requested for [DataBC](mailto:data@gov.bc.ca) to complete or can be completed by a user via the API.
+When there are more than 20 records that require updating, a bulk update can be requested by opening a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 + Common bulk updates:
 	+ Branch/Division name
