@@ -60,7 +60,7 @@ Review the key questions below and be ready to discuss with DataBC before you in
 |Has the [Data Custodian](dsg_bcdc_roles_responsibilities.md#the-data-custodian) approved the publication of this dataset for your business area?| |
 |Does your business area have funding available for publishing data?|See [Financial Obligations](dsg_before_you_start.md#financial-obligations)|
 |Is the source data in a production state and ready for publishing?|Not sure? See: [Data Preparation Consultation](#data-preparation-consultation)
-|Do you have GIS staff available to support QA/QC and the creation of layer files?|_Must be in place prior to initiating a data publicaiton request_|
+|For spatial datsets: Do you have GIS staff available to support QA/QC and the creation of layer files?|_For buisness areas without GIS support, this service can be provided by DataBC (additional costs may apply)_|
 |Do you have a Data Manager identified who will be responsible for the day-to-day maintenance of the source data?|_Must be in place prior to initiating a data publicaiton request_|
 |Are there specific security needs that will need to be configured for access to the data (other than government or public access)?|_Additional costs may apply_|
 |Does your business area have a presence in the BC Data Catalogue?|_If not, DataBC can set this up for you with approval from the Data Custodian_|
