@@ -135,7 +135,7 @@ Once the metadata record and its resources are complete and ready for publicatio
 1. If you metadata record needs some work, a DataBC team member will change the state back to **Draft** and contact you to discuss your record.
 
 **_Notes_**
-* **Publication timing**: if there is a specific time and date that the release of these records is required, contact [DataBC DA](mailto:databc.da@gov.bc.ca) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
+* **Publication timing**: if there is a specific time and date that the release of these records is required and not already working with someone at DataBC as part of the release please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) to work on timing that is withing regular government business hours, M-F 8:30 to 5pm._
 
 * See the the different [Publication States](#publication-states) for notifications and visibility to users.
  
@@ -156,8 +156,9 @@ When a dataset is no longer relevant, the **State** should be set to **Pending A
 
 1. Log into the Catalogue.
 1. Navigate to the metadata record to be edited and click the "wrench" tool icon (top right corner) to start editing the record.
-1. Ensure the **Organization** and **Sub-Organization** are correct. If not, update these fields or contact  the [DataBC](mailto:data@gov.bc.ca) if you do not have editing access for the Sub-Org.
-1. Under **Data Currency/Update**, update the **Resource Status**:
+1. Ensure the **Organization** and **Sub-Organization** are correct. 
+    + If not, update these fields or please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) if you do not have editing access for the Sub-Org.
+3. Under **Data Currency/Update**, update the **Resource Status**:
 	1. If the data is **obsolete**, a link must be added for a **Replacement Record**.
 		+ When this is another record in the catalogue: 
 			+ Use the replacement record's permalink
