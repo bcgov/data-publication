@@ -25,7 +25,7 @@ If you have questions about accessing the geocoder service, please [open a ticke
 
 <br>
 
-Ministry and Broader Public Sector (BPS) can contribute their own data for the geocoder to reference by publishing location data to the [BC Geographic Warehouse](dsg_before_you_start.md): i.e., the [Geographic Sites Registry (GSR)](https://catalogue.data.gov.bc.ca/dataset/d5c6b8ed-c272-4c9e-8813-590a47b5c01c) - once published in this set of data, the locations automatically get used in the Geocoder.
+Ministry and Broader Public Sector (BPS) can contribute their own data for the geocoder to reference by [publishing to the BC Geographic Warehouse](dsg_before_you_start.md): i.e., the [Geographic Sites Registry (GSR)](https://catalogue.data.gov.bc.ca/dataset/d5c6b8ed-c272-4c9e-8813-590a47b5c01c) - once published in this set of data, the locations automatically get used in the Geocoder.
 
 
 -------------------------------------------------------
