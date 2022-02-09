@@ -10,9 +10,9 @@ has_toc: true
 ## Table of Contents
 
 1. [**Where do I Start Diagram**](#where-do-i-start-diagram)
-1. [**How to Become a Data Provider to the CatalogueE**](#how-to-become-a-provider-to-the-catalogue)
+1. [**How to Become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
     - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
-1. [**How to Publish Metadat Records - Moved**](#how-to-publish-metadata-records)
+1. [**How to Publish Metadata Records - Moved**](#how-to-publish-metadata-records)
 1. [**How to Create a Metadata Group**](#how-to-create-metadata-groups)
 1. [**How to Update...**](#how-to-update)
 	+ [Accounts](#accounts)
@@ -55,16 +55,16 @@ Requests can be made for yourself or on behalf of others.
 2. Full name and email
 3. IDIR
     + This can be a user IDIR or a Service IDIR
-    + A Service IDIR may be ideal for the maintainance workflow to script against the catalogue API.
+    + A Service IDIR may be ideal for the maintenance workflow to script against the catalogue API.
 4. Name of the Ministry or if a Broader Public Sector
-5. Name of your Branch/Division - this is usually the level assocatiated with an ED or Director.
+5. Name of your Branch/Division - this is usually the level associated with an ED or Director.
 6. Approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director).
 
 A Catalogue administrator will then action your request and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
 ### How to become a Provider for another Organization
 
-It is common for oranizations to have staff who work in other Sub-Organizations or branches who steward their data. There may be many reasons for this.
+It is common for organizations to have staff who work in other Sub-Organizations or branches who steward their data. There may be many reasons for this.
 
 * Therefore [Stewards](./dsg_bcdc_roles_responsibilities.md#the-data-steward) can become providers to the catalogue on behalf of another sub-organization's [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian).
 
@@ -80,7 +80,7 @@ See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
 
 ------------------------------
 
-## How transfer Custodinship of a Dataset 
+## How transfer Custodianship of a Dataset 
 
 __under construction__
 
@@ -113,18 +113,18 @@ To create a group, please open a ticket with the [Data Systems & Services reques
 
 ### Accounts
 
-To request updates to accounts for your ogranization, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
+To request updates to accounts for your organization, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
 ### Organization Details
 
-Not all Ministry or Broader Public Sector organizations are listed in the catalgoue. Only those with records are listed.
+Not all Ministry or Broader Public Sector organizations are listed in the catalogue. Only those with records are listed.
 
 To add or update a Organization/Ministry or Sub-organization/Branch/Division/Program names or details, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 + **Subject Line**: BCDC Organization/Sub-Organization Addition/Update
 + **Body**:
-   + Name of Minsitry of Oganization:
-      + If a sub-organization has moved to a different minsitry, include the new ministry or organization name.
+   + Name of Ministry of Organization:
+      + If a sub-organization has moved to a different ministry, include the new ministry or organization name.
    + Name of Sub-Organization or Branch:
       + If a name change include the old and new name  
    + Additional Organization details
@@ -134,15 +134,15 @@ To add or update a Organization/Ministry or Sub-organization/Branch/Division/Pro
        + When an update is requested for a sub-organization, we ask that the members and contacts list be reviewed.
        + DataBC can provide you with a current list to review.
 
-On each record it will state the Sub-organication name that the record has been **Published By**.
+On each record it will state the Sub-organization name that the record has been **Published By**.
 
 For editors of multiple sub-organizations, they will be able to select a record to be **Published By** any of these.
 
 ### Contact Details
 
-All records require one visible contact to the public, and at times this is their generic inbox. However we do recommend that additional contacts be listed which may require logging into the catalgoue to see.
+All records require one visible contact to the public, and at times this is their generic inbox. However we do recommend that additional contacts be listed which may require logging into the Catalogue to see.
 
-It is the responsibilty of the org listed as Published by to maintain their records but at times the contact listed is unreachable, for example they have left government or retired. Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and the link of the metadata record for which the cotnact is not available
+It is the responsibility of the org listed as Published by to maintain their records but at times the contact listed is unreachable, for example they have left government or retired. Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and the link of the metadata record for which the contact is not available
 
 
 [RETURN TO TOP][1]
@@ -168,7 +168,7 @@ When there are more than 20 records that require updating, a bulk update can be 
 
 ### Reorder Resources
 
-This funcationality is not available currently, however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
+This functionality is not available currently; however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
 
 For support, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
@@ -176,9 +176,9 @@ For support, please open a ticket with the [Data Systems & Services request syst
 1. Desired order of resources
    + How resources should be order should follow some guidelines for example
        - User Guides should come first
-       - Cronological order for datasets that have a date range with newest first
+       - Chronological order for datasets that have a date range with newest first
        - Those that have the highest value to the end users
-       - Or if there are a lot of resoruces, alphabetical may also be
+       - Or if there are a lot of resources, alphabetical may also be
 
 
 ------------------------------
