@@ -42,9 +42,12 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 
 ## How to Become a Provider to the Catalogue
 
-To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), one needs the sub-org to exist or be created and an account.
+To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), one needs the sub-org to exist or be created and an grants applied to your account.
 
-To start the account please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
+To start please log into the [Catalgoue](https://catalogue.data.gov.bc.ca/) or have others who you will request access on behalf of.
++ This will populate the catalogue with all your details from the GAL.
+
+Then to request a grant to your account please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 + This request service also allows for other account actions.
 
 Requests can be made for yourself or on behalf of others.
