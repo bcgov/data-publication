@@ -10,7 +10,7 @@ nav_exclude: false
 
 ## Table of Contents
 1. [**Who's Who at DataBC**](#whos-who-at-databc)
-1. [**Data Publication Licensing Options - open Data vs Access Only**](#data-publication-licensing-options---open-dataaccess-only)
+1. [**Data Publication Licensing Options - Ppen Data vs Access Only**](#data-publication-licensing-options---open-dataaccess-only)
 	1. [What is Open Data and what is the difference between Open Data and "Access Only" public data?](#what-is-open-data-and-what-is-the-difference-between-open-data-and-access-only-public-data)
 	1. [Why should I consider publishing data under an open data licence?](#why-should-i-consider-publishing-data-under-an-open-data-licence)
 	1. [Can all data be licensed as Open?](#can-all-data-be-licensed-as-open)
