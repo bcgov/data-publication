@@ -9,7 +9,7 @@ has_toc: true
 
 ## Table of Contents
 
-1. [**Get Started Workflow Diagram**](#get-started-workflow-diagram)
+1. [**Where do I Start Diagram**](#where-do-i-start-diagram)
 1. [**How to Become a Data Provider to the CatalogueE**](#how-to-become-a-provider-to-the-catalogue)
     - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
 1. [**How to Publish Metadat Records - Moved**](#how-to-publish-metadata-records)
@@ -19,7 +19,8 @@ has_toc: true
 	+ [Organization and or Sub-Organization Details](#organization-details)
 	+ [Contact Details](#contact-details)
 1. [**How Can I...**](#how-can-i-)
-	+ [Do Bulk Updates](#bulk-updates)
+	+ [Create and Manage Records and Resources in Bulk](#create-and-manage-records-and-resources-in-bulk)
+	+ [Do Bulk Updates](#do-bulk-updates)
 	+ [Reorder Resources](#reorder-resources)
 1. [**Other Frequently Asked Questions*](#other-frequently-asked-questions)
 
@@ -30,7 +31,7 @@ has_toc: true
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
-## Get Started Workflow Diagram
+## Where do I Start Diagram
 
 ### [BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
@@ -51,7 +52,7 @@ Organizations in the Broader Public Sector (BPS) may publish metadata records an
 + For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./dps_licences.md) page for more information on this.  
 + For new BSP accounts, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/16) with the subject as **Dataset Publication as a Crown Corp or BC Agency** and provide as much detail as possible in the description.
 
-### HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION
+### How to become a Provider for another Organization
 
 It is common for oranizations to have staff who work in other Sub-Organizations or branches who steward their data. There may be many reasons for this.
 
@@ -66,6 +67,14 @@ It is common for oranizations to have staff who work in other Sub-Organizations 
 ## How to Publish Metadata Records
 
 See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
+
+------------------------------
+
+## How transfer Custodinship of a Dataset 
+
+__under construction__
+
+[RETURN TO TOP][1]
 
 
 ------------------------------
@@ -93,6 +102,8 @@ To create a group, please open a ticket with the [Data Systems & Services reques
 ## How to Update...
 
 ### Accounts
+
+To request updates to accounts for your ogranization, plase open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
 ### Organization Details
 
@@ -129,7 +140,12 @@ It is the responsibilty of the org listed as Published by to maintain their reco
 ------------------------------
 
 ## How Can I ...
-### Bulk Updates
+
+### Create and Manage Records and Resources in Bulk
+
+Creating and managing records and resources in bulk can be done via the API. [See Content Management and Use via the API](dps_bcdc_api_w_how_to_use.md).
+
+### Do Bulk Updates
 
 When there are more than 20 records that require updating, a bulk update can be requested by opening a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
