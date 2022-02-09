@@ -18,6 +18,6 @@ These services reference authoritative data and are designed to be integrated in
 
 For more information, visit [Location Services](https://www2.gov.bc.ca/gov/content?id=45603554C95E4E5E8C78C16FAF07A1FD).
 
-For assistance on using these services, please [open a ticket with the Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/7).
+For help using or accessing these services, please [open a ticket with the Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/7).
 
 -------------------------------------------------------
