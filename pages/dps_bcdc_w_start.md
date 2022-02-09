@@ -51,13 +51,14 @@ Requests can be made for yourself or on behalf of others.
 
 **In this request we ask for the following information:**
 
-1. Full name and email
-1. IDIR
+1. Subject: "BCDC Acccount" + additional details - will aid for quick triaging
+2. Full name and email
+3. IDIR
     + This can be a user IDIR or a Service IDIR
     + A Service IDIR may be ideal for the maintainance workflow to script against the catalogue API.
-1. Name of the Ministry or if a Broader Public Sector
-1. Name of your Branch/Division - this is usually the level assocatiated with an ED or Director.
-1. Approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director).
+4. Name of the Ministry or if a Broader Public Sector
+5. Name of your Branch/Division - this is usually the level assocatiated with an ED or Director.
+6. Approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director).
 
 A Catalogue administrator will then action your request and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
