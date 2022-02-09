@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Where to Start
+title: Get started
 nav_order: 31
 parent: BC Data Catalogue
 has_children: false
@@ -9,15 +9,19 @@ has_toc: true
 
 ## Table of Contents
 
-+ [**WHERE TO START WORKFLOW DIAGRAM**](#where-to-start-workflow-diagram)
-+ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
-    - [HOW TO BECOME A PROVIDER FOR ANOTHER ORGANIZATION](#how-to-become-a-provider-for-another-organization)
-+ [**HOW TO PUBLISH METADATA RECORDS**](#how-to-publish-metadata-records)
-+ [**HOW TO REORDER RESOURCES**](#how-to-reorder-resources)
-+ [**HOW TO CREATE METADATA GROUPS**](#how-to-create-metadata-groups)
-+ [**HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS**](#how-to-add-or-update-organization-and-sub-organization-details)
-+ [**HOW TO DO BULK UPDATES**](#how-to-do-bulk-updates)
-+ [**OTHER FREQUENTLY ASKED QUESTIONS**](#other-frequently-asked-questions)
+1. [**Get Started Workflow Diagram**](#get-started-workflow-diagram)
+1. [**How to Become a Data Provider to the CatalogueE**](#how-to-become-a-provider-to-the-catalogue)
+    - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
+1. [**How to Publish Metadat Records - Moved**](#how-to-publish-metadata-records)
+1. [**How to Create a Metadata Group**](#how-to-create-metadata-groups)
+1. [**How to Update...**](#how-to-update)
+	+ [Accounts](#accounts)
+	+ [Organization and or Sub-Organization Details](#organization-details)
+	+ [Contact Details](#contact-details)
+1. [**How Can I...**](#how-can-i-)
+	+ [Do Bulk Updates](#bulk-updates)
+	+ [Reorder Resources](#reorder-resources)
+1. [**Other Frequently Asked Questions*](#other-frequently-asked-questions)
 
 ------------------------------
 
@@ -26,7 +30,7 @@ has_toc: true
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
-## WHERE TO START WORKFLOW DIAGRAM
+## Get Started Workflow Diagram
 
 ### [BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
@@ -35,7 +39,7 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 ------------------------------
 
 
-## HOW TO BECOME A PROVIDER TO THE CATALOGUE
+## How to Become a Provider to the Catalogue
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director) is required. Here are the steps to complete this, provide:
 
@@ -59,29 +63,14 @@ It is common for oranizations to have staff who work in other Sub-Organizations 
 [RETURN TO TOP][1]
 
 ------------------------------
-## HOW TO PUBLISH METADATA RECORDS
+## How to Publish Metadata Records
 
 See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
 
-------------------------------
-
-## HOW TO REORDER RESOURCES
-
-This funcationality is not available currently, however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
-
-For support, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
-
-1. The catalogue record
-1. Desired order of resources
-   + How resources should be order should follow some guidelines for example
-       - User Guides should come first
-       - Cronological order for datasets that have a date range with newest first
-       - Those that have the highest value to the end users
-       - Or if there are a lot of resoruces, alphabetical may also be
 
 ------------------------------
 
-## HOW TO CREATE METADATA GROUPS
+## How to Create Metadata Groups
 
 Metadata Groups provide a listing of like datasets for a specific purpose and can contain records from across multiple organizations.
 + These are not intended to replace a full listing of records for a sub-organization.
@@ -101,7 +90,11 @@ To create a group, please open a ticket with the [Data Systems & Services reques
 
 ------------------------------
 
-## HOW TO ADD OR UPDATE ORGANIZATION AND SUB-ORGANIZATION DETAILS
+## How to Update...
+
+### Accounts
+
+### Organization Details
 
 Not all Ministry or Broader Public Sector organizations are listed in the catalgoue. Only those with records are listed.
 
@@ -124,11 +117,20 @@ On each record it will state the Sub-organication name that the record has been 
 
 For editors of multiple sub-organizations, they will be able to select a record to be **Published By** any of these.
 
+### Contact Details
+
+All records require one visible contact to the public, and at times this is their generic inbox. However we do recommend that additional contacts be listed which may require logging into the catalgoue to see.
+
+It is the responsibilty of the org listed as Published by to maintain their records but at times the contact listed is unreachable, for example they have left government or retired. Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and the link of the metadata record for which the cotnact is not available
+
+
 [RETURN TO TOP][1]
 
 ------------------------------
 
-## HOW TO DO BULK UPDATES
+## How Can I ...
+### Bulk Updates
+
 When there are more than 20 records that require updating, a bulk update can be requested by opening a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 + Common bulk updates:
@@ -136,6 +138,22 @@ When there are more than 20 records that require updating, a bulk update can be 
 	+ Contact information
 	+ State Change
 	+ URL modifications for More Info and Resources
+
+
+### Reorder Resources
+
+This funcationality is not available currently, however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
+
+For support, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
+
+1. The catalogue record
+1. Desired order of resources
+   + How resources should be order should follow some guidelines for example
+       - User Guides should come first
+       - Cronological order for datasets that have a date range with newest first
+       - Those that have the highest value to the end users
+       - Or if there are a lot of resoruces, alphabetical may also be
+
 
 ------------------------------
 
