@@ -51,7 +51,7 @@ Requests can be made for yourself or on behalf of others.
 
 **In this request we ask for the following information:**
 
-1. Subject: "BCDC Acccount" + additional details - will aid for quick triaging
+1. Subject: "BCDC Account" + additional details - will aid for quick triaging
 2. Full name and email
 3. IDIR
     + This can be a user IDIR or a Service IDIR
@@ -113,7 +113,7 @@ To create a group, please open a ticket with the [Data Systems & Services reques
 
 ### Accounts
 
-To request updates to accounts for your ogranization, plase open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
+To request updates to accounts for your ogranization, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
 ### Organization Details
 
