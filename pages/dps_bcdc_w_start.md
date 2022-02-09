@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get started
+title: Getting started
 nav_order: 31
 parent: BC Data Catalogue
 has_children: false
@@ -42,15 +42,24 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 
 ## How to Become a Provider to the Catalogue
 
-To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director) is required. Here are the steps to complete this, provide:
+To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), one needs the sub-org to exist or be created and an account.
 
-To start this process please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3) to create a new account. There are also options to modify an existing, transfer or close an account.
+To start the account please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
++ This request service also allows for other account actions.
+
+Requests can be made for yourself or on behalf of others.
+
+**In this request we ask for the following information:**
+
+1. Full name and email
+1. IDIR
+    + This can be a user IDIR or a Service IDIR
+    + A Service IDIR may be ideal for the maintainance workflow to script against the catalogue API.
+1. Name of the Ministry or if a Broader Public Sector
+1. Name of your Branch/Division - this is usually the level assocatiated with an ED or Director.
+1. Approval from the [Data Custodian](./dsg_bcdc_roles_responsibilities.md#the-data-custodian) (Director or Executive Director).
 
 A Catalogue administrator will then action your request and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
-
-Organizations in the Broader Public Sector (BPS) may publish metadata records and data to the Catalogue. 
-+ For datasets licensed under Open Data, these organizations will require their own Open Government Licence. See [Licences](./dps_licences.md) page for more information on this.  
-+ For new BSP accounts, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/16) with the subject as **Dataset Publication as a Crown Corp or BC Agency** and provide as much detail as possible in the description.
 
 ### How to become a Provider for another Organization
 
