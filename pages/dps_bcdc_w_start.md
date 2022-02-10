@@ -9,7 +9,7 @@ has_toc: true
 
 ## Table of Contents
 
-1. [**Where do I Start Diagram**](#where-do-i-start-diagram)
+1. [**Where do I Start**](#where-do-i-start)
 1. [**How to Become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
     - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
 1. [**How to Publish Metadata Records - Moved**](#how-to-publish-metadata-records)
@@ -31,7 +31,7 @@ has_toc: true
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
-## Where do I Start Diagram
+## Where do I Start
 
 ### [BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
@@ -44,7 +44,7 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), one needs the sub-org to exist or be created and an grants applied to your account.
 
-To start please log into the [Catalgoue](https://catalogue.data.gov.bc.ca/) or have others who you will request access on behalf of.
+To start please log into the [Catalogue](https://catalogue.data.gov.bc.ca/) or have others who you will request access on behalf of.
 + This will populate the catalogue with all your details from the GAL.
 
 Then to request a grant to your account please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
