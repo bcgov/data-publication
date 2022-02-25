@@ -122,7 +122,7 @@ The standard column name for spatial geometry is `SHAPE`. Under some circumstanc
 
 ### ObjectID Column Name
 
-The standard column for a spatial table or view's [_ObjectID column](https://desktop.arcgis.com/en/arcmap/latest/manage-data/using-sql-with-gdbs/object-id.htm) is `OBJECTID.`
+The standard column for a spatial table or view's [_ObjectID column_](https://desktop.arcgis.com/en/arcmap/latest/manage-data/using-sql-with-gdbs/object-id.htm) is `OBJECTID.`
 
 ### Supporting Columns and Triggers
 
