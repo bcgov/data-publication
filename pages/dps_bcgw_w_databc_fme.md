@@ -34,7 +34,7 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 + [**APPENDIX 1 - NOTIFICATIONS**](#appendix-1---notifications)
 + [**APPENDIX 2 - NON-BCGW DESTINATIONS**](#appendix-2---non-bcgw-destinations)
 	+ [BC Data Catalogue File Store](#bc-data-catalogue-file-store)
-	+ [CSV, SHP, and FGDB Files](#csv-shp-and-fgdb-files)
+	+ [CSV, SHP, FGDB Files, and AGO](#csv-shp-fgdb-files-and-ago)
 		+ [Comma Separated Value (CSV)](#comma-separated-value-csv)
 		+ [Shapefile (SHAPE)](#shapefile-shape)
 		+ [Esri FILE Geodatabase (GEODATABASE_FILE)](#esri-file-geodatabase-geodatabase_file)
@@ -1253,7 +1253,7 @@ The proceeding sections dealt with the cases where FMWs are being written to loa
 
 --under construction--
 
-### CSV, SHP, and FGDB Files
+### CSV, SHP, FGDB Files, and AGO
 
 #### Comma Separated Value (CSV)
 + 
@@ -1379,7 +1379,7 @@ After adding the writer, define the following published parameters:
 + 
 	|Field|Value|
 	|-----|-----|
-	|**Format**|Esri ArcGIS Online Hosted Feature Layer |
+	|**Format**|Esri ArcGIS Online Hosted Feature Layer ARCGISONLINEFEATURES  |
 	|**Dataset**|Path of the AGO hosted item file where the AGO components will be stored |
 	|**Parameters**|Defaults should be fine |
 	|**Feature Type**|Specify AGO Hosted Feature Layer name, without the .?? extension|
