@@ -1392,9 +1392,9 @@ After adding the writer, define the following published parameters:
 	|-----|-----|
 	|**Published/Private**|published |
 	|**Type**|Filename (Existing)|
-	|**Name**|DEST_DATASET_SHP_1 |
-	|**Prompt**|Destination Esri Shapefile(s)|
-	|**Configuration**|*.shp
+	|**Name**|DEST_DATASET_AGO_1 |
+	|**Prompt**|Destination BC Maphub|
+	|**Configuration**|*.
 	|**Attribute Assignment**|Default |
 	|**Default Value**|Path |
 	|**Link From**|Writer → ??? → Link to User Parameter → DEST_DATASET_AGO_1 |
@@ -1410,7 +1410,7 @@ After adding the writer, define the following published parameters:
 	|**Prompt**|Destination Feature class |
 	|**Configuration**|N/A | 
 	|**Attribute Assignment**|Default |
-	|**Default Value**|Name of the AGO Hosted Feature Layer without the .??? extension, e.g., ALC_Panel_regions |
+	|**Default Value**|Name of the AGO Hosted Feature Layer and the AGO_ID, e.g., DataBC FME BCTS Sales Schedule SP (abc12defghijkl45mnopqrstuvwxyz) |
 	|**Link From**|N/A |
 
 [RETURN TO TOP][1] 
