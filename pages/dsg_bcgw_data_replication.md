@@ -79,25 +79,45 @@ The file naming convention consists of a series of components:
 + csv: Comma Seperated Value
 + xlsx: Excel Spreadsheet
 + multi: multiple files of multi formats
++ ago: ArcGIS Online Hosted Feature Layer
++ api: API
 
 **Destination Location**
-+ use destination name; i.e., "bcgw" 
++ use destination name; i.e., 
+    - bcgw
+    - bcdc
+    - ago (BC's Map Hub)
+    - ftp
 
 **Example FMW File Names**
 
 | BCGW Object Name | Source Location| Source Format | Destination Location|FMW Name Examples|
 | :--- |:---:| :---: | :---: |:--- |
+| spi_wildlife_nonsensitive_sp | api |csv |bcgw |`spi_wildlife_nonsensitive_sp_api_csv_bcgw.fmw`|
+| spi_wildlife_nonsensitive_sp | bcdc | csv |bcgw |`spi_wildlife_nonsensitive_sp_bcdc_csv_bcgw.fmw`|
 | site_env_remediation_sites_sp | envprod1 | odb | bcgw |`site_env_remediation_sites_sp_envprod1_odb_bcgw.fmw`|
 | cbm_intgd_cadastral_fabric_sp | icfprd | sde | bcgw |`cbm_intgd_cadastral_fabric_sp_icfprd_sde_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | bcgw | svw | bcgw |`spi_wildlife_nonsensitive_sp_bcgw_svw_bcgw.fmw`|
-| spi_wildlife_nonsensitive_sp | staging | gdb |bcgw |`spi_wildlife_nonsensitive_sp_staging_gdb_bcgw.fmw`|
 | raad_aoa_provincial| staging |shp |bcgw |`raad_aoa_provincial_staging_shp_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | staging | cov |bcgw |`spi_wildlife_nonsensitive_sp_staging_cov_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | staging | xlsx |bcgw |`spi_wildlife_nonsensitive_sp_staging1_xlsx_bcgw.fmw`|
-| spi_wildlife_nonsensitive_sp | bcdc | csv |bcgw |`spi_wildlife_nonsensitive_sp_bcdc_csv_bcgw.fmw`|
+| spi_wildlife_nonsensitive_sp | staging | gdb |bcgw |`spi_wildlife_nonsensitive_sp_staging_gdb_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | staging | multi |bcgw |`spi_wildlife_nonsensitive_sp_staging_multi_bcgw.fmw`|
-| spi_wildlife_nonsensitive_sp | api |csv |bcgw |`spi_wildlife_nonsensitive_sp_api_csv_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | webservice | csv |bcgw |`spi_wildlife_nonsensitive_sp_webservice_csv_bcgw.fmw`|
+| spi_wildlife_nonsensitive_sp | bcgw | sde | ago |`spi_wildlife_nonsensitive_sp_bcgw_sde_ago.fmw`|
+| spi_wildlife_nonsensitive_sp | bcgw | sdo | ago |`spi_wildlife_nonsensitive_sp_bcgw_sdo_ago.fmw`|
+| spi_wildlife_nonsensitive_sp | staging | gdb | ago |`spi_wildlife_nonsensitive_sp_bcgw_gbd_ago.fmw`|
+| spi_wildlife_nonsensitive_sp | envprod1 | odb | ago |`spi_wildlife_nonsensitive_sp_bcgw_csv_ago.fmw`|
+
+**Example FMW File Names for Items for BC Data Catalogue**
+| BCGW Object Name | Source Location| Source Format | Destination Location | Destination Format | FMW Name Examples|
+| :--- |:---:| :---: | :---: |:---: | :--- |
+| spi_wildlife_nonsensitive_sp | bcgw | sde |bcdc | kml | `spi_wildlife_nonsensitive_sp_bcgw_sde_bcdc_kml.fmw`|
+| spi_wildlife_nonsensitive_sp | bcgw | sdo |bcdc | csv |`spi_wildlife_nonsensitive_sp_bcgw_sdo_bcdc_csv.fmw`|
+| spi_wildlife_nonsensitive_sp | bcgw | sde |bcdc | geojson |`spi_wildlife_nonsensitive_sp_bcgw_sde_bcdc_geojson.fmw`|
+
+
+
 
 If you have any questions about DataBC's FME Framework, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).
 
