@@ -38,6 +38,7 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 		+ [Comma Separated Value (CSV)](#comma-separated-value-csv)
 		+ [Shapefile (SHAPE)](#shapefile-shape)
 		+ [Esri FILE Geodatabase (GEODATABASE_FILE)](#esri-file-geodatabase-geodatabase_file)
+		+ [BC Map Hub (AGO)](#bc-map-hub-ago)
 + [**APPENDIX 3 - KIRK PREPARATION**](#appendix-3---kirk-preparation)
 + [**APPENDIX 4 - FINAL PUBLICATION CHECKLIST**](#appendix-4---final-publication-checklist)
 	+ [General](#general)
@@ -1339,7 +1340,8 @@ After adding the writer, define the following published parameters:
 	|**Dataset**|specify Geodatabase (.gdb) folder |
 	|**Parameters**|check Overwrite Existing Geodatabase box |
 	|**Feature Type**|specify Feature Class or Table Name<br>select Geometry<br>Drop Table = No<br>Truncate Table = Yes<br>Specify name of Feature Dataset|
-
+	
+	
 After adding the writer, define the following published parameters:
 
 ##### Destination FGDB Path and Name (DEST_DATASET_FGDB_1)
@@ -1371,6 +1373,45 @@ After adding the writer, define the following published parameters:
    + Now you need to link this parameter to the writer:
       + Find the writer in the Navigator window (upper left) right click on the feature type and select properties.
       + In the subsequent dialog, replace the value in General Parameters->Feature Class or Table Name with the string: **$(DEST_FEATURE_1)**
+	
+	
+#### BC Map Hub (AGO)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Format**|Esri ArcGIS Online Hosted Feature Layer |
+	|**Dataset**|Path of the AGO hosted item file where the AGO components will be stored |
+	|**Parameters**|Defaults should be fine |
+	|**Feature Type**|Specify AGO Hosted Feature Layer name, without the .?? extension|
+
+After adding the writer, define the following published parameters:
+
+##### Destination Shapefile Name (DEST_DATASET_AGO_1)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|published |
+	|**Type**|Filename (Existing)|
+	|**Name**|DEST_DATASET_SHP_1 |
+	|**Prompt**|Destination Esri Shapefile(s)|
+	|**Configuration**|*.shp
+	|**Attribute Assignment**|Default |
+	|**Default Value**|Path |
+	|**Link From**|Writer → ??? → Link to User Parameter → DEST_DATASET_AGO_1 |
+
+
+##### Destination Feature Name (DEST_FEATURE_1)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|published |
+	|**Type**|Text |
+	|**Name**|DEST_FEATURE_1 |
+	|**Prompt**|Destination Feature class |
+	|**Configuration**|N/A | 
+	|**Attribute Assignment**|Default |
+	|**Default Value**|Name of the AGO Hosted Feature Layer without the .??? extension, e.g., ALC_Panel_regions |
+	|**Link From**|N/A |
 
 [RETURN TO TOP][1] 
 
