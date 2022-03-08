@@ -117,8 +117,8 @@ The file naming convention consists of a series of components:
 | :--- |:---:| :---: | :---: |:--- |
 | spi_wildlife_nonsensitive_sp | bcgw | sde | ago |`spi_wildlife_nonsensitive_sp_bcgw_sde_ago.fmw`|
 | spi_wildlife_nonsensitive_sp | bcgw | sdo | ago |`spi_wildlife_nonsensitive_sp_bcgw_sdo_ago.fmw`|
-| spi_use_a_full_name_of_dataset_title | staging | gdb | ago |`spi_wildlife_nonsensitive_sp_staging_gbd_ago.fmw`|
-| spi_use_a_full_name_of_dataset_title | envprod1 | odb | ago |`spi_wildlife_nonsensitive_sp_envprod1_odb_ago.fmw`|
+| spi_use_a_full_name_of_dataset_title | staging | gdb | ago |`spi_use_a_full_name_of_dataset_title_staging_gbd_ago.fmw`|
+| spi_use_a_full_name_of_dataset_title | envprod1 | odb | ago |`spi_use_a_full_name_of_dataset_title_envprod1_odb_ago.fmw`|
 
 Naming Guidelines for AGO
 + If a dataset is sourced from an operational db or staging AND has a BCGW equivalent:
