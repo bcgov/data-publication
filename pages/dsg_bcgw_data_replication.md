@@ -113,6 +113,8 @@ The file naming convention consists of a series of components:
 | spi_wildlife_nonsensitive_sp | bcgw | sde |bcdc | geojson |`spi_wildlife_nonsensitive_sp_bcgw_sde_bcdc_geojson.fmw`|
 
 **Example FMW File Names for Items for BC's Maphub (AGO)**
+| BCGW Object or Dataset Name | Source Location| Source Format | Destination Location|FMW Name Examples|
+| :--- |:---:| :---: | :---: |:--- |
 | spi_wildlife_nonsensitive_sp | bcgw | sde | ago |`spi_wildlife_nonsensitive_sp_bcgw_sde_ago.fmw`|
 | spi_wildlife_nonsensitive_sp | bcgw | sdo | ago |`spi_wildlife_nonsensitive_sp_bcgw_sdo_ago.fmw`|
 | spi_use_a_full_name_of_dataset_title | staging | gdb | ago |`spi_wildlife_nonsensitive_sp_bcgw_gbd_ago.fmw`|
