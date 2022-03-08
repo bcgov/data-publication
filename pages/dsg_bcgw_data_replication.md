@@ -104,10 +104,6 @@ The file naming convention consists of a series of components:
 | spi_wildlife_nonsensitive_sp | staging | gdb |bcgw |`spi_wildlife_nonsensitive_sp_staging_gdb_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | staging | multi |bcgw |`spi_wildlife_nonsensitive_sp_staging_multi_bcgw.fmw`|
 | spi_wildlife_nonsensitive_sp | webservice | csv |bcgw |`spi_wildlife_nonsensitive_sp_webservice_csv_bcgw.fmw`|
-| spi_wildlife_nonsensitive_sp | bcgw | sde | ago |`spi_wildlife_nonsensitive_sp_bcgw_sde_ago.fmw`|
-| spi_wildlife_nonsensitive_sp | bcgw | sdo | ago |`spi_wildlife_nonsensitive_sp_bcgw_sdo_ago.fmw`|
-| spi_wildlife_nonsensitive_sp | staging | gdb | ago |`spi_wildlife_nonsensitive_sp_bcgw_gbd_ago.fmw`|
-| spi_wildlife_nonsensitive_sp | envprod1 | odb | ago |`spi_wildlife_nonsensitive_sp_bcgw_csv_ago.fmw`|
 
 **Example FMW File Names for Items for BC Data Catalogue**
 | BCGW Object Name | Source Location| Source Format | Destination Location | Destination Format | FMW Name Examples|
@@ -116,8 +112,21 @@ The file naming convention consists of a series of components:
 | spi_wildlife_nonsensitive_sp | bcgw | sdo |bcdc | csv |`spi_wildlife_nonsensitive_sp_bcgw_sdo_bcdc_csv.fmw`|
 | spi_wildlife_nonsensitive_sp | bcgw | sde |bcdc | geojson |`spi_wildlife_nonsensitive_sp_bcgw_sde_bcdc_geojson.fmw`|
 
+**Example FMW File Names for Items for BC's Maphub (AGO)**
+| spi_wildlife_nonsensitive_sp | bcgw | sde | ago |`spi_wildlife_nonsensitive_sp_bcgw_sde_ago.fmw`|
+| spi_wildlife_nonsensitive_sp | bcgw | sdo | ago |`spi_wildlife_nonsensitive_sp_bcgw_sdo_ago.fmw`|
+| spi_use_a_full_name_of_dataset_title | staging | gdb | ago |`spi_wildlife_nonsensitive_sp_bcgw_gbd_ago.fmw`|
+| spi_use_a_full_name_of_dataset_title | envprod1 | odb | ago |`spi_wildlife_nonsensitive_sp_bcgw_csv_ago.fmw`|
 
-
+Naming Guidelines for AGO
++ If a dataset is sourced from an operational db or staging AND has a BCGW equivalent:
+    - Use the BCGW table name
++ If a dataset is sourced from an operational db or staging BUT DOES NOT have a BCGW equivalent but has an existing family of data:
+    - Use the BCGW table name suffix and
+    - Write out the full name of the dataset title
++ If a dataset is sourced from an operational db or staging BUT DOES NOT have a BCGW equivalent or family
+   - Suffix it with an acronym that is clear to identify the business area and
+   - Write out the full name of the dataset title
 
 If you have any questions about DataBC's FME Framework, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).
 
