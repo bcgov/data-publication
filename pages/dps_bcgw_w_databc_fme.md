@@ -1385,8 +1385,8 @@ After adding the writer, define the following published parameters:
 	|**Feature Type**|Specify AGO Hosted Feature Layer name, without the .?? extension|
 
 After adding the writer, define the following published parameters:
-
-##### Destination Shapefile Name (DEST_DATASET_AGO_1)
+	
+##### Destination ArcGIS Name (DEST_DATASET_AGO_1)
 + 
 	|Field|Value|
 	|-----|-----|
@@ -1413,6 +1413,7 @@ After adding the writer, define the following published parameters:
 	|**Default Value**|Name of the AGO Hosted Feature Layer and the AGO_ID, e.g., DataBC FME BCTS Sales Schedule SP (abc12defghijkl45mnopqrstuvwxyz) |
 	|**Link From**|N/A |
 
+	
 [RETURN TO TOP][1] 
 
 -----------------------------------------------------------
