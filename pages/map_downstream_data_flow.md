@@ -20,9 +20,18 @@ When Production is confirmed to be viable, the mini-maxl script is run.  This is
 
 Only publicly accessible layers are created in AGO by this process.
 
-You can see last run info in Jenkins and search for an Item Details page, e.g.
+You can see last run info in Jenkins and also search for an Item Details page, e.g.
 
-Regional Districts Item ID page in AGO: https://governmentofbc.maps.arcgis.com/home/item.html?id=bb7f0c48789943fbb6e3a0afb9fd4e01Created: Mar 19, 2019    Updated: Aug 20, 2021Service URL (add ‘?f=pjson’ as the HTML view is disabled): https://maps.gov.bc.ca/arcserver/rest/services/whse/bcgw_pub_whse_legal_admin_boundaries/MapServer/16?f=pjson
+**Regional Districts**
+Item ID page in AGO:
+
+https://governmentofbc.maps.arcgis.com/home/item.html?id=bb7f0c48789943fbb6e3a0afb9fd4e01
+
+Created: Mar 19, 2019    Updated: Aug 20, 2021
+
+Service URL (add ‘?f=pjson’ at the end of the supplied URL as the HTML view of the service is disabled): 
+
+https://maps.gov.bc.ca/arcserver/rest/services/whse/bcgw_pub_whse_legal_admin_boundaries/MapServer/16?f=pjson
 
 **KML**
 
