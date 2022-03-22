@@ -34,6 +34,8 @@ nav_exclude: false
 	1. [How do I make my data available as a WMS/WFS](#how-do-i-make-my-data-available-as-a-wmswfs)
 1. [**ArcGIS Online (aka AGO, B.C.'s Map Hub)**](#arcgis-online-aka-ago-bcs-map-hub)
 	1. [How do I get my data into B.C.'s Map Hub (the Province's cloud instance of ArcGIS Online) ?](#how-do-i-get-my-data-into-bcs-map-hub-the-provinces-cloud-instance-of-arcgis-online-)
+	1. [How do I identify a DataBC Hosted Feature Layer in ArcGIS Online?](how-do-i-identify-a-databc-hosted-feature-layer-in-arcgis-online)
+	1. [How do I identify a DataBC BCGW equivalent Feature Layer in ArcGIS Online?](how-do-i-identify-a-databc-bcgw-equivalent-feature-layer-in-arcgis-online)
 	1. [Why would I publish data to ArcGIS Online only and not to the BCGW?](#why-would-i-publish-data-to-arcgis-online-only-and-not-to-the-bcgw)
 	1. [How do I publish a map to ArcGIS Online so it's viewable to the public?](#how-do-i-publish-a-map-to-arcgis-online-so-its-viewable-to-the-public)
 1. [**The Geographic Warehouse (BCGW)**](#the-bc-geographic-warehouse-bcgw)
@@ -43,6 +45,7 @@ nav_exclude: false
 	1. [What government channels can be used to access my BCGW data?](#what-government-channels-can-be-used-to-access-my-bcgw-data)
 	1. [What is the LRDW?](#what-is-the-lrdw)
 	1. [Refreshing Data - the ETL Process](#refreshing-data---the-etl-process)
+	1. [How do I determine the last refresh date for dataset in the BCGW](#how-do-i-determine-the-last-refresh-date-for-dataset-in-the-bcgw)
 	1. [Access security](#access-security)
 	1. [Downloading data from the BC Geographic Warehouse](#downloading-data-from-the-bc-geographic-warehouse)
 	1. [Feature Codes](#feature-codes)
@@ -282,6 +285,26 @@ The following sections will help explain the difference between **Open Data** an
 		1. Prior to hosting data in AGO, consider if the data is already available via the public BCGW layers.  If it is already available, do your best to avoid publishing a duplicate layer.  Hosting data in AGO consumes AGO service credits.  If you choose to host data in AGO, make a habit of understanding the size of the feature layer and potential draw on service credits.  B.C.’s Map Hub has an annual allocation of service credits shared by all users of the service.  If we exceed the annual allocation additional service credits must be purchased – the cost of purchased service credits will be passed on to the users of the credits.  The size of a hosted feature layer is listed on its item details page.  For information on what uses service credits in AGO see https://doc.arcgis.com/en/arcgis-online/administer/credits.htm#ESRI_SECTION1_709121D2C7694DCAB9B8592F36F7A5BA.
 		2. Data can be published to AGO in a variety of ways including, but not limited to, ArcMap, ArcGIS Pro, as well as uploading zipped shapefiles or geodatabases directly to your account.  For more information, see  https://doc.arcgis.com/en/arcgis-online/manage-data/publish-features.htm
 
+### How do I identify a DataBC Hosted Feature Layer in ArcGIS Online?
+
++ There are a few Hosted Feature Layers that DataBC supports replicating directly to AGO for high availability and high use to support emergency services.
+    + This service is only offered for very limited reasons.
++ The way to easily identify if it is hosted is:
+    + The URL listed on the bottom right of a BC Maphub items detail page:
+       + https://governmentofbc.maps.arcgis.com/home/item.html?id=397a1defe7f04c2b8ef6511f6c087dbf
+    + Includes service6 in the path
+       + https://services6.arcgis.com/ubm4tcTYICKBpist/arcgis/rest/services/...
+
+### How do I identify a DataBC BCGW equivalent Feature Layer in ArcGIS Online?
+
++ All publicly visible datasets in iMapBC and has a Catalogue record is made available in BC's Maphub through an automated process.
++ These are dynamic services that are live to the BCGW.
++ The way to easily identify if one is a service is:
+    + The URL listed on the bottom right of a BC Maphub items detail page:
+        + https://governmentofbc.maps.arcgis.com/home/item.html?id=9531eda4829945f683393841b2b92c21
+    +  Includes https://maps.gov.bc.ca/arcserver/rest/services/whse/... in the path
+
+
 ### Why would I publish data to ArcGIS Online only and not to the BCGW?
 
 + Datasets can be uploaded directly to B.C.’s Map Hub.  This is a common pattern when:
@@ -409,6 +432,13 @@ Before asking to publish data to the BCGW, consider:
 
 + Sources of datasets that are published into the BCGW change during its lifecycle and as such automated replication platforms will need to be updated to meet the new data management configuration. It is recommended to engage with DataBC early on when changing a source format as we can move alongside during the development, testing and finalization process.
 + Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/31) to change where your dataset is being replicated from. 
+
+### How do I determine the last refresh date for dataset in the BCGW?
+
++ Depending on the model of the dataset/table in the BCGW, it can be challending to determine this when things are joined together. Thus we have built an internal process to derive the last refresh or reload date (some datasets only replicate if changed, others are a full truncate and load).
++ This process then writes to the BC Data Catalogue and populates via a rest endpoint to the `last_modified` field at the resource level where it has a matching Object Name (`object_name`) populated.
++ This field you can see via the catalogue API and currently working to make visible on the UI.
+    + See the [API common calls page](https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_common_calls.html) for examples of using `package_show` to show all metadata fiedls as well as other calls.
 
 -------------------------------------------------------
 
