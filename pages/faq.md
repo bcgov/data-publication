@@ -294,6 +294,7 @@ The following sections will help explain the difference between **Open Data** an
        + https://governmentofbc.maps.arcgis.com/home/item.html?id=397a1defe7f04c2b8ef6511f6c087dbf
     + Includes service6 in the path
        + https://services6.arcgis.com/ubm4tcTYICKBpist/arcgis/rest/services/...
++ These items are noted as **_Managed by databcfme_**
 
 ### How do I identify a DataBC BCGW equivalent Feature Layer in ArcGIS Online?
 
@@ -303,7 +304,7 @@ The following sections will help explain the difference between **Open Data** an
     + The URL listed on the bottom right of a BC Maphub items detail page:
         + https://governmentofbc.maps.arcgis.com/home/item.html?id=9531eda4829945f683393841b2b92c21
     +  Includes https://maps.gov.bc.ca/arcserver/rest/services/whse/... in the path
-
++ These items are noted as  **_Managed by Province.Of.British.Columbia_**
 
 ### Why would I publish data to ArcGIS Online only and not to the BCGW?
 
