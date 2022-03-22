@@ -55,4 +55,4 @@ KML is a legacy artifact.  Not all layers are provided in KML format.  KML is cr
 
 **_Need Assistance?_**
 
-When issues are identified or an on demand run is needed, please create a JSM ticket so that it lands in MAP’s queue and can be assessed for urgency and actioned in due course.
+When issues are identified or an on demand run is needed, please create a JSM ticket so that it lands in MAP’s queue and can be assessed for urgency and actioned in due course.  Until we build out a few more options in the JIRA Service Manager to cover off Data Access Services inquiries, please use this section: https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6
