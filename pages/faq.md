@@ -292,7 +292,7 @@ The following sections will help explain the difference between **Open Data** an
 + The way to easily identify if it is hosted is:
     + The URL listed on the bottom right of a BC Maphub items detail page:
        + https://governmentofbc.maps.arcgis.com/home/item.html?id=397a1defe7f04c2b8ef6511f6c087dbf
-    + Includes service6 in the path
+    + Includes serviceX in the path, e.g., 
        + https://services6.arcgis.com/ubm4tcTYICKBpist/arcgis/rest/services/...
 + These items are noted as **_Managed by databcfme_**
 
