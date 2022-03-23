@@ -1376,9 +1376,22 @@ After adding the writer, define the following published parameters:
 	
 	
 #### BC Map Hub (AGO)
-+ 
+
++ Authoring in FME Desktop 2017:
+	
 	|Field|Value|
-	|-----|-----|
+	|:-----|:-----|
+	|**Writer**|Esri ArcGIS Portal Feature Service ARCGISPORTALFEATURES  |
+	|**Dataset**|Path of the AGO Portal Host (https://governmentofbc.maps.arcgis.com) |
+	|**Parameters**|Authentication Type: Generate Token|
+	|-|User: AGO Account Username|
+	|-|Password: AGO Account Password|
+	|**Feature Service**|AGO Feature Service name|
+
++ Authoring in FME Desktop 2020:
+	
+	|Field|Value|
+	|:-----|:-----|
 	|**Format**|Esri ArcGIS Online Hosted Feature Layer ARCGISONLINEFEATURES  |
 	|**Dataset**|Path of the AGO hosted item file where the AGO components will be stored |
 	|**Parameters**|Defaults should be fine |
@@ -1386,18 +1399,44 @@ After adding the writer, define the following published parameters:
 
 After adding the writer, define the following published parameters:
 	
+##### Destination ArcGIS Host (DEST_HOST)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|published |
+	|**Type**|Text|
+	|**Name**|DEST_HOST|
+	|**Prompt**|Destination ArcGIS Online Portal URL|
+	|**Configuration**|*.
+	|**Attribute Assignment**|Default |
+	|**Default Value**|https://governmentofbc.maps.arcgis.com|
+	|**Link From**|Writer → Portal URL → Link to User Parameter → DEST_HOST |
+	
+##### Destination ArcGIS Username (DEST_AGO_USERNAME)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|published |
+	|**Type**|Text|
+	|**Name**|DEST_AGO_USERNAME|
+	|**Prompt**|Destination ArcGIS Online Username|
+	|**Configuration**|*.
+	|**Attribute Assignment**|Default |
+	|**Default Value**|[AGO Account Username]|
+	|**Link From**|Writer → Parameters → User → Link to User Parameter → DEST_AGO_USERNAME |
+	
 ##### Destination ArcGIS Name (DEST_DATASET_AGO_1)
 + 
 	|Field|Value|
 	|-----|-----|
 	|**Published/Private**|published |
-	|**Type**|Filename (Existing)|
+	|**Type**|Text|
 	|**Name**|DEST_DATASET_AGO_1 |
-	|**Prompt**|Destination BC Maphub|
+	|**Prompt**|Destination AGO Feature Service|
 	|**Configuration**|*.
 	|**Attribute Assignment**|Default |
-	|**Default Value**|Path |
-	|**Link From**|Writer → ??? → Link to User Parameter → DEST_DATASET_AGO_1 |
+	|**Default Value**|[path for the Feature Service] |
+	|**Link From**|Writer → Parameters → Feature Service → Link to User Parameter → DEST_DATASET_AGO_1 |
 
 
 ##### Destination Feature Name (DEST_FEATURE_1)
@@ -1407,12 +1446,26 @@ After adding the writer, define the following published parameters:
 	|**Published/Private**|published |
 	|**Type**|Text |
 	|**Name**|DEST_FEATURE_1 |
-	|**Prompt**|Destination Feature class |
+	|**Prompt**|Destination Feature 1 |
 	|**Configuration**|N/A | 
 	|**Attribute Assignment**|Default |
-	|**Default Value**|Name of the AGO Hosted Feature Layer and the AGO_ID, e.g., DataBC FME BCTS Sales Schedule SP (abc12defghijkl45mnopqrstuvwxyz) |
-	|**Link From**|N/A |
+	|**Default Value**|Name of the AGO Hosted Feature Layer |
+	|**Link From**|Writer → Feature Types → Properties → Layer Name → $(DEST_FEATURE_1)|
 
+Define the following private parameters:
+
+##### Destination ArcGIS Password (DEST_AGO_PASSWORD)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|private |
+	|**Type**|Text|
+	|**Name**|DEST_AGO_PASSWORD|
+	|**Prompt**|Destination ArcGIS Online Password|
+	|**Configuration**|*.
+	|**Attribute Assignment**|Default |
+	|**Default Value**|[AGO Account Password]|
+	|**Link From**|Writer → Parameters → Password → Link to User Parameter → DEST_AGO_PASSWORD |
 	
 [RETURN TO TOP][1] 
 
