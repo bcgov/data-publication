@@ -14,7 +14,7 @@ https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD/2
 
 **MPCM to Geoserver (WMS/WFS)**
 
-Unless we are in an IT change freeze (e.g. typical Winter Holiday period) Geoserver services creation script runs on a schedule: 
+Geoserver builds run on a schedule. 
 
 Delivery on Tuesday morning: start time is 2-3 AM (can take up to 3 hours to run).
 
@@ -22,13 +22,13 @@ Test on Wednesday morning: start time is 2-3 AM (can take up to 3 hours to run).
 
 Production on Thursday: start time is 2-3 AM (can take up to 3 hours to run). 
 
-If unsure of whether something has been run, status in Jenkins can be checked as that is the mechanism for running the script.
+The schedules can be enabled and disabled.  A schedule may be disabled when there is a change freeze. If unsure of whether something has been run, status in Jenkins can be checked as that is the mechanism for running the script.
 
-The script takes what is in MPCM Production/PROD stage and translates the content into Style Layer Descriptors (SLDs).  Sometimes this translation is straight forward and needs no intervention but there are cases where the translation is suboptimal and manual intervention is required to correct/enable a layer in Geoserver.
+The script takes what is in MPCM Production/PROD stage and translates the content into WMS layers.  Associated layers styles are stored in a file with an extension .sld. This translations is not perfect as the complex lyr stles are not aways translated with the amount of detail that would be seen in the lyr files. In some cases we can namually build a SLD and override the SLD with the custom style at run time.
 
 **ArcGIS Online “mini-maxl” Services**
 
-When Production Geoserver is confirmed to be viable, the mini-maxl script is run for Delivery, Test, and Production.  This is currently run on demand but we intend to automate that in the future.
+When the respective Geoserver builds are run and complete without errors, the mini-maxl script can run to build the assocated mini-maxl map services. This is currently run on demand but can be automated.
 
 Only publicly accessible layers are added to the schema based services.
 
@@ -51,7 +51,7 @@ https://maps.gov.bc.ca/arcserver/rest/services/whse/bcgw_pub_whse_legal_admin_bo
 
 **KML**
 
-KML is a legacy artifact.  Not all layers are provided in KML format.  KML is created on demand by a script when the Geoserver build is run.
+KML files are build as part of the respective GeoServer build.  Only public layers are built as kml files.
 
 **_Need Assistance?_**
 
