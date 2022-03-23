@@ -1412,6 +1412,19 @@ After adding the writer, define the following published parameters:
 	|**Default Value**|https://governmentofbc.maps.arcgis.com|
 	|**Link From**|Writer → Portal URL → Link to User Parameter → DEST_HOST |
 	
+##### Destination ArcGIS Username (DEST_AGO_USERNAME)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|published |
+	|**Type**|Text|
+	|**Name**|DEST_AGO_USERNAME|
+	|**Prompt**|Destination ArcGIS Online Username|
+	|**Configuration**|*.
+	|**Attribute Assignment**|Default |
+	|**Default Value**|[AGO Account Username]|
+	|**Link From**|Writer → Parameters → User → Link to User Parameter → DEST_AGO_USERNAME |
+	
 ##### Destination ArcGIS Name (DEST_DATASET_AGO_1)
 + 
 	|Field|Value|
@@ -1439,6 +1452,20 @@ After adding the writer, define the following published parameters:
 	|**Default Value**|Name of the AGO Hosted Feature Layer |
 	|**Link From**|Writer → Feature Types → Properties → Layer Name → $(DEST_FEATURE_1)|
 
+Define the following private parameters:
+
+##### Destination ArcGIS Password (DEST_AGO_PASSWORD)
++ 
+	|Field|Value|
+	|-----|-----|
+	|**Published/Private**|private |
+	|**Type**|Password|
+	|**Name**|DEST_AGO_PASSWORD|
+	|**Prompt**|Destination ArcGIS Online Password|
+	|**Configuration**|*.
+	|**Attribute Assignment**|Default |
+	|**Default Value**|[AGO Account Password]|
+	|**Link From**|Writer → Parameters → Password → Link to User Parameter → DEST_AGO_PASSWORD |
 	
 [RETURN TO TOP][1] 
 
