@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# Common calls using the BC Data Catalogue API
+# **Common calls using the BC Data Catalogue API**
 
 -------------
 
