@@ -57,6 +57,15 @@ To obtain the GUID sub-org it requires the title name of the org
 The following python syntax is used as an example from a specific organization
 
 ### How to get the organization ID with the organization name
+
+1. **Option 1**:
+	1. Navigate to a record you manage
+	1. Click on the live link of the sub-org or branch name beside **Published by**
+	1. Click the **Share** button, of which will copy the full URL to your clipboard
+	1. Paste into your browser and copy the portion of the org id, e.g., "a1a9c5cc-b601-4190-b206-13ba08c54292" from
+	https://catalogue.data.gov.bc.ca/organization/a1a9c5cc-b601-4190-b206-13ba08c54292
+1. **Option 2**:
+
 ```
 import ckanapi
 
