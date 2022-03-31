@@ -35,7 +35,7 @@ has_toc: false
    + [_Resource status_](#resource-status)
    + [_Record lifecycle history_](#record-lifecycle-history)
 + [**Resource management**](#resource-management)
-+ [**ADDITIONAL RESOURCES**](#additional-resources)
++ [**Additional resources**](#additional-resources)
 
 ------------------------------
 
