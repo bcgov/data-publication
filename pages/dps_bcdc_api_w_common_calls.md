@@ -14,7 +14,7 @@ has_toc: true
 
 |**Audience**| | |
 |:---:|:---:|:---:|
-| [*Catalogue Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor) | [*Catalogue Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin) | *Catalogue Developers* |
+| [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 + [**How to get information**](#how-to-get-information)
