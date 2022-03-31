@@ -250,6 +250,8 @@ Editors can delete resources in any published state
 |Available Field|N|N|Y|Y**NEW**|
 
 **JSON Table Schema** (`json_table_schema`):
++
+
 |**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
