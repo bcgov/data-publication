@@ -44,8 +44,10 @@ has_toc: true
 
 ### How to get names and IDs from the UI
 
-When on navigating pages in the Catalogue, the URL will contain the **name** and when using the **Share** button, the ID will be copied to your clipboard. Minus that of resource that uses only the id.
- 
++ When navigating pages in the Catalogue, the URL will contain the **name**
++ When using the **Share** button on those pages, the ID will be copied to your clipboard. Minus that of resource that uses only the id.
+
+**Examples**:
  + organization name : ../organization/information-management-cfd
  + organization ID : ../organization/a1a9c5cc-b601-4190-b206-13ba08c54292
  + package (dataset) name : ../dataset/bc-data-catalogue-content
