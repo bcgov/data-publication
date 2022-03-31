@@ -22,7 +22,7 @@ has_toc: true
 	+ [Create and manage Records and Resources in bulk](#create-and-manage-records-and-resources-in-bulk)
 	+ [Do bulk updates](#do-bulk-updates)
 	+ [Reorder Resources](#reorder-resources)
-1. [**Other Frequently Asked Questions*](#other-frequently-asked-questions)
+1. [**Other Frequently Asked Questions**](#other-frequently-asked-questions)
 
 ------------------------------
 
