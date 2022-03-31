@@ -59,7 +59,7 @@ has_toc: true
       + [Web Mapping Resources](#web-mapping-resources)
          - WMS; WFS; Network Link KML; iMapBC or other IMF2 
    + [**ArcGIS Online (AGO)**](#arcgis-online-ago-resources)
-       - Data; Web maps; Web apps; Tle services
+       - Data; Web maps; Web apps; Tile services
    + [**BC Data Catalogue Hosted Resources**](#bc-data-catalogue-hosted-resources)
 + [**Additional resources**](#additional-resources)
 
@@ -304,7 +304,7 @@ Editors can delete resources in any published state
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-### Preview information (`preview_info`) **Secton**  <a name="preview-information"></a>
+### Preview information (`preview_info`) **Section**  <a name="preview-information"></a>
 + Automatically populated if public to build the Map Preview.
 
 |**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
@@ -317,7 +317,7 @@ Editors can delete resources in any published state
 + **Preview map aervice URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.
 + **Preview zoom level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.
 + **Image URL** (`preview_image_url`): shows a preview of the data as a static image.
-+ **Link to iMap** (`link_to_imap`): shows an interactive preview of the data in iMapBC.
++ **Link to iMapBC** (`link_to_imap`): shows an interactive preview of the data in iMapBC.
 
 ### Geographic extent (`geographic_extent`) **Section**  <a name="geographic-extent"></a>
 + These are auto populated with the bounding box of the province.
@@ -353,11 +353,11 @@ This section is currently being developed.
          - This is created when working with the Data Publication Services team.
     - WMS
          - This is generated the week after publication to iMapBC.
-         - However the script to automate the creation of these catalogue references is being redeveloped. 
+         - However, the script to automate the creation of these catalogue references is being redeveloped. 
          - See [Getting started](..#dps_bcdc_w_start.md) for links to our request system
     - Network Link KML
          - This is generated the week after publication to iMapBC.
-         - However the script to automate the creation of these catalogue references is being redeveloped. 
+         - However, the script to automate the creation of these catalogue references is being redeveloped. 
 + Certain resources are in review for automatic generation, including:
     - ArcGIS Online if hosted or served out through DataBC
     - WFS
