@@ -9,38 +9,38 @@ has_toc: true
 
 ## Table of Contents
 
-1. [**Where do I Start**](#where-do-i-start)
-1. [**How to Become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
+1. [**Where do I start**](#where-do-i-start)
+1. [**How to cecome a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
     - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
-1. [**How to Publish Metadata Records - Moved**](#how-to-publish-metadata-records)
-1. [**How to Create a Metadata Group**](#how-to-create-metadata-groups)
-1. [**How to Update...**](#how-to-update)
+1. [**How to publish records - Moved**](#how-to-publish-records)
+1. [**How to create a Catalogue Group**](#how-to-create-catalogue-groups)
+1. [**How to update...**](#how-to-update)
 	+ [Accounts](#accounts)
-	+ [Organization and or Sub-Organization Details](#organization-details)
-	+ [Contact Details](#contact-details)
+	+ [Organization and or Sub-Organization details](#organization-details)
+	+ [Contact details](#contact-details)
 1. [**How Can I...**](#how-can-i-)
-	+ [Create and Manage Records and Resources in Bulk](#create-and-manage-records-and-resources-in-bulk)
-	+ [Do Bulk Updates](#do-bulk-updates)
-	+ [Reorder Resources](#reorder-resources)
+	+ [Create and manage Records and Resources in bulk](#create-and-manage-records-and-resources-in-bulk)
+	+ [Do bulk updates](#do-bulk-updates)
+	+ [Reorder resources](#reorder-resources)
 1. [**Other Frequently Asked Questions*](#other-frequently-asked-questions)
 
 ------------------------------
 
-|**AUDIENCE**| | | | |
+|**Audeience**| | | | |
 |:---|:---|:---|:---|:---|
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
-## Where do I Start
+## Where do I start
 
-### [BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.svg)
+### [BCDC Readiness workflow](./images/wf_MetadataReadiness.svg)
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
 [![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
 ------------------------------
 
 
-## How to Become a Provider to the Catalogue
+## How to become a provider to the Catalogue
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), one needs the sub-org to exist or be created and an grants applied to your account.
 
@@ -77,22 +77,23 @@ It is common for organizations to have staff who work in other Sub-Organizations
 [RETURN TO TOP][1]
 
 ------------------------------
-## How to Publish Metadata Records
+## How to publish records
 
 See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
 
 ------------------------------
 
-## How transfer Custodianship of a Dataset 
+## How transfer Custodianship of a dataset 
 
-__under construction__
++ Both branches or executives must agree that the resoposibility and authority for a dataset management is being transfered
++ Providing writing confiration of this is required to transfer records
 
 [RETURN TO TOP][1]
 
 
 ------------------------------
 
-## How to Create Metadata Groups
+## How to create Catalogue Groups
 
 Metadata Groups provide a listing of like datasets for a specific purpose and can contain records from across multiple organizations.
 + These are not intended to replace a full listing of records for a sub-organization.
@@ -101,8 +102,8 @@ Metadata Groups provide a listing of like datasets for a specific purpose and ca
 To create a group, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
 **Requirements:**
-+ **Group Name**:
-+ **Group Description**:
++ **Group name**:
++ **Group description**:
 + **URL**: _for more information_
 + **Image**: _either a file or URL_
 + **Members**: _list of IDIRs who will maintain the Group_
@@ -112,19 +113,19 @@ To create a group, please open a ticket with the [Data Systems & Services reques
 
 ------------------------------
 
-## How to Update...
+## How to update...
 
 ### Accounts
 
 To request updates to accounts for your organization, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
-### Organization Details
+### Organization details
 
 Not all Ministry or Broader Public Sector organizations are listed in the catalogue. Only those with records are listed.
 
 To add or update a Organization/Ministry or Sub-organization/Branch/Division/Program names or details, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
-+ **Subject Line**: BCDC Organization/Sub-Organization Addition/Update
++ **Subject line**: BCDC Organization/Sub-Organization Addition/Update
 + **Body**:
    + Name of Ministry of Organization:
       + If a sub-organization has moved to a different ministry, include the new ministry or organization name.
@@ -141,7 +142,7 @@ On each record it will state the Sub-organization name that the record has been 
 
 For editors of multiple sub-organizations, they will be able to select a record to be **Published By** any of these.
 
-### Contact Details
+### Contact details
 
 All records require one visible contact to the public, and at times this is their generic inbox. However we do recommend that additional contacts be listed which may require logging into the Catalogue to see.
 
@@ -152,13 +153,13 @@ It is the responsibility of the org listed as Published by to maintain their rec
 
 ------------------------------
 
-## How Can I ...
+## How can I ...
 
-### Create and Manage Records and Resources in Bulk
+### Create and manage Records and Resources in bulk
 
 Creating and managing records and resources in bulk can be done via the API. [See Content Management and Use via the API](dps_bcdc_api_w_how_to_use.md).
 
-### Do Bulk Updates
+### Do bulk updates
 
 When there are more than 20 records that require updating, a bulk update can be requested by opening a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
 
@@ -169,7 +170,7 @@ When there are more than 20 records that require updating, a bulk update can be 
 	+ URL modifications for More Info and Resources
 
 
-### Reorder Resources
+### Reorder resources
 
 This functionality is not available currently; however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
 
@@ -186,7 +187,7 @@ For support, please open a ticket with the [Data Systems & Services request syst
 
 ------------------------------
 
-## OTHER FREQUENTLY ASKED QUESTIONS
+## Other frequently asked questions
 
 See the [Catalogue section of the Data Publication FAQ](./faq.md#metadata-records-and-the-bc-data-catalogue)
 
