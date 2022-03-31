@@ -10,10 +10,9 @@ has_toc: true
 
 # Resource management in the BC Data Catalogue User Interface (UI)
 
-|**Audience**|
-|:---|
-|[*Metadata Editors*](./glossary.md#metadata_editor)|
-|[*Metadata Admin*](./pages/glossary.md#metadata_admin)|
+|**Audience**| |
+|:---|:---|
+|[*Metadata Editors*](./glossary.md#metadata_editor)|[*Metadata Admin*](./pages/glossary.md#metadata_admin)|
 
 ## Table of Contents
 
@@ -22,11 +21,12 @@ has_toc: true
    + [Document/Tabular Data](#document-and-tabular-data)
    + [Geographic Data](#geographic-data)
    + [WebService and API](#webservice-and-api)
-+ [**Add a Resource**](#add-a-resource)
-+ [**Edit a Resource**](#edit-a-resource)
-   + [Replace a File in the Catalogue Data Store](#replace-a-file-in-the-catalogue-data-store)
-+ [**Delete a Resource**](#delete-a-resource)
-+ [**Resource type specific fields**](#resource-type-specific-fields)
++ [**Resource management**](#resource-management)
+   + [**Add a Resource**](#add-a-resource)
+   + [**Edit a Resource**](#edit-a-resource)
+      + [Replace a File in the Catalogue Data Store](#replace-a-file-in-the-catalogue-data-store)
+   + [**Delete a Resource**](#delete-a-resource)
++ [**Resource fields**](#resource-fields)
    + [_Name_](#name) 
    + [_Resource_](#url)
    + [_Type_](#type)
@@ -90,7 +90,9 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-## Add a Resource
+## Resource management
+
+### Add a Resource
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
@@ -101,7 +103,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-## Edit a Resource
+### Edit a Resource
 **To edit a resource:**
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
@@ -114,7 +116,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-### Replace a file in the catalogue Data Store
+#### Replace a file in the catalogue Data Store
 
 + Requirement:
     - Zipped folders can be uploaded but do not upload a file from within an already zipped folder.
@@ -128,7 +130,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-## Delete a Resource
+### Delete a Resource
 
 Editors can delete resources in any published state
 
@@ -144,7 +146,7 @@ Editors can delete resources in any published state
 
 ------------
 
-## Resource type specific fields
+## Resource fields
 
 \* indicates required fields.
 
