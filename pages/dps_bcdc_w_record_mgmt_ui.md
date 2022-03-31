@@ -9,33 +9,31 @@ has_toc: false
 ---
 # BC Data Catalogue Record management
 
-|**AUDIENCE**|
-|:---|
-|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
-|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
+|**Audience**| |
+|:---|:---|
+|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
 + [**Record creation**](#record-creation)
 + [**Record management**](#record-management)
-   + [Data Elements on a Record](#data-elements-on-a-record)
-      + [_Title_](#title) 
-      + [_URL_](#url)
-      + [_Published by_](#published-by)
-      + [_Description_](#description)
-      + [_Licence_](#licence)
-      + [_Contacts_](#contacts)
-      + [_Purpose_](#purpose)
-      + [_Data quality_](#data-quality)
-      + [_Data lineage_](#data-lineage)
-      + [_Related links_](#related-links)
-      + [_Security classification_](#security-classification)
-      + [_Who can view this data?_](#who-can-view-this-data)
-      + [_Who can download this data?_](#who-can-download-this-data)
-      + [_Who can view this record?_](#who-can-view-this-record)
-      + [_Keywords_](#keywords)
-      + [_Publish state_](#state)
-      + [_Resource status_](#resource-status)
-      + [_Record lifecycle history_](#record-lifecycle-history)
+   + [_Title_](#title) 
+   + [_URL_](#url)
+   + [_Published by_](#published-by)
+   + [_Description_](#description)
+   + [_Licence_](#licence)
+   + [_Contacts_](#contacts)
+   + [_Purpose_](#purpose)
+   + [_Data quality_](#data-quality)
+   + [_Data lineage_](#data-lineage)
+   + [_Related links_](#related-links)
+   + [_Security classification_](#security-classification)
+   + [_Who can view this data?_](#who-can-view-this-data)
+   + [_Who can download this data?_](#who-can-download-this-data)
+   + [_Who can view this record?_](#who-can-view-this-record)
+   + [_Keywords_](#keywords)
+   + [_Publish state_](#state)
+   + [_Resource status_](#resource-status)
+   + [_Record lifecycle history_](#record-lifecycle-history)
 + [**Resource management**](#resource-management)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
@@ -60,13 +58,9 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ## Record management
 
-### Data Elements on a Record
-
 Below is a list of fields with supporting details.  
 
-[RETURN TO TOP][1]
-
-#### Title (`title`) <a name="title"></a>
+### Title (`title`) <a name="title"></a>
 
 This is the title of your metadata record and is a required field.
 
@@ -86,7 +80,7 @@ Tips:
 
 [RETURN TO TOP][1]
 
-#### URL (`name`) <a name="url"></a>
+### URL (`name`) <a name="url"></a>
 
 This is automatically generated while typing in the _**Title**_ with special characters and spaces are replaced with underscores.
 + This is a required field.
@@ -96,20 +90,20 @@ This is automatically generated while typing in the _**Title**_ with special cha
 
 [RETURN TO TOP][1]
 
-#### Published by (`owner_org`) <a name="published-by"></a>
+### Published by (`owner_org`) <a name="published-by"></a>
 
 This is the Sub-Organization (often the Branch or Division) under which the metadata record is created and published.
 + This is a required field
 
 [RETURN TO TOP][1]
 
-#### Description (`notes`) <a name="description"></a>
+### Description (`notes`) <a name="description"></a>
 
 Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset, and is a required field.
 
 [RETURN TO TOP][1]
 
-#### Licence (`license_id`) <a name="licence"></a>
+### Licence (`license_id`) <a name="licence"></a>
 
 Describes the license the data is being published under. 
 + This is a required field
@@ -117,7 +111,7 @@ Describes the license the data is being published under.
 
 [RETURN TO TOP][1]
 
-#### Contacts (`contacts`) <a name="contacts"></a>
+### Contacts (`contacts`) <a name="contacts"></a>
 
 At least one contact is required. 
 
@@ -138,28 +132,28 @@ At least one contact is required.
 
 [RETURN TO TOP][1]
 
-#### Purpose (`purpose`) <a name="purpose"></a>
+### Purpose (`purpose`) <a name="purpose"></a>
 
 This is a summary of the intentions for which the dataset was developed, and is an optional field. 
 + To provide a complete picture into the nature of the record and resources, it is encouraged to provide some text before publishing so consumers will understand the purpose of and how to use the published data.
 
 [RETURN TO TOP][1]
 
-#### Data quality (`data_quality`) <a name="data-quality"></a>
+### Data quality (`data_quality`) <a name="data-quality"></a>
 
 This is descriptive text that can include information about issues, completeness, consistency, etc., and is an optional field.
 + To provide a complete picture into the record's quality, it is encouraged to provide some text before publishing so consumers will understand the data quality of the published data.
 
 [RETURN TO TOP][1]
 
-#### Data lineage (`lineage_statement`) <a name="data-lineage"></a>
+### Data lineage (`lineage_statement`) <a name="data-lineage"></a>
 
 This is information about the events or source data used in constructing the data, and is an optional field.
 + To provide a complete picture into the record's source data, it si encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
 
 [RETURN TO TOP][1]
 
-#### Related links (`more_info`) <a name="related-links"></a>
+### Related links (`more_info`) <a name="related-links"></a>
 
 This is additional information (one or more references) to support the dataset or the pubishing organization, and the fields are an optional set of fields.
 + **Title of web asset**
@@ -169,7 +163,7 @@ This is additional information (one or more references) to support the dataset o
 
 [RETURN TO TOP][1]
 
-#### Security classification (`security_class`) <a name="security-classification"></a>
+### Security classification (`security_class`) <a name="security-classification"></a>
 
 The Security Classification has been updated and records transformed to reflect the OCIO's standard.
 + This is a required field.
@@ -183,7 +177,7 @@ The Security Classification has been updated and records transformed to reflect 
 
 [RETURN TO TOP][1]
 
-#### Who can view this data? (`view_audience`) <a name="who-can-view-this-data"></a>
+### Who can view this data? (`view_audience`) <a name="who-can-view-this-data"></a>
 
 Describes who can view, for example, the BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
 + The order reflects the most accessible to the most secure.
@@ -199,7 +193,7 @@ Describes who can view, for example, the BC Geographic Warehouse (BCGW) resource
 
 [RETURN TO TOP][1]
 
-#### Who can download this data? (`download_audience`) <a name="who-can-download-this-data"></a>
+### Who can download this data? (`download_audience`) <a name="who-can-download-this-data"></a>
 
 Describes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
 + The order reflects the most accessible to the most secure.
@@ -216,7 +210,7 @@ Describes the security level for access to download BC Geographic Warehouse (BCG
 
 [RETURN TO TOP][1]
  
-#### Who can view this record? (`metadata_visibility`) <a name="who-can-view-this-record"></a>
+### Who can view this record? (`metadata_visibility`) <a name="who-can-view-this-record"></a>
 
 Describes who can view the metadata record.
 + The order reflects the most accessible to the most secure.
@@ -229,7 +223,7 @@ Describes who can view the metadata record.
     
 [RETURN TO TOP][1]
 
-#### Keywords (`tag_string`) <a name="keywords"></a>
+### Keywords (`tag_string`) <a name="keywords"></a>
 
 These are the searchable terms for the metadata record, and at least one keyword is required, however, not limited to just one keywork 
 + Enter meaningful keywords here. 
@@ -237,7 +231,7 @@ These are the searchable terms for the metadata record, and at least one keyword
 
 [RETURN TO TOP][1]
 
-#### Publish state (`publish_state`) <a name="state"></a>
+### Publish state (`publish_state`) <a name="state"></a>
 
 When creating a new metadata record, the state will be set to **Draft**. To do so click the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state. The state selected will become the checkmark.
 
@@ -258,7 +252,7 @@ When creating a new metadata record, the state will be set to **Draft**. To do s
 
 [RETURN TO TOP][1]
 
-#### Resource status (`resource_status`) <a name="resource-status"></a>
+### Resource status (`resource_status`) <a name="resource-status"></a>
 
 Defines the status of the dataset, service, API or application as described by one of the types below: 
 + A resource or record changes status over its lifecycle.
@@ -277,7 +271,7 @@ Defines the status of the dataset, service, API or application as described by o
     
 [RETURN TO TOP][1]
    
-#### Record lifecycle history (`dates`) <a name="record-lifecycle-history"></a>
+### Record lifecycle history (`dates`) <a name="record-lifecycle-history"></a>
 
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.  This comprises of two required fields. 
 
