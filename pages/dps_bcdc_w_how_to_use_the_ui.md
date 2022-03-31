@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-# BC Data Catalogue User Interface (UI) content management
+# BC Data Catalogue User Interface (UI)
 
 [Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
 
