@@ -15,10 +15,10 @@ has_toc: false
 
 ## Table of Contents
 + [**Record management**](#record-management)
-   + [**Add a Record**](#add-a-record)
-   + [**Edit a Record**](#edit-a-record)
-   + [**Publish or Archive a Record**](#publish-or-archive-a-record)
-   + [**Delete a Record**](#delete-a-record)
+   + [Add a Record](#add-a-record)
+   + [Edit a Record](#edit-a-record)
+   + [Publish or Archive a Record](#publish-or-archive-a-record)
+   + [Delete a Record](#delete-a-record)
 + [**Record fields**](#record-fields)
    + [_Title_](#title) 
    + [_URL_](#url)
