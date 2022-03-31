@@ -148,7 +148,7 @@ Editors can delete resources in any published state
 
 \* indicates required fields.
 
-### **Name** (`name`): 
+### **Name** (`name`) <a name="name"></a>
 
 + Is the name or titel of the resource as it will appear on the resource record and card.
 + A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
@@ -158,14 +158,14 @@ Editors can delete resources in any published state
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Resource** (`url`) <a name="Resource"></a>
+### **Resource** (`url`) <a name="url"></a>
 + Is a link to a file or resource stored elsewhere.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Type** (`bcdc_type`) <a name="Type"></a>
+### **Type** (`bcdc_type`) <a name="type"></a>
 + Is the resource type that defines the available fields for a resource.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
@@ -173,28 +173,28 @@ Editors can delete resources in any published state
 |Available Field|Y|Y|Y|Y|
 |Select:|_'Application'_ (`application`)|_'Tabular'_ (`dataset`) |_'Geographic Dataset'_ (`geographic`)|_'WebService/API'_ (`webservice`)|
 
-## **Resource description** (`description`)  <a name="Resource description"></a>
+### **Resource description** (`description`)  <a name="resouce-description"></a>
 + Is a detailed description of the resource.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Supplemental information** (`supplemental_info`) <a name="Supplemental information"></a>
+### **Supplemental information** (`supplemental_info`) <a name="supplemental-information"></a>
 + Any additional relevant information about the resource can be included here.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Frequency of resource update** (`resource_update_cycle`) <a name="Frequency of resource update"></a>
+### **Frequency of resource update** (`resource_update_cycle`) <a name="frequency-of-resource-update"></a>
 + Describes how often the resource is updated.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Resource data last updated** (`last_modified`)  <a name="Resource data last updated"></a>
+### **Resource data last updated** (`last_modified`)  <a name="resource-data-last-updated"></a>
 + Describes how often the resource is updated.
 + This is only visible in view mode for datasets:
     + Uploaded to the catalogue itself
@@ -202,7 +202,7 @@ Editors can delete resources in any published state
         + An automated system pushes the reloaded timestamp
 + If interested in setting up your own automated processes to update via the API, contact us at the [Data Systems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and ask for more information on how to enhance to your offerings in the Catalogue.
 
-## **Data collection period** (`temporal_extent`)  <a name="Data collection period"></a>
+### **Data collection period** (`temporal_extent`)  <a name="data-collection-period"></a>
 + A Start and/or End Data can be added if the data reflects a period of time.'.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
@@ -215,45 +215,45 @@ Editors can delete resources in any published state
 + **End date** (`end_date`): 
     - The end date for the period the data is captured for.
 
-## **Resource storage format** (`format`) <a name="Resource storage format"></a>
+### **Resource storage format** (`format`) <a name="resource-storage-format"></a>
 + Describes the file extension for the resource
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Resource storage location** (`resource_storage_location`) <a name="Resource storage location"></a>
+### **Resource storage location** (`resource_storage_location`) <a name="resource-storage-location"></a>
 + The location the data is stored in
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Spatial datatype** (`spatial_datatype`) <a name="Spatial datatype"></a>
+### **Spatial datatype** (`spatial_datatype`) <a name="spatial-datatype"></a>
 + The datatype in a database.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Object name** (`object_name`) <a name="Object name"></a>
+### **Object name** (`object_name`) <a name="object-name"></a>
 + Is the name of the dataset stored in a database.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
-### **Object short name** (`object_short_name`) <a name="Object short name"></a>
+#### **Object short name** (`object_short_name`) <a name="object-short-name"></a>
 + For BCGW datasets, the short name used for download for Shape Files.
 + This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
 + This is populated via an automated process pushed from the BCGW to the Catalogue.
 
-### **Object table comments** (`object_table_comments`) <a name="Object table comments"></a> 
+#### **Object table comments** (`object_table_comments`) <a name="object-table-comments"></a> 
 + For BCGW datasets, the data definition in a database.
 + This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
 + This is populated via an automated process pushed from the BCGW to the Catalogue.
 
-### **Details**: (`details`) **Section** <a name="Details"></a>
+#### **Details**: (`details`) **Section** <a name="details"></a>
 + For BCGW datasets, this is populated from the database metadata.
 + This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
 + This is populated via an automated process pushed from the BCGW to the Catalogue.
@@ -264,21 +264,21 @@ Editors can delete resources in any published state
    + **Column comments** (`column_comments`): Field definition
 
 
-## **Projection name** (`projection_name`) <a name="Projection name"></a>
+### **Projection name** (`projection_name`) <a name="projection-name"></a>
 + Is a drop down list of common projections used in BC for geographic data.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|Y**NEW**|
 
-## **JSON Table Schema** (`json_table_schema`) <a name="JSON Table Schema"></a>
+### **JSON Table Schema** (`json_table_schema`) <a name="json-table-schema"></a>
 +
 
 |**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **ISO Topic Category** (`iso_topic_category`) <a name="ISO Topic Category"></a>
+### **ISO Topic Category** (`iso_topic_category`) <a name="iso-topic-category"></a>
 + [Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). 
 + [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)
 
@@ -286,7 +286,7 @@ Editors can delete resources in any published state
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
-## **Resource type** (`resource_type`) <a name="Resource type"></a>
+### **Resource type** (`resource_type`) <a name="resource-type"></a>
 + Is the type of resource.
 + Being reviewed if useful.
 
@@ -294,7 +294,7 @@ Editors can delete resources in any published state
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Resource access method** (`resource_access_method`)  <a name="Resource access method"></a>
+### **Resource access method** (`resource_access_method`)  <a name="resource-access-method"></a>
 + Describes how the end-user can access the data.
 + Being reviewed if useful.
 
@@ -302,7 +302,7 @@ Editors can delete resources in any published state
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-## **Preview information**: (`preview_info`) **Secton**  <a name="Preview information"></a>
+### **Preview information** (`preview_info`) **Secton**  <a name="preview-information"></a>
 + Automatically populated if public to build the Map Preview.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
@@ -317,7 +317,7 @@ Editors can delete resources in any published state
 + **Image URL** (`preview_image_url`): shows a preview of the data as a static image.
 + **Link to iMap** (`link_to_imap`): shows an interactive preview of the data in iMapBC.
 
-## **Geographic extent** (`geographic_extent`) **Secton**  <a name="Geographic extent"></a>
+### **Geographic extent** (`geographic_extent`) **Secton**  <a name="geographic-extent"></a>
 + These are auto populated with the bounding box of the province.
 
 |**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
