@@ -12,16 +12,16 @@ has_toc: true
 1. [**Where do I start**](#where-do-i-start)
 1. [**How to cecome a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
     - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
-1. [**How to publish records - Moved**](#how-to-publish-records)
+1. [**How to publish Records - Moved**](#how-to-publish-records)
 1. [**How to create a Catalogue Group**](#how-to-create-catalogue-groups)
 1. [**How to update...**](#how-to-update)
 	+ [Accounts](#accounts)
 	+ [Organization and or Sub-Organization details](#organization-details)
 	+ [Contact details](#contact-details)
-1. [**How Can I...**](#how-can-i-)
+1. [**How can I...**](#how-can-i-)
 	+ [Create and manage Records and Resources in bulk](#create-and-manage-records-and-resources-in-bulk)
 	+ [Do bulk updates](#do-bulk-updates)
-	+ [Reorder resources](#reorder-resources)
+	+ [Reorder Resources](#reorder-resources)
 1. [**Other Frequently Asked Questions*](#other-frequently-asked-questions)
 
 ------------------------------
@@ -81,7 +81,7 @@ It is common for organizations to have staff who work in other Sub-Organizations
 [RETURN TO TOP][1]
 
 ------------------------------
-## How to publish records
+## How to publish Records
 
 See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
 
@@ -183,7 +183,7 @@ When there are more than 20 records that require updating, a bulk update can be 
 
 [RETURN TO TOP][1]
 
-### Reorder resources
+### Reorder Resources
 
 This functionality is not available currently; however it is possible with the [API](http://docs.ckan.org/en/ckan-2.7.3/api/#ckan.logic.action.update.package_resource_reorder).
 
