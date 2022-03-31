@@ -8,14 +8,13 @@ has_children: false
 has_toc: false
 ---
 
-# BC Data Catalogue API Record management
+# BC Data Catalogue Record API management
 
 -------------
 
-|**AUDIENCE**|
-|:---|
-|[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|
-|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
+|**Audience**| | |
+|:---:|:---:|:---:|
+| [*Catalogue Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor) | [*Catalogue Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 + [**How to manage records using the Catalogue API**](#how-to-manage-records-using-the-catalogue-api)
@@ -96,4 +95,4 @@ print(resp)
 
 [RETURN TO TOP][1]
 
-[1]: #bc-data-catalogue-api-record-management
+[1]: #bc-data-catalogue-record-api-management
