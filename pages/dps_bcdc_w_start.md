@@ -6,6 +6,7 @@ parent: BC Data Catalogue
 has_children: false
 has_toc: true
 ---
+# **Getting started with the BC Data Catalogue**
 
 ## Table of Contents
 
