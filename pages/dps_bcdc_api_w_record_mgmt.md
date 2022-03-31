@@ -12,9 +12,9 @@ has_toc: false
 
 -------------
 
-|**Audience**| | |
+||**Audience** | |
 |:---:|:---:|:---:|
-| [*Catalogue Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor) | [*Catalogue Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin) | *Catalogue Developers* |
+| [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 + [**How to manage records using the Catalogue API**](#how-to-manage-records-using-the-catalogue-api)
