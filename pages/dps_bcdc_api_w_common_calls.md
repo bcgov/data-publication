@@ -47,7 +47,7 @@ To obtain the GUID sub-org it requires the title name of the org
 
 1. **Option 1**:
 	1. Navigate to a record you manage
-	1. Click on the live link of the sub-org or branch name
+	1. Click on the live link of the sub-org or branch name beside **Published by**
 	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
 1. **Option 2**:
 	1. Open up the Catalogue Organizations tree
