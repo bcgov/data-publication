@@ -76,10 +76,10 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
     1. Click the **Edit Dataset** button
-    1. Change the State to either
+    1. Change the **State** to either
        + Pending Publish
        + Pending Archive
-    1. Hit Save
+    1. Click **Save**
        + This then triggers the publication email notification process
        + For more details see the [Publication workflow](../dps_bcdc_w.html#publication-states)
 
