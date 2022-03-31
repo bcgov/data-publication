@@ -11,9 +11,9 @@ has_toc: true
 # BC Data Catalogue Resource API management
 -------------
 
-|**Audience**| | |
+||**Audience** | |
 |:---:|:---:|:---:|
-| [*Catalogue Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor) | [*Catalogue Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin) | *Catalogue Developers* |
+| [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 + [**How to manage Resources using the Catalogue API**](#how-to-manage-resources-using-the-catalogue-api)
