@@ -8,7 +8,7 @@ has_children: false
 has_toc: false
 ---
 
-# RECORD MANAGEMENT USING THE BC DATA CATALOGUE API
+# BC Data Catalgoue API Record management
 
 -------------
 
@@ -18,7 +18,7 @@ has_toc: false
 |[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
-+ [**HOW TO MANAGE PACKAGES USING THE CATALOGUE API**](#how-to-manage-packages-using-the-catalogue-api)
++ [**How to manage records using the Catalogue API**](#how-to-manage-records-using-the-catalogue-api)
 	+ [How to create a record with the API](#how-to-create-a-record-with-the-api)
 	+ [How to update a record with the API using package_patch](#how-to-update-a-record-with-the-api-using-package_patch)
 
@@ -29,7 +29,7 @@ has_toc: false
 + 
 -----------------------
 
-## HOW TO MANAGE RECORD USING THE CATALOGUE API
+## How to manage records using the Catalogue API
 To use the Catalogue API to manage and create metadata records one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
 See the [common calls](/dps_bcdc_api_w_common_calls.html) page to find how to get your API key and other information you may require.
@@ -96,4 +96,4 @@ print(resp)
 
 [RETURN TO TOP][1]
 
-[1]: #record-management-using-the-bc-data-catalogue-api
+[1]: #bc-data-catalgoue-api-record-management
