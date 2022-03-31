@@ -10,9 +10,9 @@ has_toc: true
 
 # BC Data Catalogue Resources
 
-|**Audience**| |
-|:---|:---|
-|[*Catalogue Editors*](./glossary.md#metadata_editor)|[*Catalogue Admin*](./pages/glossary.md#metadata_admin)|
+||**Audience** | |
+|:---:|:---:|:---:|
+| [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 
