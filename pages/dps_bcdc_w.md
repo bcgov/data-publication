@@ -22,10 +22,10 @@ This page is written in the context that you have reviewed all information in th
 + [**What data Licence to use?**](#what-data-licence-to-use)
 + [**Creation and Publication workflow diagram**](#creation-and-publication-workflow-diagram)
 + [**Publication states**](#publication-states)
-+ [**Managing Records**](#managing-metadata-records)
-+ [**Managing Resources**](#managing-a-resources)
-+ [**Publishing Records**](#publishinga-records)
-+ [**Archiving Records**](#archivinga-a-records)
++ [**Managing Records**](#managing-records)
++ [**Managing Resources**](#managing-resources)
++ [**Publishing Records**](#publishing-records)
++ [**Archiving Records**](#archivinga-records)
   
 ------------------------------
 
