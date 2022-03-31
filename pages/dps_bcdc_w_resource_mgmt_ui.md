@@ -132,206 +132,171 @@ Editors can delete resources in any published state
 + A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
     - For a full list of [actionable language](https://polaris.shopify.com/content/actionable-language) 
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 **Resource** (`url`):
 + Is a link to a file or resource stored elsewhere.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 **Type**\* (`bcdc_type`): 
 + Is the resource type that defines the available fields for a resource.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 |Select:|_'Application'_ (`application`)|_'Tabular'_ (`dataset`) |_'Geographic Dataset'_ (`geographic`)|_'WebService/API'_ (`webservice`)|
 
-+ **Changes**: _Database values coverted to lowercase_
-
-**Resource Description** (`description`): 
+**Resource description** (`description`): 
 + Is a detailed description of the resource.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-**Supplemental Information** (`supplemental_info`): 
+**Supplemental information** (`supplemental_info`): 
 + Any additional relevant information about the resource can be included here.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-**Resource** Update Cycle\* (`resource_update_cycle`): 
+**Frequency of resource update** (`resource_update_cycle`): 
 + Describes how often the resource is updated.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **NEW Values**: _'Nightly'_ (`nightly`); _'Unknown'_ (`unknown`)
+**Resource data last updated** (`last_modified`): 
++ Describes how often the resource is updated.
++ This is only visible in view mode for datasets:
+    + Uploaded to the catalogue itself
+    + Published to the BC Geographic Warehouse
+        + An automated system pushes the reloaded timestamp
++ If interested in setting up your own automated processes to update via the API, contact us at the [Data Systems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and ask for more information on how to enhance to your offerings in the Catalogue.
 
-**Temporal Extent** (`temporal_extent`): 
-+ If the dataset is temporal in nature'.
+**Data collection period** (`temporal_extent`): 
++ A Start and/or End Data can be added if the data reflects a period of time.'.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **Beginning Date** (`beginning_date`): 
++ **Beginning date** (`beginning_date`): 
     - The start date for the period the data is captured for
-    - **Changes**: _Database fields renamed_ 
 
-+ **End Date** (`end_date`): 
++ **End date** (`end_date`): 
     - The end date for the period the data is captured for.
-    - **Changes**: _Database fields renamed_ 
 
-**Resource Storage Format**\* (`format`): 
+**Resource storage format**\* (`format`): 
 + Describes the file extension for the resource
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **NEW Values** _'geopackage'_ (`gpkg`); _'multiple'_ (`multiple`)
+**Resource storage location**\* (`resource_storage_location`):
++ The location the data is stored in
 
-**Resource Storage Location**\* (`resource_storage_location`):
-+ 
-
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **Changes**: _All values are now lowercase_
-
-**Object Name**\* (`object_name`): 
+**Object name**\* (`object_name`): 
 + Is the name of the dataset stored in a database.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
-+ **Changes**: _Moved from record level_
-
-**Spatial Datatype**\* (`spatial_datatype`): 
+**Spatial datatype**\* (`spatial_datatype`): 
 + The datatype in a database.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **Changes**:
-    - _Moved from record level_
-    - _Now a mandatory field_
+|**Object short name** (`object_short_name`): 
++ For BCGW datasets, the short name used for download for Shape Files.
++ This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
++ This is populated via an automated process pushed from the BCGW to the Catalogue.
 
-|**Object Short Name** (`object_short_name`): 
-+ Short name used for download for Shape Files.
+**Object table comments** (`object_table_comments`): 
++ For BCGW datasets, the data definition in a database.
++ This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
++ This is populated via an automated process pushed from the BCGW to the Catalogue.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|N|
-
-+ **Changes**: _Moved from record level_ 
-
-**Object Table Comments** (`object_table_comments`): 
-+ The data definition in a database.
-
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|N|
-
-+ **Changes**: _Moved from record level_
-
-
-**Details**: (`details`): 
+**Details**: (`details`) **Section**:
 + For BCGW datasets, this is populated from the database metadata.
++ This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
++ This is populated via an automated process pushed from the BCGW to the Catalogue.
+   + **Column name** (`column_name`): Name of the column in a database.
+   + **Short name** (`short_name`): Short name used for download for Shape Files and CSV.
+   + **Data type** (`data_type`): Field type
+   + **Data precision** (`data_precision`): Field length
+   + **Column comments** (`column_comments`): Field definition
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
 
-+ **Column Name** (`column_name`): Name of the column in a database.
-+ **Short Name** (`short_name`): Short name used for download for Shape Files and CSV.
-+ **Data Type** (`data_type`): Field type
-+ **Data Precision** (`data_precision`): Field length
-+ **Column Comments** (`column_comments`): Field definition
-
-+ **Changes**: _Moved section from record level_
-
-**Projection Name**\* (`projection_name`):
+**Projection name**\* (`projection_name`):
 + Is a drop down list of common projections used in BC for geographic data.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|N|
-
-+ **Changes**:
-    - _Moved from record level_
-    - _Database values now short names instead of full label_
-
+|Available Field|N|N|Y|Y**NEW**|
 
 **JSON Table Schema** (`json_table_schema`):
 |**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+ **Changes**: **NEW** field
-
 **ISO Topic Category**\* (`iso_topic_category`): 
 + [Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). 
 + [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
-+ **Changes**: _Moved from record level_
+**Resource type**\* (`resource_type`): 
++ Is the type of resource.
++ Being reviewed if useful.
 
-**Resource Type**\* (`resource_type`): 
-+ Is the type of resource. Being reviewed if useful.
-
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+  **NEW Value**: _'Not Applicable'_ (`na`)
-
-**Resource Access Method**\* (`resource_access_method`):
+**Resource access method**\* (`resource_access_method`):
 + Describes how the end-user can access the data.
++ Being reviewed if useful.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-+  **NEW Value** _'Other'_ (`other`)
-
-**Preview Information**: (`preview_info`) **Secton**: 
+**Preview information**: (`preview_info`) **Secton**: 
 + Automatically populated if public to build the Map Preview.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
-+ **Layer Name** (`layer_name`): is the name of the BCGW object and is only different if the WMS uses a generalized dataset.
-+ **Preview Latitude** (`preview_latitude`): allows you to provide a map preview centroid latitude.
-+ **Preview Longitude** (`preview_longitude`): allows you to provide a map preview centroid longitude.
-+ **Preview Map Service URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.
-+ **Preview Zoom Level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.
++ **Layer name** (`layer_name`): is the name of the BCGW object and is only different if the WMS uses a generalized dataset.
++ **Preview latitude** (`preview_latitude`): allows you to provide a map preview centroid latitude.
++ **Preview longitude** (`preview_longitude`): allows you to provide a map preview centroid longitude.
++ **Preview map aervice URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.
++ **Preview zoom level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.
 + **Image URL** (`preview_image_url`): shows a preview of the data as a static image.
 + **Link to iMap** (`link_to_imap`): shows an interactive preview of the data in iMapBC.
 
-+ **Changes**: _Moved section from record level_ 
-
-
-**Geographic Extent** (`geographic_extent`) **Secton**:
+**Geographic extent** (`geographic_extent`) **Secton**:
 + These are auto populated with the bounding box of the province.
 
-|**Resource Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Resource type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
@@ -339,8 +304,6 @@ Editors can delete resources in any published state
 + **South** (`south_bound_latitude`): 48.0
 + **East** (`east_bound_longitude`): -113.5
 + **West** (`west_bound_longitude`):-139.5
-
-+ **Changes**: _Moved section from record level_
 
 ----------------
 
@@ -382,24 +345,24 @@ This section is currently being developed.
 |:---|:---|:---|
 |Title |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|
 |URL| Leave blank |Leave blank
-|Type|Geographic|Geographic|
-|Resource Description|The Distribution Service allows for data to be exportable in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|The Distribution Service has not been enabled for export this data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
-|Supplemenental Info|See the main dataset page for more information.|The Distribution Service has been disabled for the data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
-|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|See the main dataset page for more information.|
-|Resource Storage Format|multiple|Oracle/SDE|
-|Resource Storage Location|BC Geographic Warehouse|BC Geographic Warehouse|
-|Spatial Datatype|SDO Geometry|SDO Geometry|
-|Object Name|SCHEMA.TABLE|SCHEMA.TABLE|
-|Prokection|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|
-|Resource Access Method|Indirect|Indirect|
+|Resource type|Geographic|Geographic|
+|Resource description|The Distribution Service allows for data to be exportable in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|The Distribution Service has not been enabled for export this data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
+|Supplemenental info|See the main dataset page for more information.|The Distribution Service has been disabled for the data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
+|Supplemenental info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|See the main dataset page for more information.|
+|Resource storage format|multiple|Oracle/SDE|
+|Resource storage location|BC Geographic Warehouse|BC Geographic Warehouse|
+|Spatial datatype|SDO Geometry|SDO Geometry|
+|Object name|SCHEMA.TABLE|SCHEMA.TABLE|
+|Prokection name|EPSG_3005 - NAD83 BC Albers|EPSG_3005 - NAD83 BC Albers|
+|Resource access method|Indirect|Indirect|
 
 **Specific Field Requirements to Enable Export**
 + To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
     1. **Name:** "BC Geographic Warehouse Custom Download"
     2. **Resource Storage Location:** "BC Geographic Warehouse"
-    3. **Object Name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
+    3. **Object name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
 
-+ **Object Name**
++ **Object name**
     - Is the name of the dataset stored in a database.
     - Enter the _SCHEMA.OBJECT_ , e.g., WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP
     - The object name is what is used to automatically populate the metadata record with
@@ -429,6 +392,14 @@ This section is currently being developed.
 
 #### Generalized Resources
 
+Generalized resources are now to be included as an additional resource on the non-generalized record.
+
+|Catalogue Fields| Text Examples|
+|:---|:---|:---|:---|:---|
+|Title |View BC Geographic Warehouse details (export is not enabled)|
+|Resource description|The Distribution Service has not been enabled to allow for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data. See the main page for additional information.|
+|Resource storage format| Oracle/SDE
+
 #### Web Mapping Resources
 
 |Catalogue Fields| WMS|WFS|Network Link KML |iMapBC|
@@ -436,14 +407,14 @@ This section is currently being developed.
 |Title |View WMS getCapabilities request details|View WFS getCapabilities request details|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
 |URL| Leave blank for all of these
 |Type|Webservice/API|
-|Resource Description|Web Mapping Service (WMS) allows for data to be fed out via a service from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
-|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to see or copy the WMS call. For more information see [Web Mapping Services](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E).|
-|Resource Storage Format|wms|wfs|kml|html or geojson
-|Resource Storage Location|BC Geographic Warehouse|
-|Spatial Datatype|SDO Geometry|
-|Object Name|SCHEMA.TABLE
-|Prokection|ESPG_4326 - WSG84 World Geodedic System 1984|ESPG_4326 - WSG84 World Geodedic System 1984|ESPG_4326 - WSG84 World Geodedic System 1984|
-|Resource Access Method|Service|Service|Service|Application|
+|Resource description|Web Mapping Service (WMS) allows for data to be fed out via a service from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
+|Supplemenental info|Click <b>Access/Download</b> in the toolbar to see or copy the WMS call. For more information see [Web Mapping Services](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E).|
+|Resource storage format|wms|wfs|kml|html or geojson
+|Resource storage location|BC Geographic Warehouse|
+|Spatial datatype|SDO Geometry|
+|Object name|SCHEMA.TABLE
+|Prokection name|ESPG_4326 - WSG84 World Geodedic System 1984|ESPG_4326 - WSG84 World Geodedic System 1984|ESPG_4326 - WSG84 World Geodedic System 1984|
+|Resource access method|Service|Service|Service|Application|
 
 ### ArcGIS Online (AGO) Resources
 
@@ -452,14 +423,14 @@ This section is currently being developed.
 |Title |Data - Open item details ArcGIS Online (AGO)|Web map - Open item details ArcGIS Online (AGO)|Web app - Open item details ArcGIS Online (AGO)|Tile service - Open item details ArcGIS Online (AGO)|
 |URL| Leave blank for all of these
 |Type|Geographic|Application|Application|Service|
-|Resource Description|The Distribution Service allows for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
-|Supplemenental Info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|
-|Resource Storage Format|ArcGIS Rest|other|other|other
-|Resource Storage Location|BC Geographic Warehouse or ESRI ARcGIS Online if hosted|
-|Spatial Datatype|SDO Geometry|
-|Object Name|SCHEMA.TABLE
-|Prokection|EPSG_3005 - NAD83 BC Albers or hosted is ESPG_3857|Not Applicable|Not Applicable|
-|Resource Access Method|Direct|Application|Application|Direct|
+|Resource description|The Distribution Service allows for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
+|Supplemenental info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|
+|Resource storage format|ArcGIS Rest|other|other|other
+|Resource storage location|BC Geographic Warehouse or ESRI ARcGIS Online if hosted|
+|Spatial datatype|SDO Geometry|
+|Object name|SCHEMA.TABLE
+|Prokection name|EPSG_3005 - NAD83 BC Albers or hosted is ESPG_3857|Not Applicable|Not Applicable|
+|Resource access method|Direct|Application|Application|Direct|
 
 ## BC Data Catalogue Hosted Resources
 
