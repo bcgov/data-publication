@@ -42,29 +42,17 @@ has_toc: true
 2. Click on *Account Settings*
 3. Bottom left corner is your personal API Key
 
+### How to get names and IDs from the UI
+
+When on navigating pages in the Catalogue, the URL will contain the **name** and when using the **Share** button, the ID will be copied to your clipboard. Minus that of resource that uses only the id.
+ 
+ + organization name : ../organization/information-management-cfd
+ + organization ID : ../organization/a1a9c5cc-b601-4190-b206-13ba08c54292
+ + package (dataset) name : ../dataset/bc-data-catalogue-content
+ + package (dataset) id : ../dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315
+ + resource id : ...dataset/bc-data-catalogue-content/resource/b67e8cfc-32c1-4fd5-be08-ce30542b2a6c
+
 ### How to get your organization name
-To obtain the GUID sub-org it requires the title name of the org
-
-1. **Option 1**:
-	1. Navigate to a record you manage
-	1. Click on the live link of the sub-org or branch name beside **Published by**
-	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
-1. **Option 2**:
-	1. Open up the Catalogue Organizations tree
-	1. Navigate and click on the sub-org/branch name
-	1. Copy the text in the url, e.g, "information-management-cfd" from https://catalogue.data.gov.bc.ca/organization/information-management-cfd
-
-The following python syntax is used as an example from a specific organization
-
-### How to get the organization ID with the organization name
-
-1. **Option 1**:
-	1. Navigate to a record you manage
-	1. Click on the live link of the sub-org or branch name beside **Published by**
-	1. Click the **Share** button, of which will copy the full URL to your clipboard
-	1. Paste into your browser and copy the portion of the org id, e.g., "a1a9c5cc-b601-4190-b206-13ba08c54292" from
-	https://catalogue.data.gov.bc.ca/organization/a1a9c5cc-b601-4190-b206-13ba08c54292
-1. **Option 2**:
 
 ```
 import ckanapi
