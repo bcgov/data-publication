@@ -14,8 +14,12 @@ has_toc: false
 |[*Metadata Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor)|[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
-+ [**Record creation**](#record-creation)
 + [**Record management**](#record-management)
+   + [**Add a Record**](#add-a-record)
+   + [**Edit a Record**](#edit-a-record)
+   + [**Publish or Archive a Record**](#publish-or-archive-a-record)
+   + [**Delete a Record**](#delete-a-record)
++ [**Record fields**](#record-fields)
    + [_Title_](#title) 
    + [_URL_](#url)
    + [_Published by_](#published-by)
@@ -39,24 +43,62 @@ has_toc: false
 
 ------------------------------
 
-## Record creation
+## Record management
 
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
-1. Click the [**Add Dataset**] button.
-1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
     + Follow the [metadata recrod managment section](#metadata-record-management) to complete all mandatory/required fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
-1. Click the [**Save**] button. 
+
+### Add a Record
+
+**To add a record:**
+1. Click the **Add Dataset** button
+1. Fill out all the required fields for a record  as described below as noted in the [field section](#record-fields).
 
 _Note:_ All new metadata records are created that allow the **State** to be set to **Draft**. 
 
-------------------------------
+[RETURN TO TOP][1]
 
-## Record management
+### Edit a Record
+**To edit a record:**
+1. Log In
+1. Navigate to the record to edit (that you have the privileges to do so) and either:
+    1. Click the **Edit Dataset** button
+
+[RETURN TO TOP][1]
+
+### Publish or Archive a Record
+**To publis a record:**
+1. Log In
+1. Navigate to the record to edit (that you have the privileges to do so) and either:
+    1. Click the **Edit Dataset** button
+    1. Change the State to either
+       + Pending Publish
+       + Pending Archive
+    1. Hit Save
+       + This then triggers the publication email notification process
+       + For more details see the [Publication workflow](../dps_bcdc_w.html#publication-states)
+
+
+[RETURN TO TOP][1]
+
+### Delete a Record
+
++ Editors can delete records only in a Draft state
++ Admins can deleted records in any state
+
+**To delete a record:**
+1. Log In
+1. Navigate to the record to edit (that you have the privileges to do so) and:
+    1. Click the **Delete Dataset** button
+
+[RETURN TO TOP][1]
+
+## Record fields
 
 Below is a list of fields with supporting details.  
 
