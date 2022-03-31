@@ -7,29 +7,29 @@ has_children: false
 has_toc: true
 ---
 
-# **PUBLICATION WORKFLOW**
+# **Publication workflow**
 The BC Data Catalogue or Catalogue, as called throughout these documents, is intended for the Province of BC as well as Broader Public Sector organizations to publish metadata about their data holdings as well as applications or services. When data is published to the DataBC Program through any of its services, as well as published under the [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), it must also have a metadata record in the BC Data Catalogue.  DataBC has well documented Data Standards and Guidelines that are followed throughout the process for metadata creation.  The workflows described below will guide you through what your responsibilities are as a publisher to the BC Data Catalogue, and how to create a metadata record in the BC Data Catalogue.
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
-|**AUDIENCE**| | | | |
+|**Audience**| | | | |
 |:---|:---|:---|:---|:---|
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
 
 ## Table of Contents
-+ [**DOCUMENTATION REVIEW**](#documentation-review)
-+ [**HOW TO BECOME A PROVIDER TO THE CATALOGUE**](#how-to-become-a-provider-to-the-catalogue)
-+ [**WHAT DATA LICENCE TO USE?**](#what-data-licence-to-use)
-+ [**CREATION AND PUBLICATION WORKFLOW DIAGRAM**](#creation-and-publication-workflow-diagram)
-+ [**PUBLICATION STATES**](#publication-states)
-+ [**MANAGING METADATA RECORDS**](#managing-metadata-records)
-+ [**MANAGING METADATA RESOURCES**](#managing-metadata-resources)
-+ [**PUBLISHING A METADATA RECORD**](#publishinga-metadata-record)
-+ [**ARCHIVING A METADATA RECORD**](#archivinga-metadata-record)
++ [**Documentation Review**](#documentation-review)
++ [**How to become a Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
++ [**What data Licence to use?**](#what-data-licence-to-use)
++ [**Creation and Publication workflow diagram**](#creation-and-publication-workflow-diagram)
++ [**Publication states**](#publication-states)
++ [**Managing Records**](#managing-metadata-records)
++ [**Managing Resources**](#managing-a-resources)
++ [**Publishing Records**](#publishinga-records)
++ [**Archiving Records**](#archivinga-a-records)
   
 ------------------------------
 
-## DOCUMENTATION REVIEW
+## Documentation Review
 
 The first step in the process is to review the documentation: 
 + [BCDC Standards and Guidelines](./dsg_bcdc.html)
@@ -40,13 +40,13 @@ The first step in the process is to review the documentation:
 
 ------------------------------
 
-## HOW TO BECOME A PROVIDER TO THE CATALOGUE
+## How to become a Provider to the Catalogue
 
 This section has moved to BC Data Catalogue [Where to Start](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
 
 ------------------------------
 
-## WHAT DATA LICENCE TO USE?
+## What data Licence to use?
 
 Every dataset needs to define a licence or use statement. 
 
@@ -54,7 +54,7 @@ This section moved to [Licences](./dps_licences.md) and see licening options in 
 
 ------------------------------
 
-## CREATION AND PUBLICATION WORKFLOW DIAGRAM
+## Creation and Publication workflow diagram
 
 ### [BCDC Metadata Creation and Publication Workflow](./images/wf_MetadataCreation.svg)
 Once you are ready, use the steps in this workflow to guide you through the process of creating a metadata record.
@@ -64,7 +64,7 @@ Once you are ready, use the steps in this workflow to guide you through the proc
 
 ------------------------------
 
-## PUBLICATION STATES
+## Publication states
 
 Metadata and data both follow a life cycle and thus the Catalogue allows for multiple states.
 
@@ -81,40 +81,33 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 
 ------------------------------
 
-## MANAGING METADATA RECORDS
+## Managing Records
 
 * New records are created in a Draft state.
 * A record in any state can be edited.
 * Editors can only deleted records in a state of Draft.
 * Admins can delete records in any state.
 
-For record creation and managmenent throught the **User interface (UI)**:
-* [Record Management](./dps_bcdc_w_record_mgmt_ui.md)
-
-For record managmenent throught the **API**:
-* [API Record Managment](./dps_bcdc_api_w_record_mgmt.md)
-
-------------------------------
-
-## MANAGING METADATA RESOURCES
-
-* Resources can be added, edited or deleted in any state.
-
-For managmenent throught the **User interface (UI)**:
-
-+ [Adding a Resource](./dps_bcdc_w_resource_mgmt_ui.md#add-a-resource)
-+ [Editing a Resource](./dps_bcdc_w_resource_mgmt_ui.md#edit-a-resource)
-    - [Replacing a resource stored in the Catalogue Data Store](./dps_bcdc_w_resource_mgmt_ui.md#replace-a-file-in-the-catalogue-data-store)
-+ [Deleteing a Resource](./dps_bcdc_w_resource_mgmt_ui.md#delete-a-resource)
-
-For resource managmenent throught the **API**:
-* [API Resource Managment](./dps_bcdc_api_w_resource_mgmt.md)
+For record creation and managmenent throught the 
+* **User interface (UI)**: [Record management](./dps_bcdc_w_record_mgmt_ui.md)
+* **API**: [API Record managment](./dps_bcdc_api_w_record_mgmt.md)
 
 [RETURN TO TOP][1]
 
 ------------------------------
 
-## PUBLISHING A METADATA RECORD
+## Managing Resources
+
+* Resources can be added, edited or deleted in any state.
+
+* **User interface (UI)**: [Resource management](./dps_bcdc_w_record_mgmt_ui.md)
+* **API**: [API Resource Managment](./dps_bcdc_api_w_resource_mgmt.md)
+
+[RETURN TO TOP][1]
+
+------------------------------
+
+## Publishing Records
 
 Once the metadata record and its resources are complete and ready for publication review, the editor edits the **State** by setting it to **Pending Publish**.
 
@@ -148,7 +141,7 @@ Once the metadata record and its resources are complete and ready for publicatio
 
 ------------------------------
 
-## ARCHIVING A METADATA RECORD
+## Archiving Records
 
 When a dataset is no longer relevant, the **State** should be set to **Pending Archive**, so as to notify DataBC Catalogue administrators as well it informs uses who read the metadata that there is an intending Archive. Recommend following the items as there are more fields available to give users more information, e.g., what is the replacement dataset or record.
 
