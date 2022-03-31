@@ -37,6 +37,8 @@ has_toc: true
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
 [![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
+[RETURN TO TOP][1]
+
 ------------------------------
 
 
@@ -65,6 +67,8 @@ Requests can be made for yourself or on behalf of others.
 
 A Catalogue administrator will then action your request and contact you with all relevant information to get you started as an Editor in the BC Data Catalogue.
 
+[RETURN TO TOP][1]
+
 ### How to become a Provider for another Organization
 
 It is common for organizations to have staff who work in other Sub-Organizations or branches who steward their data. There may be many reasons for this.
@@ -80,6 +84,8 @@ It is common for organizations to have staff who work in other Sub-Organizations
 ## How to publish records
 
 See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
+
+[RETURN TO TOP][1]
 
 ------------------------------
 
@@ -119,6 +125,8 @@ To create a group, please open a ticket with the [Data Systems & Services reques
 
 To request updates to accounts for your organization, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
+[RETURN TO TOP][1]
+
 ### Organization details
 
 Not all Ministry or Broader Public Sector organizations are listed in the catalogue. Only those with records are listed.
@@ -142,6 +150,8 @@ On each record it will state the Sub-organization name that the record has been 
 
 For editors of multiple sub-organizations, they will be able to select a record to be **Published By** any of these.
 
+[RETURN TO TOP][1]
+
 ### Contact details
 
 All records require one visible contact to the public, and at times this is their generic inbox. However we do recommend that additional contacts be listed which may require logging into the Catalogue to see.
@@ -159,6 +169,8 @@ It is the responsibility of the org listed as Published by to maintain their rec
 
 Creating and managing records and resources in bulk can be done via the API. [See Content Management and Use via the API](dps_bcdc_api_w_how_to_use.md).
 
+[RETURN TO TOP][1]
+
 ### Do bulk updates
 
 When there are more than 20 records that require updating, a bulk update can be requested by opening a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and include in the description:
@@ -169,6 +181,7 @@ When there are more than 20 records that require updating, a bulk update can be 
 	+ State Change
 	+ URL modifications for More Info and Resources
 
+[RETURN TO TOP][1]
 
 ### Reorder resources
 
@@ -184,7 +197,7 @@ For support, please open a ticket with the [Data Systems & Services request syst
        - Those that have the highest value to the end users
        - Or if there are a lot of resources, alphabetical may also be
 
-
+[RETURN TO TOP][1]
 ------------------------------
 
 ## Other frequently asked questions
