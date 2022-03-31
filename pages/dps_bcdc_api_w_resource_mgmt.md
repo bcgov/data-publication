@@ -13,7 +13,7 @@ has_toc: true
 
 |**Audience**| | |
 |:---:|:---:|:---:|
-| *Catalogue Editors* | *Catalogue Admin* | *Catalogue Developers* |
+| [*Catalogue Editors*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_editor) | [*Catalogue Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 + [**How to manage Resources using the Catalogue API**](#how-to-manage-resources-using-the-catalogue-api)
