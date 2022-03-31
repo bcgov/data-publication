@@ -7,7 +7,7 @@ parent: Content Mgmt/Use - UI
 has_children: false
 has_toc: false
 ---
-# BC Data Catalogue Record management
+# BC Data Catalogue Records
 
 |**Audience**| |
 |:---|:---|
@@ -362,4 +362,4 @@ To add a resource:
 ---------------
 [RETURN TO TOP][1]
 
-[1]: #bc-data-catalogue-record-management
+[1]: #bc-data-catalogue-records
