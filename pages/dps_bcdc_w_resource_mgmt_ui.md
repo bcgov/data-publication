@@ -221,7 +221,7 @@ Editors can delete resources in any published state
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-|**Object short name** (`object_short_name`): 
+**Object short name** (`object_short_name`): 
 + For BCGW datasets, the short name used for download for Shape Files.
 + This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
 + This is populated via an automated process pushed from the BCGW to the Catalogue.
