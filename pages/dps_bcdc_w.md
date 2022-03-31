@@ -25,7 +25,7 @@ This page is written in the context that you have reviewed all information in th
 + [**Managing Records**](#managing-records)
 + [**Managing Resources**](#managing-resources)
 + [**Publishing Records**](#publishing-records)
-+ [**Archiving Records**](#archivinga-records)
++ [**Archiving Records**](#archiving-records)
   
 ------------------------------
 
