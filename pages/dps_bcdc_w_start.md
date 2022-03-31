@@ -8,6 +8,11 @@ has_toc: true
 ---
 # **Getting started with the BC Data Catalogue**
 
+
+|| | **Audeience**| | |
+|:---|:---|:---|:---|:---|
+|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Catalogue Editor*](./glossary.md#metadata_editor)|
+
 ## Table of Contents
 
 1. [**Where do I start**](#where-do-i-start)
@@ -24,12 +29,6 @@ has_toc: true
 	+ [Do bulk updates](#do-bulk-updates)
 	+ [Reorder Resources](#reorder-resources)
 1. [**Other Frequently Asked Questions**](#other-frequently-asked-questions)
-
-------------------------------
-
-|| | **Audeience**| | |
-|:---|:---|:---|:---|:---|
-|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Catalogue Editor*](./glossary.md#metadata_editor)|
 
 ------------------------------
 ## Where do I start
