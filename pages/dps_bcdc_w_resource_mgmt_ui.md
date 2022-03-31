@@ -12,7 +12,7 @@ has_toc: true
 
 |**Audience**| |
 |:---|:---|
-|[*Metadata Editors*](./glossary.md#metadata_editor)|[*Metadata Admin*](./pages/glossary.md#metadata_admin)|
+|[*Catalogue Editors*](./glossary.md#metadata_editor)|[*Catalogue Admin*](./pages/glossary.md#metadata_admin)|
 
 ## Table of Contents
 
