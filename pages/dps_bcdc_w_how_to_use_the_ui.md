@@ -15,7 +15,7 @@ has_toc: false
     - [Application](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#application)
     - [Document/Tabular Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#document-and-tabular-data)
     - [Geographic Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#geographic-data)
-    - [Webservice/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
+    - [Web Service/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
 
 --------
 ## BC Data Catalogue User Advanced Search
