@@ -7,7 +7,7 @@ parent: Content Mgmt/Use - UI
 has_children: false
 has_toc: false
 ---
-# BC DATA CATALOGUE RECORD MANAGEMENT
+# BC Data Catalogue Record management
 
 |**AUDIENCE**|
 |:---|
@@ -15,8 +15,8 @@ has_toc: false
 |[*Metadata Admin*](https://bcgov.github.io/data-publication/pages/glossary.html#metadata_admin)|
 
 ## Table of Contents
-+ [**METADATA RECORD CREATION**](#metadata-record-creation)
-+ [**METADATA RECORD MANAGEMENT**](#metadata-record-management)
++ [**Record creation**](#record-creation)
++ [**Record management**](#record-management)
    + [Data Elements on a Record](#data-elements-on-a-record)
       + [_Title_](#title) 
       + [_URL_](#url)
@@ -36,12 +36,12 @@ has_toc: false
       + [_Publish state_](#state)
       + [_Resource status_](#resource-status)
       + [_Record lifecycle history_](#record-lifecycle-history)
-+ [**RESOURCE MANAGEMENT**](#resource-management)
++ [**Resource management**](#resource-management)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
 ------------------------------
 
-## METADATA RECORD CREATION
+## Record creation
 
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
@@ -58,7 +58,7 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ------------------------------
 
-## METADATA RECORD MANAGEMENT
+## Record management
 
 ### Data Elements on a Record
 
@@ -66,7 +66,7 @@ Below is a list of fields with supporting details.
 
 [RETURN TO TOP][1]
 
-#### Title
+#### Title (`title`)
 
 This is the title of your metadata record and is a required field.
 
@@ -86,7 +86,7 @@ Tips:
 
 [RETURN TO TOP][1]
 
-#### URL
+#### URL (`name1)
 
 This is automatically generated while typing in the _**Title**_ with special characters and spaces are replaced with underscores.
 + This is a required field.
@@ -96,20 +96,20 @@ This is automatically generated while typing in the _**Title**_ with special cha
 
 [RETURN TO TOP][1]
 
-#### Published by
+#### Published by (`owner_org`)
 
 This is the Sub-Organization (often the Branch or Division) under which the metadata record is created and published.
 + This is a required field
 
 [RETURN TO TOP][1]
 
-#### Description
+#### Description (`notes`)
 
 Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset, and is a required field.
 
 [RETURN TO TOP][1]
 
-#### Licence
+#### Licence (`license_id`)
 
 Describes the license the data is being published under. 
 + This is a required field
@@ -117,16 +117,16 @@ Describes the license the data is being published under.
 
 [RETURN TO TOP][1]
 
-#### Contacts
+#### Contacts (`contacts`)
 
 At least one contact is required. 
 
 |Field Name |Descripion |Required/Optional|Comments|
 |:---|:---|:---:|:---|
-|**Name**| Contact full name or business area if group inbox|(required)| |
-|**Email**| Contact email address|(required)| |
-|**Organization**| Contact organization| |Ministry level has been removed|(required)|
-|**Role**| Contact role type | | |
+|**Name** (`name`)| Contact full name or business area if group inbox|(required)| |
+|**Email** (`email`)| Contact email address|(required)| |
+|**Organization** (`org`)| Contact organization| |Ministry level has been removed|(required)|
+|**Role** (`role`) | Contact role type | | |
 | |[Point of Contact](./glossary.md/#point_of_contact)| (required) |- Recommend the first contact to be a generic inbox. On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.|
 | |[Access Approver](./glossary.md/#access_approver) |(optional) |  Recommend that this role is not displayed to Public catalogue users.|
 | |[Business Expert](./glossary.md/#business_expert) |(optional)| |
@@ -134,32 +134,32 @@ At least one contact is required.
 | |[Custodian](./glossary.md/#custodian)| (optional) |- Recommend a custodian is identified and not displayed as a contact to the Public|
 | |[Data Steward](./glossary.md/#data_steward)| (optional) | |
 | | [Distributor](./glossary.md/#distributor) |(optional) | |
-|**Displayed**:|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
+|**Displayed** (`displayed`)|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
 
 [RETURN TO TOP][1]
 
-#### Purpose
+#### Purpose (`purpose`)
 
 This is a summary of the intentions for which the dataset was developed, and is an optional field. 
 + To provide a complete picture into the nature of the record and resources, it is encouraged to provide some text before publishing so consumers will understand the purpose of and how to use the published data.
 
 [RETURN TO TOP][1]
 
-#### Data quality
+#### Data quality (`data_quality`)
 
 This is descriptive text that can include information about issues, completeness, consistency, etc., and is an optional field.
 + To provide a complete picture into the record's quality, it is encouraged to provide some text before publishing so consumers will understand the data quality of the published data.
 
 [RETURN TO TOP][1]
 
-#### Data lineage
+#### Data lineage (`lineage_statement)
 
 This is information about the events or source data used in constructing the data, and is an optional field.
 + To provide a complete picture into the record's source data, it si encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
 
 [RETURN TO TOP][1]
 
-#### Related links
+#### Related links (`more_info`)
 
 This is additional information (one or more references) to support the dataset or the pubishing organization, and the fields are an optional set of fields.
 + **Title of web asset**
@@ -169,7 +169,7 @@ This is additional information (one or more references) to support the dataset o
 
 [RETURN TO TOP][1]
 
-#### Security classification
+#### Security classification (`security_class`)
 
 The Security Classification has been updated and records transformed to reflect the OCIO's standard.
 + This is a required field.
@@ -183,7 +183,7 @@ The Security Classification has been updated and records transformed to reflect 
 
 [RETURN TO TOP][1]
 
-#### Who can view this data?
+#### Who can view this data? (`view_audience`)
 
 Describes who can view, for example, the BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
 + The order reflects the most accessible to the most secure.
@@ -199,7 +199,7 @@ Describes who can view, for example, the BC Geographic Warehouse (BCGW) resource
 
 [RETURN TO TOP][1]
 
-#### Who can download this data?
+#### Who can download this data? (`download_audience`)
 
 Describes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
 + The order reflects the most accessible to the most secure.
@@ -216,7 +216,7 @@ Describes the security level for access to download BC Geographic Warehouse (BCG
 
 [RETURN TO TOP][1]
 
-#### Who can view this record?
+#### Who can view this record? (`metadata_visibility`)
 
 Describes who can view the metadata record.
 + The order reflects the most accessible to the most secure.
@@ -229,7 +229,7 @@ Describes who can view the metadata record.
     
 [RETURN TO TOP][1]
 
-#### Keywords
+#### Keywords (`tag_string`)
 
 These are the searchable terms for the metadata record, and at least one keyword is required, however, not limited to just one keywork 
 + Enter meaningful keywords here. 
@@ -237,7 +237,7 @@ These are the searchable terms for the metadata record, and at least one keyword
 
 [RETURN TO TOP][1]
 
-#### Published state
+#### Publish state (`publish_state`)
 
 When creating a new metadata record, the state will be set to **Draft**. To do so click the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state. The state selected will become the checkmark.
 
@@ -258,7 +258,7 @@ When creating a new metadata record, the state will be set to **Draft**. To do s
 
 [RETURN TO TOP][1]
 
-#### Resource status
+#### Resource status (`resource_status`)
 
 Defines the status of the dataset, service, API or application as described by one of the types below: 
 + A resource or record changes status over its lifecycle.
@@ -277,7 +277,7 @@ Defines the status of the dataset, service, API or application as described by o
     
 [RETURN TO TOP][1]
    
-#### Record lifecycle history
+#### Record lifecycle history (`dates`)
 
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.  This comprises of two required fields. 
 
@@ -295,20 +295,20 @@ When there are changes to a resource in a metadata record, a new date type and c
 **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
      +  Required when creating a record.
 
-<a name=replacement_record>**Replacement Record**</a>: URL of the new record replacing this dataset after it is retired (archived).
+**Replacement record** (`replacement_record`): URL of the new record replacing this dataset after it is retired (archived).
 + Is required when **Resource Status** is **Obsolete**
 
-<a name=retention_expiry_date>**Rentention Expiry Date**</a>:
-+ Is required when **Resource Status** is **Historical Archive**
+**Rentention expiry date** (`retention_expiry_date`):
++ Is required when **Resource status** is **Historical Archive**
 
-<a name=source_data_path>**Source Data Path**</a>:
-+ Is required when **Resource Status** is **Historical Archive**
+**Source data path** (`source_data_path`):
++ Is required when **Resource status** is **Historical Archive**
 
 [RETURN TO TOP][1]
 
 ---------------
 
-## RESOURCE MANAGEMENT
+## Resource management
 
 To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record level
@@ -318,7 +318,7 @@ To add a resource:
 
 ---------------
 
-## ADDITIONAL RESOURCES
+## Additional resources
 
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
 + See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
