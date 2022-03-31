@@ -7,7 +7,7 @@ parent: Content Mgmt/Use - UI
 has_children: false
 has_toc: false
 ---
-# BC Data Catalogue Records
+# **BC Data Catalogue Records**
 
 ||**Audience** | |
 |:---:|:---:|:---:|
