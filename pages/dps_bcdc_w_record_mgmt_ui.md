@@ -165,10 +165,10 @@ At least one contact is required.
 |**Organization** (`org`)| Contact organization| |Ministry level has been removed|(required)|
 |**Role** (`role`) | Contact role type | | |
 | |[Point of Contact](./glossary.md/#point_of_contact)| (required) |- Recommend the first contact to be a generic inbox. On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.|
-| |[Access Approver](./glossary.md/#access_approver) |(optional) |  Recommend that this role is not displayed to Public catalogue users.|
+| |[Access Approver](./glossary.md/#access_approver) |(optional) |  Recommend that this role is not displayed to public catalogue users.|
 | |[Business Expert](./glossary.md/#business_expert) |(optional)| |
 | |[Data Manager](./glossary.md/#data_manager) |(optional) | |
-| |[Custodian](./glossary.md/#custodian)| (optional) |- Recommend a custodian is identified and not displayed as a contact to the Public|
+| |[Custodian](./glossary.md/#custodian)| (optional) |- Recommend a custodian is identified and not displayed as a contact to the public|
 | |[Data Steward](./glossary.md/#data_steward)| (optional) | |
 | | [Distributor](./glossary.md/#distributor) |(optional) | |
 |**Displayed** (`displayed`)|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
@@ -177,30 +177,30 @@ At least one contact is required.
 
 ### Purpose (`purpose`) <a name="purpose"></a>
 
-This is a summary of the intentions for which the dataset was developed, and is an optional field. 
+This is a summary of the intentions for which the dataset was developed. 
 + To provide a complete picture into the nature of the record and resources, it is encouraged to provide some text before publishing so consumers will understand the purpose of and how to use the published data.
 
 [RETURN TO TOP][1]
 
 ### Data quality (`data_quality`) <a name="data-quality"></a>
 
-This is descriptive text that can include information about issues, completeness, consistency, etc., and is an optional field.
+This is descriptive text that can include information about issues, completeness, consistency, etc.
 + To provide a complete picture into the record's quality, it is encouraged to provide some text before publishing so consumers will understand the data quality of the published data.
 
 [RETURN TO TOP][1]
 
 ### Data lineage (`lineage_statement`) <a name="data-lineage"></a>
 
-This is information about the events or source data used in constructing the data, and is an optional field.
-+ To provide a complete picture into the record's source data, it si encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
+This is information about the events or source data used in constructing the data.
++ To provide a complete picture into the record's source data, it is encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
 
 [RETURN TO TOP][1]
 
 ### Related links (`more_info`) <a name="related-links"></a>
 
-This is additional information (one or more references) to support the dataset or the pubishing organization, and the fields are an optional set of fields.
+This is additional information (one or more references) to support the dataset or the publishing organization.
 + **Title of web asset**
-   + Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend to use the + Permalink, thus when pages are moved around the link is not broken.
+   + Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend using the + Permalink, thus when pages are moved around the link is not broken.
 + **URL**
    + Any related web site URL's can be added here.
 
@@ -227,7 +227,7 @@ Describes who can view, for example, the BC Geographic Warehouse (BCGW) resource
 
     |Access Type| Description
     |:---|:---|
-    |Public| All users can access the dataset.
+    |Public| All can access the dataset.
     |Government and Business BCeID| Only people with IDIR and Business BCeID credentials can access the dataset.
     |Government| Only IDIR credentials can access the dataset.
     |Named Users| Only specific named users can access the dataset.
@@ -276,13 +276,13 @@ When creating a new metadata record, the state will be set to **Draft**. To do s
 
 * To change a state a record must be saved, edited by clicking on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state desired.
 
-+ Only states that can transition between eachother will be visible in edit mode.
++ Only states that can transition between each other will be visible in edit mode.
 
     |State|Record Visibility|Email Notificaiton|
     |:---|:---|:---|
     |Draft|Only editors and admin of an org can see these records |None|
     |Pending Publish|Only editors and admin of an org can see these records| Administrators |
-    |Published|Published records are visiable to users |All Editors of that org|
+    |Published|Published records are visible to users |All Editors of that org|
     |Pending Archive|Pending archive records are visible to users until Archived |Administrators|
     |Archived|Only editors of an org can see these records |All Editors of that org |
 
@@ -296,13 +296,13 @@ Defines the status of the dataset, service, API or application as described by o
    
     |Data Update Status|Description|
     |:---|:---|
-    |Planned|Resources that do not currently exist, but are planned for the future, should be described as planned.|
+    |Planned|Resources that do not currently exist, but is planned for the future, should be described as planned.|
     |Under Development|Resources that are under development, but are not necessarily complete in nature, should be described as under development.|
     |Ongoing|Resources that are regularly updated should be described as ongoing.|
     |Required| |
     |Completed|Resources with no plan for future updates should be described as completed.|
     |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - [**Replacement Record**](./dps_bcdc_record.md#replacement_record)|
-    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional inforomation will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
+    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional information will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
     
 [RETURN TO TOP][1]
