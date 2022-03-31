@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# Resource management in the BC Data Catalogue User Interface (UI)
+# BC Data Catalogue Resources
 
 |**Audience**| |
 |:---|:---|
@@ -473,5 +473,5 @@ Generalized resources are now to be included as an additional resource on the no
 
 [RETURN TO TOP][1]
 
-[1]: #resource-management-in-the-bc-data-catalogue-user-interface-ui
+[1]: #bc-data-catalogue-resources
 
