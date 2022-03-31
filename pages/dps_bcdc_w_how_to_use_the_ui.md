@@ -7,7 +7,7 @@ has_children: true
 has_toc: false
 ---
 
-# BC DATA CATALOGUE RESOURCE CONTENT MANAGEMENT
+# BC Data Catalogue User Interface (UI) content management
 
 [Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
 
@@ -18,7 +18,7 @@ has_toc: false
     - [Webservice/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
 
 --------
-## BC DATA CATALOGUE ADVANCED SEARCH
+## BC Data Catalogue User Advanced Search
 
 Within the search bar, once can pass queries
 
