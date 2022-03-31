@@ -12,9 +12,9 @@ The BC Data Catalogue or Catalogue, as called throughout these documents, is int
 
 This page is written in the context that you have reviewed all information in the 'Documentation Review' section.
 
-|**Audience**| | | | |
+| | |**Audience** | | |
 |:---|:---|:---|:---|:---|
-|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Metadata Editor*](./glossary.md#metadata_editor)|
+|[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Catalogue Editor*](./glossary.md#metadata_editor)|
 
 ## Table of Contents
 + [**Documentation Review**](#documentation-review)
