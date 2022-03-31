@@ -8,17 +8,15 @@ has_children: false
 has_toc: true
 ---
 
-# RESOURCE MANAGEMENT USING THE BC DATA CATALOGUE API 
-
+# BC Data Catalogue Resource API management
 -------------
 
-|**AUDIENCE**|
-|:---:|
-| *Metadata Editors* |
-| *Metadata Admin* |
+|**Audience**| | |
+|:---:|:---:|:---:|
+| *Catalogue Editors* | *Catalogue Admin* | *Catalogue Developers* |
 
 ## Table of Contents
-+ [**HOW TO MANAGE RESOURCES USING THE CATALOGUE API**](#how-to-manage-resources-using-the-catalogue-api)
++ [**How to manage Resources using the Catalogue API**](#how-to-manage-resources-using-the-catalogue-api)
 	+ [How to create a resource with the API](#how-to-create-a-resource-with-the-api)
 	+ [How to update a resource with the API using resource_update](#how-to-update-a-resource-with-the-api-using-resource_update)
 	+ [How to update a resource with the API using resource_patch](#how-to-update-a-resource-with-the-api-using-resource_patch)
@@ -31,7 +29,7 @@ has_toc: true
 
 -----------------------
 
-## HOW TO MANAGE RESOURCES USING THE CATALOGUE API
+## How to manage Resources using the Catalogue API
 
 To use the Catalogue API to manage and create metadata resources one must be an editor/publisher. Review [How to Become a Provider to the Catalogue](dps_bcdc_w.md#HOW-TO-BECOME-A-PROVIDER-TO-THE-CATALOGUE) for more information.
 
@@ -113,4 +111,4 @@ print(resp)
 
 [RETURN TO TOP][1]
 
-[1]: #resource-management-using-the-bc-data-catalogue-api
+[1]: #bc-data-catalogue-resource-api-management
