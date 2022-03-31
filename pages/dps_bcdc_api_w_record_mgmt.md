@@ -8,7 +8,7 @@ has_children: false
 has_toc: false
 ---
 
-# BC Data Catalgoue API Record management
+# BC Data Catalogue API Record management
 
 -------------
 
@@ -96,4 +96,4 @@ print(resp)
 
 [RETURN TO TOP][1]
 
-[1]: #bc-data-catalgoue-api-record-management
+[1]: #bc-data-catalogue-api-record-management
