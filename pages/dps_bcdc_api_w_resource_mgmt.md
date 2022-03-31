@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# BC Data Catalogue Resource API management
+# **BC Data Catalogue Resource API management**
 -------------
 
 ||**Audience** | |
