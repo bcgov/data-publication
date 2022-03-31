@@ -8,23 +8,22 @@ has_children: false
 has_toc: true
 ---
 
-# COMMON CALLS USING THE BC DATA CATALOGUE API
+# Common calls using the BC Data Catalogue API
 
 -------------
 
-|**AUDIENCE**|
-|:---:|
-| *Metadata Editors* |
-| *Metadata Admin* |
+|**Audience**| |
+|:---:|:---:|
+| *Metadata Editors* | *Metadata Admin* |
 
 ## Table of Contents
-+ [**HOW TO GET INFORMATION**](#how-to-get-information)
++ [**How to get information**](#how-to-get-information)
     + [**How to get your API Key**](#how-to-get-your-api-key)
     + [**How to get your organization name**](#how-to-get-you-organiation-guid)
     + [**How to get the organization ID with the organization name**](#how-to-get-the-organization-id-with-the-organization-name)
     + [**How to get package names and package IDs within an organization**](#how-to-get-package-names-and-package-ids-within-an-organization)
     + [**How to get the resource names and resource IDs withing a package**](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
-+ [**COMMON CALLS**](#common-calls)
++ [**Common calls**](#common-calls)
     + [**object name**](#object_name)
     + [**bcdc type**](#bcdc_type)
     + [**resource storage location**](#resource_storage_location)
@@ -35,7 +34,7 @@ has_toc: true
 + See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
 
 -----------------------
-## HOW TO GET INFORMATION
+## How to get information
 
 ### How to get your API Key
 1. Log into the Catalogue
@@ -90,7 +89,7 @@ for resource in pkg_data['resources']:
     print(resource['name'], resource['id'])
 ```
 
-## COMMON CALLS
+## Common calls
 
 + **Licence list** is found [here](https://licenses-bcdc.data.gov.bc.ca/bcdc_licenses.json).
 + **JSON Schema** is found [here](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset).
