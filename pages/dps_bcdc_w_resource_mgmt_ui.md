@@ -20,7 +20,7 @@ has_toc: true
    + [Application](#application)
    + [Document/Tabular Data](#document-and-tabular-data)
    + [Geographic Data](#geographic-data)
-   + [WebService and API](#webservice-and-api)
+   + [Web Service and API](#webservice-and-api)
 + [**Resource management**](#resource-management)
    + [Add a Resource](#add-a-resource)
    + [Edit a Resource](#edit-a-resource)
@@ -84,7 +84,7 @@ A type of resource associated to a record, which is used for tables in Comma Sep
 
 A resource type associated to a record, which is used for data that may, or may not, contains geospatial information along with other data.  Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This resource type **must** be used for all BCGW resources.
 
-### WebService and API
+### Web Service and API
 
 A resource type associated to a record, which is used for metadata relating to web services or application programming interfaces (APIs).
 
@@ -156,43 +156,43 @@ Editors can delete resources in any published state
 + A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
     - For a full list of [actionable language](https://polaris.shopify.com/content/actionable-language) 
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Resource (`url`) <a name="url"></a>
 + Is a link to a file or resource stored elsewhere.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Type \* (`bcdc_type`) <a name="type"></a>
 + Is the resource type that defines the available fields for a resource.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
-|Select:|_'Application'_ (`application`)|_'Tabular'_ (`dataset`) |_'Geographic Dataset'_ (`geographic`)|_'WebService/API'_ (`webservice`)|
+|Select:|_'Application'_ (`application`)|_'Tabular'_ (`dataset`) |_'Geographic Dataset'_ (`geographic`)|_'Web Service/API'_ (`webservice`)|
 
 ### Resource description (`description`)  <a name="resouce-description"></a>
 + Is a detailed description of the resource.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Supplemental information (`supplemental_info`) <a name="supplemental-information"></a>
 + Any additional relevant information about the resource can be included here.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Frequency of resource update \* (`resource_update_cycle`) <a name="frequency-of-resource-update"></a>
 + Describes how often the resource is updated.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
@@ -207,7 +207,7 @@ Editors can delete resources in any published state
 ### Data collection period (`temporal_extent`)  <a name="data-collection-period"></a>
 + A Start and/or End Data can be added if the data reflects a period of time.'.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
@@ -220,28 +220,28 @@ Editors can delete resources in any published state
 ### Resource storage format \* (`format`) <a name="resource-storage-format"></a>
 + Describes the file extension for the resource
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Resource storage location \* (`resource_storage_location`) <a name="resource-storage-location"></a>
 + The location the data is stored in
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Spatial datatype \* (`spatial_datatype`) <a name="spatial-datatype"></a>
 + The datatype in a database.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Object name (`object_name`) <a name="object-name"></a>
 + Is the name of the dataset stored in a database.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
@@ -269,14 +269,14 @@ Editors can delete resources in any published state
 ### Projection name \* (`projection_name`) <a name="projection-name"></a>
 + Is a drop down list of common projections used in BC for geographic data.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|Y**NEW**|
 
 ### JSON Table Schema (`json_table_schema`) <a name="json-table-schema"></a>
 +
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
@@ -284,7 +284,7 @@ Editors can delete resources in any published state
 + [Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). 
 + [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y |N|
 
@@ -292,7 +292,7 @@ Editors can delete resources in any published state
 + Is the type of resource.
 + Being reviewed if useful.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
@@ -300,14 +300,14 @@ Editors can delete resources in any published state
 + Describes how the end-user can access the data.
 + Being reviewed if useful.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Preview information (`preview_info`) **Section**  <a name="preview-information"></a>
 + Automatically populated if public to build the Map Preview.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
@@ -322,7 +322,7 @@ Editors can delete resources in any published state
 ### Geographic extent (`geographic_extent`) **Section**  <a name="geographic-extent"></a>
 + These are auto populated with the bounding box of the province.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|WebService/ API|
+|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|N|N|Y|N|
 
@@ -433,7 +433,7 @@ Generalized resources are now to be included as an additional resource on the no
 |:---|:---|:---|:---|:---|
 |Title |View WMS getCapabilities request details|View WFS getCapabilities request details|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
 |URL| Leave blank for all of these
-|Type|Webservice/API|
+|Type|Web Service/API|
 |Resource description|Web Mapping Service (WMS) allows for data to be fed out via a service from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
 |Supplemenental info|Click <b>Access/Download</b> in the toolbar to see or copy the WMS call. For more information see [Web Mapping Services](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E).|
 |Resource storage format|wms|wfs|kml|html or geojson
