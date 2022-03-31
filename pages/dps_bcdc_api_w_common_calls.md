@@ -48,12 +48,12 @@ has_toc: true
 + When using the **Share** button on those pages, the ID will be copied to your clipboard. Minus that of resource that uses only the id.
 
 **Examples**:
- + organization name : ../organization/information-management-cfd
- + organization ID : ../organization/a1a9c5cc-b601-4190-b206-13ba08c54292
- + package (dataset) name : ../dataset/bc-data-catalogue-content
- + package (dataset) id : ../dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315
- + resource id : ...dataset/bc-data-catalogue-content/resource/b67e8cfc-32c1-4fd5-be08-ce30542b2a6c
-
+ + organization name : ../organization/**information-management-cfd**
+ + organization ID : ../organization/**a1a9c5cc-b601-4190-b206-13ba08c54292**
+ + package (dataset) name : ../dataset/**bc-data-catalogue-content**
+ + package (dataset) id : ../dataset/**42f7ca99-e7f3-40f7-93d7-f2500cccc315**
+ + resource id : ...dataset/bc-data-catalogue-content/resource/**b67e8cfc-32c1-4fd5-be08-ce30542b2a6c
+**
 ### How to get your organization name
 
 ```
