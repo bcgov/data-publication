@@ -20,22 +20,22 @@ has_toc: false
    + [Data Elements on a Record](#data-elements-on-a-record)
       + [_Title_](#title) 
       + [_URL_](#url)
-      + [_Published By_](#published-by)
+      + [_Published by_](#published-by)
       + [_Description_](#description)
       + [_Licence_](#licence)
       + [_Contacts_](#contacts)
       + [_Purpose_](#purpose)
-      + [_Data Quality_](#data-quality)
-      + [_Lineage Statement_](#lineage-statement)
-      + [_More Info_](#more-info)
-      + [_Security Classification_](#security-classification)
+      + [_Data quality_](#data-quality)
+      + [_Data lineage_](#data-lineage)
+      + [_Related links_](#related-links)
+      + [_Security classification_](#security-classification)
       + [_Who can view this data?_](#who-can-view-this-data)
       + [_Who can download this data?_](#who-can-download-this-data)
       + [_Who can view this record?_](#who-can-view-this-record)
       + [_Keywords_](#keywords)
-      + [_State_](#state)
-      + [_Resource Status_](#resource-status)
-      + [_Record Lifecycle History_](#record-lifecycle-history)
+      + [_Publish state_](#state)
+      + [_Resource status_](#resource-status)
+      + [_Record lifecycle history_](#record-lifecycle-history)
 + [**RESOURCE MANAGEMENT**](#resource-management)
 + [**ADDITIONAL RESOURCES**](#additional-resources)
 
@@ -49,7 +49,6 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
 1. Click the [**Add Dataset**] button.
 1. Complete the [record](./glossary.md#record) details to describe what you are publishing and then you will be able to add different resource types after.
-    + **NEW** This is a change from the previous Catalogue where you had to specify the Resource Type at the beginning. 
     + Follow the [metadata recrod managment section](#metadata-record-management) to complete all mandatory/required fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
@@ -97,7 +96,7 @@ This is automatically generated while typing in the _**Title**_ with special cha
 
 [RETURN TO TOP][1]
 
-#### Published By
+#### Published by
 
 This is the Sub-Organization (often the Branch or Division) under which the metadata record is created and published.
 + This is a required field
@@ -128,12 +127,12 @@ At least one contact is required.
 |**Email**| Contact email address|(required)| |
 |**Organization**| Contact organization| |Ministry level has been removed|(required)|
 |**Role**| Contact role type | | |
-| |[Point of Contact](./glossary.md/#point_of_contact)| (required) |- Recommend the first contact to be a generic inbox. **NEW** On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.|
-| |[Access Approver](./glossary.md/#access_approver) |(optional) | **NEW** - Recommend that this role is not displayed to Public catalogue users.|
+| |[Point of Contact](./glossary.md/#point_of_contact)| (required) |- Recommend the first contact to be a generic inbox. On each record there is a **Contact Data Expert** button, that when selected will open up an email with a defined email template which will go to the first contact listed.|
+| |[Access Approver](./glossary.md/#access_approver) |(optional) |  Recommend that this role is not displayed to Public catalogue users.|
 | |[Business Expert](./glossary.md/#business_expert) |(optional)| |
-| |[Data Manager](./glossary.md/#data_manager) |(optional) | **NEW**|
+| |[Data Manager](./glossary.md/#data_manager) |(optional) | |
 | |[Custodian](./glossary.md/#custodian)| (optional) |- Recommend a custodian is identified and not displayed as a contact to the Public|
-| |[Data Steward](./glossary.md/#data_steward)| (optional) | **NEW**|
+| |[Data Steward](./glossary.md/#data_steward)| (optional) | |
 | | [Distributor](./glossary.md/#distributor) |(optional) | |
 |**Displayed**:|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
 
@@ -146,41 +145,41 @@ This is a summary of the intentions for which the dataset was developed, and is 
 
 [RETURN TO TOP][1]
 
-#### Data Quality
+#### Data quality
 
 This is descriptive text that can include information about issues, completeness, consistency, etc., and is an optional field.
 + To provide a complete picture into the record's quality, it is encouraged to provide some text before publishing so consumers will understand the data quality of the published data.
 
 [RETURN TO TOP][1]
 
-#### Lineage Statement
+#### Data lineage
 
 This is information about the events or source data used in constructing the data, and is an optional field.
 + To provide a complete picture into the record's source data, it si encouraged to provide some text before publishing so consumers will understand the underlying source of the published data.  
 
 [RETURN TO TOP][1]
 
-#### More Info
+#### Related links
 
 This is additional information (one or more references) to support the dataset or the pubishing organization, and the fields are an optional set of fields.
-+ **Description** (**NEW**)
++ **Title of web asset**
    + Allows description text to notify what a link pertains to when the URL uses a Permalink, e.g., for CMS Lite pages, it is recommend to use the + Permalink, thus when pages are moved around the link is not broken.
 + **URL**
    + Any related web site URL's can be added here.
 
 [RETURN TO TOP][1]
 
-#### Security Classification
+#### Security classification
 
 The Security Classification has been updated and records transformed to reflect the OCIO's standard.
 + This is a required field.
 
-|BCDC Security Classification (**Old**)| [Information Security Classification Levels (**NEW**)](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
-|:---|:---|:---|
-|Low - Public|**Public**|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)|
-|Low - Sensitivity|**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
-|Medium - Personal, Medium - Sensitivity|**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
-|High - Cabinet, High - Confidential, High - Sensitivity|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
+| [Information Security Classification Levels](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)| Description|
+|:---|:---|
+|**Public**|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)|
+|**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
+|**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
+|**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
 
 [RETURN TO TOP][1]
 
@@ -238,7 +237,7 @@ These are the searchable terms for the metadata record, and at least one keyword
 
 [RETURN TO TOP][1]
 
-#### State
+#### Published state
 
 When creating a new metadata record, the state will be set to **Draft**. To do so click the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state. The state selected will become the checkmark.
 
@@ -256,12 +255,10 @@ When creating a new metadata record, the state will be set to **Draft**. To do s
     |Pending Archive|Pending archive records are visible to users until Archived |Administrators|
     |Archived|Only editors of an org can see these records |All Editors of that org |
 
-**Changes**
-+ REJECTED has been removed and a record moves from PENDING PUBLISH back to DRAFT
 
 [RETURN TO TOP][1]
 
-#### Resource Status
+#### Resource status
 
 Defines the status of the dataset, service, API or application as described by one of the types below: 
 + A resource or record changes status over its lifecycle.
@@ -280,7 +277,7 @@ Defines the status of the dataset, service, API or application as described by o
     
 [RETURN TO TOP][1]
    
-#### Record Lifecycle History
+#### Record lifecycle history
 
 When there are changes to a resource in a metadata record, a new date type and corresponding date should be added to this section.  This comprises of two required fields. 
 
