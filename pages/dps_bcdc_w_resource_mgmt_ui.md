@@ -8,26 +8,26 @@ has_children: false
 has_toc: true
 ---
 
-# RESOURCE MANAGEMENT IN THE BC DATA CATALOGUE USER INTERFACE (UI)
+# Resource managment in the BC Data Catalogue User Interface (UI)
 
-|**AUDIENCE**|
+|**Audience**|
 |:---|
 |[*Metadata Editors*](./glossary.md#metadata_editor)|
 |[*Metadata Admin*](./pages/glossary.md#metadata_admin)|
 
 ## Table of Contents
 
-+ [**RESOURCE TYPES**](#resource-types)
++ [**Resource types**](#resource-types)
    + [Application](#application)
    + [Document/Tabular Data](#document-and-tabular-data)
    + [Geographic Data](#geographic-data)
    + [WebService and API](#webservice-and-api)
-+ [**ADD A RESOURCE**](#add-a-resource)
-+ [**EDIT A RESOURCE**](#edit-a-resource)
++ [**Add a Resource**](#add-a-resource)
++ [**Edit a Resource**](#edit-a-resource)
    + [Replace a File in the Catalogue Data Store](#replace-a-file-in-the-catalogue-data-store)
-+ [**DELETE A RESOURCE**](#delete-a-resource)
-+ [**RESOURCE TYPE SPECIFIC FIELDS**](#resource-type-specific-fields)
-+ [**DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT**](#databc-services-resource-naming-and-describing-guidelines---draft)
++ [**Delete a Resource**](#delete-a-resource)
++ [**Resource type specfic fields**](#resource-type-specific-fields)
++ [**DataBC Services - Resource naming and describle guidelines - DRAFT**](#databc-services-resource-naming-and-describing-guidelines---draft)
    + [**BC Geographic Warehouse**](#bc-geographic-warehouse)
       + [Exportable or Not Resources](#exportable-or-not-resources)
          - Exportable; Exportable not enabled
@@ -39,9 +39,9 @@ has_toc: true
    + [**ArcGIS Online (AGO)**](#arcgis-online-ago-resources)
        - Data; Web maps; Web apps; Tle services
    + [**BC Data Catalogue Hosted Resources**](#bc-data-catalogue-hosted-resources)
-+ [**ADDITIONAL RESOURCES**](#additional-resources)
++ [**Additional resources**](#additional-resources)
 
-## RESOURCE TYPES
+## Resource types
 
 There are four types of Resourses using in the BC Data Catalogue.  
 
@@ -68,7 +68,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-## ADD A RESOURCE
+## Add a Resource
 
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
@@ -79,7 +79,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-## EDIT A RESOURCE
+## Edit a Resource
 **To edit a resource:**
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
@@ -106,7 +106,7 @@ A resource type associated to a record, which is used for metadata relating to w
 
 [RETURN TO TOP][1]
 
-## DELETE A RESOURCE
+## Delete a Resource
 
 Editors can delete resources in any published state
 
@@ -122,7 +122,7 @@ Editors can delete resources in any published state
 
 ------------
 
-## RESOURCE TYPE SPECIFIC FIELDS
+## Resource type specific fields
 
 \* indicates required fields.
 
@@ -317,7 +317,7 @@ Click **Save** when done
 
 ---------------
 
-## DATABC SERVICES RESOURCE NAMING AND DESCRIBING GUIDELINES - DRAFT
+## DataBC Services naming and describing guidelines - DRAFT
 
 This section is currently being developed.
 
@@ -440,7 +440,7 @@ Generalized resources are now to be included as an additional resource on the no
 [RETURN TO TOP][1]
 
 ---------------
-## ADDITIONAL RESOURCES
+## Additional resources
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
 + See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#field-label-and-value-changes)
 
