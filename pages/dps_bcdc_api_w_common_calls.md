@@ -19,7 +19,7 @@ has_toc: true
 ## Table of Contents
 + [**How to get information**](#how-to-get-information)
     + [**How to get your API Key**](#how-to-get-your-api-key)
-    + [**How to get your organization name**](#how-to-get-you-organiation-guid)
+    + [**How to get names and IDs from the UI**](#how-to-get-names-and-ids-from-the-ui)
     + [**How to get the organization ID with the organization name**](#how-to-get-the-organization-id-with-the-organization-name)
     + [**How to get package names and package IDs within an organization**](#how-to-get-package-names-and-package-ids-within-an-organization)
     + [**How to get the resource names and resource IDs withing a package**](#how-to-get-the-resource-names-and-resource-ids-withing-a-package)
