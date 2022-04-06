@@ -18,7 +18,6 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 ## Table of Contents
 + [**DATA PUBLICATION CHANNELS**](#data-publication-channels)
 + [**DATASET READINESS**](#dataset-readiness)
-+ [**FINANCIAL OBLIGATIONS**](#financial-obligations)
 + [**DATA PUBLICATION REQUEST**](#data-publication-request)
 + [**NEXT STEPS**](#next-steps)
 
@@ -68,44 +67,6 @@ There are five options for where data gets stored in the DataBC Program, each wi
 ## DATASET READINESS
 
 To find out if your data is ready for the BCGW, see [Data Publication - Am I Ready?](dps_bcgw_w.md#data-publication---am-i-ready)
-
------------------------------------------
-
-## FINANCIAL OBLIGATIONS
-
-DataBC operates on a cost-recovery basis, so there _may_ be a charge to your branch for making your data available through the DataBC program. 
-
-This one-time charge covers not only the initial loading of the dataset, but also the ongoing maintenance and refreshing of the data.
-
-Whether or not there is a charge depends on how the data is to be made available and on the size of the potential audience.  
-
-These are some rough guidelines:
-+ Depending on DataBC resources, datasets that are considered foundational (of use to many different business areas) might be loaded at no charge.
-+ Data to be made available solely within the BC Data Catalogue (i.e., not stored in the BC Geographic Warehouse) will be loaded at no charge. 
-
-If there is a charge it will generally be between $1500 and $7000, depending on:
-
-+ the number of datasets
-+ the complexity (number of columns) of the datasets
-+ the security requirements (e.g., public vs access by only named individuals)
-+ the access channels to be used (e.g., iMapBC, data download, etc.)
-
-In certain circumstances there may be additional charges for the following:
-
-+ the dataset is extremely large (several million rows or larger)
-+ the load requires extensive manipulation and transformation of the input data
-+ we need to be heavily involved in operational planning (planning preparation of the data set)  
-+ the data source is non-standard; standard sources are:
-     + Oracle operational BC Government databases, 
-     + csv files, 
-     + shape files, 
-     + file geodatabases,
-     + text files,
-     + rest APIs.
-
-The amount of the charge will be discussed at the [_Discovery Whiteboard_](dps_bcgw_w.md#discovery-whiteboard), held at the beginning of the publication process.
-
-Changes to the structure of the dataset after the initial load may incur additional charges. Examples of changes are the addition and removal of columns, changes in column names, etc. If you envision many changes over time or the addition of new datasets or continuing support in preparing data you may wish to enter into a support agreement with DataBC, which can also be discussed at the Discovery Whiteboard.
 
 -----------------------------------------
 
