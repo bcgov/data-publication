@@ -203,6 +203,9 @@ Editors can delete resources in any published state
     + Published to the BC Geographic Warehouse
         + An automated system pushes the reloaded timestamp
 + If interested in setting up your own automated processes to update via the API, contact us at the [Data Systems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and ask for more information on how to enhance to your offerings in the Catalogue.
+   + Endpoint required parameters:
+      + `id` (resource id)
+      + `timestamp` (format: 2022-02-27 10:00:01)
 
 ### Data collection period (`temporal_extent`)  <a name="data-collection-period"></a>
 + A Start and/or End Data can be added if the data reflects a period of time.'.
