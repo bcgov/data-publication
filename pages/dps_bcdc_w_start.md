@@ -9,7 +9,7 @@ has_toc: true
 # **Getting started with the BC Data Catalogue**
 
 
-|| | **Audeience**| | |
+|| | **Audience**| | |
 |:---|:---|:---|:---|:---|
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Catalogue Editor*](./glossary.md#metadata_editor)|
 
