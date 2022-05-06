@@ -1,23 +1,23 @@
 ---
 layout: default
-title: Roles & Responsibilities
+title: Roles & Responsibilities - Vendors
 nav_order: 48
 parent: BC Geographic Warehouse
 has_toc: false
 ---
 
-# ROLES AND RESPONSIBILITIES
+# Roles and Responsibilties - Vendors
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved (if applicable), and the project’s business analyst. 
 
 This page describes the roles and responsibilities involved in publishing data to the BC Geographic Warehouse through the Data BC program.
 
-|**AUDIENCE**|  |  |  |
+|**Audience**|  |  |  |
 |:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 ## Table of Contents
-+ [**DATA DELIVERY ROLES**](#data-delivery-roles)
++ [**Data Delivery Roles**](#data-delivery-roles)
 	+ [Vendor Delivery Personnel](#vendor-delivery-personnel)
 	+ [DataBC Data Architecture Team](#databc-data-architecture-team)
 	+ [Business Analyst/Business Portfolio Manager](#business-analystbusiness-portfolio-manager)
@@ -25,7 +25,7 @@ This page describes the roles and responsibilities involved in publishing data t
 
 ---------------------------------------------------------------------
 
-## DATA DELIVERY ROLES
+## Data Delivery Roles
 
 ### Vendor Delivery Personnel
 
