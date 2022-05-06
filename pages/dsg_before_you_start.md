@@ -15,12 +15,6 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 |:---:|
 | *Data Publishers* | 
 
-## Table of Contents
-+ [**DATA PUBLICATION CHANNELS**](#data-publication-channels)
-+ [**DATASET READINESS**](#dataset-readiness)
-+ [**DATA PUBLICATION REQUEST**](#data-publication-request)
-+ [**NEXT STEPS**](#next-steps)
-
 -----------------------
 
 ## DATA PUBLICATION CHANNELS
@@ -59,28 +53,6 @@ There are five options for where data gets stored in the DataBC Program, each wi
 **Spatial data** - view in BC MapHub | ![](/images/grey_dash.png) | ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/grey_dash.png) | ![](/images/grey_dash.png)
 **Non-spatial data (csv)** - view preview | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png)
 **Non-spatial data (csv)** - view point data on a map | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/green_check.png) | ![](/images/grey_na.png) | ![](/images/grey_na.png)
-
-[RETURN TO TOP][1]
-
------------------------------------------
-
-## DATASET READINESS
-
-To find out if your data is ready for the BCGW, see [Data Publication - Am I Ready?](dps_bcgw_w.md#data-publication---am-i-ready)
-
------------------------------------------
-
-## DATA PUBLICATION REQUEST
-
-To request a data publication using DataBC's services, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/28).
-
------------------------------------------
-
-## NEXT STEPS
-
-See [BC Geographic Warehouse Data Publication](dps_bcgw_w.md)
-
------------------------------------------
 
 [RETURN TO TOP][1]
 
