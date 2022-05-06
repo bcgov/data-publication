@@ -23,6 +23,7 @@ has_toc: false
    + [_Title_](#title) 
    + [_URL_](#url)
    + [_Published by_](#published-by)
+   + [_Publish state_](#state)
    + [_Description_](#description)
    + [_Licence_](#licence)
    + [_Contacts_](#contacts)
@@ -35,7 +36,6 @@ has_toc: false
    + [_Who can download this data?_](#who-can-download-this-data)
    + [_Who can view this record?_](#who-can-view-this-record)
    + [_Keywords_](#keywords)
-   + [_Publish state_](#state)
    + [_Resource status_](#resource-status)
    + [_Record lifecycle history_](#record-lifecycle-history)
 + [**Resource management**](#resource-management)
@@ -139,6 +139,27 @@ This is automatically generated while typing in the _**Title**_ with special cha
 This is the Sub-Organization (often the Branch or Division) under which the metadata record is created and published.
 + This is a required field
 
+[RETURN TO TOP][1]
+
+### Publish state \* (`publish_state`) <a name="state"></a>
+
+When creating a new metadata record, the state will be set to **Draft**. To do so click the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state. The state selected will become the checkmark.
+
++ The Published by has to have an idenified organization for the draft button to be clickable
+
++ To change a state a record must be saved, edited by clicking on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state desired.
+
++ Only states that can transition between each other will be visible in edit mode.
+
+    |State|Record Visibility|Email Notificaiton|
+    |:---|:---|:---|
+    |Draft|Only editors and admin of an org can see these records |None|
+    |Pending Publish|Only editors and admin of an org can see these records| Administrators |
+    |Published|Published records are visible to users |All Editors of that org|
+    |Pending Archive|Pending archive records are visible to users until Archived |Administrators|
+    |Archived|Only editors of an org can see these records |All Editors of that org |
+    
+   
 [RETURN TO TOP][1]
 
 ### Description \* (`notes`) <a name="description"></a>
@@ -267,25 +288,6 @@ Describes who can view the metadata record.
 These are the searchable terms for the metadata record, and at least one keyword is required, however, not limited to just one keywork 
 + Enter meaningful keywords here. 
 + Think of what users may use for search terms to find the dataset in the Catalogue.
-
-[RETURN TO TOP][1]
-
-### Publish state \* (`publish_state`) <a name="state"></a>
-
-When creating a new metadata record, the state will be set to **Draft**. To do so click the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state. The state selected will become the checkmark.
-
-* To change a state a record must be saved, edited by clicking on the button ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) above the state desired.
-
-+ Only states that can transition between each other will be visible in edit mode.
-
-    |State|Record Visibility|Email Notificaiton|
-    |:---|:---|:---|
-    |Draft|Only editors and admin of an org can see these records |None|
-    |Pending Publish|Only editors and admin of an org can see these records| Administrators |
-    |Published|Published records are visible to users |All Editors of that org|
-    |Pending Archive|Pending archive records are visible to users until Archived |Administrators|
-    |Archived|Only editors of an org can see these records |All Editors of that org |
-
 
 [RETURN TO TOP][1]
 
