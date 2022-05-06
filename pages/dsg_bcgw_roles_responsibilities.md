@@ -53,8 +53,8 @@ This page describes the roles and responsibilities involved in publishing data t
 
 + Review all required documentation as described in the [Data Publication Workflow](dps_bcgw_w.md)
 + Ensure that the data to be published follows standards and guidelines as described in:
-	+ BC Geographic Warehouse - Data Standards and Guidelines 
-	+ Common Standards and Guidelines  
+	+ BC Geographic Warehouse - [Data Standards and Guidelines](dsg_bcgw_data_standards.md) 
+	+ [Common Standards and Guidelines](dsg.md) 
 + Ensure that the data to be published is in a production state and ready for publishing in the BC Geographic Warehouse prior to requesting publication 
 + Considerations may be made where new applications being built rely on testing the data throughout deployments in delivery and test database environments. 
 + Complete the Dataset Model in preparation for submitting the request to publish (this is a requirement to request publication) 
