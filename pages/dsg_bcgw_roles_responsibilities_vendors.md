@@ -77,4 +77,4 @@ This page describes the roles and responsibilities involved in publishing data t
 
 [RETURN TO TOP][1] 
 
-[1]: #roles-and-responsibilities
+[1]: #roles-and-responsibilities---vendors
