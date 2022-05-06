@@ -59,6 +59,7 @@ Review the key questions below and be ready to discuss with DataBC before you in
 |Have you read and do you understand the information provided in the Documentation Review section?|Please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/16) if you have additional questions not addressed in our documentation.|
 |Has the [Data Custodian](dsg_bcdc_roles_responsibilities.md#the-data-custodian) approved the publication of this dataset for your business area?| |
 |Is the source data in a production state and ready for publishing?|Not sure? See: [Data Preparation Consultation](#data-preparation-consultation)
+|Have you completed the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) file?|The Dataset Model describes your source data structure (fields, data type, data length, column comments). |
 |For spatial datsets: Do you have GIS staff available to support QA/QC and the creation of layer files?|_For buisness areas without GIS support, this service can be provided by DataBC_|
 |Do you have a Data Manager identified who will be responsible for the day-to-day maintenance of the source data?|_Must be in place prior to initiating a data publicaiton request_|
 |Are there specific security needs that will need to be configured for access to the data (other than government or public access)?| |
@@ -87,9 +88,6 @@ Ready to publish your data? Please open a ticket with the [Data Systems & Servic
 
 Once you have submitted a request for data publication, DataBC will send you a confirmation of your request, usually within a few business days.
 
-#### BCGW Data Publication Work Plan
-Along with the confirmation of your request, DataBC will send you a BCGW Data Publication Work Plan. This work plan is required to be signed by both the client and DataBC prior to work starting on the project. It outlines roles and responsibsilites, and describes expectations from both DataBC and the client as we work together to publish your data in the BCGW. Once signed, you will then send it back to DataBC. DataBC will provide you with a final copy, signed by both parties.
-
 ### Data Publication Workflow
 
 The following illustration shows the steps in the data publication process:
@@ -100,12 +98,11 @@ The following illustration shows the steps in the data publication process:
 #### Discovery Whiteboard
 
 Discussion in this session will focus on:
-1. Reviewing the Data Publication Work Plan and addressing any questions
 1. Reviewing your request to share data
 1. Reviewing the questions in [Data Publication - Am I Ready?](#data-publication-am-i-ready)
 1. Describing the [Data Publication Workflow](#data-publication-workflow)
-1. Review the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) and [Data Delivery Guidelines](dsg_bcgw_data_delivery.md)
-1. DataBC access to source data
+1. Reviewing the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) and [Data Delivery Guidelines](dsg_bcgw_data_delivery.md)
+1. How DataBC will access your source data
 1. Scheduling the Technical Whiteboard meeting
 
 [RETURN TO TOP][1] 
