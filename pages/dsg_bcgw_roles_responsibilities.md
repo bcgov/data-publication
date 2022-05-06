@@ -8,9 +8,9 @@ has_toc: false
 
 # Roles and Responsibilties
 
-Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved (if applicable), and the project’s business analyst. 
+Publishing new or modifing existing BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the client, and the contractor involved (if applicable). 
 
-This page describes the roles and responsibilities involved in publishing data to the BC Geographic Warehouse through the Data BC program.
+This page describes the roles and responsibilities of DataBC and the client when publishing data to the BC Geographic Warehouse.
 
 |**Audience**|  |  |  |
 |:---:|:---:|:---:|:---:|
