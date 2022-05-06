@@ -18,6 +18,7 @@ This page is written in the context that you have reviewed all information in th
 
 ## Table of Contents
 + [**Documentation Review**](#documentation-review)
++ [**Cataloguing Options**](#cataloguing-options-and-requirements)
 + [**How to become a Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
 + [**What data Licence to use?**](#what-data-licence-to-use)
 + [**Creation and Publication workflow diagram**](#creation-and-publication-workflow-diagram)
@@ -37,6 +38,32 @@ The first step in the process is to review the documentation:
 + [Open Data](./open_data.html)
 + [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md)
     - which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.**** 
+   
+------------------------------
+
+## Cataloguing Options and Requirements
+
+**Options**
++ Data can be hosted in the catalogue or reference data sourced elsewhere
+    - Hosted data:
+        - Does have a size limit
+        - Is publically accessible
+        - Certain file types can be made previewable via the user interface (UI). e.g, csv
+        - Can be accessible to applications via the catalogue API
+    - External data, e.g., database or website:
+        - Can be public or secure
+        - Can be accessible (downloadable) or not. The catalogue can just have information about the data
++ Metadata can be visible to the public or BC Goverment IDIR
++ Contact details can be generic inboxes or identified individuals
+
+
+**Requirements**
++ Open Government Licence - BC: To use this licence a record must be published in the catalogue.
++ Administrators 
+   + Set records to Published
+       + However, interested in identifying what self serve would look like
+   + Account mananagent 
+       + However, interested in identifying what self serve would look like
 
 ------------------------------
 
