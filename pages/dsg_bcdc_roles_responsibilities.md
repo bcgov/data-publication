@@ -6,7 +6,7 @@ parent: BC Data Catalogue
 has_toc: false
 ---
 
-# ROLES AND RESPONSIBILITIES
+# Roles and Responsibilities
 _Formerly: A Guide for Data Custodians and Data Managers_
 
 This is a guide for Data Custodians and Data Managers. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
@@ -18,31 +18,31 @@ The page covers the following topics:
 + Using the BC Geographic Warehouse (BCGW) to distribute data
 + Where to find more information
 
-|**AUDIENCE**|  |  |  |  | 
+|**Audience**|  |  |  |  | 
 |:---:|:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
 -----------------------
 
 ## Table of Contents
-+ [**IT IS ALL ABOUT THE INFORMATION**](#it-is-all-about-the-information)
-+ [**THE DATA CUSTODIAN**](#the-data-custodian)
++ [**It is all about the information**](#it-is-all-about-the-information)
++ [**The Data Custodian**](#the-data-custodian)
 	+ [Am I a Data Custodian?](#am-i-a-data-custodian)
 	+ [Obligations of a Data Custodian](#obligations-of-a-data-custodian)
 	+ [Responsibilities of a Data Custodian](#responsibilities-of-a-data-custodian)
-+ [**THE DATA MANAGER**](#the-data-manager)
++ [**The Data Manager**](#the-data-manager)
 	+ [Am I a Data Manager?](#am-i-a-data-manager)
 	+ [Obligations of a Data Manager](#obligations-of-a-data-manager)
 	+ [Responsibilities of a Data Manager](#responsibilities-of-a-data-manager)
-+ [**THE DATA STEWARD**](#the-data-steward)
-+ [**BC DATA CATALOGUE EDITOR**](#the-data-steward)
-+ [**METADATA CONTACTS**](#the-data-steward)
++ [**The Data Steward**](#the-data-steward)
++ [**BC Data Catalogue Editor**](#the-data-steward)
++ [**Metadata Contacts*](#metadata-contacts)
 	+ [Other Roles](#other-roles)
 	+ [Resources](#resources)
 	
 -----------------------
 
-## IT IS ALL ABOUT THE INFORMATION
+## It is all about the information
 
 This guide is about managing information within the DataBC Program and making it available for decision making. The following points provide some context.
 
@@ -75,7 +75,7 @@ This guide is about managing information within the DataBC Program and making it
 
 -----------------------
 
-## THE DATA CUSTODIAN
+## The Data Custodian
 
 **Definition: [Data Custodian](glossary.md#Data-Custodian)**
 
@@ -114,7 +114,7 @@ If you are a Data Custodian, you have these responsibilities:
 
 -------------------
 
-## THE DATA MANAGER
+## The Data Manager
 
 **Definition: [Data Manager](glossary.md#data-manager)**
 
@@ -143,7 +143,7 @@ You will typically be responsible for some or all of these activities:
 
 -----------------------
 
-## THE DATA STEWARD
+## The Data Steward
 
 **Definition: [Data Steward](glossary.md#data-steward)**
 
@@ -155,13 +155,13 @@ The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship
 
 -----------------------
 
-## BC DATA CATALOGUE EDITOR
+## BC Data Catalogue Editor
 
 An Editor is someone who can create and maintain BC Data Catalogue records on behalf of a Data Custodian. Editors must be approved by the Data Custodian for the Branch/Division in which they will be creating and/or maintaining records. To request editing access within a Branch/Division in the BC Data Catalogue, see [How do I get authorization to publish records in the BC Data Catalogue?](faq.md#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
 
 -----------------------
 
-## METADATA CONTACTS
+## Metadata Contacts
 
 Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact in the metadata record. 
 
