@@ -57,7 +57,7 @@ This page describes the roles and responsibilities involved in publishing data t
 	+ [Common Standards and Guidelines](dsg.md) 
 + Ensure that the data to be published is in a production state and ready for publishing in the BC Geographic Warehouse prior to requesting publication 
 + Considerations may be made where new applications being built rely on testing the data throughout deployments in delivery and test database environments. 
-+ Complete the Dataset Model in preparation for submitting the request to publish (this is a requirement to request publication) 
++ Complete the [Dataset Model](https://bcgov.github.io/data-publication/pages/images/Dataset_Model_Current_TEMPLATE.xlsx) in preparation for submitting the request to publish (this is a requirement to request publication) 
 + Submit the request to publish in the Data Sytems and Services Request System as a Share New Data request
 
 ### During Publication
