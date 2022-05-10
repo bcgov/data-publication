@@ -48,12 +48,13 @@ Below are the steps to follow when publishing an AGO application:
 1. Create AGO content in [_B.C.’s Map Hub_](https://governmentofbc.maps.arcgis.com/home/index.html).
 1. Create Metadata - required in 2 places - BC Data Catalogue and AGO item details pages. Refer to the [_METADATA GUIDELINES FOR AGO AUTHORS_](#metadata-guidelines-for-ago-authors) section below for more detailed information.:
 	+  BC Data Catalogue
+		1. [**How to become a provider or editor to the catalogue**](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
 		1. **Create BCDC metadata record(s)** for the AGO content (only for items that require it; i.e. apps, standalone web maps, AGO hosted feature layers…)
 		1. When BCDC records are complete and ready to publish you, the editor/author, must toggle the record state from Draft to Pending Publish (a flag for us that the metadata is ready for follow up).
 	+ AGO
 		1. **Populate the AGO item details pages** with metadata. Each AGO item has its own item details page accessible to the public.
-1. Complete the [_Publication Request Form_](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) including your Project Sponsor's approval signature (typically Director level).
-1. **Submit the approved checklist** to complete the publication process, via email **to** [_data@gov.bc.ca_](mailto:data@gov.bc.ca) and **cc** [_Maps Services_](mailto:datamaps@gov.bc.ca).
+1. Complete the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx) including your Project Sponsor's approval signature (typically Director level).
+1. **Submit the [approved checklist](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx)** as an attachment to the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6/create/22).
 
 ---------------------
 
@@ -122,7 +123,6 @@ Below are the steps to follow when publishing an AGO application:
 | |No (if AGO Item Details page sufficiently describes hot the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided)|Yes - sufficiently described how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided.  Referenced BCDC record(s) for source data.|
 AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes - provide reference to source|
 |Province of British Columbia Data Layers (BCGW data layer services available in AGO)|No - these layers already have BCDC records|No - Item Details are already auto-populated for these items|
-|Other AGO item types|Contact [DataBC](mailto:data@gov.bc.ca) to discuss|Yes|
 
 ### Use of Existing BC Geographic Warehouse or External Sources
 
