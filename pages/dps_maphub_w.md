@@ -45,10 +45,10 @@ Below are the steps to follow when publishing an AGO application:
 1. You have AGO content (maps/apps/data...) destined for the public domain.
 1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes requirements for [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
 		1. You need to have editing privileges in the BC Data Catalogue so you are able to create BCDC metadata record(s) for each of your AGO items that needs one.
+		1. [**How to become a provider or editor to the catalogue**](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
 1. Create AGO content in [_B.C.’s Map Hub_](https://governmentofbc.maps.arcgis.com/home/index.html).
 1. Create Metadata - required in 2 places - BC Data Catalogue and AGO item details pages. Refer to the [_METADATA GUIDELINES FOR AGO AUTHORS_](#metadata-guidelines-for-ago-authors) section below for more detailed information.:
 	+  BC Data Catalogue
-		1. [**How to become a provider or editor to the catalogue**](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
 		1. **Create BCDC metadata record(s)** for the AGO content (only for items that require it; i.e. apps, standalone web maps, AGO hosted feature layers…)
 		1. When BCDC records are complete and ready to publish you, the editor/author, must toggle the record state from Draft to Pending Publish (a flag for us that the metadata is ready for follow up).
 	+ AGO
@@ -80,7 +80,7 @@ Below are the steps to follow when publishing an AGO application:
 	+ **Title:** Ensure the title accurately describes the item.
 	+ **Description section:** 
 		+ **If your item requires its own BCDC record:** - in the interest of minimizing duplication of effort and ongoing maintenance, the minimum requirement is to reference the item's BCDC record i.e. 
-			+ BC Data Catalogue metadata: [permalink URL to bcdc record]).
+			+ BC Data Catalogue metadata: [the permalink BCDC URL can be found by clicking **_Share_** button ).
 		+ **If your item does not require its own BCDC record:**
 			+ **Maps and Apps that are components of a main app** - include a statement that drives the audience to the main app by including the url for the main app and reference the main app's BCDC record i.e.
 				+ This item is a component of "Main App's name", please visit it here: [link to main app]
@@ -111,6 +111,8 @@ Below are the steps to follow when publishing an AGO application:
 
 
 ### AGO-Specific Metadata Requirements
+
+The BC Data Catalogue is primarily for cataloguing data, thus if a dataset has an app or map, these can all be represented on one record as different resources.
 
 |Public AGO Item Type|BCDC record required?|AGO Item Details required to be filled out?|
 |:---|:---|:---|
