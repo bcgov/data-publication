@@ -18,16 +18,23 @@ This page describes the roles and responsibilities of DataBC and the client when
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 ------------------------------
-<details>
+
+<details> 
   <summary> <h2><b>Pre-Publication</b></h2> </summary>
 
 ### DataBC
 
-| | |
-|---|---|
-|1.|Provide documentation on the client workflow for publishing, maintaining, and retiring data sets (known as the data lifecycle) in the BC Geographic Warehouse|
-|  |_Additional consulting services may be requested for preparing the source data, prior to a data publication request being initiated_|
-
+<table>
+  <tr>
+    <td>1.</td>
+    <td>Provide documentation on the client workflow for publishing, maintaining, and retiring data sets (known as the data lifecycle) in the BC Geographic Warehouse</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><i>Additional consulting services may be requested for preparing the source data, prior to a data publication request being initiated</i></td>
+  </tr>
+</table>
+  
 ### Client
 
 | | |
