@@ -22,12 +22,14 @@ This page describes the roles and responsibilities of DataBC and the client when
 ## Pre-Publication
 
 ### DataBC
+
 | | |
 |---|---|
 |1.|Provide documentation on the client workflow for publishing, maintaining, and retiring data sets (known as the data lifecycle) in the BC Geographic Warehouse|
 |2.|_*Additional consulting services can be requested for preparing the source data, prior to a data publication request being initiated_|
 
 ### Client
+
 | | |
 |---|---|
 |1.|Review all required documentation as described in the [Data Publication Workflow](dps_bcgw_w.md)|
@@ -41,6 +43,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 ## During Publication
 
 ### DataBC
+
 | | |
 |---|---|
 |1.|Be available to the client for additional questions or issues that arise throughout the publication process |
@@ -57,6 +60,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 |12.|Communicate any issues or concerns with the client as they arise|
 
 ### Client
+
 | | |
 |---|---|
 |1.|Communicate with the DataBC team via the Share New Data request created in the Data Sytems and Services Request System|
@@ -72,6 +76,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 ## Post-Publication
 
 ### DataBC
+
 | | |
 |---|---|
 |1.|Provide an opportunity for feedback at the close of the project|
@@ -80,6 +85,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 |4.|Notify client of any issues with the data, access, layer presentation, distribution, or configured applications throughout the lifecycle of the data|
 
 ### Client
+
 | | |
 |---|---|
 |1.|Provide the DataBC team with feedback at the close of the project|
