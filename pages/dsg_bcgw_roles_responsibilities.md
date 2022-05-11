@@ -18,8 +18,8 @@ This page describes the roles and responsibilities of DataBC and the client when
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* |
 
 ------------------------------
-
-## Pre-Publication
+<details>
+  <summary> <h2><b>Pre-Publication</b></h2> </summary>
 
 ### DataBC
 
@@ -38,9 +38,12 @@ This page describes the roles and responsibilities of DataBC and the client when
 |4.|Complete the [Dataset Model](https://bcgov.github.io/data-publication/pages/images/Dataset_Model_Current_TEMPLATE.xlsx) in preparation for submitting the request to publish (this is a requirement to request publication)|
 |5.|Submit the request to publish in the [Data Sytems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1) as a [Share New Data](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/28) request|
 
+</details>
+
 ------------------------------
 
-## During Publication
+<details>
+  <summary> <h2><b>During Publication</b></h2> </summary>
 
 ### DataBC
 
@@ -71,9 +74,12 @@ This page describes the roles and responsibilities of DataBC and the client when
 |6.|Prepare the BC Data Catalogue record and set the State to Pending Publish prior to data being migrated to production|
 |7.|Complete and submit the Open Data Assessment and checklist to DataBC where the data will be licensed under the Open Government Licence – British Columbia.|
 
+</details>
+  
 ------------------------------
 
-## Post-Publication
+<details>
+  <summary> <h2><b>Post-Publication</b></h2> </summary>
 
 ### DataBC
 
@@ -95,6 +101,8 @@ This page describes the roles and responsibilities of DataBC and the client when
 |5.|Notify DataBC of any issues with the data, access, layer presentation, distribution, or configured applications throughout the lifecycle of the data|
 |6.|Maintain and resolve any issues that arise with the source data for replication to the BCGW throughout the lifecycle of the data|
 
+</details>
+  
 ------------------------------
 
 [RETURN TO TOP][1] 
