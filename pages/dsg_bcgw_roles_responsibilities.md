@@ -26,15 +26,15 @@ This page describes the roles and responsibilities of DataBC and the client when
 | | |
 |---|---|
 |1.|Provide documentation on the client workflow for publishing, maintaining, and retiring data sets (known as the data lifecycle) in the BC Geographic Warehouse|
-|2.|_*Additional consulting services can be requested for preparing the source data, prior to a data publication request being initiated_|
+|  |_Additional consulting services may be requested for preparing the source data, prior to a data publication request being initiated_|
 
 ### Client
 
 | | |
 |---|---|
 |1.|Review all required documentation as described in the [Data Publication Workflow](dps_bcgw_w.md)|
-|2.|Ensure that the data to be published follows standards and guidelines as described in: <ui><li>BC Geographic Warehouse - [Data Standards and Guidelines](dsg_bcgw_data_standards.md)</li></ui> <ui><li>[Common Standards and Guidelines](dsg.md)</li></ui>
-|3.|Ensure that the data to be published is in a production state and ready for publishing in the BC Geographic Warehouse prior to requesting publication. <ui><li>_Considerations may be made where new applications being built rely on testing the data throughout deployments in delivery and test database environments._</li></ui>|
+|2.|Ensure that the data to be published follows standards and guidelines as described in: <br> - BC Geographic Warehouse - [Data Standards and Guidelines](dsg_bcgw_data_standards.md) <br> - [Common Standards and Guidelines](dsg.md)|
+|3.|Ensure that the data to be published is in a production state and ready for publishing in the BC Geographic Warehouse prior to requesting publication. <br>     _Considerations may be made where new applications being built rely on testing the data throughout deployments in delivery and test database environments._|
 |4.|Complete the [Dataset Model](https://bcgov.github.io/data-publication/pages/images/Dataset_Model_Current_TEMPLATE.xlsx) in preparation for submitting the request to publish (this is a requirement to request publication)|
 |5.|Submit the request to publish in the [Data Sytems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1) as a [Share New Data](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/28) request|
 
@@ -67,7 +67,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 |2.|Attend and contribute to all regularly scheduled meetings throughout the data publication process|
 |3.|Communicate with the DataBC team when there are changes to scope or shifts in priorities|
 |4.|Address issues or concerns as they arise. If issue resolution impacts timelines, this will be communicated with DataBC|
-|5.|If the dataset is to be configured for use in iMapBC, the Layer Library, ArcGIS Online, or as a WMS, the client will supply a layer file. <ui>_DataBC is available to provide this service when the business area does not have GIS support._</ui>|
+|5.|If the dataset is to be configured for use in iMapBC, the Layer Library, ArcGIS Online, or as a WMS, the client will supply a layer file. <br> - _DataBC is available to provide this service when the business area does not have GIS support._|
 |6.|Prepare the BC Data Catalogue record and set the State to Pending Publish prior to data being migrated to production|
 |7.|Complete and submit the Open Data Assessment and checklist to DataBC where the data will be licensed under the Open Government Licence – British Columbia.|
 
