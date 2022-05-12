@@ -525,12 +525,10 @@ Security options are:
 
 ### How do I get access to the DataBC File Staging Area?
 
-+ Send an email with subject line **DataBC File Staging Area Access Request** to DataBC.DA@gov.bc.ca, with the following information:
-   + Name
-   + IDIR
-   + Title of data you intend to manage
-   + Name(s) of those you with whom you will be working
++ Fill out a [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13) ticket:
+   + Subject include the name of the dataset request is for
       + This will provide DataBC with a better understanding of the relationship between you and the data
+   + Select BCGW Staging Area
 
 ### How do I get access to secure data?
 
