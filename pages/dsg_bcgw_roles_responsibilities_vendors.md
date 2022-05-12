@@ -2,7 +2,8 @@
 layout: default
 title: Roles & Responsibilities - Vendors
 nav_order: 49
-parent: BC Geographic Warehouse
+parent: Publication Workflow - Vendors
+grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
