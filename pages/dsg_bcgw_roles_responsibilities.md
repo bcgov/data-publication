@@ -5,6 +5,7 @@ nav_order: 48
 parent: Publication Workflow
 grand_parent: BC Geographic Warehouse
 has_toc: false
+nav_exclude: true
 ---
 
 <h1>Roles and Responsibilties</h1>
