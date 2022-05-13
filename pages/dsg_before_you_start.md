@@ -38,6 +38,7 @@ In addition, other agencies provide mechanisms for accessing DataBC data:
 
 Hosting data in these products allows for access through these services and/or products
 **Under Construction**
+
 |Service | BC Data Catalogue| BC Geographic Warehouse | BC MapHub | 
 |:---|:---:|:---:|:---:|
 |**Webmapping** - iMapBC||![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
@@ -50,6 +51,8 @@ Hosting data in these products allows for access through these services and/or p
 |**Direct connect** - Layer library| ![](/images/grey_dash.png)| ![](/images/green_check.png)| ![](/images/grey_dash.png)
 |**Download service** - Data Catalogue| ![](/images/green_check.png)| ![](/images/green_check.png)| ![](/images/green_check.png)
 |**Download service** - iMapBC| ![](/images/green_check.png)| ![](/images/green_check.png)| ![](/images/grey_dash.png)
+|**Download service** - iMapBC| 
+|**BC Data Catalogue**| ![](/images/green_check.png)| ![](/images/green_check.png)
 
 There are five options for where data gets stored in the DataBC Program, each with its own benefits and drawbacks:
 
