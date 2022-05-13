@@ -34,6 +34,23 @@ In addition, other agencies provide mechanisms for accessing DataBC data:
 + the Geographic Terminal Servers (GTS - available through [dts.gov.bc.ca](https://dts.gov.bc.ca))
 + [_BCData R package_](https://github.com/bcgov/bcdata)
 
+
+
+Hosting data in these products allows for access through these services and/or products
+**Under Construction**
+|Service | BC Data Catalogue| BC Geographic Warehouse | BC MapHub | 
+|:---|:---:|:---:|:---:|
+|**Webmapping** - iMapBC||![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
+|**Webmapping** - iMapBC - Secure||![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
+|**Webmapping** - SMK|![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
+|**Webmapping** - WMS|![](/images/green_check.png)| ![](/images/green_check.png)|![](/images/green_check.png)|
+|**Webmapping** - WFS| Not listed at this time |![](/images/green_check.png)| ![](/images/green_check.png)
+|**Webmapping** - BC MapHub| ![](/images/green_check.png)| ![](/images/green_check.png)| ![](/images/green_check.png)
+|**Direct connect** - GTS| ![](/images/green_check.png)| ![](/images/green_check.png)| ![](/images/green_check.png)
+|**Direct connect** - Layer library| ![](/images/grey_dash.png)| ![](/images/green_check.png)| ![](/images/grey_dash.png)
+|**Download service** - Data Catalogue| ![](/images/green_check.png)| ![](/images/green_check.png)| ![](/images/green_check.png)
+|**Download service** - iMapBC| ![](/images/green_check.png)| ![](/images/green_check.png)| ![](/images/grey_dash.png)
+
 There are five options for where data gets stored in the DataBC Program, each with its own benefits and drawbacks:
 
 | | BC Geographic Warehouse | BC Data Catalogue | BC MapHub | pub.data.gov.bc.ca | External site |
