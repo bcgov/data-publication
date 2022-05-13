@@ -41,8 +41,8 @@ Hosting data in these products allows for access through these services and/or p
 
 |Service | BC Data Catalogue| BC Geographic Warehouse | BC MapHub | 
 |:---|:---:|:---:|:---:|
-|**Webmapping** - iMapBC||![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
-|**Webmapping** - iMapBC - Secure||![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
+|**Webmapping** - iMapBC|![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
+|**Webmapping** - iMapBC - Secure|![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
 |**Webmapping** - SMK|![](/images/grey_dash.png)|![](/images/green_check.png)|![](/images/grey_dash.png)
 |**Webmapping** - WMS|![](/images/green_check.png)| ![](/images/green_check.png)|![](/images/green_check.png)|
 |**Webmapping** - WFS| Not listed at this time |![](/images/green_check.png)| ![](/images/green_check.png)
