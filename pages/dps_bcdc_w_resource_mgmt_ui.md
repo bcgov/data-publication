@@ -388,9 +388,10 @@ This section is currently being developed.
 
 **Specific Field Requirements to Enable Export**
 + To enable the **Download/Access** button to pop-up the Persistent Order Widget (POW) the following must be populated:
-    1. **Name:** "BC Geographic Warehouse Custom Download"
-    2. **Resource Storage Location:** "BC Geographic Warehouse"
-    3. **Object name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
+    1. **Name:** Must contain "Custom Download" 
+        + Suggestions are in the above table for best titles if downloadable or not
+    3. **Resource Storage Location:** "BC Geographic Warehouse"
+    4. **Object name:** e.g., _"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP"_
 
 + **Object name**
     - Is the name of the dataset stored in a database.
