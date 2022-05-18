@@ -217,7 +217,3 @@ This page describes the roles and responsibilities of DataBC and the client when
 </details>
   
 ------------------------------
-
-[RETURN TO TOP][1] 
-
-[1]: #roles-and-responsibilities
