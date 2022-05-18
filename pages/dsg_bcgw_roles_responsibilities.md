@@ -206,7 +206,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 		<td>Notify DataBC when the dataset is at the end of its lifecycle and should be retired</td>
 	</tr>
 	<tr>
-		<td>5./td>
+		<td>5.</td>
 		<td>Notify DataBC of any issues with the data, access, layer presentation, distribution, or configured applications throughout the lifecycle of the data</td>
 	</tr>
 	<tr>
