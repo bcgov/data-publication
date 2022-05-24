@@ -190,7 +190,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 <table>
 	<tr>
 		<td>1.</td>
-		<td>rovide the DataBC team with feedback at the close of the project</td>
+		<td>Provide the DataBC team with feedback at the close of the project</td>
 	</tr>
 	<tr>
 		<td>2.</td>
