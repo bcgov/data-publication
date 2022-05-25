@@ -7,7 +7,7 @@ grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
-# Roles and Responsibilties - Vendors
+# Roles and Responsibilities - Vendors
 
 Publishing new or modified BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the contractor involved (if applicable), and the project’s business analyst. 
 
