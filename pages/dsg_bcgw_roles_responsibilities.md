@@ -7,7 +7,7 @@ grand_parent: BC Geographic Warehouse
 has_toc: false
 ---
 
-<h1>Roles and Responsibilties</h1>
+<h1>Roles and Responsibilities</h1>
 
 Publishing new or modifing existing BC Geographic Warehouse objects requires coordination between multiple partners including DataBC staff, the client, and the contractor involved (if applicable). 
 
