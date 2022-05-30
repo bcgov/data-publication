@@ -2,8 +2,8 @@
 layout: default
 title: Downstream Workflow
 grand_parent: Web-based Mapping
-parent: BC Maphub - Publication Workflow
-nav_order: 811
+parent: Presentation Workflow - Providers
+nav_order: 822
 has_toc: false
 ---
 
