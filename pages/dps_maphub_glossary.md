@@ -1,8 +1,8 @@
 ---
 layout: default
-title: MapHub Glossary
+title: Map Hub Glossary
 grand_parent: Web-based Mapping
-parent: BC Maphub - Publication Workflow
+parent: BC Map Hub - Publication Workflow
 nav_order: 815
 has_toc: false
 ---
