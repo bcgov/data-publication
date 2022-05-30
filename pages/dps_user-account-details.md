@@ -2,7 +2,7 @@
 layout: default
 title: MapHub Accounts
 grand_parent: Web-based Mapping
-parent: Presentation Workflow - Providers
+parent: BC Maphub - Publication Workflow
 nav_order: 811
 has_toc: false
 ---
