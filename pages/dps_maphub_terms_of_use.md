@@ -7,7 +7,7 @@ nav_order: 811
 has_toc: false
 ---
 
-# Account Holders Terms of Use:
+#  B.C's Map Hub Account Holders Terms of Use:
 
 You have applied for an ArcGIS Online Account to access the B.C's Map Hub. Before receiving access you are required to read and agree with the following usage conditions:
 
