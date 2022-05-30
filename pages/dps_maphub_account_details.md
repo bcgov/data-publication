@@ -7,6 +7,6 @@ nav_order: 811
 has_toc: false
 ---
 
-# User Account Details
+# BC MapHub User Account Details
 
 ![Single and Multi User account details](images/user_details.jpg)
