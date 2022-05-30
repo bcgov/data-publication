@@ -1,3 +1,12 @@
+---
+layout: default
+title: Layer File Presentation
+grand_parent: Web-based Mapping
+parent: Presentation Workflow - Providers
+nav_order: 811
+has_toc: false
+---
+
 _This page is intended to be a resource that describes the current, high-level state flow of downstream data visualization._
 
 At the heart of all of BC's widely available data access services is the BC Geographic Warehouse.  The Mapping Presentation Configuration Manager (MPCM) is a repository of Esri LYR format files that define the desired graphic presentation of data layers when consumed in a map using Desktop software such as ArcMap **or** in a web mapping application.
