@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publication Workflow - BC Maphub 
+title: BC Maphub - Publication Workflow
 parent: Web-based Mapping
 nav_order: 81
 ---
