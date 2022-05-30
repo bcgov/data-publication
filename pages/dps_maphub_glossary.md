@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Map Hub Glossary
+title: ArcGIS Online Digital Application - Glossary
 grand_parent: Web-based Mapping
 parent: BC Map Hub - Publication Workflow
 nav_order: 815
@@ -8,7 +8,7 @@ has_toc: false
 ---
 
 
-# Glossary
+# ArcGIS Online Digital Application - Glossary
 ## Account Types
 **Single-User** accounts can be Enterprise (use your IDIR to sign-in) or non-Enterprise (you manage your own password). If you're a Python user and wish to use it with ArcGIS Online choose the non-Enterprise type.
 <br><br>
