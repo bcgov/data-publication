@@ -1,13 +1,13 @@
 ---
 layout: default
-title: MapHub Terms of Use
+title: ArcGIS Online Digital Application - Terms of use
 grand_parent: Web-based Mapping
 parent: BC Map Hub - Publication Workflow
 nav_order: 811
 has_toc: false
 ---
 
-#  B.C's Map Hub Account Holders Terms of Use:
+#  ArcGIS Online Digital Application - Account Holders Terms of Use:
 
 You have applied for an ArcGIS Online Account to access the B.C's Map Hub. Before receiving access you are required to read and agree with the following usage conditions:
 
