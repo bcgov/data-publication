@@ -1,3 +1,13 @@
+---
+layout: default
+title: MapHub Glossary
+grand_parent: Web-based Mapping
+parent: Publication Workflow - BC Maphub
+nav_order: 815
+has_toc: false
+---
+
+
 # Glossary
 ## Account Types
 **Single-User** accounts can be Enterprise (use your IDIR to sign-in) or non-Enterprise (you manage your own password). If you're a Python user and wish to use it with ArcGIS Online choose the non-Enterprise type.
