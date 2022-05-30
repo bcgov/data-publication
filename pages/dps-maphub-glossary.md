@@ -2,7 +2,7 @@
 layout: default
 title: MapHub Glossary
 grand_parent: Web-based Mapping
-parent: Publication Workflow - BC Maphub
+parent: BC Maphub - Publication Workflow
 nav_order: 815
 has_toc: false
 ---
