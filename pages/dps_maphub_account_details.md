@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ArcGIS Online Digital Application - User account details
+title: AGO User account details
 grand_parent: Web-based Mapping
 parent: BC Map Hub - Publication Workflow
 nav_order: 811
