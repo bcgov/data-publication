@@ -189,7 +189,7 @@ At least one contact is required.
 | |[Access Approver](./glossary.md/#access_approver) |(optional) |  Recommend that this role is not displayed to public catalogue users.|
 | |[Business Expert](./glossary.md/#business_expert) |(optional)| |
 | |[Data Manager](./glossary.md/#data_manager) |(optional) | |
-| |[Custodian](./glossary.md/#custodian)| (optional) |- Recommend a custodian is identified and not displayed as a contact to the public|
+| |[Custodian](./glossary.md/#custodian)| (optional) |A custodian is truly at the Branch or org level, thus we are reviewing other options to represent this role. However if added, it could be hidden from public visibility unless their contact is to be a primary contact.|
 | |[Data Steward](./glossary.md/#data_steward)| (optional) | |
 | | [Distributor](./glossary.md/#distributor) |(optional) | |
 |**Displayed** (`displayed`)|If the contact is visible to the public (checked) or when and IDIR user is logged in (unchecked)| (required)|
