@@ -15,7 +15,7 @@ At the heart of all of BC's widely available data access services is the BC Geog
 
 The Production MPCM/PROD stage service endpoint which lists all of the available layers and their corresponding IDs can be viewed here:
 
-(https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD)[https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD]
+[https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD](https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD)
 
 Specifics about a given layer can be found by appending a '/' and a layerID to the URL as such:
 
