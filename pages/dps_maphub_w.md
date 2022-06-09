@@ -6,7 +6,7 @@ nav_order: 81
 has_children: true
 ---
 
-# B.C.'s MAP HUB - ARCGIS ONLINE (AGO)
+# B.C.'s Map Hub - ArcGIS Online (AGO)
 
 This page is intended to help users understand the publication workflow and metadata requirements for AGO content.  It also indicates resources that are available to assist with preparation and publication of AGO content (sharing to public).  Wherever possible, existing public BC Geographic Warehouse (BCGW) data services in AGO should be used before attempting to publish redundant data. B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview).  
 
