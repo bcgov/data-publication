@@ -19,7 +19,7 @@ The Production MPCM/PROD stage service endpoint which lists all of the available
 
 Specifics about a given layer can be found by appending a '/' and a layerID to the URL as such:
 
-https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD/2
+[https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD/2](https://apps.gov.bc.ca/pub/mpcm/services/catalog/PROD/2)
 
 **MPCM to Geoserver (WMS/WFS)**
 
@@ -50,13 +50,13 @@ Every piece of content in ArcGIS Online has an Item Details page, e.g.
 **Regional Districts**
 Item ID page:
 
-https://governmentofbc.maps.arcgis.com/home/item.html?id=bb7f0c48789943fbb6e3a0afb9fd4e01
+[https://governmentofbc.maps.arcgis.com/home/item.html?id=bb7f0c48789943fbb6e3a0afb9fd4e01](https://governmentofbc.maps.arcgis.com/home/item.html?id=bb7f0c48789943fbb6e3a0afb9fd4e01)
 
 Created: Mar 19, 2019    Updated: Aug 20, 2021
 
 "mini-maxl" Service URL is included in the details on the Item ID page
 (add ‘?f=pjson’ at the end of the supplied URL as the HTML view of the service is disabled):
-https://maps.gov.bc.ca/arcserver/rest/services/whse/bcgw_pub_whse_legal_admin_boundaries/MapServer/16?f=pjson
+[https://maps.gov.bc.ca/arcserver/rest/services/whse/bcgw_pub_whse_legal_admin_boundaries/MapServer/16?f=pjson](https://maps.gov.bc.ca/arcserver/rest/services/whse/bcgw_pub_whse_legal_admin_boundaries/MapServer/16?f=pjson)
 
 **KML**
 
@@ -64,4 +64,4 @@ KML files are build as part of the respective GeoServer build.  Only public laye
 
 **_Need Assistance?_**
 
-When issues are identified or an on demand run is needed, please create a JSM ticket so that it lands in MAP’s queue and can be assessed for urgency and actioned in due course.  Until we build out a few more options in the JIRA Service Manager to cover off Data Access Services inquiries, please use this section: https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6
+When issues are identified or an on demand run is needed, please create a JSM ticket so that it lands in MAP’s queue and can be assessed for urgency and actioned in due course.  Until we build out a few more options in the JIRA Service Manager to cover off Data Access Services inquiries, please use this section: [https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6)
