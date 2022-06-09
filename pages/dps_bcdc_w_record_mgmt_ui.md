@@ -11,7 +11,7 @@ has_toc: false
 
 ||**Audience** | |
 |:---:|:---:|:---:|
-| [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
+| [*Catalogue Editors*](../glossary.md#metadata_editor) | [*Catalogue Admin*](../glossary.md#metadata_admin) | *Catalogue Developers* |
 
 ## Table of Contents
 + [**Record management**](#record-management)
