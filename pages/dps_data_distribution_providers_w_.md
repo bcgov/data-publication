@@ -9,7 +9,7 @@ has_toc: false
 
 # DATA DISTRIBUTION WORKFLOW FOR PROVIDERS
 
-This page describes the requirements and optiopns for distributing data from the BC Geographic Warehouse (BCGW).
+This page describes the requirements and options for distributing data from the BC Geographic Warehouse (BCGW).
 
 This service allows for data in the BCGW to be orderable in a variety of formats using the BC Data Catalogue (BCDC) and iMapBC.
 
@@ -29,7 +29,7 @@ This service allows for data in the BCGW to be orderable in a variety of formats
 ## CONFIGURABLE PRODUCTS
 
 ## REQUIREMENTS
-All datasets in the BCGW that are configured for distrubtion require
+All datasets in the BCGW that are configured for distribution require
 
 1. A published dataset in the BC Geographic Warehouse.
 2. A metadata record.
