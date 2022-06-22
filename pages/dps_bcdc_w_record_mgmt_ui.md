@@ -170,7 +170,7 @@ Provide a meaningful description of the dataset here. Be sure to include any inf
 
 ### Licence \* (`license_id`) <a name="licence"></a>
 
-Describes the license the data is being published under. 
+Describes the licence the data is being published under. 
 + See [Licences](./dps_licences.md) section for more info.
 
 [RETURN TO TOP][1]
