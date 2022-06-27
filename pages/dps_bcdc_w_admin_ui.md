@@ -66,11 +66,13 @@ has_toc: true
 1. Under the hamburger click **Explore by Organization** or **Explore Dataset Groups** 
 1. Click **Add Organizaton** or **Add Group** 
 1. The follow fields are to be filled out:
-    1. Name
-    2. Url Name
-    3. Description
-    4. 
-
+    1. **Name**
+    1. **Url Name**
+    1. **Description**
+    1. **External URL**
+    1. **Image URL**
+    1. **Parent**
+        1. To be able to select a parent or ministry level or move between them, an admin must be an admin to all levels. Therefore this is done by system-administrators  
 
 [Return to top][1]
 
@@ -87,7 +89,6 @@ has_toc: true
     + Requirements:
         - Lower case name 
         - Spaces replaced with dashes
-6. Copy the URL name to your clipboard.
 
 [Return to top][1]
 
