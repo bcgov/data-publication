@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# **BC Data Catalogue User and Organiation Management**
+# **BC Data Catalogue Mamber and Organiation Management**
 
 **UNDER CONSTRUCTION**
 
@@ -21,8 +21,15 @@ has_toc: true
 ## Table of Contents
 + [**Resources**](#resources)
 + [**Role Definitions**](#role-definitions)
-+ [**Member Granting**](#member-granting)
-+ [**Organizations Management**](#organization-management)
++ [**Organizations management**](#organization-management)
+    + [**Create Orgs or Groups**](#create-organizations-or-groups)
+    + [**Rename or update Orgs or Groups**](#rename-or-update-organizations-or-groups)
+    + [**Delete Orgs or Groups**](#delete-organizations-or-groups)
++ [**Member management**](#member-management)
+    + [**Add a member to an organization or group**](#add-a-member-to-an-organization-or-group)
+    + [**Edit a member role in an organization or group**](#edit-a-member-role-in-an-organization-or-group)
+    + [**Remove a member to an organization or group**](#remove-a-member-to-an-organization-or-group)
+    + [**Delete a member**](#delete-a-member)
 
 
 ## Role Definitions
@@ -52,16 +59,7 @@ has_toc: true
 
 [Return to top][1]
 
-## Notes
-+ Keycloak Groups are tied to the Catalogue or CKAN Organizations and Groups.
-+ In CKAN there are 3 roles or level of privileges: Admin, Editor and Member, these are each defined as their own Keycloak Group.
-+ Always search that a group does not already exist.
-+ Search is case sensitive.
-+ Keycloak Group **must** match that of a CKAN Organization or Group as is displayed in the CKAN **Name** field format, e.g., ministry-of-citizens-sevices/databc-program.
-    - if not using the API to retrieve this, the easiset way is to copy from the URL when clicking on the CKAN Organization or Group.
-+ CKAN Organizations and Groups are stored in the same field and thus must be unique.
-
-[Return to top][1]
+## Organization or group management
 
 ### Add an organization and group
 1. Log in
@@ -104,7 +102,7 @@ has_toc: true
 
 [Return to top][1]
 
-## Members
+## Member management
 
 + Users must log into the Catalogue first to be added as a read only member and then grants applied.
 + If a user hasn't logged into the new catalogue their **Username** with be all lower case. If logged in after will be Title case.
@@ -117,12 +115,19 @@ The following is how to grant users to be Admin or Editors of a CKAN Organizatio
 
 [Return to top][1]
 
+### Edit a member role in an organization or group
+1. 
+
+[Return to top][1]
+
 ### Remove a member from an organization or group
 1. 
+
+[Return to top][1]
 
 ## Deleting a member
 1. Deletion of a member is done by a system administrator.
 2. To request this, open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
-[1]: #role-definitions
+[1]: #bc-dtad-catalogue-mamber-and-organiation-management
 
