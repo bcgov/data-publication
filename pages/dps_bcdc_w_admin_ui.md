@@ -14,12 +14,11 @@ has_toc: true
 
 ||**Audience** | |
 |:---:|:---:|:---:|
-| [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
+| [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue System Adminstrators*  | *Catalogue Developers* |
 
 ## Table of Contents
 
 ## Table of Contents
-+ [**Resources**](#resources)
 + [**Role Definitions**](#role-definitions)
 + [**Organizations management**](#organization-management)
     + [**Create Orgs or Groups**](#create-organizations-or-groups)
