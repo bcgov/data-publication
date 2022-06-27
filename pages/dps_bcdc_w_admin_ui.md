@@ -8,7 +8,9 @@ has_children: false
 has_toc: true
 ---
 
-# **BC Data Catalogue Resources**
+# **BC Data Catalogue User and Organiation Management**
+
+**UNDER CONSTRUCTION**
 
 ||**Audience** | |
 |:---:|:---:|:---:|
@@ -16,8 +18,11 @@ has_toc: true
 
 ## Table of Contents
 
-+ [**Resource types**](#resource-types)
-   + [Application](#application)
+## Table of Contents
++ [**Resources**](#resources)
++ [**Role Definitions**](#role-definitions)
++ [**Member Granting**](#member-granting)
++ [**Organizations Management**](#organization-management)
 
 
 ## Role Definitions
@@ -27,7 +32,6 @@ has_toc: true
 |Parent Org|Ministry or Highest level of Organization|Assigned User Role membership access to all Ministry's Branches/Divisions records (datasets)|
 |Suborg|Branch/Division under Ministry or Organization|Assigned User Role membership access to all Suborg records (datasets)| 
 |Group|Container of like records/datasets for quick viewing without searching|Assigned User Role membership access to associated group(s)| 
-
 
 
 |User Role| Definition|Abilities|Implementation Status|
@@ -47,6 +51,78 @@ has_toc: true
 |Group Member| Basic access role to manage dataset association to the group  | Ability to add/remove PUBLISHED and PENDING ARCHIVE Datasets to Group.  If an Editor or Admin of an Organization, include DRAFT and PENDING PUBLISH datasets for those Organization(s). | Currently requested for MVP, in PO Review - https://github.com/bcgov/ckan-ui/issues/487|
 
 [Return to top][1]
+
+## Notes
++ Keycloak Groups are tied to the Catalogue or CKAN Organizations and Groups.
++ In CKAN there are 3 roles or level of privileges: Admin, Editor and Member, these are each defined as their own Keycloak Group.
++ Always search that a group does not already exist.
++ Search is case sensitive.
++ Keycloak Group **must** match that of a CKAN Organization or Group as is displayed in the CKAN **Name** field format, e.g., ministry-of-citizens-sevices/databc-program.
+    - if not using the API to retrieve this, the easiset way is to copy from the URL when clicking on the CKAN Organization or Group.
++ CKAN Organizations and Groups are stored in the same field and thus must be unique.
+
+[Return to top][1]
+
+### Add an organization and group
+1. Log in
+1. Under the hamburger click **Explore by Organization** or **Explore Dataset Groups** 
+1. Click **Add Organizaton** or **Add Group** 
+1. The follow fields are to be filled out:
+    1. Name
+    2. Url Name
+    3. Description
+    4. 
+
+
+[Return to top][1]
+
+### Rename an organization or group
+**Things to note**:
++ The Name, e.g., _DataBC Program_ can be changed at any time, changing the url name, e.g., _/databc-program_ should be done after hours due to a bug.
+
+1. Log in as a administrator
+2. Navigate to the organization or group
+3. Click _Edit Organzation_ or _Edit Group_
+4. Update _Name_
+    +  Change special characters like & to 'and'
+5. Update _URL_
+    + Requirements:
+        - Lower case name 
+        - Spaces replaced with dashes
+6. Copy the URL name to your clipboard.
+
+[Return to top][1]
+
+### Delete an organization or group
+**Things to note**:
++ Deleting a Keycloak Group should only happen when a CKAN Organization or Group needs to be deleted and not renamed.
++ Deletion of an organiation or group is done by a system administrator
+    + To request this as an enhancement to your holdings, open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/3).
+    + Include the name or link to the orginization or group to delete.
+    + If there are datasets associated, indicate what organizaton they belong to.
+
+
+[Return to top][1]
+
+## Members
+
++ Users must log into the Catalogue first to be added as a read only member and then grants applied.
++ If a user hasn't logged into the new catalogue their **Username** with be all lower case. If logged in after will be Title case.
+
+The following is how to grant users to be Admin or Editors of a CKAN Organization or Group.
+
+### Add a member to an organization or group
+1. 
+
+
+[Return to top][1]
+
+### Remove a member from an organization or group
+1. 
+
+## Deleting a member
+1. Deletion of a member is done by a system administrator.
+2. To request this, open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
 [1]: #role-definitions
 
