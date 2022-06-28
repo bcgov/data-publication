@@ -19,6 +19,7 @@ has_toc: false
    + [Edit a Record](#edit-a-record)
    + [Publish or Archive a Record](#publish-or-archive-a-record)
    + [Delete a Record](#delete-a-record)
+   + [Associate a Record to a Group](#associate-a-record-to-a-group)
 + [**Record fields**](#record-fields)
    + [_Title_](#title) 
    + [_URL_](#url)
@@ -99,6 +100,21 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
     1. Click the **Delete Dataset** button
 
 [RETURN TO TOP][1]
+
+### Associate a Record to a Group
+
+Members of a Catalgoue Group can associate any Published record in the catalogue to that Group.
+
+1. Log In
+1. Navigate to a record to add to your group
+1. Click **Groups** 
+1. In the pop-up click **Add to Group**
+1. Click the **+** button beside group
+1. Click **Stop adding to Group**
+2. Click **X** to close pop-up
+
+[RETURN TO TOP][1]
+
 
 ## Record fields
 
