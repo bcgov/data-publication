@@ -76,7 +76,7 @@ Log in to perform any actions:
 
 1. Log in as a administrator
 2. Navigate to the organization or group
-3. Click _Edit Organzation_ or _Edit Group_
+3. Click **_Edit Organzation_** or **_Edit Group_**
 4. Update _Name_
     +  Change special characters like & to 'and'
 5. Update _URL_
