@@ -85,7 +85,7 @@ has_toc: true
 ### Delete an organization or group
 **Things to note**:
 + Deleting a Keycloak Group should only happen when a CKAN Organization or Group needs to be deleted and not renamed.
-+ Deletion of an organiation or group is done by a system administrator
++ Deletion of an organization or group is done by a system administrator
     + To request this as an enhancement to your holdings, open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/3).
     + Include the name or link to the orginization or group to delete.
     + If there are datasets associated, indicate what organizaton they belong to.
