@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# **BC Data Catalogue Mamber and Organization Management**
+# **BC Data Catalogue Member and Organization Management**
 
 **UNDER CONSTRUCTION**
 
@@ -106,24 +106,49 @@ The following is how to grant users to be Admin or Editors of a CKAN Organizatio
 
 1. Log in
 2. Expand the hamburger menu in the top right corner
-3. Select the first option in the drop-down menu: _Account Settings_.
+3. Select the first option in the drop-down menu: **_Account Settings_**
 
-You will see your personalized account settings page – Click on the “Admin” tab on the top left-hand side of the menu bar.
+You will see your personalized account settings page – Click on the **“Admin”** tab on the top left-hand side of the menu bar.
+
+Here you will find all of the Organizations and Groups that you have been granted access to depending on your assigned user role within the BC Data Catalogue.
 
 
 ### Add a member to an organization or group
-1. 
+1. Click on the appropriate Ministry/Organization
+2. It will expand to show the Branches that you currently have access to edit and/or add members to
+3. You can add members to your organization at a branch level by clicking on the **_Add member_** button:
 
+    ![image](https://user-images.githubusercontent.com/99049515/177221232-7bf8228d-b4f3-4824-9b6d-2723be925339.png)
+
+3. Select team member by typing their first and last name or their IDIR account
+4. Assign them their member role - Options: **_admin_ or _editor_** role
+5. Click **_Add_** button 
+6. If you have made an error: click the **_Cancel_** button to return to your Admin Panel page
 
 [Return to top][1]
 
 ### Edit a member role in an organization or group
-1. 
+1. Find the team member on your organization or group panel
+
+2. Toggle over their current role and expand the options:
+
+    ![image](https://user-images.githubusercontent.com/99049515/177222415-0cfc0e4a-0c99-45ae-9ab2-c11aab7a6d9c.png)
+
+3. Assign them their new member role - Options: **_admin_ or _editor_** role 
+
+4. Once you have selected their new role - no further action is needed 
 
 [Return to top][1]
 
 ### Remove a member from an organization or group
-1. 
+1. Find the team member on your organization or group panel
+2. Click on the **_Delete_** button:
+
+    ![image](https://user-images.githubusercontent.com/99049515/177222283-553f5592-1144-4e78-a21f-b7cff2850286.png)
+    
+3. A dialogue box will open asking you to **"Confirm Removal"** of the member from that specific member role
+4. To remove the team member - Confirm by clicking: **_Delete_**
+5. If you have made an error: click the **_Cancel_** button to return to your Admin Panel page
 
 [Return to top][1]
 
