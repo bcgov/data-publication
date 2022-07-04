@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-# **BC Data Catalogue Mamber and Organiation Management**
+# **BC Data Catalogue Mamber and Organization Management**
 
 **UNDER CONSTRUCTION**
 
@@ -50,6 +50,10 @@ has_toc: true
 [Return to top][1]
 
 ## Organization or group management
+Log in to perform any actions:
+
+![image](https://user-images.githubusercontent.com/99049515/177217359-5e272d52-e6da-4413-98c2-592b14ffb102.png)
+
 
 ### Add an organization and group
 1. Log in
@@ -99,6 +103,13 @@ has_toc: true
 + If a user hasn't logged into the new catalogue their **Username** with be all lower case. If logged in after will be Title case.
 
 The following is how to grant users to be Admin or Editors of a CKAN Organization or Group.
+
+1. Log in
+2. Expand the hamburger menu in the top right corner
+3. Select the first option in the drop-down menu: _Account Settings_.
+
+You will see your personalized account settings page – Click on the “Admin” tab on the top left-hand side of the menu bar.
+
 
 ### Add a member to an organization or group
 1. 
