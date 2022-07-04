@@ -76,7 +76,7 @@ Log in to perform any actions:
 
 1. Log in as a administrator
 2. Navigate to the organization or group
-3. Click **_Edit Organzation_** or **_Edit Group_**
+3. Click **Edit Organzation** or **Edit Group**
 4. Update _Name_
     +  Change special characters like & to 'and'
 5. Update _URL_
@@ -106,7 +106,7 @@ The following is how to grant users to be Admin or Editors of a CKAN Organizatio
 
 1. Log in
 2. Expand the hamburger menu in the top right corner
-3. Select the first option in the drop-down menu: **_Account Settings_**
+3. Select the first option in the drop-down menu: **Account Settings**
 
 You will see your personalized account settings page – Click on the **“Admin”** tab on the top left-hand side of the menu bar.
 
@@ -121,8 +121,8 @@ Here you will find all of the Organizations and Groups that you have been grante
     ![image](https://user-images.githubusercontent.com/99049515/177221232-7bf8228d-b4f3-4824-9b6d-2723be925339.png)
 
 3. Select team member by typing their first and last name or their IDIR account
-4. Assign them their member role - Options: **_admin_ or _editor_** role
-5. Click **_Add_** button 
+4. Assign them their member role - Options: **admin** or **editor** role
+5. Click **_Add_** button
 6. If you have made an error: click the **_Cancel_** button to return to your Admin Panel page
 
 [Return to top][1]
@@ -134,7 +134,7 @@ Here you will find all of the Organizations and Groups that you have been grante
 
     ![image](https://user-images.githubusercontent.com/99049515/177222415-0cfc0e4a-0c99-45ae-9ab2-c11aab7a6d9c.png)
 
-3. Assign them their new member role - Options: **_admin_ or _editor_** role 
+3. Assign them their new member role - Options: **admin** or **editor** role 
 
 4. Once you have selected their new role - no further action is needed 
 
