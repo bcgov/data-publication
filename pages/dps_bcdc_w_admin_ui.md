@@ -99,22 +99,22 @@ Log in to perform any actions:
 
 ## Member management
 
-+ Users must log into the Catalogue first to be added as a read only member and then grants applied.
-+ If a user hasn't logged into the new catalogue their **Username** with be all lower case. If logged in after will be Title case.
++ Users must log into the Catalogue first to be added as a read only member and then grants are applied.
++ If a user hasn't logged into the new Catalogue before, their **Username** in the Admin Panel will appear in Lower case. If a user has logged into the Catalogue previously, their Username will appear in Title case.
 
-The following is how to grant users to be Admin or Editors of a CKAN Organization or Group.
+Follow the steps below to grant users Admin or Editors for a CKAN Organization or Group.
 
-1. Log in
+1. Log in to the BC Data Catalogue
 2. Expand the hamburger menu in the top right corner
-3. Select the first option in the drop-down menu: **Account Settings**
+3. Select the **Account Settings** option in the drop-down menu
 
 You will see your personalized account settings page – Click on the **“Admin”** tab on the top left-hand side of the menu bar.
 
-Here you will find all of the Organizations and Groups that you have been granted access to depending on your assigned user role within the BC Data Catalogue.
+Here you will find all the Organizations and Groups that you have been granted access to depending on your assigned user role within the BC Data Catalogue.
 
 
 ### Add a member to an organization or group
-1. Click on the appropriate Ministry/Organization
+1. Click on the appropriate dropdown beside your Ministry/Organization 
 2. It will expand to show the Branches that you currently have access to edit and/or add members to
 3. You can add members to your organization at a branch level by clicking on the **_Add member_** button:
 
