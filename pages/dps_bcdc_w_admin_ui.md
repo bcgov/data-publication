@@ -99,7 +99,7 @@ Log in to perform any actions:
 
 ## Member management
 
-+ Users must log into the Catalogue first to be added as a read only member and then grants are applied.
++ Users must first log into the Catalogue and then their grants can be applied.
 + If a user hasn't logged into the new Catalogue before, their **Username** in the Admin Panel will appear in Lower case. If a user has logged into the Catalogue previously, their Username will appear in Title case.
 
 Follow the steps below to grant users Admin or Editors for a CKAN Organization or Group.
