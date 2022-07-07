@@ -16,7 +16,7 @@ has_toc: true
 ## Table of Contents
 
 1. [**Where do I start**](#where-do-i-start)
-1. [**How to cecome a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
+1. [**How to become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
     - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
 1. [**How to publish Records - Moved**](#how-to-publish-records)
 1. [**How to create a Catalogue Group**](#how-to-create-catalogue-groups)
