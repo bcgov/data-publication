@@ -9,6 +9,8 @@ has_toc: false
 
 # DATA DISTRIBUTION WORKFLOW FOR CONSUMERS
 
+**This page has been replaced: (https://www2.gov.bc.ca/gov/content/data/bc-data-catalogue/using-the-catalogue/exporting-data)[https://www2.gov.bc.ca/gov/content?id=51F40E44C9ED433DAAFC976014C8AF73]**
+
 This page describes procedures and best practices for downloading data stored in the BC Geographic Warehouse (BCGW) and exported out using the BC Data Catalogue (BCDC) and iMapBC.
 
 |**AUDIENCE**|  |
