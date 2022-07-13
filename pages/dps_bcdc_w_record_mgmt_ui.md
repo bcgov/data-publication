@@ -305,6 +305,8 @@ These are the searchable terms for the metadata record, and at least one keyword
 + Enter meaningful keywords here. 
 + Think of what users may use for search terms to find the dataset in the Catalogue.
 
+Fore datasets that have gender based information include the following: gender, GBA+
+
 [RETURN TO TOP][1]
 
 ### Resource status \* (`resource_status`) <a name="resource-status"></a>
