@@ -48,7 +48,7 @@ has_toc: false
 
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
-![image](https://user-images.githubusercontent.com/32690119/179628784-338952cd-352c-4d3a-b60a-059d36dd7d20.png)
+![image](https://user-images.githubusercontent.com/32690119/179629726-b3c25bfc-c385-45d3-ade2-b5252da9e667.png)
 
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
@@ -58,7 +58,7 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 
 ### Add a Record
 
-![image](https://user-images.githubusercontent.com/32690119/179628996-db67f8b2-c264-49ae-8cff-37abfdc059e1.png)
+![image](https://user-images.githubusercontent.com/32690119/179629546-95d5c46b-197c-4def-b5d1-21eb069f4030.png)
 
 **To add a record:**
 1. Click the **Add Dataset** button
@@ -363,6 +363,8 @@ When there are changes to a resource in a metadata record, a new date type and c
 ---------------
 
 ## Resource management
+
+![image](https://user-images.githubusercontent.com/32690119/179629971-27a86246-d0fb-4b1d-bed8-a8903a09ad18.png)
 
 To add a resource:
 1. Click the **Add Resource** button on the toolbar at the record level
