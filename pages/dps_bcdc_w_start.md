@@ -46,8 +46,9 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 
 To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Division), one needs the sub-org to exist or be created and an grants applied to your account.
 
-
 + See [roles and responsibilities](./dsg_bcdc_roles_responsibilities.md) for expectations on what it is to be a provider, data custodian, steward or data manager. 
+
+![image](https://user-images.githubusercontent.com/32690119/179629726-b3c25bfc-c385-45d3-ade2-b5252da9e667.png)
 
 To start please log into the [Catalogue](https://catalogue.data.gov.bc.ca/) or have others who you will request access on behalf of.
 + This will populate the catalogue with all your contact details.
