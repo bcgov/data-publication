@@ -106,6 +106,21 @@ Metadata and data both follow a life cycle and thus the Catalogue allows for mul
 
 \* If Public or IDIR is dependent on what is selected for record visibility in the field _Who can view this record?_
 
+State on creating a dataset - Select Draft
+
+![image](https://user-images.githubusercontent.com/32690119/179633888-b9c4ed5c-c166-4d12-a4ac-2aa3d3b3aedd.png)
+
+Click to set to Pending Publish
+
+![image](https://user-images.githubusercontent.com/32690119/179633505-59710c92-82f4-4717-a3de-0db1bbee6512.png)
+
+When in Pending Publish the option to Publish is not available to editors only admins.
+
+![image](https://user-images.githubusercontent.com/32690119/179633749-f13268af-31eb-4658-956e-9edbf88106b4.png)
+
+
+
+
 [RETURN TO TOP][1]
 
 ------------------------------
