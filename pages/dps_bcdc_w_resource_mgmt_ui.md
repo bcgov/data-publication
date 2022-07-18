@@ -94,6 +94,8 @@ A resource type associated to a record, which is used for metadata relating to w
 
 ### Add a Resource
 
+![image](https://user-images.githubusercontent.com/32690119/179629971-27a86246-d0fb-4b1d-bed8-a8903a09ad18.png)
+
 **To add a resource:**
 1. Click the **Add Resource** button on the toolbar at the record level.
 1. Fill out all the required fields for each resource type as described below as noted in the [field section](./dps_bcdc_w_resource_mgmt_ui.md#resource-type-specific-fields).
