@@ -48,6 +48,8 @@ has_toc: false
 
 The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
+![image](https://user-images.githubusercontent.com/32690119/179628784-338952cd-352c-4d3a-b60a-059d36dd7d20.png)
+
 1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
     + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
     + Follow the [metadata record management section](#metadata-record-management) to complete all mandatory/required fields (minimum requirement). 
@@ -55,6 +57,8 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
 
 ### Add a Record
+
+![image](https://user-images.githubusercontent.com/32690119/179628996-db67f8b2-c264-49ae-8cff-37abfdc059e1.png)
 
 **To add a record:**
 1. Click the **Add Dataset** button
