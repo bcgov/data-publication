@@ -50,6 +50,8 @@ To become a Catalogue editor/publisher for a Sub-Organization (a Branch or Divis
 
 To start please log into the [Catalogue](https://catalogue.data.gov.bc.ca/) or have others who you will request access on behalf of.
 + This will populate the catalogue with all your contact details.
++ ![image](https://user-images.githubusercontent.com/32690119/179628465-b511d9bf-f77c-4da8-a674-931a0a8b13e4.png)
+
 
 Then to request a grant to your account please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 + This request service also allows for other account actions.
