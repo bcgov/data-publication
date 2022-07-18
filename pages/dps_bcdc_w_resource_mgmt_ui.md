@@ -112,7 +112,7 @@ A resource type associated to a record, which is used for metadata relating to w
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
     1. Click the **Pencil** icon on the Resource Card list on the right or
        - This will open the resource in edit mode.
-       - ![image](https://user-images.githubusercontent.com/32690119/179631948-3c07c8e6-8cf2-429a-85ea-314dc9a1bb64.png)
+       - ![image](https://user-images.githubusercontent.com/32690119/179632218-af74e2e5-0241-46f6-8475-022755c99547.png)
     1. Click on the resource title or the View button.
         1. Click on the _Edit resource_ button.
         2. ![image](https://user-images.githubusercontent.com/32690119/179630892-4e89b9d2-9847-4ad0-92a9-cac722a87cec.png)
