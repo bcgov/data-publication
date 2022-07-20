@@ -27,6 +27,7 @@ has_toc: false
    + [_Publish state_](#state)
    + [_Description_](#description)
    + [_Licence_](#licence)
+   + [_Open a support ticket_](#support-url)
    + [_Contacts_](#contacts)
    + [_Purpose_](#purpose)
    + [_Data quality_](#data-quality)
@@ -192,6 +193,12 @@ Provide a meaningful description of the dataset here. Be sure to include any inf
 
 Describes the licence the data is being published under. 
 + See [Licences](./dps_licences.md) section for more info.
+
+[RETURN TO TOP][1]
+
+### Support URL (`support_url`) <a name="support-url"></a>
+
+This is an optional field where providers can send users to open a ticket in a portal or hub or to a webpage with more information.
 
 [RETURN TO TOP][1]
 
