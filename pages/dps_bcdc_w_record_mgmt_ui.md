@@ -38,8 +38,8 @@ has_toc: false
    + [_Who can download this data?_](#who-can-download-this-data)
    + [_Who can view this record?_](#who-can-view-this-record)
    + [_Keywords_](#keywords)
-   + [_Resource status_](#resource-status)
    + [_Record lifecycle history_](#record-lifecycle-history)
+   + [_Resource status_](#resource-status)
 + [**Resource management**](#resource-management)
 + [**Additional resources**](#additional-resources)
 
@@ -317,25 +317,7 @@ These are the searchable terms for the metadata record, and at least one keyword
 + Think of what users may use for search terms to find the dataset in the Catalogue.
 
 Fore datasets that have gender based information include the following: gender, GBA+
-
-[RETURN TO TOP][1]
-
-### Resource status \* (`resource_status`) <a name="resource-status"></a>
-
-Defines the status of the dataset, service, API or application as described by one of the types below: 
-+ A resource or record changes status over its lifecycle. 
    
-    |Data Update Status|Description|
-    |:---|:---|
-    |Planned|Resources that do not currently exist, but is planned for the future, should be described as planned.|
-    |Under Development|Resources that are under development, but are not necessarily complete in nature, should be described as under development.|
-    |Ongoing|Resources that are regularly updated should be described as ongoing.|
-    |Required| |
-    |Completed|Resources with no plan for future updates should be described as completed.|
-    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - [**Replacement Record**](./dps_bcdc_record.md#replacement_record)|
-    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional information will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
-    |Destroyed|Resources that no longer exist should be described as destroyed.|
-    
 [RETURN TO TOP][1]
    
 ### Record lifecycle history \* (`dates`) <a name="record-lifecycle-history"></a>
@@ -365,6 +347,24 @@ When there are changes to a resource in a metadata record, a new date type and c
 **Source data path** (`source_data_path`):
 + Is required when **Resource status** is **Historical Archive**
 
+[RETURN TO TOP][1]
+
+### Resource status \* (`resource_status`) <a name="resource-status"></a>
+
+Defines the status of the dataset, service, API or application as described by one of the types below: 
++ A resource or record changes status over its lifecycle. 
+   
+    |Data Update Status|Description|
+    |:---|:---|
+    |Planned|Resources that do not currently exist, but is planned for the future, should be described as planned.|
+    |Under Development|Resources that are under development, but are not necessarily complete in nature, should be described as under development.|
+    |Ongoing|Resources that are regularly updated should be described as ongoing.|
+    |Required| |
+    |Completed|Resources with no plan for future updates should be described as completed.|
+    |Obsolete|Resources that that have been replaced with another or have long since been maintained should be described as obsolete. When selected, additional information will be required - [**Replacement Record**](./dps_bcdc_record.md#replacement_record)|
+    |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional information will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
+    |Destroyed|Resources that no longer exist should be described as destroyed.|
+    
 [RETURN TO TOP][1]
 
 ---------------
