@@ -16,7 +16,7 @@ The BCGW is a foundation for the B.C. Spatial Data Infrastructure and all of the
 
 The BCGW is managed by DataBC. It supports the Province's electronic services strategy as it is designed and operated for the purposes of hosting and cataloguing sets of data (mostly spatial data) on behalf of custodial ministries and other government custodial agencies. 
 
-The BCGW's access tools include ArcGIS for direct GIS access to spatial data, iMapBC and other web-based mapping tools, Discovery and Distribution Services for locating and downloading data.
+The BCGW's access tools include ArcGIS for direct GIS access to spatial data, iMapBC and other web-based mapping tools, and Discovery and Distribution Services for locating and downloading data.
 
 The main purpose of the BCGW is to make data available to users in a form that best supports data integration, sharing and exchange, analysis and decision-making. In general, this is the purpose of any data warehouse.
 
