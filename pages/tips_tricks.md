@@ -3,7 +3,6 @@ layout: default
 title: Tips & Tricks
 nav_order: 49
 parent: BC Geographic Warehouse
-grand_parent: Data Publication and Services
 has_children: false
 has_toc: false
 ---
