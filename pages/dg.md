@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Data Governance
-parent: Data Publication and Services
 nav_order: 9
 has_children: false
 nav_exclude: true
