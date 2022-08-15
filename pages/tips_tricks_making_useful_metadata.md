@@ -3,7 +3,6 @@ layout: default
 title: Tips & Tricks
 nav_order: 39
 parent:	BC Data Catalogue
-grand_parent: Data Publication and Services
 has_toc: false
 ---
 
