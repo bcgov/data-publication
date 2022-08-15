@@ -3,7 +3,6 @@ layout: default
 title: Publication Workflow - Vendors
 nav_order: 44
 parent: BC Geographic Warehouse
-grand_parent: Data Publication Services
 has_children: true
 has_toc: false
 ---
