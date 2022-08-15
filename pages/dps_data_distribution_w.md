@@ -3,7 +3,6 @@ layout: default
 title: Distribution Workflow - Consumers
 nav_order: 52
 parent: Data Distribution
-grand_parent: Data Publication Services
 has_toc: false
 ---
 
