@@ -206,6 +206,12 @@ This is an optional field where providers can send users to open a ticket in a p
 
 At least one contact is required. 
 
+Best Practices:
++ If an organization has a generic inbox, make that the first contact and keep _Displayed_ tick box checked.
+    + If no generic inbox, then make the first contact the ideal person to be contacted.
++ However, if a generic inbox is used, do add personal contact(s).
+   + If desired to not have the contact(s) visible to public, uncheck _Displayed_ tick box.
+
 |Field Name |Descripion |Required/Optional|Comments|
 |:---|:---|:---:|:---|
 |**Name** (`name`)| Contact full name or business area if group inbox|(required)| |
