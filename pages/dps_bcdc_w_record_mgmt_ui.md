@@ -204,6 +204,8 @@ This is an optional field where providers can send users to open a ticket in a p
 
 ### Contacts \* (`contacts`) <a name="contacts"></a>
 
+Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact in the metadata record.
+
 At least one contact is required. 
 
 Best Practices:
