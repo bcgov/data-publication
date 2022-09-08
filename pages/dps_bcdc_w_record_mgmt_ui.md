@@ -206,7 +206,7 @@ This is an optional field where providers can send users to open a ticket in a p
 
 Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact in the metadata record.
 
-At least one contact is required. 
+At least one _Displayed_ contact is required. This contact is visible to the public.
 
 Best Practices:
 + If an organization has a generic inbox, make that the first contact and keep _Displayed_ tick box checked.
