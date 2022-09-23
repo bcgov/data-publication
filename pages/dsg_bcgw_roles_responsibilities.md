@@ -150,7 +150,7 @@ This page describes the roles and responsibilities of DataBC and the client when
 	</tr>
 	<tr>
 		<td>6.</td>
-		<td>repare the BC Data Catalogue record and set the State to Pending Publish prior to data being migrated to production</td>
+		<td>Prepare the BC Data Catalogue record and set the State to Pending Publish prior to data being migrated to production</td>
 	</tr>
 	<tr>
 		<td>7.</td>
