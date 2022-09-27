@@ -544,6 +544,8 @@ Security options are:
 
 ### How do I get an account to BCGW?
 
+**For those in the Natural Resource Ministries**:
+
 + Fill out the [_GTS / ArcGIS Desktops - Access Request_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/261)
    + Recipient IDIR ID: your IDIR
    + Spatial Files 1 and 2 (optional): choose your business area from either of the two drop-down menus. If you are unsure, leave these blank and provide details as specified in the Additional Information section .
@@ -551,7 +553,19 @@ Security options are:
    + ESRI License Type: choose the license type that best descibes the work that you do. 
    + Additional Information: Any additional information can be provided here.  If you require access to the BCGW Delivery and/or Test environment(s) please add that request in this section noting which environment(s) access is required.
 
+**For those outside the Natural Resouce Ministries**:
+
++ Email NRMenquiries@gov.bc.ca 	
++ Include:
+   + IDIR or BCGW account name if different than your IDIR
+   + Spatial Files: Don't require
+   + GTS Email Distribution List: Recommend if using the NRM GTS to direct connect
+   + ESRI Licence Type: Needed if using the NRM GTS 
+   + If requiring accounts to BCGW Delivery and/or Test
+
 ### How do I change/reset my BCGW password?
+
+**For those in the Natural Resource Ministries**:
 
 + Fill out the form in the [_NRM Business Service Desk Application_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/42) as follows:
 
@@ -560,7 +574,14 @@ Security options are:
   + Account ID: MY ORACLE ID (normally the same as your IDIR)
   + Description: Please reset my Oracle password in the BCGW _(choose the environment(s) that apply to you: production, test, and/or delivery)_ environment(s).
 
+**For those outside the Natural Resouce Ministries**:
+
++ Email NRMenquiries@gov.bc.ca with BCGW account name or
++ Call (250) 952-6801
+
 ### How do I unlock my BCGW account?
+
+**For those in the Natural Resource Ministries**:
 
 + Fill out the form in the [_NRM Business Service Desk Application_](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1/create/42) as follows:
 
@@ -568,6 +589,12 @@ Security options are:
   + Application: BCGW - BC Geographic Warehouse
   + Account ID: MY ORACLE ID (normally the same as your IDIR)
   + Description: Please unlock my Oracle account in the BCGW _(choose the environment(s) that apply to you: production, test, and/or delivery)_ environment(s).
+
+**For those outside the Natural Resouce Ministries**:
+
++ Email NRMenquiries@gov.bc.ca with BCGW account name or
++ Call (250) 952-6801
+
 
 ### I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?
 
