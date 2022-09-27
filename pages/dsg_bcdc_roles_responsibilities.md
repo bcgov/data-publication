@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Roles & Responsibilties
+title: Roles & Responsibilities
 nav_order: 38
 parent: BC Data Catalogue
 has_toc: false
