@@ -215,7 +215,11 @@ Example:
 
 + For initial grants on new datasets loaded to the BCGW, business areas are responsible for providing a list of named users (IDIR) that require direct connect access via tools such as ArcMap, SQL Developer and Toad. 
 + This work will be done by the designated staff within the DataBC DAs.
-+ After the initial setup by DataBC, for additional named users to be granted to the role in the BCGW, the business area should request access via the [NRM Service Desk](https://nrsservicedesk.gov.bc.ca/IM/scripts/LoginPage.asp)
++ After the initial setup by DataBC, for additional named users to be granted to the role in the BCGW, the business area should request access via the [NRM IT Portal](https://apps.nrs.gov.bc.ca/int/jira/servicedesk/customer/portal/1)
+	
+	+ **For those outside the Natural Resouce Ministries**:
+		+ Email NRMenquiries@gov.bc.ca with BCGW account name or
+		+ Call (250) 952-6801 	
 
 ### Granting Proxies to Roles
 
