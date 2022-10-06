@@ -59,11 +59,11 @@ Review the key questions below and be ready to discuss with DataBC before you in
 |Has the [Data Custodian](dsg_bcdc_roles_responsibilities.md#the-data-custodian) approved the publication of this dataset for your business area?| |
 |Is the source data in a production state and ready for publishing?|Not sure? See: [Data Preparation Consultation](#data-preparation-consultation)
 |Have you completed the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) file?|The Dataset Model describes your source data structure (fields, data type, data length, column comments). |
-|For spatial datsets: Do you have GIS staff available to support QA/QC and the creation of layer files?|_For buisness areas without GIS support, this service can be provided by DataBC_|
-|Do you have a Data Manager identified who will be responsible for the day-to-day maintenance of the source data?|_Must be in place prior to initiating a data publicaiton request_|
+|For spatial datsets: Do you have GIS staff available to support QA/QC and the creation of layer files?|For buisness areas without GIS support, this service can be provided by DataBC.|
+|Do you have a Data Manager identified who will be responsible for the day-to-day maintenance of the source data?|Must be in place prior to initiating a data publicaiton request.|
 |Are there specific security needs that will need to be configured for access to the data (other than government or public access)?| |
-|Does your business area have a presence in the BC Data Catalogue?|_If not, DataBC can set this up for you with approval from the Data Custodian_|
-|Does your business area have a defined BC Data Catalogue editor that will create and maintain the metadata throughout its lifecycle?|_If not, DataBC can configure a new editor(s) with approval from the Data Custodian_|
+|Does your business area have a presence in the BC Data Catalogue?|If not, DataBC can set this up for you with approval from the Data Custodian.|
+|Does your business area have a defined BC Data Catalogue editor that will create and maintain the metadata throughout its lifecycle?|If not, DataBC can configure a new editor(s) with approval from the Data Custodian.|
 |How will your data be licensed when published?|See [Licences](dps_licences.md)|
 |Are there time constraints that will have an impact on the publication date for the data (tied to legislation or software releases)?| |
 
