@@ -32,12 +32,12 @@ Data can be released in multiple formats but at least one must be in an __open f
 - GeoPackage,
 - or additional formats noted by the OCIO’s [Open Data Physical Dataset Format Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/open_data_physical_dataset_extract.pdf). 
 
-For guidelines on [open format file content](dsg_bcdc_file_based_content.md) formating.
+For guidelines on [open format file content](dsg_bcdc_file_based_content.md).
 
 ## BC DATA CATALOGUE METADATA RECORDS
 All datasets under the OGL-BC require a metadata record in the BC Data Catalogue (BCDC), aka, the Catalogue.
 
-Irregardless if a dataset is under the OGL, any BC Governement or Broader Public Sector (BPS) dataset can be published in the BCDC.
+Regardless if a dataset is under the OGL, any BC Government or Broader Public Sector (BPS) dataset can be published in the BCDC.
 
 To obtain an __account__ and publish metadata records follow the [BCDC documentation](dps_bcdc.md) and the [Where to Start](dps_bcdc_w_start.md).
 
@@ -47,7 +47,7 @@ The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/
 The checklist ensures the following:
 ### That the data contains __no personal information__.
 
-### That the __province has the intelectual property__ of the data.
+### That the __province has the intellectual property__ of the data.
 This is to be __confirmed by__ contacting the [Intellectual Properties Office (QPIPPCopyright@gov.bc.ca)](mailto:QPIPPCopyright@gov.bc.ca) and will asking questions around the data and will ask for a copy of the data.
 + Recommend sending them the data in a format they can open, like csv or xlsx.
 + If the data is huge, a subset of rows can also be provided.
@@ -69,7 +69,7 @@ Restrictions of Use:
 + Did the province gain access to the data under a contractual arrangement that may restrict further distribution and licensing of the data to third parties?   
 + Has the data been exclusively licensed to a third party (precluding the province from being able to license the data to others, including under the OGL-BC)? 
 
-### That the data is __not under any legal, contractual or policy contraint__.
+### That the data is __not under any legal, contractual or policy constraint__.
 
 ### That the data is __publicly releasable__.
 This is to be __confirmed by__ contacting the [Ministry Information Security Officer (MISO)](https://intranet.gov.bc.ca/intranet/content?id=DC4623F6F1944065B83F70297ED419D7).
@@ -85,10 +85,10 @@ Signatures are required from the following:
 Accepted signatures can be by signing and scanning the Open Data Assessment and Checklist or from an e-approval process the ministry has in place.
 
 ## REVIEW WITH THE MINISTRY GOVERNMENT COMMUNICAITON OFFICER
-We recommend working with your Government Communication Officer around the release of a dataset under the this licence.
+We recommend working with your Government Communication Officer around the release of a dataset under this licence.
 
 ## WHO TO CONTACT FOR FINAL PUBLICATION
-The completed form as well as questions are to be directed to the DataBC Program Services Team you are working with in regards to publishing data.
+The completed form as well as questions are to be directed to the DataBC Program Services Team you are working with in regard to publishing data.
 
 If you haven't started this process,  please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/28).
 
