@@ -159,8 +159,8 @@ Definitions must be full sentences or a combination of sentences, even when usin
     + A statement of what FIELD_NAME means, with either some typical examples or a list of all possible values.
     		+ Example: `The system calculated area of a two-dimensional polygon in square meters.`
     + in cases where a new/updated object should match other related objects:
-    		+ FIELD_NAME is a statement of what the column means, with either some typical examples or a list of all possible values. 
-    		+ Example: `FEATURE_AREA_SQM is the system calculated area of a two-dimensional polygon in square meters.`
+    	+ FIELD_NAME is a statement of what the column means, with either some typical examples or a list of all possible values. 
+    	+ Example: For a field named FEATURE_AREA_SQM: "The system calculated area of a two-dimensional polygon in square meters."
 
 The description of a spatial point table/view must contain an indication of whether the features in the table or view are point (one point per feature) or multipoint (possibly multiple points per feature).
 
