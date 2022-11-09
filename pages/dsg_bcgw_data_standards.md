@@ -6,7 +6,6 @@ has_toc: false
 ---
 
 # DATA STANDARDS
-_Formerly: Data Guidance and Best Practices_
 
 Standards make it easier to create, share, and integrate data by making sure that there is a clear understanding of how the data are represented and that the data you receive are in a form that you expect.
 
@@ -244,6 +243,7 @@ If you have questions about DataBC's Data Standards, please open a ticket with t
 
 + [_Geomatic Solutions_](https://epsg.org/home.html)
 + [_ArcGIS Desktop - ArcMap_](https://desktop.arcgis.com/en/arcmap/)
++ [_BC Government File Geodatabase Standards_](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
 
 ------------------------------------------------------------------------------
 
