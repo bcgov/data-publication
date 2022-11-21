@@ -28,19 +28,19 @@ This page describes the requirements and optiopns for presenting spatial data fr
 ## CONFIGURABLE PRODUCTS
 
 ## REQUIREMENTS
-Spatial atasets in the BCGW may be configured for web-mapping services, this requires:
+Spatial datasets in the BCGW may be configured for web-mapping services, this requires:
 
 1. A published spatial dataset in the BC Geographic Warehouse.
 1. A metadata record.
 1. A profile defined as one of the Security options below.
     - Named Users is the only profile that requires additional configuration.
-1. A presentation layer as created with the [Layer File Presenation document](./dsg_bcgw_layer_file_presentation.md)
+1. A presentation layer as created with the [Layer File Presentation document](./dsg_bcgw_layer_file_presentation.md)
    - And published through to iMapBC production.
 
 ## LIMITATIONS
 
 + Large datasets or with wide variety of size differences may see perfomance issues.
-   - For certrain datasets, like regional boundaries, a generalized dataset can be created to be used in web-mapping service.
+   - For certain datasets, like regional boundaries, a generalized dataset can be created to be used in web-mapping service.
 
 ## CONFIGURATION OPTIONS
  ![](/images/grey_dash.png)
@@ -52,7 +52,7 @@ Spatial atasets in the BCGW may be configured for web-mapping services, this req
 |**Security** | Business BCeID | ![](/images/green_check.png)| ![](/images/green_check.png) | | | Not Available *
 |**Security** | Named Users <br/> can be a mix of IDIR and Business BCeID  | ![](/images/green_check.png)| ![](/images/green_check.png) | Not Available | Not Available | Not Available *
 ||
-|**Area of Interest** | Entire dataset| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> uses Defalt (Outline, All, etc) |![](/images/green_check.png) | ![](/images/green_check.png) 
+|**Area of Interest** | Entire dataset| ![](/images/green_check.png) | ![](/images/green_check.png) | ![](/images/green_check.png) <br/> uses Default (Outline, All, etc) |![](/images/green_check.png) | ![](/images/green_check.png) 
 |**Area of Interest** |Subset dataset| ![](/images/green_check.png)<br/> using Definition Queries| ![](/images/green_check.png) <br/> using Definition Queries | ![](/images/green_check.png) <br/> using Definition Queries | Not Available | Not Available
 ||
 |**Tabular** | | Not Available <br/> joins are not supported | Not Available |Not Available|Not Available|Not Available
