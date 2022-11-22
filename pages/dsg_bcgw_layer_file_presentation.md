@@ -9,9 +9,9 @@ has_toc: false
 
 # LAYER FILE PRESENTATION
 
-A layer file is an ESRI-based file with a .lyr extension that stores the path to a source dataset and other layer properties, including symbology. It provides a consistnent presentation for data and is built using ESRI's ArcGIS software.
+A layer file is an ESRI-based file with a .lyr extension that stores the path to a source dataset and other layer properties, including symbology. It provides a consistent presentation for data and is built using ESRI's ArcGIS software.
 
-This page provides standards, guidelines and procedures for layerfile presentations and the cartographic symbology of spatial data in the BC Geographic Warehouse (BCGW) as required for DataBC's mapping applications and services. 
+This page provides standards, guidelines and procedures for layer file presentations and the cartographic symbology of spatial data in the BC Geographic Warehouse (BCGW) as required for DataBC's mapping applications and services. 
 
 Specifically, the layer files are directly or indirectly used as the source for presentations in the following mapping applications and services:
 
@@ -270,7 +270,7 @@ This tab is where to set transparency and the Display Field (Display Expression)
 
 **Not Recommended**:
 
-+ Do not choose "Show MapTips using the display expression"
++ Do not choose "Show Map Tips using the display expression"
    + This can have undesired results, and tax the system.
    + Enabling Map Tips by the end user is simple in both ArcMap and IMapBC, but must be under user control. 
    + An IMF application developer may also choose to enable Map Tips on a particular layer. 
