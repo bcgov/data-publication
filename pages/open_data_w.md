@@ -21,6 +21,10 @@ Broader Public Sector (BPS) agencies are required to [create their own licence](
 ## REVIEW THE OPEN DATA POLICY
 Before starting the process review the [Open Information and Open Data Policy](https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/services-policies-for-government/information-management-technology/information-privacy/resources/policies-guidelines/open-information-open-data-policy.pdf).
 
+### REVIEW IF THERE IS ALSO OPEN INFORMATION
+
+When publishing data, there may also be [Open information](https://www2.gov.bc.ca/gov/content?id=A885FF9C65F24F5FAA1FA5535342D87F) to go along with it. See their [FAQ](https://www2.gov.bc.ca/gov/content?id=76AB0A4A8C5F44E080DCDD12639E8191) to learn more about open information and search their [catalogue](https://www2.gov.bc.ca/gov/search?id=9199E7BC9682482EB9EA0B6D6B8D386C) to see what is already listed.
+
 ## REVIEW THE OPEN GOVERNMENT LICENCE - BRITISH COLUMBIA
 Review the [Open Government Licence - British Columbia (OGL-BC)](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61) to ensure the licence is correct for the needs of the business and data. 
 
