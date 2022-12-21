@@ -42,36 +42,40 @@ _under construction_
 ```
 import ckanapi
 
-# to change host between prod and test, use the following: production = 'catalogue'; test = 'cat'
+
+# To change host between prod and test, use the following: production = 'catalogue'; test = 'toyger'
+# To see possible values for pick lists the schema is available at:
+	* https://github.com/bcgov/ckanext-bcgov-schema/blob/master/ckanext/bcgov_schema/bcdc_dataset.json
  
 ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKEY-HERE')
 
 resp = ckan.action.package_create(
-        type="bcdc_dataset",
-	title="my-resource-name",
-	owner_org="my-sub-org-id-here",
-	description="my-package-description",
-	license_id="licence id",
-	contacts={
-            delete: "0",
-	    private: "Display",
-            role: "select-from-list-see-json-schema",
-            email: "valid email"
-	    name:"contact name",
-            org: "organization id"}
-	security_class="select-from-list-see-json-schema",
-	view_audience="select-from-list-see-json-schema",
-	download_audience="select-from-list-see-json-schema",
-	metadata_visibility="select-from-list-see-json-schema",
-	tag_string={
-		"keyword1","keyword2"}
-	publish_state="DRAFT",
-	resource_status="select-from-list-see-json-schema"	
-	)
-
-
+    type="bcdc_dataset",  # This is a fixed value
+    title="Title of my Dataset",  # Can be anything
+    name="title-of-my-dataset",  # Should be title in all lowercase with dashes
+    owner_org="ORG_ID_HERE",  # ID of organization
+    description="Description of dataset",  # Free text, be descriptive
+    notes="Notes on dataset",  # Useful notes on dataset
+    license_id="2",  # Licence ID (example is Open Government License - BC)
+    # Contacts is bit harder to read needs because its an array of JSON objects in an escaped string
+    # Make sure to surround all keys and values with escaped quotes \"
+    # name - your name
+    # email - your email
+    # org - your organization ID, probably same as above
+    # role - your role as a contact, possible values in schema (linked above)
+    # displayed - true or false, at least one must be true
+    contacts="[{\"name\":\"Your Name\",\"email\":\"name@your.domain\",\"org\":\"ORG_ID_HERE\",\"role\":\"pointOfContact\",\"displayed\":true}]",
+    security_class="PUBLIC",  # Possible values in schema (linked above)
+    view_audience="Public",  # Possible values in schema (linked above)
+    download_audience="Public",  # Possible values in schema (linked above)
+    metadata_visibility="Public",  # Possible values in schema (linked above)
+    tag_string="test",  # Comma separated, needs at least one value
+    publish_state="DRAFT",  # Should always be DRAFT
+    resource_status="planned"  # Possible values in schema (linked above)
+)
 print(resp)
 ```
+
 ### How to update a package with the API using package_patch
 
 * Is used to update just specific fields within a package.
