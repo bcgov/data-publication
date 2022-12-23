@@ -54,7 +54,6 @@ resp = ckan.action.package_create(
     title="Title of my Dataset",  # Can be anything
     name="title-of-my-dataset",  # Should be title in all lowercase with dashes
     owner_org="ORG_ID_HERE",  # ID of organization
-    description="Description of dataset",  # Free text, be descriptive
     notes="Notes on dataset",  # Useful notes on dataset
     license_id="2",  # Licence ID (example is Open Government License - BC)
     # Contacts is bit harder to read needs because its an array of JSON objects in an escaped string
