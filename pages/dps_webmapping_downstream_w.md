@@ -33,7 +33,7 @@ Production on Thursday: start time is 2-3 AM (can take up to 3 hours to run).
 
 The schedules can be enabled and disabled.  A schedule may be disabled when there is a change freeze. If unsure of whether something has been run, status in Jenkins can be checked as that is the mechanism for running the script.
 
-The script takes what is in MPCM Production/PROD stage and translates the content into WMS layers.  Associated layers styles are stored in a file with an extension .sld. This translations is not perfect as the complex lyr stles are not aways translated with the amount of detail that would be seen in the lyr files. In some cases we can namually build a SLD and override the SLD with the custom style at run time.
+The script takes what is in MPCM Production/PROD stage and translates the content into WMS layers.  Associated layers styles are stored in a file with an extension .sld. This translations is not perfect as the complex lyr stles are not aways translated with the amount of detail that would be seen in the lyr files. In some cases we can manually build a SLD and override the SLD with the custom style at run time.
 
 **ArcGIS Online “mini-maxl” Services**
 
