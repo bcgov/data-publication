@@ -243,7 +243,7 @@ If you have questions about DataBC's Data Standards, please open a ticket with t
 
 + [_Geomatic Solutions_](https://epsg.org/home.html)
 + [_ArcGIS Desktop - ArcMap_](https://desktop.arcgis.com/en/arcmap/)
-+ [_BC Government File Geodatabase Standards_](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
++ [_File Geodatabase Standards_](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
 
 ------------------------------------------------------------------------------
 
