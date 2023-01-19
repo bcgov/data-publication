@@ -79,7 +79,7 @@ The FME Framework requires you to be able to link published parameters to reader
 1. Choose **Tools** → **FME Options**
 1. Select **Default Paths** in the left hand panel of the **FME Options** popup
 1. Click on the **+** symbol in the **Shared FME Folders** section
-1. Enter this directory: **\\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\fmeCustomizations**
+1. Enter this directory: **\\data.bcgov\work\scripts\python\DataBCFmeTemplate2\fmeCustomizations**
 1. Click **YES** on the popup to create one or more of the required subfolders
 1. Click **OK**
 
@@ -93,7 +93,7 @@ The FME Framework requires you to be able to link published parameters to reader
 	1. Look for a variable listed called PYTHONPATH and if it is set to the correct location
 1. If there is no PYTHONPATH variable, then you'll create it now
 	1. At the prompt type the following:  
- `setx PYTHONPATH "\\spatialfiles\work\srm\kam\Workarea\kjnether\DataBCFmeFramework\"`
+ `setx PYTHONPATH "\\data.bcgov\work\scripts\python\DataBCFmeTemplate2\"`
 	1. A SUCCESS message should be displayed
 	1. Note: a new/updated environment variable won't be visible in the **set** list until after you exit the Commond Prompt window
 1. Exit the Command Prompt window
