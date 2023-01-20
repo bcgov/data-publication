@@ -1,14 +1,16 @@
 ---
 layout: default
-title: BC Map Hub - Publication Workflow
+title: BC's Map Hub - Publication Workflow
 parent: Web-based Mapping
 nav_order: 81
 has_children: true
 ---
 
-# B.C.'s Map Hub - ArcGIS Online (AGO)
+# BC's Map Hub - ArcGIS Online (AGO)
 
-This page is intended to help users understand the publication workflow and metadata requirements for AGO content.  It also indicates resources that are available to assist with preparation and publication of AGO content (sharing to public).  Wherever possible, existing public BC Geographic Warehouse (BCGW) data services in AGO should be used before attempting to publish redundant data. B.C.'s Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview).  
+BC's Map Hub is the provincial instance of [AGO](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview). 
+
+This page is intended to help users understand the publication workflow and metadata requirements for AGO content.  It also indicates resources that are available to assist with preparation and publication of AGO content (sharing to public).  Wherever possible, existing public BC Geographic Warehouse (BCGW) data services in AGO should be used before attempting to publish redundant data. 
 
 This page is written in the context that you have reviewed all information in the ‘Documentation Review’ section.
 
@@ -20,7 +22,7 @@ This page is written in the context that you have reviewed all information in th
 
 -----------------------
 ## Table of Contents
-+ [**B.C.'s MAP HUB - PUBLICATION WORKFLOW**](#bcs-map-hub---publication-workflow)
++ [**BC's MAP HUB - PUBLICATION WORKFLOW**](#bcs-map-hub---publication-workflow)
 + [**METADATA GUIDELINES FOR AGO AUTHORS**](#metadata-guidelines-for-ago-authors)
 	+ [Custodianship](#custodianship)
 	+ [Metadata](#metadata)
@@ -31,7 +33,7 @@ This page is written in the context that you have reviewed all information in th
 
 ## DOCUMENTATION REVIEW
 
-+ [B.C. MapHub](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) (all content)
++ [BC's Map Hub](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/agol) (all content)
 + [_Open Data_](https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc)
 + BC Data Catalogue
 	+ [BCDC Standards and Guidelines](dsg_bcdc.md) (all)
@@ -39,23 +41,22 @@ This page is written in the context that you have reviewed all information in th
 
 ---------------------------------------------------------------------
 
-## B.C.'s MAP HUB - PUBLICATION WORKFLOW
+## BC's MAP HUB - PUBLICATION WORKFLOW
 
 Below are the steps to follow when publishing an AGO application:
 
 1. You have AGO content (maps/apps/data...) destined for the public domain.
-1. At the beginning of the project, you need to be aware of the process to share the content to the public, which includes requirements for [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
+1. At the beginning of the project, you need to be aware of the process to share the content to the public, which may include requirements for [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca/dataset) (BCDC) metadata record(s).
 		1. You need to have editing privileges in the BC Data Catalogue so you are able to create BCDC metadata record(s) for each of your AGO items that needs one.
 		1. [**How to become a provider or editor to the catalogue**](./dps_bcdc_w_start.md#how-to-become-a-provider-to-the-catalogue)
 1. Create AGO content in [_B.C.’s Map Hub_](https://governmentofbc.maps.arcgis.com/home/index.html).
-1. Create Metadata - required in 2 places - BC Data Catalogue and AGO item details pages. Refer to the [_METADATA GUIDELINES FOR AGO AUTHORS_](#metadata-guidelines-for-ago-authors) section below for more detailed information.:
-	+  BC Data Catalogue
-		1. **Create BCDC metadata record(s)** for the AGO content (only for items that require it; i.e. apps, standalone web maps, AGO hosted feature layers…)
-		1. When BCDC records are complete and ready to publish you, the editor/author, must toggle the record state from Draft to Pending Publish (a flag for us that the metadata is ready for follow up).
+1. Create Metadata in the AGO Item's details page. Refer to the [_METADATA GUIDELINES FOR AGO AUTHORS_](#metadata-guidelines-for-ago-authors) section below for more detailed information.:
 	+ AGO
 		1. **Populate the AGO item details pages** with metadata. Each AGO item has its own item details page accessible to the public.
 1. Complete the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx) including your Project Sponsor's approval signature (typically Director level).
 1. **Submit the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx)** as an attachment to the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6/create/22).
+
+**Please note:** a BC Data Catqlogue metadata record is no longer required for the publication of each front-end item you wish to publish (e.g. map, web app,  dashboard, etc.) however it is a recommended tie-in to include a link to your front-end content item as a Resource on the metadata record for the data of interest being consumed. If you are not the author of the BCDC metadata record then you will have to contact the owner in order to make that edit.
 
 ---------------------
 
@@ -68,26 +69,14 @@ Below are the steps to follow when publishing an AGO application:
 
 ### Metadata
 
-**Metadata is required in 2 places for AGO content:**  BCDC, and AGO item details pages.
-+ **BCDC**
-	+ The [_AGO SPECIFIC METADATA REQUIREMENTS_](#ago-specific-metadata-requirements) section below details metadata requirements for specific types of AGO items.  The table illustrates scenarios where your AGO item may not require its own BCDC record. 
-	+ All public facing AGO hosted content (data, maps, apps) requires a metadata record in the BC Data Catalogue.  Exceptions to this include:
-		+ when the AGO maps/app is not "stand-alone" and is only a component of a main/parent public-facing app. In this case only the main/parent application requires a BCDC metadata record
-		+ when the AGO hosted data is a copy or subset of an existing provincial layer that already has a BCDC record
-		+ when the source is from by an external source
-	+ For additional information on metadata, refer to the BCDC Standards and Guidelines and Publication Workflow pages in the [Documentation Review](#documentation-review) section above.
-
-+ **AGO item details pages:**
++ **AGO Item details page:**
 	+ **Title:** Ensure the title accurately describes the item.
 	+ **Description section:** 
-		+ **If your item requires its own BCDC record:** - in the interest of minimizing duplication of effort and ongoing maintenance, the minimum requirement is to reference the item's BCDC record i.e. 
-			+ BC Data Catalogue metadata: [the permalink BCDC URL can be found by clicking **_Share_** button ).
-		+ **If your item does not require its own BCDC record:**
-			+ **Maps and Apps that are components of a main app** - include a statement that drives the audience to the main app by including the url for the main app and reference the main app's BCDC record i.e.
-				+ This item is a component of "Main App's name", please visit it here: [link to main app]
-			+ **Data that you have clipped or extracted from an existing public BCGW layer** - ensure you describe any enhancements you've made to the data, its update cycle, and intended use.  Include a reference to the source data's BCDC record i.e.
-				+ BC Data Catalogue metadata for source data: [permalink URL to bcdc record]).
-			+ **Data from an external source** - ensure you describe any enhancements you've made to the data, its update cycle, and intended use.  Include a statement that identifies the source.  Ensure there are no license or user agreements that preclude publishing the data.
+		+ **Maps and Apps that are components of a main app** - include a statement that drives the audience to the main app by including the url for the main app, i.e.	
+			+ This item is a component of "Main App's name", please visit it here: [link to main app]
+		+ **Data that you have clipped or extracted from an existing public BCGW layer** - ensure you describe any enhancements you've made to the data, its update cycle, and intended use.  Include a reference to the source data's BCDC record i.e.
+			+ BC Data Catalogue metadata for source data: [permalink URL to BCDC record]).
+		+ **Data from an external source** - ensure you describe any enhancements you've made to the data, its update cycle, and intended use.  Include a statement that identifies the source.  Ensure there are no license or user agreements that preclude publishing the data.
 	+ **Summary:**  A brief description of the item.
 	+ **Tags:** Include keywords that describe your content and enable audience to find your item when they search for such words. Ask yourself if you were looking for this item, what words would you use to search for it?  Must include "British Columbia" and "Canada".
 	+ **Credits:** Include the Sub-Organization from the BCDC Record.  This is found immediately below the Title.  For example, if DataBC is the Sub-Organization, use "Published by the Ministry of Citizens Services - DataBC Program".
@@ -113,19 +102,17 @@ Below are the steps to follow when publishing an AGO application:
 
 ### AGO-Specific Metadata Requirements
 
-The BC Data Catalogue is primarily for cataloguing data, thus if a dataset has an app or map, these can all be represented on one record as different resources.
+The BC Data Catalogue is primarily for cataloguing data, thus if a dataset has an app or map, the front-end items can all be represented on one metadata record as different Resources.
 
 |Public AGO Item Type|BCDC record required?|AGO Item Details required to be filled out?|
 |:---|:---|:---|
-|Web App (i.e.Web Appbuilder App, Story Map Apps, Operations Dashboard App, Gallery App, etc.)|Yes - if app is stand-alone|Yes - include reference to corresponding BCDC record|
-||No (if app is not stand-alone but a component of a main app)|Yes - include reference to corresponding BCDC record|
-|Web Map|Yes (if map is stand-alone, where map is not a component of an app)|Yes - include reference to corresponding BCDC record|
-||No (if map is not stand-alone but a component of a main app|Yes - include reference to corresponding BCDC record|
+|Web App (i.e.Web Appbuilder App, Story Map Apps, Operations Dashboard App, Gallery App, etc.)|No new BCDC metadata required; if the item is stand-alone, include a link to the item as a Resource in applicable BCDC metadata records; Resource link not required if the item is a component of a main app|Yes - include reference to corresponding BCDC record(s)|
+|Web Map|No new BCDC metadata required; if the item is stand-alone, include a link to the item as a Resource in applicable BCDC metadata records; Resource link not required if the item is a component of a main app|Yes - include reference to corresponding BCDC record(s)|
 |AGO Hosted Data Layers (features, tiles...) - [**_New information_**](glossary.md#new-infromation)|Yes|Yes - include reference to corresponding BCDC record|
-|AGO Hosted Data Layers (features, tiles...) - [**_Enhanced information_**](glossary.md#enhanced-information)|Yes (if information cannot be accessed or recreated by an average _public_ user)|Yes - include reference to corresponding BCDC record|
-| |No (if AGO Item Details page sufficiently describes hot the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided)|Yes - sufficiently described how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided.  Referenced BCDC record(s) for source data.|
+|AGO Hosted Data Layers (features, tiles...) - [**_Enhanced information_**](glossary.md#enhanced-information)|Yes (if information cannot be accessed or recreated by an average _public_ user)|Yes - include reference to corresponding BCDC record(s)|
+| |No (if AGO Item Details page sufficiently describes how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided)|Yes - sufficiently described how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided.  Referenced BCDC record(s) for source data.|
 AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes - provide reference to source|
-|Province of British Columbia Data Layers (BCGW data layer services available in AGO)|No - these layers already have BCDC records|No - Item Details are already auto-populated for these items|
+|Province of British Columbia Data Layers (BCGW data layer services available in AGO)|No - these layers already have BCDC records|No - Item Details are populated for these items through an automated build process|
 
 ### Use of Existing BC Geographic Warehouse or External Sources
 
