@@ -144,7 +144,7 @@ Response in JSON:
 
 **Give me the attributes and location of the Water Well with Well Tag # 65501, output as JSON**:
 
-[http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=text%2Fjavascript&format_options=callback%3AgetJson&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501&callback=getJson&_=1525714041640](http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=text%2Fjavascript&format_options=callback%3AgetJson&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501&callback=getJson&_=1525714041640)
+[http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=application/json&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501](http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=application/json&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501)
 
 **Give me Land Parcel Information at a specified location, output as HTML**:
 
