@@ -14,7 +14,7 @@ has_toc: false
 | [*Catalogue Editors*](../glossary.md#metadata_editor) | [*Catalogue Admin*](../glossary.md#metadata_admin) | *Catalogue Developers* |
 
 ## Resources
-[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
+[**3.11 Core Administrative and Descriptive Metadata Standards and Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
 + This document is being updated to reflect the alignment with this core standard.
 
 ## Table of Contents
