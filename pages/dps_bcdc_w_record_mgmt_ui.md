@@ -13,6 +13,10 @@ has_toc: false
 |:---:|:---:|:---:|
 | [*Catalogue Editors*](../glossary.md#metadata_editor) | [*Catalogue Admin*](../glossary.md#metadata_admin) | *Catalogue Developers* |
 
+## Resources
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This document is being updated to reflect the alignment with this core standard.
+
 ## Table of Contents
 + [**Record management**](#record-management)
    + [Add a Record](#add-a-record)
@@ -159,6 +163,10 @@ This is automatically generated while typing in the _**Title**_ with special cha
 
 This is the Sub-Organization (often the Branch or Division) under which the metadata record is created and published.
 + This is a required field
+
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field alights with the standard field **CREATOR**.
++ Refer to both the standard and guideline.
 
 [RETURN TO TOP][1]
 
