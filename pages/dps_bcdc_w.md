@@ -34,11 +34,11 @@ This page is written in the context that you have reviewed all information in th
 
 The first step in the process is to review the documentation: 
 + [BCDC Standards and Guidelines](./dsg_bcdc.html)
-+ [Naming and Describing](./dsg_naming_describing.html)
++ [3.11 Core Administrative and Descriptive Metadata Standard and Guidelines](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
 + [Open Data](./open_data.html)
 + [BC Data Catalogue - Roles and Responsibilities](./dsg_bcdc_roles_responsibilities.md)
     - which outlines the obligations for metadata management and maintenance. It is good practice for the Data Custodian (or designate) to complete regular metadata reviews to ensure currency and completeness for records published under their Branch/Division.**** 
-   
++ [Naming and Describing](./dsg_naming_describing.html)   
 ------------------------------
 
 ## Cataloguing Options and Requirements
