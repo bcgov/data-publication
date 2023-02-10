@@ -7,59 +7,41 @@ has_children: false
 has_toc: false
 ---
 
-# BC GEOGRAPHIC WAREHOUSE DATA RETIREMENT WORKFLOW
+# BC GEOGRAPHIC WAREHOUSE (BCGW) DATA RETIREMENT WORKFLOW
 
 
 |**AUDIENCE**|  |  |  |
 |:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Business Analysts* | *Business Portfolio Managers* | *Application Administrators* | *Data Consumers* 
 
-### Retirement Process and Workflow
+### BCGW Data Retirements
 Data Custodians are ultimately responsible for the Data Lifecycle of their data, which includes but is not limited to the maintenance, accuracy, licensing and the decision to replace, retire or archive their data.
 
 To retire data from the BCGW, please open a ticket with the [ Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/26).
 
-![BCGW Data Retirement Workflow](images/BCGW_Data_Retirement_Workflow.PNG)
-
-#### Notifications
+### Notifications
 From the information provided by the custodian, a ***Notice of Intent*** is created that includes metadata links to replacement datasets if available. After review a ***Notice of Decision*** is sent out.
 
-These notifications are sent out twice a year to allow application managers to schedule updates to their applications. Emergency disabling or temporary disabling of datasets can happen but will require rationale.
+These notifications are sent out interested parties to provide advance notice that a dataset will be removed or replaced in the BC Geographic Warehouse. Emergency disabling or temporary disabling of datasets can happen but will require rationale.
 
 Notifications are sent out by the DataBC Data Retirement team and [hosted in the BC Data Catalogue](https://catalogue.data.gov.bc.ca/dataset/3b1c8bbf-4a17-43f0-a5e4-b3e518ef77d1)
 
-**Notice of Intent (NOI)**
-Timelines: 
-* **June** and **December** with a **4 week** allowance for comments by users.
-* These comments are then compiled and sent to the data custodians for review.
-* A dataset at this time may be removed from the list for the associated Notice of Decision.
+#### Notice of Intent (NOI) Timelines
+* Annually, with a **4 week** allowance for users to contact the data managers with any concerns.
+* Data managers may request removal of a dataset from the NOI during this period.
 
-**Notice of Decision (NOD)**
-Timelines: 
-* **Late July/Early Aug** with a **2 week** notice before dependencies will be removed.
-* DataBC will do a dependency analysis and will work to other areas within DataBC as well as application owners to disable or redirect datasets.
+#### Notice of Decision (NOD) Timelines
+* Annually, with a **2 week** notice before the retirement implementation begins.
 
-**Dependencies:**
-DataBC Managed:
-* iMapBC & IMF2 Applications
-* Layer Library
-* Distribution Service
-* WFS/WMS/KML
-* Metadata
-* Spatial Overlay Engine (SOE)
-* Replication
-* Direct Connects
-    * An audit may be put on the datasets to be retired to help identify what applications may reference them.
+### Retirement Implementation
+#### Dataset Access Revoked
+* Security - access to datasets will be revoked
+* Delivery and Test BCGW will be revoked **one week** before **Production**
 
-Externally Managed:
-* If a specific application requires additional time, then special database grants will be set up. 
+#### Data Structure Archival
+* DataBC does not archive the data prior to removal from the BC Geographic Warehouse. It is the responsibility of the business area to retain a copy of the data, if required. 
+   * _Requests for exports of the data content can be accommodated, where business areas do not have GIS support._
+* DataBC will export a copy of the structure of the data (the data model) and provide these to the data custodian, upon request.
 
-**Database Grants Revoked**
-* Security - once dependencies are removed security to datasets will be revoked
-
-Timelines:
-* **Delivery and Test BCGW** will be revoked **one week** before **Production**
-
-**Deletion/Archival:**
-* DataBC will export a copy of the DDL and provide these to the data custodian.
-* Requests for exports of the data content can be accommodated, where business areas do not have GIS support.
+#### Dataset Removal
+* Datasets are then physically removed from the BC Geographic Warehouse.
