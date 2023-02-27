@@ -209,8 +209,7 @@ A simple leaflet app that has some of the WMS parameters as URL parameters -
 [http://delivery.openmaps.gov.bc.ca/kml/m/lfg103/lfwmsi2.html?l=WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&s=7738&a=MINE_GUID&f=MINE_GUID%3D%27d214e340-4575-4225-8dde-4f9504d5748f%27](http://delivery.openmaps.gov.bc.ca/kml/m/lfg103/lfwmsi2.html?l=WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&s=7738&a=MINE_GUID&f=MINE_GUID%3D%27d214e340-4575-4225-8dde-4f9504d5748f%27)
 	
 Add WMS Layers
-```
-……
+```javascript
 var map = new L.Map('map', {
 center: [52, -123.3],
 zoom: 5
@@ -238,8 +237,7 @@ layers: l
 ```
 
 Add WFS Layers and Zoom to
-```
-….
+```javascript
 var parameterswfs = L.Util.extend(defaultParameterswfs);
  var URL = owsrootUrl + L.Util.getParamString(parameterswfs);
  var WFSLayer = null;
