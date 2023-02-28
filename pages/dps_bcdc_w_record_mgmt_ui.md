@@ -75,7 +75,7 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ### Edit a Record
 
-![image](/images/edit_dataset.png)
+![image](images/edit_dataset.png)
 
 **To edit a record:**
 1. Log In
@@ -86,7 +86,7 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ### Publish or Archive a Record
 
-![image](/images/publish_record.png)
+![image](images/publish_record.png)
 
 **To publish a record:**
 1. Log In
@@ -104,7 +104,7 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ### Delete a Record
 
-![image](/images/delete_dataset.png)
+![image](images/delete_dataset.png)
 
 + Editors can delete records only in a Draft state
 + Admins can delete records in any state
@@ -120,9 +120,9 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ### Associate a Record to a Group
 
-![image](/images/add_group_1.png)
+![image](images/add_group_1.png)
 
-![image](/images/add_group_2.png)
+![image](images/add_group_2.png)
 
 Members of a Catalgoue Group can associate any Published record in the catalogue to that Group.
 
