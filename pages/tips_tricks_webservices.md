@@ -23,6 +23,16 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 | *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
 -----------------------
+## Table of Contents
++ [**Resources**](#resources)
++ [**Request Types**](#request-types)
++ [**Output Formats**](#output-formats)
++ [**Example Requests**](#example-requests)
++ [**Pagination**](#pagination)
++ [**Sample Applications**](#sample-applications)
+
+-----------------------
+## RESOURCES
 
 **[BC Data Catalogue Search Results for WMS](http://catalogue.data.gov.bc.ca/dataset?download_audience=Public&res_format=wms)**
 
@@ -46,7 +56,7 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 
 -----------------------
 
-## WMS/WFS REQUEST TYPES
+## REQUEST TYPES
 
 ### Types of  WMS Requests:
 ```
@@ -71,7 +81,7 @@ WMS/WFS requests can be made for all layers or as a separate service each layer/
 
 
 -----------------------
-## WMS/WFS OUTPUT FORMATS
+## OUTPUT FORMATS
 
 ### WMS Output Options
 ```
@@ -120,39 +130,60 @@ WMS/WFS requests can be made for all layers or as a separate service each layer/
 ```
 
 -----------------------
-## EXAMPLES
+## EXAMPLE REQUESTS
 
-### [WMS `GetMap` Example](http://openmaps.gov.bc.ca/geo/pub/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=application/openlayers&TRANSPARENT=true&STYLES=1748&LAYERS=pub%3AWHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY&SRS=EPSG%3A3005&WIDTH=512&HEIGHT=440&BBOX=1069159.051186301%2C1050414.7675306%2C1074045.5446851396%2C1054614.0978811644)
+### [WMS `GetMap` Example](http://openmaps.gov.bc.ca/geo/pub/ows?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=application/openlayers&TRANSPARENT=true&STYLES=1748&LAYERS=pub%3AWHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY&SRS=EPSG%3A3005&WIDTH=512&HEIGHT=440&BBOX=1069159.051186301%2C1050414.7675306%2C1074045.5446851396%2C1054614.0978811644)
 
-```http
-http://openmaps.gov.bc.ca/geo/pub/wms?
+```
+http://openmaps.gov.bc.ca/geo/pub/ows?
 SERVICE=WMS&
 VERSION=1.1.1&
 REQUEST=GetMap&
 FORMAT=application/openlayers&
 TRANSPARENT=true&
 STYLES=1748&
-LAYERS=pub%3AWHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY&
-SRS=EPSG%3A3005&
+LAYERS=pub:WHSE_FOREST_VEGETATION.VEG_COMP_LYR_R1_POLY&
+SRS=EPSG:3005&
 WIDTH=512&HEIGHT=440&
 BBOX=1069159.051186301%2C1050414.7675306%2C1074045.5446851396%2C1054614.0978811644
 ```
 
------------------------
-### WFS GetFeature EXAMPLE
+### [WFS `GetFeature` Example](http://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&count=1&outputFormat=json)
 
-[http://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&count=1&outputFormat=json](http://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&count=1&outputFormat=json)
+```
+http://openmaps.gov.bc.ca/geo/pub/ows?
+service=WFS&
+version=2.0.0&
+request=GetFeature&
+typeName=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&
+count=1&
+outputFormat=json
+```
 
 Response in JSON: 
 ```
 {"type": "FeatureCollection","features": [{"type": "Feature","id": "WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW.fid--7b8e502a_1677cdee8cf_498b","geometry": {"type": "Polygon","coordinates": [[[1121268.689,481286.634],[1121313.079,481348.863],[1121288.326,481374.623],[1121224.966,481286.119],[1121268.689,481286.634]]]},"geometry_name": "SHAPE","properties": {"PARCEL_FABRIC_POLY_ID": 27,"PARCEL_NAME": "006620256","PLAN_NUMBER": "VIP1993","PIN": null,"PID": "006620256","PID_NUMBER": 6620256,"PARCEL_STATUS": "Active","PARCEL_CLASS": "Subdivision","OWNER_TYPE": "Private","PARCEL_START_DATE": null,"MUNICIPALITY": "Parksville, City of","REGIONAL_DISTRICT": "Regional District of Nanaimo","WHEN_UPDATED": "2016-04-21Z","FEATURE_AREA_SQM": 3260.4354,"FEATURE_LENGTH_M": 264.7362,"OBJECTID": 77398905,"SE_ANNO_CAD_DATA": null}}],"totalFeatures": 1573818,"numberMatched": 1573818,"numberReturned": 1,"timeStamp": "2018-12-05T06:06:21.364Z","crs": {"type": "name","properties": {"name": "urn:ogc:def:crs:EPSG::3005"}}}
 ```
 
-### MORE COMPLEX
+### More complex examples
 
-**Give me all the Dams in the Cariboo District, output as KML**:
+[**Dams in the Cariboo District (`CQL filter`), output as GeoJSON**](http://openmaps.gov.bc.ca/geo/pub/ows?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=application/json;type=geojson&LAYERS=pub:WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&HEIGHT=1024&WIDTH=1024&STYLES=3959&SRS=EPSG:4326&CQL_FILTER=%22DISTRICT_PRECINCT%22%20LIKE%20%27Cariboo%25%27&BBOX=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526)
 
-[https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&request=GetMap&version=1.1.1&format=application/vnd.google-earth.kml+xml&layers=WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&styles=3959&height=2048&width=2048&transparent=false&srs=EPSG:4326&format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:download;SUPEROVERLAY:false&CQL_FILTER=%22REGION_NAME%22=%27CARIBOO%27&bbox=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526](https://openmaps.gov.bc.ca/geo/pub/wms?service=wms&request=GetMap&version=1.1.1&format=application/vnd.google-earth.kml+xml&layers=WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&styles=3959&height=2048&width=2048&transparent=false&srs=EPSG:4326&format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:true;KMSCORE:100;MODE:download;SUPEROVERLAY:false&CQL_FILTER=%22REGION_NAME%22=%27CARIBOO%27&bbox=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526)
+```
+http://openmaps.gov.bc.ca/geo/pub/ows?
+SERVICE=WMS&
+VERSION=1.1.1&
+REQUEST=GetMap&
+FORMAT=application/json;type=geojson&
+LAYERS=pub:WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&
+HEIGHT=1024&WIDTH=1024&
+STYLES=3959&
+SRS=EPSG:4326&
+CQL_FILTER=%22DISTRICT_PRECINCT%22%20LIKE%20%27Cariboo%25%27&
+BBOX=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526
+
+```
+N.B. even for a JSON request, `height` and `width` must be specified. Weird, huh?
 
 **Give me the attributes and location of the Water Well with Well Tag # 65501, output as JSON**:
 
@@ -175,7 +206,10 @@ Response in JSON:
 [https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50](https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50)
 -----------------------
 
-## MAX NUMBER OF FEATURE LIMIT - PAGINATION AND WORK-AROUNDS FOR LARGER DATASETS
+## PAGINATION 
+
+### Max number of feature limit and work-around for larger datasets
+
 If you use WFS version 2.0.0 it tells you what the limit is. This is new.
 ```
 <ows:Constraint name="CountDefault">
@@ -212,10 +246,15 @@ count of 5000, starting at index 5001, sorting by Objectid:
 
 -----------------------
 
-## OPENLAYERS PREVIEW AND A SIMPLE LEAFLET APP EXAMPLE
+## SAMPLE APPLICATIONS
+
+### OpenLayers Preview
+
 Example of an Openlayers output format for preview and exploring
 
 [http://openmaps.gov.bc.ca/geo/pub/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=application/openlayers&TRANSPARENT=true&STYLES=7738&LAYERS=pub%3AWHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A3005&WIDTH=512&HEIGHT=441&BBOX=1048725.4914577596%2C996424.7407280033%2C1068271.4654531137%2C1013222.0621302609](http://openmaps.gov.bc.ca/geo/pub/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=application/openlayers&TRANSPARENT=true&STYLES=7738&LAYERS=pub%3AWHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A3005&WIDTH=512&HEIGHT=441&BBOX=1048725.4914577596%2C996424.7407280033%2C1068271.4654531137%2C1013222.0621302609)
+
+### Leaflet Example App
 
 A simple leaflet app that has some of the WMS parameters as URL parameters -  
 [http://delivery.openmaps.gov.bc.ca/kml/m/lfg103/lfwmsi2.html?l=WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&s=7738&a=MINE_GUID&f=MINE_GUID%3D%27d214e340-4575-4225-8dde-4f9504d5748f%27](http://delivery.openmaps.gov.bc.ca/kml/m/lfg103/lfwmsi2.html?l=WHSE_MINERAL_TENURE.HSP_MJR_MINES_PERMTTD_AREAS_SP&s=7738&a=MINE_GUID&f=MINE_GUID%3D%27d214e340-4575-4225-8dde-4f9504d5748f%27)
