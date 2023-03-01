@@ -136,6 +136,7 @@ Members of a Catalgoue Group can associate any Published record in the catalogue
 
 [RETURN TO TOP][1]
 
+---
 
 ## Record fields
 
@@ -159,6 +160,12 @@ Tips:
 + Recommend to not include organization or program names in titles as these may change over time. Unless there is no other way to distinguish a dataset from another of similar title.
 + For records that will include multiple years, do not include the year in the title.
 
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **TITLE**.
++ Refer to both the standard and guideline.
+
+
+
 [RETURN TO TOP][1]
 
 ### URL (`name`) <a name="url"></a>
@@ -177,7 +184,7 @@ This is the Sub-Organization (often the Branch or Division) under which the meta
 + This is a required field
 
 [**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
-+ This field alights with the standard field **CREATOR**.
++ This field aligns with the standard field **CREATOR**.
 + Refer to both the standard and guideline.
 
 [RETURN TO TOP][1]
@@ -206,6 +213,11 @@ When creating a new metadata record, the state will be set to **Draft**. To do s
 ### Description \* (`notes`) <a name="description"></a>
 
 Provide a meaningful description of the dataset here. Be sure to include any information that would be relevant to an end-user of your dataset.
+
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **DESCRIPTION**.
++ Refer to both the standard and guideline.
+
 
 [RETURN TO TOP][1]
 
@@ -293,6 +305,11 @@ The Security Classification has been updated and records transformed to reflect 
 |**Protected B**| Confidential. Serious harm to an individual, organization or government. Examples: Law enforcement and medical records, personnel evaluations and investigations, financial records, information subject to solicitor-client privilege or other legal privilege|
 |**Protected C** | Confidential. Extremely grave harm to an individual, organization or government. Examples: Information about police agents and other informants, Cabinet records or Cabinet-related records|
 
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **SECURITY CLASSIFICATION**.
++ Refer to both the standard and guideline.
+
+
 [RETURN TO TOP][1]
 
 ### Who can view this data? \* (`view_audience`) <a name="who-can-view-this-data"></a>
@@ -357,23 +374,19 @@ When there are changes to a resource in a metadata record, a new date type and c
 
     |Type|Description
     |:---|:---|
-    |Created| 
-    |Published| 
-    |Modififed| 
-    |Archived|
-    |Destroyed|
+    |Created| Date of data creation |
+    |Published| Date when the dataset is available to users |
+    |Modififed| Date when the dataset is last modified |
+    |Archived| Date when the dataset is no longer updated|
+    |Destroyed| Date when the dataset is destructed |
          
 **Date** is the date the resource was either created, published, modified, archived, or destroyed. 
      +  Required when creating a record.
 
-**Replacement record** (`replacement_record`): URL of the new record replacing this dataset after it is retired (archived).
-+ Is required when **Resource Status** is **Obsolete**
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **DATE CREATED** and **DATE MODIFIED**.
++ Refer to both the standard and guideline.
 
-**Rentention expiry date** (`retention_expiry_date`):
-+ Is required when **Resource status** is **Historical Archive**
-
-**Source data path** (`source_data_path`):
-+ Is required when **Resource status** is **Historical Archive**
 
 [RETURN TO TOP][1]
 
@@ -393,6 +406,16 @@ Defines the status of the dataset, service, API or application as described by o
     |Historical Archive|Resources that exist but have been archived (can also be defined as no longer relevant) should be described as historical archive. When selected, additional information will be required - [**Retention Expiry Date**](./dps_bcdc_record.md#retention_expiry_date) and [**Source Data Path**](./dps_bcdc_record.md#source_data_path)|
     |Destroyed|Resources that no longer exist should be described as destroyed.|
     
+
+**Replacement record** (`replacement_record`): URL of the new record replacing this dataset after it is retired (archived).
++ Is required when **Resource Status** is **Obsolete**
+
+**Rentention expiry date** (`retention_expiry_date`):
++ Is required when **Resource status** is **Historical Archive**
+
+**Source data path** (`source_data_path`):
++ Is required when **Resource status** is **Historical Archive**
+
 [RETURN TO TOP][1]
 
 ---------------
