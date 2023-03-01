@@ -42,7 +42,7 @@ has_toc: true
        + [_Object short name_](#object-short-name)
        + [_Object table comments_](#object-table-comments)
        + [_Details_](#details)
-   + [_Projection name_](#projection name)
+   + [_Projection name_](#projection-name)
    + [_JSON Table Schema_](#json-table-schema)
    + [_ISO Topic Category_](#iso-topic-category)
    + [_Resource type_](#resource-type)
@@ -212,6 +212,11 @@ Editors can delete resources in any published state
       + `id` (resource id)
       + `timestamp` (format: 2022-02-27 10:00:01)
 
+
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **MODIFIED**.
++ Refer to both the standard and guideline.
+
 ### Data collection period (`temporal_extent`)  <a name="data-collection-period"></a>
 + A Start and/or End Data can be added if the data reflects a period of time.'.
 
@@ -227,6 +232,11 @@ Editors can delete resources in any published state
 
 ### Resource storage format \* (`format`) <a name="resource-storage-format"></a>
 + Describes the file extension for the resource
+
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **FILE FORMAT**.
++ Refer to both the standard and guideline.
+
 
 |**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
