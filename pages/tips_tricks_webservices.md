@@ -160,12 +160,14 @@ count=1&
 outputFormat=json
 ```
 
-Response in JSON: 
+Response in JSON:
 ```
 {"type": "FeatureCollection","features": [{"type": "Feature","id": "WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW.fid--7b8e502a_1677cdee8cf_498b","geometry": {"type": "Polygon","coordinates": [[[1121268.689,481286.634],[1121313.079,481348.863],[1121288.326,481374.623],[1121224.966,481286.119],[1121268.689,481286.634]]]},"geometry_name": "SHAPE","properties": {"PARCEL_FABRIC_POLY_ID": 27,"PARCEL_NAME": "006620256","PLAN_NUMBER": "VIP1993","PIN": null,"PID": "006620256","PID_NUMBER": 6620256,"PARCEL_STATUS": "Active","PARCEL_CLASS": "Subdivision","OWNER_TYPE": "Private","PARCEL_START_DATE": null,"MUNICIPALITY": "Parksville, City of","REGIONAL_DISTRICT": "Regional District of Nanaimo","WHEN_UPDATED": "2016-04-21Z","FEATURE_AREA_SQM": 3260.4354,"FEATURE_LENGTH_M": 264.7362,"OBJECTID": 77398905,"SE_ANNO_CAD_DATA": null}}],"totalFeatures": 1573818,"numberMatched": 1573818,"numberReturned": 1,"timeStamp": "2018-12-05T06:06:21.364Z","crs": {"type": "name","properties": {"name": "urn:ogc:def:crs:EPSG::3005"}}}
 ```
-
+Tip: [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json) to make it easier to read.
 ### More complex examples
+
+#### WMS `GetMap`
 
 [**Dams in the Cariboo District (`CQL filter`), output as GeoJSON**](http://openmaps.gov.bc.ca/geo/pub/ows?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=application/json;type=geojson&LAYERS=pub:WHSE_WATER_MANAGEMENT.WRIS_DAMS_PUBLIC_SVW&HEIGHT=1024&WIDTH=1024&STYLES=3959&SRS=EPSG:4326&CQL_FILTER=%22DISTRICT_PRECINCT%22%20LIKE%20%27Cariboo%25%27&BBOX=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526)
 
@@ -181,29 +183,90 @@ STYLES=3959&
 SRS=EPSG:4326&
 CQL_FILTER=%22DISTRICT_PRECINCT%22%20LIKE%20%27Cariboo%25%27&
 BBOX=-139.46653152270716,39.3982201780243,-110.0651303636062,68.79962133712526
-
 ```
 N.B. even for a JSON request, `height` and `width` must be specified. Weird, huh?
 
-**Give me the attributes and location of the Water Well with Well Tag # 65501, output as JSON**:
+#### WMS `GetFeatureInfo`
 
-[http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=application/json&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501](http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=application/json&SrsName=EPSG%3A4326&PROPERTYNAME=WELL_TAG_NUMBER&CQL_FILTER=WELL_TAG_NUMBER%3D65501)
+`i` (or `x`) and `j` (or `y`) refer to the query point on the map
 
-**Give me Land Parcel Information at a specified location, output as HTML**:
+[**Land Parcel Information at a specified location, output as an HTML table**](https://openmaps.gov.bc.ca/geo/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&BBOX=48.40785014436799116,-123.36256681214997855,48.41958084268204487,-123.34925222208043749&CRS=EPSG:4326&WIDTH=538&HEIGHT=474&LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&QUERY_LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&INFO_FORMAT=text/html&I=109&J=187&FEATURE_COUNT=10)
 
-[https://openmaps.gov.bc.ca/geo/pub/WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&BBOX=48.40785014436799116,-123.36256681214997855,48.41958084268204487,-123.34925222208043749&CRS=EPSG:4326&WIDTH=538&HEIGHT=474&LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&STYLES=&FORMAT=image/png&QUERY_LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&INFO_FORMAT=text/html&I=109&J=187&FEATURE_COUNT=10](https://openmaps.gov.bc.ca/geo/pub/WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&BBOX=48.40785014436799116,-123.36256681214997855,48.41958084268204487,-123.34925222208043749&CRS=EPSG:4326&WIDTH=538&HEIGHT=474&LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&STYLES=&FORMAT=image/png&QUERY_LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&INFO_FORMAT=text/html&I=109&J=187&FEATURE_COUNT=10)
+```
+https://openmaps.gov.bc.ca/geo/ows?
+SERVICE=WMS&
+VERSION=1.3.0&
+REQUEST=GetFeatureInfo&
+BBOX=48.40785014436799116,-123.36256681214997855,48.41958084268204487,-123.34925222208043749&
+CRS=EPSG:4326&
+WIDTH=538&HEIGHT=474&
+LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&
+QUERY_LAYERS=pub:WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW&
+INFO_FORMAT=text/html&
+I=109&
+J=187&
+FEATURE_COUNT=10
+```
 
-**Give me all features from the Major Cities layer that fall within a Vancouver Island bounding box, output as JSON**:
+[**Crown Tenures within a bounding box, output as text**](https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50)
+```
+https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?
+service=WMS&
+request=GetFeatureInfo&
+version=1.1.1&
+layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&
+styles=2214&
+format=text/xml&
+srs=EPSG:4326&
+width=970&height=485&
+bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&
+feature_count=500&
+x=50&y=50
+```
 
-[https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=json&typeName=WHSE_BASEMAPPING.BC_MAJOR_CITIES_POINTS_500M&SRSNAME=EPSG%3A3005&CQL_FILTER=WITHIN%28GEOMETRY%2C%20POLYGON%20%28%28830772.7%20367537.4%2C%201202463%20367537.4%2C%201202463%20651616.7%2C%20830772.7%20651616.7%2C%20830772.7%20367537.4%29%29%29](https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=json&typeName=WHSE_BASEMAPPING.BC_MAJOR_CITIES_POINTS_500M&SRSNAME=EPSG%3A3005&CQL_FILTER=WITHIN%28GEOMETRY%2C%20POLYGON%20%28%28830772.7%20367537.4%2C%201202463%20367537.4%2C%201202463%20651616.7%2C%20830772.7%20651616.7%2C%20830772.7%20367537.4%29%29%29)
+#### WFS `GetFeature`
+[**WELL_STATUS attribute and geometry of the Water Well with Well Tag # 65501, output as JSON**](http://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&outputFormat=application/json&SrsName=EPSG%3A4326&CQL_FILTER=WELL_TAG_NUMBER%3D65501&PROPERTYNAME=WELL_STATUS):
 
-**Give me the Community Health Service Area based intersection of a point location I supply, output as JSON**:
+```
+http://openmaps.gov.bc.ca/geo/ows?
+service=WFS&
+version=2.0.0&
+request=GetFeature&
+typeName=WHSE_WATER_MANAGEMENT.GW_WATER_WELLS_WRBC_SVW&
+outputFormat=application/json&
+SrsName=EPSG:4326&
+CQL_FILTER=WELL_TAG_NUMBER=65501&
+PROPERTYNAME=WELL_STATUS
+```
 
-[https://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=pub%3AWHSE_ADMIN_BOUNDARIES.BCHA_CMNTY_HEALTH_SERV_AREA_SP&srsname=EPSG:4326&cql_filter=INTERSECTS(SHAPE,POINT(1224584.57951%20469989.94624))&propertyName=CMNTY_HLTH_SERV_AREA_NAME,LOCAL_HLTH_AREA_NAME,HLTH_SERVICE_DLVR_AREA_NAME,HLTH_AUTHORITY_NAME&outputFormat=application%2Fjson](https://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=pub%3AWHSE_ADMIN_BOUNDARIES.BCHA_CMNTY_HEALTH_SERV_AREA_SP&srsname=EPSG:4326&cql_filter=INTERSECTS(SHAPE,POINT(1224584.57951%20469989.94624))&propertyName=CMNTY_HLTH_SERV_AREA_NAME,LOCAL_HLTH_AREA_NAME,HLTH_SERVICE_DLVR_AREA_NAME,HLTH_AUTHORITY_NAME&outputFormat=application%2Fjson)
+[**Major Cities that fall within a Vancouver Island bounding box, output as JSON**](https://openmaps.gov.bc.ca/geo/pub/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&outputFormat=json&typeName=WHSE_BASEMAPPING.BC_MAJOR_CITIES_POINTS_500M&SRSNAME=EPSG%3A3005&CQL_FILTER=WITHIN%28GEOMETRY%2C%20POLYGON%20%28%28830772.7%20367537.4%2C%201202463%20367537.4%2C%201202463%20651616.7%2C%20830772.7%20651616.7%2C%20830772.7%20367537.4%29%29%29)
 
-**Give me the Crown Tenures for a bounding box, output as text**:
+```
+https://openmaps.gov.bc.ca/geo/pub/ows?
+SERVICE=WFS&
+VERSION=2.0.0&
+REQUEST=GetFeature&
+outputFormat=json&
+typeName=WHSE_BASEMAPPING.BC_MAJOR_CITIES_POINTS_500M&
+SRSNAME=EPSG:3005&
+CQL_FILTER=WITHIN%28GEOMETRY%2C%20POLYGON%20%28%28830772.7%20367537.4%2C%201202463%20367537.4%2C%201202463%20651616.7%2C%20830772.7%20651616.7%2C%20830772.7%20367537.4%29%29%29
+```
 
-[https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50](https://openmaps.gov.bc.ca/geo/pub/WHSE_TANTALIS.TA_CROWN_TENURES_SVW/ows?service=WMS&request=GetFeatureInfo&version=1.1.1&layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&styles=2214&format=text/xml&srs=EPSG:4326&width=970&height=485&bbox=-123.35,50.60393449638617,-123,51.593907018763396&query_layers=pub:WHSE_TANTALIS.TA_CROWN_TENURES_SVW&feature_count=500&x=50&y=50)
+The `CQL_FILTER` being applied is `WITHIN(GEOMETRY,POLYGON((830772.7 367537.4, 1202463 367537.4, 1202463 651616.7, 830772.7 651616.7, 830772.7 367537.4)))`. In this case, URL encoding first is necessary to send the request.
+
+[**Community Health Service Area that intersects with a given point, output as JSON**](https://openmaps.gov.bc.ca/geo/pub/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=pub:WHSE_ADMIN_BOUNDARIES.BCHA_CMNTY_HEALTH_SERV_AREA_SP&srsname=EPSG:4326&cql_filter=INTERSECTS(SHAPE,POINT(1224584.57951%20469989.94624))&propertyName=CMNTY_HLTH_SERV_AREA_NAME,LOCAL_HLTH_AREA_NAME,HLTH_SERVICE_DLVR_AREA_NAME,HLTH_AUTHORITY_NAME&outputFormat=application/json)
+
+```
+https://openmaps.gov.bc.ca/geo/pub/ows?
+service=WFS&
+version=1.0.0&
+request=GetFeature&
+typeName=pub:WHSE_ADMIN_BOUNDARIES.BCHA_CMNTY_HEALTH_SERV_AREA_SP&
+srsname=EPSG:4326&
+cql_filter=INTERSECTS(SHAPE,POINT(1224584.57951%20469989.94624))&propertyName=CMNTY_HLTH_SERV_AREA_NAME,LOCAL_HLTH_AREA_NAME,HLTH_SERVICE_DLVR_AREA_NAME,HLTH_AUTHORITY_NAME&
+outputFormat=application/json
+```
+
 -----------------------
 
 ## PAGINATION 

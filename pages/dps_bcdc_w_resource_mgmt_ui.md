@@ -14,6 +14,11 @@ has_toc: true
 |:---:|:---:|:---:|
 | [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
 
+## Resources
+[**3.11 Core Administrative and Descriptive Metadata Standards and Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This document is being updated to reflect the alignment with this core standard.
+
+
 ## Table of Contents
 
 + [**Resource types**](#resource-types)
@@ -155,7 +160,7 @@ Editors can delete resources in any published state
 
 \* indicates required fields.
 
-### Name \* (`name`) <a name="name"></a>
+### Name \* (`name`) <a name="name"></a> [comment]<>(what is the purpose of these <a></a> tags)
 
 + Is the name or title of the resource as it will appear on the resource record and card.
 + A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
@@ -183,12 +188,21 @@ Editors can delete resources in any published state
 ### Resource description (`description`)  <a name="resouce-description"></a>
 + Is a detailed description of the resource.
 
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **DESCRIPTION**.
++ Refer to both the standard and guideline.
+
+
 |**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Supplemental information (`supplemental_info`) <a name="supplemental-information"></a>
 + Any additional relevant information about the resource can be included here.
+
+[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
++ This field aligns with the standard field **DESCRIPTION**.
++ Refer to both the standard and guideline.
 
 |**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
