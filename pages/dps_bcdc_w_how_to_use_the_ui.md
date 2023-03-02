@@ -11,11 +11,11 @@ has_toc: false
 
 [Resource Management](./dps_bcdc_w_resource_mgmt_ui.md)
 
-1. There are four defined resource types: 
-    - [Application](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#application)
-    - [Document/Tabular Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#document-and-tabular-data)
-    - [Geographic Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#geographic-data)
-    - [Web Service/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
++ There are four defined resource types: 
+    + [Application](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#application)
+    + [Document/Tabular Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#document-and-tabular-data)
+    + [Geographic Data](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#geographic-data)
+    + [Web Service/API](https://bcgov.github.io/data-publication/pages/dps_bcdc_w_resource_mgmt_ui.html#webservice-and-api)
 
 --------
 ## BC Data Catalogue User Advanced Search
