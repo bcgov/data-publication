@@ -37,10 +37,16 @@ has_toc: true
 ## How to get information
 
 ### How to get your API Key
+
 1. Log into the Catalogue
 1. Click on the hamburger/pancake in the upper right
-2. Click on *Account Settings*
-3. Bottom left corner is your personal API Key
+1. Click on *Account Settings*
+
+![image](images/account_settings_api_key_1.png)
+
+4. Bottom left corner is your personal API Key
+
+![image](images/account_settings_api_key_2.png)
 
 ### How to get names and IDs from the UI
 
