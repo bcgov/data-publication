@@ -458,7 +458,7 @@ Generalized resources are now to be included as an additional resource on the no
 |:---|:---|:---|:---|:---|
 |Title |View BC Geographic Warehouse details (export is not enabled)|
 |Resource description|The Distribution Service has not been enabled to allow for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data. See the main page for additional information.|
-|Resource storage format| Oracle/SDE
+|Resource storage format| Oracle/SDE |
 
 #### Web Mapping Resources
 
