@@ -160,7 +160,7 @@ Editors can delete resources in any published state
 
 \* indicates required fields.
 
-### Name \* (`name`) <a name="name"></a> [comment]<>(what is the purpose of these <a></a> tags)
+### Name \* (`name`) <a name="name"></a> 
 
 + Is the name or title of the resource as it will appear on the resource record and card.
 + A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
@@ -455,10 +455,11 @@ This section is currently being developed.
 Generalized resources are now to be included as an additional resource on the non-generalized record.
 
 |Catalogue Fields| Text Examples|
-|:---|:---|:---|:---|:---|
+|:---|:---|
 |Title |View BC Geographic Warehouse details (export is not enabled)|
 |Resource description|The Distribution Service has not been enabled to allow for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data. See the main page for additional information.|
 |Resource storage format| Oracle/SDE |
+
 
 #### Web Mapping Resources
 
