@@ -18,8 +18,8 @@ has_toc: false
 
 ## Table of Contents
 + [**How to manage records using the Catalogue API**](#how-to-manage-records-using-the-catalogue-api)
-	+ [How to create a record with the API](#how-to-create-a-record-with-the-api)
-	+ [How to update a record with the API using package_patch](#how-to-update-a-record-with-the-api-using-package_patch)
+	+ [How to create a record with the API](#how-to-create-a-package-with-the-api)
+	+ [How to update a record with the API using package_patch](#how-to-update-a-package-with-the-api-using-package_patch)
 
 -----------------------
 **Resources**
