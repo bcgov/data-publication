@@ -15,20 +15,20 @@ has_toc: true
 
 ## Table of Contents
 
-1. [**Where do I start**](#where-do-i-start)
-1. [**How to become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
-    - [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
-1. [**How to publish Records - Moved**](#how-to-publish-records)
-1. [**How to create a Catalogue Group**](#how-to-create-catalogue-groups)
-1. [**How to update...**](#how-to-update)
++ [**Where do I start**](#where-do-i-start)
++ [**How to become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
+    + [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
++ [**How to publish Records - Moved**](#how-to-publish-records)
++ [**How to create a Catalogue Group**](#how-to-create-catalogue-groups)
++ [**How to update...**](#how-to-update)
 	+ [Accounts](#accounts)
 	+ [Organization and or Sub-Organization details](#organization-details)
 	+ [Contact details](#contact-details)
-1. [**How can I...**](#how-can-i-)
++ [**How can I...**](#how-can-i-)
 	+ [Create and manage Records and Resources in bulk](#create-and-manage-records-and-resources-in-bulk)
 	+ [Do bulk updates](#do-bulk-updates)
 	+ [Reorder Resources](#reorder-resources)
-1. [**Other Frequently Asked Questions**](#other-frequently-asked-questions)
++ [**Other Frequently Asked Questions**](#other-frequently-asked-questions)
 
 ------------------------------
 ## Where do I start
