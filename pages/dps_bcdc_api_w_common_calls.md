@@ -27,6 +27,8 @@ has_toc: true
     + [**object name**](#object_name)
     + [**bcdc type**](#bcdc_type)
     + [**resource storage location**](#resource_storage_location)
+    + [**format**](#format)
+    + [**licence_id**](#licence_id)
 
 -----------------------
 **Resources**
