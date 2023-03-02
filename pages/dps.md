@@ -6,7 +6,7 @@ has_children: false
 has_toc: false
 nav_exclude: true
 
-//this page is currently a duplication of the index.md
+# this page is currently a duplication of the index.md
 
 ---
 
