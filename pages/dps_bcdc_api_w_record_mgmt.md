@@ -25,7 +25,7 @@ has_toc: false
 **Resources**
 + See the full list of value options for drop down fields, see the [BCDC Schema](https://catalogue.data.gov.bc.ca/api/3/action/scheming_dataset_schema_show?type=bcdc_dataset)
 + See all documented changes in the [Change Log](https://github.com/bcgov/ckan-ui/blob/master/pages/beta_schema_changes.md#application-resource-level-changes)
-+ 
+
 -----------------------
 
 ## How to manage records using the Catalogue API
