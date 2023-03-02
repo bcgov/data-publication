@@ -27,6 +27,8 @@ has_toc: true
     + [**object name**](#object_name)
     + [**bcdc type**](#bcdc_type)
     + [**resource storage location**](#resource_storage_location)
+    + [**format**](#format)
+    + [**licence_id**](#licence_id)
 
 -----------------------
 **Resources**
@@ -48,6 +50,8 @@ has_toc: true
 
 ![image](images/account_settings_api_key_2.png)
 
+[RETURN TO TOP][1]
+
 ### How to get names and IDs from the UI
 
 + When navigating pages in the Catalogue, the URL will contain the **name**
@@ -60,6 +64,7 @@ has_toc: true
  + package (dataset) id : ../dataset/**42f7ca99-e7f3-40f7-93d7-f2500cccc315**
  + resource id : ...dataset/bc-data-catalogue-content/resource/**b67e8cfc-32c1-4fd5-be08-ce30542b2a6c**
 
+ [RETURN TO TOP][1]
 
 ### How to get your organization name
 
@@ -71,6 +76,8 @@ ckan = ckanapi.RemoteCKAN('https://catalogue.data.gov.bc.ca', apikey='YOUR-APIKE
 org = ckan.action.organization_show(id="information-management-cfd")
 print(org['name'], org['id'])
 ```
+
+[RETURN TO TOP][1]
 
 ### How to get package names and package IDs within an organization
 ```
@@ -84,6 +91,8 @@ for pkg in pkgs['results']:
 
 ```
 
+[RETURN TO TOP][1]
+
 ### How to get the resource names and resource IDs withing a package
 ```
 import ckanapi
@@ -94,6 +103,8 @@ pkg_data = ckan.action.package_show(id="b67255a7-8040-43c0-935c-d74f168af215")
 for resource in pkg_data['resources']:
     print(resource['name'], resource['id'])
 ```
+
+[RETURN TO TOP][1]
 
 ## Common calls
 
@@ -121,3 +132,6 @@ Depending on what is being used to make the call, changing the : and wrapping th
 
 
 -------------------------------------------------------
+[RETURN TO TOP][1]
+
+[1]: #Common-calls-using-the-BC-Data-Catalogue-API
