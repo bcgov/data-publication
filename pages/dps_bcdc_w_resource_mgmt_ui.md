@@ -19,6 +19,23 @@ has_toc: true
 + This document is being updated to reflect the alignment with this core standard.
 
 
+## Table of Fields in Data Catalogue align with Metadata Standard and Guidelines
+To align with the new Metadate Standard and Guidelines, the following table outline how fields in B.C. Data Catalogue 
+could align with Metadata Standard and Guidelines.
+
+|Fileds in B.C. Data Catalogue|Fields in Metadata Standard and Guidelines|
+|:-:|:-:|
+|[*Published by*](#published-by)|*CREATOR* |
+|[*Lifecycle event -> Created*](#record-lifecycle-history)|*DATE CREATED*|
+|[*Lifecycle event -> Modified*](#record-lifecycle-history)|*DATE MODIFIED*|
+|[*Description*](#description), [*Purpose*](#purpose), [*Quality*](#data-quality), [*Lineage*](#data-lineage), [*Resource Description*](dps_bcdc_w_resource_mgmt_ui.md#resouce-description), [*Resource Supplemental Information*](dps_bcdc_w_resource_mgmt_ui.md#supplemental-information)|*DESCRIPTION*|
+|[*Resource Storage Format*](dps_bcdc_w_resource_mgmt_ui.md#resource-storage-format)|*FILE FORMAT*|
+|[*Security Classification*](#security-classification)|*SECURITY CLASSIFICATION*|
+|[*Title*](#title) and *Resource Title*|*TITLE*|
+
+
+
+
 ## Table of Contents
 
 + [**Resource types**](#resource-types)
