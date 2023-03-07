@@ -23,13 +23,15 @@ could align with Metadata Standard and Guidelines.
 
 |Fileds in B.C. Data Catalogue|Fields in Metadata Standard and Guidelines|
 |:-:|:-:|
-|[*Published by*](#published-by)|*CREATOR* |
-|[*Lifecycle event -> Created*](#record-lifecycle-history)|*DATE CREATED*|
-|[*Lifecycle event -> Modified*](#record-lifecycle-history)|*DATE MODIFIED*|
-|[*Description*](#description), [*Purpose*](#purpose), [*Quality*](#data-quality), [*Lineage*](#data-lineage), [*Resource Description*](dps_bcdc_w_resource_mgmt_ui.md#resouce-description), [*Resource Supplemental Information*](dps_bcdc_w_resource_mgmt_ui.md#supplemental-information)|*DESCRIPTION*|
-|[*Resource Storage Format*](dps_bcdc_w_resource_mgmt_ui.md#resource-storage-format)|*FILE FORMAT*|
-|[*Security Classification*](#security-classification)|*SECURITY CLASSIFICATION*|
-|[*Title*](#title) and *Resource Title*|*TITLE*|
+|*CREATOR* |[*Published by*](#published-by)|
+|*DATE CREATED*|[*Lifecycle event -> Created*](#record-lifecycle-history)|
+|*DATE MODIFIED*|[*Lifecycle event -> Modified*](#record-lifecycle-history)|
+|*DESCRIPTION*|[*Description*](#description), [*Purpose*](#purpose), [*Quality*](#data-quality), [*Lineage*](#data-lineage), [*Resource Description*](dps_bcdc_w_resource_mgmt_ui.md#resouce-description), [*Resource Supplemental Information*](dps_bcdc_w_resource_mgmt_ui.md#supplemental-information)|
+|*FILE FORMAT*|[*Resource Storage Format*](dps_bcdc_w_resource_mgmt_ui.md#resource-storage-format)|
+|*SECURITY CLASSIFICATION*|[*Security Classification*](#security-classification)|
+|*TITLE*|[*Title*](#title) and *Resource Title*|
+|*UNIQUE IDENTIFIED*|*Each Record and Resource has a unique identifier. There are obtained by using the Share button*|
+|*INFORMATION SCHEDULE*|*This is managed at different levels for organizations, request an engagement with us to determine where it best fits*|
 
 
 ## Table of Contents

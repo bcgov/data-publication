@@ -23,16 +23,17 @@ has_toc: true
 To align with the new Metadate Standard and Guidelines, the following table outline how fields in B.C. Data Catalogue 
 could align with Metadata Standard and Guidelines.
 
-|Fileds in B.C. Data Catalogue|Fields in Metadata Standard and Guidelines|
-|:-:|:-:|
-|[*Published by*](dps_bcdc_w_record_mgmt_ui.md#published-by)|*CREATOR* |
-|[*Lifecycle event -> Created*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|*DATE CREATED*|
-|[*Lifecycle event -> Modified*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|*DATE MODIFIED*|
-|[*Description*](dps_bcdc_w_record_mgmt_ui.md#description), [*Purpose*](dps_bcdc_w_record_mgmt_ui.md#purpose), [*Quality*](dps_bcdc_w_record_mgmt_ui.md#data-quality), [*Lineage*](dps_bcdc_w_record_mgmt_ui.md#data-lineage), [*Resource Description*](#resouce-description), [*Resource Supplemental Information*](#supplemental-information)|*DESCRIPTION*|
-|[*Resource Storage Format*](#resource-storage-format)|*FILE FORMAT*|
-|[*Security Classification*](dps_bcdc_w_record_mgmt_ui.md#security-classification)|*SECURITY CLASSIFICATION*|
-|[*Title*](dps_bcdc_w_record_mgmt_ui.md#title) and *Resource Title*|*TITLE*|
-
+|Fields in Metadata Standard and Guidelines|Fileds in B.C. Data Catalogue|
+|:-|:-:|
+|*CREATOR* |[*Published by*](dps_bcdc_w_record_mgmt_ui.md#published-by)|
+|*DATE CREATED*|[*Lifecycle event -> Created*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|
+|*DATE MODIFIED*|[*Lifecycle event -> Modified*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|
+|*DESCRIPTION*|[*Description*](dps_bcdc_w_record_mgmt_ui.md#description), [*Purpose*](dps_bcdc_w_record_mgmt_ui.md#purpose), [*Quality*](dps_bcdc_w_record_mgmt_ui.md#data-quality), [*Lineage*](dps_bcdc_w_record_mgmt_ui.md#data-lineage), [*Resource Description*](#resouce-description), [*Resource Supplemental Information*](#supplemental-information)|
+|*FILE FORMAT*|[*Resource Storage Format*](#resource-storage-format)|
+|*SECURITY CLASSIFICATION*|[*Security Classification*](dps_bcdc_w_record_mgmt_ui.md#security-classification)|
+|*TITLE*|[*Title*](dps_bcdc_w_record_mgmt_ui.md#title) and *Resource Title*|
+|*UNIQUE IDENTIFIED*|*Each Record and Resource has a unique identifier. There are obtained by using the Share button*|
+|*INFORMATION SCHEDULE*|*This is managed at different levels for organizations, request an engagement with us to determine where it best fits*|
 
 
 
