@@ -17,6 +17,18 @@ has_toc: false
 [**3.11 Core Administrative and Descriptive Metadata Standards and Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
 + This document is being updated to reflect the alignment with this core standard.
 
+## 
+|Fileds in B.C. Data Catalogue|Fields in Metadata Standard and Guidelines|
+|:-:|:-:|
+|[*Published by*](#published-by)|*CREATOR* |
+|[*Lifecycle event -> Created*](#record-lifecycle-history)|*DATE CREATED*|
+|[*Lifecycle event -> Modified*](#record-lifecycle-history)|*DATE MODIFIED*|
+|[*Description, Purpose, Quality, Lineage, Resource Description, Resiyrce Supplemental Information*](#description)|*DESCRIPTION*|
+|[*Resource Storage Format*](dps_bcdc_w_resource_mgmt_ui.md#resource-storage-format)|*FILE FORMAT*|
+|[*Security Classification*](#security-classification)|*SECURITY CLASSIFICATION*|
+|[*Title*](#title) and [*Resource Title*]()|*TITLE*|
+
+
 ## Table of Contents
 + [**Record management**](#record-management)
    + [Add a Record](#add-a-record)
