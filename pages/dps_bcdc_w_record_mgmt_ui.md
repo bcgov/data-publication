@@ -17,19 +17,16 @@ has_toc: false
 [**3.11 Core Administrative and Descriptive Metadata Standards and Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
 + This document is being updated to reflect the alignment with this core standard.
 
-## Table of Fields in Data Catalogue align with Metadata Standard and Guidelines
-To align with the new Metadate Standard and Guidelines, the following table outline how fields in B.C. Data Catalogue 
-could align with Metadata Standard and Guidelines.
-
+## Table of Fields 
 |Fileds in B.C. Data Catalogue|Fields in Metadata Standard and Guidelines|
 |:-:|:-:|
-|[*Published by*](dps_bcdc_w_record_mgmt_ui.md#published-by)|*CREATOR* |
-|[*Lifecycle event -> Created*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|*DATE CREATED*|
-|[*Lifecycle event -> Modified*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|*DATE MODIFIED*|
-|[*Description*](dps_bcdc_w_record_mgmt_ui.md#description), [*Purpose*](dps_bcdc_w_record_mgmt_ui.md#purpose), [*Quality*](dps_bcdc_w_record_mgmt_ui.md#data-quality), [*Lineage*](dps_bcdc_w_record_mgmt_ui.md#data-lineage), [*Resource Description*](#resouce-description), [*Resource Supplemental Information*](#supplemental-information)|*DESCRIPTION*|
-|[*Resource Storage Format*](#resource-storage-format)|*FILE FORMAT*|
-|[*Security Classification*](dps_bcdc_w_record_mgmt_ui.md#security-classification)|*SECURITY CLASSIFICATION*|
-|[*Title*](dps_bcdc_w_record_mgmt_ui.md#title) and *Resource Title*|*TITLE*|
+|[*Published by*](#published-by)|*CREATOR* |
+|[*Lifecycle event -> Created*](#record-lifecycle-history)|*DATE CREATED*|
+|[*Lifecycle event -> Modified*](#record-lifecycle-history)|*DATE MODIFIED*|
+|[*Description*](#description), [*Purpose*](#purpose), [*Quality*](#data-quality), [*Lineage*](#data-lineage), [*Resource Description*](dps_bcdc_w_resource_mgmt_ui.md#resouce-description), [*Resource Supplemental Information*](dps_bcdc_w_resource_mgmt_ui.md#supplemental-information)|*DESCRIPTION*|
+|[*Resource Storage Format*](dps_bcdc_w_resource_mgmt_ui.md#resource-storage-format)|*FILE FORMAT*|
+|[*Security Classification*](#security-classification)|*SECURITY CLASSIFICATION*|
+|[*Title*](#title) and *Resource Title*|*TITLE*|
 
 
 ## Table of Contents
