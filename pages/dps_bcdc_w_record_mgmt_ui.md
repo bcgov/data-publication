@@ -32,7 +32,7 @@ could align with Metadata Standard and Guidelines.
 |*TITLE*|[*Title*](#title) and [*Resource Title*](dps_bcdc_w_resource_mgmt_ui.md#name)|
 |*UNIQUE IDENTIFIED*|*Each Record and Resource has a unique identifier. There are obtained by using the Share button*|
 |*INFORMATION SCHEDULE*|*This is managed at different levels for organizations, request an engagement with us to determine where it best fits.* |
-||If you have general questions about the catalogue or wish to provide feedback, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14). |
+||If you have general questions about the catalogue or wish to provide feedback, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).|
 
 
 
