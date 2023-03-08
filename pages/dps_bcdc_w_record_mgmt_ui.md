@@ -29,9 +29,10 @@ could align with Metadata Standard and Guidelines.
 |*DESCRIPTION*|[*Description*](#description), [*Purpose*](#purpose), [*Quality*](#data-quality), [*Lineage*](#data-lineage), [*Resource Description*](dps_bcdc_w_resource_mgmt_ui.md#resouce-description), [*Resource Supplemental Information*](dps_bcdc_w_resource_mgmt_ui.md#supplemental-information)|
 |*FILE FORMAT*|[*Resource Storage Format*](dps_bcdc_w_resource_mgmt_ui.md#resource-storage-format)|
 |*SECURITY CLASSIFICATION*|[*Security Classification*](#security-classification)|
-|*TITLE*|[*Title*](#title) and *Resource Title*|
+|*TITLE*|[*Title*](#title) and [*Resource Title*](dps_bcdc_w_resource_mgmt_ui.md#name)|
 |*UNIQUE IDENTIFIED*|*Each Record and Resource has a unique identifier. There are obtained by using the Share button*|
-|*INFORMATION SCHEDULE*|*This is managed at different levels for organizations, request an engagement with us to determine where it best fits*|
+|*INFORMATION SCHEDULE*|*This is managed at different levels for organizations, request an engagement with us to determine where it best fits.* |
+||If you have general questions about the catalogue or wish to provide feedback, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14). |
 
 
 ## Table of Contents
