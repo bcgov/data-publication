@@ -13,6 +13,12 @@ has_toc: true
 |:---|:---|:---|:---|:---|
 |[*Data Publisher*](./glossary.md#data_publisher)|[*Custodian*](./glossary.md#custodian)|[*Data Manager*](./glossary.md#data_manager)|[*Data Steward*](./glossary.md#data_steward)|[*Catalogue Editor*](./glossary.md#metadata_editor)|
 
+
+## New Metadata Standard and Guidelines
+
+Publishing your metadata in the BC Data Catalogue is a great way to ensure it complies with the new Metadata Standard and Guidelines: [Metadata Quick Facts](https://www2.gov.bc.ca/gov/content/data/about-the-metadata-standard).
+
+
 ## Table of Contents
 
 + [**Where do I start**](#where-do-i-start)
