@@ -84,7 +84,6 @@ nav_exclude: false
 	+ [Data Replication](dsg_bcgw_data_replication.md) - ETL (Extract, Transform, Load)
 	+ [Data Retirement](dps_bcgw_w_data_retirement.md)
 	+ [Data Security](dsg_security_access.md) via Roles and Proxy accounts
-+ [Layer files and Layer Library](dsg_bcgw_layer_file_presentation.md)
 + [Data standards](dsg_bcgw.md)
 + Data governance and management
 
@@ -224,12 +223,12 @@ The following sections will help explain the difference between **Open Data** an
 
 ### How can I find my related datasets in the Catalogue?
 
-+ Use the Dashboard (speedometer icon on the top right of the menu bar) to:
-	+ view a feed of the last 15 actions you have taken
-	+ view datasets that you have created
-	+ view the Organization(s) and Sub-Organization(s) that you belong to
-	+ view the Unpublished datasets within your Sub-Organization(s)
-+ Search for your name in the Catalogue search bar to view datasets that you have either created or where you are listed as a contact.
++ Navigate to the organization you are an editor for
+    +  https://catalogue.data.gov.bc.ca/organization
+    +  To see what organizations you are an editor for:
+        + Easy way is to click `Add Dataset` and under `Published by` you can see all orgs.
+        + Or you can log into the catalogue and see a csv of all editors [BC Data Catalogue Content - All Records](https://catalogue.data.gov.bc.ca/dataset/60a78043-36da-4547-8f11-17254f837d36)
++ Search for your name in the Catalogue search bar to view datasets where you are listed as a contact.
 
 [RETURN TO TOP][1]
 

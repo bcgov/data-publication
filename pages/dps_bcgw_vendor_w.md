@@ -19,7 +19,7 @@ The pages in this section provide information on the standards and guidelines fo
 
 **Data Classification and Modelling**
 1. [Data Classification and Hierarchy](https://bcgov.github.io/data-publication/pages/dsg_bcgw_data_classification_hierarchy.html) describes the way data is grouped in the BCGW, and related presentations in iMap and the Layer Library in ArcGIS.
-1. [Data Standards](https://bcgov.github.io/data-publication/pages/dsg_bcgw_data_standards.html) describes how to sturucture your data for publishing in the BCGW.
+1. [Data Standards](https://bcgov.github.io/data-publication/pages/dsg_bcgw_data_standards.html) describes how to structure your data for publishing in the BCGW.
 1. [Proxy Creation](https://bcgov.github.io/data-publication/pages/dsg_security_access_proxy_creation_standards.html) describes the naming standard for oracle Proxies as well as the process to have one created.
 1. [Role Naming & Creation](https://bcgov.github.io/data-publication/pages/dsg_security_access_role_naming_creation.html) describes how to name an oracle role.
 

@@ -19,20 +19,20 @@ Copy our [Open Government Licence - British Columbia](https://www2.gov.bc.ca/go
 + examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
 
 ## MODIFY THE LICENCE
-Modify the identified text to personalize it for your org. The following uses the BC Oil and Gas Commission as an example.
+Modify the identified text to personalize it for your org. The following uses the BC Energy Regulator as an example.
 1. **Licence Name** change:
 	+ _‘Open Government License – British Columbia’_ to
-	+ _‘Open Government License – BC Oil and Gas Commission’_
+	+ _‘Open Government License – BC Energy Regulator’_
 		+ This name should be the same that is found on the [BC List of Agencies, Crown Corps, etc](https://www.bcpublicsectorboardapplications.gov.bc.ca/s/directoryofagencies)
 1. Change the name of the licence in the text:
 	+ _‘Contains information licensed under the Open Government Licence – British Columbia.’_ to
-	+ _‘Contains information licensed under the Open Government Licence – BC Oil and Gas Commission’_.
+	+ _‘Contains information licensed under the Open Government Licence – BC Energy Regulator’_.
 1. **Information Provider** change:
 	+_‘means Her Majesty the Queen in right of the Province of British Columbia.’_ to
-	+ ‘means BC Oil and Gas Commission.’_
+	+ ‘means BC Energy Regulator.’_
 1. **Versioning** change:
 	+ _‘This is version 2.0 of the Open Government Licence for Government of British Columbia Information.’_ to
-	+ _‘This is version 1.0 of the Open Government Licence for BC Oil and Gas Commission Information.’_
+	+ _‘This is version 1.0 of the Open Government Licence for BC Energy Regulator Information.’_
 1. **Note**: remove section on BC Government Copyright or whole line:
 	+ _'Note: as per B.C. Government Copyright, the following licence only applies to records in the B.C. Data Catalogue that specify it.'_
 
