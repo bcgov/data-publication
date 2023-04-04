@@ -18,7 +18,7 @@ has_toc: false
 + This document is being updated to reflect the alignment with this core standard.
 
 ## Table of Fields in Data Catalogue align with Metadata Standard and Guidelines
-To align with the new Metadate Standard and Guidelines, the following table outline how fields in B.C. Data Catalogue 
+To align with the new <code>Metadate Standard and Guidelines</code>, the following table outline how fields in B.C. Data Catalogue 
 could align with Metadata Standard and Guidelines.
 
 |Fileds in B.C. Data Catalogue|Fields in Metadata Standard and Guidelines|
@@ -70,12 +70,12 @@ could align with Metadata Standard and Guidelines.
 
 ## Record management
 
-The button is defined as **Add Dataset** as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
+The button is defined as <code>Add Dataset</code> as this is a CKAN term used to define the record and all it's resources. As this word is used to mean other things, this document defines the metadata as a record.
 
 ![image](https://user-images.githubusercontent.com/32690119/179629726-b3c25bfc-c385-45d3-ade2-b5252da9e667.png)
 
-1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking **Log In** on the upper right of the toolbar.
-    + All users with an IDIR can log into the Catalogue but as an editor you will see **Add Dataset** in place of the **Log In** button.
+1. Log into the [BC Data Catalogue](https://catalogue.data.gov.bc.ca) by clicking <code>Log In</code> on the upper right of the toolbar.
+    + All users with an IDIR can log into the Catalogue but as an editor you will see <code>Add Dataset</code> in place of the **Log In** button.
     + Follow the [metadata record management section](#metadata-record-management) to complete all mandatory/required fields (minimum requirement). 
     + We suggest adding content to non-mandatory fields as this will help people to better understand and use the data as intended.
 	+ Suggestions for metadata content can be found in Tips & Tricks > [Making Useful Metadata](./tips_tricks_making_useful_metadata.md#making-useful-metadata). 
@@ -85,10 +85,10 @@ The button is defined as **Add Dataset** as this is a CKAN term used to define t
 ![image](https://user-images.githubusercontent.com/32690119/179629546-95d5c46b-197c-4def-b5d1-21eb069f4030.png)
 
 **To add a record:**
-1. Click the **Add Dataset** button
+1. Click the <code>Add Dataset</code> button
 1. Fill out all the required fields for a record  as described below as noted in the [field section](#record-fields).
 
-_Note:_ All new metadata records are created that allow the **State** to be set to **Draft**. 
+_Note:_ All new metadata records are created that allow the <code>State</code> to be set to <code>Draft</code>. 
 
 [RETURN TO TOP][1]
 
@@ -99,7 +99,7 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 **To edit a record:**
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
-    1. Click the **Edit Dataset** button
+    1. Click the <code>Edit Dataset</code> button
 
 [RETURN TO TOP][1]
 
@@ -110,11 +110,11 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 **To publish a record:**
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
-    1. Click the **Edit Dataset** button
-    1. Change the **State** to either
+    1. Click the <code>Edit Dataset</code> button
+    1. Change the <code>State</code> to either
        + Pending Publish
        + Pending Archive
-    1. Click **Save**
+    1. Click <code>Save</code>
        + This then triggers the publication email notification process
        + For more details see the [Publication workflow](../dps_bcdc_w.html#publication-states)
 
