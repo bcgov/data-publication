@@ -44,6 +44,13 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 [![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 
 [RETURN TO TOP][1]
