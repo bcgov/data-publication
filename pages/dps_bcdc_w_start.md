@@ -73,11 +73,6 @@ Task 4            :         des4, after des3, 5d
 ```
 
 
-```
-this is a code block to test copy button
-```
-
-
 
 [RETURN TO TOP][1]
 
