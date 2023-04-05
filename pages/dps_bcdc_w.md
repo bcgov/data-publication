@@ -32,6 +32,13 @@ This page is written in the context that you have reviewed all information in th
 
 ## Documentation Review
 
+- [ ] just a tiny checkbox
+- [x] just another tiny checkbox
+    - [ ] on look another tiny checkbox
+        - [x] no way, **another** checkbox?
+    - [ ] this is not a [checkbox](www.cbc.ca), it's a checkbox with a link!
+- [x] well this is the last checkbox, i promise.
+
 The first step in the process is to review the documentation: 
 + [BCDC Standards and Guidelines](./dsg_bcdc.html)
 + [3.11 Core Administrative and Descriptive Metadata Standard and Guidelines](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
