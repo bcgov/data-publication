@@ -43,34 +43,6 @@ Publishing your metadata in the BC Data Catalogue is a great way to ensure it co
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
 [![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
-```mermaid
-
-graph TD
-    A --> B
-    B --> C
-    B --> D
-    D --> A
-```
-
-```mermaid
-
-gantt
-dateFormat  YYYY-MM-DD
-title Adding GANTT diagram to mermaid
-excludes weekdays 2014-01-10
-
-section A section
-Task 1            :done,    des1, 2023-04-01,2023-04-03
-Task 2            :active,  des2, 2023-04-05, 3d
-Task 3            :         des3, 2023-04-04, 5d
-Task 4            :         des4, after des3, 5d
-
-section B section
-Task 1            :active,  des1, 2023-03-31,2023-04-03
-Task 2            :active,  des2, after des1, 3d
-Task 3            :         des3, 2023-04-04, 5d
-Task 4            :         des4, after des3, 5d
-```
 
 
 
