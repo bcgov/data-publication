@@ -44,6 +44,7 @@ Wondering if you are ready to create metadata? This workflow guides you through 
 [![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
 ```mermaid
+
 graph TD
     A --> B
     B --> C
@@ -52,6 +53,7 @@ graph TD
 ```
 
 ```mermaid
+
 gantt
 dateFormat  YYYY-MM-DD
 title Adding GANTT diagram to mermaid
@@ -71,7 +73,9 @@ Task 4            :         des4, after des3, 5d
 ```
 
 
-
+```
+this is a code block to test copy button
+```
 
 
 
