@@ -59,7 +59,9 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   # version: "9.1.3"
+  # version: "10.1.0"
   version: "9.4.3"
+  # apparently only version 9.* works
 
 # For copy button on code
 enable_copy_code_button: true

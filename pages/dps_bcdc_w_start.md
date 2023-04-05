@@ -43,16 +43,6 @@ Publishing your metadata in the BC Data Catalogue is a great way to ensure it co
 Wondering if you are ready to create metadata? This workflow guides you through the pre-work so you will be ready to create a metadata record.
 [![BCDC Metadata Readiness Workflow](./images/wf_MetadataReadiness.png)](./images/wf_MetadataReadiness.svg)
 
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
 [RETURN TO TOP][1]
 
 ------------------------------
