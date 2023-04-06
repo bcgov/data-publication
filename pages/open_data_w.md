@@ -32,10 +32,10 @@ Broader Public Sector (BPS) agencies are required to [create their own licence](
    + [Security Controls](#security-control)
    + [Pricing frameworks](#pricing-framework)
    + [Data Source](#data-sources)
-+ [Signatures](#signatures)
-+ [Review with the Ministry Government Communication Officer](#review-with-the-ministry-government-communication-officer)
-+ [Submit your Assessment and Checklist](#submit-your-assessment-and-checklist)
-+ [Maintenance](#maintenance)
++ [**Signatures**](#signatures)
++ [**Review with the Ministry Government Communication Officer**](#review-with-the-ministry-government-communication-officer)
++ [**Submit your Assessment and Checklist**](#submit-your-assessment-and-checklist)
++ [**Maintenance**](#maintenance)
 
 ## Review relevant policy documents
 
