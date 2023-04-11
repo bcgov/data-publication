@@ -26,10 +26,10 @@ The Broader Public Sector (BPS) may publish records in the B.C Data Catalogue bu
 
 
 ## Create a copy of the licence
-Copy our [Open Government Licence - British Columbia](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with Federal and other Local Governments
+Copy our [**Open Government Licence - British Columbia**](https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61), as it is consistent with Federal and other Local Governments
 + examples: [**BC Assessment**](https://info.bcassessment.ca/pages/opengovernmentlicencebcassessment.aspx) and [**Elections BC**](https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf)
 
-## MODIFY THE LICENCE
+## Modify the licence
 Modify the following text to suit your organization. The following example uses the BC Energy Regulator.
 ### *Licence Name*
 Change the licence name from `Open Government License – British Columbia` to `Open Government License – BC Energy Regulator`
