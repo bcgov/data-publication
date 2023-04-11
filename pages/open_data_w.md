@@ -73,6 +73,8 @@ Regardless if a dataset is under the OGL, any B.C Government or Broader Public S
 
 To activate your __account__ and publish metadata records, follow the [BCDC documentation](dps_bcdc.md) and the [Where to Start](dps_bcdc_w_start.md).
 
+[RETURN TO TOP][1]
+
 ## Complete and submit the Open Data Assessment and Checklist
 
 The [Open Data Assessment and Checklist](https://www2.gov.bc.ca/assets/download/97CF56DB283D4AE08968E4A4C7538D65) must be completed and the appropriate people contacted before your data is approved for publishing.
@@ -125,6 +127,8 @@ Depending on your data, the Intellectual Properties Office may ask the following
 1. Is the Data complete (i.e., a subset of the Data has not been excluded)?
 1. Can the Data be provided in a machine-processable format (e.g., CSV)?  Ref. the Open Data Physical Format Standard.
 
+[RETURN TO TOP][1]
+
 ## Signatures
 Signatures are required from the following:
 1. The Data Custodian
@@ -145,3 +149,7 @@ Data should be continually updated and maintained. The life cycle of a dataset m
 
 
 -------------------------------------------------------
+[RETURN TO TOP][1]
+
+
+[1]: #how-to-associate-data-to-bcs-open-data-licence
