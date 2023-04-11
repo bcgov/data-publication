@@ -69,8 +69,6 @@ All datasets under the OGL-BC require a metadata record in the B.C Data Catalogu
 Fields in B.C Data Catalogue comply with the [**3.11 Core Administrative and Descriptive Metadata Standards and Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
 
 
-###
-
 Regardless if a dataset is under the OGL, any B.C Government or Broader Public Sector (BPS) dataset can be published in the BCDC.
 
 To activate your __account__ and publish metadata records, follow the [BCDC documentation](dps_bcdc.md) and the [Where to Start](dps_bcdc_w_start.md).

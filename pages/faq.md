@@ -345,30 +345,24 @@ iv.	For more information on the workflow to share content to public from ArcGIS 
 
 ### How long does it take to publish to the BCGW?
 
-The length of time it takes is dependent on many factors but can take anywhere from one week to many.  The main reason for delay is lack of data readiness. 
+The length of time it takes is dependent on many factors but can take anywhere from a few weeks to many.
 
-Before asking to publish data to the BCGW, consider:
-
-1. Data readiness
-   1. Have all the fields been finalized?
-   1. Is there permission to publish the data?
-   1. Has all the line work been entered?
-1. Does the data flow fit with existing architectural patterns?
-1. Data access - do firewalls need to be opened up, or grants applied?
-1. Do you have time to answer questions and check for quality as the publication proceeds?
-1. Is there funding available?  (Note that funding is not always a requirement.)
+To help reduce delays in your data publication, review [Data Publication - Am I Ready?](https://bcgov.github.io/data-publication/pages/dps_bcgw_w.md#data-publication---am-i-ready) to understand more about how to prepare for publishing data to the BCGW:
 
 ### What data service formats can be made available for my BCGW data?
 
 1. Web Map Service (WMS)
 2. Web Feature Service (WFS)
-3. Esri Rest 
+3. Keyhole Markup Language (KML)
+4. ESRI Rest
 
 ### What government channels can be used to access my BCGW data?
 
-1. iMapBC
-2. BC Map Hub (ArcGIS Online, aka AGO)
-3. Data Download from iMapBC and the BC Data Catalogue
+1. Direct Connect via mapping applications (i.e., ArcGIS, QGIS, etc.)
+2. BC Data Catalogue
+3. iMapBC
+4. BC's Map Hub (ArcGIS Online)
+5. Data Download from iMapBC and the BC Data Catalogue
 
 ### What is the LRDW?
 + If you remember or frequently refer to the LRDW, then you've probably been around for a while. The LRDW or Land and Resource Data Warehouse, is the historic name for what is now the BCGW or the BC Geographic Warehouse. 
@@ -389,11 +383,11 @@ Before asking to publish data to the BCGW, consider:
 
 #### Where can datasets be replicated from?
 
-##### The DataBC File Staging Area
+##### BCGW Staging Area
 
-+ The Staging Area is a permanent location managed by DataBC to allow the transfer of file based data that is publication ready to be replicated to the BC Geographic Warehouse.
++ The BCGW Staging Area is a permanent location managed by DataBC to allow the transfer of file based data that is publication ready to be replicated to the BC Geographic Warehouse.
 
-##### The BC Data Catalogue file store
+##### BC Data Catalogue file store
 
 + The BC Data Catalogue can store CSV, XLSX, JSON, and zipped shapefiles as long as their size is less than 150 MB. 
 + Such files can be used as sources for the replication process.
@@ -411,7 +405,7 @@ Before asking to publish data to the BCGW, consider:
 
 #### How often is my dataset refreshed in the BCGW?
 
-+ Refresh schedules are determined in consultation with the Data Custodian. The frequency may be anywhere from hourly to annually, depending on consumption requirements and how often the source data changes. "On request" replications are also supported.
++ Refresh schedules are determined in consultation with the Data Manager. The frequency may be anywhere from hourly to annually, depending on consumption requirements and how often the source data changes. "On request" replications are also supported.
 
 #### How do I request that my dataset be refreshed (outside the normal schedule)?
 
@@ -595,14 +589,14 @@ Security options are:
 + Call (250) 952-6801
 
 
-### I've taken over responsibility for maintaining a dataset that has been published to DataBC. How do I get access to what I need?
+### I've taken over responsibility for maintaining a dataset that has been published using DataBC's services. How do I get access to what I need?
 
 + To request access, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13).
 
 + Access may involve accounts and security for:
    1. BC Geographic Warehouse and secure Oracle database roles, iMapBC roles, and Distribution roles
    1. BC Data Catalogue
-   1. DataBC File Staging Area
+   1. BCGW Staging Area
 
 -------------------------------------------------------
 
