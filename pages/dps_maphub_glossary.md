@@ -14,12 +14,13 @@ has_toc: false
 <br><br>
 **Multi-User** (aka Proxy) accounts:
 - Require the number of users to be specified and tracked.
-- Have limited privileges to facilitate access to BCs Map Hub content when individuals do not have a need for their own account.
-- Are typically shorter term Project specific accounts, often used to facilitate review and approval of content in BCs Map Hub.
-- Are owned and managed by an existing Single-User Creator account on BCs Map Hub.
+- Have limited privileges to facilitate access to BC's Map Hub content when individuals do not have a need for their own account.
+- Are typically shorter term Project specific accounts, often used to facilitate review and approval of content in BC's Map Hub.
+- Are owned and managed by an existing Single-User Creator account on BC's Map Hub.
 - May incur charges related to credit consumption such as storage or premium service usage.
 - Profile will be set to "Private" (e.g. "Who can see your profile").
 <br>
+
 **Proxy Account Owner Responsibilities:**
 - Creating a specific Group for the map/app.
 - Inviting the Proxy Account to the Group and ensuring the Account is able to access required project resources.
@@ -39,7 +40,7 @@ has_toc: false
  **Creator** - In addition to Fieldworker capabilities, Creator are able to configure their own solutions including creating Maps and Apps, and also have the ability to share content to others.
 
 ## User Roles
-BCs Map Hub's custom **User Roles** further control what privileges are available to the account(i.e. privileges to edit data, create content, use premium content, share content...)
+The custom **User Roles** on BC's Map Hub further controls what privileges are available to the account(i.e. privileges to edit data, create content, use premium content, share content...)
 <br><br>
 **Emergency Role Accounts** are available only to business units that require immediate sharing to everyone/public privileges to support needs during imminent emergencies (not intended for day to day business operations). When time permits, content shared to public by Emergency Roles authors requires publishing request/checklist if authors intend to keep content for longer term. Else content must be unshared from public.
 
