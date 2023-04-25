@@ -18,7 +18,7 @@ The way we name and describe data creates an understanding of what the data is, 
 DataBC adheres to the standards in this document for naming and describing data components within the DataBC Program, specifically in:
 
 + the BC Geographic Warehouse (BCGW)
-+ the BC Data Catalogue BCDC)
++ the BC Data Catalogue (BCDC)
 + the DataBC Data Modelling tool (currently Oracle Designer)
 
 |**AUDIENCE**|  |  |  |  | 
