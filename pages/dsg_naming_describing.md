@@ -623,8 +623,8 @@ The description should be concise, yet answer the 5 "W" questions:
 1. _What_ is the subject of the dataset?
 2. _Who_ produced or is responsible for the dataset?
 3. Is there any temporal constraint on the data?  Historical vs. current, etc. (_When_)
-4. Does the dataset pertain to a particular geographic area (_Where_)
-5. WHat business function(s) does the dataset server (_Why_)
+4. Does the dataset pertain to a particular geographic area? (_Where_)
+5. What business function(s) does the dataset serve? (_Why_)
 
 The goal of the description is to give the reader enough information to allow them to decide whether or not to read the rest of the record.
 
@@ -640,7 +640,7 @@ https://catalogue.data.gov.bc.ca/dataset?tags=Land+Ownership
 https://catalogue.data.gov.bc.ca/dataset?tags=Parcels&tags=Plans
 ```
 
-The first URL returns datasets having the keyword "Land Ownership"; the second returns datasets having both Parcels and Plans as keywords. Note that keywords can actually consistent of multiple words (i.e., they are actually key _phases_), and that having multiple keywords (e.g., **Land** and **Ownership**) will yield different search results than having a keyword (key phrase) that combines them (e.g., **Land Ownership**).
+The first URL returns datasets having the keyword "Land Ownership"; the second returns datasets having both Parcels and Plans as keywords. Note that keywords can actually consistent of multiple words (i.e., they are actually key _phrases_), and that having multiple keywords (e.g., **Land** and **Ownership**) will yield different search results than having a keyword (key phrase) that combines them (e.g., **Land Ownership**).
 
 The search mechanism used by the Data Catalogue is very literal and case sensitive.  Hence the keywords Parcel, parcel, parcels, and Parcels are all considered different, even though from a business perspective they should be interchangeable. Because of the tag search query used by the Catalogue, described above, it is important that only one of these choices be used, and that the choice be made consistently. 
 
