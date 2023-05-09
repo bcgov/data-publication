@@ -99,7 +99,7 @@ See the BC Data Catalogue [Publication Workflow](./dps_bcdc_w.md)
 
 ------------------------------
 
-## How transfer Custodianship of a dataset 
+## How to transfer Custodianship of a dataset 
 
 + Both branches or executives must agree that the responsibility and authority for a dataset management is being transferred
 + Providing writing confiration of this is required to transfer records
