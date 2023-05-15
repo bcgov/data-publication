@@ -248,10 +248,11 @@ The following standard ratios must be used for minimum and maximum scales:
 Confirm the correct dataset and connection properties are being used.
 
 + Are the correct Connection Properties to the production BCGW instance being used?
-   + **IMPORTANT:** The BCGW database connection MUST NOT be configured with embedded credentials  
+   + ⚠ **IMPORTANT:** The BCGW database connection MUST NOT be configured with **embedded credentials**  
       + Do not create your layer file with BCGW data sourced using an .sde Database Connection file that has a user name and password saved
       + i.e., when you add your layer file to a new MXD you should always be asked for your BCGW username and password. 
       + _Embedded credentials are a potential security threat._ 
+   + ⚠ **IMPORTANT:** The server instance MUST NOT include a **port number**
 + Is the correct BCGW dataset (Feature Class) being used?
 
 
