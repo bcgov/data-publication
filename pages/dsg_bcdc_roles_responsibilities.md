@@ -151,7 +151,7 @@ When the _Data Custodian_ does not have the resources available to fulfill their
 
 The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship Agreement** that defines the specific [responsibilities](#responsibilities-of-a-data-custodian) that are being delegated to the _Data Steward_ by the _Data Custodian_.
 
-*Note: the involvement of a _Data Steward_ does not change the obligations of the _Data Custodian_. The _Data Custodian_ remains accountable for the governance and use of the data.*
+*Note: the involvement of a **Data Steward** does not change the obligations of the **Data Custodian**. The **Data Custodian** remains accountable for the governance and use of the data.*
 
 -----------------------
 

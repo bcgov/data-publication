@@ -14,7 +14,7 @@ Opening up Government data is key to enabling engagement with citizens by using 
 
 The B.C. Government produces and maintains thousands of datasets that represent a broad range of information about natural resources, the economy, justice, education and social programs.
 
-## RESOURCES
+## Resources
 
 The following is a list of resources to support the use of the open license with the B.C. Government:
 
