@@ -23,7 +23,7 @@ has_toc: true
 To align with the new Metadate Standard and Guidelines, the following table outline how fields in B.C. Data Catalogue 
 could align with Metadata Standard and Guidelines.
 
-|Fields in Metadata Standard and Guidelines|Fileds in B.C. Data Catalogue|
+|Elements in Metadata Standard and Guidelines|Fileds in B.C. Data Catalogue|
 |:-|:-:|
 |*CREATOR* |[*Published by*](dps_bcdc_w_record_mgmt_ui.md#published-by)|
 |*DATE CREATED*|[*Lifecycle event -> Created*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|
