@@ -38,6 +38,10 @@ has_toc: true
 -----------------------
 ## How to get information
 
+\* You do not need an API key nor an account if you are only accessing publicly available data. All records published under the Open Government Licence - British Columbia and its variations are publicly available.
+
+If you have questions about accessing data in the B.C. Data Catalogue, please submit a support request via our [request portal](https://dpdd.atlassian.net/servicedesk/customer/portal/1).
+
 ### How to get your API Key
 
 1. Log into the Catalogue
