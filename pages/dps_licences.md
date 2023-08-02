@@ -14,7 +14,7 @@ has_toc: false
 
 ------------------------------
 
-## DATA LICENCES
+## Data Licences
 
 There are three licencing options for data published data in the BC Data Catalogue:
 
@@ -52,3 +52,5 @@ There are three licencing options for data published data in the BC Data Catalog
 Other [Frequently Asked Questions about licencing options](faq.html#data-publication-licensing-options---open-dataaccess-only)
 
 [RETURN TO TOP][1]
+
+[1]: #data-licences

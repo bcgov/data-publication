@@ -24,7 +24,7 @@ Publishing your metadata in the BC Data Catalogue is a great way to ensure it co
 + [**Where do I start**](#where-do-i-start)
 + [**How to become a Data Provider to the Catalogue**](#how-to-become-a-provider-to-the-catalogue)
     + [How to become a Provider for another Organization](#how-to-become-a-provider-for-another-organization)
-+ [**How to publish Records - Moved**](#how-to-publish-records)
++ [**How to publish Records**](#how-to-publish-records)
 + [**How to create a Catalogue Group**](#how-to-create-catalogue-groups)
 + [**How to update...**](#how-to-update)
 	+ [Accounts](#accounts)
@@ -208,6 +208,7 @@ For support, please open a ticket with the [Data Systems & Services request syst
        - Or if there are a lot of resources, alphabetical may also be
 
 [RETURN TO TOP][1]
+
 ------------------------------
 
 ## Other frequently asked questions
@@ -216,4 +217,4 @@ See the [Catalogue section of the Data Publication FAQ](./faq.md#metadata-record
 
 [RETURN TO TOP][1]
 
-[1]: #table-of-contents
+[1]: #getting-started-with-the-bc-data-catalogue
