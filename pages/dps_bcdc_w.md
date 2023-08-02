@@ -219,7 +219,7 @@ When a dataset is no longer relevant, the **State** should be set to **Pending A
 1.  Change the dataset **State**:
 	+ by clicking the state button above ![image](https://user-images.githubusercontent.com/32690119/150053047-9afbf52a-ddbf-4374-9c05-c27464db2637.png) **Pending Archive**. The state selected will be the one with the checkmark.
 	
-Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
+Once the record has been set to **Pending Archive**, DataBC will then review the record to ensure it is ready for archiving, this includes:	
 + for BCGW specific datasets:
     - removing the URL for the WMS Get Capabilities and the Network Link KML
     - changing the Title for BCGW Datasets to be "BCGW Deprecated Object"
@@ -235,7 +235,7 @@ Once the record has been set to **PENDING ARCHIVE**, DataBC will then review the
 _Note: If the record is related to a BCGW dataset, it will be added to the next Notice of Intent (NOI) for archival._
     - See the [BCGW Data Retirement Workflow](./dps_bcgw_w_data_retirement.md)
 
-Once DataBC has confirmed the record is ready for archiving, they will update the **State** to **ARCHIVED**.
+Once DataBC has confirmed the record is ready for archiving, they will update the **State** to **Archived**.
 
 Archived datasets:
 + are only visible to logged in Catalogue members of the Sub-Org which the dataset resides in 
