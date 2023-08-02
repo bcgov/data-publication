@@ -22,7 +22,7 @@ has_toc: false
 
 Within the search bar, once can pass queries
 
-**Records published during a certain date range**
+**Records published during a certain date range** (deprecated)
 
 ```record_publish_date:[2021-01-01T00:00:00.000Z TO 2022-01-01T00:00:00.000Z]```
 
@@ -30,10 +30,14 @@ Within the search bar, once can pass queries
 
 ```license_id:2```
 
++ To find a full list of licence IDs, visit the [BCDC Licences JSON](https://github.com/bcgov/ckanext-bcgov-schema/blob/master/ckanext/bcgov_schema/bcdc_licenses.json) page on GitHub
+
 **Object Names**
 
 ``` WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP ```
 
++ Search results are not exact matches 
+
 **Combination of two**
 
-```record_publish_date:[2017-05-21T00:00:00.000Z TO 2021-10-21T00:00:00.000Z] license_id:2```
+```WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SP license_id:2```
