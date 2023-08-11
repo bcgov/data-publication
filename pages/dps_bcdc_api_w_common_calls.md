@@ -117,13 +117,17 @@ for resource in pkg_data['resources']:
 
 ### Search by object_name
 
-```https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP```
+```
+https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP
+```
 
 [https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name:WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP)
 
 Depending on what is being used to make the call, changing the : and wrapping the object name in quotes may be needed
 
-```https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name%3A%22WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP%22```
+```
+https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name%3A%22WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP%22
+```
 
 [https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name%3A%22WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP%22](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_object_name%3A%22WHSE_WILDLIFE_MANAGEMENT.WAA_TRAPLINE_AREAS_SP%22)
 
