@@ -97,7 +97,7 @@ for pkg in pkgs['results']:
 
 [RETURN TO TOP][1]
 
-### How to get the resource names and resource IDs withing a package
+### How to get the resource names and resource IDs within a package
 ```
 import ckanapi
 
