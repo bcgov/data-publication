@@ -130,25 +130,33 @@ Depending on what is being used to make the call, changing the : and wrapping th
 
 ### Search by bcdc_type
 
-```https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic```
+```
+https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic
+```
 
 [https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_bcdc_type:geographic)
 
 ### Search by resource_storage_location
 
-```https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse```
+```
+https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse
+```
 
 [https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_extras_resource_storage_location:bc%20geographic%20warehouse)
 
 ### Search by format
 
-```https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv```
+```
+https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv
+```
 
 [https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=res_format:csv)
 
 ### Search by licence_id
 
-```https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=license_id:2```
+```
+https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=license_id:2
+```
 
 [https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=license_id:2](https://catalogue.data.gov.bc.ca/api/3/action/package_search?q=license_id:2)
 
