@@ -245,4 +245,4 @@ Archived datasets:
 
 -------------------------------------------------------
 
-[1]: #publication-workflow
+[1]: #bc-data-catalogue-publication-workflow
