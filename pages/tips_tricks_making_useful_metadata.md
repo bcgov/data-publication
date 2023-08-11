@@ -46,7 +46,7 @@ When completing the metadata record, there are both required and non-required fi
 |**Who can download this data?** *|Public|This is intended to be who can download the data. For data in the BCGW, this refers to the security applied in the Distribution Service.<br>If there is a desire to change the distribution security setting, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14), as changing it in the metadata record will not apply the change at the application level.|
 |**Who can access this application?** *|Public|Required|
 |**Licence** *|Open Government Licence - British Columbia|This is very important as it determines [how the data can be used](#which-licence-to-use)|
-|**Security Classification** *|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/information_security_classification_standard_july_17_2018.pdf)|
+|**Security Classification** *|LOW-PUBLIC|Describes how secure the data is. [See the Security Classification Standard](https://www2.gov.bc.ca/gov/content?id=7430B7CCF0FE459F93A554E72DF21503)|
 |_**Preview Information**_|||
 |**Layer name**|Name of the layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
 |**Preview latitude**|Latitude of layer for preview|This is auto-populated when a BCGW dataset is made available through public WMS|
