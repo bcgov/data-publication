@@ -18,15 +18,15 @@ has_toc: true
 
 ## Table of Contents
 + [**Role Definitions**](#role-definitions)
-+ [**Organizations management**](#organization-management)
-    + [**Create Orgs or Groups**](#create-organizations-or-groups)
-    + [**Rename or update Orgs or Groups**](#rename-or-update-organizations-or-groups)
-    + [**Delete Orgs or Groups**](#delete-organizations-or-groups)
++ [**Organizations management**](#organization-or-group-management)
+    + [**Create Orgs or Groups**](#add-an-organization-and-group)
+    + [**Rename or update Orgs or Groups**](#rename-an-organization-or-group)
+    + [**Delete Orgs or Groups**](#delete-an-organization-or-group)
 + [**Member management**](#member-management)
     + [**Add a member to an organization or group**](#add-a-member-to-an-organization-or-group)
     + [**Edit a member role in an organization or group**](#edit-a-member-role-in-an-organization-or-group)
-    + [**Remove a member to an organization or group**](#remove-a-member-to-an-organization-or-group)
-    + [**Delete a member**](#delete-a-member)
+    + [**Remove a member to an organization or group**](#remove-a-member-from-an-organization-or-group)
+    + [**Delete a member**](#deleting-a-member)
 
 
 ## Role Definitions
@@ -155,5 +155,5 @@ Here you will find all the Organizations and Groups that you have been granted a
 ## Deleting a member
 1. To request this, open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3).
 
-[1]: #bc-dtad-catalogue-mamber-and-organiation-management
+[1]: #bc-data-catalogue-member-and-organization-management
 
