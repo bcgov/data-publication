@@ -90,11 +90,6 @@ To align with the new **Metadata Standard and Guidelines**, the following table 
 
 There are four types of Resources using in the BC Data Catalogue.  
 
-1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
-2. Resources which are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
-3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
-    + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
-
 ### Application
 
 A type of resource associated to a record, which is used for applications that provide access to data.
@@ -110,6 +105,11 @@ A resource type associated to a record, which is used for data that may, or may 
 ### Web Service and API
 
 A resource type associated to a record, which is used for metadata relating to web services or application programming interfaces (APIs).
+### Side Notes:
+1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
+2. Resources which are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
+3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
+    + If a resource requires authorization, we recommend that that process or form is linked as a resource to the record, e.g. [Request Archaeology Information](https://catalogue.data.gov.bc.ca/dataset/a6d58d20-8e19-46ba-b5a0-f02e436fa765/resource/cbbd35ea-8ddb-4cb4-b717-d897e5303dc3).
 
 [RETURN TO TOP][1]
 
@@ -135,10 +135,10 @@ A resource type associated to a record, which is used for metadata relating to w
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
     1. Click the **Pencil** icon on the Resource Card list on the right or
        - This will open the resource in edit mode.
-       - ![image](https://user-images.githubusercontent.com/32690119/179632218-af74e2e5-0241-46f6-8475-022755c99547.png)
-    1. Click on the resource title or the View button.
-        1. Click on the _Edit resource_ button.
-        2. ![image](https://user-images.githubusercontent.com/32690119/179630892-4e89b9d2-9847-4ad0-92a9-cac722a87cec.png)
+       
+       ![image](https://user-images.githubusercontent.com/32690119/179632218-af74e2e5-0241-46f6-8475-022755c99547.png)
+    1. Click on the resource title or the View button. And click on the _Edit Resource_ button.
+            ![image](images/edit_resource.png)
 1. Update the file(s) as needed. See the [field section](./dps_bcdc_w_resource_mgmt_ui.md#resource-type-specific-fields) for more details.
 
 
@@ -150,11 +150,14 @@ A resource type associated to a record, which is used for metadata relating to w
     - Zipped folders can be uploaded but do not upload a file from within an already zipped folder.
 
 1. Once in edit mode of the resource
-1. Click on the **File** circle
-1. Click on the **paper clip** icon
+![image](images/edit_resource.png)
+1. Click on the **File** circle and then the **paper clip** icon 
+![image](images/upload_file.png)
 1. Navigate to new replacement file
 1. Click **Open**
 1. Click **Save**
+
+![image](images/upload_save_file.png)
 
 [RETURN TO TOP][1]
 
@@ -165,10 +168,11 @@ Editors can delete resources in any published state
 **To delete a resource:**
 1. Log In
 1. Navigate to the record to edit (that you have the privileges to do so) and either:
-    1. Click the **trashcan** icon on the Resource Card list on the right or
-       - This will open the resource in edit mode.
+    1. Click the **trashcan** icon on the Resource Card list on the right and confirm, or
+       ![image](images/delete_resource_1.png)
     1. Click on the resource title or the View button.
-        1. Click on the _Delete resource_ button 
+        1. Click on the _Delete Resource_ button and confirm.
+        ![image](images/delete_resource_2.png)
 
 [RETURN TO TOP][1]
 

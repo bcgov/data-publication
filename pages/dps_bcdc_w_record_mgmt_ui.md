@@ -139,11 +139,13 @@ _Note:_ All new metadata records are created that allow the **State** to be set 
 
 ### Associate a Record to a Group
 
+* Due to CKAN restrictions, Group Admins will also have to obtain Editor privileges to an organization to add records to a Group. We recommend Group Admins submit a request via [Data Systems & Services request portal](https://dpdd.atlassian.net/servicedesk/customer/portal/1) for bulk adding.
+
 ![image](images/add_group_1.png)
 
 ![image](images/add_group_2.png)
 
-Members of a Catalgoue Group can associate any Published record in the catalogue to that Group.
+Admins of a Catalgoue Group can associate any Published record from branches they are also an editor of in the catalogue to that Group.
 
 1. Log In
 1. Navigate to a record to add to your group
@@ -334,7 +336,7 @@ The Security Classification has been updated and records transformed to reflect 
 ### Who can view this data? \* (`view_audience`) <a name="who-can-view-this-data"></a>
 
 Describes who can view, for example, the BC Geographic Warehouse (BCGW) resources associated with the metadata record in tools like iMapBC.
-+ The order reflects the most accessible to the most secure.
++ The order reflects the most accessible to the most restrictive.
 + To change this security in iMapBC, contact the Data Architecture team at databc.da@gov.bc.ca to discuss steps and configuration.
 
     |Access Type| Description
@@ -349,7 +351,7 @@ Describes who can view, for example, the BC Geographic Warehouse (BCGW) resource
 ### Who can download this data? \* (`download_audience`) <a name="who-can-download-this-data"></a>
 
 Describes the security level for access to download BC Geographic Warehouse (BCGW) resources associated with the metadata record
-+ The order reflects the most accessible to the most secure.
++ The order reflects the most accessible to the most restrictive.
 + To change this security in the Distribution Service, contact the Data Architecture team at databc.da@gov.bc.ca to discuss steps and configuration.
 
     |Access Type| Description
@@ -364,7 +366,7 @@ Describes the security level for access to download BC Geographic Warehouse (BCG
  
 ### Who can view this record? \* (`metadata_visibility`) <a name="who-can-view-this-record"></a>
 
-Describes who can view the metadata record.
+Describes who can view the metadata record. This visibility setting is different from the __Who can view this data__ setting.
 + The order reflects the most accessible to the most secure.
 
     |Access Type| Description
