@@ -112,9 +112,11 @@ Follow the steps below to grant users Admin or Editors for a CKAN Organization o
 1. Log in to the BC Data Catalogue
 2. Expand the hamburger menu in the top right corner
 3. Select the **Account Settings** option in the drop-down menu
+
 ![image](images/acc_settings.png)
 
 You will see your personalized account settings page – Click on the **“Admin”** tab on the top left-hand side of the menu bar.
+
 ![image](images/admin_tab.png)
 
 Here you will find all the Organizations and Groups that you have been granted access to depending on your assigned user role within the BC Data Catalogue.
@@ -123,13 +125,19 @@ Here you will find all the Organizations and Groups that you have been granted a
 ### Add a member to an organization or group
 1. Click on the appropriate dropdown beside your Ministry/Organization 
 2. It will expand to show the Branches that you currently have access to edit and/or add members to
-![image](https://user-images.githubusercontent.com/99049515/177221232-7bf8228d-b4f3-4824-9b6d-2723be925339.png)
+    
+    ![image](https://user-images.githubusercontent.com/99049515/177221232-7bf8228d-b4f3-4824-9b6d-2723be925339.png)
+
 3. You can add members to your organization at a branch level by clicking on the **_Add member_** button:
-![image](images/add_member_1.png)
+    
+    ![image](images/add_member_1.png)
+
 3. Select team member by typing their first and last name or their IDIR account
 4. Assign them their member role - Options: **admin** or **editor** role
 5. Click **_Add_** button
-![image](images/add_member_2.png)
+
+    ![image](images/add_member_2.png)
+
 6. If you have made an error: click the **_Cancel_** button to return to your Admin Panel page
 
 [Return to top][1]
