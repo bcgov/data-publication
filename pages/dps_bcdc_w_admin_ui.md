@@ -55,17 +55,20 @@ Log in to perform any actions:
 ![image](https://user-images.githubusercontent.com/99049515/177217359-5e272d52-e6da-4413-98c2-592b14ffb102.png)
 
 
-### Add an organization and group
-1. Log in
+### Add an organization or group
+1. Log in as a sysadmin
 1. Under the hamburger click **Explore by Organization** or **Explore Dataset Groups** 
+![image](images/add_org_or_group.png)
 1. Click **Add Organizaton** or **Add Group** 
+![image](images/add_org.png)
+![image](images/add_group.png)
 1. The follow fields are to be filled out:
     1. **Name**
     1. **Url Name**
     1. **Description**
-    1. **External URL**
+    1. **External URL**(Organization only)
     1. **Image URL**
-    1. **Parent**
+    1. **Parent**(Organization only)
         1. To be able to select a parent or ministry level or move between them, an admin must be an admin to all levels. Therefore this is done by system-administrators  
 
 [Return to top][1]
@@ -74,9 +77,11 @@ Log in to perform any actions:
 **Things to note**:
 + The Name, e.g., _DataBC Program_ can be changed at any time, changing the url name, e.g., _/databc-program_ should be done after hours due to a bug.
 
-1. Log in as a administrator
+1. Log in as a sysadmin
 2. Navigate to the organization or group
 3. Click **Edit Organzation** or **Edit Group**
+![image](images/edit_org.png)
+![image](images/edit_group.png)
 4. Update _Name_
     +  Change special characters like & to 'and'
 5. Update _URL_
@@ -107,8 +112,10 @@ Follow the steps below to grant users Admin or Editors for a CKAN Organization o
 1. Log in to the BC Data Catalogue
 2. Expand the hamburger menu in the top right corner
 3. Select the **Account Settings** option in the drop-down menu
+![image](images/acc_settings.png)
 
 You will see your personalized account settings page – Click on the **“Admin”** tab on the top left-hand side of the menu bar.
+![image](images/admin_tab.png)
 
 Here you will find all the Organizations and Groups that you have been granted access to depending on your assigned user role within the BC Data Catalogue.
 
@@ -116,13 +123,13 @@ Here you will find all the Organizations and Groups that you have been granted a
 ### Add a member to an organization or group
 1. Click on the appropriate dropdown beside your Ministry/Organization 
 2. It will expand to show the Branches that you currently have access to edit and/or add members to
+![image](https://user-images.githubusercontent.com/99049515/177221232-7bf8228d-b4f3-4824-9b6d-2723be925339.png)
 3. You can add members to your organization at a branch level by clicking on the **_Add member_** button:
-
-    ![image](https://user-images.githubusercontent.com/99049515/177221232-7bf8228d-b4f3-4824-9b6d-2723be925339.png)
-
+![image](images/add_member_1.png)
 3. Select team member by typing their first and last name or their IDIR account
 4. Assign them their member role - Options: **admin** or **editor** role
 5. Click **_Add_** button
+![image](images/add_member_2.png)
 6. If you have made an error: click the **_Cancel_** button to return to your Admin Panel page
 
 [Return to top][1]
@@ -144,7 +151,7 @@ Here you will find all the Organizations and Groups that you have been granted a
 1. Find the team member on your organization or group panel
 2. Click on the **_Delete_** button:
 
-    ![image](https://user-images.githubusercontent.com/99049515/177222283-553f5592-1144-4e78-a21f-b7cff2850286.png)
+    ![image](images/delete_member.png)
     
 3. A dialogue box will open asking you to **"Confirm Removal"** of the member from that specific member role
 4. To remove the team member - Confirm by clicking: **_Delete_**
