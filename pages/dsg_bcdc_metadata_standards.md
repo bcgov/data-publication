@@ -1,31 +1,31 @@
 ---
 layout: default
-title: Metadata Standards
+title: Metadata Best Practices
 nav_order: 101
 parent: Appendix - Common Items
 has_toc: false
 ---
 
-# METADATA STANDARDS
+# Metadata Best Practices
 
-This page describes recommended metadata standards and provides a high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue.
+This page describes recommended metadata best practices and provides a high-level summary of metadata requirements for data objects when publishing data to the BC Data Catalogue. To learn more about The Core Administrative and Descriptive Metadata Standards and Guidelines, please visit [Learn more about the metadata standard](https://www2.gov.bc.ca/gov/content?id=F528E060681144BBBB83246ECB238823).
 
 |**AUDIENCE**|  |  |  |
 |:---:|:---:|:---:|:---:|
 | *Data Publishers* | *Metadata Editors* | *DataBC Data Modellers* | *DataBC Catalogue Team* |
 
 ## Table of Contents
-+ [**WHAT IS METADATA AND WHY IS IT IMPORTANT?**](#what-is-metadata-and-why-is-it-important)
++ [**What is Metadata and Why is it Important?**](#what-is-metadata-and-why-is-it-important)
 	+ [Benefits of Metadata](#benefits-of-metadata)
 	+ [Metadata should be:](#metadata-should-be)
-+ [**MANDATORY METADATA FOR THE BC DATA CATALOGUE**](#mandatory-metadata-for-the-bc-data-catalogue)
-+ [**MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES**](#mandatory-metadata-for-bc-geographic-warehouse-resources)
-+ [**MANDATORY METADATA FOR RESOURCES NOT IN THE BC GEOGRAPHIC WAREHOUSE**](#mandatory-metadata-for-resources-not-in-the-bc-geographic-warehouse)
-+ [**RESOURCES**](#resources)
++ [**Mandatory Metadata for The BC Data Catalogue**](#mandatory-metadata-for-the-bc-data-catalogue)
++ [**Mandatory Metadata for BC Geographic Warehouse Resources**](#mandatory-metadata-for-bc-geographic-warehouse-resources)
++ [**Mandatory Metadata for Resources Not in The BC Geographic Warehouse**](#mandatory-metadata-for-resources-not-in-the-bc-geographic-warehouse)
++ [**Resources**](#resources)
 
 -----------------------
 
-## WHAT IS METADATA AND WHY IS IT IMPORTANT?
+## What is Metadata and Why is it Important?
 
 **Definition**:  [_Metadata_](glossary.md#metadata)
 
@@ -58,7 +58,7 @@ There are international standards for metadata that DataBC follows. This provide
 
 ---------------
 
-## MANDATORY METADATA FOR THE BC DATA CATALOGUE
+## Mandatory Metadata for The BC Data Catalogue
 
 Metadata fields that are mandatory in the catalogue are identied  
 
@@ -70,13 +70,13 @@ Metadata fields that are mandatory in the catalogue are identied
 
 ---------
 
-## MANDATORY METADATA FOR BC GEOGRAPHIC WAREHOUSE RESOURCES
+## Mandatory Metadata for BC Geographic Warehouse Resources
 
 Table and column descriptions are required for all objects in the BC Geographic Warehouse.  These descriptions are created by the BCGW data modeller, in consultation with the custodian and DataBC data administration staff.  The medium for defining the descriptions is the [Dataset Model](dps_bcgw_w.md#dataset-model).
 
-## MANDATORY METADATA FOR RESOURCES NOT IN THE BC GEOGRAPHIC WAREHOUSE
+## Mandatory Metadata for Resources Not in The BC Geographic Warehouse
 
-Spreadsheets (Excel or CSV files) uploaded to the BC Data Catalogue must be documented sufficiently so that people looking at the spreadsheet can understand what the columns mean. A good way of providing this information is to supply a *data dictionary* resource, explaining the purpose and content of the other resources. See for example, [_this resource_](https://catalogue.data.gov.bc.ca/dataset/bc-data-catalogue-content/resource/824f2a99-d738-4b63-a492-a906d4c37be0) for [_this dataset_](https://catalogue.data.gov.bc.ca/dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315).
+Spreadsheets (Excel or CSV files) uploaded to the BC Data Catalogue must be documented sufficiently so that people looking at the spreadsheet can understand what the columns mean. A good way of providing this information is to supply a *data dictionary* resource, explaining the purpose and content of the other resources. See for example, a [_data dictionary_](https://catalogue.data.gov.bc.ca/dataset/bc-data-catalogue-content/resource/824f2a99-d738-4b63-a492-a906d4c37be0) for the [_BC Data Catalogue Content_](https://catalogue.data.gov.bc.ca/dataset/42f7ca99-e7f3-40f7-93d7-f2500cccc315).
 
 -----------------------------------------------------------
 
@@ -84,7 +84,7 @@ Spreadsheets (Excel or CSV files) uploaded to the BC Data Catalogue must be docu
 
 The following links will provide you with additional information regarding metadata standards:
 
-+ British Columbia Core Administrative and Descriptive Metadata Standard - _link to be added when it is published (or removed when this documentation published)_
++ [_British Columbia Core Administrative and Descriptive Metadata Standard_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/311_core_metadata_standard.pdf)
 
 + [_Dublin Core Metadata Initiative_](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 
