@@ -7,14 +7,17 @@ has_toc: false
 ---
 
 # Roles and Responsibilities
-_Formerly: A Guide for Data Custodians and Data Managers_
++ With the publication of the [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B), the roles and responsibilities listed in this page have been updated and some roles are no longer relevant. For Contact information purpose, we recommend only consider the following options as we remove the obsolete roles:
+   + Generic Business unit email
+   + Point of Contact
+   + Data Custodian
 
-This is a guide for Data Custodians and Data Managers. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
+This is a guide for Data Custodians and their delegates. It explains why these roles are important, and their associated responsibilities. It also describes how business areas can use the BC Geographic Warehouse (BCGW) to make their data holdings accessible to clients.
 
 The page covers the following topics:
 
 + Getting the most out of the data we collect and manage
-+ The role and obligations of Data Custodians and Data Managers
++ The role and obligations of Data Custodians and their delegates
 + Using the BC Geographic Warehouse (BCGW) to distribute data
 + Where to find more information
 
@@ -31,14 +34,12 @@ The page covers the following topics:
 	+ [Obligations of a Data Custodian](#obligations-of-a-data-custodian)
 	+ [Responsibilities of a Data Custodian](#responsibilities-of-a-data-custodian)
 + [**The Data Manager**](#the-data-manager)
-	+ [Am I a Data Manager?](#am-i-a-data-manager)
-	+ [Obligations of a Data Manager](#obligations-of-a-data-manager)
-	+ [Responsibilities of a Data Manager](#responsibilities-of-a-data-manager)
 + [**The Data Steward**](#the-data-steward)
-+ [**BC Data Catalogue Editor**](#the-data-steward)
-+ [**Metadata Contacts*](#metadata-contacts)
-	+ [Other Roles](#other-roles)
-	+ [Resources](#resources)
++ [**BC Data Catalogue roles and responsibilities**](#bc-data-catalogue-roles-and-responsibilities)
+   + [**Editors**](#editors)
+   + [**Metadata Contacts**](#metadata-contacts)
+   + [**Group Admins**](#group-admins)
++ [Resources](#resources)
 	
 -----------------------
 
@@ -85,94 +86,61 @@ If you are a director with responsibility for the business (i.e., if you have au
 
 Unless this custodianship role is formerly assigned to someone else, you have the obligations and accountability described here.
 
-### Obligations of a Data Custodian
-
-If you are a _Data Custodian_ you have these obligations:
-
-+ manage the data as a valuable business asset through its entire lifecycle;
-+ ensure the data is fit for the purposes for which it is collected and provided; and
-+ stay in touch with the users of your data and respond to their needs: 
-     + by understanding the business environments of users and the information requirements of the business; and
-     + by understanding the individual needs of users for access to information.
++ For the purpose of managing data in the BC Data Catalogue, you are a _Data Custodian_ if you are an Executive Director of a branch.
 
 ### Responsibilities of a Data Custodian
 
-If you are a Data Custodian, you have these responsibilities:
+Per the [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B), if you are a Data Custodian, you have these responsibilities:
 
-+ **Data planning**
-   + You decide what data is collected, when and how, its definition and purpose, which policies and standards apply, and which resources are utilized to manage and maintain it.
-+ **Data content**
-   + You decide user access rules, how the data is stored, promoted, distributed and retired.
-   + Users for their part must respect the applicable-use policies set down by the _Data Custodian_.
-+ **User advocacy**
-   + You decide how to respond to users' business needs. 
-   + You must understand the needs of the entire community of users. 
-      + Of course, this doesn't mean you have to meet all user requirements. 
-      + Rather, you should try to maximize the value of your data to users as a whole, balancing their respective needs.
++ Oversee the management of data throughout its lifecycle
++ Ensure intended users of the data are supported and trained appropriately
++ Meet the requirements of applicable laws, policies, and standards, including this Policy
+
+
+For the purpose of managing data in the BC Data Catalogue, a Data Custodian has the responsibilities to: 
+   + Approve or reject a request to grant a user editor privileges to your branch
+   + Approve or reject a request to transfer records to another branch
+   + Approve or reject a request to receive records from another branch
 
 [RETURN TO TOP][1] 
 
 -------------------
 
 ## The Data Manager
-
-**Definition: [Data Manager](glossary.md#data-manager)**
-
-### Am I a Data Manager?
-
-You are a _Data Manager_ if you have been directed by a _Data Custodian_ to have the day-to-day responsibility for managing a data set.
-
-### Obligations of a Data Manager
-
-The main obligation of a _Data Manager_ is to ensure that the _Data Custodian's_ directions are properly fulfilled. There could be several _Data Managers_ for a data holding, and the role can be delegated.
-
-### Responsibilities of a Data Manager
-
-You will typically be responsible for some or all of these activities:
-
-+ Data capture and storage
-+ Data quality assurance
-+ Metadata capture and maintenance
-+ Define business rule for security and access to data
-+ Data population and distribution*
-+ User support
-
-*The _Data Manager_ is usually responsible for preparing data for population and distribution using the BCGW. The process is fairly straightforward, but it does involve a number of steps. DataBC will work with _Data Managers_ to make the process as streamlined as possible.
-
-[RETURN TO TOP][1] 
++ Data Manager is not a role defined in the [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B).
 
 -----------------------
 
 ## The Data Steward
-
-**Definition: [Data Steward](glossary.md#data-steward)**
-
-When the _Data Custodian_ does not have the resources available to fulfill their responsibilities, or it may be more efficient to conduct activities in concert with another group, a _Data Steward_ may become involved.
-
-The _Data Custodian_ and _Data Steward_ should sign a written **Data Stewardship Agreement** that defines the specific [responsibilities](#responsibilities-of-a-data-custodian) that are being delegated to the _Data Steward_ by the _Data Custodian_.
-
-*Note: the involvement of a **Data Steward** does not change the obligations of the **Data Custodian**. The **Data Custodian** remains accountable for the governance and use of the data.*
++ Data Steward is not a role defined in the [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B).
 
 -----------------------
 
-## BC Data Catalogue Editor
+## BC Data Catalogue roles and responsibilities
+### Editors
 
-An Editor is someone who can create and maintain BC Data Catalogue records on behalf of a Data Custodian. Editors must be approved by the Data Custodian for the Branch/Division in which they will be creating and/or maintaining records. To request editing access within a Branch/Division in the BC Data Catalogue, see [How do I get authorization to publish records in the BC Data Catalogue?](faq.md#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
+An Editor is someone who can create and maintain BC Data Catalogue records and resources on behalf of a Data Custodian. Editors must be approved by the Data Custodian for the Branch/Division in which they will be creating and/or maintaining records. To request editing access within a Branch/Division in the BC Data Catalogue, see [How do I get authorization to publish records in the BC Data Catalogue?](faq.md#how-do-i-get-authorization-to-publish-records-in-the-bc-data-catalogue)
 
 -----------------------
 
-## Metadata Contacts
+### Metadata Contacts
 
 Contacts listed in metadata records play a key role for end-users. When a question, issue or concern with a dataset arises, the best way to get resolution is to reach out to a Contact in the metadata record. 
 
 Contacts can be listed as Custodians, Business Experts, Distributors or Points of Contact. See the [Glossary](glossary.md) for the definition of these roles.
 
+For Contact information purpose, we recommend only consider the following options as we remove the obsolete roles:
+   + Generic Business unit email
+   + Point of Contact
+   + Data Custodian
+
 -----------------------
 
-### Other Roles
+### Group Admins
 
-+ [Data Administrator](glossary.md#data-administrator)
-+ [Discipline Authority](glossary.md#discipline-authority)
+A Group Admin is someone who can add BC Data Catalogue records under a similar theme to a group for easy access.
+
+Due to CKAN design, a Group Admin will also need to obtain the editor privileges for the branch to add its records to a group, or be granted sysadmin level access.
 
 [RETURN TO TOP][1] 
 
@@ -181,8 +149,9 @@ Contacts can be listed as Custodians, Business Experts, Distributors or Points o
 ### Resources
 
 Other documents explaining guidelnes, roles and responsibilities:
-   + [_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
-   + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
+   + [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B)
+   + [_Data Custodianship Guidelines for the Government of British Columbia(deprecated)_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
+   + [_Guidelines for Best Practices in Data Management – Roles and Responsibilities(deprecated)_](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
    
 ------------------------  
 
