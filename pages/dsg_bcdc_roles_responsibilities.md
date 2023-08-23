@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 # Roles and Responsibilities
-+ With the publication of the [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B), the roles and responsibilities listed in this page have been updated and some roles are no longer relevant. For Contact information purpose, we recommend only consider the following options as we remove the obsolete roles:
+With the publication of the [_Data Management Policy_](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B), the roles and responsibilities listed in this page have been updated and some roles are no longer relevant. For Contact information purpose, we recommend only consider the following options as we remove the obsolete roles:
    + Generic Business unit email
    + Point of Contact
    + Data Custodian
@@ -31,7 +31,6 @@ The page covers the following topics:
 + [**It is all about the information**](#it-is-all-about-the-information)
 + [**The Data Custodian**](#the-data-custodian)
 	+ [Am I a Data Custodian?](#am-i-a-data-custodian)
-	+ [Obligations of a Data Custodian](#obligations-of-a-data-custodian)
 	+ [Responsibilities of a Data Custodian](#responsibilities-of-a-data-custodian)
 + [**The Data Manager**](#the-data-manager)
 + [**The Data Steward**](#the-data-steward)
