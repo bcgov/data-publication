@@ -47,7 +47,7 @@ has_toc: false
 |       |   |   | 3. is usually at the director level, like the Data Custodian;
 |       |   |Delivery Kit | A collection of files that are required by DataBC to migrate to the Test and Production instance of the BCGW. Delivery Kits are built by a vendor and are required for new database objects, changes to existing, or updating data in the BCGW. |
 |       |   | Discipline Authority| A business expert who understands the business relevance of data standards, and supports their application and use to meet an organization's needs.
-|       |   |<a name="distributor">Distributor<a/>| A_Role_ in the BC Data Catalogue, the Distributor is someone who:
+|       |   |<a name="distributor">Distributor<a/>| A _Role_ in the BC Data Catalogue, the Distributor is someone who:
 |       |   |   | 1. distributes the published data on behalf of the Organization (branch or division), and
 |       |   |   | 2. does not own the record and resources, but works closely with the other roles associated to the record.
 |       |   |<a name="dataset">Document/Tabular Data</a>|A type of resource associated to a record, this category is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.|
