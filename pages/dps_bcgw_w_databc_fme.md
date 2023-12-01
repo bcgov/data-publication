@@ -39,7 +39,6 @@ This page provides instructions on developing a FME Workbench file to DataBC FME
 		+ [Shapefile (SHAPE)](#shapefile-shape)
 		+ [Esri FILE Geodatabase (GEODATABASE_FILE)](#esri-file-geodatabase-geodatabase_file)
 		+ [BC Map Hub (AGO)](#bc-map-hub-ago)
-+ [**APPENDIX 3 - KIRK PREPARATION**](#appendix-3---kirk-preparation)
 + [**APPENDIX 4 - FINAL PUBLICATION CHECKLIST**](#appendix-4---final-publication-checklist)
 	+ [General](#general)
 	+ [Reader/Writer Published and Private Parameters](#readerwriter-published-and-private-parameters)
@@ -316,7 +315,7 @@ Next: [Add the Destination Writer](#add-the-destination-writer)
 
 This section describes the parameters that need to be defined when configuring a Esri File Geodatabase reader.
 
-**NOTE**: If you are building an FMW that just reads from a FGDB and writes to the BCGW and does nothing in between but possibly rename columns and/or populate a primary key with a counter, then this ETL task might be doable using KIRK (*Keeping Information Replicated Kontinuously*).  See [_Appendix 3_](#appendix-3---kirk-preparation).
+**NOTE**: If you are building an FMW that just reads from a FGDB and writes to the BCGW and does nothing in between but possibly rename columns and/or populate a primary key with a counter, then this ETL task might be doable using KIRK (*Keeping Information Replicated Kontinuously*). 
 
 ##### Source FGDB Path and Name (SRC_DATASET_FGDB_1)
 
@@ -1470,38 +1469,7 @@ Define the following private parameters:
 [RETURN TO TOP][1] 
 
 -----------------------------------------------------------
-
-## APPENDIX 3 - KIRK PREPARATION
-
-Many DataBC ETL jobs do nothing more than read a file geodatabase, write to the BCGW, and possibly rename columns and populate a primary key value. ETL jobs that fit 
-this pattern can be implemented using KIRK (*Keeping Information Replicated Kontinuously*) rather than writing a separate FMW. KIRK does use an underlying FMW, but it is parameterized, allowing it to be used with different FGDB sources and BCGW destinations.
-
-Currently, the process of defining a KIRK job is manual, and it must be done by DataBC staff. So if you are a vendor or employee external to DataBC you must still delivery a working FMW.  But that FMW does not need to follow any standards - you just need to verify that it works in BCGW Delivery.  Include the FMW in your delivery kit, along with a spreadsheet having the following information:
-
-|FIELD|Example value|
-|:---|:---|
-|Source FGDB|\\data.bcgov\data_staging_ro\BCGW\administrative_boundaries\GBA_Administrative_Boundaries.gdb|
-|Source Feature Class|IMPROVEMENT_DISTRICTS_SP_SECURE|
-|Destination Schema|WHSE_LEGAL_ADMIN_BOUNDARIES|
-|Destination Table|ABMS_IMPROVEMENT_DISTRICTS_SP|
-|Transformation Name|abms_improvement_districts_sp_staging_gdb_bcgw|
-|Counter Column|ABMS_IDS_SYSID|
-|Counter Start #|1|
-|[_Cron Expression_](https://community.safe.com/s/article/writing-cron-expressions-to-schedule-fme-server-jo)|0 0 23 ? * SUN *|
-
-If the source FGDB columns map to BCGW columns having different names, then a field map is required as well, as shown in this example:
-
-|FGDB Column Name|BCGW Column Name|
-|:---|:---|
-|ADMIN_AREA_ID|LGL_ADMIN_AREA_ID|
-|ADMIN_AREA_PARENT_NAME|ADMIN_AREA_GROUP_NAME|
-|UPDATE_DATE|WHEN_UPDATED|
-|IS_PUBLIC|PUBLIC_IND|
-
-[RETURN TO TOP][1] 
-
-
--------------------------------------------------------
+(APPENDIX 3 Removed)
 
 ## APPENDIX 4 - FINAL PUBLICATION CHECKLIST
 
