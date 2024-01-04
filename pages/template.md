@@ -68,4 +68,4 @@ Use a series of short dashes as a line separating sections. These could be used 
 
 [RETURN TO TOP][1]
 
-[1]: #header---level-1
+[1]: #top
