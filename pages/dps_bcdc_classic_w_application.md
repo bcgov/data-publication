@@ -33,7 +33,7 @@ has_toc: false
 ### **Contacts**
 
 Add contacts for the following **Roles**:
-1. [Custodian](./glossary.md/#data_custodian) (required) 
+1. [Custodian](./glossary.md/#custodian) (required) 
 1. [Point of Contact](./glossary.md/#point_of_contact) (required) 
 1. [Business Expert](./glossary.md/#business_expert) (optional)
 1. [Distributor](./glossary.md/#distributor) (optional) 
