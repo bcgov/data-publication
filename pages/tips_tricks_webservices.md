@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 89
-title: Tips & Tricks - WMS/WFS
+title: WMS/WFS - Tips & Tricks 
 parent: Web-based Mapping
 has_toc: false
 ---
@@ -11,10 +11,10 @@ has_toc: false
 WFS and WMS were developed by the Open Geospatial Consortium (OGC), an international not for profit organization.
 
 [Web Map Services (WMS)](https://en.wikipedia.org/wiki/Web_Map_Service)
-is a standardized HTTP interface used to styling & render data into a map (image) and perform identify operations.
+is a standardized HTTP protocol used to styling & render data into a map (image) and perform identify operations.
 
 [Web Feature Services (WFS)](https://en.wikipedia.org/wiki/Web_Feature_Service)
-is  a standardized HTTP interface used to access/query/analyze feature attributes. 
+is a standardized HTTP protocol used to access/query/analyze feature attributes. 
 
 Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard work on these services and documentation.
 
