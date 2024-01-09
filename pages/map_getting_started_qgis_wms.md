@@ -26,7 +26,7 @@ The QGIS documentation provides an [excellent walk-through](https://docs.qgis.or
    {: .note-title}
    > WMS Styles
    >
-   > The multiple options shown for a given dataset are different *styles* for the same data, e.g. `Outlined` (Name `372`) shows only boundaries, while `Colour_Themed` (`373`) shows a coloured fills for each health area. `372_373` is a combination of both. A similar pattern is followed for most datasets.
+   > The multiple options shown for a given dataset are different *styles* for the same data, e.g. `Outlined` (Name `372`) shows only boundaries, while `Colour_Themed` (`373`) shows a coloured fill for each health area. `372_373` is a combination of both. A similar pattern is followed for most datasets.
 
 9.  Click **Add** to load the layer.
 10.  **Close** the Data Source Manager window.
@@ -45,6 +45,8 @@ This is how a WMS works: it’s a map, similar to a normal map on paper, that yo
 This has several advantages, because you don’t need to worry about the symbology. It’s already worked out, and should be nice to look at on any competently designed WMS.
 
 On the other hand, you can’t change the symbology if you don’t like it, and if things change on the WMS server, then they’ll change on your map as well. This is why you sometimes want to use a Web Feature Service (WFS) instead, which gives you vector layers separately, and not as part of a WMS-style map.
+
+Jump into the [WFS tutorial](map_getting_started_qgis_wfs.md) to learn more!
 
 -----------------------
 

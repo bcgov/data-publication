@@ -32,13 +32,15 @@ The QGIS documentation also provides an [excellent walk-through](https://docs.qg
    > To avoid incomplete data loads, it is often best to turn on **Only request features overlapping the view extent** and zoom to your area of interest before adding the layer. Toggling off **Render** can provide a smoother map navigation experience, or you may choose to use **Extract/clip by extent** to save loaded features locally.
    >
    > Occasionally it is necessary to reload features in the visible extent using ![Refresh icon](imamges/../images/wms_wfs_getting_started/qgis_refresh.png) refresh (F5).
+   >
+   > Comparing against the WMS layer for the same dataset can provide a good cross-reference to visually confirm all features have been loaded.
 
 10. Click **Add** to load the layer.
 11.  **Close** the Data Source Manager window.
 12. Right click the new layer and click **Zoom to Layer(s)**.
     ![WFS data shown on map](images/wms_wfs_getting_started/qgis_wfs_research_view.png)
 13. Explore the data - zoom in, pan around, and try selecting features.
-14. Right click the layer in the Layers panel and click **Open Attribute Table** (F6). As a feature service (rather than a map service like WMS), it is possible to see attribute data, select features, and perform geoprocessing.
+14. Right click the layer in the **Layers** panel and click **Open Attribute Table** (F6). As a feature service (rather than a map service like WMS), it is possible to see attribute data, select features, and perform geoprocessing.
     ![Attribute table for research centres](images/wms_wfs_getting_started/qgis_wfs_research_attributes.png)
     
     {: .note-title}

@@ -11,7 +11,7 @@ has_toc: false
 
 Getting up and running with WMS and WFS services can be intimidating. The goal of this guide is to demystify basic use of these services in QGIS and ArcGIS Pro (pending).
 
-Note: This guide was prepared using QGIS 3.28.9.
+Note: This guide was prepared using QGIS 3.28.9 and ArcGIS Pro 3.1.3.
 
 |**AUDIENCE**|
 |:---:|
@@ -23,6 +23,15 @@ Note: This guide was prepared using QGIS 3.28.9.
 - [Introduction to WMS and WFS](#introduction-to-wms-and-wfs)
 - [Accessing WMS and WFS Services](#accessing-wms-and-wfs-services)
   - [GetCapabilities Requests](#getcapabilities-requests)
+<!-- no toc -->
+
+![QGIS logo](images/wms_wfs_getting_started/qgis_logo.png) **QGIS**
+- [Loading a WMS Layer](map_getting_started_qgis_wms.md)
+- [Loading a WFS Layer](map_getting_started_qgis_wfs.md)
+
+![ArcGIS Pro logo](images/wms_wfs_getting_started/agp_logo.png) **ArcGIS Pro**
+  - [Loading a WMS Layer](map_getting_started_arcgispro_wms.md)
+  - [Loading a WFS Layer](map_getting_started_arcgispro_wfs.md)
 
 -----------------------
 ## Introduction to WMS and WFS
@@ -53,8 +62,8 @@ WMS: `https://openmaps.gov.bc.ca/geo/ows?SERVICE=WMS&REQUEST=GetCapabilities`
 
 WFS: `https://openmaps.gov.bc.ca/geo/ows?SERVICE=WFS&REQUEST=GetCapabilities`
 
-Feel free to jump ahead to the section on loading WMS into your software of choice, or read the section below for a little more background on these URLs.
-
+Feel free to move on to the walk-throughs on loading WMS into your software of choice ([QGIS](map_getting_started_qgis_wms.md) / [ArcGIS Pro](map_getting_started_arcgispro_wms.md)), or read the section below for a little more background on these connection URLs.
+ 
 ### GetCapabilities Requests
 In general, GIS software will make use of a `GetCapabilities` request to connect to a WMS or WFS service. This request provides metadata about the available services, their capabilities, and the data they offer. Once the software knows the capabilities of the service, you can generally go about your business without you needing to delve into the inner workings of the service.
 
