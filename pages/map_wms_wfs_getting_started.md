@@ -9,7 +9,7 @@ has_toc: false
 
 # GETTING STARTED WITH WMS AND WFS <!-- omit in toc -->
 
-Getting up and running with WMS and WFS services can be intimidating. The goal of this guide is to demystify basic use of these services in QGIS and ArcGIS Pro (pending).
+Getting up and running with WMS and WFS services can be intimidating. The goal of this guide is to demystify the basic use of these services in QGIS and ArcGIS Pro.
 
 Note: This guide was prepared using QGIS 3.28.9 and ArcGIS Pro 3.1.3.
 
