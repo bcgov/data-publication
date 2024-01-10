@@ -25,7 +25,7 @@ The QGIS documentation also provides an [excellent walk-through](https://docs.qg
 9. Turn off **Only request features overlapping the view extent** - we want to retrieve all features across the province.
 
    {: .highlight-title}
-   > Loading large datasets
+   > ⚠ Loading large datasets
    >
    > There is a hard limit on the maximum number of features the DataBC servers will return (10 000 at time of writing). Even when not hitting the feature limit, large and complex requests will often take too long to load, time out, and give a `Connection closed` error in QGIS.
    >
@@ -59,7 +59,7 @@ The QGIS documentation also provides an [excellent walk-through](https://docs.qg
 18. Click **OK** and then **Add** the layer. A filter symbol will show next to the layer name showing the dataset is being filtered. The query can be modified from layer Properties > Source > **Query Builder**.
 
   {: .highlight-title}
-   > Duplicate features
+   > ⚠ Duplicate features
    >
    > For unclear reasons, QGIS can sometimes load duplicate features from the DataBC WFS services. To avoid this issue we can add a simple SQL filter to get unique features:
    >
