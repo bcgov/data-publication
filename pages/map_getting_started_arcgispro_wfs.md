@@ -16,11 +16,11 @@ Learn more about WFS in ArcGIS Pro in the [Esri documentation](https://pro.arcgi
    {: .highlight-title}
    > ⚠ Limited features returned
    >
-   > As of 2024/01/08, ArcGIS Pro 3.1.3 cannot use [paging](tips_tricks_webservices.md#pagination) on DataBC services using WFS 2.0.0 (the default version).
+   > As of 2024/01/08, ArcGIS Pro 3.1.3 cannot use [paging](tips_tricks_webservices.md#pagination) on DataBC services using WFS 2.0.0 (the default version) without additional configuration.
    >
-   > This limits the number of features ArcGIS Pro can load for a single WFS layer to about 7000. If you need to load a large dataset, look at using [QGIS](map_getting_started_qgis_wfs.md) or the [bcdata R package](https://github.com/bcgov/bcdata).
+   > This limits the number of features ArcGIS Pro can load for a single WFS layer to about 7000. If you need to load a larger dataset, first work through this tutorial, then check out the guide to [loading large datasets](map_getting_started_arcgispro_wfs_large_datasets.md) (or look at using [QGIS](map_getting_started_qgis_wfs.md) or the [bcdata R package](https://github.com/bcgov/bcdata)).
    >
-   > Setting the WFS version to `1.1.0` will allow adding a larger dataset without displaying any errors, however features will be capped and there will be no indication that features are missing.
+   > In this tutorial, we set the WFS version to `1.1.0` to allow adding any dataset without displaying any errors, however features will be capped and there will be little indication that features are missing.
 
 1. Open ArcGIS Pro. 
 2. On the ribbon's **Insert** tab, click **Connections** > **Server** and select **New WFS Server**.
@@ -55,6 +55,8 @@ Learn more about WFS in ArcGIS Pro in the [Esri documentation](https://pro.arcgi
     
     To filter features, go to **Layer Properties** > **Definition Query**, click **New definition query**. Modify the query to `Where RESEARCH_CENTRE_AFFILIATION is equal to University`. 
 14. Click **Apply** and then **OK**.
+
+Want to load more features? Continue to the walk-through on [loading large datasets](map_getting_started_arcgispro_wfs_large_datasets.md) in ArcGIS Pro.
 
 -----------------------
 
