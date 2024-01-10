@@ -17,8 +17,6 @@ Note: This guide was prepared using QGIS 3.28.9 and ArcGIS Pro 3.1.3.
 |:---:|
 | *Data consumers* |
 
------------------------
-
 ## Table of Contents <!-- omit in toc -->
 - [Introduction to WMS and WFS](#introduction-to-wms-and-wfs)
 - [Accessing WMS and WFS Services](#accessing-wms-and-wfs-services)

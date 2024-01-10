@@ -22,7 +22,6 @@ Thanks to [Michelle Douville](https://github.com/webgismd/) for all her hard wor
 |:---:|:---:|:---:|:---:|:---:|
 | *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
------------------------
 ## Table of Contents
 + [**Resources**](#resources)
 + [**Request Types**](#request-types)

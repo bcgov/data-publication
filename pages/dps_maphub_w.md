@@ -14,13 +14,10 @@ This page is intended to help users understand the publication workflow and meta
 
 This page is written in the context that you have reviewed all information in the ‘Documentation Review’ section.
 
------------------------
-
 |**AUDIENCE**|  |  |  |  |  | 
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | *AGO Content Creators* | *Data Publishers* | *Data Custodians* | *Data Managers* | *Data Stewards* | *Metadata Editors* |
 
------------------------
 ## Table of Contents
 + [**BC's MAP HUB - PUBLICATION WORKFLOW**](#bcs-map-hub---publication-workflow)
 + [**METADATA GUIDELINES FOR AGO AUTHORS**](#metadata-guidelines-for-ago-authors)
