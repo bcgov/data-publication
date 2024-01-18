@@ -35,17 +35,17 @@ This page describes the staging areas, how to request access and specific requir
 ## STAGING AREA REQUIREMENTS
 
 + Accepted formats:
-   + ArcGIS File Geodatabases are required to be created in version 10.6 or earlier.
+   + ArcGIS File Geodatabases are required to be created in version 10.8 or earlier.
    + CSV
    + XLSX
-   + Shape File
+   + Shape File (currently accepted, but migration to a File Geodatabase is suggested)
 + Not accepted formats:
-   + Personal Geodatabases .
+   + Personal Geodatabases
 + Datasets should be directly in the hierarchy directory, not in a sub folder of its own
-+ Datasets should be in their final published form.
-+ Datasets in the Staging directories are for read only, i.e., no in-place editing.
-+ Do not use the Staging directories for backing-up your datasets. 
-+ For formal archiving of datasets, please use your organization’s standards and processes.
++ Datasets should be in their final published form
++ Datasets in the Staging directories are for read only, i.e., no in-place editing
++ Do not use the Staging directories for back-ups, managing or analyzing data, or for operational data storage
++ For formal archiving of datasets, please use your organization’s standards and processes
 
 -----------------------------------------------------------
 
@@ -89,9 +89,8 @@ This page describes the staging areas, how to request access and specific requir
 
 + The Staging Area is only accessible via the GTS Servers.
 + When uploading datasets to Staging, directories are to be mapped as:
-   + Location will be provided when granting access to this directory \...\data_staging_bcgw\
-   + The second level of the [_Data Classification Hierarchy_](dsg_bcgw_data_classification_hierarchy.md) is used to determine what folder the data is to be located in. 
-         + This location will be assigned by DataBC DA.
+   + \\[Location will be provided when granting access to this directory]\data_staging_bcgw\
+   + The second level of the [_Data Classification Hierarchy_](dsg_bcgw_data_classification_hierarchy.md) is used to determine what folder the data is to be located in. This location will be assigned by DataBC.
 + To request access to the BCGW Staging Area, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13).
 
 -----------------------------------------------------------
@@ -101,7 +100,7 @@ This page describes the staging areas, how to request access and specific requir
 +  The BC Data Catalogue (BCDC) is accessible to all IDIRs who are authorized on behalf of their branch or suborg to manage their data holdings.
   https://catalogue.data.gov.bc.ca/
 + Data intended for the BCGW and stored within BCDC's file store, are tabular with coordinate values that can be projected into point locations.
-+ To acquire accounts for BCDC contact [_BC Data Catalogue Services_](faq.md#bc-data-catalogue-services) team
++ To request an account to manage metadata records and data resources in the BCDC, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/3/create/13)
 + To publish data to the BCGW, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/5/create/28).
 
 -----------------------------------------------------------
