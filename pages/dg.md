@@ -3,7 +3,6 @@ layout: default
 title: Data Governance
 nav_order: 9
 has_children: false
-nav_exclude: true
 has_toc: false
 ---
 
