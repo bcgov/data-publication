@@ -1,19 +1,22 @@
 ---
 layout: default
-title: Data Governance
+title: Data Policies, Standards, and Guidelines
 nav_order: 11
 has_children: false
 has_toc: false
 ---
 
-# DATA GOVERNANCE 
+# DATA POLICIES, STANDARDS, AND GUIDELINES 
 
-The Data Custodianship function is a vital part of good _data governance_. The guidelines and standards in the documents below describe the data custodianship function, the roles and related accountability required to manage data, and explain its role in the data lifecycle, relating it to other important data management roles. 
+[Data Management Policy](https://www2.gov.bc.ca/gov/content?id=706EBC0C26B146EBB8641813DB32946B)
 
-[_Data Custodianship Guidelines for the Government of British Columbia_](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
+[British Columbia First Nations' Data Governance Initiative](https://www.bcfndgi.com/)
 
-[_British Columbia First Nations' Data Governance Initiative_](https://www.bcfndgi.com/)
+The following standards and guidelines are available for reference until they are updated, replaced or retired:
 
-Explore Data Standards and Guidelines for more information on the Roles and Responsibilities for the BC Data Catalogue and the BC Geographic Warehouse.
++ [Data Custodianship Guidelines for the Government of British Columbia](https://www2.gov.bc.ca/assets/gov/data/data-management/data_custodianship_guidelines_for_the_government_of_bc.pdf)
++ [Guidelines for Best Practices in Data Management – Roles and Responsibilities](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/datamgmtrolesresp-2012mar-finalv2-asrb.pdf)
++ [Data Administration Standards](https://www2.gov.bc.ca/assets/gov/government/services-for-government-and-broader-public-sector/information-technology-services/standards-files/data_administration_standards.pdf)
++ [Application Programming Interface (API) Guidelines](https://developer.gov.bc.ca/Data-and-APIs/BC-Government-API-Guidelines)
 
 -------------------------------------------------------
