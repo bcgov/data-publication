@@ -81,7 +81,7 @@ nav_exclude: false
 
 + [BC Geographic Warehouse (BCGW)](dps_bcgw.md)
 	+ [Data Publication](dps_bcgw_w.md)
-	+ [Data Replication](dsg_bcgw_data_replication.md) - ETL (Extract, Transform, Load)
+	+ Data Replication - ETL (Extract, Transform, Load)
 	+ [Data Retirement](dps_bcgw_w_data_retirement.md)
 	+ [Data Security](dsg_security_access.md) via Roles and Proxy accounts
 + [Data standards](dsg_bcgw.md)
