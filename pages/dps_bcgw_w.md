@@ -100,7 +100,7 @@ Discussion in this session will focus on:
 1. Reviewing your request to share data
 1. Reviewing the questions in [Data Publication - Am I Ready?](#data-publication-am-i-ready)
 1. Describing the [Data Publication Workflow](#data-publication-workflow)
-1. Reviewing the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx) and [Data Delivery Guidelines](dsg_bcgw_data_delivery.md)
+1. Reviewing the [Dataset Model](images/Dataset_Model_Current_TEMPLATE.xlsx)
 1. How DataBC will access your source data
 1. Scheduling the Technical Whiteboard meeting
 
@@ -115,7 +115,7 @@ Discussion in this session will focus on:
 1. Finalizing the Dataset Model, including structure and field descriptions
 1. Security model for the database
 1. Security for iMapBC and Data Distribution, as applicable
-1. [Replication mechanism](dsg_bcgw_data_replication.md) and frequency
+1. Replication mechanism frequency
 1. Scheduling the Delivery Deployment meeting
 
 [RETURN TO TOP][1] 
