@@ -111,7 +111,7 @@ Discussion in this session will focus on:
 ### Technical Whiteboard
 
 Discussion in this session will focus on:
-1. Review of the [Dataset Model](dsg_bcgw_data_delivery.md#dataset-model-completed-and-reviewed) and source data
+1. Review of the Dataset Model and source data
 1. Finalizing the Dataset Model, including structure and field descriptions
 1. Security model for the database
 1. Security for iMapBC and Data Distribution, as applicable
