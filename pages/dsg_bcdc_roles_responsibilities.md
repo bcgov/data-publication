@@ -84,7 +84,7 @@ This guide is about managing information within the DataBC Program and making it
 
 If you are a director with responsibility for the business (i.e., if you have authority based on legislation or policy), then you are probably also the _Data Custodian_.
 
-Unless this custodianship role is formerly assigned to someone else, you have the obligations and accountability described here.
+Unless this custodianship role is formally assigned to someone else, you have the obligations and accountability described here.
 
 + For the purpose of managing data in the BC Data Catalogue, you are a _Data Custodian_ if you are an Executive Director of a branch.
 
