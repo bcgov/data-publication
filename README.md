@@ -1,5 +1,15 @@
 # Publishing to the DataBC Program
-Standards, tips, and tricks to help you on your way to publishing data and metadata to the BC Geographic Warehous, BC Data Catalogue and BC's MapHub and how to leverage these services and more.
+
+1. Standards, tips, and tricks to help you on your way to publishing data and metadata to the:
+    * BC Geographic Warehouse
+    * BC Data Catalogue
+    * BC's MapHub
+1. Leveraging and using: 
+    * WMS/WFS
+    * BC Data Catalogue API
+    * Creating useful data
+    * Naming standards
+1. Publishing data under the Open Government Licence - British Columbia
 
 See Documentation - [https://bcgov.github.io/data-publication](https://bcgov.github.io/data-publication)
 
