@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Layer File Presentation
+title: Layer File Presentation Standards
 grand_parent: Web-based Mapping
 parent: Presentation Workflow - Providers
 nav_order: 821
 has_toc: false
 ---
 
-# LAYER FILE PRESENTATION
+# LAYER FILE PRESENTATION STANDARDS
 
 A layer file is an ESRI-based file with a .lyr extension that stores the path to a source dataset and other layer properties, including symbology. It provides a consistent presentation for data and is built using ESRI's ArcGIS software.
 
@@ -311,7 +311,7 @@ Symbology defines how geographic features are displayed
 
 **Symbology Options NOT supported**:
 
-+ Theming on Categories: using the Group Values option to combine 2 or more categories is **NOT SUPPORTED**
++ Theming on Categories: using the Group Values option to combine 2 or more categories is **NOT SUPPORTED**. While the layer will present in iMapBC, any grouped symbologies will un-group and display multiple identical symbols.
 + Theming categories using Advanced -\> Symbol Levels is **NOT SUPPORTED**
 
 #### Polygon Symbology
