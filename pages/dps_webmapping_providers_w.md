@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Presentation Workflow - Providers
+title: Layer Presentation Services
 nav_order: 82
 parent: Web-based Mapping
 has_children: true
 has_toc: false
 ---
 
-# MAPPING PRESENATION WORKFLOW FOR PROVIDERS
+# LAYER PRESENTATION SERVICES
 
-This page describes the requirements and optiopns for presenting spatial data from the BC Geographic Warehouse (BCGW) in multiple web-mapping services.
-
+This page describes the requirements and options for presenting spatial data from the BC Geographic Warehouse (BCGW) in multiple web-mapping services.
 
 |**AUDIENCE**
 |:---|:---|:---|:---|
