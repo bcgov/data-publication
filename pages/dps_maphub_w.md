@@ -103,13 +103,13 @@ The BC Data Catalogue is primarily for cataloguing data, thus if a dataset has a
 
 |Public AGO Item Type|BCDC record required?|AGO Item Details required to be filled out?|
 |:---|:---|:---|
-|Web App (i.e.Web Appbuilder App, Story Map Apps, Operations Dashboard App, Gallery App, etc.)|No new BCDC metadata required; if the item is stand-alone, include a link to the item as a Resource in applicable BCDC metadata records; Resource link not required if the item is a component of a main app|Yes - include reference to corresponding BCDC record(s)|
-|Web Map|No new BCDC metadata required; if the item is stand-alone, include a link to the item as a Resource in applicable BCDC metadata records; Resource link not required if the item is a component of a main app|Yes - include reference to corresponding BCDC record(s)|
+|Web App (i.e.Web Appbuilder App, Story Map Apps, Operations Dashboard App, Gallery App, etc.)|No new BCDC metadata required; if the item is stand-alone, it is optional to include a link to the item as a Resource in applicable BCDC metadata records |Yes - include reference to corresponding (optional) BCDC record(s)|
+|Web Map|No new BCDC metadata required; if the item is stand-alone, it is optional to include a link to the item as a Resource in applicable BCDC metadata records |Yes - include reference to corresponding (optional) BCDC record(s)|
 |AGO Hosted Data Layers (features, tiles...) - [**_New information_**](glossary.md#new-infromation)|Yes|Yes - include reference to corresponding BCDC record|
 |AGO Hosted Data Layers (features, tiles...) - [**_Enhanced information_**](glossary.md#enhanced-information)|Yes (if information cannot be accessed or recreated by an average _public_ user)|Yes - include reference to corresponding BCDC record(s)|
-| |No (if AGO Item Details page sufficiently describes how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided)|Yes - sufficiently described how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided.  Referenced BCDC record(s) for source data.|
-AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes - provide reference to source|
-|Province of British Columbia Data Layers (BCGW data layer services available in AGO)|No - these layers already have BCDC records|No - Item Details are populated for these items through an automated build process|
+|AGO Hosted Data Layers (features, tiles...) - [**_Enhanced information_**](glossary.md#enhanced-information)|No (if AGO Item Details page sufficiently describes how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided and _without too much complication or effort_)|Yes - sufficiently described how the information was added/created and the sources from which it came so that an average _public_ user could access and recreate this enhanced information based on the information provided.  Referenced BCDC record(s) for source data.|
+AGO Hosted Data Layers - Sourced externally, but added as an item to AGO|No|Yes - provide reference to the external source and its metadata|
+|Province of British Columbia Data Layers (Authoritative BCGW data layer services available in AGO)|No - these layers already have BCDC records|No - Item Details are populated for these items through an automated build process|
 
 ### Use of Existing BC Geographic Warehouse or External Sources
 
