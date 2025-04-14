@@ -33,11 +33,11 @@ has_toc: false
  <br><br>
  **Viewer** - restricted to viewing and using layers, maps, scenes and apps.
  <br><br>
- **Editor** - In addition to Viewer capabilities, Editors are also able to edit data via desktop applications or mobile devices when wifi or network is available.
+ **Contributor (formerly Editor)** - In addition to Viewer capabilities, Contributors are able to edit data via desktop applications or mobile devices when Wi-Fi or network access is available. This role reflects an expansion in capabilities, allowing for more comprehensive management and editing within our GIS projects.
  <br><br>
  **Fieldworker** - In addition to Editor capabilities, Fieldworker have access to Field apps including Collector and Survey123 allowing for data collection in the field without wifi or network connectivity.
  <br><br>
- **Creator** - In addition to Fieldworker capabilities, Creator are able to configure their own solutions including creating Maps and Apps, and also have the ability to share content to others.
+ **Creator** - In addition to Fieldworker capabilities, Creator are able to configure their own solutions including creating Maps and Apps, and also have the ability to share content to others. This role now includes additional resources such as ArcGIS Pro Basic and ArcGIS Image, supporting more robust creation and management of GIS content.
 
 ## User Roles
 The custom **User Roles** on BC's Map Hub further controls what privileges are available to the account(i.e. privileges to edit data, create content, use premium content, share content...)
