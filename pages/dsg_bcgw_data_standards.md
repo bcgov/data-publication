@@ -53,8 +53,8 @@ The following Oracle data types and their associated precision are supported for
 |`NUMBER(38)`|OBJECTID and integers that can be larger than one billion.|OBJECTID|
 |`NUMBER(n,d)`|Non-integer (fractional) numbers. |FEATURE_AREA_SQM
 |`SDO_GEOMETRY`|Spatial geometry |SHAPE, <br>GEOMETRY (deprecated)  See [_Shape (Geometry) Column Name_](#shape-geometry-column-name) below
-|`VARCHAR2(n)` or `VARCHAR2(n BYTE)`|Variable length strings, or fixed-length strings that can contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled.|DESCRIPTION|
-|`VARCHAR2(n CHAR)`|Variable length character strings, or fixed-length character strings that can contain multibyte characters. Can be used in cases where a length limit is known but where the string might contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. |GENERAL_COMMENTS|
+|`VARCHAR2(n)` or `VARCHAR2(n BYTE)`|Variable length strings, or fixed-length strings that can contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. Source data being replicated to the BCGW should not exceed 4000 CHAR.|DESCRIPTION|
+|`VARCHAR2(n CHAR)`|Variable length character strings, or fixed-length character strings that can contain multibyte characters. Can be used in cases where a length limit is known but where the string might contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. Source data being replicated to the BCGW should not exceed 4000 CHAR.|GENERAL_COMMENTS|
 
 -----------------------------------------------------------
 
