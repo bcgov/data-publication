@@ -2,7 +2,7 @@
 layout: default
 title: AGO Terms of use
 grand_parent: Web-based Mapping
-parent: BC Map Hub - Publication Workflow
+parent: BC's Map Hub - Publication Workflow
 nav_order: 811
 has_toc: false
 ---
