@@ -6,6 +6,7 @@ nav_order: 825
 has_toc: false
 ---
 
+# Web Mapping Applications - Data Use Guidelines
 
 The guidelines in this page apply to all government web mapping applications. The information provided should not be considered exhaustive, and as such are intended to provide information only for supporting the appropriate use of data within web mapping applications.
 
@@ -85,5 +86,6 @@ All data served in a public or government web mapping application must be review
 At minimum, a review will ensure the application:
 
 -   consumes data appropriate for publication
+
 
 -   contains references to data sources
