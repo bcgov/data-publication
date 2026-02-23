@@ -57,7 +57,7 @@ Layer file and BCGW database credentials:
 + **IMPORTANT:** The layer file must not be created with embedded credentials to the BCGW database. 
 
 Esri layer file version:
-+ **Layer files must be Esri ArcGIS 10.6** and use the file extension ".lyr"
++ **Layer files must be Esri ArcGIS 10.8** and use the file extension ".lyr"
 
 ---------------------------------------------------------------------
 
@@ -135,6 +135,7 @@ NOTE: For **generalized datasets**:
 
 **Example Layer Names**
 
++ Mountain Goat - Winter Range - All
 + Mountain Goat - Winter Range - Draft - Colour Filled
 + Mountain Goat - Winter Range - Proposed - Colour Filled
 + Land Title Districts - Tantalis - Outlined
@@ -218,28 +219,28 @@ Scale Ranges are used to control the draw time for layers (in both ArcMap and we
 
 The following standard ratios must be used for minimum and maximum scales: 
 
-| **Current Layer Property Scales** | Pre-2018 Layer Property Scales | Corresponding iMapBC Scales |
-|:---|:---|:---|
-| 1:5,000 | | 1:1128.49722 |
-| 1:5,000 | |1:2256.99444 |
-|1:5,000 | | 1:4513.98888 |
-|1:10,000 | ~~1:10,000~~ | 1:9027.977761 |
-|1:20,000 | ~~1:20,000~~ | 1:18055.95552 |
-|1:50,000 | ~~1:50,000~~ | 1:36111.91104 |
-|1:75,000 | ~~1:100,000~~ | 1:72223.82209 |
-|1:150,000 | ~~1:250,000~~ | 1:144447.6442 |
-|1:300,000 | ~~1:500,000~~ | 1:288895.2884 |
-|1:600,000 | ~~1:1,000,000~~ | 1:577790.5767 |
-|1:1,200,000 | ~~1:2,000,000~~ | 1:1155581.153 |
-|1:2,500,000 | ~~1:6,000,000~~ | 1:2311162.307 |
-|1:5,000,000 | ~~1:6,000,000~~ | 1:4622324.614 |
-|1:10,000,000 | ~~1:12,000,000~~ | 1:9244649.227 |
-|1:20,000,000 | ~~1:35,000,000~~ | 1:18489298.45 |
-|1:37,500,000 | | 1:36978596.91 |
-| | | 1:73957193.82 |
-| | | 1:147914387.6 |
-| | | 1:295828775.3 |
-| | | 1:591657550.5 |
+| **Current Layer Property Scales** | Corresponding iMapBC Scales |
+|:---|:---|
+| 1:5,000 | 1:1128.49722 |
+| 1:5,000 | 1:2256.99444 |
+|1:5,000 | 1:4513.98888 |
+|1:10,000 | 1:9027.977761 |
+|1:20,000 | 1:18055.95552 |
+|1:50,000 | 1:36111.91104 |
+|1:75,000 | 1:72223.82209 |
+|1:150,000 | 1:144447.6442 |
+|1:300,000 | 1:288895.2884 |
+|1:600,000 | 1:577790.5767 |
+|1:1,200,000 | 1:1155581.153 |
+|1:2,500,000 | 1:2311162.307 |
+|1:5,000,000 | 1:4622324.614 |
+|1:10,000,000 | 1:9244649.227 |
+|1:20,000,000 | 1:18489298.45 |
+|1:37,500,000 | 1:36978596.91 |
+| | 1:73957193.82 |
+| | 1:147914387.6 |
+| | 1:295828775.3 |
+| | 1:591657550.5 |
 
 + Other values may only be used with permission
 
@@ -273,16 +274,16 @@ This tab is where to set transparency and the Display Field (Display Expression)
 
 + Do not choose "Show Map Tips using the display expression"
    + This can have undesired results, and tax the system.
-   + Enabling Map Tips by the end user is simple in both ArcMap and IMapBC, but must be under user control. 
-   + An IMF application developer may also choose to enable Map Tips on a particular layer. 
+   + Enabling Map Tips by the end user is simple in both ArcMap and iMapBC, but must be under user control. 
+   + An IMF2 application developer may also choose to enable Map Tips on a particular layer. 
 
 ### Symbology Tab
 
-Symbology defines how geographic features are displayed
+Symbology defines how the geographic features are displayed, such as:
 
-+ What line colour, thickness and pattern? 
-+ Polygons: solid, hatched, outlined, colour filled, colour themed?
-+ Which attribute is the theme based upon? 
++ line colour, thickness and pattern
++ polygon display: solid, hatched, outlined, colour filled, colour themed
++ attribute theming
 
 **General Recommendations**:
 
@@ -305,7 +306,7 @@ Symbology defines how geographic features are displayed
 + Features (Single symbol): supported
 + Theming on Categories -\> Unique values: supported
 + Theming on Categories -\> Unique values, many fields: supported
-   + HOWEVER, **please note**: Along with the unique values many fields symbolization, there must be **an additional simple presentation layer** (e.g., categorization on one field or no categorization with only single symbol) of the entire spatial dataset (i.e., no filters or definitions queries) in the layer file. This presentation layer should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
+   + **Note**: Along with the unique values many fields symbolization, there must be **an additional simple presentation layer** (e.g., categorization on one field or no categorization with only single symbol) of the entire spatial dataset (i.e., no filters or definitions queries) in the layer file. This presentation layer should be named with the term "- All" so that it can be defined as the default presentation in services/applications that cannot render the more complex presentation layer symbolized using unique values many fields.
 + Theming on Quantities: supported
 + Polygon Marker Fill Symbol or Marker Line Symbol is also permitted, but will probably have a slower draw time.
 
@@ -316,18 +317,17 @@ Symbology defines how geographic features are displayed
 
 #### Polygon Symbology
 
-+ Polygon layers that have overlapping features require both an Outlined and either a Colour Filled, Colour Themed, or Hatched layer so that the overlapping areas are visible.
++ Polygon layers that have overlapping features require an Outlined layer, and also may have either a Colour Filled, Colour Themed, or Hatched layer.
    + If polygons are not overlapping, a layer presentation **only requires one symbolization**.
 
 **Polygons: Outlined**:
 
-+ Use this terminology for a presentation layer when there are no Categories being themed on, and the polygons are not colour-filled.
++ Use this terminology for a presentation layer when there are no Categories being themed on and the polygons are not colour-filled.
 + Presentation layer name example: Water Management Districts - Outlined
++ Required where there is also a presentation layer that is either colour filled or colour themed, and for polygons with overlapping geometry
 + Outline colours should be set to be colours that are visible against imagery. 
    + Recommend using bright colours since black and grey will be converted automatically for WMS and AGO to yellow.
-+ Labels are recommended to be set on the Outlined layer only if using multiple presentations.
-
-It may be tempting not to use the Outlined layer, since the user usually has control over symbology once the layer is loaded into a mapping application.  The outline, however, has a number of benefits, including: makes overlapping geometry apparent, and users are accustomed to seeing it.
++ Labels are recommended to be set on the 'Outlined' layer only, if using multiple presentations.
 
 **Polygons: Colour Filled**:
 
@@ -342,11 +342,11 @@ It may be tempting not to use the Outlined layer, since the user usually has con
 
 **Polygons: Hatched symbology**:
 
-+ Cross-hatching is not supported. (Only hatching in one direction is supported.)
-+ Only certain angles are to be used for hatching to draw correctly in web mapping platforms:
-   + 0° (Horizontal)
++ Cross-hatching is not supported, however hatching in one direction is supported.
++ Only certain angles can be used for single-direction hatching, in order to draw correctly in web mapping platforms:
+   + 0° (horizontal)
    + 45° (forward diagonal)
-   + 90° (Vertical)
+   + 90° (vertical)
    + 135° (backwards diagonal)
 + Presentation layer name example: Burn Severity Rating - All Years - Hatched
 
@@ -364,16 +364,16 @@ This tab will allow you to apply alias names to fields, set field visibility, ch
 
 **Field Visibility**:
 
-+ You can choose not to show extraneous fields such as system fields or fields not needed for a certain presentation layer. Do this cautiously, as it is not always easy to predict who may want to see attributes for their purposes. 
-+ Certain Fields should always have their visibility turned off:
++ You can choose not to show extraneous fields such as system fields or fields not needed for a certain presentation layer. Do this cautiously, as it is not always easy to predict who may want to see attributes for their purposes.
++ Certain fields should always have their visibility turned off:
    + SHAPE.AREA or GEOMETRY.AREA - these will only show 0.0 values, instead use the field FEATURE_AREA_SQM
    + SHAPE.LEN or GEOMETRY.LEN - these will only show 0.0 values, instead use the field FEATURE_LENGHT_M
-   + SE\_ANNO\_CAD\_DATA - this is a system field required for ESRI products to read SDO Geometry datasets.
+   + SE_ANNO_CAD_DATA - this is a system field required for ESRI products to read SDO Geometry datasets
 
 **Field Aliases**:
 
-+ You must set all visible field names to Title Case with user-friendly names. 
-+ Use full words (and spaces instead of underscores).
++ You must set all visible field names to Title Case with user-friendly names
++ Use full words (and spaces instead of underscores)
 
 **Examples of Field Aliases**:
 
@@ -389,7 +389,7 @@ This tab will allow you to apply alias names to fields, set field visibility, ch
 | Field Name | Field Alias |
 |:---|:---|
 | FEATURE_AREA_SQM | Feature Area Sqm |
-| FEATURE_LENGHT_M | Feature Perimeter M or Feature Length M |
+| FEATURE_LENGTH_M | Feature Perimeter M or Feature Length M |
 
 **Field Order**:
 
@@ -400,7 +400,7 @@ This tab will allow you to apply alias names to fields, set field visibility, ch
 **Changing the Number Format Display**:
 
 + You may also wish to change the way the values for numeric fields are displayed. For example, this can be effective in displaying a certain number of decimal places or adding the thousands comma separator. 
-+ **NOTE**: **THIS DOES NOT TRANSLATE TO iMAP AND WEB MAPPING AT THIS TIME**
++ **NOTE**: **This does not translate to iMapBC and web mapping services (WMS) at this time**
 
 Example: **Square Meters to Hectares**: 
 
@@ -413,12 +413,14 @@ Example: **Square Meters to Hectares**:
 
 A definition query limits/filters the features from the data source, so that only some features are included in the layer.
 
+If a definition query is being used, the layer group **must** also contain a layer that displays all features. This layer must have the suffix '- All' and be the top layer in the group.
+
 **Performance**: 
 
-+ Complex queries may cause performance issues, therefore formatting statements efficiently is important.
-   + e.g., Using "in" statements instead of a series of "and" statements for a single column.
-+ In general, especially for large datasets with many values in the field being queried on, an index should have been created on the particular field in the BCGW dataset. 
-   + This will greatly increase the speed of the transaction.
++ Complex queries may cause performance issues, therefore formatting statements efficiently is important
+   + e.g., Using "in" statements instead of a series of "and" statements for a single column
++ In general, especially for large datasets with many values in the field being queried on, an index should have been created on the particular field in the BCGW dataset
+   + This will greatly increase the speed of the transaction
 
 **Not Recommended**:
 
@@ -432,22 +434,21 @@ Labels provide a quick view of a value of a feature with options for font, font 
 
 Labels turned on will allow labels to be easily toggled on or off in web mapping applications like iMapBC.
 
-Multiple labels ("Define classes of features...") based on scales are supported, this can allow different labels to be displayed when zoomed to different scales. 
+Multiple labels ("Define classes of features...") based on scales are supported. This supports labels to be displayed differently when zoomed to different scales. 
 
 **Requirements**:
 
-+ Scale Range must be set if labels are being used, and in that case a minimum scale is required.
-+ Labels must follow the 2 second display rule with the minimum Scale set appropriately.
-+ Label text should be similar to the colour of feature symbology.
-+ Labels should not black as black is not visible against imagery.
-+ Halos should be turned on and be set to 1 or 2 depending on the size and density of the labels.
-+ Complex label expressions are **not** accepted, like VB or Python.
-   + However, concatenation of fields is permitted.
++ Scale Range must be set with a minimum scale used
++ Labels must display within 2 seconds at the minimum scale
++ Label text should be similar to the colour of feature symbology
++ Labels should not be black as it is not visible when using an imagery basemap
++ Halos should be turned on and be set to 1 or 2 depending on the size and density of the labels
++ Complex label expressions are **not** accepted, like VB or Python
+   + However, concatenation of fields is permitted
 
 ### Joins and Relates tab
 
 + Layer joins and Query layers are not supported. 
-+ Please contact DataBC to discuss modelling requirements and creating a view in the BCGW database.
 
 ---------------------------------------------------------------------
 
@@ -455,17 +456,15 @@ Multiple labels ("Define classes of features...") based on scales are supported,
 
 Over time, the presentation of a layer may require modification. 
 
-+ All requests for modification must first start by contacting DataBC. 
-+ A determination will be made on a case-by-case basis whether data custodian involvement is required. 
-+ When modifications have been approved the requester can then create a local copy of the layer file from the Layer Library 
-+ The new layer file can be e-mailed or deposited on an agreed upon shared drive
-+ A DataBC representative will ensure the layer file meets standards, stability, and performance prior to updating the new layer file in the Layer Library, etc.
++ Layer presentation changes may only be requested by the business area data manager.
++ To make changes, first create a local copy of the layer file from the Layer Library, then adjust the presentation as necessary.
++ Submit the request to update the layer file using the [Data Systems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6/create/19)
 
 -------------------------------------------------------
 
 ## REFERENCES
 
-+ [_ArcGIS Desktop - What is a layer?_](https://desktop.arcgis.com/en/arcmap/10.6/map/working-with-layers/what-is-a-layer-.htm)
++ [_ArcGIS Desktop - What is a layer?_](https://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/what-is-a-layer-.htm)
 
 -------------------------------------------------------
 
