@@ -53,7 +53,7 @@ Below are the steps to follow when publishing an AGO application:
 1. Complete the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx) including your Project Sponsor's approval signature (typically Director level).
 1. **Submit the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx)** as an attachment to the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6/create/22).
 
-**Please note:** a BC Data Catqlogue metadata record is no longer required for the publication of each front-end item you wish to publish (e.g. map, web app,  dashboard, etc.) however it is a recommended tie-in to include a link to your front-end content item as a Resource on the metadata record for the data of interest being consumed. If you are not the author of the BCDC metadata record then you will have to contact the owner in order to make that edit.
+**Please note:** a BC Data Catalogue metadata record is no longer required for the publication of each front-end item you wish to publish (e.g. map, web app,  dashboard, etc.) however it is a recommended tie-in to include a link to your front-end content item as a Resource on the metadata record for the data of interest being consumed. If you are not the author of the BCDC metadata record then you will have to contact the owner in order to make that edit.
 
 ---------------------
 
