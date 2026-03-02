@@ -64,18 +64,18 @@ Below are the steps to follow when publishing an AGO application:
 ##### 4.1 Use the Appropriate Publication Checklist
 - Content owners must review their item against the appropriate Publication Checklist based on the type of content being published.
 
-##### Data
-- If you are publishing **data** (feature layers, tables, services), review and complete:
-  - [**BC's MapHub Public Content Publication Checklist – Data**](./docs/BCs_MapHub_Public_Data_Checklist.docx)
+- Data
+  - If you are publishing **data** (feature layers, tables, services), review and complete:
+    - [**BC's MapHub Public Content Publication Checklist – Data**](./docs/BCs_MapHub_Public_Data_Checklist.docx)
 
 
-##### Map
-- If you are publishing a **web map**, review and complete:
-  - [**BC's MapHub Public Content Publication Checklist – Map**](./docs/BCs_MapHub_Map_checklist.docx)
+- Map
+  - If you are publishing a **web map**, review and complete:
+    - [**BC's MapHub Public Content Publication Checklist – Map**](./docs/BCs_MapHub_Map_checklist.docx)
 
-##### Application
-- If you are publishing a **web application** (e.g., Experience Builder apps), review and complete:
-  - [**BC's MapHub Public Content Publication Checklist – Application**](./docs/BCs_MapHub_Application_Checklist.docx)
+- Application
+  - If you are publishing a **web application** (e.g., Experience Builder apps), review and complete:
+    - [**BC's MapHub Public Content Publication Checklist – Application**](./docs/BCs_MapHub_Application_Checklist.docx)
 
 ##### 5. Data Custodian Authorization (Mandatory)
 - Public release must be formally approved by the Data Custodian.
@@ -99,7 +99,7 @@ Below are the steps to follow when publishing an AGO application:
 
 - If publishing a **view**, ensure the view does not unnecessarily duplicate an existing authoritative dataset. Where duplication exists, justification for AGO hosting must be provided.
 
-##### 9. Submit Publication Request
+##### 7. Submit Publication Request
 - Complete the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx) including the Data Custodian's approval signature.
 - Submit the [_Publication Request Form_](https://www2.gov.bc.ca/assets/gov/data/geographic/web-based-mapping/bc-map-hub/bcs_map_hub_public_publication_checklist.docx) as an attachment to the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/6/create/22).
 
