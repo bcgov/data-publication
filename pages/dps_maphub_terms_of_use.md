@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AGO Terms of use
+title: AGO Accounts - Terms of use
 grand_parent: Web-based Mapping
 parent: BC's Map Hub - Publication Workflow
 nav_order: 811
