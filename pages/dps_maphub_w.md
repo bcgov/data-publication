@@ -71,11 +71,11 @@ Below are the steps to follow when publishing an AGO application:
 
 - Map
   - If you are publishing a **web map**, review and complete:
-  - [BC's MapHub Public Content Publication Checklist – Map](./docs/BCs_MapHub_Map_checklist.docx)
+  - [BC's MapHub Public Content Publication Checklist – Map](./docs/BCs_MapHub_Public_Map_Checklist.docx)
 
 - Application
   - If you are publishing a **web application** (e.g., Experience Builder apps), review and complete:
-  - [BC's MapHub Public Content Publication Checklist – Application](./docs/BCs_MapHub_Application_Checklist.docx)
+  - [BC's MapHub Public Content Publication Checklist – Application](./docs/BCs_MapHub_Public_Application_Checklist.docx)
 
 ##### 5. Data Custodian Authorization (Mandatory)
 - Public release must be formally approved by the Data Custodian.
