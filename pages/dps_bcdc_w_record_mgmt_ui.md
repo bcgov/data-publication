@@ -319,7 +319,7 @@ This is additional information (one or more references) to support the dataset o
 
 The Security Classification has been updated and records transformed to reflect the OCIO's standard.
 
-| [Information Security Classification Levels](https://www2.gov.bc.ca/gov/content?id=7430B7CCF0FE459F93A554E72DF21503)| Description|
+| [Information Security Classification](https://www2.gov.bc.ca/gov/content?id=7430B7CCF0FE459F93A554E72DF21503)| Description|
 |:---|:---|
 |**Public**|No harm to an individual, organization or government. Examples: Job postings, communications to claim clerks, business contact information, research and background papers (without copyright restrictions)|
 |**Protected A** | Confidential. Harm to an individual, organization or government. Examples: Home addresses, dates of birth, other low-risk personal information|
