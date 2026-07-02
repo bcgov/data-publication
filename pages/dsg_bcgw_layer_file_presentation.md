@@ -71,6 +71,7 @@ Esri layer file version:
 + All names, including symbolization categories, must be alphanumeric (A to Z, 0 to 9) and may include the short dash (-) and spaces.
    + Underscores are to be used in layer file names in place of spaces and dashes.
 + A short dash (-) should be used between parts of naming where appropriate to replace sentence structure such has "for the", "in", etc.
++ If a definition query is being used, the layer group must also contain a layer that displays all features. This layer must have the suffix ‘- All’ and be the top layer in the group.
 
 ### Presentation Layer Naming
  
