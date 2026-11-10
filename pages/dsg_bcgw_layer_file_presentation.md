@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Layer File Presentation Standards
-grand_parent: Web-based Mapping
+grand_parent: BC Geographic Warehouse
 parent: Layer Presentation Services
-nav_order: 821
 has_toc: false
 ---
 
