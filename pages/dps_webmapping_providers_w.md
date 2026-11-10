@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Layer Presentation Services
-nav_order: 82
-parent: Web-based Mapping
+nav_order: 50
+parent: BC Geographic Warehouse
 has_children: true
 has_toc: false
 ---
