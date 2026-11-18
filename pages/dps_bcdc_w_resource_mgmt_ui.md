@@ -14,15 +14,11 @@ has_toc: true
 |:---:|:---:|:---:|
 | [*Catalogue Editors*](../glossary.html#metadata_editor) | [*Catalogue Admin*](../glossary.html#metadata_admin) | *Catalogue Developers* |
 
-## Resources
-[**3.11 Core Administrative and Descriptive Metadata Standards and Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
-+ This document is being updated to reflect the alignment with this core standard.
 
+## Core Administrative and Descriptive Metadata Standard
+To align with the [**Core Administrative and Descriptive Metadata Standard**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1), the following table outlines how the core metadata elements in the Standard align with fields used in the B.C. Data Catalogue.
 
-## Table of Fields in Data Catalogue align with Metadata Standard and Guidelines
-To align with the new **Metadata Standard and Guidelines**, the following table outline how fields in B.C. Data Catalogue aligns with Metadata Standard and Guidelines.
-
-|Elements in Metadata Standard and Guidelines|Fileds in B.C. Data Catalogue|
+|Metadata Standard and Guidelines|B.C. Data Catalogue|
 |:-|:-:|
 |*CREATOR* |[*Published by*](dps_bcdc_w_record_mgmt_ui.md#published-by)|
 |*DATE CREATED*|[*Lifecycle event -> Created*](dps_bcdc_w_record_mgmt_ui.md#record-lifecycle-history)|
@@ -33,7 +29,7 @@ To align with the new **Metadata Standard and Guidelines**, the following table 
 |*TITLE*|[*Title*](dps_bcdc_w_record_mgmt_ui.md#title) and [*Resource Title*](#name)|
 |*UNIQUE IDENTIFIER*|*Each Record and Resource has a unique identifier. There are obtained by using the Share button*|
 |*INFORMATION SCHEDULE*|*This is managed at different levels for organizations, request an engagement with us to determine where it best fits.* |
-||If you have general questions about the catalogue or wish to provide feedback, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14). |
+
 
 
 
@@ -88,7 +84,7 @@ To align with the new **Metadata Standard and Guidelines**, the following table 
 
 ## Resource types
 
-There are four types of Resources using in the BC Data Catalogue.  
+There are four types of Resources in the BC Data Catalogue.  
 
 ### Application
 
@@ -98,14 +94,16 @@ A type of resource associated to a record, which is used for applications that p
 
 A type of resource associated to a record, which is used for tables in Comma Separated Value (CSV) files, or MS Excel Spreadsheets (XLS) or possibly even tabular PDF files.
 
+### Web Service and API
+
+A resource type associated to a record, which is used for metadata relating to web services or application programming interfaces (APIs).
+
 ### Geographic Data
 
 A resource type associated to a record, which is used for data that may, or may not, contains geospatial information along with other data.  Additional geospatial metadata elements are available to be populated, e.g., spatial reference system. This resource type **must** be used for all BCGW resources.
 
-### Web Service and API
 
-A resource type associated to a record, which is used for metadata relating to web services or application programming interfaces (APIs).
-### Side Notes:
+### Notes:
 1. Resources may reside, depending on type and size within the Catalogue database itself (Data Store) or be externally referenced.
 2. Resources which are sourced from the BC Geographic Warehouse (BCGW) are managed differently.
 3. Resources may be only metadata about a resource that is not accessible or requires authorization to access.
@@ -182,25 +180,29 @@ Editors can delete resources in any published state
 
 \* indicates required fields.
 
-### Name \* (`name`) <a name="name"></a> 
+### Name \* (`name`) <a name="type"></a>
 
-+ Is the name or title of the resource as it will appear on the resource record and card.
-+ A well defined title reflects what the resource is about and what the user will expect by accessing the resource. This is done by using actionable language, e.g., Download, Export, View, Explore and then details of what the resource is.
-    - For a full list of [actionable language](https://polaris.shopify.com/content/actionable-language) 
++ The name or title of the resource as it will appear on the resource record and card.
++ A well defined name reflects what the resource is about and what the user should expect by accessing the resource.
 
 |**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
-### Resource (`url`) <a name="url"></a>
-+ Is a link to a file or resource stored elsewhere.
+### Resource (`url`) <a name="type"></a>
++ A link to an externally-referenced resource (URL) or a file uploaded for storage within the Catalogue database itself (Data Store).
 
 |**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
 |Available Field|Y|Y|Y|Y|
 
 ### Type \* (`bcdc_type`) <a name="type"></a>
-+ Is the resource type that defines the available fields for a resource.
++ The type of resource associated with to a record. All BCGW records should be set to Geographic Data.
++ Types:
+  + Document/Tabular (`dataset`)
+  + Geographic Data (`geographic`)
+  + Web Service/API (`webservice`)
+  + Application (`application`)
 
 |**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
 |:---|:---:|:---:|:---:|:---:|
@@ -208,7 +210,7 @@ Editors can delete resources in any published state
 |Select:|_'Application'_ (`application`)|_'Tabular'_ (`dataset`) |_'Geographic Dataset'_ (`geographic`)|_'Web Service/API'_ (`webservice`)|
 
 ### Resource description (`description`)  <a name="resouce-description"></a>
-+ Is a detailed description of the resource.
++ Detailed information about the resource.
 
 [**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
 + This field aligns with the standard field **DESCRIPTION**.
