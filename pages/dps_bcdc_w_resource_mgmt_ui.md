@@ -184,17 +184,11 @@ Editors can delete resources in any published state
 
 + The name or title of the resource as it will appear on the resource record and card.
 + A well defined name reflects what the resource is about and what the user should expect by accessing the resource.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ An example BC Data Catalogue record has been published to provide naming standards for common data resources available from the Government of BC
+  + Viewable by government staff only when logged in: [BC Data Catalogue Resource Naming Standards](https://catalogue.data.gov.bc.ca/dataset/fe4d0e4b-3294-4c21-b1d9-f46ebe1433c9)
 
 ### Resource (`url`) <a name="type"></a>
 + A link to an externally-referenced resource (URL) or a file uploaded for storage within the Catalogue database itself (Data Store).
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
 
 ### Type \* (`bcdc_type`) <a name="type"></a>
 + The type of resource associated with to a record. All BCGW records should be set to Geographic Data.
@@ -204,188 +198,99 @@ Editors can delete resources in any published state
   + Web Service/API (`webservice`)
   + Application (`application`)
 
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
-|Select:|_'Application'_ (`application`)|_'Tabular'_ (`dataset`) |_'Geographic Dataset'_ (`geographic`)|_'Web Service/API'_ (`webservice`)|
-
 ### Resource description (`description`)  <a name="resouce-description"></a>
 + Detailed information about the resource.
-
-[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
-+ This field aligns with the standard field **DESCRIPTION**.
-+ Refer to both the standard and guideline.
-
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ Core Administrative and Descriptive Metadata Standard: This field aligns with the element **DESCRIPTION**.
 
 ### Supplemental information (`supplemental_info`) <a name="supplemental-information"></a>
-+ Any additional relevant information about the resource can be included here.
-
-[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
-+ This field aligns with the standard field **DESCRIPTION**.
-+ Refer to both the standard and guideline.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ Other descriptive or additional relevant information about the resource.
 
 ### Frequency of resource update \* (`resource_update_cycle`) <a name="frequency-of-resource-update"></a>
-+ Describes how often the resource is updated.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ Describes how often the resource is intended to be updated or reloaded.
 
 ### Resource data last updated \* (`last_modified`)  <a name="resource-data-last-updated"></a>
-+ Describes how often the resource is updated.
-+ This is only visible in view mode for datasets:
-    + Uploaded to the catalogue itself
++ Provides the date when the resource was last updated.
++ NOTE: automated field and only visible in view mode for datasets:
+    + Uploaded to the catalogue  itself (Data Store)
     + Published to the BC Geographic Warehouse
         + An automated system pushes the reloaded timestamp
-+ If interested in setting up your own automated processes to update via the API, contact us at the [Data Systems and Services Request System](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/23) and ask for more information on how to enhance to your offerings in the Catalogue.
-   + Endpoint required parameters:
-      + `id` (resource id)
-      + `timestamp` (format: 2022-02-27 10:00:01)
-
-
-[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
-+ This field aligns with the standard field **MODIFIED**.
-+ Refer to both the standard and guideline.
++ Core Administrative and Descriptive Metadata Standard: This field aligns with the element **DATE MODIFIED**
 
 ### Data collection period (`temporal_extent`)  <a name="data-collection-period"></a>
 + A Start and/or End Data can be added if the data reflects a period of time.'.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
-
-+ **Beginning date** (`beginning_date`)
++ Beginning date (`beginning_date`)
     - The start date for the period the data is captured for
-
-+ **End date** (`end_date`): 
++ End date (`end_date`): 
     - The end date for the period the data is captured for.
 
 ### Resource storage format \* (`format`) <a name="resource-storage-format"></a>
-+ Describes the file extension for the resource
-
-[**Core Administrative and Descriptive Metadata Guidelines**](https://www2.gov.bc.ca/gov/content?id=7284582C81DF4FD6AE89898C535851F1)
-+ This field aligns with the standard field **FILE FORMAT**.
-+ Refer to both the standard and guideline.
-
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ Describes the file type or format in which the resource is provided.
++ Core Administrative and Descriptive Metadata Standard: This field aligns with the element **FORMAT**
 
 ### Resource storage location \* (`resource_storage_location`) <a name="resource-storage-location"></a>
-+ The location the data is stored in
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ The location where the resource is stored
 
 ### Spatial datatype \* (`spatial_datatype`) <a name="spatial-datatype"></a>
-+ The datatype in a database.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ The geometry data type in a database e.g., BCGW Oracle Database = SDO_GEOMETRY.
 
 ### Object name (`object_name`) <a name="object-name"></a>
-+ Is the name of the dataset stored in a database.
++ Is the name of the dataset stored in a database e.g., BCGW Oracle Database = SDO_GEOMETRY.
 
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|N|
+### **Object short name** (`object_short_name`) <a name="object-short-name"></a>
++ For BCGW datasets, the short name used for download of shapefiles.
++ NOTE: automated field and only visible in view mode for datasets where the **Resource Storage Location** is 'BC Geographic Warehouse'
 
-#### **Object short name** (`object_short_name`) <a name="object-short-name"></a>
-+ For BCGW datasets, the short name used for download for Shape Files.
-+ This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
-+ This is populated via an automated process pushed from the BCGW to the Catalogue.
+### **Object table comments** (`object_table_comments`) <a name="object-table-comments"></a> 
++ For BCGW datasets, the dataset's comment or description in a database
++ NOTE: automated field and only visible in view mode for datasets where the **Resource Storage Location** is 'BC Geographic Warehouse'
 
-#### **Object table comments** (`object_table_comments`) <a name="object-table-comments"></a> 
-+ For BCGW datasets, the data definition in a database.
-+ This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
-+ This is populated via an automated process pushed from the BCGW to the Catalogue.
+### **Details**: (`details`) **Section** <a name="details"></a>
++ The data dictionary of a dataset in a database.
++ NOTE: automated field and only visible in view mode for datasets where the **Resource Storage Location** is 'BC Geographic Warehouse'
+   + **Column name** (`column_name`): The name of the column in a database
+   + **Short name** (`short_name`): The short name of columns, used for downloading as shapefiles and CSV
+   + **Data type** (`data_type`): The column type in a database (e.g., number, text)
+   + **Data precision** (`data_precision`): The column length in a database
+   + **Column comments** (`column_comments`): The column's comment or description in a database
 
-#### **Details**: (`details`) **Section** <a name="details"></a>
-+ For BCGW datasets, this is populated from the database metadata.
-+ This is a non-editable field and only show when the **Resource storage location** is set to 'BC Geographic Warehouse'
-+ This is populated via an automated process pushed from the BCGW to the Catalogue.
-   + **Column name** (`column_name`): Name of the column in a database.
-   + **Short name** (`short_name`): Short name used for download for Shape Files and CSV.
-   + **Data type** (`data_type`): Field type
-   + **Data precision** (`data_precision`): Field length
-   + **Column comments** (`column_comments`): Field definition
-
-
-### Projection name \* (`projection_name`) <a name="projection-name"></a>
-+ Is a drop down list of common projections used in BC for geographic data.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|Y**NEW**|
+### Spatial reference system \* (`projection_name`) <a name="projection-name"></a>
++ The projection the spatial or geographic dataset which it is stored in.
++ This is a drop down list of common projections used in BC for geographic data.
 
 ### JSON Table Schema (`json_table_schema`) <a name="json-table-schema"></a>
-+
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ Optional: JSON-based specification for describing the structure, field types, and validation rules of tabular data
 
 ### ISO Topic Category \* (`iso_topic_category`) <a name="iso-topic-category"></a>
-+ [Definitions](https://apps.usgs.gov/thesaurus/thesaurus-full.php?thcode=15). 
 + [ISO 19115-1:2014](https://www.iso.org/standard/53798.html)
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y |N|
++ Choose at least one topic from a drop-down list
 
 ### **Resource type** (`resource_type`) <a name="resource-type"></a>
-+ Is the type of resource.
-+ Being reviewed if useful.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ The classification of the data or resource
+ + Abstraction (conceptual representation)
+ + Data (dataset)
+ + Reports (documentation)
 
 ### Resource access method \* (`resource_access_method`)  <a name="resource-access-method"></a>
-+ Describes how the end-user can access the data.
-+ Being reviewed if useful.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|Y|Y|Y|Y|
++ Describes how the end-user can access the data (Application, Direct, Indirect, Service, Other)
++ For BCGW data that is downloadable, then Indirect access is a reasonable choice.
 
 ### Preview information (`preview_info`) **Section**  <a name="preview-information"></a>
-+ Automatically populated if public to build the Map Preview.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|N|
-
-+ **Layer name** (`layer_name`): is the name of the BCGW object and is only different if the WMS uses a generalized dataset.
-+ **Preview latitude** (`preview_latitude`): allows you to provide a map preview centroid latitude.
-+ **Preview longitude** (`preview_longitude`): allows you to provide a map preview centroid longitude.
-+ **Preview map aervice URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.
-+ **Preview zoom level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.
-+ **Image URL** (`preview_image_url`): shows a preview of the data as a static image.
-+ **Link to iMapBC** (`link_to_imap`): shows an interactive preview of the data in iMapBC.
++ NOTE: Automatically populated if public data in the BCGW in order to build the Map Preview.
++ Used for previewing a Web Mapping Service image within a mapping application
+  + **Layer name** (`layer_name`): is the name of the BCGW object and is only different if the WMS uses a generalized version of the dataset.
+  + **Preview latitude** (`preview_latitude`): allows you to provide a map preview centroid latitude.
+  + **Preview longitude** (`preview_longitude`): allows you to provide a map preview centroid longitude.
+  + **Preview map aervice URL** (`preview_map_service_url`): allows you to provide an alias for the map service URL.
+  + **Preview zoom level** (`preview_zoom_level`): allows you to provide an initial zoom level for the map preview.
+  + **Image URL** (`preview_image_url`): shows a preview of the data as a static image.
+  + **Link to iMapBC** (`link_to_imap`): shows an interactive preview of the data in iMapBC and should include at least one presentation layer's Layer-ID.
 
 ### Geographic extent (`geographic_extent`) **Section**  <a name="geographic-extent"></a>
-+ These are auto populated with the bounding box of the province.
-
-|**Type**:|Application|Tabular/ Docment|Geographic|Web Service/ API|
-|:---|:---:|:---:|:---:|:---:|
-|Available Field|N|N|Y|N|
-
-+ **North** (`north_bound_latitude`): 60.0
-+ **South** (`south_bound_latitude`): 48.0
-+ **East** (`east_bound_longitude`): -113.5
-+ **West** (`west_bound_longitude`):-139.5
++ NOTE: Automatically populated with the bounding box of the province.
+  + **North** (`north_bound_latitude`): 60.0
+  + **South** (`south_bound_latitude`): 48.0
+  + **East** (`east_bound_longitude`): -113.5
+  + **West** (`west_bound_longitude`):-139.5
 
 ----------------
 
