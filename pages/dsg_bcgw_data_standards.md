@@ -7,19 +7,17 @@ has_toc: false
 
 # DATA STANDARDS
 
-Standards make it easier to create, share, and integrate data by making sure that there is a clear understanding of how the data are represented and that the data you receive are in a form that you expect.
+Standards make it easier to create, share, and integrate data by making sure that there is a clear understanding of how the data are represented and that the data you receive are in a form that is expected.
 
-This page presents general standards, guidelines and best practices when providing data, spatial or otherwise in:
+This page presents general standards, guidelines and best practices when providing data, spatial or otherwise for the BC Geographic Warehouse (BCGW).
 
-+ the BC Geographic Warehouse (BCGW).
-+ the BC Data Catalogue (BCDC).
-+ the DataBC Data Modelling tool (currently Oracle Designer).
 
-|**AUDIENCE**|  |  |  |  | 
-|:---:|:---:|:---:|:---:|:---:|
-| *Data Publishers* | *Data Modellers* | *Developers* | *DataBC Data Modellers* | *DataBC Catalogue Team* |
+|**AUDIENCE**|  |  | 
+|:---:|:---:|:---:|
+| *Data Publishers* | *Data Modellers* | *Developers* |
 
 ## Table of Contents
++ [**NAMING AND DESCRIBING**](#naming-and-describing)
 + [**DATA TYPE STANDARDS**](#data-type-standards)
 + [**SPATIAL DATA STANDARDS**](#spatial-data-standards)
 	+ [Geometry Type and Content](#geometry-type-and-content)
@@ -39,6 +37,14 @@ This page presents general standards, guidelines and best practices when providi
 + [**REFERENCES**](#references)
 
 -----------------------
+
+## NAMING AND DESCRIBING
+
+In order to provide a common understanding of data, standardized requirements for the naming and describing of columns, tables, views, materialized views, and other objects (triggers, constraints, etc.) have been developed for BCGW data models. For a few cases in this document where a specialized column is discussed, naming and describing standards have been included. 
+
+For all BC Geographic Warehouse (BCGW) naming and describing standards, please refer to the [_Naming and Describing Standards_](dsg_naming_describing.md)
+
+-----------------------------------------------------------
 
 ## DATA TYPE STANDARDS
 
@@ -213,7 +219,7 @@ Values of indicator columns should be consistent throughout out a model.  For ex
 
 In an operational data model, code tables are recommended for columns whose values do not fully describe the data. Examples of this are where a column has a value of 23, or A, or Ts1 with no associated indication of what those codes mean. If the codes themselves are names or abbreviations that are not abstract, then code tables are often not needed. 
 
-In a BCGW data model, code tables should be avoided. However, the column comment should include an example list providing the majority of the code values.
+In a BCGW data model, code tables should be avoided. A code column's comment (description) should include an example list providing the majority of the code values.
 
 ------------------------------------------------------------------------------
 
