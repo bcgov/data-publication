@@ -34,7 +34,6 @@ This page presents general standards, guidelines and best practices when providi
 + [**USE OF INDICATOR AND FLAG COLUMNS**](#use-of-indicator-and-flag-columns)
 + [**USE OF CODE TABLES**](#use-of-code-tables)
 + [**USE OF NULL VALUES**](#use-of-null-values)
-+ [**REFERENCES**](#references)
 
 -----------------------
 
