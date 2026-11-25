@@ -22,19 +22,19 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 The DataBC Program makes data available through combinations of several different channels:
 
 + [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca) (BCDC)
-    + Data available in: resources as files stored in the BCDC's File Store, links to other storage locations, or custom downloads through the Data Distribution Services
+    + Data is made available from the BCDC in various resources, including: files stored in the BCDC's file store, links to other storage locations or services, custom downloads through the Data Distribution Services
 + [_Data Distribution Services_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
     + Data is made available for download and distributed through the BC Data Catalogue or [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
 + [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61) (BCGW)
-    + Data access methods include data download through the Data Distribution Services
+    + Data access methods include data downloads through the Data Distribution Services and direct connects using GIS software
 + _Web based Mapping_
     + [_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
     + [_BC Map Services (WMS and WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
     + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
 
-In addition, other agencies provide mechanisms for accessing DataBC data:
+In addition, other mechanisms for accessing BCGW data are available:
 
-+ Virtual Desktop (VDI) - available through [vdi.gov.bc.ca](https://vdi.gov.bc.ca/)
++ Virtual Desktop (VDI) available through [vdi.gov.bc.ca](https://vdi.gov.bc.ca/) with GIS software
 + [_BCData R package_](https://github.com/bcgov/bcdata)
 
 
