@@ -246,11 +246,6 @@ NOTE: Applications and systems are free to represent NULL values in any manner (
 
 If you have questions about DataBC's Data Standards, please open a ticket with the [Data Systems & Services request system](https://dpdd.atlassian.net/servicedesk/customer/portal/1/group/1/create/14).
 
-## REFERENCES
-
-+ [_Geomatic Solutions_](https://epsg.org/home.html)
-+ [_ArcGIS Desktop - ArcMap_](https://desktop.arcgis.com/en/arcmap/)
-+ [_File Geodatabase Standards_](https://www2.gov.bc.ca/assets/gov/data/geographic/bcgw/file_geodatabase_standards.pdf)
 
 ------------------------------------------------------------------------------
 
