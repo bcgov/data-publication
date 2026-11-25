@@ -42,7 +42,7 @@ This page presents general standards, guidelines and best practices when providi
 
 In order to provide a common understanding of data, standardized requirements for the naming and describing of columns, tables, views, materialized views, and other objects (triggers, constraints, etc.) have been developed for BCGW data models. For a few cases in this document where a specialized column is discussed, naming and describing standards have been included. 
 
-For all BC Geographic Warehouse (BCGW) naming and describing standards, please refer to the [_Naming and Describing Standards_](dsg_naming_describing.md)
+For all BC Geographic Warehouse (BCGW) naming and describing standards, please refer to: **[_Naming and Describing Standards_](dsg_naming_describing.md)**
 
 -----------------------------------------------------------
 
