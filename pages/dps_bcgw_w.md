@@ -40,17 +40,21 @@ _This page is written in the context that you have reviewed the documentation as
 
 The first step in the process is to review the following documentation: 
 + [Before You Start](dsg_before_you_start.md)
-+ [BCDC Standards and Guidelines](dsg_bcdc.md)
-+ [BCGW Standards and Guidelines](dsg_bcgw.md)
-+ [Common Data Standards and Guidelines](dsg.md)
-+ [Data Governance](dg.md)
++ [Data Classification Hierarchy](dsg_bcgw_data_classification_hierarchy.md)
++ [Data Standards](dsg_bcgw_data_standards.md)
 + [Open Data](open_data.md)
++ [Data Policies, Standards, and Guidelines](dg.md)
+
 
 ------------------------------
 
 ## Getting Started
 
-Wondering if your data is ready for publishing in the BC Geographic Warehouse, or what you need to do to prepare for the publication process? The following table describes some key considerations you'll need to think about before initiating a request to publish your data.
+Wondering if your data is ready for publishing in the BC Geographic Warehouse, or what you need to do to prepare for the publication process? 
+
+To understand the roles and responsibilities when publishing data to the BC Geographic Warehouse, please refer to the [Roles and Responsibilities](dsg_bcgw_roles_responsibilities.md).
+
+The following table describes some key considerations you'll need to think about before initiating a request to publish your data.
 
 |Consideration|Additional Details|
 |:---|:---|
