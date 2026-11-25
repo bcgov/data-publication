@@ -53,8 +53,8 @@ The following Oracle data types and their associated precision are supported for
 |`NUMBER(38)`|OBJECTID and integers that can be larger than one billion.|OBJECTID|
 |`NUMBER(n,d)`|Non-integer (fractional) numbers. |FEATURE_AREA_SQM
 |`SDO_GEOMETRY`|Spatial geometry |SHAPE, <br>GEOMETRY (deprecated)  See [_Shape (Geometry) Column Name_](#shape-geometry-column-name) below
-|`VARCHAR2(n)` or `VARCHAR2(n BYTE)`|Variable length strings, or fixed-length strings that can contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. Source data being replicated to the BCGW should not exceed 4000 CHAR.|DESCRIPTION|
-|`VARCHAR2(n CHAR)`|Variable length character strings, or fixed-length character strings that can contain multibyte characters. Can be used in cases where a length limit is known but where the string might contain multibyte characters. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. Source data being replicated to the BCGW should not exceed 4000 CHAR.|GENERAL_COMMENTS|
+|`VARCHAR2(n BYTE)`|Variable length strings, or fixed-length strings that can contain multibyte characters. Specifying the size in bytes means that a multibyte character will occupy more than one position in the total length. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. Source data being replicated to the BCGW should not exceed 4000 CHAR.|DESCRIPTION|
+|`VARCHAR2(n CHAR)`|Variable length character strings, or fixed-length character strings that can contain multibyte characters. Specifying the size in characters (char) means that a multibyte character will occupy only one position in the total length. __n__ should be large enough to accommodate the maximum possible length of the value being modelled. Source data being replicated to the BCGW should not exceed 4000 CHAR.|GENERAL_COMMENTS|
 
 -----------------------------------------------------------
 
@@ -115,7 +115,7 @@ When registering a table or view with the geodatabase, the default [_XY Toleranc
 
 ### Shape (Geometry) Column Name
 
-The standard column name for spatial geometry is `SHAPE`. Under some circumstances `GEOMETRY` can be used instead.
+The standard column name for spatial geometry is `SHAPE`. Although now deprecated under DataBC column naming standards, under some circumstances `GEOMETRY` can be used instead.
 
 ### ObjectID Column Name
 
@@ -131,7 +131,10 @@ In addition to `SHAPE` and `OBJECTID`, all spatial tables and views will have  a
 |FEATURE_AREA_SQM|NUMBER(19,4)|Contains the area in square meters of a polygonal feature. Not used for LINE, POINT, or MULTIPOINT datasets.|
 |SE_ANNO_CAD_DATA|BLOB|Reserved for storing complex curve parameters.  Note that storage of complex curve information is not supported in the BCGW; however, this column must still be present.|
 
-`FEATURE_LENGTH_M` and `FEATURE_AREA_SQM` are populated by database triggers of the form
+`FEATURE_LENGTH_M` and `FEATURE_AREA_SQM` are populated by database triggers:
+(NOTE: See [_Naming and Describing Standards_](dsg_naming_describing.md) for definitions of _container_name_  and  _table_short_name_ as referenced in the SQL below.)
+
+__For line feature tables__
 
 ```SQL
 CREATE OR REPLACE TRIGGER <schema_name>.<container_name>_<table_short_name>_IU_TRG" 
@@ -143,7 +146,7 @@ END;
 /
 ```
 
-for line feature tables, and
+__For polygonal feature tables__
 
 ```SQL
 CREATE OR REPLACE TRIGGER <schema_name>.<container_name>_<table_short_name>_IU_TRG" 
@@ -155,21 +158,8 @@ BEGIN
 END; 
 /
 ```
-for polygonal feature tables.
 
-See [_Naming and Describing Standards_](dsg_naming_describing.md) for definitions of _container_name_  and  _table_short_name_.
 
-### Column Order
-
-The following columns, if present, appear in the following order, as the last columns in the table or view.
-
-|Column Name|
-|:---|
-|FEATURE_LENGTH_M|
-|FEATURE_AREA_SQM|
-|SHAPE|
-|OBJECTID|
-|SE_ANNO_CAD_DATA|
 
 [RETURN TO TOP][1] 
 
@@ -177,7 +167,7 @@ The following columns, if present, appear in the following order, as the last co
 
 ## USE OF DATABASE CONSTRAINTS
 
-In order to make regular data [_ETL_](glossary.md#etl) go smoothly and to avoid partially truncated tables we have to make the assumption that data integrity is guaranteed on the source system. Hence the only enabled database constraints should be the ones that are required for proper behaviour of the BC Geographic Warehouse access tools (e.g., iMapBC, ArcGIS Desktop, WMS, WFS, Data Download).
+In order to make regular data [_ETL_](glossary.md#etl) go smoothly and to avoid partially truncated tables we have to make the assumption that data integrity is guaranteed on the source system. Hence the only enabled database constraints should be the ones that are required for proper behaviour of the BC Geographic Warehouse access tools (e.g., iMapBC, ArcGIS Desktop, WMS, WFS, Data Distribution Services).
 
 + Every table and materialized view must have a primary key constraint guaranteeing uniqueness/not NULL-ness of the natural primary key (e.g., `MAP_TILE` in `WHSE_BASEMAPPING.BCGS_10K_GRID`) or the surrogate primary key (e.g., `NRC_RD1M_SYSID` in `WHSE_BASEMAPPING.NRC_ROADS_1M_SP`)
 + Every table and materialized view must have a NOT NULL constraint on the OBJECTID column.
@@ -187,40 +177,51 @@ In order to make regular data [_ETL_](glossary.md#etl) go smoothly and to avoid 
 
 ## ORDER OF COLUMNS IN TABLES AND VIEWS
 
-+ All Spatial columns must be present as the last columns in the view, or materialized view, and appear in the [_order_](#column-order) shown above.
 + The primary key column must be the first column in the table.
-+ If the natural key for a table or materialized view is composite, a single column surrogate primary key must be defined. 
-   + It must be the first column in the table or materialized view.
++ If the natural key is composite, instead of defining a composite primary key, a single column surrogate primary key must be defined and placed as the first column. 
++ The following columns should be included as the last columns in the table or view, in the following order.
+(NOTE: some columns only included as necessary, depending on whether the data is point, line, polygon, or non-spatial.)
+
+|Column Name|
+|:---|
+|FEATURE_LENGTH_M|
+|FEATURE_AREA_SQM|
+|SHAPE|
+|OBJECTID|
+|SE_ANNO_CAD_DATA|
+
 
 ------------------------------------------------------------------------------
 
 ## USE OF INDICATOR AND FLAG COLUMNS
 
-An *indicator* field is a binary (boolean) field, usually indicating the presence or absence of some property. If a field is an indicator field, the field name must be suffixed by _IND. 
+An *indicator* column (sometimes known as a *flag* column) is a binary (boolean) column, usually indicating the presence or absence of some property. If a column is an indicator column, the column name must be suffixed by _IND. 
 
-` <column_name>_IND`
+`<column_name>_IND`
 
-The description will contain the values the indicator represents, as illustrated in the following example: 
+NOTE: The BOOLEAN column type is not yet supported in the BCGW, instead a CHAR or a VARCHAR2(1) column type should be defined.
 
-**Example**: Indicates whether a boundary is of low confidence due to its BOUNDARY_MAP_SOURCE, i.e., Y (true), N (false).
+The column description must contain the values the indicator represents, as illustrated in the following example: 
 
-Values of indicator columns should be consistent thought out a model.  For example, do not use 'T'/'F' for some columns and 'Y'/'N' for others.
+**Example**: *Indicates whether a boundary is of low confidence due to its BOUNDARY_MAP_SOURCE, i.e., Y (true), N (false).*
+
+Values of indicator columns should be consistent throughout out a model.  For example, do not use 'T'/'F' for some columns and 'Y'/'N' for others.
 
 ------------------------------------------------------------------------------
 
 ## USE OF CODE TABLES
 
-Code tables are recommended for columns whose values do not fully describe the data in an operational data model. Examples of this are where a column has a value of 23, or A, or Ts1 with no associated indication of what those codes mean.
+In an operational data model, code tables are recommended for columns whose values do not fully describe the data. Examples of this are where a column has a value of 23, or A, or Ts1 with no associated indication of what those codes mean. If the codes themselves are names or abbreviations that are not abstract, then code tables are often not needed. 
 
-If the codes themselves are names or abbreviations that are not abstract, then code tables are not needed. However, an example list providing the majority of the code values must be supplied within the column comment.
+In a BCGW data model, code tables should be avoided. However, the column comment should include an example list providing the majority of the code values.
 
 ------------------------------------------------------------------------------
 
 ## USE OF NULL VALUES
 
-It's not uncommon in some systems for **_data is missing_** or **_data is unknown_** situations to be coded with some dummy real value to flag that the actual data is missing, e.g., all 9s, -1, etc.  
+It's not uncommon in some systems for **_data is missing_** or **_data is unknown_** situations to be coded with some dummy real value to show that the actual data is missing, e.g., 999999, -1, unknown.  
 
-This can lead to confusion.  In the BCGW these situations should be signified by leaving the values NULL. 
+However, this can lead to confusion.  In the BCGW these situations should be signified by leaving the values NULL. 
 
 _NULL_ should be the value stored in database table fields in cases where the actual value is missing or unknown, since this is the interpretation followed by Oracle SQL:
 
@@ -231,9 +232,9 @@ _NULL_ should be the value stored in database table fields in cases where the ac
 1. Any arithmetic expression involving a _NULL_ evaluates to _NULL_ (e.g., 3+NULL = NULL)
 1. Predicates involving _NULL_ evaluate to NULL (e.g., 3 > _NULL_ evaluates to _UNKNOWN_ (neither TRUE nor FALSE)
 
-_NULL_ __should not__ be used as a value that represents not applicable.
+_NULL_ __should not__ be used as a value that represents "not applicable".
 
-If an application is presenting data in a read-only fashion, then it may replace NULLs with some indicator value (e.g., 999999, -1, N/A), as long as the interpretation of these values is shown to the user.
+NOTE: Applications and systems are free to represent NULL values in any manner (for example, displaying 999999); however, storing the data correctly in the BCGW database requires leaving the values as NULL. 
 
 ------------------------------------------------------------------------------
 
