@@ -8,7 +8,7 @@ has_toc: false
 
 # BC GEOGRAPHIC WAREHOUSE
 
-The B.C. Geographic Warehouse (BCGW) is a central government repository of spatial and non-spatial data that is needed by Government, industry and the public in order to make decisions. The data includes Base Mapping information, such as heights of land, rivers, lakes, roads, place name and administrative boundaries, as well as government program information, like forest cover, ecosystems, economic and health indicators.
+The [B.C. Geographic Warehouse (BCGW)](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61) is a central government repository of spatial and non-spatial data that is needed by Government, industry and the public in order to make decisions. The data includes Base Mapping information, such as heights of land, rivers, lakes, roads, place name and administrative boundaries, as well as government program information, like forest cover, ecosystems, economic and health indicators.
 
 The BCGW is a foundation for the B.C. Spatial Data Infrastructure and all of the data in it is made ready for a wide variety of uses through a rigorous and standardized publication process that embraces the principles of Data Custodianship.
 
