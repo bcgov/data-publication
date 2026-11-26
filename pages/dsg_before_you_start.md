@@ -21,7 +21,7 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 
 The DataBC Program makes data available through combinations of several different channels:
 
-+ [_BC Data Catalogue_](https://catalogue.data.gov.bc.ca) (BCDC)
++ [_BC Data Catalogue_](https://www2.gov.bc.ca/gov/content?id=79B5224167334667A44C9E8B5143D0C5) (BCDC)
     + Data is made available from the BCDC in various resources, including: files stored in the BCDC's file store, links to other storage locations or services, custom downloads through the Data Distribution Services
 + [_Data Distribution Services_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
     + Data is made available for download and distributed through the BC Data Catalogue or [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
