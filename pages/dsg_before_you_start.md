@@ -22,15 +22,16 @@ Do you have a dataset that you'd like to publish through the [_DataBC Program_](
 The DataBC Program makes data available through combinations of several different channels:
 
 + [_BC Data Catalogue_](https://www2.gov.bc.ca/gov/content?id=79B5224167334667A44C9E8B5143D0C5) (BCDC)
-    + Data is made available from the BCDC in various resources, including: files stored in the BCDC's file store, links to other storage locations or services, custom downloads through the Data Distribution Services
+    + Data is made available from the BCDC through various resources, including: files stored in the BCDC's file store, links to other storage locations or services, custom downloads through the Data Distribution Services
++ [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61) (BCGW)
+    + Data access methods include custom data downloads through the Data Distribution Services and direct connects using GIS software
+    + Web-based mapping provides additional channels for the visualization of data published in the BCGW 
 + [_Data Distribution Services_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
     + Data is made available for download and distributed through the [BC Data Catalogue](https://www2.gov.bc.ca/gov/content?id=79B5224167334667A44C9E8B5143D0C5) or [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
-+ [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61) (BCGW)
-    + Data access methods include data downloads through the Data Distribution Services and direct connects using GIS software
-+ _Web based Mapping_
++ _Web-based Mapping_
+    + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
     + [_BC Map Hub_](https://www2.gov.bc.ca/gov/content?id=DE0602BB42664AA28C9F059D45CC1CC2)
     + [_BC Map Services (WMS and WFS)_](https://www2.gov.bc.ca/gov/content?id=95D78D544B244F34B89223EF069DF74E)
-    + [_iMapBC_](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
 
 In addition, other mechanisms for accessing BCGW data are available:
 
