@@ -24,7 +24,7 @@ The DataBC Program makes data available through combinations of several differen
 + [_BC Data Catalogue_](https://www2.gov.bc.ca/gov/content?id=79B5224167334667A44C9E8B5143D0C5) (BCDC)
     + Data is made available from the BCDC in various resources, including: files stored in the BCDC's file store, links to other storage locations or services, custom downloads through the Data Distribution Services
 + [_Data Distribution Services_](https://www2.gov.bc.ca/gov/content?id=B19E16070B824DB481F49CEE3B9AF1F8)
-    + Data is made available for download and distributed through the BC Data Catalogue or [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
+    + Data is made available for download and distributed through the [BC Data Catalogue](https://www2.gov.bc.ca/gov/content?id=79B5224167334667A44C9E8B5143D0C5) or [iMapBC](https://www2.gov.bc.ca/gov/content?id=C52F8C3BFE8C4110A63171337F363F43)
 + [_BC Geographic Warehouse_](https://www2.gov.bc.ca/gov/content?id=18B291A12B4F42EA98169892F4B46D61) (BCGW)
     + Data access methods include data downloads through the Data Distribution Services and direct connects using GIS software
 + _Web based Mapping_
