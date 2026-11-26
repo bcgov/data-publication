@@ -8,7 +8,7 @@ has_toc: false
 
 # B.C. Data Catalogue
 
-The B.C. Data Catalogue is the place to find B.C. Government data, applications and web services. Government ministries and many broader public sector agencies publish their data resources in the Catalogue.  This data can be used to make informed decisions and create opportunities for the benefit of all British Columbians.
+The [B.C. Data Catalogue](https://www2.gov.bc.ca/gov/content?id=79B5224167334667A44C9E8B5143D0C5) is the place to find B.C. Government data, applications and web services. Government ministries and many broader public sector agencies publish their data resources in the Catalogue.  This data can be used to make informed decisions and create opportunities for the benefit of all British Columbians.
 
 The Catalogue describes thousands of government datasets and is designed to help users find, access, explore and reuse this extensive collection of data. All ministries and some Broader Public Sector agencies register data in the Catalogue.
 
