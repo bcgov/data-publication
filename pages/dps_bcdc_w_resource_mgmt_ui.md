@@ -304,13 +304,15 @@ Click **Save** when done
 
 ## DataBC Services naming and describing guidelines - DRAFT
 
+Standardized resource names for DataBC resources have been published as a BC Data Catalogue record (requires log-in): [BC Data Catalogue Resource Naming Standards](https://catalogue.data.gov.bc.ca/dataset/fe4d0e4b-3294-4c21-b1d9-f46ebe1433c9)
+
 This section is currently being developed.
 
 ### BC Geographic Warehouse
 
 + BC Geographic Warehouse is a selection available in the Resource Storage Location.  
 + Certain resources will be generated on your behalf, including:
-    - Exportable or not
+    - Downloadable or not
          - This is created when working with the Data Publication Services team.
     - WMS
          - This is generated the week after publication to iMapBC.
@@ -327,16 +329,16 @@ This section is currently being developed.
     - Preview Details - includes map visible in the Preview popup and iMapBC link
     - Object Details
 
-#### Exportable or Not Resources
+#### Downloadable or Not Downloadable Resources
 
 |Catalogue Fields| Exportable|Not Exportable
 |:---|:---|:---|
-|Title |View or Export BC Geographic Warehouse details (custom download)|View BC Geographic Warehouse details (export not enabled)|
+|Title |Data - BC Geographic Warehouse (custom download)|Data - BC Geographic Warehouse (not downloadable)|
 |URL| Leave blank |Leave blank
 |Resource type|Geographic|Geographic|
 |Resource description|The Distribution Service allows for data to be exportable in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|The Distribution Service has not been enabled for export this data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
 |Supplemenental info|See the main dataset page for more information.|The Distribution Service has been disabled for the data from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.
-|Supplemenental info|Click <b>Access/Download</b> in the toolbar to download this dataset. For more information on using the distribution order form see [How to download data using the Catalogue or iMapBC](https://bcgov.github.io/data-publication/pages/dps_data_distribution_w.html).|See the main dataset page for more information.|
+|Supplemenental info|Where data is made available for download, the user can customize the coordinate system, select from a tabular or multiple geospatial formats, and apply an area of interest to the output file.|This dataset is not available for download.|
 |Resource storage format|multiple|Oracle/SDE|
 |Resource storage location|BC Geographic Warehouse|BC Geographic Warehouse|
 |Spatial datatype|SDO Geometry|SDO Geometry|
@@ -367,7 +369,7 @@ This section is currently being developed.
 
 |Catalogue Fields| Retired|Replaced|
 |:---|:---|:---|
-|Title |View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+|Title |Retired BC Geographic Warehouse (not downloadable)|Replaced BC Geographic Warehouse (not downloadable)|
 |URL| Leave blank |Leave blank|
 |Type|Geographic|Geographic
 |Resource Description|
@@ -385,7 +387,7 @@ Generalized resources are now to be included as an additional resource on the no
 
 |Catalogue Fields| Text Examples|
 |:---|:---|
-|Title |View BC Geographic Warehouse details (export is not enabled)|
+|Title |Data - BC Geographic Warehouse (not downloadable)|
 |Resource description|The Distribution Service has not been enabled to allow for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data. See the main page for additional information.|
 |Resource storage format| Oracle/SDE |
 
@@ -394,7 +396,7 @@ Generalized resources are now to be included as an additional resource on the no
 
 |Catalogue Fields| WMS|WFS|Network Link KML |iMapBC|
 |:---|:---|:---|:---|:---|
-|Title |View WMS getCapabilities request details|View WFS getCapabilities request details|View Retired BC Geographic Warehouse details (export disabled)|View Replaced BC Geographic Warehouse details (export disabled)|
+|Title |WMS - Web Map Service|WFS - Web Feature Service|KML - Keyhole Markup Language|iMapBC Layer|
 |URL| Leave blank for all of these
 |Type|Web Service/API|
 |Resource description|Web Mapping Service (WMS) allows for data to be fed out via a service from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
@@ -410,7 +412,7 @@ Generalized resources are now to be included as an additional resource on the no
 
 |Catalogue Fields| Data|Web Maps|Web Apps|Tile Services|
 |:---|:---|:---|:---|:---|
-|Title |Data - Open item details ArcGIS Online (AGO)|Web map - Open item details ArcGIS Online (AGO)|Web app - Open item details ArcGIS Online (AGO)|Tile service - Open item details ArcGIS Online (AGO)|
+|Title |ArcGIS Online - Feature Layer|ArcGIS Online - Web map|ArcGIS Online - Web app|ArcGIS Online - Tile Layer|
 |URL| Leave blank for all of these
 |Type|Geographic|Application|Application|Service|
 |Resource description|The Distribution Service allows for data to be downloaded in various file formats from the B.C. Geographic Warehouse (BCGW), a central government repository of spatial and non-spatial data.|
